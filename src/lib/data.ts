@@ -1,18 +1,32 @@
 import codebookData from "@/data/codebook.json";
+import companionshipExperiment from "@/data/companionship_experiment.json";
 import corpusWorks from "@/data/corpus_works.json";
+import engineExperiment from "@/data/engine_experiment.json";
 import erewhonExperiment from "@/data/erewhon_experiment.json";
+import governanceExperiment from "@/data/governance_experiment.json";
+import historicalPassageData from "@/data/historical_passages.json";
 import liveRunsData from "@/data/live_runs.json";
+import personaExperiment from "@/data/persona_experiment.json";
 import questionBank from "@/data/question_bank.json";
+import q33AnswerKeyData from "@/data/q33_answer_key.json";
+import reckoningExperiment from "@/data/reckoning_experiment.json";
+import relationshipMapData from "@/data/relationship_map.json";
+import relianceExperiment from "@/data/reliance_experiment.json";
 import relationshipsData from "@/data/relationships.json";
 import bundle from "@/data/site_bundle.json";
+import virtueExperiment from "@/data/virtue_experiment.json";
 import type {
   Band,
   CodebookBranch,
   CorpusWork,
   Family,
+  FramedExperiment,
+  HistoricalPassageDataset,
   LiveRuns,
   PerspectiveExperiment,
   Question,
+  QuestionAnswerKey,
+  RelationshipMap,
   RelationshipsDoc,
   SiteBundle,
   Survey,
@@ -22,11 +36,21 @@ import type {
 
 export const data = bundle as SiteBundle;
 export const questions = questionBank as Question[];
+export const q33AnswerKey = q33AnswerKeyData as QuestionAnswerKey;
 export const works = corpusWorks as CorpusWork[];
 export const erewhon = erewhonExperiment as PerspectiveExperiment;
 export const codebook = codebookData as CodebookBranch[];
 export const liveRuns = liveRunsData as LiveRuns;
+export const historicalPassages = historicalPassageData as HistoricalPassageDataset;
 export const relationships = relationshipsData as RelationshipsDoc;
+export const engine = engineExperiment as FramedExperiment;
+export const persona = personaExperiment as FramedExperiment;
+export const governance = governanceExperiment as FramedExperiment;
+export const companionship = companionshipExperiment as FramedExperiment;
+export const virtue = virtueExperiment as FramedExperiment;
+export const reliance = relianceExperiment as FramedExperiment;
+export const reckoning = reckoningExperiment as FramedExperiment;
+export const relationshipMap = relationshipMapData as RelationshipMap;
 
 const leafById = new Map(
   codebook.flatMap((b) =>

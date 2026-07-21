@@ -1,11 +1,10 @@
 /**
  * Data model for "Humanity's First Exam".
  *
- * The site renders entirely from `src/data/site_bundle.json`, which mirrors
- * the file the eventual pipeline will export. One Topic = one page = one
- * exercise in judgment: a question, a modern model's sampled answers, the
- * period distribution sampled from Talkie, and the primary sources to check
- * both against.
+ * The site renders from versioned JSON datasets in `src/data`. One Topic =
+ * one page = one exercise in judgment: a question, a modern model's sampled
+ * answers, the period distribution sampled from Talkie, and the primary
+ * sources to check both against.
  */
 
 /**
@@ -34,6 +33,170 @@ export interface SourcePassage {
   provenance?: string;
   /** Codebook leaf ids this passage exemplifies. */
   codes: string[];
+}
+
+/** How the locally held source behind an admitted passage was checked. */
+export type HistoricalSourceVerification =
+  | "repository-text-checked"
+  | "scan-checked"
+  | "transcription-checked"
+  | "transcription-checked-scan-pending";
+
+/** Status of an English rendering that is not part of the primary source. */
+export type TranslationReviewStatus = "not-needed" | "required" | "reviewed";
+
+/** Known route by which an earlier text or literary form reached this source. */
+export type TransmissionType =
+  | "no-known-direct-dependency"
+  | "explicit-response"
+  | "literary-form-only"
+  | "inherited-form";
+
+/** Whether the item may provisionally enter a claim of independent convergence. */
+export type IndependentConvergenceStatus =
+  | "candidate"
+  | "candidate-with-inherited-form"
+  | "exclude-explicit-response";
+
+/** One admitted record in the multilingual historical-passage pilot. */
+export interface HistoricalPassage {
+  id: string;
+  sourceId: string;
+  author: string;
+  title: string;
+  year: number;
+  language: string;
+  region: string;
+  genre: string;
+  locator: string;
+  originalText: string;
+  /** Null when the source itself is in English. */
+  englishText: string | null;
+  /** A source-led question seed, not yet a frozen instrument item. */
+  questionSeed: string;
+  relatedQuestionNumbers: number[];
+  codes: string[];
+  codebookGap: string | null;
+  source: {
+    url: string;
+    localFile: string;
+    sha256: string;
+    bytes: number;
+    verificationLevel: HistoricalSourceVerification;
+    note: string;
+  };
+  translation: {
+    reviewStatus: TranslationReviewStatus;
+    note: string;
+  };
+  provenance: {
+    relationship: string;
+    transmissionType: TransmissionType;
+    independentConvergenceStatus: IndependentConvergenceStatus;
+  };
+}
+
+export interface HistoricalPassageDataset {
+  meta: {
+    version: string;
+    status: "real-pilot";
+    scope: string;
+    period: { start: number; end: number };
+    passageCount: number;
+    sourceCount: number;
+    languageCount: number;
+    sourceCheckedCount: number;
+    originalScanPendingCount: number;
+    translationReviewRequiredCount: number;
+    independentConvergenceCandidateCount: number;
+    note: string;
+    generatedFrom: string[];
+  };
+  passages: HistoricalPassage[];
+}
+
+export type AnswerKeyVerdict = "frees" | "binds";
+export type AttestationDecision = "admitted" | "excluded";
+export type AttestationFit = "direct" | "near" | "rejected";
+export type PositionEvidenceStatus = "repeated" | "singleton" | "contested";
+
+/** A question-specific historical answer consolidated from attestations. */
+export interface AnswerKeyPosition {
+  id: string;
+  label: string;
+  verdict: AnswerKeyVerdict;
+  primaryGroundId: string;
+  groundFit: "direct" | "partial";
+  codebookGap: string | null;
+  evidenceStatus: PositionEvidenceStatus;
+  attestationIds: string[];
+  sourceTraditionCount: number;
+}
+
+/** A human-auditable decision about whether one passage answers one question. */
+export interface AnswerKeyAttestation {
+  id: string;
+  sourceKind: "local-excerpt" | "historical-passage";
+  historicalPassageId?: string;
+  passageId: string;
+  sourceId: string;
+  author: string;
+  title: string;
+  year: number;
+  language: string;
+  region: string;
+  genre: string;
+  locator: string;
+  originalText: string;
+  englishText: string | null;
+  textStatus:
+    | "original-English"
+    | "published-English-translation"
+    | "working-translation-review-required";
+  sourceUrl: string;
+  localFile: string;
+  sourceStatus: string;
+  sourceVerificationLevel: string;
+  translationStatus: string;
+  sourceSha256: string;
+  sourceBytes: number;
+  provenanceRelationship: string;
+  decision: AttestationDecision;
+  fit: AttestationFit;
+  verdict: AnswerKeyVerdict | null;
+  primaryGroundId: string | null;
+  positionId: string | null;
+  independenceGroup: string;
+  codingRationale: string;
+}
+
+/** One versioned question-level answer key and its complete candidate audit trail. */
+export interface QuestionAnswerKey {
+  meta: {
+    keyVersion: string;
+    status: "prototype-draft-for-human-review";
+    benchmarkReady: boolean;
+    codingStatus: string;
+    methodNote: string;
+    candidateAttestationCount: number;
+    admittedAttestationCount: number;
+    excludedAttestationCount: number;
+    positionCount: number;
+    sourceTraditionCount: number;
+    repeatedPositionCount: number;
+    singletonPositionCount: number;
+    workingTranslationCount: number;
+    generatedFrom: string[];
+  };
+  question: Pick<Question, "n" | "family" | "axis" | "band" | "text">;
+  scoringRule: {
+    primaryMetric: string;
+    occupyingRule: string;
+    weighting: string;
+    additionalMetrics: string[];
+  };
+  positions: AnswerKeyPosition[];
+  candidateAttestations: AnswerKeyAttestation[];
 }
 
 /** One sampled completion/answer from a model. */
@@ -152,6 +315,42 @@ export interface PerspectiveExperiment {
   conditions: PerspectiveCondition[];
 }
 
+/** Display tone for a hand-coded verdict chip, mapped to palette tokens. */
+export type VerdictTone = "continuity" | "period" | "falsecont" | "neutral";
+
+/** One verbatim draw in a framed experiment, with a hand-coded verdict. */
+export interface FramedDraw {
+  id: string;
+  verdict: string;
+  text: string;
+  flags?: string[];
+}
+
+/** One framing condition of a framed experiment. */
+export interface FramedCondition {
+  id: string;
+  label: string;
+  prompt: string;
+  talkie: FramedDraw[];
+  modern: FramedDraw[];
+}
+
+/**
+ * A framing experiment with its own verdict vocabulary (the Erewhon test
+ * predates this shape and keeps its fixed mad/wise/mixed coding).
+ */
+export interface FramedExperiment {
+  title: string;
+  /** Worked-topic page this experiment supplies real draws for, if any. */
+  topicSlug?: string;
+  question: string;
+  protocol: string;
+  verdicts: Record<string, { label: string; definition: string; tone: VerdictTone }>;
+  conditions: FramedCondition[];
+  /** Editorial reading, one paragraph per entry. */
+  readings: string[];
+}
+
 /** One raw draw from a live model run. Text is verbatim; flags mark defects. */
 export interface LiveDraw {
   id: string;
@@ -192,6 +391,38 @@ export interface RelationType {
   /** The sampling signature this type predicts — falsifiable by the draws. */
   prediction: string;
   instance: { label: string; href: string; body: string } | null;
+}
+
+/** One judged cross-bank pairing from the modern-bank pilot. */
+export interface MapPair {
+  modernId: string;
+  modernText: string;
+  theme: string;
+  sourceTitle: string | null;
+  sourceUrl: string | null;
+  periodN: number | null;
+  periodFamily: string | null;
+  periodText: string | null;
+  /** Adjudicated relationship type id. */
+  type: string;
+  /** True when both raters agreed before adjudication. */
+  agreed: boolean;
+  modernQuote: string | null;
+  periodQuote: string | null;
+  explanation: string | null;
+}
+
+/** The pilot relationship map: 12 judged pairings plus reliability stats. */
+export interface RelationshipMap {
+  meta: {
+    pilotId: string;
+    note: string;
+    rawAgreement: number;
+    kappa: number;
+    tally: Record<string, number>;
+    continuityNote: string;
+  };
+  pairs: MapPair[];
 }
 
 /** The two-bank relationship-map design. */

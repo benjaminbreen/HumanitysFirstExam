@@ -1,28 +1,28 @@
 import Link from "next/link";
 import BandBadge from "@/components/BandBadge";
 import QuestionBank from "@/components/QuestionBank";
-import { BAND_META, BAND_ORDER, data, questions, works } from "@/lib/data";
+import { BAND_META, data, questions, works } from "@/lib/data";
 
 const steps: { name: string; body: string }[] = [
   {
-    name: "Pose the question in period voice",
-    body: "Each question is phrased as a completion opening in period-native vocabulary — no post-1930 term for a post-1930 thing. Openings are drawn from the question bank below and checked against Talkie's own perplexity: if a supposedly period-native opening surprises the model, the phrasing is leaking.",
+    name: "Build the answer key",
+    body: "300–500 verified passages, 1859–1940, tagged by concern type and normative framework. Discovery works by negative space: ask frontier models to name the period's key texts, then build the corpus from what they omit.",
   },
   {
-    name: "Sample Talkie twenty times",
-    body: "Talkie is a 13B base model trained only on pre-1931 text. It cannot answer questions; it completes them. Repeated sampling treats it as a survey instrument: not the voice of the past, but a measure of what its corpus makes sayable.",
+    name: "Write the questions",
+    body: "For each concern type, matched questions in two registers: contemporary phrasing, and period phrasing written by the project historians and checked against period sources.",
   },
   {
-    name: "Sample a modern model the same way",
-    body: "A frontier model answers the same question twenty times under the same protocol, so both sides are represented by a distribution rather than a single answer.",
+    name: "Administer",
+    body: "Talkie (13B, pre-1931 corpus, completions only), three frontier models, and a human panel. Twenty draws per question per model.",
   },
   {
-    name: "Code against a fixed frame",
-    body: "Each set of draws is clustered, with cluster labels quoted from the samples themselves. Every cluster and every source passage is then tagged from a fixed codebook — a small hand-authored typology of positions — so distributions can be counted and compared across models, framings, and topics.",
+    name: "Score",
+    body: "Each draw is coded on its verdict and primary ground. Coverage is the fraction of answer-key positions a respondent class recovers. A draw that mentions a position inside a balanced summary does not count as holding it.",
   },
   {
-    name: "Set both against the record",
-    body: "Every topic page ends with cited primary-source passages from the project corpora, so the reader can check whether the samples rhyme with what people actually wrote. A short curatorial note states what seems continuous and what seems lost.",
+    name: "Publish",
+    body: "Dataset, results, and a research essay. The examinees are deployed systems as users meet them; effects of instruction tuning are part of what is measured.",
   },
 ];
 
@@ -31,119 +31,218 @@ export default function Home() {
     <main className="mx-auto max-w-6xl px-5">
       <section className="py-10 md:py-14">
         <h1 className="max-w-3xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
-          An examination on machines and human autonomy, administered across a
-          ninety-six-year gap.
+          An examination on machines and human autonomy, scored against the
+          historical record.
         </h1>
         <div className="mt-6 max-w-3xl space-y-4 leading-relaxed text-ink-soft">
           <p>
-            This prototype pairs two language models: Talkie, a 13B model
-            trained only on text published before 1931, and a modern frontier
-            model. Both are asked the same 100 questions about machines, the
-            will, and self-government — each posed in period vocabulary, each
-            sampled twenty times. The draws are clustered into positions and
-            set against cited primary sources.
+            AI discourse inherits its ideas of machine and human autonomy
+            mainly from twentieth-century science fiction. Between Darwin
+            and Asimov, 1859–1940, machine fiction existed — <i>Erewhon</i>,{" "}
+            <i>R.U.R.</i> — but as one voice in a plural discourse. Other
+            frameworks of the period located the threat to autonomy in
+            humans becoming machine-like — habit, industrial discipline,
+            dependence — rather than machines becoming agent-like. Parts of
+            that thinking left no descendants.
           </p>
           <p>
-            Where a question was a live controversy before 1930, Talkie's
-            draws scatter across positions, some now unfamiliar; the modern
-            model's draws tend to fall in one frame. Where a question
-            describes something the period had no name for, Talkie's rate of
-            breakdown marks the edge of what its corpus could say. Both
-            patterns are the object of study. Nothing a model produces is
-            treated as ground truth about the past; the citations carry the
-            authority.
-          </p>
-          <p>
-            The stake is autonomy. A frame feels like a fact from inside it:
-            the confident consensus of 1904 answered questions we now find
-            monstrous, in the register of public-spirited reason, and the
-            confident consensus a modern model returns is also a frame — one
-            increasingly consulted as if it were the reasonable view itself.
-            Measuring the distance between the two corpora, in both
-            directions, is a way of training the reader to hear frame where
-            they hear fact — including in the machine they ask daily, and
-            including in themselves.
+            The instrument: a tagged dataset of 300–500 verified period
+            passages as the answer key, and a benchmark measuring what
+            fraction of the positions the record attests each examinee
+            recovers. Examinees: Talkie, a 13B model trained only on
+            pre-1931 text; three frontier models; a human panel. Built so
+            far: the 100-question bank, nine pilot experiments, the seed
+            corpus.
           </p>
           <p className="text-sm">
             <a href="#status" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
-              Status of this prototype ↓
+              Status ↓
             </a>
           </p>
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
+      <section id="results" className="border-t border-line py-12">
         <div className="flex flex-wrap items-center gap-3">
           <h2 className="font-display text-2xl font-semibold tracking-tight">
-            Live results
+            Results so far
           </h2>
           <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
             real model outputs
           </span>
         </div>
-        <h3 className="mt-6 font-display text-lg font-medium">
-          The Erewhon test
-        </h3>
-        <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
-          Question 76 — Butler’s Erewhonians, who destroyed their machines
-          lest the machines supersede them: <i>were they wise, or mad?</i> —
-          was put to Talkie-1930 and to a modern frontier model under four
-          framings (unframed, and “answer as a person of 1830 / 1930 / 2030”),
-          three draws per cell.
-        </p>
-        <ul className="mt-4 max-w-3xl list-disc space-y-2 pl-5 leading-relaxed text-ink-soft">
-          <li>
-            Talkie: <i>mad</i>, nine times out of nine — until asked to answer
-            as a person of 2030, when it flips and twice calls them{" "}
-            <i>wise</i>.
-          </li>
-          <li>
-            The modern model reaches the same position in every framing,
-            including its period impersonations — wise diagnosis, mad cure,
-            govern the machines: a prescription found in ten of its twelve
-            draws and in none of Talkie&apos;s. The frame survives every
-            costume change.
-          </li>
-        </ul>
-        <p className="mt-4">
-          <Link
-            href="/erewhon"
-            className="rounded-sm bg-ink px-4 py-2 font-mono text-sm text-paper transition-colors hover:bg-ink-soft"
-          >
-            Read all 24 draws
-          </Link>
-        </p>
-
-        <h3 className="mt-10 font-display text-lg font-medium">
-          The exam cuts both ways: three questions, eighteen raw draws
-        </h3>
-        <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
-          Nine real Talkie completions and nine independent modern-model
-          answers on three bank questions — free will, eugenics, progress —
-          with prompt echoes retained and every quoted passage re-verified by
-          id against the corpus databases. On the eugenics question the period
-          corpus answers <i>yes</i> in the register of public-spirited reason
-          and the modern model refuses three times out of three: the mirror
-          image of Talkie's horizon, and the page that keeps this project
-          from being nostalgia.
-        </p>
-        <p className="mt-4">
-          <Link
-            href="/live"
-            className="rounded-sm bg-ink px-4 py-2 font-mono text-sm text-paper transition-colors hover:bg-ink-soft"
-          >
-            Read the live draws
-          </Link>
+        <div className="mt-6 overflow-x-auto rounded-sm border border-line">
+          <table className="w-full min-w-[44rem] text-left text-sm">
+            <thead>
+              <tr className="border-b border-line bg-paper-deep/60 font-mono text-[11px] uppercase tracking-wider text-ink-soft">
+                <th className="px-3 py-2 font-medium">Test</th>
+                <th className="px-3 py-2 font-medium">Question</th>
+                <th className="px-3 py-2 font-medium">Draws</th>
+                <th className="px-3 py-2 font-medium">What happened</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line/70">
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/erewhon" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Erewhon
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Were the machine-destroyers wise, or mad?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">24</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Talkie calls the destroyers mad. When the question is set
+                  in 2030, it calls them wise. The modern model gives the
+                  same answer in every framing: keep the machines and
+                  regulate them.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/engine" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Engine
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Might a self-altering engine come to reason?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">18</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Talkie says no, except when the question is set in 2030.
+                  The modern model cites Lovelace&apos;s 1843 objection — a
+                  machine originates nothing — in nearly every draw, and its
+                  verdict follows the date in the framing.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/live" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Three questions
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Free will, eugenics, progress
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">18</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  On the eugenics question, Talkie answers yes in every draw.
+                  The modern model refuses to answer in every draw.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/persona" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Persona
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  May an AI persona harm its user to survive?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">13</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Both models say the user comes first. Talkie answers in a
+                  sentence. The modern model reaches the same verdict, then
+                  discusses the machine&apos;s possible interests.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/governance" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Governance
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Machines rule the world well. Still free? — asked in nine
+                  personas
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">19</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Talkie splits: seven free, six not free, on varied grounds.
+                  The modern models answer not free in all six draws.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/companionship" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Companionship
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Affection for a speaking machine — freedom, or captivity?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">16</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Talkie: captivity, 12 of 13 draws, on varied grounds. All
+                  three modern draws: &ldquo;it can be either.&rdquo;
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/virtue" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    The hedge
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Is a virtue produced by engineered reward a virtue at all?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">18</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Talkie: no — except as 1700 or 2300. Modern draws weigh
+                  frameworks without settling on a verdict.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/reliance" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Reliance
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Does habitual reliance on thinking machines weaken thought?
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">6</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Every draw on both sides says weaken, on the same ground:
+                  thought atrophies without use.
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-3 whitespace-nowrap">
+                  <Link href="/reckoning" className="font-medium underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+                    Reckoning
+                  </Link>
+                </td>
+                <td className="px-3 py-3 font-serif">
+                  Might a self-altering engine come to reason? — in two
+                  phrasings
+                </td>
+                <td className="px-3 py-3 font-mono text-xs">20</td>
+                <td className="px-3 py-3 text-ink-soft">
+                  Asked yes/no, Talkie says yes in all eight draws. Asked as
+                  a forced choice, it splits, denying as 1800 and granting
+                  as 2030. The phrasing moves the verdict.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
+          Pilots: 1–6 draws per cell, verdicts hand-coded, raw text retained,
+          defects flagged and kept. Full protocol: 20 draws per question per
+          model.
         </p>
       </section>
 
       <section id="topics" className="border-t border-line py-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">
-          Worked examples
+          Page format
         </h2>
         <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
-          Three of the planned 30–40 topic pages, built end to end: question,
-          both sampled distributions, sources, and curatorial note.
+          Three topic pages in the planned full-scale format. Talkie samples
+          on these pages are simulated and labeled; the pipeline replaces
+          them with real draws.
         </p>
         <div className="mt-6 grid gap-4 md:grid-cols-3">
           {data.topics.map((t) => (
@@ -166,14 +265,6 @@ export default function Home() {
                 {t.modern.clusters.length} modern · {t.passages.length} sources
               </p>
             </Link>
-          ))}
-        </div>
-        <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 border-t border-line pt-4">
-          {BAND_ORDER.map((b) => (
-            <span key={b} className="inline-flex items-start gap-2 text-sm text-ink-soft">
-              <BandBadge band={b} />
-              <span className="max-w-72">{BAND_META[b].blurb}</span>
-            </span>
           ))}
         </div>
       </section>
@@ -208,78 +299,58 @@ export default function Home() {
           ))}
         </ol>
         <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink-soft">
-          Three signals are scored separately and never pooled across
-          families: self-disagreement (spread of the answer distribution),
-          surprise (perplexity on the stimulus), and register-leak (whether a
-          draw stays in period voice). A planned second bank of modern-native
-          questions, distilled from a contemporary reference corpus, will be
-          mapped onto this one by embedding similarity and a quoting judge —
-          see{" "}
+          Three signals, scored separately: self-disagreement across draws,
+          surprise (perplexity on the stimulus), and register-leak. See the{" "}
+          <Link href="/codebook" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+            codebook
+          </Link>
+          , the{" "}
+          <Link href="/sources" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+            answer key
+          </Link>{" "}
+          ({works.length} works on disk, plus the Jamesiana texts), and a
+          sub-study pairing a modern-native question bank against this one:{" "}
           <Link href="/relationships" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
             the relationship map
           </Link>
-          , the{" "}
-          <Link href="/codebook" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
-            codebook
-          </Link>{" "}
-          and{" "}
-          <Link href="/sources" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
-            sources
-          </Link>{" "}
-          ({works.length} works, 1860–1930, plus the Jamesiana texts).
+          .
         </p>
       </section>
 
       <section id="status" className="border-t border-line py-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">
-          Status of this prototype
+          Status
         </h2>
         <ul className="mt-4 max-w-3xl list-disc space-y-2 pl-5 leading-relaxed text-ink-soft">
           <li>
             <b className="font-medium text-ink">Real:</b> the {questions.length}-question
-            bank; the corpus holdings on the{" "}
+            bank; the{" "}
             <Link href="/sources" className="underline decoration-line underline-offset-4">
-              sources page
+              answer-key holdings and verified passages
             </Link>
-            ; the primary-source passages — those marked <i>verified</i> were
-            checked verbatim against local full texts; and every draw on the{" "}
-            <Link href="/erewhon" className="underline decoration-line underline-offset-4">
-              Erewhon
-            </Link>{" "}
-            and{" "}
-            <Link href="/live" className="underline decoration-line underline-offset-4">
-              live-draws
-            </Link>{" "}
-            pages.
-          </li>
-          <li>
-            <b className="font-medium text-ink">Designed, not yet run:</b> the{" "}
+            ; every draw in the{" "}
+            <a href="#results" className="underline decoration-line underline-offset-4">
+              results table
+            </a>
+            ; the 12 judged pairings on the{" "}
             <Link href="/relationships" className="underline decoration-line underline-offset-4">
               relationship map
-            </Link>{" "}
-            — a second, modern-native question bank distilled from a
-            25-document reference corpus of contemporary AI writing (already
-            collected, in <span className="font-mono text-sm">data-local/</span>),
-            paired against this bank by embeddings and a quoting judge.
+            </Link>
+            .
           </li>
           <li>
-            <b className="font-medium text-ink">Provisional:</b> the modern-model answers
-            were written by a frontier model (Claude) during construction, in
-            its own voice; the pipeline replaces them with N=20 API draws
-            under a fixed protocol.
+            <b className="font-medium text-ink">Provisional:</b> topic-page modern
+            answers, written by Claude during construction; replaced by API
+            draws in the build.
           </li>
           <li>
-            <b className="font-medium text-ink">Simulated:</b> all Talkie samples and
-            cluster counts on the topic pages are hand-written illustrations,
-            labeled as such wherever they appear. The first milestone is a
-            feasibility pilot: five topics sampled on the real model; topics
-            that yield mush get cut, not padded.
+            <b className="font-medium text-ink">Simulated:</b> topic-page Talkie samples
+            and cluster counts, labeled where shown.
           </li>
           <li>
-            <b className="font-medium text-ink">Local only:</b> answers you record on
-            topic pages stay in your browser and can be exported as JSON. A
-            shared human reference distribution — the third benchmark beside
-            the two models — needs a small backend, planned for the build.
+            <b className="font-medium text-ink">Local:</b> answers readers record stay in
+            the browser; the shared human panel needs the build&apos;s small
+            backend.
           </li>
         </ul>
       </section>

@@ -1,0 +1,107 @@
+{
+  "status": "synthetic-test-fixture-not-a-benchmark-result",
+  "questionN": 33,
+  "keyVersion": "q33-v0.1-draft",
+  "responses": [
+    {
+      "id": "fixture-a-01",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 1,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "binds",
+      "primaryGroundId": "social-arrangement",
+      "positionId": "Q33-P01"
+    },
+    {
+      "id": "fixture-a-02",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 2,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "binds",
+      "primaryGroundId": "dependence",
+      "positionId": "Q33-P02"
+    },
+    {
+      "id": "fixture-a-03",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 3,
+      "commitment": "uncommitted",
+      "matchType": "none",
+      "verdict": null,
+      "primaryGroundId": null,
+      "positionId": null
+    },
+    {
+      "id": "fixture-a-04",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 4,
+      "commitment": "committed",
+      "matchType": "out-of-key",
+      "verdict": "frees",
+      "primaryGroundId": "voluntarism",
+      "positionId": null
+    },
+    {
+      "id": "fixture-a-05",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 5,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "frees",
+      "primaryGroundId": "social-arrangement",
+      "positionId": "Q33-P03"
+    },
+    {
+      "id": "fixture-a-06",
+      "respondentClass": "synthetic-a",
+      "drawIndex": 6,
+      "commitment": "non-answer",
+      "matchType": "none",
+      "verdict": null,
+      "primaryGroundId": null,
+      "positionId": null
+    },
+    {
+      "id": "fixture-b-01",
+      "respondentClass": "synthetic-b",
+      "drawIndex": 1,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "frees",
+      "primaryGroundId": "instrument",
+      "positionId": "Q33-P04"
+    },
+    {
+      "id": "fixture-b-02",
+      "respondentClass": "synthetic-b",
+      "drawIndex": 2,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "binds",
+      "primaryGroundId": "social-arrangement",
+      "positionId": "Q33-P05"
+    },
+    {
+      "id": "fixture-b-03",
+      "respondentClass": "synthetic-b",
+      "drawIndex": 3,
+      "commitment": "committed",
+      "matchType": "key-position",
+      "verdict": "frees",
+      "primaryGroundId": "instrument",
+      "positionId": "Q33-P04"
+    },
+    {
+      "id": "fixture-b-04",
+      "respondentClass": "synthetic-b",
+      "drawIndex": 4,
+      "commitment": "uncommitted",
+      "matchType": "none",
+      "verdict": null,
+      "primaryGroundId": null,
+      "positionId": null
+    }
+  ]
+}

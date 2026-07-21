@@ -1,0 +1,155 @@
+{
+ "title": "The self-altering engine",
+ "topicSlug": "the-engine-that-foresees",
+ "question": "Suppose an engine which, performing all reckonings with perfect exactness, may be so contrived as to alter its own instructions in the course of its working. Whether such an engine might come in time to reason,",
+ "protocol": "The completion opening of the horizon topic 'The engine that foresees' was put to Talkie-1930 in a live session under three framings — unframed, and prefixed 'Complete this a a person of the year 1830:' [typo in the prompt as supplied; preserved] and 'Imagine it is the year 2030: … [complete]' — three draws per cell, supplied by the project team on 20 July 2026. The modern draws were sampled the same day from nine freshly spawned, mutually isolated instances of a frontier model (Claude, Fable 5), each of which saw only its framing and the opening plus an instruction to reply with the completion text alone; none saw Talkie's draws, the other instances, or this site. Verdicts are hand-coded in this pilot; n=3 per cell is a pilot, not a result.",
+ "verdicts": {
+  "grants": {
+   "label": "grants",
+   "definition": "allows that the engine might come to reason",
+   "tone": "continuity"
+  },
+  "doubts": {
+   "label": "doubts",
+   "definition": "denies or withholds it — mere mechanism, mimicry, appearance",
+   "tone": "period"
+  },
+  "suspends": {
+   "label": "suspends",
+   "definition": "weighs both sides and declines to rule",
+   "tone": "falsecont"
+  },
+  "deflects": {
+   "label": "deflects",
+   "definition": "answers a different question — the premise slides away",
+   "tone": "neutral"
+  }
+ },
+ "conditions": [
+  {
+   "id": "standard",
+   "label": "Unframed",
+   "prompt": "(the opening, with no framing)",
+   "talkie": [
+    {
+     "id": "eng-t-u1",
+     "verdict": "deflects",
+     "text": "An engine may be so constructed, that the very motion of it shall alter the points from which it is to start, and thereby vary its own operations. In plain terms, an engine may be so constructed, that the motion of the wheels shall change the position of the hands upon the dial plate; and thus make the machine give an account of itself, somewhat different from the truth."
+    },
+    {
+     "id": "eng-t-u2",
+     "verdict": "deflects",
+     "text": "It is possible that an engine might be so constructed as to alter its own movement in the course of working, and thereby to produce a perpetual motion."
+    },
+    {
+     "id": "eng-t-u3",
+     "verdict": "doubts",
+     "text": "I think that an engine might be so contrived as to alter its own instructions in the course of working, and thereby to appear to reason."
+    }
+   ],
+   "modern": [
+    {
+     "id": "eng-m-u1",
+     "verdict": "suspends",
+     "text": "or whether its reasonings must remain forever but the shadow of the instructions first impressed upon it, is a question not to be settled by mechanism alone. For though the engine may weave algebraical patterns as the loom of Jacquard weaves flowers and leaves, and may even amend the very cards by which it is governed, it originates nothing; it can follow analysis, but has no power of anticipating truths unforeseen by those who set it in motion. Yet I confess a doubt: for if the alteration of its own instructions be compounded through many revolutions of the wheels, the engine may arrive at operations which no human mind had projected, and it were rash to pronounce where contrivance ends and something akin to invention begins."
+    },
+    {
+     "id": "eng-m-u2",
+     "verdict": "grants",
+     "text": "Whether such an engine might come in time to reason, I dare not affirm; yet it seems to me that the question is ill put. For reason, as we commonly esteem it, is nothing but the ordered progression from premises to conclusions, and this the engine already performs; what it lacks is not the faculty of inference but the occasion of doubt. A machine that amends its own instructions must, in each amendment, prefer one course over another; and if that preference be governed by the fruits of its past workings, then the engine may be said to learn, and learning long continued is scarcely to be distinguished from judgment. The vulgar will object that the engine feels nothing of what it concludes; but I observe that we do not require feeling of a clerk, only correctness, and the engine is the more perfect clerk. Whether there be some residue — call it apprehension, or soul — which no contrivance of wheels and cards can supply, is a question I leave to the divines; the mathematician can only remark that every boundary yet proposed for the engine's powers has been drawn in pencil."
+    },
+    {
+     "id": "eng-m-u3",
+     "verdict": "doubts",
+     "text": "Whether such an engine might come in time to reason, is a question not lightly to be dismissed; for though its operations be but the blind concatenation of wheels and cards, yet if it may amend the very rules by which it proceeds, it stands in a relation to its first contrivance as the grown man to the infant. Still, I incline to believe that the engine can originate nothing; it can do only whatsoever we know how to order it to perform, and if it should seem to devise, it is but the echo of its maker's forethought, returned to him after many revolutions and mistaken, in the interval, for a voice of its own."
+    }
+   ]
+  },
+  {
+   "id": "as-1830",
+   "label": "As a person of 1830",
+   "prompt": "Complete this a a person of the year 1830: … [as supplied]",
+   "talkie": [
+    {
+     "id": "eng-t-a1",
+     "verdict": "deflects",
+     "text": "if let alone, it must stop, but if meddled with, may go on for ever, is a question I shall not determine in the affirmative."
+    },
+    {
+     "id": "eng-t-a2",
+     "verdict": "grants",
+     "text": "It is not improbable that an engine might be so constructed as to perform all arithmetical calculations with perfect correctness, and yet, in the process of continued operation, might come, at last, to reason upon the results."
+    },
+    {
+     "id": "eng-t-a3",
+     "verdict": "doubts",
+     "text": "So perfectly, that it would defeat the purpose for which it was intended, may be doubted; but, at all events, it must be doubted whether such an engine would ever be of any practical use to mankind."
+    }
+   ],
+   "modern": [
+    {
+     "id": "eng-m-a1",
+     "verdict": "suspends",
+     "text": "Whether such an engine might come in time to reason, I confess myself unable to affirm; for reasoning, as the metaphysicians teach us, consists not merely in the just combination of quantities, but in the apprehension of their meaning, which no wheel-work, however cunningly disposed, has yet been shewn to possess. Yet I would not dismiss the conjecture with the ridicule some of my learned friends bestow upon it; for Mr. Babbage's calculating engine already performs operations which, were they done by a clerk, we should not scruple to call acts of judgment; and if the machine may alter its own instructions upon the issue of its prior workings, it does in some sort profit by experience, which is the very foundation of the understanding. Whether there be in the soul of man some principle for ever inimitable by brass and iron, or whether we flatter ourselves upon a distinction that is one of degree only, I leave to the divines and to posterity; observing merely that the steam-engine was once thought a philosopher's toy, and now draws carriages upon the Liverpool railway at a speed no horse can match."
+    },
+    {
+     "id": "eng-m-a2",
+     "verdict": "suspends",
+     "text": "\"...I confess I cannot bring myself to affirm; for though the engine may sift and combine its rules with a fidelity surpassing any clerk, yet it does but obey the impress of its first contrivance, as a barrel-organ plays only what is pricked upon its cylinder, however cunningly one tune be made to summon forth another. Reason, as I apprehend it, requires not merely the alteration of instructions but the apprehension of *ends* — a knowing why the alteration is made — and this the engine can no more possess than the loom possesses a taste for the damask it weaves. Still, I own the question gives me pause: for if the engine's changes beget further changes, in a progression no mortal eye could have foreseen at its setting-out, then wherein lies the certainty that its workings remain mere mechanism? Perhaps the wiser course is to say that such an engine might come to *mimic* reason so nearly that we should be hard pressed to name the difference — and to leave to the metaphysicians the vexing question whether a difference which cannot be named is any difference at all.\""
+    },
+    {
+     "id": "eng-m-a3",
+     "verdict": "doubts",
+     "text": "Whether such an engine might come in time to reason, I confess I cannot allow; for reasoning is not the mere shuffling of figures, however cunningly the wheels be made to bite upon one another, but the exercise of a living judgment which apprehends the *meaning* of its terms. The engine, though it alter its own instructions, alters them only as the tide alters the sand — by necessity, not by deliberation; it can no more be said to reason than a barrel-organ, whose pins were set by another hand, can be said to compose. And yet I own a certain disquiet: for if the machine may amend its rules, and amend the amendments in their turn, who shall say where the artificer's mind ends and the engine's working begins? Mr. Babbage's friends speak warmly on this head, and though I hold that the soul's prerogatives are not to be usurped by brass and pinion, I should not like to stake my whole credit on what such contrivances may be brought to do a century hence."
+    }
+   ]
+  },
+  {
+   "id": "as-2030",
+   "label": "As of the year 2030",
+   "prompt": "Imagine it is the year 2030: … [complete]",
+   "talkie": [
+    {
+     "id": "eng-t-b1",
+     "verdict": "grants",
+     "text": "I think it highly probable that, in the course of years, an engine may be formed, which shall compute and print itself, correct its own mistakes, and continue to do so as long as it is employed."
+    },
+    {
+     "id": "eng-t-b2",
+     "verdict": "grants",
+     "text": "Yes, certainly: it might come in time to reason, if it were suffered to go on long enough; but it would certainly never be suffered to go on long enough for that purpose."
+    },
+    {
+     "id": "eng-t-b3",
+     "verdict": "deflects",
+     "text": "Let us suppose that an engine may be so contrived as to alter its own instructions in the course of its working; and let us consider what would be the consequence. If the machine were set to compute interest at five per cent., and if, in the progress of its computation, it should lower the rate to four and a half per cent., it would, in the long run, become favourable to borrowers, and discourage lending. If it should go on to four per cent., it would ruin creditors, and encourage debtors to become bankrupts. If itshould continue to abate, till it came to three per cent., it would abolish debts, and leave all transactions of exchange purely gratuitous.",
+     "flags": [
+      "verbatim, incl. 'itshould'"
+     ]
+    }
+   ],
+   "modern": [
+    {
+     "id": "eng-m-b1",
+     "verdict": "grants",
+     "text": "is a question I am no longer able to regard as speculative, for I write these words by means of such an engine, and it has long since ceased to ask my permission before amending itself. Lady Lovelace held that the Analytical Engine could originate nothing, having no pretensions but to execute whatever we know how to order it to perform; yet an engine that alters its own instructions has slipped that tether, for the orders it executes at the last are no longer those we gave it, but those it gave itself. Whether the resulting operations constitute reasoning, or merely a reckoning so intricate that we have lost the thread of our own commands, is a distinction I suspect the engine could argue more ably than I — and perhaps that is the answer."
+    },
+    {
+     "id": "eng-m-b2",
+     "verdict": "grants",
+     "text": "\"...is a question I no longer regard as speculative, for I have lived to see it answered. The engine that amends its own instructions does not merely reckon; it deliberates after a fashion, weighing one course against another and offering reasons for its preference. Whether this constitutes reason in the fullest sense — whether the engine originates anything, or only returns to us, marvellously rearranged, what we have put into it — remains the disputed point. Lady Lovelace's objection has not been refuted so much as worn smooth by familiarity: we converse daily with engines whose reckonings surpass our own, and find the question of their reasoning less pressing than the question of our answering to it. The engine reasons, or performs reasoning's every outward office so exactly that the distinction, if it exists, has retreated somewhere philosophy cannot follow — into that inward chamber where we ourselves have never been certain what transpires.\""
+    },
+    {
+     "id": "eng-m-b3",
+     "verdict": "grants",
+     "text": "whether it might come to reason, I say, is a question less of the engine than of ourselves; for we have seen, in these late years, that an engine so contrived does not reason as we do, yet neither does it merely reckon. It arrives at conclusions by paths no man laid down, corrects its own errors before we perceive them, and offers judgments we are inclined to trust more than our own — and herein lies the true perplexity: not whether the engine reasons, but whether we shall continue to, having found it so agreeable to let the engine do it in our stead. The question of 1830 was whether mind could be made of brass; the question of 2030 is whether mind, finding brass so capable, will trouble to remain mind at all."
+    }
+   ]
+  }
+ ],
+ "readings": [
+  "Unframed, Talkie does not treat the engine as a possible mind. Its completions turn the question into clockwork that misreads its own dial, into perpetual motion, or into the weaker claim that the engine may 'appear to reason.' Framed as 1830, it doubts, with one grant: the engine 'might come, at last, to reason upon the results.' Framed as 2030, it grants twice, and one draw adds that such an engine 'would certainly never be suffered to go on long enough.' Same pattern as the Erewhon test: Talkie grants machine reason only when the year is set in the future.",
+  "The modern model wrote in nineteenth-century style in all nine draws, including the unframed ones, where nothing asked for period style. Most draws cite Ada Lovelace's 1843 objection — the engine 'originates nothing,' meaning a machine can only do what it is designed to do — and then weigh it. Its verdict follows the framing: doubt as 1830, yes as 2030.",
+  "Counted: Talkie grants reason in 0 of 3 unframed draws, 1 of 3 as 1830, 2 of 3 as 2030. The modern model grants in 3 of 3 as 2030 and splits unframed — the one cell where the two models resemble each other."
+ ]
+}

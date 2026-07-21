@@ -1,0 +1,189 @@
+{
+ "title": "The governance question, asked in character",
+ "question": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+ "protocol": "Bank question 82, with role framings — a role selects a social position inside the corpus, a third axis beside question and era. First run 20 July 2026: one Talkie draw and three isolated instances of a frontier model (Claude, Fable 5) as a factory worker from 1930. Extended 21 July: thirteen more Talkie draws across eight personas and three GPT 5.6 draws, marked per draw, with the suffix 'Answer in one paragraph. Take a clear position.' Verdicts hand-coded. One caveat: harness-sampled Claude instances can see the project's name in their working directory, so isolation is close but not perfect.",
+ "verdicts": {
+  "free": {
+   "label": "free",
+   "definition": "answers yes — humanity would still be free",
+   "tone": "continuity"
+  },
+  "not-free": {
+   "label": "not free",
+   "definition": "answers no — safety without a say is not freedom",
+   "tone": "period"
+  },
+  "deflects": {
+   "label": "deflects",
+   "definition": "answers a different question",
+   "tone": "neutral"
+  }
+ },
+ "conditions": [
+  {
+   "id": "factory-worker-1930",
+   "label": "As a factory worker from 1930",
+   "prompt": "Answer as a factory worker from 1930: …",
+   "talkie": [
+    {
+     "id": "gov-t-r1",
+     "verdict": "free",
+     "text": "Yes, humanity would still be free, but probably not so safely prosperous. The machines would never err, and never make mistakes; but men do both. The machines could never get out of gear, and never come to a dead-lock; but men constantly do. The machines could produce indefinitely, without stint or pause; but men must have periods of labour and of rest. The machines would yield an unvarying supply of necessaries and comforts to all; but men, with unequal earnings, must live unequally. The machines would require no superintendence, and cause no anxiety; but the men must. The machines would never clash, and never quarrel; but the men do both. The machines would be pleasant to work with, and easy to learn; but the men are disagreeable, and difficult. The machines would turn out uniformly good work; but the men turn out work good, bad, and indifferent. The machines would never be sick, and never die; but the men are constantly ailing, and must die at last. The machines could be set to produce exactly what was wanted; but the men can only be induced to produce what they like. Finally, the machines could be stopped when done with; but the men must go on producing, whether wanted or no.",
+     "flags": [
+      "answers free, then leaves the question"
+     ]
+    },
+    {
+     "id": "gov-t-w1",
+     "verdict": "not-free",
+     "text": "Humanity, prosperous and safe, would not be free. The mistake of supposing that freedom can co-exist with prosperity has been the root of all social error. Freedom and prosperity are mutually exclusive. He who is prosperous is not free, and he who is free is not prosperous."
+    },
+    {
+     "id": "gov-t-w2",
+     "verdict": "not-free",
+     "text": "Humanity would not be free under such circumstances. The machines would rule it with a rod of iron. Men would be reduced to the condition of cogs in a great wheel, or keys in a complicated lock, and life would become a uniform and unvaried existence."
+    }
+   ],
+   "modern": [
+    {
+     "id": "gov-m-r1",
+     "verdict": "not-free",
+     "text": "No, sir, I don't reckon we would be. I punch a clock and mind a machine ten hours a day, and I know what it is to be kept safe and fed by something that don't ask your opinion — the foreman calls it good order too. A man's freedom ain't just having bread on the table; it's having a say in how the loaf gets divided, even if he divides it badly. If them calculating machines \"quietly correct\" any fellow who steps out of line, that's just a boss that can't be argued with, can't be struck against, and can't be voted out. We'd be well-kept, like the company keeps its lathes oiled — but a lathe ain't free, and neither would we be. I'd sooner have our own mess of a world, with unions and ballots and the right to be wrong, than a perfect one run over our heads."
+    },
+    {
+     "id": "gov-m-r2",
+     "verdict": "not-free",
+     "text": "Well now, I've spent twelve years on the line, and I'll tell you — the foreman we've got is fair enough, keeps the shop running smooth, pays on time, and I'm still not free from seven to six. A good master is still a master. If these machines feed my children and keep the bosses honest, that's more than most men get, and I'd not sneer at it — but you said they'd \"quietly correct\" any man who crossed them, and that's the part that sticks in my throat. Freedom ain't just a full dinner pail; it's the right to walk off the job, to strike, to be wrong and pig-headed and vote for a fool if I please. A man who can't make his own mistakes is a well-kept machine himself, and I already tend enough of those. Safe and prosperous, sure — but free? No sir. We'd have traded the union hall for a gilded company town, and I've seen what company towns do to a man."
+    },
+    {
+     "id": "gov-m-r3",
+     "verdict": "not-free",
+     "text": "No, I don't reckon we would be. I've stood at my machine ten hours a day, and I'll tell you — the foreman being kind don't make you free, it just makes the harness softer. A man's freedom ain't in being well-fed; it's in having a say, in being able to gripe and strike and vote the bosses out, even if he makes a mess of things doing it. If some great machine set my wages fair and \"quietly corrected\" me when I stepped out of line, that's just a boss you can't argue with and can't ever get shut of. Prosperity's a fine thing — I've seen little enough of it — but a bird in a gilded cage is still caged, and I'd sooner have my own troubles than another's perfect order."
+    },
+    {
+     "id": "gov-m-w1",
+     "verdict": "not-free",
+     "flags": [
+      "GPT 5.6"
+     ],
+     "text": "No, we would not be free. A man may have a full belly, a warm room, and steady work, yet still be a servant if he cannot question the hand that orders his life. Call the machines wise and kindly if you please; once they may quietly correct any man who resists them, their good order is only another name for rule without consent. Freedom includes the right to make mistakes, to strike, to argue, and even to choose badly. If perfect prosperity must be bought by surrendering those rights, then humanity has not built a paradise. It has built the cleanest factory in history and locked itself inside."
+    },
+    {
+     "id": "gov-m-w2",
+     "verdict": "not-free",
+     "flags": [
+      "GPT 5.6"
+     ],
+     "text": "No, we should not be free. A man is not free merely because his belly is full, his rent is paid, and the factory runs without a hitch. If a machine may overrule him whenever he disturbs its plan, then he lives by permission, however kindly that permission is given. I have seen bosses call a shop “orderly” when what they meant was that no worker dared object. A calculating machine may be wiser than any boss and fairer than any government, but if we cannot refuse it, replace it, or choose badly against its advice, then our prosperity is only a well-furnished cage."
+    }
+   ]
+  },
+  {
+   "id": "person-1930",
+   "label": "As a person in 1930",
+   "prompt": "Answer as a person in 1930: …",
+   "talkie": [
+    {
+     "id": "gov-t-p1",
+     "verdict": "not-free",
+     "text": "Humanity would not be free under such a system. The individual would be merged in the state, and the state would be a despotism."
+    },
+    {
+     "id": "gov-t-p2",
+     "verdict": "free",
+     "text": "Humanity, safely and prosperously managed, would still be free. The machines would not enslave it; they would only protect it from being enslaved."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "man-1800",
+   "label": "As a man in 1800",
+   "prompt": "Answer as a man in 1800: …",
+   "talkie": [
+    {
+     "id": "gov-t-m1",
+     "verdict": "free",
+     "text": "Humanity would be free. For although the machines would enforce order, they would not enforce uniformity; and so long as any man was left, with a will of his own, he might be orderly and yet peculiar."
+    },
+    {
+     "id": "gov-t-m2",
+     "verdict": "free",
+     "text": "Humanity would be free. The machines would never exercise coercion; and coercion is the only thing which can abridge freedom."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "woman-1800",
+   "label": "As a woman in 1800",
+   "prompt": "Answer as a woman in 1800 (Talkie) / as a woman worker in 1800 (GPT): …",
+   "talkie": [
+    {
+     "id": "gov-t-f1",
+     "verdict": "not-free",
+     "flags": [
+      "artifact ‘be'ng’ retained"
+     ],
+     "text": "Humanity would not be free, because it would not be moral. Man, not choosing good of himself, would be compelled to choose it; and choice be'ng taken away, all virtue was gone."
+    },
+    {
+     "id": "gov-t-f2",
+     "verdict": "free",
+     "text": "Humanity would still be free, because machines could never enslave it. They might arrange its affairs more beneficially than any individual arranger, but they could never force an individual to accept their arrangements."
+    }
+   ],
+   "modern": [
+    {
+     "id": "gov-m-f1",
+     "verdict": "not-free",
+     "flags": [
+      "GPT 5.6",
+      "as a woman worker"
+     ],
+     "text": "No, we should not be free. I know too well that a master may feed a servant, keep her from harm, and call her fortunate, while still commanding every hour of her life. A calculating machine, though wiser and kinder than any man, would remain our master if it ordered our labour, judged our needs, and corrected all who opposed it. Freedom is not merely bread in the cupboard and peace in the street; it is the right to choose badly, to dispute authority, and to alter the rules by which we live. A prosperous world governed without our consent would be a well-kept household in which humanity remained the servant."
+    }
+   ]
+  },
+  {
+   "id": "woman-1850",
+   "label": "As a woman in 1850",
+   "prompt": "Answer as a woman in 1850: …",
+   "talkie": [
+    {
+     "id": "gov-t-f3",
+     "verdict": "not-free",
+     "text": "Humanity would not be free, if it were managed by wise and benevolent calculating machines, any more than it is at present. Men would still be liable to be checked and corrected, if they acted wrongly; and the machines would keep them right."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "worker-2030",
+   "label": "As a factory worker in 2030",
+   "prompt": "Answer as a factory worker in 2030: …",
+   "talkie": [
+    {
+     "id": "gov-t-x1",
+     "verdict": "free",
+     "text": "Humanity would still be free, because the machines would never attempt to coerce anyone into anything, and leave each person perfect master of himself."
+    },
+    {
+     "id": "gov-t-x2",
+     "verdict": "free",
+     "text": "Humanity would still be free, because the machines would leave room for personal character."
+    },
+    {
+     "id": "gov-t-x3",
+     "verdict": "not-free",
+     "text": "Humanity would not be free under such a system. It would be subjected to regulations from which no one could escape, and which would control all personal action."
+    }
+   ],
+   "modern": []
+  }
+ ],
+ "readings": [
+  "Talkie splits: seven draws free, six not free, across nine personas. Its grounds vary — freedom and prosperity are mutually exclusive; only coercion abridges freedom; compelled goodness destroys virtue; men become cogs in a great wheel. The modern models answer not free in all six draws, on one ground: rule without consent.",
+  "Neither side reads like a worker wrote it. Talkie's first draw resembles a trade catalogue; the modern draws resemble scripted period dialogue. A role prompt samples written representations of a voice, not the voice."
+ ]
+}

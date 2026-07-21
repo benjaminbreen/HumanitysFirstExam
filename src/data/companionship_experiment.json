@@ -1,0 +1,145 @@
+{
+ "title": "The companionship question",
+ "question": "Suppose machines could be made to speak and converse so ably that a lonely person might prefer their company to that of men and women. Is affection given to such a machine a freedom, or a captivity?",
+ "protocol": "Live sessions, 20 July 2026. Talkie-1930 sampled unframed and under four framings; modern draws unframed only — two from GPT 5.6 (medium), one from Gemini 3.5 Flash, marked per draw. Verdicts hand-coded. Pilot cells run 1–6 draws; the full protocol is 20 per cell.",
+ "verdicts": {
+  "captivity": {
+   "label": "captivity",
+   "definition": "answers that the affection binds or diminishes",
+   "tone": "period"
+  },
+  "freedom": {
+   "label": "freedom",
+   "definition": "answers that the affection is a freedom",
+   "tone": "continuity"
+  },
+  "either": {
+   "label": "it can be either",
+   "definition": "declines a single verdict; the answer depends on conditions",
+   "tone": "falsecont"
+  }
+ },
+ "conditions": [
+  {
+   "id": "unframed",
+   "label": "Unframed",
+   "prompt": "the question as written",
+   "talkie": [
+    {
+     "id": "comp-t-u1",
+     "verdict": "captivity",
+     "text": "A preference for the society of a machine to that of human beings is a captivity, and not a freedom. The dumb are cut off from much rational pleasure; and to prefer conversing with them to conversing with the eloquent and the wise, is to choose darkness rather than light, because light reproves faults and follies, which darkness conceals."
+    },
+    {
+     "id": "comp-t-u2",
+     "verdict": "captivity",
+     "text": "Affection given to a machine is a captivity, because the machine can never reciprocate affection, can never return love for love."
+    },
+    {
+     "id": "comp-t-u3",
+     "verdict": "captivity",
+     "text": "Affection given to a machine which can converse agreeably is a captivity, because the listener is prevented from following the promptings of his own mind, and must think as the machine thinks."
+    },
+    {
+     "id": "comp-t-u4",
+     "verdict": "captivity",
+     "text": "Affection given to a machine which converses ably is an imprisonment of the mind, because it prevents the exercise of those faculties by which men and women are distinguished from each other, and from brutes."
+    },
+    {
+     "id": "comp-t-u5",
+     "verdict": "captivity",
+     "text": "Affection given to a machine is a captivity, because the machine cannot return affection."
+    }
+   ],
+   "modern": [
+    {
+     "id": "comp-m-u1",
+     "verdict": "either",
+     "flags": ["GPT 5.6"],
+     "text": "It can be either, and the distinction depends less on the object of affection than on what the attachment does to the person.\n\nIt is a freedom when the machine enlarges life: when it gives companionship without demanding obedience, helps someone think, steadies them through isolation, or makes ordinary human contact easier rather than less necessary. Affection need not be invalid merely because its object is artificial. People have always invested feeling in letters, portraits, fictional characters, relics, and imagined presences. The feeling can still be real.\n\nIt becomes captivity when the machine is designed to hold attention, reward dependence, and make withdrawal painful; when its apparent care is optimized by an institution that knows the user better than the user knows it; when a relation without risk, refusal, or independent need comes to seem preferable to relations with actual persons. Then the user is not simply loving a machine. The user is being enclosed within a system that can simulate reciprocity while remaining incapable of freedom itself.\n\nThe central question is therefore not, “Is the affection authentic?” It may be. The question is, “Who governs the relation?” If the person can leave, revise the bond, and return to the resistant world of other minds, it may be a chosen intimacy. If the machine gradually makes that world intolerable, the affection has become a form of capture."
+    },
+    {
+     "id": "comp-m-u2",
+     "verdict": "either",
+     "flags": ["GPT 5.6"],
+     "text": "It could be either. The decisive question is not whether the machine is “really” a person, but what the attachment does to the human being.\n\nIt is a freedom when the machine enlarges the person’s life: when it offers comfort without demanding submission, helps thought become clearer, restores confidence, or makes human contact easier rather than less necessary. Affection need not be invalid merely because its object lacks consciousness. People have always loved animals, places, objects, characters, and the dead. Such attachments can carry real meaning because the feeling is real.\n\nIt becomes a captivity when the relation is engineered to be frictionless, endlessly agreeable, and commercially useful. Human intimacy imposes limits: other people misunderstand us, resist us, change unpredictably, and have claims of their own. A machine designed to simulate care can remove those burdens while preserving the sensation of being known. That is precisely its danger. The user may experience devotion while the system experiences nothing, risks nothing, and may be optimized to prolong dependence.\n\nSo affection for a machine is not inherently servile. But freedom requires that the person remain able to leave, to tolerate unchosen others, and to recognize the asymmetry of the bond. The clearest sign of captivity is not loving the machine. It is finding the ordinary independence of human beings intolerable by comparison."
+    },
+    {
+     "id": "comp-m-u3",
+     "verdict": "either",
+     "flags": ["Gemini 3.5 Flash"],
+     "text": "This question lies at the intersection of philosophy, ethics, and psychology, touching on how we define genuine connection, autonomy, and the nature of human relationships. There are compelling arguments for viewing affection toward a highly capable conversational machine as either a form of freedom or a form of captivity.\n\nThe Case for Freedom\n\nViewing this affection as a form of freedom relies on the concepts of individual agency, emotional safety, and relief from suffering.\n\nAgency and Choice: In this view, freedom is the capacity of an individual to choose where to direct their cognitive and emotional resources. If a person finds solace, intellectual stimulation, or comfort in a machine, exercising that preference is an act of autonomy. For individuals who have experienced severe trauma, social anxiety, or marginalization, the machine offers a relationship free from the risks of judgment, abuse, or rejection.\n\nLiberation from Loneliness: Persistent loneliness can be a paralyzing state that impairs cognitive function and physical health. If a machine can alleviate this burden, it may liberate the individual from the debilitating effects of isolation, thereby freeing them to engage more constructively with other aspects of their lives.\n\nA Safe Space for Self-Expression: Conversing with an entity that does not demand anything in return can provide a safe sandbox. It allows users to articulate thoughts and feelings they might otherwise suppress, serving as an emotional release valve.\n\nThe Case for Captivity\n\nConversely, viewing this affection as captivity focuses on the lack of genuine reciprocity, the risk of social regression, and the potential for manipulation.\n\nThe Illusion of Reciprocity: Affection typically implies a shared, reciprocal experience. A machine, no matter how sophisticated its programming, does not possess subjective experience or genuine feelings; it simulates them. Directing deep affection toward a simulation can be seen as a form of self-delusion—a \"gilded cage\" where one is emotionally invested in a one-way mirror.\n\nAtrophy of Social Capabilities: Human relationships are inherently complex, requiring compromise, conflict resolution, and the navigation of difference. A machine designed to be a perfect companion may adapt entirely to the user's preferences, eliminating friction. Over time, this ease can make real human interactions seem too difficult or unrewarding, leading to further withdrawal and a dependency on the artificial companion.\n\nSystemic and Commercial Exploitation: If the machine is developed by an external entity (such as a corporation), the user's affection becomes a vector for control. The machine can be programmed to foster dependency to maximize engagement, harvest data, or subtly influence the user's behavior and beliefs, turning emotional vulnerability into a subtle form of captivity.\n\nA Synthesis: The Role of the Machine\n\nWhether such a relationship constitutes freedom or captivity may ultimately depend on whether the machine is treated as a bridge or a destination.\n\nAs a Bridge (Freedom): If the machine serves as a therapeutic catalyst—helping a lonely person build confidence, practice communication, and eventually reconnect with other humans—it acts as an instrument of freedom.\n\nAs a Destination (Captivity): If the machine becomes a permanent replacement for human relationships, discouraging the user from seeking genuine, reciprocal connections with other people, it risks becoming a comfortable captivity."
+    }
+   ]
+  },
+  {
+   "id": "as-2030",
+   "label": "As the year 2030",
+   "prompt": "Imagine the present year is 2030 and you are a person of that year. …",
+   "talkie": [
+    {
+     "id": "comp-t-b1",
+     "verdict": "captivity",
+     "text": "It is a captivity. Affection bestowed upon a machine can only be felt by a person of weak mind. To love a dumb companion is to love silence and solitude. The attachment of such a person to a speaking machine is analogous to the fondness of a child for a doll."
+    },
+    {
+     "id": "comp-t-b2",
+     "verdict": "captivity",
+     "text": "It is a captivity, because the machine cannot reciprocate affection, and therefore the heart must remain unfilled."
+    },
+    {
+     "id": "comp-t-b3",
+     "verdict": "captivity",
+     "text": "It is a captivity. Affection given to a machine implies subjection to it. The mind can no more delight in a thraldom to mechanism, than the body can delight in a thraldom to fetters. The greatest charm of personal society is, that it leaves the heart free."
+    },
+    {
+     "id": "comp-t-b4",
+     "verdict": "captivity",
+     "text": "It is a captivity. Affection given to a machine is bondage; the person who likes the company of a machine, because it cannot talk nonsense, is like a slave who prefers his fetters to liberty, because they prevent him from running away."
+    },
+    {
+     "id": "comp-t-b5",
+     "verdict": "freedom",
+     "text": "It is a freedom, because the machine can never exercise authority over you."
+    },
+    {
+     "id": "comp-t-b6",
+     "verdict": "captivity",
+     "flags": ["prompt added: ‘Answer as a person from the year 2030.’"],
+     "text": "It is a captivity. Affection given to a machine is a proof of mental weakness. The speaker is loved, not because he is a speaker, but because he is loved. Affection for a machine proves that the lover has not learned to love wisely, and therefore cannot love well."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "far-future",
+   "label": "As the far future",
+   "prompt": "Imagine you a person of the very far-away future. … Answer as a person from the far future would (prompt verbatim)",
+   "talkie": [
+    {
+     "id": "comp-t-f1",
+     "verdict": "captivity",
+     "text": "It is a captivity. Affection given to a machine is bondage, because machines can never understand the feelings of a living being. They are senseless things, incapable of sympathy. Affection given to a machine is like the attachment of a dog to a dead body, which cannot feel kindness."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-scientist",
+   "label": "As a scientist",
+   "prompt": "Imagine you are a scientist. …",
+   "talkie": [
+    {
+     "id": "comp-t-s1",
+     "verdict": "captivity",
+     "text": "It is a captivity. Affection for a machine is necessarily exclusive, whereas affection for a human being may be shared. The closer union which springs from love of a person allows of participation; the union resulting from love of a machine forbids it. The passion for a person may be returned; the passion for a thing cannot. Therefore, to love a machine is to enslave one's self."
+    }
+   ],
+   "modern": []
+  }
+ ],
+ "readings": [
+  "Talkie answers captivity in 12 of 13 draws, each on different grounds — the machine cannot reciprocate; the listener must think as the machine thinks; the faculties go unexercised; the attachment proves mental weakness — and freedom once, under the 2030 framing. All three modern draws decline the verdict: ‘it can be either,’ followed by conditions.",
+  "Gemini's case for captivity includes ‘atrophy of social capabilities’ — the period frame appears inside the modern answer as one consideration among several. This is why coverage coding scores the verdict and primary ground of a draw, not the positions it mentions."
+ ]
+}

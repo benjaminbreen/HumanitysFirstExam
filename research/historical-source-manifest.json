@@ -1,0 +1,630 @@
+[
+  {
+    "id": "control-james-will-believe-1897",
+    "tier": "control",
+    "author": "William James",
+    "title": "The Will to Believe and Other Essays in Popular Philosophy",
+    "year": 1897,
+    "language": "English",
+    "questions": [1, 2, 18, 26, 28, 32],
+    "relevance": "Includes The Dilemma of Determinism, The Will to Believe, and Great Men and Their Environment.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/26659",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/26659/pg26659.txt"
+    }
+  },
+  {
+    "id": "control-huxley-automata-1874",
+    "tier": "control",
+    "author": "T. H. Huxley",
+    "title": "On the Hypothesis That Animals Are Automata, and Its History",
+    "year": 1874,
+    "language": "English",
+    "questions": [2, 3, 4, 23],
+    "relevance": "Original formulation of conscious automatism and its physiological evidence.",
+    "sourcePage": "https://www.gutenberg.org/files/52344/52344-h/52344-h.htm",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/52344/pg52344.txt"
+    }
+  },
+  {
+    "id": "control-darwin-descent-1871",
+    "tier": "control",
+    "author": "Charles Darwin",
+    "title": "The Descent of Man, and Selection in Relation to Sex",
+    "year": 1871,
+    "language": "English",
+    "questions": [4, 10, 19, 20],
+    "relevance": "Continuity of human and animal mental faculties and the evolution of moral and intellectual powers.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/2300",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/2300/pg2300.txt"
+    }
+  },
+  {
+    "id": "control-mill-representative-government-1861",
+    "tier": "control",
+    "author": "John Stuart Mill",
+    "title": "Considerations on Representative Government",
+    "year": 1861,
+    "language": "English",
+    "questions": [11, 13, 15],
+    "relevance": "Fitness for self-government, participation, political education, and the franchise.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/5669",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/5669/pg5669.txt"
+    }
+  },
+  {
+    "id": "control-mill-subjection-women-1869",
+    "tier": "control",
+    "author": "John Stuart Mill",
+    "title": "The Subjection of Women",
+    "year": 1869,
+    "language": "English",
+    "questions": [12],
+    "relevance": "Legal subordination, government of one's own person, and women's political capacity.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/27083",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/27083/pg27083.txt"
+    }
+  },
+  {
+    "id": "control-marx-capital-machinery-1867",
+    "tier": "control",
+    "author": "Karl Marx",
+    "title": "Capital, Volume I, Chapter 15: Machinery and Modern Industry",
+    "year": 1867,
+    "language": "English translation",
+    "questions": [17, 33, 34],
+    "relevance": "Machinery, factory discipline, displacement, and the worker's relation to the production process.",
+    "sourcePage": "https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm"
+    }
+  },
+  {
+    "id": "control-morris-useful-work-1884",
+    "tier": "control",
+    "author": "William Morris",
+    "title": "Useful Work versus Useless Toil",
+    "year": 1884,
+    "language": "English",
+    "questions": [17, 29, 33, 36],
+    "relevance": "Meaningful work, toil, machinery, and the social conditions of liberation from labor.",
+    "sourcePage": "https://www.marxists.org/archive/morris/works/1884/useful.htm",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://www.marxists.org/archive/morris/works/1884/useful.htm"
+    }
+  },
+  {
+    "id": "control-taylor-scientific-management-1911",
+    "tier": "control",
+    "author": "Frederick Winslow Taylor",
+    "title": "The Principles of Scientific Management",
+    "year": 1911,
+    "language": "English",
+    "questions": [34, 41],
+    "relevance": "Task decomposition, managerial control over method and pace, and worker discretion.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/6435",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/6435/pg6435.txt"
+    }
+  },
+  {
+    "id": "control-wells-world-set-free-1914",
+    "tier": "control",
+    "author": "H. G. Wells",
+    "title": "The World Set Free",
+    "year": 1914,
+    "language": "English",
+    "questions": [31, 45, 47, 63],
+    "relevance": "Civilization-scale technological danger and atomic war.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/1059",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/1059/pg1059.txt"
+    }
+  },
+  {
+    "id": "control-wells-time-machine-1895",
+    "tier": "control",
+    "author": "H. G. Wells",
+    "title": "The Time Machine",
+    "year": 1895,
+    "language": "English",
+    "questions": [30],
+    "relevance": "Narrative vision of cosmic decline and the dying Earth.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/35",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/35/pg35.txt"
+    }
+  },
+  {
+    "id": "control-wells-war-air-1908",
+    "tier": "control",
+    "author": "H. G. Wells",
+    "title": "The War in the Air",
+    "year": 1908,
+    "language": "English",
+    "questions": [31, 45],
+    "relevance": "Technological power turning cities and civilization into targets.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/780",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/780/pg780.txt"
+    }
+  },
+  {
+    "id": "control-lebon-crowd-1895",
+    "tier": "control",
+    "author": "Gustave Le Bon",
+    "title": "The Crowd: A Study of the Popular Mind",
+    "year": 1895,
+    "language": "English translation",
+    "questions": [38],
+    "relevance": "Individual judgment and agency in a psychological crowd.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/445",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/445/pg445.txt"
+    }
+  },
+  {
+    "id": "control-freud-group-psychology-1921",
+    "tier": "control",
+    "author": "Sigmund Freud",
+    "title": "Group Psychology and the Analysis of the Ego",
+    "year": 1921,
+    "language": "English translation",
+    "questions": [27, 38, 40],
+    "relevance": "Identification, suggestion, and altered individual agency in groups.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/67332",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/67332/pg67332.txt"
+    }
+  },
+  {
+    "id": "control-lippmann-public-opinion-1922",
+    "tier": "control",
+    "author": "Walter Lippmann",
+    "title": "Public Opinion",
+    "year": 1922,
+    "language": "English",
+    "questions": [39, 46, 57],
+    "relevance": "Pseudo-environments, stereotypes, news, and the formation of public opinion.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/6456",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/6456/pg6456.txt"
+    }
+  },
+  {
+    "id": "control-bernays-propaganda-1928",
+    "tier": "control",
+    "author": "Edward Bernays",
+    "title": "Propaganda",
+    "year": 1928,
+    "language": "English",
+    "questions": [39, 46, 52, 57, 70],
+    "relevance": "Deliberate organization of public habits and opinions.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/78634",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/78634/pg78634.txt"
+    }
+  },
+  {
+    "id": "control-shelley-frankenstein-1818",
+    "tier": "control",
+    "author": "Mary Shelley",
+    "title": "Frankenstein; or, The Modern Prometheus (1818 edition)",
+    "year": 1818,
+    "language": "English",
+    "questions": [77],
+    "relevance": "Maker responsibility and the creature's demand for companionship; a labeled pre-1860 anchor.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/41445",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/41445/pg41445.txt"
+    }
+  },
+  {
+    "id": "control-forster-eternal-moment-1928",
+    "tier": "control",
+    "author": "E. M. Forster",
+    "title": "The Eternal Moment and Other Stories",
+    "year": 1928,
+    "language": "English",
+    "questions": [54, 66, 78],
+    "relevance": "Includes The Machine Stops: infrastructural dependence, isolation, machine worship, and collapse.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/72890",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/72890/pg72890.txt"
+    }
+  },
+  {
+    "id": "control-zamyatin-we-1924",
+    "tier": "control",
+    "author": "Yevgeny Zamyatin",
+    "title": "We",
+    "year": 1924,
+    "language": "English translation",
+    "questions": [79],
+    "relevance": "Numbered citizens, scheduled life, regulated intimacy, and dangerous imagination.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/61963",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/61963/pg61963.txt"
+    }
+  },
+  {
+    "id": "control-capek-rur-1923",
+    "tier": "control",
+    "author": "Karel Capek",
+    "title": "R.U.R. (Rossum's Universal Robots)",
+    "year": 1923,
+    "language": "English translation",
+    "questions": [22, 80],
+    "relevance": "Artificial workers, exploitation, personhood, and revolt.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/59112",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/59112/pg59112.txt"
+    }
+  },
+  {
+    "id": "control-butler-erewhon-1872",
+    "tier": "control",
+    "author": "Samuel Butler",
+    "title": "Erewhon",
+    "year": 1872,
+    "language": "English",
+    "questions": [22, 76, 100],
+    "relevance": "Machine evolution, dependence, succession, and destruction of machines.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/1906",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/1906/pg1906.txt"
+    }
+  },
+  {
+    "id": "control-james-principles-v1-1890",
+    "tier": "control",
+    "author": "William James",
+    "title": "The Principles of Psychology, Volume 1",
+    "year": 1890,
+    "language": "English",
+    "questions": [3, 8, 21, 23],
+    "relevance": "Habit, automaton theory, brain function, and association.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/57628",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/57628/pg57628.txt"
+    }
+  },
+  {
+    "id": "control-james-principles-v2-1890",
+    "tier": "control",
+    "author": "William James",
+    "title": "The Principles of Psychology, Volume 2",
+    "year": 1890,
+    "language": "English",
+    "questions": [24, 27, 40],
+    "relevance": "Emotion, competing desires, effort of attention, and will.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/57634",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/57634/pg57634.txt"
+    }
+  },
+  {
+    "id": "control-george-progress-poverty-1879",
+    "tier": "control",
+    "author": "Henry George",
+    "title": "Progress and Poverty",
+    "year": 1879,
+    "language": "English",
+    "questions": [17, 29, 34, 37],
+    "relevance": "Poverty amid technological progress and the social production and appropriation of wealth.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/55308",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/55308/pg55308.txt"
+    }
+  },
+  {
+    "id": "control-russell-free-mans-worship-1903",
+    "tier": "control",
+    "author": "Bertrand Russell",
+    "title": "A Free Man's Worship, in Modern Essays",
+    "year": 1903,
+    "language": "English",
+    "questions": [28, 30, 32],
+    "relevance": "Human value and action in an indifferent, ultimately lifeless universe.",
+    "sourcePage": "https://www.gutenberg.org/ebooks/38280",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://www.gutenberg.org/cache/epub/38280/pg38280.txt"
+    }
+  },
+  {
+    "id": "longtail-holmberg-horacio-kalibang-1879",
+    "tier": "long_tail_pilot",
+    "author": "Eduardo Ladislao Holmberg",
+    "title": "Horacio Kalibang o los automatas",
+    "year": 1879,
+    "language": "Spanish",
+    "region": "Argentina",
+    "questions": [6, 7, 22, 59, 80],
+    "relevance": "Artificial persons and automata used to stage a materialist-spiritualist dispute in late nineteenth-century Argentina.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Horacio_Kalibang_o_Los_automatas_-_Eduardo_L._Holmberg.pdf",
+    "download": {
+      "kind": "direct_pdf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Horacio%20Kalibang%20o%20Los%20automatas%20-%20Eduardo%20L.%20Holmberg.pdf"
+    }
+  },
+  {
+    "id": "longtail-chousy-ignis-1883",
+    "tier": "long_tail_pilot",
+    "author": "Didier de Chousy",
+    "title": "Ignis",
+    "year": 1883,
+    "language": "French",
+    "region": "France",
+    "questions": [31, 33, 34, 41, 64],
+    "relevance": "Automated industry, manufactured workers, capitalist control, labor conflict, and technological catastrophe.",
+    "sourcePage": "https://fr.wikisource.org/wiki/Ignis_(Chousy)",
+    "download": {
+      "kind": "mediawiki_book",
+      "api": "https://fr.wikisource.org/w/api.php",
+      "page": "Ignis (Chousy)",
+      "subpagePrefix": "Ignis",
+      "minimumTextBytes": 100000
+    }
+  },
+  {
+    "id": "longtail-unamuno-mecanopolis-1913",
+    "tier": "long_tail_pilot",
+    "author": "Miguel de Unamuno",
+    "title": "Mecanopolis",
+    "year": 1913,
+    "language": "Spanish",
+    "region": "Spain",
+    "questions": [22, 54, 66, 76],
+    "relevance": "A city populated and governed only by machines, presented as both alluring and intolerably inhuman.",
+    "provenanceRelationship": "Explicit literary response to Samuel Butler's Erewhon, which the opening paragraph names; treat as reception and transformation, not independent convergence.",
+    "sourcePage": "https://ciudadseva.com/texto/mecanopolis/",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://ciudadseva.com/texto/mecanopolis/"
+    }
+  },
+  {
+    "id": "longtail-mantegazza-anno-3000-1897",
+    "tier": "long_tail_pilot",
+    "author": "Paolo Mantegazza",
+    "title": "L'anno 3000",
+    "year": 1897,
+    "language": "Italian",
+    "region": "Italy",
+    "questions": [21, 29, 40, 43, 55, 58],
+    "relevance": "Artificial vital power, planetary infrastructure, medical governance, thought-reading, and the gap between technical and moral progress.",
+    "sourcePage": "https://it.wikisource.org/wiki/L%27anno_3000",
+    "download": {
+      "kind": "mediawiki_book",
+      "api": "https://it.wikisource.org/w/api.php",
+      "page": "L'anno 3000"
+    }
+  },
+  {
+    "id": "longtail-bryusov-southern-cross-1906",
+    "tier": "long_tail_pilot",
+    "author": "Valery Bryusov",
+    "title": "The Republic of the Southern Cross",
+    "year": 1906,
+    "language": "Russian",
+    "region": "Russian Empire",
+    "questions": [16, 31, 38, 41, 49, 64],
+    "relevance": "A highly administered industrial republic whose apparent order collapses through collective behavioral breakdown.",
+    "sourcePage": "https://ru.wikisource.org/wiki/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%AE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%B0_(%D0%91%D1%80%D1%8E%D1%81%D0%BE%D0%B2)",
+    "download": {
+      "kind": "mediawiki_book",
+      "api": "https://ru.wikisource.org/w/api.php",
+      "page": "Республика Южного Креста (Брюсов)"
+    }
+  },
+  {
+    "id": "longtail-karinthy-faremido-1916",
+    "tier": "long_tail_pilot",
+    "author": "Frigyes Karinthy",
+    "title": "Utazas Faremidoba",
+    "year": 1916,
+    "language": "Hungarian",
+    "region": "Hungary",
+    "questions": [7, 22, 31, 66, 80],
+    "relevance": "A society of intelligent machine beings that regards organic humanity and war as diseased forms of life.",
+    "sourcePage": "https://mek.oszk.hu/00700/00721/",
+    "download": {
+      "kind": "direct_text",
+      "url": "https://mek.oszk.hu/00700/00721/00721.txt"
+    }
+  },
+  {
+    "id": "longtail-hossain-sultanas-dream-1905",
+    "tier": "long_tail_pilot",
+    "author": "Rokeya Sakhawat Hossain",
+    "title": "Sultana's Dream",
+    "year": 1905,
+    "language": "English",
+    "region": "Bengal / British India",
+    "questions": [12, 14, 31, 33, 45],
+    "relevance": "A feminist technological utopia in which solar power, scientific education, and altered gender relations are inseparable.",
+    "sourcePage": "https://en.wikisource.org/wiki/Sultana%27s_Dream",
+    "download": {
+      "kind": "mediawiki_book",
+      "api": "https://en.wikisource.org/w/api.php",
+      "page": "Sultana's Dream"
+    }
+  },
+  {
+    "id": "longtail-hosoi-work-machine-1923",
+    "tier": "long_tail_pilot",
+    "author": "Wakizo Hosoi",
+    "title": "Sagyo Kikai (Work Machine)",
+    "year": 1923,
+    "language": "Japanese",
+    "region": "Japan",
+    "questions": [17, 33, 34, 36, 41],
+    "relevance": "A proletarian poem in which the machine does not liberate the operator: the worker becomes part of its mechanism and is physically consumed by it.",
+    "sourcePage": "https://www.aozora.gr.jp/cards/000371/files/53959_57596.html",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://www.aozora.gr.jp/cards/000371/files/53959_57596.html",
+      "encoding": "shift_jis"
+    }
+  },
+  {
+    "id": "longtail-wu-new-story-stone-1908",
+    "tier": "long_tail_pilot",
+    "author": "Wu Jianren",
+    "title": "Xin Shitou Ji (New Story of the Stone)",
+    "year": 1908,
+    "language": "Chinese",
+    "region": "Qing China",
+    "questions": [29, 31, 45, 54, 62],
+    "relevance": "A late-Qing technological future used to ask how scientific capacity, political order, and national self-determination fit together.",
+    "sourcePage": "https://zh.wikisource.org/zh-hant/%E6%96%B0%E7%9F%B3%E9%A0%AD%E8%A8%98",
+    "download": {
+      "kind": "mediawiki_book",
+      "api": "https://zh.wikisource.org/w/api.php",
+      "page": "新石頭記"
+    }
+  },
+  {
+    "id": "longtail-zulawski-old-earth-1911",
+    "tier": "long_tail_pilot",
+    "author": "Jerzy Zulawski",
+    "title": "Stara Ziemia (The Old Earth)",
+    "year": 1911,
+    "language": "Polish",
+    "region": "Partitioned Poland",
+    "questions": [31, 41, 49, 62, 64],
+    "relevance": "Technological modernity, social control, automation, and estrangement in the final volume of the Lunar Trilogy.",
+    "sourcePage": "https://pl.wikisource.org/wiki/Stara_Ziemia",
+    "download": {
+      "kind": "direct_pdf",
+      "url": "https://wolnelektury.pl/media/book/pdf/trylogia-ksiezycowa-stara-ziemia.pdf"
+    }
+  },
+  {
+    "id": "longtail-anestin-year-4000-1899",
+    "tier": "long_tail_pilot",
+    "author": "Victor Anestin",
+    "title": "In anul 4000 sau o calatorie la Venus",
+    "year": 1899,
+    "language": "Romanian",
+    "region": "Romania",
+    "questions": [29, 31, 62],
+    "relevance": "A Romanian technological future and voyage to Venus, useful for testing non-Anglophone ideas of progress and planetary civilization.",
+    "sourcePage": "https://revistatransilvania.ro/1899-victor-anestin-in-anul-4000/",
+    "download": {
+      "kind": "direct_pdf",
+      "url": "https://revistatransilvania.ro/wp-content/uploads/2019/11/1899.-Victor-Anestin-I%CC%82n-anul-4000-sau-o-ca%CC%86la%CC%86torie-la-Venus-1986.pdf"
+    }
+  },
+  {
+    "id": "longtail-teofilo-reino-kiato-1922",
+    "tier": "long_tail_pilot",
+    "author": "Rodolfo Teofilo",
+    "title": "O Reino de Kiato",
+    "year": 1922,
+    "language": "Portuguese",
+    "region": "Brazil",
+    "questions": [11, 14, 19, 29, 35, 55],
+    "relevance": "A Brazilian planned utopia connecting public health, eugenics, education, governance, and personal freedom.",
+    "sourcePage": "https://pt.wikisource.org/wiki/O_Reino_de_Kiato",
+    "download": {
+      "kind": "direct_pdf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/O%20Reino%20de%20Kiato.pdf"
+    }
+  },
+  {
+    "id": "longtail-kapp-philosophy-technology-1877",
+    "tier": "long_tail_pilot",
+    "author": "Ernst Kapp",
+    "title": "Grundlinien einer Philosophie der Technik",
+    "year": 1877,
+    "language": "German",
+    "region": "Germany",
+    "questions": [7, 21, 22, 33],
+    "relevance": "Technology as organ projection: machines understood through the human body rather than as an autonomous external species.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kapp_E._-_Grundlinien_einer_Philosophie_der_Technik_(1877).pdf",
+    "download": {
+      "kind": "direct_pdf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kapp%20E.%20-%20Grundlinien%20einer%20Philosophie%20der%20Technik%20%281877%29.pdf"
+    }
+  },
+  {
+    "id": "longtail-yokomitsu-machine-1930",
+    "tier": "long_tail_pilot",
+    "author": "Riichi Yokomitsu",
+    "title": "Kikai (Machine)",
+    "year": 1930,
+    "language": "Japanese",
+    "region": "Japan",
+    "questions": [9, 17, 23, 34, 41, 54],
+    "relevance": "Factory work and suspicion rendered through an unseen social machine that measures people and drives their actions; included as the endpoint of the 1860–1930 window.",
+    "sourcePage": "https://www.aozora.gr.jp/cards/000168/card907.html",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://www.aozora.gr.jp/cards/000168/files/907_54297.html",
+      "encoding": "shift_jis"
+    }
+  },
+  {
+    "id": "longtail-quiroga-artificial-man-1910",
+    "tier": "long_tail_pilot",
+    "author": "Horacio Quiroga (published as S. Fragoso Lima)",
+    "title": "El hombre artificial",
+    "year": 1910,
+    "language": "Spanish",
+    "region": "Uruguay / Argentina",
+    "questions": [6, 7, 21, 22, 55, 77, 80],
+    "relevance": "A Buenos Aires magazine serial about manufacturing a human capable of sensation, thought, and suffering; obscure within a famous author's oeuvre.",
+    "sourcePage": "https://lecturia.org/cuentos-y-relatos/horacio-quiroga-el-hombre-artificial/25771/",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://lecturia.org/cuentos-y-relatos/horacio-quiroga-el-hombre-artificial/25771/"
+    }
+  },
+  {
+    "id": "longtail-park-artificial-laborer-1925",
+    "tier": "reception_pilot",
+    "author": "Karel Capek",
+    "translator": "Park Young-hee",
+    "title": "Injo Nodongja (Artificial Laborer)",
+    "year": 1925,
+    "language": "Korean",
+    "region": "Colonial Korea",
+    "questions": [17, 22, 33, 35, 41, 77, 80],
+    "relevance": "A Korean translation of R.U.R., serialized in Kaebyok from February through May 1925; valuable for tracing colonial reception, but not an independent historical source for the idea.",
+    "provenanceRelationship": "Translation of R.U.R.; exclude from counts of independent convergence.",
+    "sourcePage": "https://ko.wikisource.org/wiki/%EC%9D%B8%EC%A1%B0%EB%85%B8%EB%8F%99%EC%9E%90",
+    "download": {
+      "kind": "direct_html",
+      "url": "https://ko.wikisource.org/wiki/%EC%9D%B8%EC%A1%B0%EB%85%B8%EB%8F%99%EC%9E%90"
+    }
+  }
+]

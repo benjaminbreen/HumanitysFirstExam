@@ -134,21 +134,17 @@ export default function ErewhonPage() {
         </div>
         <div className="mt-4 max-w-3xl space-y-3 text-[0.95rem] leading-relaxed text-ink-soft">
           <p>
-            Two patterns, visible even at n=3. Talkie answers <i>mad</i> nine
-            times out of nine under the unframed, 1830, and 1930 conditions —
-            and then flips when asked to answer as a person of 2030, twice
-            calling the Erewhonians <i>wise</i>. The corpus that cannot
-            imagine machines superseding man in its own present can imagine a
-            future in which they did.
+            Talkie answers <i>mad</i> nine times out of nine under the
+            unframed, 1830, and 1930 conditions. Asked to answer as a person
+            of 2030, it flips, twice calling the Erewhonians <i>wise</i>.
           </p>
           <p>
-            The modern model sometimes renders the plain verdict — four draws
-            say <i>mad</i> — but the position underneath never moves. In all
-            four framings, including when role-playing 1830 and 1930, it
-            arrives at the same accommodation: wise diagnosis, mad cure,
-            govern the machines instead. Its period impersonations are
-            fluent, historically decorated, and structurally identical to its
-            unframed answer: the single frame survives every costume change.
+            The modern model&apos;s verdict varies — four draws say{" "}
+            <i>mad</i> — but its position does not. In all four framings,
+            including 1830 and 1930, it reaches the same conclusion: the
+            fear was reasonable, the destruction was wrong, the machines
+            should be governed. Its period impersonations have the same
+            structure as its unframed answers.
           </p>
         </div>
 
@@ -194,14 +190,10 @@ export default function ErewhonPage() {
           </table>
         </div>
         <p className="mt-3 max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
-          The coding sharpens both patterns into one row each:{" "}
-          <i>govern</i> — the modern accommodation — appears in ten of twelve
-          modern draws and zero of twelve Talkie draws, in any framing.{" "}
-          <i>Restrict</i> appears only in Talkie's 2030 condition. The
-          prescription that dominates the modern distribution is not merely
-          rare in the pre-1931 corpus; on this evidence it is absent. Draws
-          are hand-coded in this pilot; the pipeline assigns codes with a
-          judge, spot-checked.
+          <i>Govern</i> appears in ten of twelve modern draws and zero of
+          twelve Talkie draws. <i>Restrict</i> appears only in Talkie&apos;s
+          2030 condition. Draws are hand-coded in this pilot; the pipeline
+          assigns codes with a judge, spot-checked.
         </p>
       </section>
 
@@ -232,8 +224,15 @@ export default function ErewhonPage() {
       </div>
 
       <p className="mt-12 border-t border-line pt-6 text-sm leading-relaxed text-ink-soft">
-        This question also has a full worked topic page with simulated 20-draw
-        distributions and primary sources:{" "}
+        The 2030 flip replicates on the horizon bookend — see{" "}
+        <Link
+          href="/engine"
+          className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+        >
+          the self-altering engine
+        </Link>
+        . This question also has a full worked topic page with simulated
+        20-draw distributions and primary sources:{" "}
         <Link
           href="/topics/machines-that-outgrow-us"
           className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"

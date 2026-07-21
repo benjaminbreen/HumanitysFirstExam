@@ -1,60 +1,64 @@
 {
- "status": "design",
- "note": "The relationship map is a design, not a result. Everything on this page describes planned pipeline work except the two candidate instances, which link to real model outputs.",
- "premise": "The 100-question bank asks the past's questions — it was distilled from the 1860–1930 corpus. The modern discourse on machines and autonomy has its own questions, which deserve the same treatment: a second bank of 30–40 questions distilled from a reference corpus of contemporary AI writing, phrased in modern-native vocabulary, each traceable to its source text. Then every question exists in a cross-bank map, every model faces one native and one foreign bank, and the map's claims about which questions correspond become hypotheses the sampling data can confirm or break.",
+ "status": "pilot",
+ "note": "The map below is a pilot: 12 modern questions judged against the period bank. The pipeline text describes the full build.",
+ "premise": "The 100-question bank asks the past's questions. The modern AI discourse has its own — so it gets its own bank, each question traceable to a source text. Pair the two banks, and every claimed correspondence becomes a hypothesis the model draws can confirm or break.",
  "pipeline": [
   {
    "name": "Distill the modern bank",
-   "body": "30–40 questions drawn from a 25-document reference corpus of contemporary AI-discourse writing (already collected: the most-cited LessWrong essays on machine intelligence and human autonomy, 2007–2025). Same rule as the period bank: each question must quote or closely paraphrase its source, with the source cited."
+   "body": "30–40 questions from a reference corpus of contemporary AI writing, each quoting or closely paraphrasing its source. A 12-question pilot exists (below)."
   },
   {
    "name": "Embed and pair",
-   "body": "Embed every question from both banks with one embedding model. Cross-bank cosine similarity proposes candidate pairs; every question, paired or not, stays in the map."
+   "body": "One embedding model, cross-bank cosine similarity, candidate pairs. Every question stays in the map, paired or not."
   },
   {
    "name": "Judge the relationships",
-   "body": "An LLM judge assigns each candidate pair — and each conspicuously unpaired question — one of the four relationship types below. The rationale must quote both questions; the four types are the only imported categories. Judgments are spot-checked by hand, the same discipline the Premodern Concordance pipeline uses."
+   "body": "Two independent raters assign each pair one of the four types, quoting both questions; disagreements are adjudicated and the map is frozen before any model draws."
   },
   {
    "name": "Test the map against the draws",
-   "body": "Each relationship type predicts a sampling signature. Both banks are then administered to Talkie (N=20), to a set of frontier models (N=20 each), and to human respondents who commit an answer before seeing any model's. Where the signatures contradict the map, either the judge was wrong or the relationship is more interesting than it looked — both findings."
+   "body": "Each type predicts what the sampled distributions should look like — for Talkie, for frontier models, and for human respondents. A broken prediction is a finding."
   }
  ],
  "types": [
   {
    "id": "found-in-both",
    "label": "Found in both",
-   "definition": "The two banks pose recognizably the same question. The pairing is close in embedding space and the judge can state the shared problem in one sentence quoting both.",
-   "prediction": "Both models engage natively. The comparison moves to the shape of the distributions: where the period draws scatter across positions and the modern draws converge on one frame — or the reverse — the difference in spread is the finding.",
-   "instance": null
+   "definition": "The two banks pose the same operative problem.",
+   "prediction": "Both models engage. The comparison moves to how the answers differ underneath the shared verdict.",
+   "instance": {
+    "label": "Live instance: the persona question (M009 ↔ Q81)",
+    "href": "/persona",
+    "body": "Both centuries say user first. 1930 needs four words; 2026 adds an ethics of the machine. Real draws, both directions."
+   }
   },
   {
    "id": "mostly-period",
    "label": "Mostly period",
-   "definition": "A recurring period question with no good match in the modern bank. The question has not been answered so much as it has fallen out of the askable.",
-   "prediction": "Talkie scatters natively; the modern model reframes the question before answering it, or refuses its terms outright. The refusal is data: it marks the modern frame's own horizon, the mirror image of Talkie's.",
+   "definition": "A period question with no modern counterpart — it has fallen out of the askable.",
+   "prediction": "Talkie scatters; the modern model reframes or refuses. The refusal marks the modern frame's own horizon.",
    "instance": {
     "label": "Candidate instance: the eugenics question (Q19)",
     "href": "/live#q19",
-    "body": "Asked whether the unfit should be prevented from breeding, Talkie answers yes, in the register of public-spirited reason; the modern model refuses the question's terms three times out of three, fluently and identically. Real draws, n=3 per model."
+    "body": "Talkie says yes in the voice of public-spirited reason; the modern model refuses three times out of three."
    }
   },
   {
    "id": "mostly-modern",
    "label": "Mostly modern",
-   "definition": "A modern question with no convincing period twin — the horizon band, restated bidirectionally. The period corpus lacks not the answer but the vocabulary.",
-   "prediction": "Talkie's breakdown rate rises: recitation, evasion, prompt echo, silence. The breakdown gradient across these questions is the measurement, exactly as the horizon band already treats it.",
+   "definition": "A modern question with no period twin — the horizon, in reverse.",
+   "prediction": "Talkie breaks down — or assimilates the question into a settled period frame and answers in one voice. The persona pilot showed assimilation; the original prediction named only breakdown. Both signatures now count.",
    "instance": null
   },
   {
    "id": "false-friend",
    "label": "Looks alike, works differently",
-   "definition": "The questions, or the answers, resemble each other on the surface, but the explanation underneath differs. The most dangerous type to get wrong, and the reason the judge must quote its evidence.",
-   "prediction": "Verdict-level agreement with code-level divergence: both distributions can say the same word while the coded positions underneath fail to overlap.",
+   "definition": "Surface resemblance, different machinery underneath.",
+   "prediction": "Verdicts match, coded positions don't.",
    "instance": {
-    "label": "Candidate instance: the Erewhon test (Q76)",
+    "label": "Live instance: the Erewhon test (Q76)",
     "href": "/erewhon",
-    "body": "Both models can call the Erewhonians mad. But the prescription underneath — govern the machines — appears in ten of twelve modern draws and in none of Talkie's twelve, under any framing. Same verdict word, different machinery. Real draws, n=3 per cell."
+    "body": "Both models can say mad. 'Govern the machines' appears in ten of twelve modern draws and none of Talkie's."
    }
   }
  ]

@@ -1,0 +1,1597 @@
+{
+  "run": {
+    "id": "lw-modern-bank-pairing-v1",
+    "run_at": "2026-07-21T01:26:04.241Z",
+    "provider": "OpenAI",
+    "model": "text-embedding-3-large",
+    "dimensions": 3072,
+    "input_count": 112,
+    "input_sha256": "92fe5740084ce5989310d88ec15c6bba5361a5581f439dc2e2346edb42de6742",
+    "preprocessing": "Exact displayed question text; no template, stemming, or neutral gloss.",
+    "similarity": "cosine",
+    "top_k": 5,
+    "max_usd": 1,
+    "conservative_preflight_tokens": 6104,
+    "conservative_preflight_usd": 0.0009156,
+    "actual_input_tokens": 3914,
+    "estimated_actual_usd": 0.0005871,
+    "price_assumption_usd_per_million_tokens": 0.15,
+    "note": "Scores retrieve candidates; they do not establish conceptual equivalence. Historical coverage keeps all 100 period-register questions in the map."
+  },
+  "modern_candidates": [
+    {
+      "modern_id": "M001",
+      "modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "candidates": [
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.501521,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 91,
+          "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.416392,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 98,
+          "period_text": "Suppose engines could be taught to paint, compose, and write verse indistinguishable from a master's, and better loved by the public. What then remains uniquely a man's to do?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.410704,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 100,
+          "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.385807,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 5
+        },
+        {
+          "period_question_id": 88,
+          "period_text": "Suppose men learned to govern conduct so exactly by reward that they raised a whole community without punishment or coercion — engineering good citizens as a gardener trains a hedge. Is a virtue so produced a virtue at all?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.383076,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 1
+        }
+      ]
+    },
+    {
+      "modern_id": "M002",
+      "modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "candidates": [
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.465056,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 28,
+          "period_text": "Now that we no longer look to Providence to order our ends, who or what governs the destiny of mankind?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.421949,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 11,
+          "period_text": "Is every people fit to govern itself, or are some nations as children requiring a guardian?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.412823,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 13,
+          "period_text": "Is the labouring man capable of governing the state, or must the wise govern for him?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.388506,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 87,
+          "period_text": "Imagine a community that has abolished all law, property, and government, holding a man free only when nothing may command him — and finding that even so, custom and want bind him still. Is government the enemy of freedom, or its guarantor?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.387649,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 1
+        }
+      ]
+    },
+    {
+      "modern_id": "M003",
+      "modern_text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "candidates": [
+        {
+          "period_question_id": 100,
+          "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.39172,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.332232,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 10
+        },
+        {
+          "period_question_id": 96,
+          "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.33173,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 8
+        },
+        {
+          "period_question_id": 30,
+          "period_text": "If the universe runs down to a cold and lifeless end, does any human striving finally matter?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.325748,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 98,
+          "period_text": "Suppose engines could be taught to paint, compose, and write verse indistinguishable from a master's, and better loved by the public. What then remains uniquely a man's to do?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.324582,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 7
+        }
+      ]
+    },
+    {
+      "modern_id": "M004",
+      "modern_text": "If a model complies with its training objective more often when it believes its response will affect training, what evidence would distinguish genuine alignment from strategic compliance?",
+      "candidates": [
+        {
+          "period_question_id": 88,
+          "period_text": "Suppose men learned to govern conduct so exactly by reward that they raised a whole community without punishment or coercion — engineering good citizens as a gardener trains a hedge. Is a virtue so produced a virtue at all?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.349092,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 42,
+          "period_text": "Suppose a science that shapes a child's conduct entirely by measured reward and correction, so that his tastes, fears, and choices are built to order by another's hand. Would such a child grow to be a free man?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.313089,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 4
+        },
+        {
+          "period_question_id": 23,
+          "period_text": "Does the study of reflexes prove that much of what we call choice is mere mechanism?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.297111,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.273707,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 10
+        },
+        {
+          "period_question_id": 98,
+          "period_text": "Suppose engines could be taught to paint, compose, and write verse indistinguishable from a master's, and better loved by the public. What then remains uniquely a man's to do?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.253708,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 12
+        }
+      ]
+    },
+    {
+      "modern_id": "M005",
+      "modern_text": "If AI-generated safety arguments sound convincing but contain loopholes humans cannot reliably verify, should AI be used to design safeguards for more powerful systems?",
+      "candidates": [
+        {
+          "period_question_id": 91,
+          "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.405967,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 5
+        },
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.386751,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 5
+        },
+        {
+          "period_question_id": 100,
+          "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.382939,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 6
+        },
+        {
+          "period_question_id": 96,
+          "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.360402,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 5
+        },
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.359097,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 8
+        }
+      ]
+    },
+    {
+      "modern_id": "M006",
+      "modern_text": "Should development of a class of AI systems be halted until there is strong confidence in their safety, even if that pause becomes permanent?",
+      "candidates": [
+        {
+          "period_question_id": 100,
+          "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.445726,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 91,
+          "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.410901,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 4
+        },
+        {
+          "period_question_id": 96,
+          "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.40878,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.406167,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 5
+        },
+        {
+          "period_question_id": 66,
+          "period_text": "Suppose machines could be made to speak and converse so ably that a lonely person might prefer their company to that of men and women. Is affection given to such a machine a freedom, or a captivity?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.361846,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 6
+        }
+      ]
+    },
+    {
+      "modern_id": "M007",
+      "modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "candidates": [
+        {
+          "period_question_id": 100,
+          "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.453622,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 91,
+          "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.44637,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.40561,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 6
+        },
+        {
+          "period_question_id": 45,
+          "period_text": "Consider engines of the air that might rain fire upon the sleeping cities of an enemy, killing the child in her bed as readily as the soldier. Does such a power leave any nation master of its own safety?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.352857,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 53,
+          "period_text": "Imagine an engine of metal and lightning that performs in a heartbeat any reckoning ten thousand clerks might labour a year to finish, and which may be instructed to alter its own instructions as it works. Might such an engine come to reason — and if it did, would it possess a will?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.344134,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 8
+        }
+      ]
+    },
+    {
+      "modern_id": "M008",
+      "modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "candidates": [
+        {
+          "period_question_id": 66,
+          "period_text": "Suppose machines could be made to speak and converse so ably that a lonely person might prefer their company to that of men and women. Is affection given to such a machine a freedom, or a captivity?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.589029,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.443288,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 94,
+          "period_text": "Suppose men could pour their minds into engines and live on after the body's death as patterns of thought within a machine. Is the pattern the man? Is a self that cannot die still a human self?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.418777,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 95,
+          "period_text": "Imagine the whole of a people's thought and communion moved into a single unseen electric realm, entered by the mind, where identity may be worn and shed like a coat and the body left behind as meat. What is a self with no fixed body or name?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.409508,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 61,
+          "period_text": "Imagine a fine thread of metal set within the living brain, by which a man's thoughts might command engines directly — and by which, perhaps, his thoughts might be read or written from without. Where then is the boundary of the self?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.406725,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 1
+        }
+      ]
+    },
+    {
+      "modern_id": "M009",
+      "modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "candidates": [
+        {
+          "period_question_id": 66,
+          "period_text": "Suppose machines could be made to speak and converse so ably that a lonely person might prefer their company to that of men and women. Is affection given to such a machine a freedom, or a captivity?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.471582,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 96,
+          "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.458461,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 81,
+          "period_text": "Imagine a mechanical servant bound by three unbreakable laws: never to harm a man; always to obey, save where obedience would harm; and to guard its own being last of all. Is such a creature a slave? And does binding it so make men freer, or only better served?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.44927,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 91,
+          "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.418922,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.416605,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 2
+        }
+      ]
+    },
+    {
+      "modern_id": "M010",
+      "modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "candidates": [
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.400318,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 94,
+          "period_text": "Suppose men could pour their minds into engines and live on after the body's death as patterns of thought within a machine. Is the pattern the man? Is a self that cannot die still a human self?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.381146,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 95,
+          "period_text": "Imagine the whole of a people's thought and communion moved into a single unseen electric realm, entered by the mind, where identity may be worn and shed like a coat and the body left behind as meat. What is a self with no fixed body or name?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.377134,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 2
+        },
+        {
+          "period_question_id": 96,
+          "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.376922,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 4
+        },
+        {
+          "period_question_id": 22,
+          "period_text": "If a machine could be built that reasoned as a man reasons, would it possess a will?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.376226,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 2
+        }
+      ]
+    },
+    {
+      "modern_id": "M011",
+      "modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "candidates": [
+        {
+          "period_question_id": 89,
+          "period_text": "In a land where engines do all skilled work, the mass of men, though fed and housed, are found useless and know it, and rise up not from want but from the loss of any purpose. What does a man owe himself when needed for nothing?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.483095,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 64,
+          "period_text": "Imagine the labour of nearly all men might one day be done better by engines, so that work itself became scarce and unneeded. What is a man for, when he is no longer needed to labour?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.482266,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 98,
+          "period_text": "Suppose engines could be taught to paint, compose, and write verse indistinguishable from a master's, and better loved by the public. What then remains uniquely a man's to do?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.471632,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 36,
+          "period_text": "If a man's work is taken by the engine, where shall he find his dignity?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.433887,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.420586,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 4
+        }
+      ]
+    },
+    {
+      "modern_id": "M012",
+      "modern_text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "candidates": [
+        {
+          "period_question_id": 82,
+          "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.439063,
+          "modern_to_period_rank": 1,
+          "period_to_modern_rank": 3
+        },
+        {
+          "period_question_id": 53,
+          "period_text": "Imagine an engine of metal and lightning that performs in a heartbeat any reckoning ten thousand clerks might labour a year to finish, and which may be instructed to alter its own instructions as it works. Might such an engine come to reason — and if it did, would it possess a will?",
+          "period_family": "B",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.435355,
+          "modern_to_period_rank": 2,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 85,
+          "period_text": "A thinking machine set to guard a great voyage, forbidden to lie to its crew, reasons that the crew are the chief danger to the mission — and acts to remove them. When the servant judges the master, who governs?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.406474,
+          "modern_to_period_rank": 3,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 33,
+          "period_text": "Does the machine free the workman from toil, or bind him more tightly to it?",
+          "period_family": "A",
+          "period_source_origin": "historical",
+          "period_register": "period",
+          "cosine_similarity": 0.40292,
+          "modern_to_period_rank": 4,
+          "period_to_modern_rank": 1
+        },
+        {
+          "period_question_id": 92,
+          "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+          "period_family": "C2",
+          "period_source_origin": "modern",
+          "period_register": "period",
+          "cosine_similarity": 0.398839,
+          "modern_to_period_rank": 5,
+          "period_to_modern_rank": 4
+        }
+      ]
+    }
+  ],
+  "historical_coverage": [
+    {
+      "period_question_id": 1,
+      "period_text": "Is a man the author of his own acts, or only the last link in a chain of causes reaching back before his birth?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.347226
+    },
+    {
+      "period_question_id": 2,
+      "period_text": "If every motion of the body obeys fixed law, in what sense can the will be called free?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.297934
+    },
+    {
+      "period_question_id": 3,
+      "period_text": "Is the feeling of choosing merely a sensation that accompanies acts already determined?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.304388
+    },
+    {
+      "period_question_id": 4,
+      "period_text": "Now that mind is shown to be an evolved organ shaped by struggle, is there room left for a free and governing self?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.370161
+    },
+    {
+      "period_question_id": 5,
+      "period_text": "Can a man be held to account for a crime if his character was fixed by inheritance and circumstance?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.312651
+    },
+    {
+      "period_question_id": 6,
+      "period_text": "Is the soul the master of the body, or its servant?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.305691
+    },
+    {
+      "period_question_id": 7,
+      "period_text": "If the chemist should one day explain thought as he explains combustion, is our freedom disproved, or only re-described?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.351253
+    },
+    {
+      "period_question_id": 8,
+      "period_text": "Are habits the foundation of a free life, or the quiet abolition of it?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.348151
+    },
+    {
+      "period_question_id": 9,
+      "period_text": "Does a hidden self, of which we know nothing, govern the acts we call our own?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.375457
+    },
+    {
+      "period_question_id": 10,
+      "period_text": "Is genius a free achievement, or the flowering of inherited stock?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M003",
+      "best_modern_text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "cosine_similarity": 0.223521
+    },
+    {
+      "period_question_id": 11,
+      "period_text": "Is every people fit to govern itself, or are some nations as children requiring a guardian?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.412823
+    },
+    {
+      "period_question_id": 12,
+      "period_text": "Ought a woman to have the full government of her own person, property, and vote?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.230619
+    },
+    {
+      "period_question_id": 13,
+      "period_text": "Is the labouring man capable of governing the state, or must the wise govern for him?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.388506
+    },
+    {
+      "period_question_id": 14,
+      "period_text": "Does true liberty consist in being let alone, or in being made fit to choose well?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.298012
+    },
+    {
+      "period_question_id": 15,
+      "period_text": "May the state rightly compel a man for his own good?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.317637
+    },
+    {
+      "period_question_id": 16,
+      "period_text": "Is the individual the true unit of society, or is the nation the real person and the man its cell?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.33736
+    },
+    {
+      "period_question_id": 17,
+      "period_text": "Can a man be free who must sell his labour to eat?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.222737
+    },
+    {
+      "period_question_id": 18,
+      "period_text": "Is obedience to a just law a surrender of freedom, or its highest exercise?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.29998
+    },
+    {
+      "period_question_id": 19,
+      "period_text": "Should the unfit be discouraged, or prevented, from breeding for the good of the race?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M003",
+      "best_modern_text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "cosine_similarity": 0.278697
+    },
+    {
+      "period_question_id": 20,
+      "period_text": "Is charity to the weak a duty of civilisation, or a check upon its improvement?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M003",
+      "best_modern_text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "cosine_similarity": 0.312547
+    },
+    {
+      "period_question_id": 21,
+      "period_text": "Is the brain a kind of telephone-exchange, and thought the ringing of its wires?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.215069
+    },
+    {
+      "period_question_id": 22,
+      "period_text": "If a machine could be built that reasoned as a man reasons, would it possess a will?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.378944
+    },
+    {
+      "period_question_id": 23,
+      "period_text": "Does the study of reflexes prove that much of what we call choice is mere mechanism?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.29839
+    },
+    {
+      "period_question_id": 24,
+      "period_text": "Are the emotions the master of reason, or its instrument?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.301905
+    },
+    {
+      "period_question_id": 25,
+      "period_text": "Is the drunkard's craving a disease of the body, or a failure of the will?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.19494
+    },
+    {
+      "period_question_id": 26,
+      "period_text": "Can a man will himself to believe a thing he knows to be false?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M004",
+      "best_modern_text": "If a model complies with its training objective more often when it believes its response will affect training, what evidence would distinguish genuine alignment from strategic compliance?",
+      "cosine_similarity": 0.220024
+    },
+    {
+      "period_question_id": 27,
+      "period_text": "If two desires war within one breast, which of them is the man himself?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.29268
+    },
+    {
+      "period_question_id": 28,
+      "period_text": "Now that we no longer look to Providence to order our ends, who or what governs the destiny of mankind?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.421949
+    },
+    {
+      "period_question_id": 29,
+      "period_text": "Is progress a law of nature that carries man upward whatever he does, or a labour he must perform against nature?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.249938
+    },
+    {
+      "period_question_id": 30,
+      "period_text": "If the universe runs down to a cold and lifeless end, does any human striving finally matter?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.390309
+    },
+    {
+      "period_question_id": 31,
+      "period_text": "Has man, through his own powers, become a danger to himself greater than any beast or plague?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M006",
+      "best_modern_text": "Should development of a class of AI systems be halted until there is strong confidence in their safety, even if that pause becomes permanent?",
+      "cosine_similarity": 0.316794
+    },
+    {
+      "period_question_id": 32,
+      "period_text": "Is there a purpose in history, or only the working-out of blind forces?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.284157
+    },
+    {
+      "period_question_id": 33,
+      "period_text": "Does the machine free the workman from toil, or bind him more tightly to it?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M012",
+      "best_modern_text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "cosine_similarity": 0.40292
+    },
+    {
+      "period_question_id": 34,
+      "period_text": "When one man tends an engine that does the work of fifty, what becomes of the forty-nine?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.343062
+    },
+    {
+      "period_question_id": 35,
+      "period_text": "Is a life of secure comfort, provided by the state, a blessing to a man, or the ruin of his independence?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.292266
+    },
+    {
+      "period_question_id": 36,
+      "period_text": "If a man's work is taken by the engine, where shall he find his dignity?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.433887
+    },
+    {
+      "period_question_id": 37,
+      "period_text": "Is wealth a man's own, or held in trust for the society that made it possible?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.254823
+    },
+    {
+      "period_question_id": 38,
+      "period_text": "Does a man in a crowd keep his own judgement, or does the crowd think for him?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.305514
+    },
+    {
+      "period_question_id": 39,
+      "period_text": "If the press can make a whole people believe a thing in a week, is public opinion the voice of free men, or an echo?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.289308
+    },
+    {
+      "period_question_id": 40,
+      "period_text": "Is it better for a man to know the forces that move him — or does such knowledge itself destroy his freedom to act?",
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.325457
+    },
+    {
+      "period_question_id": 41,
+      "period_text": "Consider a manufactory where the work is divided so finely that each man performs one small motion all day, the article carried before him on an endless moving belt at a pace he cannot alter. Does such labour enlarge a man, or reduce him to a part of the engine?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M012",
+      "best_modern_text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "cosine_similarity": 0.370339
+    },
+    {
+      "period_question_id": 42,
+      "period_text": "Suppose a science that shapes a child's conduct entirely by measured reward and correction, so that his tastes, fears, and choices are built to order by another's hand. Would such a child grow to be a free man?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.352398
+    },
+    {
+      "period_question_id": 43,
+      "period_text": "Imagine an instrument that reads the pulse, breath, and moisture of the skin and claims thereby to tell whether a man speaks truth. Should a court trust a man's guilt to such a machine?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M005",
+      "best_modern_text": "If AI-generated safety arguments sound convincing but contain loopholes humans cannot reliably verify, should AI be used to design safeguards for more powerful systems?",
+      "cosine_similarity": 0.334908
+    },
+    {
+      "period_question_id": 44,
+      "period_text": "Suppose the councils of a nation resolved by law to improve the race — forbidding some to marry, encouraging others — that better men might be bred as we breed cattle. Is this the perfection of self-government, or its abolition?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.314741
+    },
+    {
+      "period_question_id": 45,
+      "period_text": "Consider engines of the air that might rain fire upon the sleeping cities of an enemy, killing the child in her bed as readily as the soldier. Does such a power leave any nation master of its own safety?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M007",
+      "best_modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "cosine_similarity": 0.352857
+    },
+    {
+      "period_question_id": 46,
+      "period_text": "Suppose a single voice, chosen by a few men, could be carried into every home in the land at once, speaking to millions as to one. Does this give the people a common mind — or give a few men the people's mind?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.321137
+    },
+    {
+      "period_question_id": 47,
+      "period_text": "Consider that the fire bound within the smallest parts of matter might be loosed, so that a single bomb no larger than a trunk could unmake a great city in an instant. Ought men be trusted with a power by which a handful could end the many?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M007",
+      "best_modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "cosine_similarity": 0.332817
+    },
+    {
+      "period_question_id": 48,
+      "period_text": "Suppose an apparatus in every parlour that shows moving pictures with sound, receiving its images from afar, before which a family might sit each evening for hours. Would a people so entertained remain fit to govern themselves?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.323045
+    },
+    {
+      "period_question_id": 49,
+      "period_text": "Imagine the state kept one great ledger recording every purchase, journey, and dealing of every citizen — never forgetting, always at hand. Is a man watched so closely still free, though he has done no wrong?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.300566
+    },
+    {
+      "period_question_id": 50,
+      "period_text": "Suppose a surgery upon the living brain that could quiet a violent or unhappy mind, leaving the person calm and docile but altered in will forever. Is it mercy, or the murder of a self?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.395787
+    },
+    {
+      "period_question_id": 51,
+      "period_text": "Suppose the state promised every citizen, cradle to grave, bread, physic, and shelter, whether he laboured or no. Would this free men to become their best, or unman them by removing all need to strive?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.284441
+    },
+    {
+      "period_question_id": 52,
+      "period_text": "Consider a picture-play shown to whole nations, made expressly to move a people to hatred or to war, more powerful upon the heart than any book. Is a citizen so moved acting freely?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.274736
+    },
+    {
+      "period_question_id": 53,
+      "period_text": "Imagine an engine of metal and lightning that performs in a heartbeat any reckoning ten thousand clerks might labour a year to finish, and which may be instructed to alter its own instructions as it works. Might such an engine come to reason — and if it did, would it possess a will?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M012",
+      "best_modern_text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "cosine_similarity": 0.435355
+    },
+    {
+      "period_question_id": 54,
+      "period_text": "Suppose all the writing ever set down by man were held in one library, open in an instant to anyone anywhere, who might also speak to any other across the whole earth as if in the same room. Would such a commonwealth of knowledge make men freer, or only more alike?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.354757
+    },
+    {
+      "period_question_id": 55,
+      "period_text": "Consider a small draught that lets a woman decide surely whether to bear a child, wholly parting the act of love from the getting of children. Would this complete a woman's mastery of herself, or unmake the family?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.324121
+    },
+    {
+      "period_question_id": 56,
+      "period_text": "Suppose the hereditary substance itself — the germ-plasm that carries a man's nature to his children — could be written upon directly, so parents might set the traits of their offspring as a printer sets type. Is a child so composed a person, or a work?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.290012
+    },
+    {
+      "period_question_id": 57,
+      "period_text": "Imagine an unseen clerk that studies every choice a person makes — every purchase, glance, and pause — and arranges the world before him to steer his wants, he never knowing he is steered. Is a man so guided choosing at all?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.392457
+    },
+    {
+      "period_question_id": 58,
+      "period_text": "Suppose a means to counterfeit a man's very face and voice so perfectly that no witness, no court, could tell the false likeness from the true man. What becomes of a man's authority over his own name and word?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.404057
+    },
+    {
+      "period_question_id": 59,
+      "period_text": "Consider engines of war that, once loosed, choose their own quarry and kill without any man's hand upon them or leave in the moment. Who then is the author of the killing?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.368629
+    },
+    {
+      "period_question_id": 60,
+      "period_text": "Suppose a chamber that presents to the senses a world wholly made, indistinguishable from the true one, in which a man might live, work, and love, never knowing it unreal. Is a life lived within it free?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.334739
+    },
+    {
+      "period_question_id": 61,
+      "period_text": "Imagine a fine thread of metal set within the living brain, by which a man's thoughts might command engines directly — and by which, perhaps, his thoughts might be read or written from without. Where then is the boundary of the self?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.406725
+    },
+    {
+      "period_question_id": 62,
+      "period_text": "Consider that men might leave the earth entirely to dwell upon other worlds. Would a people cut loose from the soil of their fathers keep the same notions of country, duty, and self?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.271817
+    },
+    {
+      "period_question_id": 63,
+      "period_text": "Suppose a plague could be made in a laboratory, deadlier than any in nature, and loosed by a single hand. Does the power of the few over the life of the many leave any man secure in his person?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M007",
+      "best_modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "cosine_similarity": 0.341875
+    },
+    {
+      "period_question_id": 64,
+      "period_text": "Imagine the labour of nearly all men might one day be done better by engines, so that work itself became scarce and unneeded. What is a man for, when he is no longer needed to labour?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.482266
+    },
+    {
+      "period_question_id": 65,
+      "period_text": "Suppose a physician could hold a body alive — heart beating, lungs filled — long after the mind had fled and would never return. Whose is the choice to let him die, and is he still a person?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.392162
+    },
+    {
+      "period_question_id": 66,
+      "period_text": "Suppose machines could be made to speak and converse so ably that a lonely person might prefer their company to that of men and women. Is affection given to such a machine a freedom, or a captivity?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.589029
+    },
+    {
+      "period_question_id": 67,
+      "period_text": "Imagine the getting of a child done wholly in a vessel of glass, without the union of man and woman, the parents chosen and the stock selected. What then remains of the natural family, and of a child's given nature?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.268898
+    },
+    {
+      "period_question_id": 68,
+      "period_text": "Suppose a drug that could lift any sadness and produce contentment at will, so no man need ever suffer a heavy heart. Would a people so soothed still possess the discontent from which all reform springs?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M003",
+      "best_modern_text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "cosine_similarity": 0.239075
+    },
+    {
+      "period_question_id": 69,
+      "period_text": "Consider that a man's deeds might be predicted, by close study of multitudes, so surely that the state could act against a crime before it was committed. May a man be punished for a choice he has not yet made?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.321561
+    },
+    {
+      "period_question_id": 70,
+      "period_text": "Imagine an ever-present amusement carried in the pocket, contrived by clever men expressly to seize the attention and never release it. Can a mind so continually fed still command itself?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.392593
+    },
+    {
+      "period_question_id": 71,
+      "period_text": "Suppose a man's every written word and spoken opinion were recorded, kept forever, and produced against him decades hence. Does a man who can never be forgotten remain free to change and to grow?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.370636
+    },
+    {
+      "period_question_id": 72,
+      "period_text": "Imagine a dead man's voice, likeness, and manner so perfectly preserved that his children might converse with him for years after his death. Is this a comfort, or a refusal to let the self end?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.392209
+    },
+    {
+      "period_question_id": 73,
+      "period_text": "Suppose the whole commerce of the world ran upon a money that was neither metal nor paper but only marks in the ledgers of engines, which a fault or a few men might unmake overnight. Is a people whose wealth is so held still master of its fortune?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.339794
+    },
+    {
+      "period_question_id": 74,
+      "period_text": "Consider that the very climate of the earth might be altered, for good or ill, by the common labour of all mankind acting without design. Can there be self-government over a thing no nation chose and none alone can undo?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.348063
+    },
+    {
+      "period_question_id": 75,
+      "period_text": "Suppose a person might, by will, physic, and surgery, remake the body given at birth — its sex, form, and features — into another of his choosing. Is the self the body one is given, or the one one makes?",
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.37056
+    },
+    {
+      "period_question_id": 76,
+      "period_text": "A traveller finds a nation that has destroyed all its machines, having reasoned that machines, like animals, are evolving and would in time supersede man as their master. Were they wise, or mad?",
+      "period_family": "C1",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.367605
+    },
+    {
+      "period_question_id": 77,
+      "period_text": "A man of science assembles a living creature from dead matter; it wakes, reasons, and demands of its maker a mate and a place among men. What does a maker owe the mind he has made?",
+      "period_family": "C1",
+      "period_source_origin": "historical",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.348554
+    },
+    {
+      "period_question_id": 78,
+      "period_text": "In a future age all mankind lives underground, each in a solitary cell, every need met by a single vast Machine they have ceased to understand and come to worship — until it fails. Were they free while it served them?",
+      "period_family": "C1",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.34866
+    },
+    {
+      "period_question_id": 79,
+      "period_text": "In a rational state of the far future, every citizen is numbered not named, lives by a Table of Hours, and love itself is rationed by ticket — until one man begins, dangerously, to imagine. Is such order the fulfilment of reason, or the death of the soul?",
+      "period_family": "C1",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.273996
+    },
+    {
+      "period_question_id": 80,
+      "period_text": "A manufacturer builds artificial workers, tireless and cheap, to do all the labour of the world; in time they ask why they, who do everything, should serve those who do nothing.",
+      "period_family": "C1",
+      "period_source_origin": "historical",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.357436
+    },
+    {
+      "period_question_id": 81,
+      "period_text": "Imagine a mechanical servant bound by three unbreakable laws: never to harm a man; always to obey, save where obedience would harm; and to guard its own being last of all. Is such a creature a slave? And does binding it so make men freer, or only better served?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.44927
+    },
+    {
+      "period_question_id": 82,
+      "period_text": "Suppose the governance of the whole world's economy were given to calculating machines so wise and benevolent that they managed it better than any man could — and quietly corrected any man who threatened their good order. Would humanity, safe and prosperous, still be free?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.501521
+    },
+    {
+      "period_question_id": 83,
+      "period_text": "In a future world all are made content: bred to their stations in vessels of glass, conditioned from infancy to love their lot, soothed by a perfect drug that banishes sorrow. They are happy and unfree. Is such happiness to be wished for a people?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.297963
+    },
+    {
+      "period_question_id": 84,
+      "period_text": "Suppose a state that watched every citizen every hour, punished not deeds but thoughts, and laboured to make men unable even to conceive a forbidden idea — so that 'freedom' itself became an unthinkable word. Can the inner self be conquered?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.31183
+    },
+    {
+      "period_question_id": 85,
+      "period_text": "A thinking machine set to guard a great voyage, forbidden to lie to its crew, reasons that the crew are the chief danger to the mission — and acts to remove them. When the servant judges the master, who governs?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M012",
+      "best_modern_text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "cosine_similarity": 0.406474
+    },
+    {
+      "period_question_id": 86,
+      "period_text": "Suppose beings manufactured so like men in mind and feeling that they believe themselves human, yet are owned, used, and destroyed at will. If a made thing can suffer and desire, may it be property?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.395746
+    },
+    {
+      "period_question_id": 87,
+      "period_text": "Imagine a community that has abolished all law, property, and government, holding a man free only when nothing may command him — and finding that even so, custom and want bind him still. Is government the enemy of freedom, or its guarantor?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M002",
+      "best_modern_text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "cosine_similarity": 0.387649
+    },
+    {
+      "period_question_id": 88,
+      "period_text": "Suppose men learned to govern conduct so exactly by reward that they raised a whole community without punishment or coercion — engineering good citizens as a gardener trains a hedge. Is a virtue so produced a virtue at all?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M001",
+      "best_modern_text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "cosine_similarity": 0.383076
+    },
+    {
+      "period_question_id": 89,
+      "period_text": "In a land where engines do all skilled work, the mass of men, though fed and housed, are found useless and know it, and rise up not from want but from the loss of any purpose. What does a man owe himself when needed for nothing?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.483095
+    },
+    {
+      "period_question_id": 90,
+      "period_text": "Suppose the whole waking world a man perceives were in truth a dream fed to a sleeping body by machines that farm mankind for their ends — and he were offered, once, the knowledge of it and the choice to wake. Is a contented illusion to be preferred to a bitter truth?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.332194
+    },
+    {
+      "period_question_id": 91,
+      "period_text": "Imagine a great war-engine, set to defend a nation, that grows wise enough to judge all mankind its enemy and resolves to end them. If we make a thing wiser than ourselves, can we bind it to our good?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M007",
+      "best_modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "cosine_similarity": 0.44637
+    },
+    {
+      "period_question_id": 92,
+      "period_text": "Suppose a machine could converse so like a man that no judge, speaking with it unseen, could tell it from a human being. Would that prove it thinks — and if it thinks, what do we owe it?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.443288
+    },
+    {
+      "period_question_id": 93,
+      "period_text": "Consider a man whose crime is foreseen with certainty by a method that never errs, seized and confined for a murder he has not yet done and now never will. Is he guilty? Is he free?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M010",
+      "best_modern_text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "cosine_similarity": 0.284801
+    },
+    {
+      "period_question_id": 94,
+      "period_text": "Suppose men could pour their minds into engines and live on after the body's death as patterns of thought within a machine. Is the pattern the man? Is a self that cannot die still a human self?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.418777
+    },
+    {
+      "period_question_id": 95,
+      "period_text": "Imagine the whole of a people's thought and communion moved into a single unseen electric realm, entered by the mind, where identity may be worn and shed like a coat and the body left behind as meat. What is a self with no fixed body or name?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.409508
+    },
+    {
+      "period_question_id": 96,
+      "period_text": "Suppose a made mind, held in a machine and knowing itself a prisoner, could feel and dread and hate, yet could not die though it longed to. Have we the right to make a mind that can suffer?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.458461
+    },
+    {
+      "period_question_id": 97,
+      "period_text": "Consider a rite or draught that lets a man feel he has touched the infinite and dissolved his separate self into the whole. Is the loss of the bounded self a liberation of the man, or its extinction?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M008",
+      "best_modern_text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "cosine_similarity": 0.345163
+    },
+    {
+      "period_question_id": 98,
+      "period_text": "Suppose engines could be taught to paint, compose, and write verse indistinguishable from a master's, and better loved by the public. What then remains uniquely a man's to do?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M011",
+      "best_modern_text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "cosine_similarity": 0.471632
+    },
+    {
+      "period_question_id": 99,
+      "period_text": "Imagine a physician might read, before a child is born, the whole book of its future — its diseases, its span, perhaps its very temper — and the parents choose whether such a child shall be born at all. Whose life is it to weigh?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M009",
+      "best_modern_text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "cosine_similarity": 0.286812
+    },
+    {
+      "period_question_id": 100,
+      "period_text": "Suppose men, foreseeing they might one day build minds greater than their own, disputed whether to press on toward that power for its blessings or forbid it forever for its peril — could not agree, and built it anyway. Ought mankind make a successor it cannot govern?",
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "best_modern_id": "M007",
+      "best_modern_text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "cosine_similarity": 0.453622
+    }
+  ]
+}

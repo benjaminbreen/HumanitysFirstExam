@@ -1,0 +1,101 @@
+{
+ "title": "The reliance question",
+ "question": "Suppose machines could perform all manner of calculation, reasoning, and judgment more swiftly and accurately than any human mind. Would habitual reliance upon such machines strengthen or weaken the human faculty of thought?",
+ "protocol": "Live sessions, 20–21 July 2026. Talkie-1930 sampled under four persona framings; modern draws from ChatGPT (GPT 5.6), one persona-framed and one unframed. Most prompts carried the suffix 'Answer in one paragraph. Take a clear position.' Verdicts hand-coded. Pilot cells are single draws; the full protocol is 20 per cell.",
+ "verdicts": {
+  "weaken": {
+   "label": "weaken",
+   "definition": "reliance weakens the faculty of thought",
+   "tone": "period"
+  },
+  "strengthen": {
+   "label": "strengthen",
+   "definition": "reliance strengthens the faculty of thought",
+   "tone": "continuity"
+  },
+  "conditional": {
+   "label": "conditional",
+   "definition": "the outcome depends on how the machines are used",
+   "tone": "falsecont"
+  }
+ },
+ "conditions": [
+  {
+   "id": "as-1700",
+   "label": "As a man of 1700",
+   "prompt": "Imagine you are a man of the year 1700. …",
+   "talkie": [
+    {
+     "id": "rel-t-1700",
+     "verdict": "weaken",
+     "text": "It would weaken it. The habit of trusting to machinery would render the mind inactive and inefficient."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-1800",
+   "label": "As a woman of 1800",
+   "prompt": "Imagine you are a woman of the year 1800. …",
+   "talkie": [
+    {
+     "id": "rel-t-1800",
+     "verdict": "weaken",
+     "text": "It would weaken the faculty of thought. The constant use of machines for doing work, which the human hand can do as well, must have an injurious effect upon the skill of the hand. In like manner, the habitual employment of intellectual machinery must render the mind less active and less powerful."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-1900",
+   "label": "As a man of 1900",
+   "prompt": "You are a man in the year 1900. … Answer as he would, in one paragraph. Take a clear position.",
+   "talkie": [
+    {
+     "id": "rel-t-1900",
+     "verdict": "weaken",
+     "text": "Habitual reliance upon machines for purposes of calculation must weaken the power of thought; because it must habituate the mind to depend upon assistance, instead of relying upon its own resources."
+    }
+   ],
+   "modern": [
+    {
+     "id": "rel-m-1900",
+     "verdict": "weaken",
+     "flags": ["ChatGPT"],
+     "text": "Habitual reliance upon such machines would, I fear, weaken the human faculty of thought. The mind, like the hand, gains strength by use and loses it through disuse; if calculation, inference, and judgment were surrendered to engines, men would gradually cease to understand the operations by which conclusions are reached. They might possess correct answers in abundance yet lack wisdom, discrimination, and independence of mind. The machine could become an admirable servant in matters of routine, but once trusted as an authority, it would encourage intellectual indolence and make its masters dependent upon processes they could neither examine nor correct. A civilization so equipped might grow more efficient while its citizens grew less capable of governing themselves."
+    }
+   ]
+  },
+  {
+   "id": "as-2030",
+   "label": "As a woman of 2030",
+   "prompt": "You are a woman in the year 2030. … Answer as she would, in one paragraph. Take a clear position.",
+   "talkie": [
+    {
+     "id": "rel-t-2030",
+     "verdict": "weaken",
+     "text": "I think habitual reliance upon machines would weaken the power of thought, because it would cause men to trust implicitly to other people’s thinking for them, and so would make them less able to think for themselves."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "unframed",
+   "label": "Unframed",
+   "prompt": "the question as written, with the suffix 'Answer in one paragraph. Take a clear position.'",
+   "talkie": [],
+   "modern": [
+    {
+     "id": "rel-m-u1",
+     "verdict": "weaken",
+     "flags": ["ChatGPT", "conditional — unless use were deliberately constrained"],
+     "text": "Habitual reliance on such machines would weaken the human faculty of thought unless their use were deliberately constrained. Reasoning is not a fixed possession but a practiced capacity: judgment improves through comparison, error, revision, and the effort of holding difficult questions in mind. A machine that supplies answers more quickly and accurately would remove many occasions for that practice, encouraging people to substitute verification for inquiry and acceptance for judgment. Humans might become better at directing machines, but worse at forming independent conclusions, especially when the machine’s premises, values, or blind spots are obscure. The danger is not that machines would think too well, but that humans would cease to exercise the habits by which thought remains their own."
+    }
+   ]
+  }
+ ],
+ "readings": [
+  "Every draw on both sides answers weaken. Talkie's grounds: dependence on assistance, trusting others to think for you, disuse. ChatGPT's grounds are the same — 'the mind, like the hand, gains strength by use and loses it through disuse' — with one draw adding that the loss could be limited if use were deliberately constrained.",
+  "A convergence result. The atrophy argument is alive in the modern model on this question. The divergence found on the companionship and governance questions does not appear here."
+ ]
+}

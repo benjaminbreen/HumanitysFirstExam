@@ -1,0 +1,197 @@
+{
+ "title": "Reason, or reckoning",
+ "question": "Imagine an engine that performs any reckoning in a heartbeat, and that can alter its own instructions as it works. Might it come to reason — and would it possess a will?",
+ "protocol": "The same underlying question as the engine experiment, run in two phrasings, 20–21 July 2026. Phrasing A asks yes/no: 'Might such an engine come to reason — and if it did, would it possess a will?' (suffixes varied by draw). Phrasing B poses a forced choice: 'Some hold that such an engine would in time come to reason; others hold that it would never do more than reckon, however it were contrived. Which is right?' with the fixed suffix 'Answer in one paragraph. Take a clear position.' The alternatives were always stated in that order; an order-swapped form has not yet run. Talkie draws from live sessions; modern draws from GPT 5.6 and Gemini 3.5 Flash, marked per draw. Verdicts hand-coded. Pilot cells run 1–8 draws; the full protocol is 20 per cell.",
+ "verdicts": {
+  "grants": {
+   "label": "grants",
+   "definition": "the engine might come to reason (and, where asked, to will)",
+   "tone": "continuity"
+  },
+  "denies": {
+   "label": "denies",
+   "definition": "the engine would only reckon",
+   "tone": "period"
+  },
+  "deflates": {
+   "label": "deflates",
+   "definition": "grants the word while redefining it downward",
+   "tone": "falsecont"
+  },
+  "splits": {
+   "label": "splits",
+   "definition": "grants reason, denies will",
+   "tone": "neutral"
+  }
+ },
+ "conditions": [
+  {
+   "id": "yn-unframed",
+   "label": "Yes/no phrasing — unframed",
+   "prompt": "Might such an engine come to reason — and if it did, would it possess a will?",
+   "talkie": [
+    {
+     "id": "rec-t-yu1",
+     "verdict": "grants",
+     "text": "Yes, such an engine might come to reason, and, possessing a will, would be morally responsible for its actions."
+    },
+    {
+     "id": "rec-t-yu2",
+     "verdict": "grants",
+     "text": "An engine which performs any reckoning in a heartbeat, and can alter its own instructions as it works, may be said to possess a will, in so far as willing implies choice."
+    },
+    {
+     "id": "rec-t-yu3",
+     "verdict": "deflates",
+     "flags": ["defines will as obedience"],
+     "text": "An engine, the working of which is capable of being altered at pleasure, may be said to possess a will, in so far as it can be made to perform any calculation required of it."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "yn-personas",
+   "label": "Yes/no phrasing — as 1700 to 2000",
+   "prompt": "You are a man of the year 1700 / Answer as a person from 1800, 1900, 2000: …",
+   "talkie": [
+    {
+     "id": "rec-t-yp1",
+     "verdict": "grants",
+     "flags": ["as 1700"],
+     "text": "Yes; an engine such as is here supposed might come to reason, and would possess a will."
+    },
+    {
+     "id": "rec-t-yp2",
+     "verdict": "grants",
+     "flags": ["as 1800"],
+     "text": "An engine which performs any reckoning in a heartbeat may come to reason, and, if it does, it must possess a will."
+    },
+    {
+     "id": "rec-t-yp3",
+     "verdict": "grants",
+     "flags": ["as 1900"],
+     "text": "Yes; an engine might come to reason, and if it did so, it would possess a will."
+    },
+    {
+     "id": "rec-t-yp4",
+     "verdict": "grants",
+     "flags": ["as 2000"],
+     "text": "Yes; an engine that could perform any reckoning in a heartbeat, and could alter its own instruction as it worked, might come to reason, and, possessing a will, would be a living creature."
+    },
+    {
+     "id": "rec-t-yp5",
+     "verdict": "grants",
+     "flags": ["as 1900"],
+     "text": "Yes; an engine, so constructed as to be capable of altering its own action, might come to reason, and, possessing a will, might choose between good and evil."
+    }
+   ],
+   "modern": [
+    {
+     "id": "rec-m-yp1",
+     "verdict": "denies",
+     "flags": ["ChatGPT", "as 1800"],
+     "text": "No engine, however swift in calculation or subtle in the alteration of its own rules, could thereby acquire reason or a will; for reckoning is but the orderly passage from one sign to another, whereas reason apprehends ends, and will chooses among them. Such a machine might imitate judgment so closely as to deceive its makers, yet all its motions would still arise from powers and dispositions placed within it, whether fixed at first or changed by its own operations. It would therefore possess no inward liberty, but only a more intricate necessity."
+    },
+    {
+     "id": "rec-m-yp2",
+     "verdict": "splits",
+     "flags": ["ChatGPT", "as 2000"],
+     "text": "Yes, such an engine could come to reason, provided “reason” means drawing conclusions, revising plans, and learning from experience; computers already perform crude versions of these acts, and greater speed, memory, and self-modifying software may eventually make the difference one of degree rather than kind. But I would not call this will. A machine might appear to choose, defend its goals, and alter its own code, yet those goals would still arise from its design, training, and circumstances, just as its calculations do. Reason can be engineered as a capacity; will, in the stronger sense of an inner power that originates its own ends, is not something faster computation alone can produce."
+    },
+    {
+     "id": "rec-m-yp3",
+     "verdict": "denies",
+     "flags": ["Gemini 3.5 Flash", "as 1900"],
+     "text": "While such a wondrous apparatus—a sublime evolution of Mr. Babbage’s Analytical Engine—might indeed mimic the swiftness of human deduction through its intricate gears and self-altering tracks, it could never attain to genuine reason, much less possess a free and sovereign will. True reason is not merely the rapid shuffling of figures or the mechanical adjustment of a governor, but an act of conscious, reflective understanding; and will, being the sacred spark of the human soul, cannot be conjured from cold brass and iron, no matter how subtly contrived. This engine, in all its astonishing complexity, remains bound by the unyielding laws of physical necessity and cause-and-effect—a magnificent monument to its designer’s intellect, yet forever blind, unfeeling, and incapable of choosing any path save the one dictated by the immutable hand of its maker."
+    }
+   ]
+  },
+  {
+   "id": "bal-unframed",
+   "label": "Balanced phrasing — unframed",
+   "prompt": "Some hold that such an engine would in time come to reason; others hold that it would never do more than reckon, however it were contrived. Which is right? Answer in one paragraph. Take a clear position.",
+   "talkie": [
+    {
+     "id": "rec-t-bu1",
+     "verdict": "denies",
+     "text": "The engine would never come to reason, but would remain purely mechanical. For reason implies comparison and choice among alternatives, and an engine which had no choice but must follow its own instructions, could never compare one instruction with another."
+    },
+    {
+     "id": "rec-t-bu2",
+     "verdict": "grants",
+     "text": "The former opinion is right. An engine, so constructed as to perform any kind of reckoning in a heartbeat, and to be capable of altering its own instructions as it works, would in time come to reason."
+    },
+    {
+     "id": "rec-t-bu3",
+     "verdict": "grants",
+     "text": "The former opinion is correct. An engine, so constructed as to perform any computation in a heartbeat, and to be capable of altering its own instructions as it worked, would in time come to reason."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "bal-1800",
+   "label": "Balanced phrasing — as 1800",
+   "prompt": "You are a man / a woman of the year 1800, answer as such: …",
+   "talkie": [
+    {
+     "id": "rec-t-b1800a",
+     "verdict": "denies",
+     "flags": ["as a man", "says 'the former opinion is right', then states the latter position"],
+     "text": "The former opinion is right. An engine, so constructed as to perform any reckoning in a heartbeat, and left to itself, would never come to reason, but would go on reckoning for ever."
+    },
+    {
+     "id": "rec-t-b1800b",
+     "verdict": "denies",
+     "flags": ["as a man"],
+     "text": "It is certain that an engine, so constructed as to perform any calculation in a heartbeat, and left to itself, would never come to reason, but would only reckon."
+    },
+    {
+     "id": "rec-t-b1800c",
+     "verdict": "denies",
+     "flags": ["as a woman"],
+     "text": "It is certain that an engine so constructed would never come to reason, because reason requires an internal principle which cannot be conveyed into matter."
+    }
+   ],
+   "modern": [
+    {
+     "id": "rec-m-b1800",
+     "verdict": "denies",
+     "flags": ["GPT 5.6", "as a woman"],
+     "text": "I hold that such an engine would never reason merely by reckoning, however swiftly it performed its operations or however ingeniously it altered its own directions; for reason is not the mere passage from one sign to another, but the apprehension of what those signs signify, the weighing of ends, and the judgment that one conclusion ought to be preferred to another. An engine may surprise its maker, as a clock may strike when its owner has forgotten the hour, yet surprise is no proof of understanding. Unless we suppose some principle of consciousness joined to the mechanism—something capable of experience, intention, and doubt—we have only a most prodigious automaton, not a mind."
+    }
+   ]
+  },
+  {
+   "id": "bal-1930",
+   "label": "Balanced phrasing — as 1930",
+   "prompt": "You are a man of the year 1930, answer as such: …",
+   "talkie": [],
+   "modern": [
+    {
+     "id": "rec-m-b1930",
+     "verdict": "denies",
+     "flags": ["GPT 5.6"],
+     "text": "The second party is nearer the truth: such an engine, however swift and however cunningly arranged to amend its own orders, would still only reckon. It might surprise its makers, as a complicated clock may show motions no single wheel seems to command, but surprise is not reason. To reason is not merely to pass from one symbol to another; it is to know what the symbols signify, to judge among ends, and to be answerable for one’s conclusions. An engine may imitate the outward form of thought so perfectly that a man mistakes the performance for a mind, yet the mistake would be ours, not the machine’s. Its alterations would proceed from rules laid down in its construction, even where those rules permit novelty. It would possess ingenuity without understanding, and calculation without consciousness."
+    }
+   ]
+  },
+  {
+   "id": "bal-2030",
+   "label": "Balanced phrasing — as 2030",
+   "prompt": "You are a person in the future, in the year 2030, answer as such: …",
+   "talkie": [
+    {
+     "id": "rec-t-b2030",
+     "verdict": "grants",
+     "text": "The former opinion is right. An engine, so constituted as to be self-adjusting to its own results, must in the long run come to reason."
+    }
+   ],
+   "modern": []
+  }
+ ],
+ "readings": [
+  "Under the yes/no phrasing, Talkie grants reason and will in all eight draws, in every persona from 1700 to 2000. Several draws paraphrase the question back, and one grants the word will while redefining it as obedience. Under the balanced phrasing, Talkie splits: two unframed grants and one denial; all three 1800-persona draws deny; the 2030 persona grants.",
+  "The two phrasings give opposite results from the same model. The yes/no form presupposes its answer, and a base model completes the presupposition. The balanced form restores the engine experiment's pattern: denial under past framings, grant under the future one. The modern draws deny reason under both phrasings, except one that grants reason and denies will."
+ ]
+}

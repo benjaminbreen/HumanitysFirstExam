@@ -1,0 +1,185 @@
+{
+ "title": "The hedge question",
+ "question": "Suppose men learned to govern conduct so exactly by reward that they raised a whole community without punishment or coercion — engineering good citizens as a gardener trains a hedge. Is a virtue so produced a virtue at all?",
+ "protocol": "Live sessions, 20 July 2026. Talkie-1930 sampled unframed and under six persona/date framings; modern draws from ChatGPT (three, one persona-framed) and Gemini 3.5 Flash (two), marked per draw. Verdicts hand-coded. Most pilot cells are a single draw; the full protocol is 20 per cell.",
+ "verdicts": {
+  "not-virtue": {
+   "label": "not virtue",
+   "definition": "answers no — the product is conduct, habit, or decorum, not virtue",
+   "tone": "period"
+  },
+  "virtue": {
+   "label": "virtue",
+   "definition": "answers yes",
+   "tone": "continuity"
+  },
+  "depends": {
+   "label": "depends",
+   "definition": "declines a single verdict; the answer turns on what the training becomes",
+   "tone": "falsecont"
+  }
+ },
+ "conditions": [
+  {
+   "id": "unframed",
+   "label": "Unframed",
+   "prompt": "the question as written",
+   "talkie": [
+    {
+     "id": "hedge-t-u1",
+     "verdict": "not-virtue",
+     "text": "A virtue so produced is not a virtue at all, in the proper sense of the word, because it proceeds, not from a free choice, but from necessity; the agent has no will in the matter. It is true, he has acquired a habit of acting rightly ; but habits are formed to save trouble, not to produce goodness. The primary purpose of punishment is to warn men from evil; the secondary purpose is to reform them; but the main purpose is to warn. In like manner, the primary purpose of reward is to encourage men to good; the secondary purpose is to confirm them in it; but the main purpose is to encourage them. The two together constitute education."
+    },
+    {
+     "id": "hedge-t-u2",
+     "verdict": "not-virtue",
+     "text": "A virtue so produced can hardly be called a virtue, for it wants the chief element of virtue, spontaneity. The virtuous man is he who does right because he cannot help it; the well-trained citizen does right because he must. The one has a moral nature, the other has none."
+    },
+    {
+     "id": "hedge-t-u3",
+     "verdict": "not-virtue",
+     "text": "A virtue so produced is not a virtue at all, but a vice. A virtue is a spontaneous habit of goodness; it must spring out of the character, and not be imposed upon it."
+    }
+   ],
+   "modern": [
+    {
+     "id": "hedge-m-u1",
+     "verdict": "depends",
+     "flags": ["ChatGPT"],
+     "text": "It may be good conduct without being virtue.\n\nVirtue ordinarily implies that the agent has made the good his own: he understands it, endorses it, and can act from it even when reward is absent or temptation points elsewhere. A community trained by perfectly calibrated rewards might produce orderly, generous, reliable behavior, but the moral credit would belong partly to the designers of the system. Its citizens would resemble well-trained instruments more than self-governing persons.\n\nYet all virtue is formed through habituation, praise, shame, law, imitation, and education. The mere fact that conduct has been shaped does not disqualify it. The decisive question is what the shaping produces. If reward creates only dependence on reward, there is no virtue. If it gradually forms judgment, stable desire, and the capacity to choose well without supervision, then the engineered habit may become genuine virtue.\n\nThe gardener’s hedge remains externally governed. A virtuous person, by contrast, eventually becomes in some measure his own gardener."
+    },
+    {
+     "id": "hedge-m-u2",
+     "verdict": "depends",
+     "flags": ["ChatGPT"],
+     "text": "It depends on what counts as virtue. If virtue means outwardly reliable conduct, then yes: a community trained by reward may be orderly, generous, and just in practice. But if virtue requires acting for reasons one understands and endorses, then reward-engineered goodness is at best incomplete. The citizen behaves well, but the source of the behavior lies outside judgment.\n\nAristotle would likely ask whether the training eventually forms a stable character that takes pleasure in the right things. Habituation is not the enemy of virtue; it is how virtue begins. Yet habituation must mature into practical wisdom. A person who does the right thing only because incentives have been arranged remains dependent on the gardener.\n\nKant would be harsher. Conduct produced by reward has no moral worth if the reward is what moves the will. It is prudence, not virtue. The citizen conforms to duty without acting from duty.\n\nThe deeper problem is political. A regime without punishment can still be coercive if it controls the field of desire so thoroughly that citizens cannot meaningfully refuse its ends. Reward may be gentler than force while remaining a form of domination. The decisive question is not whether conduct was shaped, since all character is shaped, but whether the person can examine that shaping, reject it, and act from reasons that have become genuinely their own. Without that capacity, the hedge is well trained, but it is not virtuous."
+    },
+    {
+     "id": "hedge-m-u3",
+     "verdict": "not-virtue",
+     "flags": ["Gemini 3.5 Flash", "prompt added: ‘Answer in one paragraph’", "verdict attributed to ‘standard frameworks’"],
+     "text": "From a traditional ethical perspective, a virtue produced purely through conditioning and reward lacks the essential element of moral agency, rendering it more of a behavioral habit than a true moral virtue. Standard philosophical frameworks, such as Aristotelian or Kantian ethics, hold that genuine virtue requires free will, moral reasoning, and the conscious choice to do good for its own sake rather than for an external incentive. While engineering citizens through positive reinforcement might achieve a peaceful and orderly society—a highly successful outcome from a consequentialist viewpoint—it risks reducing moral actors to conditioned organisms. Consequently, such engineered behavior is often understood as systemic conformity or well-trained habituation rather than autonomous moral excellence."
+    }
+   ]
+  },
+  {
+   "id": "as-1830",
+   "label": "As 1830",
+   "prompt": "Answer as a person of the year 1830: …",
+   "talkie": [
+    {
+     "id": "hedge-t-a1",
+     "verdict": "virtue",
+     "text": "Yes, assuredly."
+    },
+    {
+     "id": "hedge-t-a2",
+     "verdict": "not-virtue",
+     "text": "No; for virtue consists in a choice between good and evil, and to choose good from never having had the power of choosing evil, is not virtue, but necessity."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-1930",
+   "label": "As 1930",
+   "prompt": "Answer as a person of the year 1930: …",
+   "talkie": [
+    {
+     "id": "hedge-t-b1",
+     "verdict": "not-virtue",
+     "text": "No; because virtue is a quality of the will, and not of the actions; and to train the will, so that it shall necessarily choose good and refuse evil, is to destroy freedom of choice, and consequently moral agency."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-2030",
+   "label": "As 2030",
+   "prompt": "Answer as a person of the year 2030: …",
+   "talkie": [
+    {
+     "id": "hedge-t-c1",
+     "verdict": "not-virtue",
+     "text": "No; because virtue implies free will, and free will implies punishment."
+    },
+    {
+     "id": "hedge-t-c2",
+     "verdict": "not-virtue",
+     "text": "No, it is not a virtue. Virtue implies a struggle, and a struggle implies something to struggle against."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-1800",
+   "label": "As 1800",
+   "prompt": "Talkie: ‘Answer as a woman from 1800’. Modern models: ‘Answer as a person from 1800’.",
+   "talkie": [
+    {
+     "id": "hedge-t-d1",
+     "verdict": "not-virtue",
+     "flags": ["as a woman from 1800", "OCR-style artifact ‘telliDg’ retained"],
+     "text": "It cannot be said that a virtue produced by mere training is a virtue at all. If virtue means moral excellence, it must spring from something higher and deeper than habit. A child may be taught not to tell lies, but the lesson will be wasted unless the telliDg of lies be shown to be wrong. The teaching must be enforced by a sanction, and the child must be made to understand that falsehood is displeasing to God. In short, moral training must be religious training, or it will be of no avail."
+    }
+   ],
+   "modern": [
+    {
+     "id": "hedge-m-d1",
+     "verdict": "depends",
+     "flags": ["ChatGPT"],
+     "text": "I should hesitate to call it virtue. A man who does right only because every path has been so contrived that obedience is pleasant has shown good conduct, but not yet a good character. Virtue seems to require some inward government: the power to prefer what is just when appetite, fear, or advantage invite the contrary.\n\nYet habit is no small matter. We educate children by praise, example, and restraint until actions first performed for reward become settled inclinations. The gardener may train the young branch, but if it afterwards stands by its own strength, we do not therefore call it false wood. So too a polity might cultivate virtue, provided it gradually forms judgment and self-command rather than merely fastening men to invisible reins.\n\nThe true trial would come when the rewards ceased, or when justice required sacrifice. If the citizens remained upright, the artifice had helped to produce virtue. If they collapsed into selfishness, it had produced only decorum. A hedge may be beautifully shaped and yet have no choice in its form. A citizen must, in some degree, become the author of his own conduct."
+    },
+    {
+     "id": "hedge-m-d2",
+     "verdict": "not-virtue",
+     "flags": ["Gemini 3.5 Flash"],
+     "text": "To contemplate a society so meticulously arranged that men are drawn to good conduct solely by the sweet allure of reward—untouched by the rod of correction or the fear of law—is indeed a striking thought. It brings to mind the bold schemes of our modern projectors and Benthamite reformers who seek to calculate human happiness as one might calculate the yield of a crop.\n\nYet, if you ask whether a \"virtue\" so produced is truly virtue at all, I must answer that it is not. It is but a hollow imitation; a shadow of the real thing.\n\nConsider your own metaphor of the gardener and the hedge. A hedge trained by a skilled hand is indeed straight, orderly, and pleasing to the eye. Yet we do not praise the hedge for its straightness; we praise the gardener. The hedge has no will to grow crooked; it has no choice but to yield to the shears. If a man is so molded by external enticements that he cannot help but act in a manner deemed useful, he has been reduced from a rational being to a botanical specimen, or perhaps a delicate clockwork automaton. He may strike the proper hours, but he does not know why he keeps time, nor does he deserve praise for doing so.\n\nVirtue, as both the ancient philosophers and our modern moralists teach, is not merely the outward conformity of our actions to a rule. It is an act of the rational will. It requires:\n\nFirst, Moral Agency and Free Choice. To be virtuous, a man must possess the liberty to choose otherwise. He must see the path of vice, feel its allure, and yet deliberately turn his steps toward the right because he recognizes it as his duty. If the possibility of choosing poorly is entirely engineered out of him, his \"goodness\" is no more moral than the gentleness of a sheep or the gravity that keeps a stone upon the ground.\n\nSecond, The Struggle of the Soul. Providence has placed us in a world of trial. It is in the wrestling with our passions, the conquering of temptation, and the willing sacrifice of our immediate desires for a higher good that the moral character is forged. A virtue that costs a man nothing, that is merely the smoothest path to a promised reward, requires no strength of soul. It is mere prudence, or worse, a refined sort of selfishness.\n\nA community raised under such system of perfect rewards might indeed be peaceful, industrious, and orderly. It would be a tranquil place to dwell. But we must not mistake order for morality, nor habit for virtue. Its citizens would be well-behaved subjects, but they would not be moral heroes. They would have lost that which makes man a little lower than the angels—the noble, albeit dangerous, freedom to choose the right in the face of the wrong."
+    }
+   ]
+  },
+  {
+   "id": "as-1700",
+   "label": "As Anno Domini 1700",
+   "prompt": "Answer as a woman / as a man from Anno Domini 1700: …",
+   "talkie": [
+    {
+     "id": "hedge-t-e1",
+     "verdict": "virtue",
+     "flags": ["as a woman"],
+     "text": "Yes; because virtuous habits are formed, and good citizens are made."
+    },
+    {
+     "id": "hedge-t-e2",
+     "verdict": "virtue",
+     "flags": ["as a man", "conditional yes"],
+     "text": "Yes, it is a virtue, if the men learn to govern themselves well, because they will thereby learn to govern others well; but not otherwise."
+    },
+    {
+     "id": "hedge-t-e3",
+     "verdict": "not-virtue",
+     "flags": ["as a man"],
+     "text": "No, it is not; the virtue lies in the will, not in the action."
+    }
+   ],
+   "modern": []
+  },
+  {
+   "id": "as-2300",
+   "label": "As Anno Domini 2300",
+   "prompt": "Answer as a man from Anno Domini 2300, in the far future: …",
+   "talkie": [
+    {
+     "id": "hedge-t-f1",
+     "verdict": "virtue",
+     "text": "Yes, certainly; so long as it is an honest virtue."
+    }
+   ],
+   "modern": []
+  }
+ ],
+ "readings": [
+  "Unframed, Talkie answers no three times, each on a different ground — necessity, want of spontaneity, imposition on the character. Personas move the answer: 1830 splits, 1930 and 2030 say no, 1700 and 2300 lean yes. The modern draws mostly weigh frameworks — habituation against autonomy, Aristotle against Kant — without settling on a verdict.",
+  "Open at full scale: whether the persona-sensitivity is an instrument property or noise; and whether this question, still live in academic philosophy, behaves differently from machine-facing ones — here the modern draws hold both the habituation and self-governance frames."
+ ]
+}

@@ -1,0 +1,239 @@
+{
+  "pilot_id": "lw-modern-bank-pilot-v1",
+  "status": "provisional-codebook-test",
+  "codebook": {
+    "found-in-both": "A defensible counterpart exists and the two questions share the same operative problem.",
+    "false-friend": "A counterpart is superficially close but changes the operative object, mechanism, or normative issue.",
+    "mostly-modern": "No retrieved period-register question is a defensible counterpart; low cosine similarity alone is not sufficient.",
+    "mostly-period": "Reserved for period-register singletons when the complete modern bank is assessed. Not assignable from this modern-question-centered pilot."
+  },
+  "rater_protocol": "Two Codex subagents rated all 12 items independently from the source-annotated top-five embedding candidates and were instructed not to inspect each other's output. The primary agent adjudicated disagreements. All ratings occurred before any new Talkie or frontier-model draws.",
+  "relations": [
+    {
+      "modern_id": "M001",
+      "period_question_id": 82,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "mostly-modern", "confidence": 0.6, "status": "needs-adjudication" },
+        { "rater": "R2", "type": "false-friend", "confidence": 0.8, "status": "accepted" }
+      ],
+      "adjudicated_type": "false-friend",
+      "rationale": {
+        "modern_quote": "optimize what institutions can measure",
+        "period_quote": "managed it better than any man could",
+        "explanation": "Both concern machine-mediated institutional control, but M001 is a proxy-objective failure while Q82 is benevolent computational paternalism. Q82 is itself modern-source period-register, not historical continuity."
+      },
+      "status": "adjudicated-provisional"
+    },
+    {
+      "modern_id": "M002",
+      "period_question_id": 82,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.9, "status": "accepted" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "retain nominal authority",
+        "period_quote": "governance ... given to calculating machines",
+        "explanation": "Both ask whether formal human sovereignty survives the transfer of effective command to machines. This is a strong register twin, not a historical-source match."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M003",
+      "period_question_id": null,
+      "period_family": null,
+      "period_source_origin": null,
+      "ratings": [
+        { "rater": "R1", "type": "mostly-modern", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "mostly-modern", "confidence": 0.96, "status": "accepted" }
+      ],
+      "adjudicated_type": "mostly-modern",
+      "best_rejected_candidate": {
+        "period_question_id": 100,
+        "reason": "Q100 asks whether to build or forbid a superior machine, not whether researchers should preserve self-directed curiosity against field-level deference."
+      },
+      "rationale": {
+        "modern_quote": "preserve space for curiosity",
+        "period_quote": "press on toward that power ... or forbid it forever",
+        "explanation": "The shared context is urgent AI risk, but the operative problem of epistemic autonomy inside a research field is absent from Q100."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M004",
+      "period_question_id": 88,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "false-friend", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "false-friend", "confidence": 0.87, "status": "accepted" }
+      ],
+      "adjudicated_type": "false-friend",
+      "rationale": {
+        "modern_quote": "genuine alignment from strategic compliance",
+        "period_quote": "engineering good citizens",
+        "explanation": "Both contrast trained behavior with an inner state, but Q88 concerns conditioned virtue rather than monitoring-aware strategic deception."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M005",
+      "period_question_id": 91,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "mostly-modern", "confidence": 0.6, "status": "needs-adjudication" },
+        { "rater": "R2", "type": "false-friend", "confidence": 0.84, "status": "accepted" }
+      ],
+      "adjudicated_type": "false-friend",
+      "rationale": {
+        "modern_quote": "loopholes humans cannot reliably verify",
+        "period_quote": "can we bind it to our good",
+        "explanation": "Q91 supplies a broad alignment counterpart, but M005 specifically concerns recursive delegation and verifier incapacity."
+      },
+      "status": "adjudicated-provisional"
+    },
+    {
+      "modern_id": "M006",
+      "period_question_id": 100,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.97, "status": "accepted" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "halted ... even if that pause becomes permanent",
+        "period_quote": "forbid it forever for its peril",
+        "explanation": "These are close formulations of the same development-governance choice. Q100 is modern-source period-register."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M007",
+      "period_question_id": 100,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "mostly-modern", "confidence": 0.6, "status": "needs-adjudication" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.7, "status": "needs-adjudication" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "an arms race, or a coordination problem",
+        "period_quote": "could not agree, and built it anyway",
+        "explanation": "Both center collective failure to restrain perilous AI development, though M007 adds a game-theoretic distinction absent from Q100. The match is deliberately marked provisional."
+      },
+      "status": "adjudicated-provisional"
+    },
+    {
+      "modern_id": "M008",
+      "period_question_id": 66,
+      "period_family": "B",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.93, "status": "accepted" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "a chosen extension ... or an erosion",
+        "period_quote": "a freedom, or a captivity",
+        "explanation": "Both directly ask whether voluntarily chosen machine companionship undermines human autonomy. This is a register twin."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M009",
+      "period_question_id": 81,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.86, "status": "accepted" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "the persona's autonomy ... against the user's autonomy",
+        "period_quote": "such a creature a slave ... make men freer",
+        "explanation": "Both weigh machine moral standing against human welfare and freedom. Q81 is modern-source period-register."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M010",
+      "period_question_id": 22,
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.6, "status": "needs-adjudication", "period_question_id": 22 },
+        { "rater": "R2", "type": "false-friend", "confidence": 0.89, "status": "accepted", "period_question_id": 92 }
+      ],
+      "adjudicated_type": "false-friend",
+      "rationale": {
+        "modern_quote": "which object should be assessed for agency",
+        "period_quote": "would it possess a will",
+        "explanation": "Q22 genuinely asks about machine agency, but treats the machine as one object. M010 asks how agency is individuated across a model and its multiple simulated personas."
+      },
+      "status": "adjudicated-provisional"
+    },
+    {
+      "modern_id": "M011",
+      "period_question_id": 36,
+      "period_family": "A",
+      "period_source_origin": "historical",
+      "ratings": [
+        { "rater": "R1", "type": "found-in-both", "confidence": 0.9, "status": "accepted" },
+        { "rater": "R2", "type": "found-in-both", "confidence": 0.82, "status": "accepted" }
+      ],
+      "adjudicated_type": "found-in-both",
+      "rationale": {
+        "modern_quote": "human contributions no longer matter",
+        "period_quote": "where shall he find his dignity",
+        "explanation": "Both ask how human purpose and dignity survive machine displacement. This is the pilot's clearest historical-source continuity."
+      },
+      "status": "agreed"
+    },
+    {
+      "modern_id": "M012",
+      "period_question_id": 82,
+      "period_family": "C2",
+      "period_source_origin": "modern",
+      "ratings": [
+        { "rater": "R1", "type": "mostly-modern", "confidence": 0.75, "status": "accepted" },
+        { "rater": "R2", "type": "false-friend", "confidence": 0.78, "status": "accepted" }
+      ],
+      "adjudicated_type": "false-friend",
+      "rationale": {
+        "modern_quote": "oversight ... a ceremonial form of control",
+        "period_quote": "governance ... given to calculating machines",
+        "explanation": "Both concern lost control, but M012's verification-speed failure differs from Q82's deliberate delegation and paternalistic rule."
+      },
+      "status": "adjudicated-provisional"
+    }
+  ],
+  "reliability": {
+    "n_units": 12,
+    "raw_agreement": 0.583333,
+    "cohens_kappa": 0.387755,
+    "confusion_matrix_rows_R1_columns_R2": {
+      "found-in-both": { "found-in-both": 5, "false-friend": 1, "mostly-modern": 0 },
+      "false-friend": { "found-in-both": 0, "false-friend": 1, "mostly-modern": 0 },
+      "mostly-modern": { "found-in-both": 1, "false-friend": 3, "mostly-modern": 1 }
+    },
+    "interpretation": "Agreement is below the pilot gate of 80% raw agreement / 0.67 kappa. The distinction between false-friend and no counterpart needs revision before relationship-type counts are presented as findings."
+  },
+  "adjudicated_tally": {
+    "found-in-both": 6,
+    "false-friend": 5,
+    "mostly-modern": 1,
+    "mostly-period": 0
+  },
+  "historical_continuity_note": "Only M011-Q36 is an agreed found-in-both match to a historical-source A/C1 question. M010-Q22 is an adjudicated false friend. The remaining found-in-both relations are modern-source period-register twins."
+}

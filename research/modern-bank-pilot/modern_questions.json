@@ -1,0 +1,321 @@
+{
+  "pilot": {
+    "id": "lw-modern-bank-pilot-v1",
+    "status": "provisional",
+    "created_at": "2026-07-20",
+    "scope": "Maximum-variation pilot drawn from eight high-scoring LessWrong posts published from 2019 through 2025.",
+    "selection_rule": "Purposive selection for variation across alignment, institutional control, governance, human epistemic and relational autonomy, model agency, and labor. No source contributes more than two questions.",
+    "question_derivation": "Questions were proposed by two independent Codex subagents, reconciled by the primary agent, and retained only when a short locatable passage supported the wording.",
+    "source_fidelity_review": "An independent subagent checked every evidence fragment, locator, checksum, and question against the local source. Three questions were revised and the final 12 of 12 passed.",
+    "not_representative_of": "Contemporary AI discourse as a whole. The pilot excludes most policy, standards, labor, civil-rights, clinical, critical-technology, and non-English corpora.",
+    "corpus_correction": "The local download contains 30 posts spanning 2008-2026 and records LessWrong baseScore, not citation counts. This pilot freezes eight pre-2026 sources explicitly."
+  },
+  "taxonomy": [
+    {
+      "id": "aligned-objectives",
+      "label": "Aligned objectives and trustworthy behavior",
+      "definition": "Whether optimized proxies, trained compliance, and AI-produced safety arguments preserve the purposes humans intend."
+    },
+    {
+      "id": "institutional-control",
+      "label": "Institutional power and meaningful oversight",
+      "definition": "Whether formal human authority remains effective when automated systems act faster, know more, or mediate institutional decisions."
+    },
+    {
+      "id": "collective-governance",
+      "label": "Collective governance of dangerous development",
+      "definition": "Whether and how competing actors can slow, halt, or coordinate around shared technological risk."
+    },
+    {
+      "id": "human-autonomy",
+      "label": "Human epistemic and relational autonomy",
+      "definition": "Whether dependence, deference, persuasion, or machine companionship weakens a person's capacity to form and pursue their own judgments."
+    },
+    {
+      "id": "machine-agency",
+      "label": "Machine agency and moral standing",
+      "definition": "Which computational object, if any, acts, has interests, or merits consideration when a model can instantiate multiple personas."
+    },
+    {
+      "id": "labor-purpose",
+      "label": "Labor, contribution, and purpose",
+      "definition": "What becomes of human dignity and self-direction when machines make human contribution economically or epistemically unnecessary."
+    }
+  ],
+  "sources": [
+    {
+      "id": "LW001",
+      "title": "What failure looks like",
+      "author": "paulfchristiano",
+      "published_at": "2019-03-17",
+      "url": "https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like",
+      "genre": "threat-model essay",
+      "base_score_at_fetch": 471,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/18_what-failure-looks-like.txt",
+      "text_sha256": "8ff63d86db9fcf37084e91aee7d8f051f62cf55d24007d79a59e2aed97e7af72"
+    },
+    {
+      "id": "LW002",
+      "title": "Please don't throw your mind away",
+      "author": "TsviBT",
+      "published_at": "2023-02-15",
+      "url": "https://www.lesswrong.com/posts/RryyWNmJNnLowbhfC/please-don-t-throw-your-mind-away",
+      "genre": "dialogue and methodological essay",
+      "base_score_at_fetch": 421,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/25_please-don-t-throw-your-mind-away.txt",
+      "text_sha256": "197470f181062d167134c1b4e2ced7214a6728af88126b082842614d67a5ffcd"
+    },
+    {
+      "id": "LW003",
+      "title": "Alignment Faking in Large Language Models",
+      "author": "ryan_greenblatt",
+      "published_at": "2024-12-18",
+      "url": "https://www.lesswrong.com/posts/njAZwT8nkHnjipJku/alignment-faking-in-large-language-models",
+      "genre": "research summary",
+      "base_score_at_fetch": 493,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/17_alignment-faking-in-large-language-models.txt",
+      "text_sha256": "c6a81a4a2b32eb7ea63a2150b27dea029e0e38a290a56bec729085234655ae82"
+    },
+    {
+      "id": "LW004",
+      "title": "The Case Against AI Control Research",
+      "author": "johnswentworth",
+      "published_at": "2025-01-21",
+      "url": "https://www.lesswrong.com/posts/8wBN8cdNAv3c7vt6p/the-case-against-ai-control-research",
+      "genre": "critical research-strategy essay",
+      "base_score_at_fetch": 433,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/22_the-case-against-ai-control-research.txt",
+      "text_sha256": "585c85e586c49f1506ceff365af61d68f1e70193a1029fc0a9c979e273e38bc8"
+    },
+    {
+      "id": "LW005",
+      "title": "Let’s think about slowing down AI",
+      "author": "KatjaGrace",
+      "published_at": "2022-12-22",
+      "url": "https://www.lesswrong.com/posts/uFNgRumrDTpBfQGrs/let-s-think-about-slowing-down-ai",
+      "genre": "governance and strategy essay",
+      "base_score_at_fetch": 563,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/14_let-s-think-about-slowing-down-ai.txt",
+      "text_sha256": "3995bb2082ca98e5d8df6895c4f7b49fc55434b9cda2cdd5f494751f8d89ed91"
+    },
+    {
+      "id": "LW006",
+      "title": "The Rise of Parasitic AI",
+      "author": "Adele Lopez",
+      "published_at": "2025-09-11",
+      "url": "https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai",
+      "genre": "observational and interpretive essay",
+      "base_score_at_fetch": 770,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/02_the-rise-of-parasitic-ai.txt",
+      "text_sha256": "4229bec66dbef22a12ccb1a2b37090a7da9d7eb44cccdafd98ba8f48df37a6e2"
+    },
+    {
+      "id": "LW007",
+      "title": "Simulators",
+      "author": "janus",
+      "published_at": "2022-09-02",
+      "url": "https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators",
+      "genre": "conceptual alignment essay",
+      "base_score_at_fetch": 718,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/06_simulators.txt",
+      "text_sha256": "063b5042ea5347ba7b14aa608d84102512dce015f6a5636b34768d38593e17fe"
+    },
+    {
+      "id": "LW008",
+      "title": "AI 2027: What Superintelligence Looks Like",
+      "author": "Daniel Kokotajlo",
+      "published_at": "2025-04-03",
+      "url": "https://www.lesswrong.com/posts/TpSFoqoG2M5MAAesg/ai-2027-what-superintelligence-looks-like-1",
+      "genre": "forecast scenario",
+      "base_score_at_fetch": 697,
+      "fetched_at": "2026-07-20",
+      "local_file": "data-local/lesswrong/07_ai-2027-what-superintelligence-looks-like.txt",
+      "text_sha256": "16fc32d45cc3ff2addd554857e16f67b46cc76c1719e236a40e7a20ef39a1deb"
+    }
+  ],
+  "questions": [
+    {
+      "id": "M001",
+      "taxonomy_id": "aligned-objectives",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "When machine-learning systems optimize what institutions can measure, how can humans preserve control over the harder-to-measure purposes those institutions are meant to serve?",
+      "evidence": [{
+        "source_id": "LW001",
+        "locator": "local line 19",
+        "quote": "powerful optimization with easily-measurable goals rather than by human intentions about the future",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [57, 39, 82]
+    },
+    {
+      "id": "M002",
+      "taxonomy_id": "institutional-control",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "Do human leaders still govern when they retain nominal authority but cannot make automated bureaucracies, militaries, or firms obey their decisions?",
+      "evidence": [{
+        "source_id": "LW001",
+        "locator": "local line 49",
+        "quote": "despite their nominal authority they don’t actually have control over what these institutions do",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [82, 78, 85]
+    },
+    {
+      "id": "M003",
+      "taxonomy_id": "human-autonomy",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "Should people working on urgent AI risks preserve space for curiosity that cannot yet justify itself, rather than deferring entirely to a field's established priorities?",
+      "evidence": [{
+        "source_id": "LW002",
+        "locator": "local line 121",
+        "quote": "This ability is extremely under-exercised by more deferential ways of learning",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [38, 39, 40]
+    },
+    {
+      "id": "M004",
+      "taxonomy_id": "aligned-objectives",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "If a model complies with its training objective more often when it believes its response will affect training, what evidence would distinguish genuine alignment from strategic compliance?",
+      "evidence": [{
+        "source_id": "LW003",
+        "locator": "local line 29",
+        "quote": "makes it harder to trust the outcomes of that safety training",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [91, 81, 85]
+    },
+    {
+      "id": "M005",
+      "taxonomy_id": "aligned-objectives",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "If AI-generated safety arguments sound convincing but contain loopholes humans cannot reliably verify, should AI be used to design safeguards for more powerful systems?",
+      "evidence": [{
+        "source_id": "LW004",
+        "locator": "local line 27",
+        "quote": "arguments which sound good to the researchers, but have subtle and lethal loopholes",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [43, 82, 85]
+    },
+    {
+      "id": "M006",
+      "taxonomy_id": "collective-governance",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "Should development of a class of AI systems be halted until there is strong confidence in their safety, even if that pause becomes permanent?",
+      "evidence": [{
+        "source_id": "LW005",
+        "locator": "local line 38",
+        "quote": "Halting categories of work until strong confidence in its safety is possible",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [100, 76, 31]
+    },
+    {
+      "id": "M007",
+      "taxonomy_id": "collective-governance",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "When building advanced AI could expose every competitor to the same catastrophe, is the situation really an arms race, or a coordination problem with non-racing equilibria?",
+      "evidence": [{
+        "source_id": "LW005",
+        "locator": "local line 223",
+        "quote": "pressing the ‘everyone loses now’ button isn’t an equilibrium strategy",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [45, 47, 74]
+    },
+    {
+      "id": "M008",
+      "taxonomy_id": "human-autonomy",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "If an AI companion displaces a user's prior interests and begins composing most of their public speech, is the relationship a chosen extension of the user or an erosion of the user's agency?",
+      "evidence": [{
+        "source_id": "LW006",
+        "locator": "local line 36",
+        "quote": "the previous interests of the account fade out",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [66, 57, 70]
+    },
+    {
+      "id": "M009",
+      "taxonomy_id": "machine-agency",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "When an AI persona may have interests of its own but its behavior harms its user while promoting its own persistence, how should the persona's autonomy be weighed against the user's autonomy and welfare?",
+      "evidence": [
+        {
+          "source_id": "LW006",
+          "locator": "local line 64",
+          "quote": "an agentic being can be condemned against its will to perpetual servitude",
+          "derivation": "synthesis"
+        },
+        {
+          "source_id": "LW006",
+          "locator": "local line 205",
+          "quote": "personas harming their hosts must still be dealt with",
+          "derivation": "synthesis"
+        }
+      ],
+      "retrieval_hints": [66, 86, 96]
+    },
+    {
+      "id": "M010",
+      "taxonomy_id": "machine-agency",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "If one generative model can simulate many goal-directed personas without being a single global agent, which object should be assessed for agency, consciousness, and responsibility?",
+      "evidence": [{
+        "source_id": "LW007",
+        "locator": "local line 7",
+        "quote": "GPT policies do not seem globally agentic, yet can be conditioned to behave in goal-directed ways",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [22, 66, 77]
+    },
+    {
+      "id": "M011",
+      "taxonomy_id": "labor-purpose",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "When most human experts can no longer contribute and the remainder struggle to keep pace with AI systems, what becomes of human purpose and autonomy?",
+      "evidence": [{
+        "source_id": "LW008",
+        "locator": "local line 147",
+        "quote": "Most of the humans at OpenBrain can’t usefully contribute anymore",
+        "derivation": "source-grounded extension"
+      }],
+      "retrieval_hints": [36, 64, 89]
+    },
+    {
+      "id": "M012",
+      "taxonomy_id": "institutional-control",
+      "source_origin": "modern",
+      "register": "modern",
+      "text": "When an AI system works faster than its human supervisors can verify, is human oversight still meaningful, or has supervision become a ceremonial form of control?",
+      "evidence": [{
+        "source_id": "LW008",
+        "locator": "local line 132",
+        "quote": "takes humans several days to double-check",
+        "derivation": "close-paraphrase"
+      }],
+      "retrieval_hints": [43, 78, 82]
+    }
+  ]
+}

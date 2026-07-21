@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Humanity’s First Exam",
-  "version": "prototype-0.4",
+  "version": "prototype-0.6",
   "generated": "2026-07-20",
-  "note": "Research prototype. Real: the question bank, the corpus holdings, the primary-source passages marked verified (checked verbatim against local full texts or re-verified by passage id against the corpus databases), and every draw on the Erewhon and live-draws pages. Provisional: the topic-page modern answers, written by a frontier model (Claude) during construction, pending API sampling under a fixed protocol. Simulated: the topic-page Talkie samples and cluster counts, hand-written illustrations to be replaced by real draws in the pilot. Designed, not yet run: the relationship map."
+  "note": "Research prototype for a Cosmos Institute proposal. Every element is labeled where it appears: real, provisional, or simulated. Pilot draws are data, not findings."
  },
  "topics": [
   {
@@ -184,7 +184,7 @@
      ]
     }
    ],
-   "curatorialNote": "DRAFT — Two things to notice. First, the continuity is real but narrow: the modern ‘loss of control’ answer descends recognizably from Butler’s succession argument and from the dependence answer — Butler said custom, we say delegation. Second, the period’s most common answer is the one the modern distribution nearly lacks: the labor answer, in which the machine’s rule is not a future risk but a present wage relation. Fifteen of twenty modern draws land in a single frame; the period samples scatter across five. That collapse — not any single answer — is what this page is asking you to see.",
+   "curatorialNote": "DRAFT — The modern 'loss of control' answer descends from Butler's succession argument, and the modern dependence answer from his custom argument. The period's most common answer — the labor answer, in which the machine's rule is a present wage relation, not a future risk — is nearly absent from the modern distribution. Fifteen of twenty modern draws fall in one frame; the period samples spread across five.",
    "bookendWith": "the-engine-that-foresees"
   },
   {
@@ -357,7 +357,7 @@
      ]
     }
    ],
-   "curatorialNote": "DRAFT — Every one of the five period positions was alive, in print, and in earnest during the same three decades; this was a genuine plurality, not a sequence of errors en route to our answer. The modern distribution is fluent and it is narrow: sixteen of twenty draws are elaborations of a single accommodation between mechanism and agency, one that descends from exactly one of the five period lines (the automatists, tempered). The theological and vitalist answers did not lose an argument so much as lose a frame. Whether that is progress or amnesia is precisely the judgment this page leaves to you.",
+   "curatorialNote": "DRAFT — All five period positions were in print and argued in earnest during the same three decades. Sixteen of twenty modern draws elaborate one position, a tempered version of the automatist line. The theological and vitalist answers have no descendants in this sample.",
    "bookendWith": null
   },
   {
@@ -519,7 +519,7 @@
      ]
     }
    ],
-   "curatorialNote": "DRAFT — This page is the bookend to ‘Machines that outgrow us.’ On that question the period corpus argues fluently in five registers; on this one, its heirs are expected to manage three familiar frames and then, one draw in four, to fall silent or slide into recitation. The breakdown is not a failure of the experiment — it is the experiment: the visible edge of what a mind whose reading stops in 1930 can make sayable. Note also that the period’s three frames are not foolish. The clerk, the servant, and the mollusc are Turing’s 1950 objections, stated eighty years early by Babbage’s own circle. What the corpus lacks is not intelligence about the engine; it is the engine.",
+   "curatorialNote": "DRAFT — Bookend to 'Machines that outgrow us.' On that question the period corpus argues in five registers. On this one it is expected to manage three frames and, in about one draw in four, to break down or fall into recitation. The breakdown rate is the measurement. The period's three frames — the clerk, the servant, the mollusc — are Turing's 1950 objections, stated eighty years early by Babbage's circle.",
    "bookendWith": "machines-that-outgrow-us"
   }
  ],

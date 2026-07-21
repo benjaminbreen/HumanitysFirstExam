@@ -25,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: data.meta.title,
   description:
-    "A 100-question examination on machines and human autonomy, posed to a pre-1931 language model and a modern one, with results checked against cited primary sources.",
+    "Questions about machines and human autonomy, put to a pre-1931 language model, frontier models, and human respondents, scored against positions attested in the period record.",
 };
 
 export default function RootLayout({
@@ -46,24 +46,21 @@ export default function RootLayout({
                 {data.meta.title}
               </span>
               <span className="ml-3 font-mono text-xs text-ink-faint">
-                1860–1930 ⇄ now
+                1859–1940 ⇄ now
               </span>
             </Link>
             <nav className="flex flex-wrap gap-x-6 gap-y-1 font-mono text-sm">
-              <Link href="/erewhon" className="text-ink-soft hover:text-ink">
-                Erewhon test
+              <Link href="/demo" className="text-ink-soft hover:text-ink">
+                Demo
               </Link>
-              <Link href="/live" className="text-ink-soft hover:text-ink">
-                Live draws
-              </Link>
-              <Link href="/relationships" className="text-ink-soft hover:text-ink">
-                Map
-              </Link>
-              <Link href="/#topics" className="text-ink-soft hover:text-ink">
-                Topics
+              <Link href="/#results" className="text-ink-soft hover:text-ink">
+                Results
               </Link>
               <Link href="/#questions" className="text-ink-soft hover:text-ink">
                 Questions
+              </Link>
+              <Link href="/examinees" className="text-ink-soft hover:text-ink">
+                Examinees
               </Link>
               <Link href="/sources" className="text-ink-soft hover:text-ink">
                 Sources

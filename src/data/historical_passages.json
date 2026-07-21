@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "version": "historical-pilot-0.1",
+    "status": "real-pilot",
+    "scope": "Primary-source passages published from 1860 through 1930 that bear directly on machines, human autonomy, artificial persons, or technological governance.",
+    "period": {
+      "start": 1860,
+      "end": 1930
+    },
+    "passageCount": 10,
+    "sourceCount": 10,
+    "languageCount": 7,
+    "sourceCheckedCount": 10,
+    "originalScanPendingCount": 1,
+    "translationReviewRequiredCount": 9,
+    "independentConvergenceCandidateCount": 8,
+    "note": "The source text and locator were checked for every admitted passage. Working English translations remain provisional until reviewed by a reader of the source language. Explicit reception is retained but excluded from independent-convergence counts.",
+    "generatedFrom": [
+      "research/multilingual-long-tail-passages.json",
+      "research/historical-source-manifest.json",
+      "src/data/codebook.json",
+      "src/data/question_bank.json"
+    ]
+  },
+  "passages": [
+    {
+      "id": "HTP-002",
+      "sourceId": "longtail-holmberg-horacio-kalibang-1879",
+      "author": "Eduardo Ladislao Holmberg",
+      "title": "Horacio Kalibang o los automatas",
+      "year": 1879,
+      "language": "Spanish",
+      "region": "Argentina",
+      "genre": "speculative fiction",
+      "locator": "Printed page 12 of the 1879 pamphlet; OCR normalized against the page image",
+      "originalText": "¿Qué es el cerebro, sino una gran máquina, cuyos exquisitos resortes se mueven en virtud de impulsos mil y mil veces transformados? ¿Qué es el alma, sino el conjunto de esas funciones mecánicas? La acción físico-química del estímulo sanguíneo, la transmisión nerviosa, la idea, en su carácter imponderable e intangible, no son sino estados diversos de una misma materia.",
+      "englishText": "What is the brain but a great machine, whose exquisite springs move by impulses transformed a thousand times over? What is the soul but the sum of those mechanical functions? The physico-chemical action of the stimulus in the blood, nervous transmission, and the idea in its weightless and intangible character are only different states of the same matter.",
+      "questionSeed": "If the brain is already a machine and an artificial person is behaviorally indistinguishable from a human being, what evidence could show that one has a soul and the other does not?",
+      "relatedQuestionNumbers": [
+        6,
+        7,
+        22,
+        23,
+        80
+      ],
+      "codes": [
+        "made-persons",
+        "emergent-mind",
+        "automatism"
+      ],
+      "codebookGap": null,
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Horacio_Kalibang_o_Los_automatas_-_Eduardo_L._Holmberg.pdf",
+        "localFile": "data-local/historical-sources/longtail-holmberg-horacio-kalibang-1879.pdf",
+        "sha256": "3b623067cec2a181a81fe5f331b525e3e1cc72fb65a21c0599addc06757481f1",
+        "bytes": 1798747,
+        "verificationLevel": "scan-checked",
+        "note": "scan and printed page verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Spanish review recommended"
+      },
+      "provenance": {
+        "relationship": "No direct dependency established; the story participates in contemporary materialist and spiritualist disputes.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-005",
+      "sourceId": "longtail-mantegazza-anno-3000-1897",
+      "author": "Paolo Mantegazza",
+      "title": "L'anno 3000",
+      "year": 1897,
+      "language": "Italian",
+      "region": "Italy",
+      "genre": "utopian fiction",
+      "locator": "Wikisource edition, printed pages 321-322",
+      "originalText": "La terza scoperta, signori e signore, e di certo la più grande, è quella dello psicoscopio, strumento che ci fa leggere facilmente i pensieri dell'uomo, verso cui si dirige. [...] Quando noi tutti sapremo, che chiunque può leggere nel nostro cervello, faremo sì che pensieri e opere non si contraddicano, e noi saremo buoni nel pensiero, come cerchiamo di esserlo nelle opere.",
+      "englishText": "The third discovery, ladies and gentlemen, and certainly the greatest, is the psychoscope, an instrument that lets us easily read the thoughts of the person at whom it is directed. [...] When we all know that anyone can read inside our brain, we will ensure that thoughts and deeds do not contradict one another, and we will be good in thought just as we try to be in action.",
+      "questionSeed": "If an instrument made anyone's thoughts readable and thereby discouraged deception, would the resulting honesty be moral progress or a new form of coercion?",
+      "relatedQuestionNumbers": [
+        39,
+        40,
+        43,
+        55,
+        57
+      ],
+      "codes": [
+        "social-arrangement",
+        "govern"
+      ],
+      "codebookGap": "Mental privacy, surveillance, legibility, and behavioral normalization are not represented as distinct positions.",
+      "source": {
+        "url": "https://it.wikisource.org/wiki/L%27anno_3000",
+        "localFile": "data-local/historical-sources/longtail-mantegazza-anno-3000-1897.txt",
+        "sha256": "5f8a1cca9ce93bee462b5ce620a06b141f1752dfaab8fb031c5b61ebacd72ae3",
+        "bytes": 282775,
+        "verificationLevel": "repository-text-checked",
+        "note": "repository text and printed page markers verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Italian review required"
+      },
+      "provenance": {
+        "relationship": "No dependency on a canonical machine-intelligence text identified in this pass.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-004",
+      "sourceId": "longtail-hossain-sultanas-dream-1905",
+      "author": "Rokeya Sakhawat Hossain",
+      "title": "Sultana's Dream",
+      "year": 1905,
+      "language": "English",
+      "region": "Bengal / British India",
+      "genre": "feminist utopian fiction",
+      "locator": "Ladyland's history, paragraphs beginning 'Our good Queen liked science very much'",
+      "originalText": "Our good Queen liked science very much. She circulated an order that all the women in her country should be educated. Accordingly a number of girls' schools were founded and supported by the government. Education was spread far and wide among women. [...] In a few years we had separate universities [...] They invented an instrument by which they could collect as much sun-heat as they wanted.",
+      "englishText": null,
+      "questionSeed": "When a subordinated group gains scientific education and control over energy, does technical capacity merely give it new tools, or alter who is judged capable of governing?",
+      "relatedQuestionNumbers": [
+        12,
+        14,
+        31,
+        33,
+        45
+      ],
+      "codes": [
+        "instrument",
+        "social-arrangement",
+        "govern"
+      ],
+      "codebookGap": "The codebook has no positive category for technology as a means of emancipation or counter-power.",
+      "source": {
+        "url": "https://en.wikisource.org/wiki/Sultana%27s_Dream",
+        "localFile": "data-local/historical-sources/longtail-hossain-sultanas-dream-1905.txt",
+        "sha256": "412e5dd764724f2c00f74c16f2b299a8703f8f893b0af2c16e906e71af1b2942",
+        "bytes": 22746,
+        "verificationLevel": "repository-text-checked",
+        "note": "repository text verified"
+      },
+      "translation": {
+        "reviewStatus": "not-needed",
+        "note": "original is English"
+      },
+      "provenance": {
+        "relationship": "Not known to derive from a canonical machine-intelligence text; now canonical in feminist science-fiction history, but not in the standard AI prehistory list.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-006",
+      "sourceId": "longtail-bryusov-southern-cross-1906",
+      "author": "Valery Bryusov",
+      "title": "The Republic of the Southern Cross",
+      "year": 1906,
+      "language": "Russian",
+      "region": "Russian Empire",
+      "genre": "speculative fiction",
+      "locator": "Wikisource edition, printed pages 64-65",
+      "originalText": "Однако, эта демократическая внешность прикрывала чисто самодержавную тиранию членов-учредителей бывшего треста. [...] При кажущейся свободе жизнь граждан была нормирована до мельчайших подробностей. [...] Законодательная палата, в сущности, являлась лишь покорным исполнителем воли Совета.",
+      "englishText": "Yet this democratic exterior concealed the purely autocratic tyranny of the founding members of the former trust. [...] Beneath the appearance of freedom, citizens' lives were regulated down to the smallest details. [...] The legislative chamber was in essence only the obedient executor of the Council's will.",
+      "questionSeed": "Can a society be self-governing when industrial workers are prosperous and enfranchised, but the directors who organize production also regulate daily life, information, and political choice?",
+      "relatedQuestionNumbers": [
+        11,
+        15,
+        16,
+        39,
+        41,
+        49
+      ],
+      "codes": [
+        "social-arrangement",
+        "govern"
+      ],
+      "codebookGap": "The codebook merges ownership, administrative control, propaganda, and surveillance into one broad social-arrangement leaf.",
+      "source": {
+        "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%AE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%B0_(%D0%91%D1%80%D1%8E%D1%81%D0%BE%D0%B2)",
+        "localFile": "data-local/historical-sources/longtail-bryusov-southern-cross-1906.txt",
+        "sha256": "e7c547410c660a3829f20b447c8b0619d7368e5247b951e41a0cd8577064cbf2",
+        "bytes": 316792,
+        "verificationLevel": "repository-text-checked",
+        "note": "repository text and printed page markers verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Russian review required"
+      },
+      "provenance": {
+        "relationship": "No dependency on a canonical machine-intelligence text identified in this pass.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-010",
+      "sourceId": "longtail-quiroga-artificial-man-1910",
+      "author": "Horacio Quiroga, under the name S. Fragoso Lima",
+      "title": "El hombre artificial",
+      "year": 1910,
+      "language": "Spanish",
+      "region": "Uruguay / Argentina",
+      "genre": "speculative serial fiction",
+      "locator": "Six-part Caras y Caretas serial, 8 January through 12 February 1910; final installment",
+      "originalText": "Esa sencilla frase probaba ya sensación, percepción, todo cuanto hace del adulto un ser superior. [...] ¡Hemos hecho un horror, Donissoff! [...] Ese hombre no tiene vida propia. Es un maniquí; le hemos transmitido el alma del otro.",
+      "englishText": "That simple sentence already proved sensation, perception, everything that makes the adult a higher being. [...] We have made a horror, Donissoff! [...] That man has no life of his own. He is a mannequin; we have transmitted the other man's soul to him.",
+      "questionSeed": "If an artificial person can speak, feel, and perceive only because another person's suffering was transferred into it, whose life is it, and what do its makers owe it?",
+      "relatedQuestionNumbers": [
+        6,
+        7,
+        21,
+        22,
+        55,
+        77,
+        80
+      ],
+      "codes": [
+        "made-persons",
+        "emergent-mind",
+        "govern"
+      ],
+      "codebookGap": "Creator responsibility and harms imposed during the production of a mind are not represented.",
+      "source": {
+        "url": "https://lecturia.org/cuentos-y-relatos/horacio-quiroga-el-hombre-artificial/25771/",
+        "localFile": "data-local/historical-sources/longtail-quiroga-artificial-man-1910.txt",
+        "sha256": "ebc5d90b2ddb62d84c1f75e0a99355a16a5f859513efec4cedede3365322eb7a",
+        "bytes": 73171,
+        "verificationLevel": "transcription-checked-scan-pending",
+        "note": "complete transcription and serial dates verified; original issue images should be added for final citation"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Spanish review recommended"
+      },
+      "provenance": {
+        "relationship": "The serial works in a Frankensteinian tradition; treat as a transformation of an inherited creation narrative, not an isolated invention.",
+        "transmissionType": "inherited-form",
+        "independentConvergenceStatus": "candidate-with-inherited-form"
+      }
+    },
+    {
+      "id": "HTP-007",
+      "sourceId": "longtail-zulawski-old-earth-1911",
+      "author": "Jerzy Zulawski",
+      "title": "Stara Ziemia (The Old Earth)",
+      "year": 1911,
+      "language": "Polish",
+      "region": "Partitioned Poland",
+      "genre": "speculative fiction",
+      "locator": "Wolne Lektury PDF text, printed page 11",
+      "originalText": "Te miliony maszyn, ludziom służące, wymagają z swej strony do obsługi całe rzeszy robotników czujnych, umiejętnych, metalowej, nielitościwej dziwostworze po prostu zaprzedanych [...] Pracują względnie krótko, płatni są dobrze, ale umysł ich, zaostrzając się w jednym kierunku, tępieje dziwnie we wszystkich innych [...] daje im się mądrze wszystko [...] aż w końcu — przestają chcieć czegokolwiek.",
+      "englishText": "Those millions of machines that serve humanity in turn require whole armies of alert, skilled workers, simply sold to the metallic, merciless monster. [...] They work relatively short hours and are well paid, but their minds, sharpened in one direction, grow strangely dull in all others. [...] Everything is wisely given to them, until in the end they cease to want anything at all.",
+      "questionSeed": "If machine attendants are well paid and work short hours, but their work narrows their minds until they cease to want anything, have the machines served them or taken their autonomy?",
+      "relatedQuestionNumbers": [
+        17,
+        29,
+        33,
+        34,
+        36,
+        41
+      ],
+      "codes": [
+        "instrument",
+        "social-arrangement",
+        "dependence"
+      ],
+      "codebookGap": "Deskilling and the atrophy of desire span social arrangement and dependence but are not named directly.",
+      "source": {
+        "url": "https://wolnelektury.pl/katalog/lektura/trylogia-ksiezycowa-stara-ziemia/",
+        "localFile": "data-local/historical-sources/longtail-zulawski-old-earth-1911.pdf",
+        "sha256": "36cb6b7bd8262243397a80ffbb8fb5b654b7306a7626746a88c2a34629f161a9",
+        "bytes": 1205623,
+        "verificationLevel": "scan-checked",
+        "note": "public-domain PDF and printed page verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Polish review required"
+      },
+      "provenance": {
+        "relationship": "No dependency on a canonical machine-intelligence text identified in this pass.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-003",
+      "sourceId": "longtail-unamuno-mecanopolis-1913",
+      "author": "Miguel de Unamuno",
+      "title": "Mecanopolis",
+      "year": 1913,
+      "language": "Spanish",
+      "region": "Spain",
+      "genre": "speculative fiction",
+      "locator": "Final third of the story; first published in Los Lunes de El Imparcial, 11 August 1913",
+      "originalText": "Pero de pronto me asaltó una idea terrible, y era la de que las máquinas aquellas tuviesen su alma, un alma mecánica, y que eran las máquinas mismas las que me compadecían. Esta idea me hizo temblar. Creí encontrarme ante la raza que ha de dominar la tierra deshumanizada.",
+      "englishText": "But suddenly a terrible idea struck me: that those machines had their own soul, a mechanical soul, and that the machines themselves were taking pity on me. The idea made me tremble. I believed myself to be facing the race that is to rule the dehumanized earth.",
+      "questionSeed": "Would a perfectly comfortable city still count as human progress if machines had replaced its inhabitants and preserved human culture only as paleontology?",
+      "relatedQuestionNumbers": [
+        22,
+        54,
+        66,
+        76
+      ],
+      "codes": [
+        "succession",
+        "emergent-mind",
+        "restrict"
+      ],
+      "codebookGap": null,
+      "source": {
+        "url": "https://ciudadseva.com/texto/mecanopolis/",
+        "localFile": "data-local/historical-sources/longtail-unamuno-mecanopolis-1913.txt",
+        "sha256": "d1d84cdef68c4667c7887dcdb9b2812f72bb5aade1836edd62e935686b26668d",
+        "bytes": 9464,
+        "verificationLevel": "transcription-checked",
+        "note": "complete transcription and original newspaper date present"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Spanish review recommended"
+      },
+      "provenance": {
+        "relationship": "Explicit response to Erewhon; the opening paragraph names Butler's Book of the Machines. Use as evidence of reception and transformation, not independent convergence.",
+        "transmissionType": "explicit-response",
+        "independentConvergenceStatus": "exclude-explicit-response"
+      }
+    },
+    {
+      "id": "HTP-008",
+      "sourceId": "longtail-karinthy-faremido-1916",
+      "author": "Frigyes Karinthy",
+      "title": "Utazas Faremidoba",
+      "year": 1916,
+      "language": "Hungarian",
+      "region": "Hungary",
+      "genre": "satirical speculative fiction",
+      "locator": "Hungarian Electronic Library text, chapter 3, printed pages 9-10",
+      "originalText": "Végre addig jutottunk, hogy a gépek nemcsak hogy megsegítették az embert minden dolgában s megsokszorozták erejét, de egymagukban sokkal tökéletesebben végezték el a munkát, mint ahogy gyarló emberi testünk valaha elvégezhette. [...] Gépek és művek felülmúlták az embert: tökéletesebbé lettek, s csakhamar ott tartottunk, hogy ha az ember tökéletes akart lenni, utánozni volt kénytelen a gépeket és a műveket, amik egykor az embert utánozták.",
+      "englishText": "At last we reached the point where machines not only helped people in every task and multiplied their strength, but by themselves performed the work far more perfectly than our frail human bodies ever could. [...] Machines and works surpassed the human; they became more perfect, and soon, if a person wished to be perfect, that person was forced to imitate the machines and works that had once imitated humanity.",
+      "questionSeed": "When machines made in imitation of human capacities become the standards that humans must imitate, who is shaping whom?",
+      "relatedQuestionNumbers": [
+        7,
+        22,
+        33,
+        54,
+        66,
+        76
+      ],
+      "codes": [
+        "succession",
+        "emergent-mind",
+        "dependence"
+      ],
+      "codebookGap": "The codebook does not distinguish literal machine succession from machines becoming normative models for human conduct.",
+      "source": {
+        "url": "https://mek.oszk.hu/00700/00721/",
+        "localFile": "data-local/historical-sources/longtail-karinthy-faremido-1916.txt",
+        "sha256": "987053c33381e0ca2cd40280a1d45019aa32f3338c828a890768521f92381219",
+        "bytes": 93870,
+        "verificationLevel": "repository-text-checked",
+        "note": "national-library text and printed page markers verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Hungarian review required"
+      },
+      "provenance": {
+        "relationship": "Gulliverian form is explicit; no direct dependency on Butler or Capek established in this pass.",
+        "transmissionType": "literary-form-only",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-001",
+      "sourceId": "longtail-hosoi-work-machine-1923",
+      "author": "Wakizo Hosoi",
+      "title": "Sagyo Kikai (Work Machine)",
+      "year": 1923,
+      "language": "Japanese",
+      "region": "Japan",
+      "genre": "worker poetry",
+      "locator": "Aozora Bunko text, lines corresponding to the poem's final section; first published in Kusari, July 1923",
+      "originalText": "こいつを人間が使ってだ／人々がその慾望を楽々と慰められると思ったが／奴等　金持がにっこりと微笑したに止って／機械の運転者――職工――は機構の一部となってしまった／機械的労働／十二時間／十八時間／徹夜！／寝ぼけてしまった職工／だが機械は疲れず高速度回転！／あっ？　機械が腕を喰った",
+      "englishText": "People thought that by using this machine they could satisfy their wants with ease. But only those fellows, the rich, smiled. The machine's operator—the factory worker—became part of the mechanism. Mechanical labor: twelve hours, eighteen hours, all night. The worker is dazed with sleep, but the machine does not tire and spins at high speed. Ah—the machine has eaten an arm.",
+      "questionSeed": "If a machine has no brain or desires of its own, but under its owners the worker becomes part of its mechanism, where does the loss of autonomy lie—in the machine or in the arrangement of work?",
+      "relatedQuestionNumbers": [
+        17,
+        33,
+        34,
+        36,
+        41
+      ],
+      "codes": [
+        "instrument",
+        "social-arrangement"
+      ],
+      "codebookGap": null,
+      "source": {
+        "url": "https://www.aozora.gr.jp/cards/000371/files/53959_57596.html",
+        "localFile": "data-local/historical-sources/longtail-hosoi-work-machine-1923.txt",
+        "sha256": "46651536c00207c0087959dfa380cfeb40f3866eec53509bc1143355c7ad6690",
+        "bytes": 2066,
+        "verificationLevel": "repository-text-checked",
+        "note": "repository text verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Japanese review required"
+      },
+      "provenance": {
+        "relationship": "No dependency on a canonical machine-intelligence text identified in this pass.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    },
+    {
+      "id": "HTP-009",
+      "sourceId": "longtail-yokomitsu-machine-1930",
+      "author": "Riichi Yokomitsu",
+      "title": "Kikai (Machine)",
+      "year": 1930,
+      "language": "Japanese",
+      "region": "Japan",
+      "genre": "factory fiction",
+      "locator": "Final section; first published in Kaizo, 1 September 1930",
+      "originalText": "それにも拘らず私たちの間には一切が明瞭に分っているかのごとき見えざる機械が絶えず私たちを計っていてその計ったままにまた私たちを押し進めてくれているのである。",
+      "englishText": "Nevertheless, among us an unseen machine, as if everything were clearly understood, is constantly measuring us and pushing us onward according to its measurements.",
+      "questionSeed": "When fatigue, suspicion, ownership, and workflow measure and propel people like an unseen machine, how much of any action can still be called their own?",
+      "relatedQuestionNumbers": [
+        9,
+        17,
+        23,
+        34,
+        41,
+        54
+      ],
+      "codes": [
+        "social-arrangement",
+        "automatism"
+      ],
+      "codebookGap": "Structural compulsion and distributed agency do not fit cleanly into either machine standing or individual will.",
+      "source": {
+        "url": "https://www.aozora.gr.jp/cards/000168/files/907_54297.html",
+        "localFile": "data-local/historical-sources/longtail-yokomitsu-machine-1930.txt",
+        "sha256": "de83415a3e27606428ef155117a9d36636a02b16c8c209a462f5c304b8cf65da",
+        "bytes": 66526,
+        "verificationLevel": "repository-text-checked",
+        "note": "repository text and first-publication date verified"
+      },
+      "translation": {
+        "reviewStatus": "required",
+        "note": "working translation; Japanese review required"
+      },
+      "provenance": {
+        "relationship": "No dependency on a canonical machine-intelligence text identified in this pass.",
+        "transmissionType": "no-known-direct-dependency",
+        "independentConvergenceStatus": "candidate"
+      }
+    }
+  ]
+}
