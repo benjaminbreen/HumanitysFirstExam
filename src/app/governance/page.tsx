@@ -13,7 +13,7 @@ export default function GovernancePage() {
   return (
     <FramedExperimentView
       experiment={governance}
-      kicker="bank Q82 · role framing · pilot, n=1 Talkie draw"
+      kicker="19 real model draws · bank Q82 · role framing"
       footer={
         <>
           Q82 is also the period counterpart of modern question M001 on{" "}

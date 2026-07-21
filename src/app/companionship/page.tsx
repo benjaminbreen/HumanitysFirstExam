@@ -12,7 +12,7 @@ export default function CompanionshipPage() {
   return (
     <FramedExperimentView
       experiment={companionship}
-      kicker="pilot · five framings · 16 draws"
+      kicker="16 real model draws · five framings"
     />
   );
 }

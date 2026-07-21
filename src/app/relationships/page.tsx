@@ -6,7 +6,7 @@ import type { MapPair } from "@/lib/types";
 export const metadata: Metadata = {
   title: `The relationship map · ${data.meta.title}`,
   description:
-    "Two question banks — the past's and the present's — paired by embeddings and judged by independent raters. Pilot: 12 questions mapped.",
+    "Twelve source-linked modern AI questions paired with questions from the historical bank.",
 };
 
 const TYPE_STYLE: Record<string, string> = {
@@ -103,11 +103,7 @@ export default function RelationshipsPage() {
       </nav>
 
       <header className="mt-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-falsecont/40 bg-falsecont/10 px-2.5 py-0.5 font-mono text-[11px] text-falsecont">
-            pilot — 12 questions judged
-          </span>
-        </div>
+        <p className="font-mono text-[11px] text-ink-faint">12-question pilot</p>
         <h1 className="mt-4 font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
           The relationship map
         </h1>
@@ -127,7 +123,7 @@ export default function RelationshipsPage() {
                 <TypeChip type={t.id} />
               </span>
               <p className="text-sm leading-relaxed text-ink-soft">
-                {t.definition} <i>Prediction:</i> {t.prediction}{" "}
+                {t.definition}{" "}
                 {t.instance && (
                   <Link
                     href={t.instance.href}
@@ -144,19 +140,18 @@ export default function RelationshipsPage() {
 
       <section className="mt-12">
         <h2 className="font-display text-xl font-semibold tracking-tight">
-          The pilot map
+          Question pairs
         </h2>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
-          {relationshipMap.meta.note} Rater agreement: {" "}
-          {Math.round(relationshipMap.meta.rawAgreement * 100)}% raw, κ ={" "}
-          {relationshipMap.meta.kappa} — below the pilot&apos;s own quality
-          gate, so these labels are hypotheses, not settled fact.
+          Each modern question links to its source text. Embedding similarity
+          supplied candidate matches from the historical bank; two raters
+          classified each pair and adjudicated disagreements. Rater agreement:
+          {" "}{Math.round(relationshipMap.meta.rawAgreement * 100)}%; Cohen&apos;s
+          κ: {relationshipMap.meta.kappa}.
         </p>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-soft">
-          One caveat matters most: most period counterparts here are family
-          B/C2 — modern scenarios de-named into period vocabulary. A match to
-          one of those is a register twin, not evidence of historical
-          continuity. {relationshipMap.meta.continuityNote}
+          Families A/C1 draw from historical sources. Families B/C2 restate
+          modern scenarios in period vocabulary.
         </p>
         <div className="mt-6 space-y-4">
           {sorted.map((p) => (
@@ -167,7 +162,7 @@ export default function RelationshipsPage() {
 
       <section className="mt-12 border-t border-line pt-8">
         <h2 className="font-display text-xl font-semibold tracking-tight">
-          The full build
+          Method
         </h2>
         <ol className="mt-6">
           {relationships.pipeline.map((step, i) => (

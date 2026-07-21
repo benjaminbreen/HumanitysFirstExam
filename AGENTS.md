@@ -8,8 +8,8 @@ in README.md; Next.js rules for agents are at the bottom of this file.
 
 AI systems supply the conceptual vocabulary people use to think about
 human-technology relations, and that vocabulary is overwhelmingly shaped by
-twentieth-century science fiction. Between Darwin and Asimov (1859–1940),
-machine fiction existed — Erewhon, R.U.R. — but it was one voice in a plural
+twentieth-century science fiction. Between 1850 and 1940, machine fiction
+existed — Erewhon, R.U.R. — but it was one voice in a plural
 discourse whose other frameworks located the threat to autonomy in humans
 becoming machine-like (habit, industrial discipline, dependence) rather than
 machines becoming agent-like. This project builds a tagged dataset of that
@@ -23,7 +23,7 @@ Talkie team (Nick Levine, Alec Radford). Cosmos Institute, Human Autonomy
 track.
 
 **1. The dataset.** 300–500 verified passages on autonomy and the machine
-age, 1859–1940, tagged with metadata (genre, date, language, author) and
+age, 1850–1940, tagged with metadata (genre, date, language, author) and
 coded in a schema of autonomy-concern types and normative frameworks.
 Multilingual, stratified by genre. Discovery uses the *negative-space
 method*: ask frontier models to name the period's key texts, document what
@@ -36,7 +36,8 @@ about whether the text is in its training data.
 (contemporary, and period-appropriate written by the historians). The tagged
 passages are the **answer key**: the set of positions actually attested in
 the period record. Respondent classes: Talkie (13B, pre-1931 cutoff, base
-model, completions only), three frontier models (both registers), a small
+model, completions only), three frontier models (both registers), three
+open-source models (Qwen 3.7 Plus is the first; both registers), a small
 human volunteer panel (contemporary register). Scored quantity: **coverage
 of the attested position-space** — what fraction of the answer key's
 positions does each respondent class recover across draws?
@@ -75,8 +76,9 @@ Methods rules the pilot data already forced, all load-bearing:
 Keep these consistent everywhere (site copy, README, metadata) and update
 them all at once or not at all:
 
-- Period: **1859–1940**. Instrument window: **1860–1930** (Talkie's cutoff
-  is pre-1931; the 1931–1940 gap is a stated limitation, not a secret).
+- Historical period: **1850–1940**. Talkie's knowledge cutoff remains
+  **pre-1931**; sources from 1931–1940 stay in the historical answer key and
+  are treated as post-cutoff material for that respondent.
 - Question bank: **100** questions (Nathan Davies), families A / B / C1 / C2.
 - Dataset target: **300–500** verified passages.
 - Full-study protocol: **20 draws** per question per model. Anything smaller

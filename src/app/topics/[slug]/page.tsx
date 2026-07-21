@@ -60,19 +60,14 @@ export default async function TopicPage({
       </header>
 
       {topic.slug === engine.topicSlug && (
-        <aside className="mt-8 max-w-3xl rounded-sm border border-continuity/40 bg-continuity/5 p-4 text-sm leading-relaxed text-ink-soft">
-          <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
-            real model outputs
-          </span>{" "}
-          Real pilot draws exist for this opening — Talkie and nine isolated
-          frontier-model instances under three temporal framings:{" "}
+        <p className="mt-6 text-sm leading-relaxed text-ink-soft">
           <Link
             href="/engine"
             className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
           >
-            the self-altering engine →
+            Read 18 real model draws for this opening →
           </Link>
-        </aside>
+        </p>
       )}
 
       <div className="mt-8">

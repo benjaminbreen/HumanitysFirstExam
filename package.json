@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sources:build": "node scripts/build-historical-source-texts.mjs",
+    "passages:prepare-pilot": "node scripts/prepare-passage-pilot.mjs",
+    "passages:retrieve-pilot": "node scripts/run-passage-pilot.mjs --allow-paid-api --retrieve-only",
+    "passages:classify-pilot": "node scripts/run-passage-pilot.mjs --allow-paid-api --classify-only",
+    "passages:audit-pilot": "node scripts/audit-passage-pilot.mjs",
+    "passages:export-pilot": "node scripts/export-passage-pilot.mjs",
+    "classify:prepare": "node scripts/classify-passages-from-gold.mjs --prepare",
+    "classify:from-gold": "node scripts/classify-passages-from-gold.mjs --allow-paid-api"
   },
   "dependencies": {
     "next": "16.2.10",

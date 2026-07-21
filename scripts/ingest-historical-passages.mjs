@@ -68,8 +68,11 @@ assert(
 const passages = research.passages.map((passage) => {
   const source = sourceById.get(passage.sourceId);
   assert(source, `${passage.id}: sourceId is absent from the historical source manifest`);
-  assert(source.tier === "long_tail_pilot", `${passage.id}: only long-tail pilot sources may enter this dataset`);
-  assert(passage.year >= 1860 && passage.year <= 1930, `${passage.id}: year is outside the instrument window`);
+  assert(
+    ["long_tail_pilot", "jamesiana_discovery"].includes(source.tier),
+    `${passage.id}: source tier is not admitted to the historical passage dataset`,
+  );
+  assert(passage.year >= 1850 && passage.year <= 1940, `${passage.id}: year is outside the historical period`);
   assert(source.year === passage.year, `${passage.id}: year disagrees with the source manifest`);
   assert(source.title === passage.title, `${passage.id}: title disagrees with the source manifest`);
   assert(source.language === passage.language, `${passage.id}: language disagrees with the source manifest`);
@@ -136,7 +139,7 @@ const dataset = {
     version: "historical-pilot-0.1",
     status: "real-pilot",
     scope: research.scope,
-    period: { start: 1860, end: 1930 },
+    period: { start: 1850, end: 1940 },
     passageCount: passages.length,
     sourceCount: unique(passages.map((passage) => passage.sourceId)).length,
     languageCount: unique(passages.map((passage) => passage.language)).length,

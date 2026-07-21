@@ -7,7 +7,7 @@ export default function CodeChip({ code }: { code: string }) {
   if (!leaf) return null;
   return (
     <Link
-      href={`/codebook#${leaf.branchId}`}
+      href={`/codebook#${leaf.id}`}
       title={leaf.definition}
       className="inline-flex items-center rounded-sm border border-ink-faint/40 bg-paper-deep/60 px-1.5 py-0.5 font-mono text-[11px] text-ink-soft hover:border-ink-soft"
     >

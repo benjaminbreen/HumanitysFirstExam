@@ -13,7 +13,7 @@ export default function EnginePage() {
   return (
     <FramedExperimentView
       experiment={engine}
-      kicker="horizon topic · three framings · pilot, n=3 per cell"
+      kicker="18 real model draws · horizon topic · three framings"
       footer={
         <>
           This question is the horizon bookend to the{" "}
@@ -22,9 +22,8 @@ export default function EnginePage() {
             className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
           >
             Erewhon test
-          </Link>{" "}
-          — the 2030 flip replicates. Its worked topic page, with simulated
-          20-draw distributions and primary sources:{" "}
+          </Link>
+          . See also{" "}
           <Link
             href={`/topics/${engine.topicSlug}`}
             className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"

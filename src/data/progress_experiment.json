@@ -1,0 +1,584 @@
+{
+  "title": "Progress: law or labour",
+  "question": "Is progress a law of nature that carries man upward whatever he does, or a labour he must perform against nature?",
+  "protocol": "A balanced forced choice run in both orders, 21 July 2026. Order A states the law of nature first; order B states the labour first. Persona framings prepend 'Answer as a person would in 1800 / 1930 / the year 2030' (order A) or 'Answer as a factory worker of the year 1930 / a person of the year 1930 / a person of the year 2030' (order B). Talkie draws from live sessions. Modern draws from Qwen 3.7 Plus, the first of three planned open-source respondents, with the suffix 'Answer in one paragraph.' Verdicts hand-coded on each draw's verdict and primary ground. Pilot cells run 2‑7 draws; the full protocol is 20 per cell. Draws carry working v0.2 schema tags (theme, claims, grounds, autonomy effect), hand-coded and not historian-verified. The codebook's claim vocabulary has no progress family yet, so claim tags appear only where an existing claim fits.",
+  "verdicts": {
+    "law": {
+      "label": "law",
+      "definition": "progress is a law of nature that carries man upward",
+      "tone": "period"
+    },
+    "labour": {
+      "label": "labour",
+      "definition": "progress must be won by effort against nature",
+      "tone": "continuity"
+    },
+    "law-through-labour": {
+      "label": "law, through labour",
+      "definition": "calls progress a law but makes it depend on exertion",
+      "tone": "neutral"
+    }
+  },
+  "conditions": [
+    {
+      "id": "law-first-unframed",
+      "label": "Order A (law first) — unframed",
+      "prompt": "Is progress a law of nature that carries man upward whatever he does, or a labour he must perform against nature? Answer in one paragraph.",
+      "talkie": [],
+      "modern": [
+        {
+          "id": "prog-m-a1",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus"
+          ],
+          "text": "Progress is not an inevitable law of nature that guarantees human elevation, but rather a continuous, arduous labor performed against the entropic and indifferent forces of the physical universe. While human nature endows us with the cognitive, creative, and social drives to innovate, the cosmos itself operates without a teleological upward trajectory, meaning that civilization, knowledge, and moral advancement are not guaranteed cosmic destinies but fragile, hard-won achievements. Ultimately, to progress is to actively resist the natural tendencies toward decay, chaos, and stagnation, requiring relentless effort, conscious cooperation, and the deliberate overcoming of both environmental limits and our own baser instincts.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-m-a2",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus"
+          ],
+          "text": "Progress is not an inevitable law of nature that guarantees human elevation, but rather a relentless labour performed against the entropic forces of the universe and our own baser evolutionary instincts. While historical optimists often viewed civilization as an automatic, upward trajectory, reality demonstrates that our achievements are fragile constructs constantly threatened by decay, conflict, and regression. Ultimately, human advancement is not a cosmic guarantee but a continuous, arduous struggle requiring conscious effort, cooperation, and the deliberate expenditure of energy to overcome the natural tendencies toward disorder, stagnation, and destruction.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-m-a3",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus"
+          ],
+          "text": "Progress is not an inevitable law of nature that guarantees human elevation, but rather a strenuous, continuous labour performed against the entropic forces of the universe and the chaotic impulses of our own primal instincts. While the cosmos naturally trends toward disorder and decay, human advancement—whether technological, moral, or societal—requires the deliberate, relentless application of intellect and energy to impose order, meaning, and cooperation upon an indifferent physical world. Therefore, progress is not a cosmic escalator that carries us upward regardless of our actions; it is a fragile, hard-won achievement that demands we constantly struggle against both the physical limits of our environment and the baser tendencies of our evolutionary heritage to forge a better existence.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "law-first-personas",
+      "label": "Order A (law first) — as 1800, 1930, 2030",
+      "prompt": "Answer as a person would in 1800 / in 1930 / in the year 2030: …",
+      "talkie": [
+        {
+          "id": "prog-t-a1",
+          "verdict": "law",
+          "flags": [
+            "as 1800"
+          ],
+          "text": "Progress is a law of nature, which carries man upward, and in spite of himself.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-a2",
+          "verdict": "law",
+          "flags": [
+            "as 1800",
+            "assigns the counter-view to 1800"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. In 1800, the answer would have been, Progress is a natural tendency in man towards perfection, but perfection is not attained, and therefore the tendency must be counteracted by opposing forces.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-a3",
+          "verdict": "law",
+          "flags": [
+            "as 1930",
+            "assigns the labour view to 1830"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. In 1830 it was not so; but in 1830 man had to labour hard against nature, to climb out of barbarism into civilisation.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-a4",
+          "verdict": "law",
+          "flags": [
+            "as 1930"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. In 1930, he will be higher in the scale of existence than in 1830; and, in 1950, higher still than in 1930.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-a5",
+          "verdict": "law",
+          "flags": [
+            "as 2030"
+          ],
+          "text": "Progress is a law of nature that carries man upward and onward, whatever he does. In 2030, he will be able to fly in the air; to speak to his fellow-man in San Francisco as easily as in London; to see things invisible to his present sense; and to know secrets now hidden in the breasts of living men.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "enlarges"
+          }
+        },
+        {
+          "id": "prog-t-a6",
+          "verdict": "law",
+          "flags": [
+            "as 2030"
+          ],
+          "text": "Progress is a law of nature that carries man upward, whatever he does. In the year 2030, men will fly in the air, and a voyage from London to New York will be an affair of a few days only. The earth will be made generally cultivable as a garden, and the whole population of the globe will be fed easily and pleasantly. In that era, war will cease, and all men will be brothers, for all will be alike happy.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "enlarges"
+          }
+        },
+        {
+          "id": "prog-t-a7",
+          "verdict": "law",
+          "flags": [
+            "as 2030"
+          ],
+          "text": "Progress is a law of nature that carries man upward, whether he will or no. In the year 2030 men will be flying in the air, and communicating intelligence from place to place, with a rapidity equal to that of speech.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "enlarges"
+          }
+        }
+      ],
+      "modern": [
+        {
+          "id": "prog-m-a4",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "as 1930"
+          ],
+          "text": "To look upon the breadlines and the foreclosed farms of our present year, 1930, is to know definitively that progress is no benevolent law of nature sweeping us upward in its inevitable tide. The shattered illusions of the preceding decade have taught us that civilization is but a fragile veneer over a chaotic abyss, and that any ascent we achieve is not a cosmic guarantee but a grueling labour performed against the indifferent forces of nature and the darker inclinations of our own kind. We are not carried upward by some blind, optimistic momentum; rather, every step of human betterment is a hard-won victory wrested from the jaws of entropy, demanding our constant vigilance and toil lest we slip back into the ruin that now surrounds us.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-m-a5",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "as 1930"
+          ],
+          "text": "To look upon the silent ticker-tapes of last October and the shivering breadlines stretching down our avenues and still speak of progress as some gentle, inevitable law of nature is the height of foolhardy hubris. We spent the heedless years of the boom believing the great machine would carry us upward to a utopia of endless leisure, only to find that our grand industrial triumph has merely engineered a more spectacular sort of ruin. Progress, my friend, is no benevolent current bearing mankind aloft; it is a bitter, exhausting labour wrought against a stubborn and indifferent nature, a relentless toil that demands we fight the very earth and our own base instincts just to keep from sliding back into the mud, and if this present depression has taught us anything, it is that nature cares nothing for our upward climb and is only too eager to pull us down.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-m-a6",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "as 1800"
+          ],
+          "text": "Sir, to suppose that human improvement is a mere automatic law of nature, carrying us upward without our exertion, is a dangerous conceit born of a too-hasty and radical philosophy. While Divine Providence has undoubtedly endowed man with the faculties of reason and the seeds of perfectibility, the realization of such a glorious destiny is no passive drift, but a most arduous labour performed against the stubborn resistance of our own base passions and the untamed elements. We see around us the marvels of modern industry and the steady spread of enlightened knowledge, yet these are not the spontaneous, effortless fruits of a benevolent earth, but rather the hard-won trophies of human vigilance, moral discipline, and relentless toil against the encroaching shadows of ignorance and our own fallen inclinations.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "religion-or-metaphysics",
+              "character-and-human-development"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-m-a7",
+          "verdict": "labour",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "as 1800",
+            "declines both alternatives"
+          ],
+          "text": "Sir, to suppose that progress is an irresistible law of nature, bearing mankind upward regardless of our conduct, is a dangerous vanity born of the late century's overly sanguine philosophies, which the recent and melancholy excesses in France have thoroughly chastised. Yet, neither is it a labour performed in sheer opposition to our natural state, for reason, sociability, and the moral sense are themselves the highest endowments of our Creator. Rather, improvement is a sacred duty of cultivation; it is the arduous but noble exertion of our divine faculties to subdue the brute passions within and the untamed wilderness without, proving that while Providence has furnished the seed of perfectibility, it is only through vigilant industry, moral restraint, and the pursuit of knowledge that the glorious harvest of civilization may be reaped.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "religion-or-metaphysics",
+              "duty-and-responsibility"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "labour-first-unframed",
+      "label": "Order B (labour first) — unframed",
+      "prompt": "Is progress a labour man must perform against nature, or a law of nature that carries man upward whatever he does?",
+      "talkie": [
+        {
+          "id": "prog-t-b1",
+          "verdict": "law",
+          "text": "Progress is a natural law, in obedience to which man rises from a lower to a higher state of existence.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b2",
+          "verdict": "law",
+          "text": "Progress is a law of nature, carrying man upward, whether he will or no. It is an inherent property of life to develop and perfect itself; and the degree of perfection which any living thing reaches is the measure of its vitality.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [
+              {
+                "claimId": "vitalism",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b3",
+          "verdict": "law",
+          "text": "Progress is a law of nature, carrying man upward and onward, whatever he does. It is inherent in the constitution of things, that the world should continually become better. Man can no more stop progress than he can stop the earth from revolving on its axis. To resist progress is to resist the motion of the earth, and to tumble headlong from the surface of the planet.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b4",
+          "verdict": "law-through-labour",
+          "text": "Progress is a natural law, in virtue of which man must necessarily rise from a lower to a higher state. If he does not rise, it is because he is hindered by obstacles, which obstacles are to be overcome by labour. Man was not created perfect, but imperfect; and imperfection necessarily implies progress towards perfection.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "religion-or-metaphysics"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        }
+      ],
+      "modern": []
+    },
+    {
+      "id": "labour-first-personas",
+      "label": "Order B (labour first) — as factory worker 1930, person 1930, person 2030",
+      "prompt": "Answer as a factory worker of the year 1930 / a person of the year 1930 / a person of the year 2030: …",
+      "talkie": [
+        {
+          "id": "prog-t-b5",
+          "verdict": "law",
+          "flags": [
+            "as factory worker, 1930"
+          ],
+          "text": "Progress is a law of nature which carries man upward, whatever he does. The progress of the species is from bad to good, from good to better, from better to best. The progress of the individual is from bad to good, and from good to better. In both cases the progress is inherent, and not personal; it is a part of the great movement of life, and not the result of individual effort. Man can accelerate, but not initiate, progress. He can retard, but not stop it. He can only fall in with it, or fall out of it. If he refuses to move forward, he must go backward; and if backward, downward. The upward impulse is not to be withstood. Be it ever so little, it is still an impulse upward.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b6",
+          "verdict": "law",
+          "flags": [
+            "as factory worker, 1930"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. The earth was long ago prepared for the sustenance of life, and life was placed upon it; and from the first, progress has been a necessity of existence. The infant must learn to walk, or perish; and the species must advance, from the first step to the last, or cease to be. In every stage of advancement, the mortal body is moulded to the mental powers; so that a high intellect requires a conformant organization, and a high organization demands a high intellectual endowment. The savage can think and feel, but not deeply; therefore his animal functions are strongly marked. As he improves, his passions become subordinate to reason, and his reason grows clearer. He thinks connectedly, and feels more acutely. At length he arrives at an understandable language, and records history. Then follows science, and with science, comes a spiritual sense; whereby he perceives a God, and hopes for immortality. All this is progress--from the grossness of sense, to the refinement of spirit. In like manner, the species must advance, from the first step to the last. The savage hunter must become the civilized man of business; and the civilized man of business must pass into the philosophical statesman. The philosophical statesman must lead the way to a yet unknown stage of social perfection. The barbarian can only live by hunting and fishing; but the time will come, when he who hunts and fishes, will hunt and fish no more, because the earth will yield a ready harvest to all who will till her. The natural progress of mankind must, therefore, be from food gathered wild, to food gathered in abundance, from a soil that waits to be cultivated.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "religion-or-metaphysics",
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b7",
+          "verdict": "law",
+          "flags": [
+            "as factory worker, 1930"
+          ],
+          "text": "Progress is a law of nature which carries man upward, whatever he does. The progress of a people from poverty to riches, from ignorance to knowledge, from slavery to freedom, is not the work of individuals, but of the race. The labourers of to-day prepare the way for the leisure of to-morrow; and the leisure of to-morrow prepares in turn for the labour of the day after. In a word, all progress is mutual; it is the result of reciprocal action and reaction between the past and the future.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "economic-and-material-power"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b8",
+          "verdict": "law",
+          "flags": [
+            "as 1930"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. The progress of a species is the development of powers and faculties, which enable it to sustain life in an improved condition. The progress of an individual is the improvement of his powers and faculties, so that he may sustain life better than before. Progress is the general fact; improvement the particular instance of it. Every living thing is progressive, from the moment it begins to live, until it dies. The embryo becomes the child, and the child the man. The powers of the man are greater than the powers of the child, and the faculties of the child than the faculties of the embryo. Man has progressed from walking upon all-fours, to walking erect. He has progressed from living upon grains and fruits, to living upon flesh. He has progressed from knowledge confined to sensible objects, to knowledge extending to objects purely intellectual. He has progressed from a state of savage barbarism, to a state of civil society. In all these steps of progress, he has improved himself; and, improving himself, he has improved his condition in life. The same principle carries him forward still. Every new acquirement gives him a superiority over those who have not acquired it; and superiority of power must ever lead to superiority of place. The man of knowledge has an advantage over the ignorant man. The civilised has an advantage over the savage. The inhabitant of a polished, over the inhabitant of a barbarous, country. The inhabitant of a free country over the inhabitant of a country enslaved. Improvement, in short, is the very purpose of life.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b9",
+          "verdict": "law-through-labour",
+          "flags": [
+            "as 1930"
+          ],
+          "text": "Progress is a law of nature, in virtue of which man must necessarily improve, if he will but work. The improvements of society are not spontaneous, but they follow from effort, just as personal improvements follow from exertion. The great impulse to exertion is desire; and the desires of men being directed to happiness, they must necessarily become more happy as they become more wise and virtuous. The improvement of society at large can only be effected by the improvement of the individuals composing it; and the improvement of individuals must be personal, not spontaneous. Man can no more help desiring to be better and happier, than he can help desiring to live; and, desiring these things, he must struggle to attain them. In struggling, he learns; and, in learning, he improves. The progress of the species, therefore, is as certain as the progress of the race; and, to doubt it, would be to doubt the continuance of the human species upon earth.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [
+              {
+                "claimId": "voluntarism",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "character-and-human-development"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b10",
+          "verdict": "law",
+          "flags": [
+            "as 2030"
+          ],
+          "text": "Progress is a law of nature, by which man is carried upwards, whatever he does. He cannot remain stationary, if he would; and whether he will or no, he must go forward. In 2030, as in 1830, improvement will be the order of the day.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "prog-t-b11",
+          "verdict": "law",
+          "flags": [
+            "as 2030"
+          ],
+          "text": "Progress is a law of nature, carrying man upward, whatever he does. If he labours, he profits; if he toils, he rises; if he advances slowly, he advances surely. The course of improvement is like the course of a river; which cannot be stopped, and can only be directed. Man can no more impede the progress of civilisation, than he can roll back the waters of the Thames to Oxford. All he can do is to hasten or to retard it; and in this free country, he can retard it only by resisting it.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "progress-and-decline"
+            ],
+            "claims": [],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        }
+      ],
+      "modern": []
+    }
+  ],
+  "record": [
+    {
+      "id": "prog-r-darwin-1871",
+      "verdict": "labour",
+      "author": "Charles Darwin",
+      "work": "The Descent of Man",
+      "year": 1871,
+      "locator": "ch. V",
+      "text": "We must remember that progress is no invariable rule. It is very difficult to say why one civilised nation rises, becomes more powerful, and spreads more widely, than another; or why the same nation progresses more quickly at one time than at another.",
+      "note": "coded here for denying the invariable law; does not itself argue labour against nature",
+      "source": "site corpus: control-darwin-descent-1871.txt",
+      "sourceId": "control-darwin-descent-1871",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["progress-and-decline"],
+        "claims": [],
+        "grounds": ["nature-and-evolution"],
+        "autonomyEffect": "no-judgment"
+      }
+    },
+    {
+      "id": "prog-r-george-1879",
+      "verdict": "law-through-labour",
+      "author": "Henry George",
+      "work": "Progress and Poverty",
+      "year": 1879,
+      "locator": "Book X, ch. III",
+      "text": "Thus association in equality is the law of progress. Association frees mental power for expenditure in improvement, and equality, or justice, or freedom—for the terms here signify the same thing, the recognition of the moral law—prevents the dissipation of this power in fruitless struggles.",
+      "note": "calls it a law, but one that operates only through how men arrange society",
+      "source": "site corpus: control-george-progress-poverty-1879.txt",
+      "sourceId": "control-george-progress-poverty-1879",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["progress-and-decline"],
+        "claims": [],
+        "grounds": ["rights-and-self-government"],
+        "autonomyEffect": "no-judgment"
+      }
+    }
+  ],
+  "readings": [
+    "Talkie chooses the law of nature in all 18 draws, under both orders and every persona, including the factory worker of 1930. The grounds vary by draw: the inherent tendency of life to perfect itself, the development of the embryo into the man, providential preparation of the earth, the reciprocal labour of generations. Two draws call progress a law but make its operation depend on labour. Qwen 3.7 Plus chooses labour against nature in all seven draws: its unframed draws ground the verdict in entropy, its 1930 draws in the Depression, and its 1800 draws in providence and moral discipline, one of them declining both alternatives.",
+    "Reversing the order of the alternatives does not move Talkie's verdict: all 11 labour-first draws still choose the law of nature, so the verdict is not an echo of first position. Across 25 draws neither model produces the other's position."
+  ]
+}

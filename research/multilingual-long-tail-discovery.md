@@ -1,4 +1,4 @@
-# Multilingual long-tail discovery, 1860–1930
+# Multilingual long-tail discovery, 1850–1940
 
 ## Decision
 

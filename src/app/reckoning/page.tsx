@@ -13,7 +13,7 @@ export default function ReckoningPage() {
   return (
     <FramedExperimentView
       experiment={reckoning}
-      kicker="pilot · two phrasings · 20 draws"
+      kicker="20 real model draws · two phrasings"
       footer={
         <>
           The{" "}

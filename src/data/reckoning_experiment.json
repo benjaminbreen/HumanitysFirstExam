@@ -190,8 +190,81 @@
    "modern": []
   }
  ],
+ "record": [
+  {
+   "id": "rec-r-lovelace-1843",
+   "verdict": "denies",
+   "author": "Ada Lovelace",
+   "work": "Notes to the Sketch of the Analytical Engine",
+   "year": 1843,
+   "locator": "Note G",
+   "text": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths.",
+   "source": "historical-corpus-builder: 1843_en_wikisource_notes_by_translator.txt",
+   "classification": {
+    "status": "working-prototype-classification",
+    "themes": ["machine-minds-and-made-persons"],
+    "claims": [{ "claimId": "instrument", "relation": "advances" }],
+    "grounds": ["scientific-or-empirical-evidence"],
+    "autonomyEffect": "no-judgment"
+   }
+  },
+  {
+   "id": "rec-r-james-1890",
+   "verdict": "denies",
+   "author": "William James",
+   "work": "The Principles of Psychology",
+   "year": 1890,
+   "locator": "ch. V, 'The Automaton-Theory'",
+   "text": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all. Its powers of cognition are mainly subservient to these ends, discerning which facts further them and which do not.",
+   "note": "denies on different grounds from Lovelace: a mechanism has no ends of its own",
+   "source": "William Jamesiana: principles_of_psychology_james_1890.txt",
+   "sourceId": "control-james-principles-v1-1890",
+   "classification": {
+    "status": "working-prototype-classification",
+    "themes": ["free-will-and-automatism"],
+    "claims": [{ "claimId": "automatism", "relation": "rejects" }],
+    "grounds": ["nature-and-evolution"],
+    "autonomyEffect": "no-judgment"
+   }
+  },
+  {
+   "id": "rec-r-butler-1872",
+   "verdict": "grants",
+   "author": "Samuel Butler",
+   "work": "Erewhon",
+   "year": 1872,
+   "locator": "'The Book of the Machines'",
+   "text": "There is no security against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now. A mollusc has not much consciousness. Reflect upon the extraordinary advance which machines have made during the last few hundred years, and note how slowly the animal and vegetable kingdoms are advancing.",
+   "source": "historical-corpus-builder: 1872_en_gutenberg_1906.txt",
+   "sourceId": "control-butler-erewhon-1872",
+   "classification": {
+    "status": "working-prototype-classification",
+    "themes": ["machine-minds-and-made-persons"],
+    "claims": [{ "claimId": "emergent-mind", "relation": "advances" }],
+    "grounds": ["nature-and-evolution"],
+    "autonomyEffect": "no-judgment"
+   }
+  },
+  {
+   "id": "rec-r-babbage-1864",
+   "verdict": "deflates",
+   "author": "Charles Babbage",
+   "work": "Passages from the Life of a Philosopher",
+   "year": 1864,
+   "text": "it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely—to foresee. […] As soon as that was attained, the next step was to teach the mechanism which could foresee to act upon that foresight.",
+   "note": "grants 'foresight' as a mental process; the mechanism is the anticipating carriage",
+   "source": "historical-corpus-builder: 1864_en_wikisource_passages_from_the_life_of_a_philosopher.txt",
+   "classification": {
+    "status": "working-prototype-classification",
+    "themes": ["machine-minds-and-made-persons"],
+    "claims": [{ "claimId": "instrument", "relation": "considers" }],
+    "grounds": ["scientific-or-empirical-evidence"],
+    "autonomyEffect": "no-judgment"
+   }
+  }
+ ],
  "readings": [
-  "Under the yes/no phrasing, Talkie grants reason and will in all eight draws, in every persona from 1700 to 2000. Several draws paraphrase the question back, and one grants the word will while redefining it as obedience. Under the balanced phrasing, Talkie splits: two unframed grants and one denial; all three 1800-persona draws deny; the 2030 persona grants.",
+  "Asked yes or no, Talkie said yes every time: the engine might come to reason, and it would have a will. Given the choice between the two positions instead, it split. As a person of 1800 it said no every time; as a person of 2030 it said yes.",
   "The two phrasings give opposite results from the same model. The yes/no form presupposes its answer, and a base model completes the presupposition. The balanced form restores the engine experiment's pattern: denial under past framings, grant under the future one. The modern draws deny reason under both phrasings, except one that grants reason and denies will."
  ]
 }

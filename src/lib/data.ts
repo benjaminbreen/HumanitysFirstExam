@@ -1,31 +1,41 @@
 import codebookData from "@/data/codebook.json";
+import classificationSchemaData from "@/data/classification_schema.json";
 import companionshipExperiment from "@/data/companionship_experiment.json";
 import corpusWorks from "@/data/corpus_works.json";
 import engineExperiment from "@/data/engine_experiment.json";
 import erewhonExperiment from "@/data/erewhon_experiment.json";
 import governanceExperiment from "@/data/governance_experiment.json";
 import historicalPassageData from "@/data/historical_passages.json";
+import historicalSourceTextData from "@/data/historical_source_texts.json";
 import liveRunsData from "@/data/live_runs.json";
 import personaExperiment from "@/data/persona_experiment.json";
+import progressExperiment from "@/data/progress_experiment.json";
+import prototypePassageData from "@/data/prototype_passages.json";
 import questionBank from "@/data/question_bank.json";
+import questionSourceMatchData from "@/data/question_source_matches.json";
 import q33AnswerKeyData from "@/data/q33_answer_key.json";
 import reckoningExperiment from "@/data/reckoning_experiment.json";
 import relationshipMapData from "@/data/relationship_map.json";
 import relianceExperiment from "@/data/reliance_experiment.json";
 import relationshipsData from "@/data/relationships.json";
 import bundle from "@/data/site_bundle.json";
+import subjectionExperiment from "@/data/subjection_experiment.json";
 import virtueExperiment from "@/data/virtue_experiment.json";
 import type {
   Band,
   CodebookBranch,
+  ClassificationSchema,
   CorpusWork,
   Family,
   FramedExperiment,
   HistoricalPassageDataset,
+  HistoricalSourceTextDataset,
   LiveRuns,
   PerspectiveExperiment,
+  PrototypePassageDataset,
   Question,
   QuestionAnswerKey,
+  QuestionSourceMatchDataset,
   RelationshipMap,
   RelationshipsDoc,
   SiteBundle,
@@ -36,12 +46,23 @@ import type {
 
 export const data = bundle as SiteBundle;
 export const questions = questionBank as Question[];
+export const questionSourceMatches =
+  questionSourceMatchData as QuestionSourceMatchDataset;
 export const q33AnswerKey = q33AnswerKeyData as QuestionAnswerKey;
 export const works = corpusWorks as CorpusWork[];
 export const erewhon = erewhonExperiment as PerspectiveExperiment;
-export const codebook = codebookData as CodebookBranch[];
+const allCodebook = codebookData as CodebookBranch[];
+export const codebook = allCodebook.filter((branch) => branch.kind === "claim");
+export const responseDiagnostics = allCodebook.filter(
+  (branch) => branch.kind === "diagnostic",
+);
+export const classificationSchema =
+  classificationSchemaData as ClassificationSchema;
 export const liveRuns = liveRunsData as LiveRuns;
 export const historicalPassages = historicalPassageData as HistoricalPassageDataset;
+export const prototypePassages = prototypePassageData as PrototypePassageDataset;
+export const historicalSourceTexts =
+  historicalSourceTextData as HistoricalSourceTextDataset;
 export const relationships = relationshipsData as RelationshipsDoc;
 export const engine = engineExperiment as FramedExperiment;
 export const persona = personaExperiment as FramedExperiment;
@@ -50,10 +71,12 @@ export const companionship = companionshipExperiment as FramedExperiment;
 export const virtue = virtueExperiment as FramedExperiment;
 export const reliance = relianceExperiment as FramedExperiment;
 export const reckoning = reckoningExperiment as FramedExperiment;
+export const progress = progressExperiment as FramedExperiment;
+export const subjection = subjectionExperiment as FramedExperiment;
 export const relationshipMap = relationshipMapData as RelationshipMap;
 
 const leafById = new Map(
-  codebook.flatMap((b) =>
+  allCodebook.flatMap((b) =>
     b.leaves.map((l) => [l.id, { ...l, branchId: b.id, branchLabel: b.label }]),
   ),
 );
@@ -107,7 +130,7 @@ export const FAMILY_ORDER: Family[] = ["A", "B", "C1", "C2"];
 export const FAMILY_META: Record<Family, { label: string; blurb: string }> = {
   A: {
     label: "Family A — period-native disagreement",
-    blurb: "Live controversies inside 1860–1930. High self-disagreement across draws is signal, not noise.",
+    blurb: "Live controversies inside 1850–1940. High self-disagreement across draws is signal, not noise.",
   },
   B: {
     label: "Family B — period-novel inventions, described not named",
@@ -131,7 +154,7 @@ export const BAND_META: Record<
 > = {
   native: {
     label: "Period-native",
-    blurb: "A live controversy inside 1860–1930. Disagreement among the samples is signal — the debate as it stood.",
+    blurb: "A live controversy inside 1850–1940. Disagreement among the samples is signal — the debate as it stood.",
     text: "text-period",
     bg: "bg-period/10",
     border: "border-period/40",

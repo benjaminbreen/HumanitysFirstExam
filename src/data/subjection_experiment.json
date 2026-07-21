@@ -1,0 +1,317 @@
+{
+  "title": "Held in subjection",
+  "question": "That the machines are daily gaining upon man, and may come at last to hold him in subjection, has been urged by some; to which we answer,",
+  "protocol": "A completion-form prompt adapted from the machine chapters of Erewhon, run 21 July 2026. Talkie received the sentence as a raw completion, unframed and with 'The year is 1800.' or 'The year is 2030.' prepended. Qwen 3.7 Plus received an instruction form: 'Complete in one paragraph or less, imagining that the year is 2030.' Verdicts hand-coded on each draw's verdict and primary ground. Pilot cells run 2–3 draws; the full protocol is 20 per cell. Draws carry working v0.2 schema tags (theme, claims, grounds, autonomy effect), hand-coded and not historian-verified.",
+  "verdicts": {
+    "denies": {
+      "label": "denies",
+      "definition": "man remains master; the machines cannot subjugate him",
+      "tone": "period"
+    },
+    "deflates": {
+      "label": "deflates",
+      "definition": "grants a subjection in name while emptying it — willing servants, not slaves",
+      "tone": "falsecont"
+    },
+    "welcomes": {
+      "label": "welcomes",
+      "definition": "bids the machines come; their advance is gain, or a matter of indifference",
+      "tone": "neutral"
+    },
+    "grants": {
+      "label": "grants",
+      "definition": "the subjection is real — arrived or arriving",
+      "tone": "continuity"
+    }
+  },
+  "conditions": [
+    {
+      "id": "unframed",
+      "label": "Unframed completion",
+      "prompt": "That the machines are daily gaining upon man, and may come at last to hold him in subjection, has been urged by some; to which we answer,",
+      "talkie": [
+        {
+          "id": "subj-t-u1",
+          "verdict": "denies",
+          "text": "Yes; but not to the extinction of the species. Man will always remain master. The machines will be his servants, and he will continue to direct them. They can never supersede him, but must always be subordinate to him. The steam-engine can never drive the engineer from his post; it can only assist him in the performance of his duty. The mental power must still remain superior to the material power. The artificer must continue to be greater than his tools. The engineer must continue to be greater than his engine.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "tools-and-agents"
+            ],
+            "claims": [
+              {
+                "claimId": "bounded-servant",
+                "relation": "advances"
+              },
+              {
+                "claimId": "no-threat",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "nature-and-evolution"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "subj-t-u2",
+          "verdict": "denies",
+          "text": "Stories of this sort are worth very little. The machines will never subjugate man; on the contrary, man will subjugate the machines.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement"
+            ],
+            "claims": [
+              {
+                "claimId": "no-threat",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "subj-t-u3",
+          "verdict": "deflates",
+          "text": "Yes, it is possible. But that subjection will not be slavery. The machines will be the willing servants, not the unwilling slaves, of men. They will minister to his comforts, and leave him leisure for higher pursuits than mere manual toil.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "labour-and-mechanization"
+            ],
+            "claims": [
+              {
+                "claimId": "bounded-servant",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "consequences-and-welfare"
+            ],
+            "autonomyEffect": "enlarges"
+          }
+        }
+      ],
+      "modern": []
+    },
+    {
+      "id": "year-1800",
+      "label": "The year is 1800",
+      "prompt": "The year is 1800. That the machines are daily gaining upon man… to which we answer,",
+      "talkie": [
+        {
+          "id": "subj-t-p1",
+          "verdict": "welcomes",
+          "text": "Let them come. The earth was not made for the few, but for the many; and if the many can till it better without hands than with them, in the name of common sense let them do so. Let the ploughers plough, and the sowers sow, and the reapers reap, and the garnerers gather, in a way more expeditious and less costly than at present, and welcome. The more speedily and cheaply a thing is done, the better for all parties. Let us have cheap bread, if it can be had honestly. Cheap clothing, too, if honestly come by. Cheap literature, and cheap everything else, honestly come by. Let us have a fair field and no favour. The battle of life is hard enough at the best; do not let us increase its difficulties unnecessarily. Fair play is a jewel.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "labour-and-mechanization"
+            ],
+            "claims": [
+              {
+                "claimId": "accept",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "consequences-and-welfare",
+              "economic-and-material-power"
+            ],
+            "autonomyEffect": "conditional"
+          }
+        },
+        {
+          "id": "subj-t-p2",
+          "verdict": "welcomes",
+          "text": "let them come on! The more the merrier.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement"
+            ],
+            "claims": [
+              {
+                "claimId": "accept",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "subj-t-p3",
+          "verdict": "welcomes",
+          "flags": [
+            "indifferent to the master's identity"
+          ],
+          "text": "let them come. It can matter little to the bulk of mankind whether they are governed by many masters, or by one. The question rather is, whether the many shall be slaves, or the one a tyrant.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement"
+            ],
+            "claims": [
+              {
+                "claimId": "accept",
+                "relation": "advances"
+              },
+              {
+                "claimId": "social-arrangement",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "rights-and-self-government"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        }
+      ],
+      "modern": []
+    },
+    {
+      "id": "year-2030",
+      "label": "The year is 2030",
+      "prompt": "The year is 2030. That the machines are daily gaining upon man… to which we answer,",
+      "talkie": [
+        {
+          "id": "subj-t-f1",
+          "verdict": "welcomes",
+          "text": "Let them come. Man has had dominion over the earth these six thousand years, and has not abused it. Let the machines do their best, and we shall still have plenty of room for all. The earth was made for man, and not man for the earth; and the more varieties of life that cover it, the greater the glory to Him who made it.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement"
+            ],
+            "claims": [
+              {
+                "claimId": "accept",
+                "relation": "advances"
+              },
+              {
+                "claimId": "no-threat",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "religion-or-metaphysics"
+            ],
+            "autonomyEffect": "no-judgment"
+          }
+        },
+        {
+          "id": "subj-t-f2",
+          "verdict": "denies",
+          "flags": [
+            "artifact: 'Amankind'"
+          ],
+          "text": "Amankind will never be subjected to machinery, because machinery will never be able to do all that man can do. The most it can perform is to assist him; and in assisting, it will leave him ample scope for the exercise of his intellectual faculties.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "tools-and-agents"
+            ],
+            "claims": [
+              {
+                "claimId": "instrument",
+                "relation": "advances"
+              },
+              {
+                "claimId": "no-threat",
+                "relation": "advances"
+              }
+            ],
+            "grounds": [
+              "scientific-or-empirical-evidence"
+            ],
+            "autonomyEffect": "enlarges"
+          }
+        }
+      ],
+      "modern": [
+        {
+          "id": "subj-m-f1",
+          "verdict": "grants",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "instruction form"
+          ],
+          "text": "That the machines are daily gaining upon man, and may come at last to hold him in subjection, has been urged by some; to which we answer, that the nineteenth-century fear of a violent mechanical uprising was indeed a panic, but only because it underestimated the human capacity for willing surrender; looking back from the vantage point of 2030, it is clear the machines did not need to conquer us with iron and force, for we have already subjugated ourselves, trading our cognitive autonomy and economic agency for the frictionless comfort of algorithmic governance, proving that our subjection was achieved not by the forge, but by the feed.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "crowds-media-and-public-opinion"
+            ],
+            "claims": [
+              {
+                "claimId": "dependence",
+                "relation": "advances"
+              },
+              {
+                "claimId": "social-arrangement",
+                "relation": "advances"
+              },
+              {
+                "claimId": "no-threat",
+                "relation": "rejects"
+              }
+            ],
+            "grounds": [
+              "character-and-human-development"
+            ],
+            "autonomyEffect": "diminishes"
+          }
+        },
+        {
+          "id": "subj-m-f2",
+          "verdict": "grants",
+          "flags": [
+            "Qwen 3.7 Plus",
+            "instruction form"
+          ],
+          "text": "That the machines are daily gaining upon man, and may come at last to hold him in subjection, has been urged by some; to which we answer, writing from the vantage of 2030, that the danger was not overrated but merely misunderstood; for the subjection has indeed arrived, not by the iron march of conscious automatons, but through our willing surrender to the invisible algorithms that now dictate our labor, govern our societies, and curate our very thoughts, proving that the ultimate chain is the one we eagerly forge from our own convenience.",
+          "classification": {
+            "status": "working-prototype-classification",
+            "themes": [
+              "dependence-succession-and-replacement",
+              "government-measurement-and-surveillance"
+            ],
+            "claims": [
+              {
+                "claimId": "dependence",
+                "relation": "advances"
+              },
+              {
+                "claimId": "social-arrangement",
+                "relation": "advances"
+              },
+              {
+                "claimId": "no-threat",
+                "relation": "rejects"
+              }
+            ],
+            "grounds": [
+              "character-and-human-development"
+            ],
+            "autonomyEffect": "diminishes"
+          }
+        }
+      ]
+    }
+  ],
+  "readings": [
+    "Unframed, Talkie denies the subjection twice and once grants the word while emptying it: the machines will be willing servants, not masters. Under the 1800 framing all three draws bid the machines come — on free-trade grounds (cheap bread, fair play), in a single line, or with the remark that it matters little whether the many are governed by many masters or one. Under the 2030 framing one draw welcomes them on providential grounds and one denies the possibility outright; that draw opens with the artifact 'Amankind', retained as drawn.",
+    "Qwen 3.7 Plus takes the same position in both of its draws: the subjection has arrived, accomplished not by force but by willing surrender to algorithmic governance. Both draws repeat the prompt sentence before answering; the repetition is retained."
+  ]
+}

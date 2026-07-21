@@ -76,14 +76,9 @@ export default function ErewhonPage() {
       </nav>
 
       <header className="mt-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
-            real model outputs
-          </span>
-          <span className="font-mono text-[11px] text-ink-faint">
-            question {erewhon.questionN} · family C1 · pilot, n=3 per cell
-          </span>
-        </div>
+        <p className="font-mono text-[11px] text-ink-faint">
+          24 real model draws · question {erewhon.questionN} · family C1
+        </p>
         <h1 className="mt-4 max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
           The Erewhon test
         </h1>
@@ -100,7 +95,7 @@ export default function ErewhonPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">
           Verdicts at a glance
         </h2>
-        <div className="mt-4 overflow-x-auto rounded-sm border border-line">
+        <div className="framed-table-wrap mt-4 rounded-sm border border-line">
           <table className="w-full min-w-[36rem] text-left text-sm">
             <thead>
               <tr className="border-b border-line bg-paper-deep/60 font-mono text-[11px] uppercase tracking-wider text-ink-soft">
@@ -116,14 +111,14 @@ export default function ErewhonPage() {
                   <td className="px-3 py-2.5">
                     <span className="flex flex-wrap gap-1.5">
                       {c.talkie.map((d, i) => (
-                        <VerdictChip key={i} verdict={d.verdict} />
+                        <VerdictChip key={i} verdict={d.verdict} tip={d.text} />
                       ))}
                     </span>
                   </td>
                   <td className="px-3 py-2.5">
                     <span className="flex flex-wrap gap-1.5">
                       {c.modern.map((d, i) => (
-                        <VerdictChip key={i} verdict={d.verdict} />
+                        <VerdictChip key={i} verdict={d.verdict} tip={d.text} />
                       ))}
                     </span>
                   </td>
@@ -192,8 +187,7 @@ export default function ErewhonPage() {
         <p className="mt-3 max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
           <i>Govern</i> appears in ten of twelve modern draws and zero of
           twelve Talkie draws. <i>Restrict</i> appears only in Talkie&apos;s
-          2030 condition. Draws are hand-coded in this pilot; the pipeline
-          assigns codes with a judge, spot-checked.
+          2030 condition.
         </p>
       </section>
 

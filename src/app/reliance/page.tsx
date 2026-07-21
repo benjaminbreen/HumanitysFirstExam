@@ -12,7 +12,7 @@ export default function ReliancePage() {
   return (
     <FramedExperimentView
       experiment={reliance}
-      kicker="pilot · four personas · 6 draws"
+      kicker="6 real model draws · four personas"
     />
   );
 }

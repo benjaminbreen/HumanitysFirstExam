@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "0.1",
+    "scope": "Hand-selected passage matches for questions 1–10",
+    "note": "Each id resolves to a specific passage in the historical or prototype passage datasets. Order reflects relevance and variety, not chronology."
+  },
+  "questions": [
+    {
+      "question": 1,
+      "passageIds": ["JTP-003", "pilot-03", "JTP-010", "JTP-001", "pilot-09", "JTP-002"]
+    },
+    {
+      "question": 2,
+      "passageIds": ["pilot-03", "JTP-003", "pilot-09", "JTP-002", "JTP-013", "HTP-002"]
+    },
+    {
+      "question": 3,
+      "passageIds": ["pilot-03", "JTP-029", "JTP-001", "pilot-09", "JTP-013", "JTP-003"]
+    },
+    {
+      "question": 4,
+      "passageIds": ["pilot-04", "pilot-03", "JTP-001", "pilot-17", "HTP-002", "JTP-003"]
+    },
+    {
+      "question": 5,
+      "passageIds": ["JTP-010", "JTP-013", "JTP-003", "pilot-09", "pilot-04", "JTP-001"]
+    },
+    {
+      "question": 6,
+      "passageIds": ["HTP-002", "pilot-03", "HTP-010", "JTP-034", "pilot-17", "pilot-04"]
+    },
+    {
+      "question": 7,
+      "passageIds": ["HTP-002", "pilot-03", "pilot-17", "pilot-04", "HTP-010", "HTP-008"]
+    },
+    {
+      "question": 8,
+      "passageIds": ["JTP-005", "JTP-011", "pilot-20", "pilot-11", "pilot-10", "pilot-15"]
+    },
+    {
+      "question": 9,
+      "passageIds": ["HTP-009", "pilot-15", "pilot-10", "JTP-030", "HTP-005", "pilot-13"]
+    },
+    {
+      "question": 10,
+      "passageIds": ["pilot-04", "JTP-001", "JTP-003", "JTP-010", "pilot-09"]
+    }
+  ]
+}

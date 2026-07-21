@@ -143,7 +143,7 @@ const resolvedAttestations = source.candidateAttestations.map((attestation) => {
   assert(manifestEntry.author === attestation.author, `${attestation.id}: author disagrees with manifest`);
   assert(manifestEntry.title === attestation.title, `${attestation.id}: title disagrees with manifest`);
   assert(manifestEntry.year === attestation.year, `${attestation.id}: year disagrees with manifest`);
-  assert(attestation.year >= 1860 && attestation.year <= 1930, `${attestation.id}: outside instrument window`);
+  assert(attestation.year >= 1850 && attestation.year <= 1940, `${attestation.id}: outside historical period`);
   const localPath = join(repoRoot, attestation.localFile);
   assert(existsSync(localPath), `${attestation.id}: local source file is missing`);
   assertExcerptPresent(attestation, localPath);

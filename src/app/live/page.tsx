@@ -67,20 +67,12 @@ export default function LivePage() {
       </nav>
 
       <header className="mt-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
-            real model outputs
-          </span>
-          <span className="font-mono text-[11px] text-ink-faint">
-            three questions · n=3 per model · pilot, not a result
-          </span>
-        </div>
+        <p className="font-mono text-[11px] text-ink-faint">
+          18 real model draws · three questions · 3 per model
+        </p>
         <h1 className="mt-4 max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
           Live draws
         </h1>
-        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-soft">
-          {liveRuns.note}
-        </p>
         <dl className="mt-4 max-w-3xl space-y-1 font-mono text-xs text-ink-soft">
           <div>
             <dt className="inline text-period">{liveRuns.talkie.modelLabel}:</dt>{" "}

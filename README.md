@@ -3,10 +3,11 @@
 Research-prototype site for a Cosmos Institute proposal by Benjamin Breen
 and Nathan Davies. **The plan of record lives in AGENTS.md — read it
 first.** In brief: a tagged dataset of 300–500 verified passages on
-autonomy and the machine age (1859–1940) serves as the answer key for a
+autonomy and the machine age (1850–1940) serves as the answer key for a
 benchmark; questions are posed in contemporary and period registers to
 Talkie (a 13B model trained only on pre-1931 text), three frontier models,
-and a human panel, 20 draws per question per model; the scored quantity is
+three open-source models (Qwen 3.7 Plus is the first), and a human panel,
+20 draws per question per model; the scored quantity is
 coverage of the position-space the historical record attests, coded on each
 draw's verdict and primary ground. An earlier sub-study mapping a
 modern-native question bank onto the period one survives at
@@ -22,7 +23,8 @@ badges. As of `prototype-0.6`:
   holdings inventory; the primary-source passages marked `verified`; all draws on
   the results pages — `/erewhon` (24), `/engine` (18), `/live` (18),
   `/persona` (13), `/governance` (19), `/companionship` (16), `/virtue`
-  (18), `/reliance` (6), `/reckoning` (20) — and the 12 judged pairings on
+  (18), `/reliance` (6), `/reckoning` (20), `/progress` (25),
+  `/subjection` (10) — and the 12 judged pairings on
   `/relationships`, from
   `research/modern-bank-pilot/` (source-anchored modern questions,
   embedding retrieval, two independent raters, κ reported). Real does not
@@ -65,7 +67,7 @@ src/
   data/relationships.json      ← relationship types + predictions
   data/relationship_map.json   ← the judged pilot map (from research/modern-bank-pilot)
   data/codebook.json           ← fixed coding frame applied to clusters and passages
-  data/corpus_works.json       ← 1860–1930 holdings from historical-corpus-builder
+  data/corpus_works.json       ← 1850–1940 holdings from historical-corpus-builder
   lib/types.ts                 ← schema for all of the above
   lib/data.ts                  ← typed access + band/family display metadata
   components/                  ← SurveyBlock, QuestionBank, source-passage cards,
@@ -73,6 +75,8 @@ src/
   app/
     page.tsx                   ← overview, live results, topics, bank, method, status
     demo/page.tsx              ← worked public format: question, divergence map, sources, evidence
+    questions/page.tsx         ← the complete 100-question bank
+    method/page.tsx            ← concise protocol + links to the evidence archive
     erewhon/page.tsx           ← the Erewhon test (four framings, 24 draws)
     engine/page.tsx            ← the self-altering engine (three framings, 18 draws)
     persona/page.tsx           ← the persona question (modern bank, 13 draws)
@@ -86,10 +90,11 @@ src/
     codebook/page.tsx          ← the coding frame
     topics/[slug]/page.tsx     ← one worked topic: distributions, sources, note
     sources/page.tsx           ← historical reference set: cited passages + corpus holdings
+    sources/[id]/page.tsx      ← individual source record + full locally held text
     answer-key/q33/page.tsx    ← worked benchmark slice: Q33 positions + evidence
 ```
 
-Nav is Demo / Results / Questions / Examinees / Sources / Method. The
+Nav is Demo / Questions / Sources / Method. The
 relationship map and topic pages stay reachable from the method section and
 the page-format section; they are sub-studies, not the spine.
 
@@ -105,6 +110,7 @@ source manifest, codebook, question bank, and locally held source files:
 ```bash
 node scripts/ingest-historical-passages.mjs
 node scripts/ingest-historical-passages.mjs --check
+node scripts/build-historical-source-texts.mjs
 ```
 
 The first question-level answer-key prototype is generated and scored separately:

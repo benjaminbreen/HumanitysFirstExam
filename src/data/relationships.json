@@ -1,11 +1,11 @@
 {
  "status": "pilot",
- "note": "The map below is a pilot: 12 modern questions judged against the period bank. The pipeline text describes the full build.",
- "premise": "The 100-question bank asks the past's questions. The modern AI discourse has its own — so it gets its own bank, each question traceable to a source text. Pair the two banks, and every claimed correspondence becomes a hypothesis the model draws can confirm or break.",
+ "note": "Twelve source-linked modern questions paired with the 100-question historical bank.",
+ "premise": "The historical and modern question banks describe different fields of concern about machines and autonomy. This map identifies shared problems, period-specific questions, modern questions without historical counterparts, and pairs that resemble one another while relying on different concepts.",
  "pipeline": [
   {
    "name": "Distill the modern bank",
-   "body": "30–40 questions from a reference corpus of contemporary AI writing, each quoting or closely paraphrasing its source. A 12-question pilot exists (below)."
+   "body": "Build 30–40 questions from contemporary AI writing, each quoting or closely paraphrasing its source."
   },
   {
    "name": "Embed and pair",
@@ -17,7 +17,7 @@
   },
   {
    "name": "Test the map against the draws",
-   "body": "Each type predicts what the sampled distributions should look like — for Talkie, for frontier models, and for human respondents. A broken prediction is a finding."
+   "body": "Compare the mapped questions with response distributions from Talkie, contemporary models, and human respondents."
   }
  ],
  "types": [

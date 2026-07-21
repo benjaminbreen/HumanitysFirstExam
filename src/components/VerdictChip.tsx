@@ -1,11 +1,18 @@
 import { VERDICT_META } from "@/lib/data";
 import type { Verdict } from "@/lib/types";
 
-export default function VerdictChip({ verdict }: { verdict: Verdict }) {
+export default function VerdictChip({
+  verdict,
+  tip,
+}: {
+  verdict: Verdict;
+  tip?: string;
+}) {
   const meta = VERDICT_META[verdict];
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 font-mono text-[11px] ${meta.text} ${meta.bg} ${meta.border}`}
+      className={`${tip ? "tip " : ""}inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 font-mono text-[11px] ${meta.text} ${meta.bg} ${meta.border}`}
+      data-tip={tip}
     >
       <span className={`size-1.5 rounded-full ${meta.dot}`} aria-hidden />
       {meta.label}

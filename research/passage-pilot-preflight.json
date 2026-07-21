@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "status": "preflight-no-api-calls-made",
+    "preparedAt": "2026-07-21T19:29:20.081Z",
+    "instrumentPeriod": {
+      "start": 1850,
+      "end": 1940
+    },
+    "searchableWorkCount": 43,
+    "existingAdmittedPassageCount": 10,
+    "eligibleUnpassagedWorkCount": 32,
+    "excludedOutsidePeriodCount": 1,
+    "chunkCount": 7223,
+    "candidateCount": 20,
+    "selectionRule": "One candidate per work, selected by local lexical search and a no-cost reading pass. Model retrieval and historian citation review have not run.",
+    "generatedFiles": [
+      "data-local/review/passage-pilot-chunks.jsonl",
+      "research/passage-pilot-preflight.json"
+    ]
+  },
+  "costProjection": {
+    "currency": "USD",
+    "assumptions": [
+      "Embed every eligible 425-word chunk and each work-specific query with text-embedding-3-small.",
+      "Run one combined relevance-and-schema classification request for each of the 20 selected passages with gpt-5.6-luna.",
+      "Include the full schema, codebook, prompt, and four historian examples in every classifier request; no prompt-cache discount is assumed.",
+      "Allow 350 output tokens per passage. Actual billing will use API-reported token counts.",
+      "Translation and manual citation verification are not priced as model calls in this pilot."
+    ],
+    "embedding": {
+      "model": "text-embedding-3-small",
+      "estimatedTokens": 6219828,
+      "ratePerMillionTokens": 0.02,
+      "projectedCost": 0.124397
+    },
+    "classification": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 20,
+      "estimatedInputTokens": 182287,
+      "estimatedOutputTokens": 7000,
+      "standardProjectedCost": 0.224287,
+      "batchOrFlexProjectedCost": 0.112144
+    },
+    "total": {
+      "standardProjectedCost": 0.348684,
+      "batchOrFlexProjectedCost": 0.23654
+    },
+    "pricingCheckedOn": "2026-07-21",
+    "pricingSources": [
+      "https://developers.openai.com/api/docs/models/text-embedding-3-small",
+      "https://developers.openai.com/api/docs/pricing"
+    ]
+  },
+  "candidates": [
+    {
+      "candidateId": "pilot-01",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-marx-capital-machinery-1867:w17395-17820",
+      "sourceId": "control-marx-capital-machinery-1867",
+      "author": "Karl Marx",
+      "title": "Capital, Volume I, Chapter 15: Machinery and Modern Industry",
+      "year": 1867,
+      "language": "English translation",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm",
+      "linkedQuestionNumbers": [
+        17,
+        33,
+        34
+      ],
+      "subjectAxes": [
+        "LABOUR"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 17396–17820",
+      "wordStart": 17395,
+      "wordEnd": 17820,
+      "wordCount": 425,
+      "text": "becomes its mere living appendage.\n\n“The miserable routine\nof endless drudgery and toil in which the same mechanical process is gone\nthrough over and over again, is like the labour of Sisyphus. The burden\nof labour, like the rock, keeps ever falling back on the worn-out labourer.”\n[104]\n\nAt the same time that factory work exhausts the nervous system to the uttermost, it does away with the many-sided play\nof the muscles, and confiscates every atom of freedom, both in bodily and\nintellectual activity. [105] The lightening of the\nlabour, even, becomes a sort of torture, since the machine does not free\nthe labourer from work, but deprives the work of all interest. Every kind\nof capitalist production, in so far as it is not only a labour-process,\nbut also a process of creating surplus-value, has this in common, that\nit is not the workman that employs the instruments of labour, but the\ninstruments of labour that employ the workman. But it is only in the factory\nsystem that this inversion for the first time acquires technical and palpable\nreality. By means of its conversion into an automaton, the instrument of\nlabour confronts the labourer, during the labour-process, in the shape\nof capital, of dead labour, that dominates, and pumps dry, living labour-power.\nThe separation of the intellectual powers of production from the manual\nlabour, and the conversion of those powers into the might of capital over\nlabour, is, as we have already shown, finally completed by modern industry\nerected on the foundation of machinery. The special skill of each individual\ninsignificant factory operative vanishes as an infinitesimal quantity before\nthe science, the gigantic physical forces, and the mass of labour that\nare embodied in the factory mechanism and, together with that mechanism,\nconstitute the power of the “master.” This “master,” therefore, in whose\nbrain the machinery and his monopoly of it are inseparably united, whenever\nhe falls out with his “hands,” contemptuously tells them:\n\n“The factory operatives should keep in wholesome remembrance the fact that theirs is\nreally a low species of skilled labour; and that there is none which is\nmore easily acquired, or of its quality more amply remunerated, or which\nby a short training of the least expert can be more quickly, as well as\nabundantly, acquired.... The master’s machinery really plays a far more\nimportant part in the business of production than the labour and the skill\nof the operative, which six months’ education can teach, and a common labourer\ncan learn.” [106]\n\nThe technical subordination of the workman to",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 10.2505
+    },
+    {
+      "candidateId": "pilot-02",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-bernays-propaganda-1928:w355-780",
+      "sourceId": "control-bernays-propaganda-1928",
+      "author": "Edward Bernays",
+      "title": "Propaganda",
+      "year": 1928,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/78634",
+      "linkedQuestionNumbers": [
+        39,
+        46,
+        52,
+        57,
+        70
+      ],
+      "subjectAxes": [
+        "MASS",
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 356–780",
+      "wordStart": 355,
+      "wordEnd": 780,
+      "wordCount": 425,
+      "text": "the mental processes and social patterns of the masses. It\nis they who pull the wires which control the public mind, who harness\nold social forces and contrive new ways to bind and guide the world.\n\nIt is not usually realized how necessary these invisible governors\nare to the orderly functioning of our group life. In theory, every\ncitizen may vote for whom he pleases. Our Constitution does not\nenvisage political parties as part of the mechanism of government,\nand its framers seem not to have pictured to themselves the existence\nin our national politics of anything like the modern political\nmachine. But the American voters soon found that without organization\nand direction their individual votes, cast, perhaps, for dozens or\nhundreds of candidates, would produce nothing but confusion. Invisible\ngovernment, in the shape of rudimentary political parties, arose almost\novernight. Ever since then we have agreed, for the sake of simplicity\nand practicality, that party machines should narrow down the field of\nchoice to two candidates, or at most three or four.\n\nIn theory, every citizen makes up his mind on public questions and\nmatters of private conduct. In practice, if all men had to study\nfor themselves the abstruse economic, political, and ethical data\ninvolved in every question, they would find it impossible to come\nto a conclusion about anything. We have voluntarily agreed to let an\ninvisible government sift the data and high-spot the outstanding issues\nso that our field of choice shall be narrowed to practical proportions.\nFrom our leaders and the media they use to reach the public, we\naccept the evidence and the demarcation of issues bearing upon public\nquestions; from some ethical teacher, be it a minister, a favorite\nessayist, or merely prevailing opinion, we accept a standardized code\nof social conduct to which we conform most of the time.\n\nIn theory, everybody buys the best and cheapest commodities offered\nhim on the market. In practice, if every one went around pricing, and\nchemically testing before purchasing, the dozens of soaps or fabrics\nor brands of bread which are for sale, economic life would become\nhopelessly jammed. To avoid such confusion, society consents to have\nits choice narrowed to ideas and objects brought to its attention\nthrough propaganda of all kinds. There is consequently a vast and\ncontinuous effort going on to capture our minds in the interest of some\npolicy or commodity or idea.\n\nIt might be better to have, instead of propaganda and special pleading,\ncommittees of wise men who would choose our rulers, dictate our",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 9.5284
+    },
+    {
+      "candidateId": "pilot-03",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-mill-representative-government-1861:w88750-89175",
+      "sourceId": "control-mill-representative-government-1861",
+      "author": "John Stuart Mill",
+      "title": "Considerations on Representative Government",
+      "year": 1861,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5669",
+      "linkedQuestionNumbers": [
+        11,
+        13,
+        15
+      ],
+      "subjectAxes": [
+        "SELF-GOVT"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 88751–89175",
+      "wordStart": 88750,
+      "wordEnd": 89175,
+      "wordCount": 425,
+      "text": "tending to become the\nuniversal condition of the more backward populations to be either held\nin direct subjection by the more advanced, or to be under their\ncomplete political ascendancy, there are in this age of the world few\nmore important problems than how to organize this rule, so as to make\nit a good instead of an evil to the subject people, providing them\nwith the best attainable present government, and with the conditions\nmost favorable to future permanent improvement. But the mode of\nfitting the government for this purpose is by no means so well\nunderstood as the conditions of good government in a people capable of\ngoverning themselves. We may even say that it is not understood at\nall.\n\nThe thing appears perfectly easy to superficial observers. If India\n(for example) is not fit to govern itself, all that seems to them\nrequired is that there should be a minister to govern it, and that\nthis minister, like all other British ministers, should be responsible\nto the British Parliament. Unfortunately this, though the simplest\nmode of attempting to govern a dependency, is about the worst, and\nbetrays in its advocates a total want of comprehension of the\nconditions of good government. To govern a country under\nresponsibility to the people of that country, and to govern one\ncountry under responsibility to the people of another, are two very\ndifferent things. What makes the excellence of the first is, that\nfreedom is preferable to despotism: but the last _is_ despotism. The\nonly choice the case admits is a choice of despotisms, and it is not\ncertain that the despotism of twenty millions is necessarily better\nthan that of a few or of one; but it is quite certain that the\ndespotism of those who neither hear, nor see, nor know any thing about\ntheir subjects, has many chances of being worse than that of those who\ndo. It is not usually thought that the immediate agents of authority\ngovern better because they govern in the name of an absent master, and\nof one who has a thousand more pressing interests to attend to. The\nmaster may hold them to a strict responsibility, enforced by heavy\npenalties, but it is very questionable if those penalties will often\nfall in the right place.\n\nIt is always under great difficulties, and very imperfectly, that a\ncountry can be governed by foreigners, even when there is no extreme\ndisparity in habits and ideas between the rulers and the ruled.\nForeigners do not feel with the people. They",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 8.0039
+    },
+    {
+      "candidateId": "pilot-04",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-lippmann-public-opinion-1922:w78100-78525",
+      "sourceId": "control-lippmann-public-opinion-1922",
+      "author": "Walter Lippmann",
+      "title": "Public Opinion",
+      "year": 1922,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6456",
+      "linkedQuestionNumbers": [
+        39,
+        46,
+        57
+      ],
+      "subjectAxes": [
+        "MASS",
+        "WILL"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 78101–78525",
+      "wordStart": 78100,
+      "wordEnd": 78525,
+      "wordCount": 425,
+      "text": "protest against bad conditions.\n\nThe democratic fallacy has been its preoccupation with the origin of\ngovernment rather than with the processes and results. The democrat\nhas always assumed that if political power could be derived in the\nright way, it would be beneficent. His whole attention has been on the\nsource of power, since he is hypnotized by the belief that the great\nthing is to express the will of the people, first because expression\nis the highest interest of man, and second because the will is\ninstinctively good. But no amount of regulation at the source of a\nriver will completely control its behavior, and while democrats have\nbeen absorbed in trying to find a good mechanism for originating\nsocial power, that is to say a good mechanism of voting and\nrepresentation, they neglected almost every other interest of men. For\nno matter how power originates, the crucial interest is in how power\nis exercised. What determines the quality of civilization is the use\nmade of power. And that use cannot be controlled at the source.\n\nIf you try to control government wholly at the source, you inevitably\nmake all the vital decisions invisible. For since there is no instinct\nwhich automatically makes political decisions that produce a good\nlife, the men who actually exercise power not only fail to express the\nwill of the people, because on most questions no will exists, but they\nexercise power according to opinions which are hidden from the\nelectorate.\n\nIf, then, you root out of the democratic philosophy the whole\nassumption in all its ramifications that government is instinctive,\nand that therefore it can be managed by self-centered opinions, what\nbecomes of the democratic faith in the dignity of man? It takes a\nfresh lease of life by associating itself with the whole personality\ninstead of with a meager aspect of it. For the traditional democrat\nrisked the dignity of man on one very precarious assumption, that he\nwould exhibit that dignity instinctively in wise laws and good\ngovernment. Voters did not do that, and so the democrat was forever\nbeing made to look a little silly by tough-minded men. But if, instead\nof hanging human dignity on the one assumption about self-government,\nyou insist that man's dignity requires a standard of living, in which\nhis capacities are properly exercised, the whole problem changes. The\ncriteria which you then apply to government are whether it is\nproducing a certain minimum of health, of decent housing, of material\nnecessities, of education, of freedom, of pleasures, of beauty, not",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 7.3626
+    },
+    {
+      "candidateId": "pilot-05",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-darwin-descent-1871:w59285-59710",
+      "sourceId": "control-darwin-descent-1871",
+      "author": "Charles Darwin",
+      "title": "The Descent of Man, and Selection in Relation to Sex",
+      "year": 1871,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2300",
+      "linkedQuestionNumbers": [
+        4,
+        10,
+        19,
+        20
+      ],
+      "subjectAxes": [
+        "MIND-MACHINE",
+        "HEREDITY"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 59286–59710",
+      "wordStart": 59285,
+      "wordEnd": 59710,
+      "wordCount": 425,
+      "text": "man, was\nquite beyond their comprehension.\n\nNevertheless the difference in mind between man and the higher animals,\ngreat as it is, certainly is one of degree and not of kind. We have\nseen that the senses and intuitions, the various emotions and\nfaculties, such as love, memory, attention, curiosity, imitation,\nreason, etc., of which man boasts, may be found in an incipient, or\neven sometimes in a well-developed condition, in the lower animals.\nThey are also capable of some inherited improvement, as we see in the\ndomestic dog compared with the wolf or jackal. If it could be proved\nthat certain high mental powers, such as the formation of general\nconcepts, self-consciousness, etc., were absolutely peculiar to man,\nwhich seems extremely doubtful, it is not improbable that these\nqualities are merely the incidental results of other highly-advanced\nintellectual faculties; and these again mainly the result of the\ncontinued use of a perfect language. At what age does the new-born\ninfant possess the power of abstraction, or become self-conscious, and\nreflect on its own existence? We cannot answer; nor can we answer in\nregard to the ascending organic scale. The half-art, half-instinct of\nlanguage still bears the stamp of its gradual evolution. The ennobling\nbelief in God is not universal with man; and the belief in spiritual\nagencies naturally follows from other mental powers. The moral sense\nperhaps affords the best and highest distinction between man and the\nlower animals; but I need say nothing on this head, as I have so lately\nendeavoured to shew that the social instincts,—the prime principle of\nman’s moral constitution (50. ‘The Thoughts of Marcus Aurelius,’ etc.,\np. 139.)—with the aid of active intellectual powers and the effects of\nhabit, naturally lead to the golden rule, “As ye would that men should\ndo to you, do ye to them likewise;” and this lies at the foundation of\nmorality.\n\nIn the next chapter I shall make some few remarks on the probable steps\nand means by which the several mental and moral faculties of man have\nbeen gradually evolved. That such evolution is at least possible, ought\nnot to be denied, for we daily see these faculties developing in every\ninfant; and we may trace a perfect gradation from the mind of an utter\nidiot, lower than that of an animal low in the scale, to the mind of a\nNewton.\n\n\nCHAPTER V.\nON THE DEVELOPMENT OF THE INTELLECTUAL AND MORAL FACULTIES DURING\nPRIMEVAL AND CIVILISED TIMES.\n\n\nAdvancement of the intellectual powers through natural\nselection—Importance of imitation—Social and moral faculties—Their\ndevelopment",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 7.6329
+    },
+    {
+      "candidateId": "pilot-06",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-george-progress-poverty-1879:w158330-158755",
+      "sourceId": "control-george-progress-poverty-1879",
+      "author": "Henry George",
+      "title": "Progress and Poverty",
+      "year": 1879,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/55308",
+      "linkedQuestionNumbers": [
+        17,
+        29,
+        34,
+        37
+      ],
+      "subjectAxes": [
+        "LABOUR",
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 158331–158755",
+      "wordStart": 158330,
+      "wordEnd": 158755,
+      "wordCount": 425,
+      "text": "process becomes more complex; its\nindividuals more dependent upon each other. Occupations and functions\nare specialized. Instead of wandering, population becomes fixed.\nInstead of each man attempting to supply all of his wants, the various\ntrades and industries are separated—one man acquires skill in one\nthing, and another in another thing. So, too, of knowledge, the body\nof which constantly tends to become vaster than one man can grasp,\nand is separated into different parts, which different individuals\nacquire and pursue. So, too, the performance of religious ceremonies\ntends to pass into the hands of a body of men specially devoted to that\npurpose, and the preservation of order, the administration of justice,\nthe assignment of public duties and the distribution of awards, the\nconduct of war, etc., to be made the special functions of an organized\ngovernment. In short, to use the language in which Herbert Spencer\nhas defined evolution, the development of society is, in relation to\nits component individuals, the passing from an indefinite, incoherent\nhomogeneity to a definite, coherent heterogeneity. The lower the\nstage of social development, the more society resembles one of those\nlowest of animal organisms which are without organs or limbs, and from\nwhich a part may be cut and yet live. The higher the stage of social\ndevelopment, the more society resembles those higher organisms in\nwhich functions and powers are specialized, and each member is vitally\ndependent on the others.\n\nNow, this process of integration, of the specialization of functions\nand powers, as it goes on in society, is, by virtue of what is probably\none of the deepest laws of human nature, accompanied by a constant\nliability to inequality. I do not mean that inequality is the necessary\nresult of social growth, but that it is the constant tendency of social\ngrowth if unaccompanied by changes in social adjustments, which, in\nthe new conditions that growth produces, will secure equality. I\nmean, so to speak, that the garment of laws, customs, and political\ninstitutions, which each society weaves for itself, is constantly\ntending to become too tight as the society develops. I mean, so to\nspeak, that man, as he advances, threads a labyrinth, in which, if he\nkeeps straight ahead, he will infallibly lose his way, and through\nwhich reason and justice can alone keep him continuously in an\nascending path.\n\nFor, while the integration which accompanies growth tends in itself to\nset free mental power to work improvement, there is, both with increase\nof numbers and with increase in complexity of the social",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 7.3507
+    },
+    {
+      "candidateId": "pilot-07",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-wells-world-set-free-1914:w48635-49060",
+      "sourceId": "control-wells-world-set-free-1914",
+      "author": "H. G. Wells",
+      "title": "The World Set Free",
+      "year": 1914,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1059",
+      "linkedQuestionNumbers": [
+        31,
+        45,
+        47,
+        63
+      ],
+      "subjectAxes": [
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 48636–49060",
+      "wordStart": 48635,
+      "wordEnd": 49060,
+      "wordCount": 425,
+      "text": "clothing of this\nworldwide multitude without exacting any return in labour whatever. In\na little while the mere absence of occupation for so great a multitude\nof people everywhere became an evident social danger, and the\ngovernment was obliged to resort to such devices as simple decorative\nwork in wood and stone, the manufacture of hand-woven textiles,\nfruit-growing, flower-growing, and landscape gardening on a grand scale\nto keep the less adaptable out of mischief, and of paying wages to the\nyounger adults for attendance at schools that would equip them to use\nthe new atomic machinery.... So quite insensibly the council drifted\ninto a complete reorganisation of urban and industrial life, and indeed\nof the entire social system.\n\nIdeas that are unhampered by political intrigue or financial\nconsiderations have a sweeping way with them, and before a year was out\nthe records of the council show clearly that it was rising to its\nenormous opportunity, and partly through its own direct control and\npartly through a series of specific committees, it was planning a new\ncommon social order for the entire population of the earth. ‘There can\nbe no real social stability or any general human happiness while large\nareas of the world and large classes of people are in a phase of\ncivilisation different from the prevailing mass. It is impossible now\nto have great blocks of population misunderstanding the generally\naccepted social purpose or at an economic disadvantage to the rest.’ So\nthe council expressed its conception of the problem it had to solve.\nThe peasant, the field-worker, and all barbaric cultivators were at an\n‘economic disadvantage’ to the more mobile and educated classes, and\nthe logic of the situation compelled the council to take up\nsystematically the supersession of this stratum by a more efficient\norganisation of production. It developed a scheme for the progressive\nestablishment throughout the world of the ‘modern system’ in\nagriculture, a system that should give the full advantages of a\ncivilised life to every agricultural worker, and this replacement has\nbeen going on right up to the present day. The central idea of the\nmodern system is the substitution of cultivating guilds for the\nindividual cultivator, and for cottage and village life altogether.\nThese guilds are associations of men and women who take over areas of\narable or pasture land, and make themselves responsible for a certain\naverage produce. They are bodies small enough as a rule to be run on a\nstrictly democratic basis, and large enough to supply all the labour,\nexcept for a certain",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 5.7965
+    },
+    {
+      "candidateId": "pilot-08",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-james-principles-v1-1890:w46860-47285",
+      "sourceId": "control-james-principles-v1-1890",
+      "author": "William James",
+      "title": "The Principles of Psychology, Volume 1",
+      "year": 1890,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57628",
+      "linkedQuestionNumbers": [
+        3,
+        8,
+        21,
+        23
+      ],
+      "subjectAxes": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 46861–47285",
+      "wordStart": 46860,
+      "wordEnd": 47285,
+      "wordCount": 425,
+      "text": "it is not simply _particular\nlines_ of discharge, but also _general forms_ of discharge, that\nseem to be grooved out by habit in the brain. Just as, if we let our\nemotions evaporate, they get into a way of evaporating; so there is\nreason to suppose that if we often flinch from making an effort, before\nwe know it the effort-making capacity will be gone; and that, if we\nsuffer the wandering of our attention, presently it will wander all the\ntime. Attention and effort are, as we shall see later, but two names\nfor the same psychic fact. To what brain-processes they correspond we\ndo not know. The strongest reason for believing that they do depend on\nbrain-processes at all, and are not pure acts of the spirit, is just\nthis fact, that they seem in some degree subject to the law of habit,\nwhich is a material law. As a final practical maxim, relative to these\nhabits of the will, we may, then, offer something like this: _Keep\nthe faculty of effort alive in you by a little gratuitous exercise\nevery day_. That is, be systematically ascetic or heroic in little\nunnecessary points, do every day or two something for no other reason\nthan that you would rather not do it, so that when the hour of dire\nneed draws nigh, it may find you not unnerved and untrained to stand\nthe test. Asceticism of this sort is like the insurance which a man\npays on his house and goods. The tax does him no good at the time, and\npossibly may never bring him a return. But if the fire _does_ come,\nhis having paid it will be his salvation from ruin. So with the man\nwho has daily inured himself to habits of concentrated attention,\nenergetic volition, and self-denial in unnecessary things. He will\nstand like a tower when everything rocks around him, and when his\nsofter fellow-mortals are winnowed like chaff in the blast.\n\nThe physiological study of mental conditions is thus the most powerful\nally of hortatory ethics. The hell to be endured hereafter, of which\ntheology tells, is no worse than the hell we make for ourselves in this\nworld by habitually fashioning our characters in the wrong way. Could\nthe young but realize how soon they will become mere walking bundles\nof habits, they would give more heed to their conduct while in the\nplastic state. We are spinning our own fates, good or evil, and never\nto be undone. Every smallest stroke of virtue or of",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 3.1803
+    },
+    {
+      "candidateId": "pilot-09",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-butler-erewhon-1872:w66385-66810",
+      "sourceId": "control-butler-erewhon-1872",
+      "author": "Samuel Butler",
+      "title": "Erewhon",
+      "year": 1872,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1906",
+      "linkedQuestionNumbers": [
+        22,
+        76,
+        100
+      ],
+      "subjectAxes": [
+        "MIND-MACHINE",
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 66386–66810",
+      "wordStart": 66385,
+      "wordEnd": 66810,
+      "wordCount": 425,
+      "text": "mechanical system, just\nas the great majority of ants and bees have nothing to do with the\ncontinuation of their species, but get food and store it, without\nthought of breeding. One cannot expect the parallel to be complete or\nnearly so; certainly not now, and probably never; but is there not\nenough analogy existing at the present moment, to make us feel\nseriously uneasy about the future, and to render it our duty to check\nthe evil while we can still do so? Machines can within certain limits\nbeget machines of any class, no matter how different to themselves.\nEvery class of machines will probably have its special mechanical\nbreeders, and all the higher ones will owe their existence to a large\nnumber of parents and not to two only.\n\n“We are misled by considering any complicated machine as a single\nthing; in truth it is a city or society, each member of which was bred\ntruly after its kind. We see a machine as a whole, we call it by a name\nand individualise it; we look at our own limbs, and know that the\ncombination forms an individual which springs from a single centre of\nreproductive action; we therefore assume that there can be no\nreproductive action which does not arise from a single centre; but this\nassumption is unscientific, and the bare fact that no vapour-engine was\never made entirely by another, or two others, of its own kind, is not\nsufficient to warrant us in saying that vapour-engines have no\nreproductive system. The truth is that each part of every vapour-engine\nis bred by its own special breeders, whose function it is to breed that\npart, and that only, while the combination of the parts into a whole\nforms another department of the mechanical reproductive system, which\nis at present exceedingly complex and difficult to see in its entirety.\n\n“Complex now, but how much simpler and more intelligibly organised may\nit not become in another hundred thousand years? or in twenty thousand?\nFor man at present believes that his interest lies in that direction;\nhe spends an incalculable amount of labour and time and thought in\nmaking machines breed always better and better; he has already\nsucceeded in effecting much that at one time appeared impossible, and\nthere seem no limits to the results of accumulated improvements if they\nare allowed to descend with modification from generation to generation.\nIt must always be remembered that man’s body is what it is through\nhaving been moulded into its present shape by",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 6.5124
+    },
+    {
+      "candidateId": "pilot-10",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-mill-subjection-women-1869:w18105-18530",
+      "sourceId": "control-mill-subjection-women-1869",
+      "author": "John Stuart Mill",
+      "title": "The Subjection of Women",
+      "year": 1869,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/27083",
+      "linkedQuestionNumbers": [
+        12
+      ],
+      "subjectAxes": [
+        "SELF-GOVT"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 18106–18530",
+      "wordStart": 18105,
+      "wordEnd": 18530,
+      "wordCount": 425,
+      "text": "The honourable exceptions are proportionally fewer than in\nthe case of almost any other human infirmity. Philosophy and\nreligion, instead of keeping it in check, are generally suborned to\ndefend it; and nothing controls it but that practical feeling of the\nequality of human beings, which is the theory of Christianity, but\nwhich Christianity will never practically teach, while it sanctions\ninstitutions grounded on an arbitrary preference of one human being\nover another.\n\nThere are, no doubt, women, as there are men, whom equality of\nconsideration will not satisfy; with whom there is no peace while any\nwill or wish is regarded but their own. Such persons are a proper\nsubject for the law of divorce. They are only fit to live alone, and\nno human beings ought to be compelled to associate their lives with\nthem. But the legal subordination tends to make such characters among\nwomen more, rather than less, frequent. If the man exerts his whole\npower, the woman is of course crushed: but if she is treated with\nindulgence, and permitted to assume power, there is no rule to set\nlimits to her encroachments. The law, not determining her rights, but\ntheoretically allowing her none at all, practically declares that the\nmeasure of what she has a right to, is what she can contrive to get.\n\nThe equality of married persons before the law, is not only the sole\nmode in which that particular relation can be made consistent with\njustice to both sides, and conducive to the happiness of both, but it\nis the only means of rendering the daily life of mankind, in any high\nsense, a school of moral cultivation. Though the truth may not be\nfelt or generally acknowledged for generations to come, the only\nschool of genuine moral sentiment is society between equals. The\nmoral education of mankind has hitherto emanated chiefly from the law\nof force, and is adapted almost solely to the relations which force\ncreates. In the less advanced states of society, people hardly\nrecognise any relation with their equals. To be an equal is to be an\nenemy. Society, from its highest place to its lowest, is one long\nchain, or rather ladder, where every individual is either above or\nbelow his nearest neighbour, and wherever he does not command he must\nobey. Existing moralities, accordingly, are mainly fitted to a\nrelation of command and obedience. Yet command and obedience are but\nunfortunate necessities of human life: society in equality is its\nnormal state. Already in modern life, and more and more",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 6.3054
+    },
+    {
+      "candidateId": "pilot-11",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-huxley-automata-1874:w61060-61485",
+      "sourceId": "control-huxley-automata-1874",
+      "author": "T. H. Huxley",
+      "title": "On the Hypothesis That Animals Are Automata, and Its History",
+      "year": 1874,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/files/52344/52344-h/52344-h.htm",
+      "linkedQuestionNumbers": [
+        2,
+        3,
+        4,
+        23
+      ],
+      "subjectAxes": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 61061–61485",
+      "wordStart": 61060,
+      "wordEnd": 61485,
+      "wordCount": 425,
+      "text": "and it is\nthese “ideagenous molecules” which are the physical basis of memory.\n\nIt may be assumed, then, that molecular changes in the brain are the\ncauses of all the states of consciousness of brutes. Is there any\nevidence that these states of consciousness may, conversely, cause\nthose molecular changes which give rise to muscular motion? I see\nno such evidence. The frog walks, hops, swims, and goes through his\ngymnastic performances quite as well without consciousness, and\nconsequently without volition, as with it; and, if a frog, in his\nnatural state, possesses anything corresponding with what we call\nvolition, there is no reason to think that it is anything but a\nconcomitant of the molecular changes in the brain which form part of\nthe series involved in the production of motion.\n\nThe consciousness of brutes would appear to be related to the mechanism\nof their body simply as a collateral product of its working, and to\nbe as completely without any power of modifying that working as the\nsteam-whistle which accompanies the work of a locomotive engine is\nwithout influence upon its machinery. Their volition, if they have\nany, is an emotion indicative of physical changes, not a cause of such\nchanges.\n\nThis conception of the relations of states of consciousness with\nmolecular changes in the brain—of _psychoses_ with _neuroses_—does not\nprevent us from ascribing free will to brutes. For an agent is free\nwhen there is nothing to prevent him from doing that which he desires\nto do. If a greyhound chases a hare, he is a free agent, because his\naction is in entire accordance with his strong desire to catch the\nhare; while so long as he is held back by the leash he is not free,\nbeing prevented by external force from following his inclination.\nAnd the ascription of freedom to the greyhound under the former\ncircumstances is by no means inconsistent with the other aspect of\nthe facts of the case—that he is a machine impelled to the chase, and\ncaused, at the same time, to have the desire to catch the game by the\nimpression which the rays of light proceeding from the hare make upon\nhis eyes, and through them upon his brain.\n\nMuch ingenious argument has, at various times, been bestowed upon the\nquestion: How is it possible to imagine that volition, which is a state\nof consciousness, and, as such, has not the slightest community of\nnature with matter in motion, can act upon the moving matter of which\nthe body is composed, as it",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 6.2922
+    },
+    {
+      "candidateId": "pilot-12",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-morris-useful-work-1884:w3550-3975",
+      "sourceId": "control-morris-useful-work-1884",
+      "author": "William Morris",
+      "title": "Useful Work versus Useless Toil",
+      "year": 1884,
+      "language": "English",
+      "sourceUrl": "https://www.marxists.org/archive/morris/works/1884/useful.htm",
+      "linkedQuestionNumbers": [
+        17,
+        29,
+        33,
+        36
+      ],
+      "subjectAxes": [
+        "LABOUR",
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 3551–3975",
+      "wordStart": 3550,
+      "wordEnd": 3975,
+      "wordCount": 425,
+      "text": "worthy work assured to the worker. When class-robbery\nis abolished, every man will reap the fruits of his labour, every man will have due\nrest - leisure, that is. Some Socialists might say we need not go any further than\nthis; it is enough that the worker should get the full produce of his work, and\nthat his rest should be abundant. But though the compulsion of man's tyranny is\nthus abolished, I yet demand compensation for the compulsion of Nature's necessity.\nAs long as the work is repulsive it will still be a burden which must be taken up\ndaily, and even so would mar our life, even though the hours of labour were short.\nWhat we want to do is to add to our wealth without diminishing our pleasure. Nature\nwill not be finally conquered till our work becomes a part of the pleasure of our\nlives.\n\nThat first step of freeing people from the compulsion to labour needlessly will at\nleast put us on the way towards this happy end; for we shall then have time and\nopportunities for bringing it about. As things are now, between the waste of\nlabour-power in mere idleness and its waste in unproductive work, it is clear that\nthe world of civilization is supported by a small part of its people; when\nall were working usefully for its support, the share of work\nwhich each would have to do would be but small, if our standard of life were about\non the footing of what well-to-do and refined people now think desirable. We shall\nhave labour-power to spare, and shall, in short, be as wealthy as we please. It\nwill be easy to live. If we were to wake up some morning now, under our present\nsystem, and find it \"easy to live,\" that system would force us to set to work at\nonce and make it hard to live; we should call that \"developing our resources,\" or\nsome such fine name. The multiplication of labour has become a necessity for us,\nand as long as that goes on no ingenuity in the invention of machines will be of\nany real use to us. Each new machine will cause a certain amount of misery among\nthe workers whose special industry it may disturb; so many of them will be reduced\nfrom skilled to unskilled workmen, and then gradually matters will slip into their\ndue grooves, and all will work apparently smoothly again; and if it were not that\nall this is preparing revolution, things would be,",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 5.9968
+    },
+    {
+      "candidateId": "pilot-13",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-lebon-crowd-1895:w4260-4685",
+      "sourceId": "control-lebon-crowd-1895",
+      "author": "Gustave Le Bon",
+      "title": "The Crowd: A Study of the Popular Mind",
+      "year": 1895,
+      "language": "English translation",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/445",
+      "linkedQuestionNumbers": [
+        38
+      ],
+      "subjectAxes": [
+        "MASS"
+      ],
+      "heading": "MENTAL UNITY.",
+      "provisionalLocator": "MENTAL UNITY.; local word range 4261–4685",
+      "wordStart": 4260,
+      "wordEnd": 4685,
+      "wordCount": 425,
+      "text": "criminal.\n\n\nIn its ordinary sense the word \"crowd\" means a gathering of\nindividuals of whatever nationality, profession, or sex, and\nwhatever be the chances that have brought them together.  From\nthe psychological point of view the expression \"crowd\" assumes\nquite a different signification.  Under certain given\ncircumstances, and only under those circumstances, an\nagglomeration of men presents new characteristics very different\nfrom those of the individuals composing it.  The sentiments and\nideas of all the persons in the gathering take one and the same\ndirection, and their conscious personality vanishes.  A\ncollective mind is formed, doubtless transitory, but presenting\nvery clearly defined characteristics.  The gathering has thus\nbecome what, in the absence of a better expression, I will call\nan organised crowd, or, if the term is considered preferable, a\npsychological crowd.  It forms a single being, and is subjected\nto the LAW OF THE MENTAL UNITY OF CROWDS.\n\nIt is evident that it is not by the mere fact of a number of\nindividuals finding themselves accidentally side by side that\nthey acquire the character of an organised crowd.  A thousand\nindividuals accidentally gathered in a public place without any\ndetermined object in no way constitute a crowd from the\npsychological point of view.  To acquire the special\ncharacteristics of such a crowd, the influence is necessary of\ncertain predisposing causes of which we shall have to determine\nthe nature.\n\nThe disappearance of conscious personality and the turning of\nfeelings and thoughts in a definite direction, which are the\nprimary characteristics of a crowd about to become organised, do\nnot always involve the simultaneous presence of a number of\nindividuals on one spot.  Thousands of isolated individuals may\nacquire at certain moments, and under the influence of certain\nviolent emotions--such, for example, as a great national\nevent--the characteristics of a psychological crowd.  It will be\nsufficient in that case that a mere chance should bring them\ntogether for their acts to at once assume the characteristics\npeculiar to the acts of a crowd.  At certain moments half a dozen\nmen might constitute a psychological crowd, which may not happen\nin the case of hundreds of men gathered together by accident.  On\nthe other hand, an entire nation, though there may be no visible\nagglomeration, may become a crowd under the action of certain\ninfluences.\n\nA psychological crowd once constituted, it acquires certain\nprovisional but determinable general characteristics.  To these\ngeneral characteristics there are adjoined particular\ncharacteristics which vary according to the elements of which the\ncrowd is composed, and may modify its mental constitution.",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 5.9332
+    },
+    {
+      "candidateId": "pilot-14",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-taylor-scientific-management-1911:w8165-8590",
+      "sourceId": "control-taylor-scientific-management-1911",
+      "author": "Frederick Winslow Taylor",
+      "title": "The Principles of Scientific Management",
+      "year": 1911,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6435",
+      "linkedQuestionNumbers": [
+        34,
+        41
+      ],
+      "subjectAxes": [
+        "LABOUR"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 8166–8590",
+      "wordStart": 8165,
+      "wordEnd": 8590,
+      "wordCount": 425,
+      "text": "used under\nscientific management in an ordinary machine-shop fill thousands of\npages.]\n\nThus all of the planning which under the old system was done by the\nworkman, as a result of his personal experience, must of necessity under\nthe new system be done by the management in accordance with the laws of\nthe science; because even if the workman was well suited to the\ndevelopment and use of scientific data, it would be physically\nimpossible for him to work at his machine and at a desk at the same\ntime. It is also clear that in most cases one type of man is needed to\nplan ahead and an entirely different type to execute the work.\n\nThe man in the planning room, whose specialty under scientific\nmanagement is planning ahead, invariably finds that the work can be done\nbetter and more economically by a subdivision of the labor; each act of\neach mechanic, for example, should be preceded by various preparatory\nacts done by other men. And all of this involves, as we have said, \"an\nalmost equal division of the responsibility and the work between the\nmanagement and the workman.\"\n\nTo summarize: Under the management of \"initiative and incentive\"\npractically the whole problem is \"up to the workman,\" while under\nscientific management fully one-half of the problem is \"up to the\nmanagement.\"\n\nPerhaps the most prominent single element in modern scientific\nmanagement is the task idea. The work of every workman is fully planned\nout by the management at least one day in advance, and each man receives\nin most cases complete written instructions, describing in detail the\ntask which he is to accomplish, as well as the means to be used in doing\nthe work. And the work planned in advance in this way constitutes a task\nwhich is to be solved, as explained above, not by the workman alone, but\nin almost all cases by the joint effort of the workman and the\nmanagement. This task specifies not only what is to be done but how it\nis to be done and the exact time allowed for doing it. And whenever the\nworkman succeeds in doing his task right, and within the time limit\nspecified, he receives an addition of from 30 per cent to 100 per cent\nto his ordinary wages. These tasks are carefully planned, so that both\ngood and careful work are called for in their performance, but it should\nbe distinctly understood that in no case is the workman called upon to\nwork at a pace which would",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 3.6978
+    },
+    {
+      "candidateId": "pilot-15",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "longtail-bose-response-1902:w41890-42315",
+      "sourceId": "longtail-bose-response-1902",
+      "author": "Jagadish Chandra Bose",
+      "title": "Response in the Living and Non-Living",
+      "year": 1902,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18986",
+      "linkedQuestionNumbers": [
+        7,
+        21,
+        22,
+        23
+      ],
+      "subjectAxes": [
+        "MIND-MACHINE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 41891–42315",
+      "wordStart": 41890,
+      "wordEnd": 42315,
+      "wordCount": 425,
+      "text": "stimulants, lowered by depressants, and abolished\nby poisons, so also we have found the response in plants and metals\nundergoing similar exaltation, depression, or abolition.\n\nWe have seen that the criterion by which vital response is\ndifferentiated is its abolition by the action of certain reagents--the\nso-called poisons. We find, however, that 'poisons' also abolish the\nresponses in plants and metals (fig. 117). Just as animal tissues pass\nfrom a state of responsiveness while living to a state of\nirresponsiveness when killed by poisons, so also we find metals\ntransformed from a responsive to an irresponsive condition by the action\nof similar 'poisonous' reagents.\n\nThe parallel is the more striking since it has long been known with\nregard to animal tissues that the same drug, administered in large or\nsmall doses, might have opposite effects, and in preceding chapters we\nhave seen that the same statement holds good of plants and metals also.\n\n#Stimulus of light.#--Even the responses of such a highly specialised\norgan as the retina are strictly paralleled by inorganic responses. We\nhave seen how the stimulus of light evokes in the artificial retina\nresponses which coincide in all their detail with those produced in the\nreal retina. This was seen in ineffective stimuli becoming effective\nafter repetition, in the relation between stimulus and response, and in\nthe effects produced by temperature; also in the phenomenon of\nafter-oscillation. These similarities went even further, the very\nabnormalities of retinal response finding their reflection in the\ninorganic.\n\n[Illustration: FIG. 117.--ABOLITION OF RESPONSE IN NERVE, PLANT, AND\n    METAL BY THE ACTION OF THE SAME 'POISON'\nThe first half in each set shows the normal response, the second half\n    the abolition of response after the application of the reagent.]\n\nThus living response in all its diverse manifestations is found to be\nonly a repetition of responses seen in the inorganic. There is in it no\nelement of mystery or caprice, such as we must admit to be applied in\nthe assumption of a hypermechanical vital force, acting in contradiction\nor defiance of those physical laws that govern the world of matter.\nNowhere in the entire range of these response-phenomena--inclusive\nas that is of metals, plants, and animals--do we detect any breach of\ncontinuity. In the study of processes apparently so complex as those of\nirritability, we must, of course, expect to be confronted with many\ndifficulties. But if these are to be overcome, they, like others, must\nbe faced, and their investigation patiently pursued, without the\npostulation of special forces whose convenient property it is to meet",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 4.2305
+    },
+    {
+      "candidateId": "pilot-16",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-wells-war-air-1908:w25205-25630",
+      "sourceId": "control-wells-war-air-1908",
+      "author": "H. G. Wells",
+      "title": "The War in the Air",
+      "year": 1908,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/780",
+      "linkedQuestionNumbers": [
+        31,
+        45
+      ],
+      "subjectAxes": [
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 25206–25630",
+      "wordStart": 25205,
+      "wordEnd": 25630,
+      "wordCount": 425,
+      "text": "seas.\nEach time there would be a war panic.\n\nThe strength and heart of the nations was given to the thought of war,\nand yet the mass of their citizens was a teeming democracy as heedless\nof and unfitted for fighting, mentally, morally, physically, as any\npopulation has ever been--or, one ventures to add, could ever be. That\nwas the paradox of the time. It was a period altogether unique in\nthe world's history. The apparatus of warfare, the art and method of\nfighting, changed absolutely every dozen years in a stupendous progress\ntowards perfection, and people grew less and less warlike, and there was\nno war.\n\nAnd then at last it came. It came as a surprise to all the world because\nits real causes were hidden. Relations were strained between Germany\nand the United States because of the intense exasperation of a tariff\nconflict and the ambiguous attitude of the former power towards the\nMonroe Doctrine, and they were strained between the United States and\nJapan because of the perennial citizenship question. But in both cases\nthese were standing causes of offence. The real deciding cause, it is\nnow known, was the perfecting of the Pforzheim engine by Germany and the\nconsequent possibility of a rapid and entirely practicable airship.\nAt that time Germany was by far the most efficient power in the world,\nbetter organised for swift and secret action, better equipped with the\nresources of modern science, and with her official and administrative\nclasses at a higher level of education and training. These things she\nknew, and she exaggerated that knowledge to the pitch of contempt for\nthe secret counsels of her neighbours. It may be that with the habit of\nself-confidence her spying upon them had grown less thorough. Moreover,\nshe had a tradition of unsentimental and unscrupulous action that\nvitiated her international outlook profoundly. With the coming of these\nnew weapons her collective intelligence thrilled with the sense that now\nher moment had come. Once again in the history of progress it seemed she\nheld the decisive weapon. Now she might strike and conquer--before the\nothers had anything but experiments in the air.\n\nParticularly she must strike America, swiftly, because there, if\nanywhere, lay the chance of an aerial rival. It was known that America\npossessed a flying-machine of considerable practical value, developed\nout of the Wright model; but it was not supposed that the Washington War\nOffice had made any wholesale attempts to create an aerial navy. It was\nnecessary to strike before they could do so. France",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 5.4946
+    },
+    {
+      "candidateId": "pilot-17",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-james-will-believe-1897:w46860-47285",
+      "sourceId": "control-james-will-believe-1897",
+      "author": "William James",
+      "title": "The Will to Believe and Other Essays in Popular Philosophy",
+      "year": 1897,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26659",
+      "linkedQuestionNumbers": [
+        1,
+        2,
+        18,
+        26,
+        28,
+        32
+      ],
+      "subjectAxes": [
+        "WILL",
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 46861–47285",
+      "wordStart": 46860,
+      "wordEnd": 47285,
+      "wordCount": 425,
+      "text": "both parties claim the sole right to use it, and determinists to-day\ninsist that they alone are freedom's champions.  Old-fashioned\ndeterminism was what we may call _hard_ determinism.  It did not shrink\nfrom such words as fatality, bondage of the will, necessitation, and\nthe like.  Nowadays, we have a _soft_ determinism which abhors harsh\nwords, and, repudiating fatality, necessity, and even predetermination,\nsays that its real name is freedom; for freedom is only necessity\nunderstood, and bondage to the highest is identical with true freedom.\nEven a writer as little used to making capital out of soft words as Mr.\nHodgson hesitates not to call himself a 'free-will determinist.'\n\nNow, all this is a quagmire of evasion under which the real issue of\nfact has been entirely smothered.  Freedom in all these senses presents\nsimply no problem at all.  No matter what the soft determinist mean by\nit,--whether he mean the acting without external constraint; whether he\nmean the acting rightly, or whether he mean the acquiescing in the law\nof the whole,--who cannot answer him that sometimes we are free and\nsometimes we are not?  But there _is_ a problem, an issue of fact and\nnot of words, an issue of the most momentous importance, which is often\ndecided without discussion in one sentence,--nay, in one clause of a\nsentence,--by those very writers who spin out whole chapters in their\nefforts to show {150} what 'true' freedom is; and that is the question\nof determinism, about which we are to talk to-night.\n\nFortunately, no ambiguities hang about this word or about its opposite,\nindeterminism.  Both designate an outward way in which things may\nhappen, and their cold and mathematical sound has no sentimental\nassociations that can bribe our partiality either way in advance.  Now,\nevidence of an external kind to decide between determinism and\nindeterminism is, as I intimated a while back, strictly impossible to\nfind.  Let us look at the difference between them and see for\nourselves.  What does determinism profess?\n\nIt professes that those parts of the universe already laid down\nabsolutely appoint and decree what the other parts shall be.  The\nfuture has no ambiguous possibilities hidden in its womb: the part we\ncall the present is compatible with only one totality.  Any other\nfuture complement than the one fixed from eternity is impossible.  The\nwhole is in each and every part, and welds it with the rest into an\nabsolute unity, an iron block, in which there can be no equivocation or\nshadow of turning.\n\n  \"With earth's first clay they",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 4.7906
+    },
+    {
+      "candidateId": "pilot-18",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-forster-eternal-moment-1928:w9585-10010",
+      "sourceId": "control-forster-eternal-moment-1928",
+      "author": "E. M. Forster",
+      "title": "The Eternal Moment and Other Stories",
+      "year": 1928,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/72890",
+      "linkedQuestionNumbers": [
+        54,
+        66,
+        78
+      ],
+      "subjectAxes": [
+        "KNOWLEDGE",
+        "MIND-MACHINE",
+        "LABOUR"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 9586–10010",
+      "wordStart": 9585,
+      "wordEnd": 10010,
+      "wordCount": 425,
+      "text": "other believers; another by the mending apparatus, which sinful\nKuno had compared to worms; another by the lifts, another by the Book.\nAnd each would pray to this or to that, and ask it to intercede for\nhim with the Machine as a whole. Persecution--that also was present.\nIt did not break out, for reasons that will be set forward shortly.\nBut it was latent, and all who did not accept the minimum known as\n\"undenominational Mechanism\" lived in danger of Homelessness, which\nmeans death, as we know.\n\nTo attribute these two great developments to the Central Committee,\nis to take a very narrow view of civilisation. The Central Committee\nannounced the developments, it is true, but they were no more the cause\nof them than were the kings of the imperialistic period the cause of\nwar. Rather did they yield to some invincible pressure, which came no\none knew whither, and which, when gratified, was succeeded by some\nnew pressure equally invincible. To such a state of affairs it is\nconvenient to give the name of progress. No one confessed the Machine\nwas out of hand. Year by year it was served with increased efficiency\nand decreased intelligence. The better a man knew his own duties upon\nit, the less he understood the duties of his neighbour, and in all the\nworld there was not one who understood the monster as a whole. Those\nmaster brains had perished. They had left full directions, it is true,\nand their successors had each of them mastered a portion of those\ndirections. But Humanity, in its desire for comfort, had over-reached\nitself. It had exploited the riches of nature too far. Quietly and\ncomplacently, it was sinking into decadence, and progress had come to\nmean the progress of the Machine.\n\nAs for Vashti, her life went peacefully forward until the final\ndisaster. She made her room dark and slept; she awoke and made the room\nlight. She lectured and attended lectures. She exchanged ideas with her\ninnumerable friends and believed she was growing more spiritual. At\ntimes a friend was granted Euthanasia, and left his or her room for\nthe homelessness that is beyond all human conception. Vashti did not\nmuch mind. After an unsuccessful lecture, she would sometimes ask for\nEuthanasia herself. But the death-rate was not permitted to exceed the\nbirth-rate, and the Machine had hitherto refused it to her.\n\nThe troubles began quietly, long before she was conscious of them.\n\nOne day she was astonished at receiving a message from her son. They\nnever",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 5.2842
+    },
+    {
+      "candidateId": "pilot-19",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-lexical-preselection",
+      "chunkId": "control-james-principles-v2-1890:w218680-219105",
+      "sourceId": "control-james-principles-v2-1890",
+      "author": "William James",
+      "title": "The Principles of Psychology, Volume 2",
+      "year": 1890,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57634",
+      "linkedQuestionNumbers": [
+        24,
+        27,
+        40
+      ],
+      "subjectAxes": [
+        "MIND-MACHINE",
+        "WILL",
+        "KNOWLEDGE"
+      ],
+      "heading": "THE OBSTRUCTED WILL.",
+      "provisionalLocator": "THE OBSTRUCTED WILL.; local word range 218681–219105",
+      "wordStart": 218680,
+      "wordEnd": 219105,
+      "wordCount": 425,
+      "text": "other way. \"_Video meliora proboque,\ndeteriora sequor_\" is the classic expression of the latter condition of\nmind. The former it is to which the name _abulia_ peculiarly applies.\nThe patients, says Guislain,\n\n \"are able to will inwardly, mentally, according to the dictates of\n reason. They experience the desire to act, but they are powerless to\n act as they should.... Their will cannot overpass certain limits:\n one would say that the force of action within them is blocked up:\n the _I will_ does not transform itself into impulsive volition, into\n active determination. Some of these patients wonder themselves at\n the impotence with which their will is smitten. If you abandon them\n to themselves, they pass whole days in their bed or on a chair. If\n one speaks to them or excites them, they express themselves properly\n though briefly; and judge of things pretty well.\"[478]\n\nIn Chapter XXI, as will be remembered, it was said that the sentiment\nof reality with which an object appealed to the mind is proportionate\n(amongst other things) to its efficacy as a stimulus to the will.\nHere we get the obverse side of the truth. Those ideas, objects,\nconsiderations, which (in these lethargic states) fail to _get to_ the\nwill, fail to draw blood, seem, in so far forth, distant and unreal.\nThe connection of the reality of things with their effectiveness\nas motives is a tale that has never yet been fully told. The moral\ntragedy of human life comes almost wholly from the fact that the\nlink is ruptured which normally should hold between vision of the\ntruth and action, and that this pungent sense of effective reality\nwill not attach to certain ideas. Men do not differ so much in\ntheir mere feelings and conceptions. Their notions of possibility\nand their ideals are not as far apart as might be argued from their\ndiffering fates. No class of them have better sentiments or feel more\nconstantly the difference between the higher and the lower path in\nlife than the hopeless failures, the sentimentalists, the drunkards,\nthe schemers, the 'dead-beats,' whose life is one long contradiction\nbetween knowledge and action, and who, with full command of theory,\nnever get to holding their limp characters erect. No one eats of the\nfruit of the tree of knowledge as they do; as far as moral insight\ngoes, in comparison with them, the orderly and prosperous philistines\nwhom they scandalize are sucking babes. And yet their moral knowledge,\nalways there grumbling and rumbling in the background,--discerning,\ncommenting, protesting, longing, half resolving,--never wholly",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 4.7247
+    },
+    {
+      "candidateId": "pilot-20",
+      "status": "candidate-not-citation-verified",
+      "selectionMethod": "local-reading-correction",
+      "chunkId": "control-russell-free-mans-worship-1903:w66030-66455",
+      "sourceId": "control-russell-free-mans-worship-1903",
+      "author": "Bertrand Russell",
+      "title": "A Free Man's Worship, in Modern Essays",
+      "year": 1903,
+      "language": "English",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/38280",
+      "linkedQuestionNumbers": [
+        28,
+        30,
+        32
+      ],
+      "subjectAxes": [
+        "FATE"
+      ],
+      "heading": null,
+      "provisionalLocator": "Local word range 66031–66455",
+      "wordStart": 66030,
+      "wordEnd": 66455,
+      "wordCount": 425,
+      "text": "weight of a universe that cares nothing for its hopes and fears.\nVictory, in this struggle with the powers of darkness, is the true\nbaptism into the glorious company of heroes, the true initiation into\nthe overmastering beauty of human existence. From that awful encounter\nof the soul with the outer world, renunciation, wisdom, and charity are\nborn; and with their birth a new life begins. To take into the inmost\nshrine of the soul the irresistible forces whose puppets we seem to\nbe--Death and change, the irrevocableness of the past, and the\npowerlessness of man before the blind hurry of the universe from vanity\nto vanity--to feel these things and know them is to conquer them.\n\nThis is the reason why the Past has such magical power. The beauty of\nits motionless and silent pictures is like the enchanted purity of late\nautumn, when the leaves, though one breath would make them fall, still\nglow against the sky in golden glory. The Past does not change or\nstrive; like Duncan, after life's fitful fever it sleeps well; what was\neager and grasping, what was petty and transitory, has faded away, the\nthings that were beautiful and eternal shine out of it like stars in the\nnight. Its beauty, to a soul not worthy of it, is unendurable; but to a\nsoul which has conquered Fate it is the key of religion.\n\nThe life of Man, viewed outwardly, is but a small thing in comparison\nwith the forces of Nature. The slave is doomed to worship Time and Fate\nand Death, because they are greater than anything he finds in himself,\nand because all his thoughts are of things which they devour. But, great\nas they are, to think of them greatly, to feel their passionless\nsplendor, is greater still. And such thought makes us free men; we no\nlonger bow before the inevitable in Oriental subjection, but we absorb\nit, and make it a part of ourselves. To abandon the struggle for private\nhappiness, to expel all eagerness of temporary desire, to burn with\npassion for eternal things--this is emancipation, and this is the free\nman's worship. And this liberation is effected by a contemplation of\nFate; for Fate itself is subdued by the mind which leaves nothing to be\npurged by the purifying fire of Time.\n\nUnited with his fellow-men by the strongest of all ties, the tie of a\ncommon doom, the free man finds that a new vision is with him always,\nshedding over every daily task the light of love.",
+      "qualityPenalty": 0,
+      "localRetrievalScore": 4.2975
+    }
+  ]
+}

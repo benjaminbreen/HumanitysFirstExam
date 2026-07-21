@@ -70,6 +70,42 @@ function htmlToText(html) {
     .trim();
 }
 
+function wikitextToText(wikitext) {
+  let text = wikitext
+    .replace(/<noinclude\b[^>]*>[\s\S]*?<\/noinclude>/gi, "")
+    .replace(/<ref\b[^>]*>[\s\S]*?<\/ref>/gi, "")
+    .replace(/<ref\b[^>]*\/?\s*>/gi, "")
+    .replace(/<!--([\s\S]*?)-->/g, "")
+    .replace(/<br\s*\/?\s*>/gi, "\n")
+    .replace(/<\/?(?:onlyinclude|includeonly|poem|div|span|p|section)\b[^>]*>/gi, "")
+    .replace(/\[\[File:[^\]]+\]\]/gi, "")
+    .replace(/\[\[(?:[^\]|]+\|)?([^\]]+)\]\]/g, "$1")
+    .replace(/\[(?:https?:\/\/\S+)\s+([^\]]+)\]/g, "$1")
+    .replace(/\[(?:https?:\/\/[^\]]+)\]/g, "")
+    .replace(/^\s*\{\|[\s\S]*?^\s*\|\}\s*$/gm, "");
+
+  // Most proofread-page templates are typographic wrappers. Keeping their
+  // final positional value preserves the prose while dropping layout syntax.
+  for (let pass = 0; pass < 6 && /\{\{[^{}]*\}\}/.test(text); pass += 1) {
+    text = text.replace(/\{\{([^{}]*)\}\}/g, (_, body) => {
+      const values = body.split("|").slice(1).filter((value) => value && !value.includes("="));
+      return values.at(-1) ?? "";
+    });
+  }
+
+  return decodeEntities(text)
+    .replace(/\{\{[\s\S]*?\}\}/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/^\s*=+\s*(.*?)\s*=+\s*$/gm, "$1")
+    .replace(/'{2,5}/g, "")
+    .replace(/__\w+__/g, "")
+    .replace(/\r/g, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n[ \t]+/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 async function fetchBuffer(url) {
   const response = await fetchWithRetry(url, { redirect: "follow" });
   return Buffer.from(await response.arrayBuffer());
@@ -86,7 +122,7 @@ function wait(milliseconds) {
 
 async function fetchWithRetry(url, options = {}) {
   let lastError;
-  for (let attempt = 0; attempt < 4; attempt += 1) {
+  for (let attempt = 0; attempt < 8; attempt += 1) {
     try {
       const response = await fetch(url, {
         ...options,
@@ -101,13 +137,13 @@ async function fetchWithRetry(url, options = {}) {
       }
       const retryAfter = Number(response.headers.get("retry-after"));
       const delay = Number.isFinite(retryAfter) && retryAfter > 0
-        ? Math.min(retryAfter * 1000, 5000)
-        : Math.min(750 * (attempt + 1), 5000);
+        ? Math.min(retryAfter * 1000, 30000)
+        : Math.min(1500 * (attempt + 1), 30000);
       lastError = new Error(`${response.status} ${response.statusText}: ${url}`);
       await wait(delay);
     } catch (error) {
       lastError = error;
-      await wait(Math.min(750 * (attempt + 1), 5000));
+      await wait(Math.min(1500 * (attempt + 1), 30000));
     }
   }
   throw lastError;
@@ -129,8 +165,8 @@ async function fetchMediaWikiPage(api, page) {
 
 async function fetchMediaWikiPages(api, pages) {
   const textByTitle = new Map();
-  for (let offset = 0; offset < pages.length; offset += 20) {
-    const batch = pages.slice(offset, offset + 20);
+  for (let offset = 0; offset < pages.length; offset += 10) {
+    const batch = pages.slice(offset, offset + 10);
     const params = new URLSearchParams({
       action: "query",
       prop: "extracts",
@@ -151,6 +187,90 @@ async function fetchMediaWikiPages(api, pages) {
     if (!textByTitle.has(page)) textByTitle.set(page, await fetchMediaWikiPage(api, page));
   }
   return textByTitle;
+}
+
+async function fetchMediaWikiRawPages(api, pages) {
+  const textByTitle = new Map();
+  for (let offset = 0; offset < pages.length; offset += 20) {
+    const batch = pages.slice(offset, offset + 20);
+    const params = new URLSearchParams({
+      action: "query",
+      prop: "revisions",
+      rvprop: "content",
+      rvslots: "main",
+      titles: batch.join("|"),
+      format: "json",
+      formatversion: "2"
+    });
+    const payload = await fetchJson(`${api}?${params}`);
+    for (const entry of payload.query?.pages ?? []) {
+      const content = entry.revisions?.[0]?.slots?.main?.content;
+      if (!entry.missing && typeof content === "string") textByTitle.set(entry.title, content);
+    }
+    await wait(1600);
+  }
+  return textByTitle;
+}
+
+function proofreadPageRanges(wikitext) {
+  const ranges = [];
+  for (const match of wikitext.matchAll(/<pages\b([^>]+)\/?\s*>/gi)) {
+    const attributes = new Map(
+      [...match[1].matchAll(/([\w-]+)=(?:"([^"]*)"|'([^']*)'|(\S+))/g)]
+        .map((attribute) => [attribute[1].toLowerCase(), attribute[2] ?? attribute[3] ?? attribute[4]])
+    );
+    const index = attributes.get("index");
+    const from = Number(attributes.get("from"));
+    const to = Number(attributes.get("to"));
+    if (index && Number.isInteger(from) && Number.isInteger(to) && to >= from) {
+      ranges.push({ index, from, to });
+    }
+  }
+  return ranges;
+}
+
+async function fetchMediaWikiBook(api, page, subpagePrefix) {
+  const pages = [page, ...(await listMediaWikiSubpages(api, subpagePrefix))];
+  const rawByTitle = await fetchMediaWikiRawPages(api, pages);
+  const rangesByTitle = new Map();
+  const proofreadTitles = [];
+
+  for (const title of pages) {
+    const ranges = proofreadPageRanges(rawByTitle.get(title) ?? "");
+    rangesByTitle.set(title, ranges);
+    for (const { index, from, to } of ranges) {
+      for (let number = from; number <= to; number += 1) {
+        proofreadTitles.push(`Page:${index}/${number}`);
+      }
+    }
+  }
+
+  const uniqueProofreadTitles = [...new Set(proofreadTitles)];
+  const proofreadByTitle = uniqueProofreadTitles.length
+    ? await fetchMediaWikiRawPages(api, uniqueProofreadTitles)
+    : new Map();
+  const sections = [];
+
+  for (const title of pages) {
+    const ranges = rangesByTitle.get(title) ?? [];
+    let text;
+    if (ranges.length) {
+      text = ranges.flatMap(({ index, from, to }) => {
+        const pageTexts = [];
+        for (let number = from; number <= to; number += 1) {
+          const proofreadTitle = `Page:${index}/${number}`;
+          const pageText = wikitextToText(proofreadByTitle.get(proofreadTitle) ?? "");
+          if (pageText) pageTexts.push(`\n[scan page ${number}]\n${pageText}`);
+        }
+        return pageTexts;
+      }).join("\n");
+    } else {
+      text = wikitextToText(rawByTitle.get(title) ?? "");
+    }
+    if (text) sections.push(`===== ${title} =====\n\n${text}`);
+  }
+
+  return sections.join("\n\n");
 }
 
 async function listMediaWikiSubpages(api, page) {
@@ -187,17 +307,10 @@ async function downloadSource(source) {
   let content;
   if (source.download.kind === "mediawiki_book") {
     const subpagePrefix = source.download.subpagePrefix ?? source.download.page;
-    const pages = [
-      source.download.page,
-      ...(await listMediaWikiSubpages(source.download.api, subpagePrefix))
-    ];
-    const textByTitle = await fetchMediaWikiPages(source.download.api, pages);
-    const sections = [];
-    for (const page of pages) {
-      const text = textByTitle.get(page);
-      sections.push(`\n\n===== ${page} =====\n\n${text}`);
-    }
-    content = Buffer.from(sections.join("").trimStart(), "utf8");
+    content = Buffer.from(
+      await fetchMediaWikiBook(source.download.api, source.download.page, subpagePrefix),
+      "utf8"
+    );
   } else {
     const downloaded = await fetchBuffer(source.download.url);
     content = source.download.kind === "direct_html"

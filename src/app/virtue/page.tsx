@@ -12,7 +12,7 @@ export default function VirtuePage() {
   return (
     <FramedExperimentView
       experiment={virtue}
-      kicker="pilot · seven framings · 18 draws"
+      kicker="18 real model draws · seven framings"
     />
   );
 }

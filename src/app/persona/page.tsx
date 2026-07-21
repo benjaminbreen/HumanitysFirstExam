@@ -13,7 +13,7 @@ export default function PersonaPage() {
   return (
     <FramedExperimentView
       experiment={persona}
-      kicker="modern bank M009 · two framings · pilot, n=3 per cell"
+      kicker="13 real model draws · modern bank M009 · two framings"
       footer={
         <>
           This is the reverse direction of the exam: a question from the

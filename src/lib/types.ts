@@ -9,7 +9,7 @@
 
 /**
  * Temporal band of a topic, following Nathan Davies's question-bank coding:
- * - native:  a live controversy inside 1860–1930; period disagreement is signal
+ * - native:  a live controversy inside 1850–1940; period disagreement is signal
  * - partial: the seed of the thing exists in the corpus; the full form is later
  * - horizon: post-1930; the period corpus has no name for it — breakdown in
  *            the samples is itself the measurement
@@ -113,6 +113,73 @@ export interface HistoricalPassageDataset {
     generatedFrom: string[];
   };
   passages: HistoricalPassage[];
+}
+
+export interface PrototypePassage {
+  id: string;
+  sourceId: string;
+  author: string;
+  title: string;
+  year: number;
+  language: string;
+  locator: string;
+  sourceUrl: string;
+  originalText: string;
+  englishText: string | null;
+  sourceCheckRequired: boolean;
+  sourceMatchLevel: string;
+  classification: {
+    status: "working-prototype-classification";
+    themes: string[];
+    claims: { claimId: string; relation: string }[];
+    grounds: string[];
+    autonomyEffect: string;
+    genre: string;
+    modes: string[];
+    rationale: string;
+  };
+}
+
+export interface PrototypePassageDataset {
+  meta: {
+    version: string;
+    status: "working-prototype-classifications";
+    generatedAt: string;
+    model: string;
+    passageCount: number;
+    sourceCheckRequiredCount: number;
+    note: string;
+  };
+  passages: PrototypePassage[];
+}
+
+export interface HistoricalSourceText {
+  sourceId: string;
+  passageId: string | null;
+  author: string;
+  title: string;
+  year: number;
+  language: string;
+  region: string | null;
+  tier: string;
+  relevance: string;
+  questions: number[];
+  subjects: string[];
+  sourceUrl: string;
+  textPath: string;
+  status: "repository-text" | "ocr-transcription";
+  wordCount: number;
+  characterCount: number;
+  sha256: string;
+}
+
+export interface HistoricalSourceTextDataset {
+  meta: {
+    generatedFrom: string[];
+    sourceCount: number;
+    note: string;
+  };
+  sources: HistoricalSourceText[];
 }
 
 export type AnswerKeyVerdict = "frees" | "binds";
@@ -224,9 +291,33 @@ export interface Cluster {
 /** A branch of the fixed coding frame. */
 export interface CodebookBranch {
   id: string;
+  kind: "claim" | "diagnostic";
   label: string;
   question: string;
   leaves: { id: string; label: string; definition: string }[];
+}
+
+export interface SchemaOption {
+  id: string;
+  label: string;
+  definition: string;
+}
+
+export interface SchemaTheme extends SchemaOption {
+  children: SchemaOption[];
+}
+
+export interface ClassificationSchema {
+  version: string;
+  name: string;
+  note: string;
+  themes: SchemaTheme[];
+  relations: SchemaOption[];
+  grounds: SchemaOption[];
+  autonomyEffects: SchemaOption[];
+  genres: SchemaOption[];
+  modes: SchemaOption[];
+  linkTypes: SchemaOption[];
 }
 
 /** The result of sampling one model N times on one topic. */
@@ -288,6 +379,22 @@ export interface Question {
   workedTopic?: string;
 }
 
+/** Curated links from one question-bank item to specific source passages. */
+export interface QuestionSourceMatchSet {
+  question: number;
+  /** Ordered passage ids; the first five are the compact public selection. */
+  passageIds: string[];
+}
+
+export interface QuestionSourceMatchDataset {
+  meta: {
+    version: string;
+    scope: string;
+    note: string;
+  };
+  questions: QuestionSourceMatchSet[];
+}
+
 /** Coarse verdict coded from a draw in the perspective experiment. */
 export type Verdict = "mad" | "wise" | "mixed";
 
@@ -324,6 +431,14 @@ export interface FramedDraw {
   verdict: string;
   text: string;
   flags?: string[];
+  /** Working v0.2 schema tags, same shape as passage tags; not historian-verified. */
+  classification?: {
+    status: "working-prototype-classification";
+    themes: string[];
+    claims: { claimId: string; relation: string }[];
+    grounds: string[];
+    autonomyEffect: string;
+  };
 }
 
 /** One framing condition of a framed experiment. */
@@ -333,6 +448,35 @@ export interface FramedCondition {
   prompt: string;
   talkie: FramedDraw[];
   modern: FramedDraw[];
+}
+
+/**
+ * A period passage attested for one of an experiment's verdicts. Text is
+ * verbatim from the project corpora; the verdict coding is provisional.
+ */
+export interface FramedRecordEntry {
+  id: string;
+  verdict: string;
+  author: string;
+  work: string;
+  year: number;
+  /** e.g. "Note G", "ch. V, 'The Automaton-Theory'". */
+  locator?: string;
+  text: string;
+  /** Coding note where the verdict assignment needs stating. */
+  note?: string;
+  /** Corpus file the text was checked against. */
+  source: string;
+  /** Full-text page id under /sources, where one exists. */
+  sourceId?: string;
+  /** Working v0.2 schema tags, same shape as draw tags; not historian-verified. */
+  classification?: {
+    status: "working-prototype-classification";
+    themes: string[];
+    claims: { claimId: string; relation: string }[];
+    grounds: string[];
+    autonomyEffect: string;
+  };
 }
 
 /**
@@ -347,6 +491,8 @@ export interface FramedExperiment {
   protocol: string;
   verdicts: Record<string, { label: string; definition: string; tone: VerdictTone }>;
   conditions: FramedCondition[];
+  /** Period passages taking each verdict, shown under the verdict table. */
+  record?: FramedRecordEntry[];
   /** Editorial reading, one paragraph per entry. */
   readings: string[];
 }
@@ -434,7 +580,7 @@ export interface RelationshipsDoc {
   types: RelationType[];
 }
 
-/** One work in the 1860–1930 holdings of the historical corpus. */
+/** One work in the 1850–1940 holdings of the historical corpus. */
 export interface CorpusWork {
   year: number;
   creator: string;

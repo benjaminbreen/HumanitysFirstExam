@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local historian review workspace (never publish)
+/src/app/admin/
+/src/app/api/admin/
+/src/components/admin/
+/data-local/review/

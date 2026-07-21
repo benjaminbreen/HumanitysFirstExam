@@ -1,0 +1,93 @@
+{
+  "version": "0.2",
+  "name": "Humanity's First Exam classification schema",
+  "note": "Choose the primary theme, claim, ground, and mode when one is sufficient. Add another only when the passage clearly makes a second argument, and use no more than three in any field. Claims must record whether the passage advances, rejects, considers, or reports them.",
+  "themes": [
+    {
+      "id": "human-agency",
+      "label": "Human agency",
+      "definition": "Questions about choice, self-command, and responsibility.",
+      "children": [
+        { "id": "free-will-and-automatism", "label": "Free will and automatism", "definition": "Whether conscious choice directs action or merely accompanies prior causes." },
+        { "id": "habit-and-self-command", "label": "Habit and self-command", "definition": "How habit, attention, desire, and discipline enlarge or diminish a person's command of themselves." },
+        { "id": "moral-responsibility", "label": "Moral responsibility", "definition": "When a person can be praised, blamed, punished, or excused for an action." }
+      ]
+    },
+    {
+      "id": "machines-and-agency",
+      "label": "Machines and agency",
+      "definition": "Questions about what machines are and what powers or standing they may acquire.",
+      "children": [
+        { "id": "tools-and-agents", "label": "Tools and agents", "definition": "Whether a machine remains an instrument or can acquire purposes of its own." },
+        { "id": "machine-minds-and-made-persons", "label": "Machine minds and made persons", "definition": "Whether a made being can think, feel, will, suffer, or deserve moral standing." },
+        { "id": "dependence-succession-and-replacement", "label": "Dependence, succession, and replacement", "definition": "Whether machines make people dependent, displace human capacities, or succeed humanity." }
+      ]
+    },
+    {
+      "id": "society-and-power",
+      "label": "Society and power",
+      "definition": "Questions about technology as part of labour, government, and collective life.",
+      "children": [
+        { "id": "labour-and-mechanization", "label": "Labour and mechanization", "definition": "How machinery changes work, skill, dignity, ownership, and economic dependence." },
+        { "id": "government-measurement-and-surveillance", "label": "Government, measurement, and surveillance", "definition": "How technical and administrative systems classify, predict, watch, or govern people." },
+        { "id": "crowds-media-and-public-opinion", "label": "Crowds, media, and public opinion", "definition": "How mass communication, imitation, and collective feeling shape individual judgment." }
+      ]
+    },
+    {
+      "id": "human-futures",
+      "label": "Human futures",
+      "definition": "Questions about the long-term direction and limits of human development.",
+      "children": [
+        { "id": "progress-and-decline", "label": "Progress and decline", "definition": "Whether history tends toward improvement, decay, or neither." },
+        { "id": "heredity-and-biological-control", "label": "Heredity and biological control", "definition": "Attempts to shape future people through reproduction, inheritance, medicine, or selection." },
+        { "id": "technological-catastrophe", "label": "Technological catastrophe", "definition": "Human-made powers that threaten societies, civilization, or human survival." }
+      ]
+    }
+  ],
+  "relations": [
+    { "id": "advances", "label": "advances", "definition": "The passage argues for or relies upon the claim." },
+    { "id": "rejects", "label": "rejects", "definition": "The passage argues against the claim." },
+    { "id": "considers", "label": "considers", "definition": "The passage seriously examines the claim without clearly accepting or rejecting it." },
+    { "id": "reports", "label": "reports or quotes", "definition": "The passage describes another person's position without adopting it." }
+  ],
+  "grounds": [
+    { "id": "consequences-and-welfare", "label": "Consequences and welfare", "definition": "The argument turns on benefit, harm, happiness, safety, or aggregate well-being." },
+    { "id": "rights-and-self-government", "label": "Rights and self-government", "definition": "The argument turns on liberty, consent, equality, privacy, or a person's authority over their own life." },
+    { "id": "character-and-human-development", "label": "Character and human development", "definition": "The argument asks what habits, capacities, virtues, or forms of life a practice cultivates." },
+    { "id": "duty-and-responsibility", "label": "Duty and responsibility", "definition": "The argument turns on obligations, accountability, or what one person owes another." },
+    { "id": "economic-and-material-power", "label": "Economic and material power", "definition": "The argument turns on ownership, work, wealth, class, institutions, or control of resources." },
+    { "id": "scientific-or-empirical-evidence", "label": "Scientific or empirical evidence", "definition": "The argument appeals to observation, experiment, measurement, or causal explanation." },
+    { "id": "nature-and-evolution", "label": "Nature and evolution", "definition": "The argument appeals to natural order, adaptation, inheritance, struggle, or evolutionary development." },
+    { "id": "religion-or-metaphysics", "label": "Religion or metaphysics", "definition": "The argument depends on claims about soul, providence, ultimate purpose, or the nature of reality." }
+  ],
+  "autonomyEffects": [
+    { "id": "enlarges", "label": "Enlarges autonomy", "definition": "The passage presents the development as expanding meaningful human choice or capacity." },
+    { "id": "diminishes", "label": "Diminishes autonomy", "definition": "The passage presents the development as narrowing meaningful human choice or capacity." },
+    { "id": "conditional", "label": "Conditional or mixed", "definition": "Its effect depends on use, ownership, institutions, or competing gains and losses." },
+    { "id": "no-judgment", "label": "No judgment offered", "definition": "The passage does not clearly evaluate the effect on human autonomy." }
+  ],
+  "genres": [
+    { "id": "philosophy", "label": "Philosophy", "definition": "A sustained conceptual or moral argument." },
+    { "id": "science-and-medicine", "label": "Science or medicine", "definition": "Scientific, psychological, medical, or technical writing." },
+    { "id": "politics-and-economics", "label": "Politics or economics", "definition": "Writing about government, law, political economy, labour, or public policy." },
+    { "id": "fiction", "label": "Fiction", "definition": "A novel, story, utopia, dystopia, or other imagined narrative." },
+    { "id": "journalism", "label": "Journalism", "definition": "News, magazine, review, or general periodical writing." },
+    { "id": "public-address", "label": "Public address", "definition": "A speech, lecture, sermon, manifesto, or public appeal." },
+    { "id": "personal-writing", "label": "Personal writing", "definition": "A letter, diary, memoir, notebook, or other personal record." }
+  ],
+  "modes": [
+    { "id": "analysis", "label": "Analysis", "definition": "Explains or distinguishes ideas and causes." },
+    { "id": "prediction", "label": "Prediction", "definition": "Describes what may or will happen." },
+    { "id": "warning", "label": "Warning", "definition": "Calls attention to a danger or possible loss." },
+    { "id": "satire", "label": "Satire", "definition": "Uses irony, exaggeration, or ridicule to test or criticize a position." },
+    { "id": "testimony", "label": "Testimony", "definition": "Uses personal or witnessed experience as evidence." },
+    { "id": "proposal", "label": "Proposal", "definition": "Recommends a policy, practice, or course of action." }
+  ],
+  "linkTypes": [
+    { "id": "echoes", "label": "echoes", "definition": "Makes a meaningfully similar argument without evidence of direct influence." },
+    { "id": "opposes", "label": "opposes", "definition": "Takes a contrary position on the same problem." },
+    { "id": "reframes", "label": "reframes", "definition": "Preserves a problem while changing its concepts, causes, or stakes." },
+    { "id": "responds-to", "label": "responds directly", "definition": "Explicitly discusses or answers the other source." },
+    { "id": "influenced-by", "label": "influenced by", "definition": "Documentary evidence establishes a path of influence." }
+  ]
+}

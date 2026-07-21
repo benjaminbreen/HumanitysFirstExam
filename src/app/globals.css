@@ -52,6 +52,157 @@ body {
   outline-offset: 2px;
 }
 
+summary.catalogue-summary::-webkit-details-marker {
+  display: none;
+}
+
+summary.catalogue-summary {
+  list-style: none;
+}
+
+summary.question-summary::-webkit-details-marker,
+summary.question-more-summary::-webkit-details-marker {
+  display: none;
+}
+
+summary.question-summary,
+summary.question-more-summary {
+  list-style: none;
+}
+
+.question-details {
+  transition: background-color 160ms ease;
+}
+
+.question-details:hover,
+.question-details[open] {
+  background: color-mix(in oklab, var(--color-paper-deep) 40%, transparent);
+}
+
+.question-source-panel {
+  overflow: hidden;
+}
+
+.question-details::details-content,
+.question-details details::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: clip;
+  transition:
+    block-size 240ms ease,
+    opacity 180ms ease,
+    content-visibility 240ms allow-discrete;
+}
+
+.question-details[open]::details-content,
+.question-details details[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+.schema-tint[data-schema-tone="rust"]:hover {
+  background: color-mix(in oklab, var(--color-period) 9%, transparent);
+  border-color: color-mix(in oklab, var(--color-period) 38%, var(--color-line));
+}
+
+.schema-tint[data-schema-tone="blue"]:hover {
+  background: color-mix(in oklab, var(--color-modern) 8%, transparent);
+  border-color: color-mix(in oklab, var(--color-modern) 34%, var(--color-line));
+}
+
+.schema-tint[data-schema-tone="green"]:hover {
+  background: color-mix(in oklab, var(--color-continuity) 9%, transparent);
+  border-color: color-mix(in oklab, var(--color-continuity) 34%, var(--color-line));
+}
+
+.schema-tint[data-schema-tone="gold"]:hover {
+  background: color-mix(in oklab, var(--color-falsecont) 10%, transparent);
+  border-color: color-mix(in oklab, var(--color-falsecont) 38%, var(--color-line));
+}
+
+.catalogue-row {
+  transition:
+    background-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.catalogue-row:hover,
+.catalogue-row[open] {
+  background: color-mix(in oklab, var(--color-paper-deep) 64%, transparent);
+  box-shadow: inset 3px 0 0 color-mix(in oklab, var(--color-period) 55%, transparent);
+}
+
+.catalogue-details::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: clip;
+  transition:
+    block-size 280ms ease,
+    opacity 220ms ease,
+    content-visibility 280ms allow-discrete;
+}
+
+.catalogue-details[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+@supports (interpolate-size: allow-keywords) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+}
+
+/*
+ * Pure-CSS tooltip: an element with class "tip" and a data-tip attribute
+ * shows the attribute text in a styled card on hover. No JS. The verdict
+ * table scrolls sideways on small screens, but a scroll container clips
+ * the tooltips; where hover exists, let the wrapper overflow instead.
+ */
+.framed-table-wrap {
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .framed-table-wrap {
+    overflow: visible;
+  }
+}
+
+.tip {
+  position: relative;
+}
+
+.tip::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 0.5rem);
+  z-index: 30;
+  width: max-content;
+  max-width: 26rem;
+  white-space: normal;
+  padding: 0.6rem 0.75rem;
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  border-left: 3px solid color-mix(in oklab, var(--color-period) 55%, transparent);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.12);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.tip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

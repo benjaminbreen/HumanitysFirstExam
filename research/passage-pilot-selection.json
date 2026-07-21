@@ -1,0 +1,26 @@
+{
+  "status": "local-reading-selection-before-model-classification",
+  "note": "The semantic retrieval pass surfaced title pages, tables of contents, and merely lexical matches. This file records the twenty source windows retained after reading the candidates. They remain provisional until passage extraction and historian review.",
+  "selections": [
+    { "sourceId": "control-marx-capital-machinery-1867", "chunkId": "control-marx-capital-machinery-1867:w17395-17820", "reason": "Machinery, deskilling, capitalist control, and the worker as an appendage of the machine." },
+    { "sourceId": "control-butler-erewhon-1872", "chunkId": "control-butler-erewhon-1872:w66385-66810", "reason": "Machine evolution, reproduction, dependence, and possible succession." },
+    { "sourceId": "control-huxley-automata-1874", "chunkId": "control-huxley-automata-1874:w61060-61485", "reason": "The conscious-automaton theory and the causal status of consciousness." },
+    { "sourceId": "control-darwin-descent-1871", "chunkId": "control-darwin-descent-1871:w59285-59710", "reason": "Evolutionary continuity of mental and moral faculties." },
+    { "sourceId": "control-mill-representative-government-1861", "chunkId": "control-mill-representative-government-1861:w88750-89175", "reason": "Paternal rule and who is deemed capable of self-government." },
+    { "sourceId": "control-mill-subjection-women-1869", "chunkId": "control-mill-subjection-women-1869:w18105-18530", "reason": "Legal subordination, equality, command, and moral development." },
+    { "sourceId": "control-morris-useful-work-1884", "chunkId": "control-morris-useful-work-1884:w3550-3975", "reason": "Whether machinery frees labour under unequal ownership." },
+    { "sourceId": "control-james-principles-v1-1890", "chunkId": "control-james-principles-v1-1890:w46860-47285", "reason": "Habit, effort, and preservation of the capacity to will." },
+    { "sourceId": "control-james-will-believe-1897", "chunkId": "control-james-will-believe-1897:w46860-47285", "reason": "Hard determinism, soft determinism, and freedom of the will." },
+    { "sourceId": "control-lebon-crowd-1895", "chunkId": "control-lebon-crowd-1895:w4260-4685", "reason": "Loss of individual judgment and responsibility in a crowd." },
+    { "sourceId": "control-taylor-scientific-management-1911", "chunkId": "control-taylor-scientific-management-1911:w8165-8590", "reason": "Management removes planning and pace-setting from the worker." },
+    { "sourceId": "control-wells-world-set-free-1914", "chunkId": "control-wells-world-set-free-1914:w48635-49060", "reason": "Technological unemployment, purposelessness, and institutional response." },
+    { "sourceId": "control-lippmann-public-opinion-1922", "chunkId": "control-lippmann-public-opinion-1922:w78100-78525", "reason": "Expert administration, hidden decisions, dignity, and self-government." },
+    { "sourceId": "control-zamyatin-we-1924", "chunkId": "control-zamyatin-we-1924:w4970-5395", "reason": "Regimented time, collective uniformity, and regulated private life." },
+    { "sourceId": "control-bernays-propaganda-1928", "chunkId": "control-bernays-propaganda-1928:w355-780", "reason": "Organized manipulation of public judgment and desire." },
+    { "sourceId": "control-forster-eternal-moment-1928", "chunkId": "control-forster-eternal-moment-1928:w9585-10010", "reason": "Dependence on an opaque machine and punishment of dissent." },
+    { "sourceId": "longtail-bose-response-1902", "chunkId": "longtail-bose-response-1902:w41890-42315", "reason": "Continuity between living and inorganic response; rejection of a special vital force." },
+    { "sourceId": "longtail-chousy-ignis-1883", "chunkId": "longtail-chousy-ignis-1883:w48280-48705", "reason": "Automated agricultural labour and the displacement of human work." },
+    { "sourceId": "longtail-gastev-poetry-worker-blow-1918", "chunkId": "longtail-gastev-poetry-worker-blow-1918:w12780-13205", "reason": "A million workers synchronized by factory whistles and mechanized time." },
+    { "sourceId": "longtail-rathenau-mechanism-spirit-1913", "chunkId": "longtail-rathenau-mechanism-spirit-1913:w71355-71780", "reason": "The worker becomes caretaker and overseer within mechanized production." }
+  ]
+}

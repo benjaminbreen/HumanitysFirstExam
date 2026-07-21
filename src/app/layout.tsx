@@ -40,44 +40,81 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <header className="border-b border-line">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-x-8 gap-y-2 px-5 py-5">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-x-6 gap-y-3 px-5 py-4">
             <Link href="/">
               <span className="font-display text-xl font-semibold tracking-tight">
                 {data.meta.title}
               </span>
               <span className="ml-3 font-mono text-xs text-ink-faint">
-                1859–1940 ⇄ now
+                1850–1940 ⇄ now
               </span>
             </Link>
-            <nav className="flex flex-wrap gap-x-6 gap-y-1 font-mono text-sm">
+            <nav className="flex flex-wrap gap-x-4 gap-y-1 font-mono text-xs sm:gap-x-6 sm:text-sm">
               <Link href="/demo" className="text-ink-soft hover:text-ink">
                 Demo
               </Link>
-              <Link href="/#results" className="text-ink-soft hover:text-ink">
-                Results
-              </Link>
-              <Link href="/#questions" className="text-ink-soft hover:text-ink">
+              <Link href="/questions" className="text-ink-soft hover:text-ink">
                 Questions
-              </Link>
-              <Link href="/examinees" className="text-ink-soft hover:text-ink">
-                Examinees
               </Link>
               <Link href="/sources" className="text-ink-soft hover:text-ink">
                 Sources
               </Link>
-              <Link href="/#method" className="text-ink-soft hover:text-ink">
+              <Link href="/method" className="text-ink-soft hover:text-ink">
                 Method
               </Link>
+              {process.env.NODE_ENV === "development" && (
+                <Link href="/admin" className="text-period hover:text-ink">
+                  Review
+                </Link>
+              )}
             </nav>
           </div>
         </header>
         <div className="flex-1">{children}</div>
-        <footer className="mt-16 border-t border-line">
-          <div className="mx-auto max-w-6xl space-y-3 px-5 py-8 text-sm text-ink-soft">
-            <p className="font-mono text-xs uppercase tracking-wider text-ink-faint">
-              Mockup · {data.meta.version} · generated {data.meta.generated}
-            </p>
-            <p className="max-w-3xl">{data.meta.note}</p>
+        <footer className="mt-12 border-t border-line">
+          <div className="mx-auto grid max-w-6xl gap-5 px-5 py-7 text-sm text-ink-soft sm:grid-cols-[1fr_auto] sm:items-end">
+            <div>
+              <p className="font-display text-base font-semibold text-ink">
+                {data.meta.title}
+              </p>
+              <p className="mt-1">
+                A prototype by{" "}
+                <a
+                  href="https://benjaminpbreen.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+                >
+                  Ben Breen
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.linkedin.com/in/nathan-cl-davies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+                >
+                  Nathan Davies
+                </a>
+                .
+              </p>
+            </div>
+            <div className="sm:text-right">
+              <nav className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs">
+                <Link href="/codebook" className="hover:text-ink">
+                  Schema
+                </Link>
+                <Link href="/method" className="hover:text-ink">
+                  Method
+                </Link>
+                <Link href="/about" className="hover:text-ink">
+                  About
+                </Link>
+              </nav>
+              <p className="mt-3 font-mono text-[9px] uppercase tracking-wider text-ink-faint">
+                {data.meta.version} · {data.meta.generated}
+              </p>
+            </div>
           </div>
         </footer>
       </body>

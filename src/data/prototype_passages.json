@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "version": "prototype-passages-0.1",
+    "status": "working-prototype-classifications",
+    "generatedAt": "2026-07-21T20:14:13.111Z",
+    "model": "gpt-5.6-luna",
+    "passageCount": 20,
+    "sourceCheckRequiredCount": 4,
+    "note": "Working prototype tags delegated to the coding model. They may be corrected in the local review workspace; they are not presented as historian-verified gold data."
+  },
+  "passages": [
+    {
+      "id": "pilot-01",
+      "sourceId": "control-marx-capital-machinery-1867",
+      "author": "Karl Marx",
+      "title": "Capital, Volume I, Chapter 15: Machinery and Modern Industry",
+      "year": 1867,
+      "language": "English translation",
+      "locator": "Local word range 17396–17820",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm",
+      "originalText": "At the same time that factory work exhausts the nervous system to the uttermost, it does away with the many-sided play of the muscles, and confiscates every atom of freedom, both in bodily and intellectual activity. The lightening of the labour, even, becomes a sort of torture, since the machine does not free the labourer from work, but deprives the work of all interest. Every kind of capitalist production, in so far as it is not only a labour-process, but also a process of creating surplus-value, has this in common, that it is not the workman that employs the instruments of labour, but the instruments of labour that employ the workman. But it is only in the factory system that this inversion for the first time acquires technical and palpable reality. By means of its conversion into an automaton, the instrument of labour confronts the labourer, during the labour-process, in the shape of capital, of dead labour, that dominates, and pumps dry, living labour-power. The separation of the intellectual powers of production from the manual labour, and the conversion of those powers into the might of capital over labour, is, as we have already shown, finally completed by modern industry erected on the foundation of machinery.",
+      "englishText": null,
+      "sourceCheckRequired": true,
+      "sourceMatchLevel": "partial-anchors-in-full-source",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization",
+          "habit-and-self-command"
+        ],
+        "claims": [
+          {
+            "claimId": "instrument",
+            "relation": "considers"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          },
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "economic-and-material-power",
+          "character-and-human-development"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "politics-and-economics",
+        "modes": [
+          "analysis",
+          "warning"
+        ],
+        "rationale": "Marx argues that factory machinery reverses the relation between worker and instrument: the instruments employ and dominate the worker. Capitalist ownership also separates intellectual powers from manual labour, producing exhaustion, loss of interest, deskilling, and diminished bodily and intellectual freedom."
+      }
+    },
+    {
+      "id": "pilot-02",
+      "sourceId": "control-butler-erewhon-1872",
+      "author": "Samuel Butler",
+      "title": "Erewhon",
+      "year": 1872,
+      "language": "English",
+      "locator": "Local word range 66386–66810",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1906",
+      "originalText": "“We are misled by considering any complicated machine as a single thing; in truth it is a city or society, each member of which was bred truly after its kind. We see a machine as a whole, we call it by a name and individualise it; we look at our own limbs, and know that the combination forms an individual which springs from a single centre of reproductive action; we therefore assume that there can be no reproductive action which does not arise from a single centre; but this assumption is unscientific, and the bare fact that no vapour-engine was ever made entirely by another, or two others, of its own kind, is not sufficient to warrant us in saying that vapour-engines have no reproductive system. The truth is that each part of every vapour-engine is bred by its own special breeders, whose function it is to breed that part, and that only, while the combination of the parts into a whole forms another department of the mechanical reproductive system, which is at present exceedingly complex and difficult to see in its entirety.”",
+      "englishText": null,
+      "sourceCheckRequired": true,
+      "sourceMatchLevel": "partial-anchors-in-full-source",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "tools-and-agents",
+          "dependence-succession-and-replacement",
+          "technological-catastrophe"
+        ],
+        "claims": [
+          {
+            "claimId": "succession",
+            "relation": "advances"
+          },
+          {
+            "claimId": "instrument",
+            "relation": "rejects"
+          },
+          {
+            "claimId": "misalignment",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "nature-and-evolution",
+          "scientific-or-empirical-evidence",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "fiction",
+        "modes": [
+          "analysis",
+          "warning",
+          "prediction"
+        ],
+        "rationale": "The passage argues that machines should be understood as organized reproductive systems rather than as isolated human instruments. By analogy with biological reproduction and evolution, it opens the possibility that machines may develop and succeed humanity. The surrounding argument treats this prospect as a future danger requiring human vigilance, though the excerpt itself mainly establishes the analogy rather than describing an explicit conflict of machine and human purposes."
+      }
+    },
+    {
+      "id": "pilot-03",
+      "sourceId": "control-huxley-automata-1874",
+      "author": "T. H. Huxley",
+      "title": "On the Hypothesis That Animals Are Automata, and Its History",
+      "year": 1874,
+      "language": "English",
+      "locator": "Local word range 61061–61485",
+      "sourceUrl": "https://www.gutenberg.org/files/52344/52344-h/52344-h.htm",
+      "originalText": "It may be assumed, then, that molecular changes in the brain are the\ncauses of all the states of consciousness of brutes. Is there any\nevidence that these states of consciousness may, conversely, cause\nthose molecular changes which give rise to muscular motion? I see\nno such evidence. The frog walks, hops, swims, and goes through his\ngymnastic performances quite as well without consciousness, and\nconsequently without volition, as with it; and, if a frog, in his\nnatural state, possesses anything corresponding with what we call\nvolition, there is no reason to think that it is anything but a\nconcomitant of the molecular changes in the brain which form part of\nthe series involved in the production of motion.\n\nThe consciousness of brutes would appear to be related to the mechanism\nof their body simply as a collateral product of its working, and to\nbe as completely without any power of modifying that working as the\nsteam-whistle which accompanies the work of a locomotive engine is\nwithout influence upon its machinery. Their volition, if they have\nany, is an emotion indicative of physical changes, not a cause of such\nchanges.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "exact-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "automatism",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "philosophy",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Huxley argues that brain processes cause consciousness and movement, while consciousness is only a collateral product with no power to alter bodily action. Volition therefore indicates physical changes rather than causing them, presenting a clear conscious-automaton theory that diminishes the causal role of choice."
+      }
+    },
+    {
+      "id": "pilot-04",
+      "sourceId": "control-darwin-descent-1871",
+      "author": "Charles Darwin",
+      "title": "The Descent of Man, and Selection in Relation to Sex",
+      "year": 1871,
+      "language": "English",
+      "locator": "Local word range 59286–59710",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2300",
+      "originalText": "Nevertheless the difference in mind between man and the higher animals,\ngreat as it is, certainly is one of degree and not of kind. We have\nseen that the senses and intuitions, the various emotions and\nfaculties, such as love, memory, attention, curiosity, imitation,\nreason, etc., of which man boasts, may be found in an incipient, or\neven sometimes in a well-developed condition, in the lower animals.\nThey are also capable of some inherited improvement, as we see in the\ndomestic dog compared with the wolf or jackal. If it could be proved\nthat certain high mental powers, such as the formation of general\nconcepts, self-consciousness, etc., were absolutely peculiar to man,\nwhich seems extremely doubtful, it is not improbable that these\nqualities are merely the incidental results of other highly-advanced\nintellectual faculties; and these again mainly the result of the\ncontinued use of a perfect language. At what age does the new-born\ninfant possess the power of abstraction, or become self-conscious, and\nreflect on its own existence? We cannot answer; nor can we answer in\nregard to the ascending organic scale. The half-art, half-instinct of\nlanguage still bears the stamp of its gradual evolution.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "heredity-and-biological-control",
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "vitalism",
+            "relation": "rejects"
+          }
+        ],
+        "grounds": [
+          "nature-and-evolution",
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "no-judgment",
+        "genre": "science-and-medicine",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Darwin argues that human mental powers differ from those of other animals by degree rather than kind, and that faculties can show inherited improvement and gradual evolution. The passage rejects a sharp non-mechanical distinction between human and animal mental life, but it does not directly evaluate human autonomy or develop a machine argument. The fit of the vitalism claim is therefore indirect."
+      }
+    },
+    {
+      "id": "pilot-05",
+      "sourceId": "control-mill-representative-government-1861",
+      "author": "John Stuart Mill",
+      "title": "Considerations on Representative Government",
+      "year": 1861,
+      "language": "English",
+      "locator": "Local word range 88751–89175",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5669",
+      "originalText": "The thing appears perfectly easy to superficial observers. If India\n(for example) is not fit to govern itself, all that seems to them\nrequired is that there should be a minister to govern it, and that\nthis minister, like all other British ministers, should be responsible\nto the British Parliament. Unfortunately this, though the simplest\nmode of attempting to govern a dependency, is about the worst, and\nbetrays in its advocates a total want of comprehension of the\nconditions of good government. To govern a country under\nresponsibility to the people of that country, and to govern one\ncountry under responsibility to the people of another, are two very\ndifferent things. What makes the excellence of the first is, that\nfreedom is preferable to despotism: but the last _is_ despotism. The\nonly choice the case admits is a choice of despotisms, and it is not\ncertain that the despotism of twenty millions is necessarily better\nthan that of a few or of one; but it is quite certain that the\ndespotism of those who neither hear, nor see, nor know any thing about\ntheir subjects, has many chances of being worse than that of those who\ndo.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "government-measurement-and-surveillance",
+          "moral-responsibility",
+          "progress-and-decline"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "govern",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "rights-and-self-government",
+          "duty-and-responsibility"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "politics-and-economics",
+        "modes": [
+          "analysis",
+          "warning"
+        ],
+        "rationale": "Mill argues that foreign rule, even when formally responsible to a parliament, is still despotism because the governed people do not control or directly hold their rulers accountable. He examines how political arrangements and the rulers' distance from their subjects affect the quality of government, warning against paternal administration presented as self-government."
+      }
+    },
+    {
+      "id": "pilot-06",
+      "sourceId": "control-mill-subjection-women-1869",
+      "author": "John Stuart Mill",
+      "title": "The Subjection of Women",
+      "year": 1869,
+      "language": "English",
+      "locator": "Local word range 18106–18530",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/27083",
+      "originalText": "The equality of married persons before the law, is not only the sole\nmode in which that particular relation can be made consistent with\njustice to both sides, and conducive to the happiness of both, but it\nis the only means of rendering the daily life of mankind, in any high\nsense, a school of moral cultivation. Though the truth may not be\nfelt or generally acknowledged for generations to come, the only\nschool of genuine moral sentiment is society between equals. The\nmoral education of mankind has hitherto emanated chiefly from the law\nof force, and is adapted almost solely to the relations which force\ncreates. In the less advanced states of society, people hardly\nrecognise any relation with their equals. To be an equal is to be an\nenemy. Society, from its highest place to its lowest, is one long\nchain, or rather ladder, where every individual is either above or\nbelow his nearest neighbour, and wherever he does not command he must\nobey. Existing moralities, accordingly, are mainly fitted to a\nrelation of command and obedience. Yet command and obedience are but\nunfortunate necessities of human life: society in equality is its\nnormal state.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "moral-responsibility",
+          "habit-and-self-command"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "govern",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "rights-and-self-government",
+          "character-and-human-development"
+        ],
+        "autonomyEffect": "enlarges",
+        "genre": "philosophy",
+        "modes": [
+          "analysis",
+          "proposal"
+        ],
+        "rationale": "Mill argues that legal equality in marriage is necessary for justice and happiness, and that relations among equals cultivate genuine moral sentiment better than command and obedience. He therefore presents equality as a social and legal arrangement that enlarges human moral development and self-government."
+      }
+    },
+    {
+      "id": "pilot-07",
+      "sourceId": "control-morris-useful-work-1884",
+      "author": "William Morris",
+      "title": "Useful Work versus Useless Toil",
+      "year": 1884,
+      "language": "English",
+      "locator": "Local word range 3551–3975",
+      "sourceUrl": "https://www.marxists.org/archive/morris/works/1884/useful.htm",
+      "originalText": "As things are now, between the waste of\nlabour-power in mere idleness and its waste in unproductive work, it is clear that\nthe world of civilization is supported by a small part of its people; when\nall were working usefully for its support, the share of work\nwhich each would have to do would be but small, if our standard of life were about\non the footing of what well-to-do and refined people now think desirable. We shall\nhave labour-power to spare, and shall, in short, be as wealthy as we please. It\nwill be easy to live. If we were to wake up some morning now, under our present\nsystem, and find it \"easy to live,\" that system would force us to set to work at\nonce and make it hard to live; we should call that \"developing our resources,\" or\nsome such fine name. The multiplication of labour has become a necessity for us,\nand as long as that goes on no ingenuity in the invention of machines will be of\nany real use to us. Each new machine will cause a certain amount of misery among\nthe workers whose special industry it may disturb; so many of them will be reduced\nfrom skilled to unskilled workmen, and then gradually matters will slip into their\ndue grooves, and all will work apparently smoothly again;",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "economic-and-material-power",
+          "character-and-human-development"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "public-address",
+        "modes": [
+          "analysis",
+          "warning"
+        ],
+        "rationale": "Morris argues that under the present economic system machinery cannot genuinely improve life: the multiplication of labour makes it necessary to work more, while new machines disturb workers' industries and reduce skilled workers to unskilled labour. The loss of control and skill is attributed to the social arrangement of production rather than to machines alone."
+      }
+    },
+    {
+      "id": "pilot-08",
+      "sourceId": "control-james-principles-v1-1890",
+      "author": "William James",
+      "title": "The Principles of Psychology, Volume 1",
+      "year": 1890,
+      "language": "English",
+      "locator": "Local word range 46861–47285",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57628",
+      "originalText": "As a final practical maxim, relative to these\nhabits of the will, we may, then, offer something like this: _Keep\nthe faculty of effort alive in you by a little gratuitous exercise\nevery day_. That is, be systematically ascetic or heroic in little\nunnecessary points, do every day or two something for no other reason\nthan that you would rather not do it, so that when the hour of dire\nneed draws nigh, it may find you not unnerved and untrained to stand\nthe test. Asceticism of this sort is like the insurance which a man\npays on his house and goods. The tax does him no good at the time, and\npossibly may never bring him a return. But if the fire _does_ come,\nhis having paid it will be his salvation from ruin. So with the man\nwho has daily inured himself to habits of concentrated attention,\nenergetic volition, and self-denial in unnecessary things. He will\nstand like a tower when everything rocks around him, and when his\nsofter fellow-mortals are winnowed like chaff in the blast.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "habit-and-self-command",
+          "moral-responsibility"
+        ],
+        "claims": [
+          {
+            "claimId": "voluntarism",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "character-and-human-development"
+        ],
+        "autonomyEffect": "enlarges",
+        "genre": "philosophy",
+        "modes": [
+          "proposal"
+        ],
+        "rationale": "James argues that deliberately exercising effort, attention, and self-denial preserves and strengthens one's capacity for voluntary action, especially under future pressure. The passage presents self-discipline as a practical means of forming character and maintaining self-command."
+      }
+    },
+    {
+      "id": "pilot-09",
+      "sourceId": "control-james-will-believe-1897",
+      "author": "William James",
+      "title": "The Will to Believe and Other Essays in Popular Philosophy",
+      "year": 1897,
+      "language": "English",
+      "locator": "Local word range 46861–47285",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26659",
+      "originalText": "Now, all this is a quagmire of evasion under which the real issue of\nfact has been entirely smothered.  Freedom in all these senses presents\nsimply no problem at all.  No matter what the soft determinist mean by\nit,--whether he mean the acting without external constraint; whether he\nmean the acting rightly, or whether he mean the acquiescing in the law\nof the whole,--who cannot answer him that sometimes we are free and\nsometimes we are not?  But there _is_ a problem, an issue of fact and\nnot of words, an issue of the most momentous importance, which is often\ndecided without discussion in one sentence,--nay, in one clause of a\nsentence,--by those very writers who spin out whole chapters in their\nefforts to show {150} what 'true' freedom is; and that is the question\nof determinism, about which we are to talk to-night.\n\nFortunately, no ambiguities hang about this word or about its opposite,\nindeterminism.  Both designate an outward way in which things may\nhappen, and their cold and mathematical sound has no sentimental\nassociations that can bribe our partiality either way in advance.  Now,\nevidence of an external kind to decide between determinism and\nindeterminism is, as I intimated a while back, strictly impossible to\nfind.  Let us look at the difference between them and see for\nourselves.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "automatism",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "scientific-or-empirical-evidence",
+          "religion-or-metaphysics"
+        ],
+        "autonomyEffect": "no-judgment",
+        "genre": "philosophy",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "James distinguishes ordinary meanings of freedom from the deeper factual question of determinism versus indeterminism. He seriously examines whether human action is determined, but this excerpt does not settle the issue or directly judge its effect on autonomy."
+      }
+    },
+    {
+      "id": "pilot-10",
+      "sourceId": "control-lebon-crowd-1895",
+      "author": "Gustave Le Bon",
+      "title": "The Crowd: A Study of the Popular Mind",
+      "year": 1895,
+      "language": "English translation",
+      "locator": "MENTAL UNITY.; local word range 4261–4685",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/445",
+      "originalText": "In its ordinary sense the word \"crowd\" means a gathering of\nindividuals of whatever nationality, profession, or sex, and\nwhatever be the chances that have brought them together.  From\nthe psychological point of view the expression \"crowd\" assumes\nquite a different signification.  Under certain given\ncircumstances, and only under those circumstances, an\nagglomeration of men presents new characteristics very different\nfrom those of the individuals composing it.  The sentiments and\nideas of all the persons in the gathering take one and the same\ndirection, and their conscious personality vanishes.  A\ncollective mind is formed, doubtless transitory, but presenting\nvery clearly defined characteristics.  The gathering has thus\nbecome what, in the absence of a better expression, I will call\nan organised crowd, or, if the term is considered preferable, a\npsychological crowd.  It forms a single being, and is subjected\nto the LAW OF THE MENTAL UNITY OF CROWDS.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "crowds-media-and-public-opinion",
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "automatism",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "science-and-medicine",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Le Bon argues that under particular conditions individuals in a psychological crowd lose their conscious personalities, while their thoughts and feelings converge into a collective mind. The passage therefore presents crowd formation as diminishing individual judgment and agency, using a quasi-psychological explanatory framework."
+      }
+    },
+    {
+      "id": "pilot-11",
+      "sourceId": "control-taylor-scientific-management-1911",
+      "author": "Frederick Winslow Taylor",
+      "title": "The Principles of Scientific Management",
+      "year": 1911,
+      "language": "English",
+      "locator": "Local word range 8166–8590",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6435",
+      "originalText": "Thus all of the planning which under the old system was done by the\nworkman, as a result of his personal experience, must of necessity under\nthe new system be done by the management in accordance with the laws of\nthe science; because even if the workman was well suited to the\ndevelopment and use of scientific data, it would be physically\nimpossible for him to work at his machine and at a desk at the same\ntime. It is also clear that in most cases one type of man is needed to\nplan ahead and an entirely different type to execute the work.\n\nThe man in the planning room, whose specialty under scientific\nmanagement is planning ahead, invariably finds that the work can be done\nbetter and more economically by a subdivision of the labor; each act of\neach mechanic, for example, should be preceded by various preparatory\nacts done by other men. And all of this involves, as we have said, \"an\nalmost equal division of the responsibility and the work between the\nmanagement and the workman.\"",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization",
+          "habit-and-self-command"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          },
+          {
+            "claimId": "govern",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "economic-and-material-power",
+          "character-and-human-development"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "politics-and-economics",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Taylor argues that scientific management transfers planning from workers to management and divides labour between those who plan and those who execute. This makes workplace action more economically organized but diminishes workers' independent control and practical responsibility."
+      }
+    },
+    {
+      "id": "pilot-12",
+      "sourceId": "control-wells-world-set-free-1914",
+      "author": "H. G. Wells",
+      "title": "The World Set Free",
+      "year": 1914,
+      "language": "English",
+      "locator": "Local word range 48636–49060",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1059",
+      "originalText": "In\na little while the mere absence of occupation for so great a multitude\nof people everywhere became an evident social danger, and the\ngovernment was obliged to resort to such devices as simple decorative\nwork in wood and stone, the manufacture of hand-woven textiles,\nfruit-growing, flower-growing, and landscape gardening on a grand scale\nto keep the less adaptable out of mischief, and of paying wages to the\nyounger adults for attendance at schools that would equip them to use\nthe new atomic machinery.... So quite insensibly the council drifted\ninto a complete reorganisation of urban and industrial life, and indeed\nof the entire social system.\n\nIdeas that are unhampered by political intrigue or financial\nconsiderations have a sweeping way with them, and before a year was out\nthe records of the council show clearly that it was rising to its\nenormous opportunity, and partly through its own direct control and\npartly through a series of specific committees, it was planning a new\ncommon social order for the entire population of the earth.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "exact-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization",
+          "government-measurement-and-surveillance",
+          "progress-and-decline"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "considers"
+          },
+          {
+            "claimId": "govern",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "economic-and-material-power",
+          "character-and-human-development",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "conditional",
+        "genre": "fiction",
+        "modes": [
+          "analysis",
+          "proposal"
+        ],
+        "rationale": "The passage presents technological unemployment as a social danger and describes a government-led reorganization of work, education, and urban life. It treats centralized planning as a response to unequal economic conditions, while leaving the effects on human autonomy mixed: people gain education and material security, but their occupations and social arrangements become increasingly directed by institutions."
+      }
+    },
+    {
+      "id": "pilot-13",
+      "sourceId": "control-lippmann-public-opinion-1922",
+      "author": "Walter Lippmann",
+      "title": "Public Opinion",
+      "year": 1922,
+      "language": "English",
+      "locator": "Local word range 78101–78525",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6456",
+      "originalText": "The democratic fallacy has been its preoccupation with the origin of\ngovernment rather than with the processes and results. The democrat\nhas always assumed that if political power could be derived in the\nright way, it would be beneficent. His whole attention has been on the\nsource of power, since he is hypnotized by the belief that the great\nthing is to express the will of the people, first because expression\nis the highest interest of man, and second because the will is\ninstinctively good. But no amount of regulation at the source of a\nriver will completely control its behavior, and while democrats have\nbeen absorbed in trying to find a good mechanism for originating\nsocial power, that is to say a good mechanism of voting and\nrepresentation, they neglected almost every other interest of men. For\nno matter how power originates, the crucial interest is in how power\nis exercised. What determines the quality of civilization is the use\nmade of power. And that use cannot be controlled at the source.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "government-measurement-and-surveillance",
+          "crowds-media-and-public-opinion"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "voluntarism",
+            "relation": "rejects"
+          },
+          {
+            "claimId": "govern",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "rights-and-self-government",
+          "economic-and-material-power"
+        ],
+        "autonomyEffect": "conditional",
+        "genre": "politics-and-economics",
+        "modes": [
+          "analysis",
+          "proposal"
+        ],
+        "rationale": "Lippmann argues that democracy cannot secure good government merely by arranging the proper origin of political power or expressing popular will. Human autonomy and dignity depend instead on how power is exercised and on the practical results of government, so political power must be evaluated and governed beyond the act of voting."
+      }
+    },
+    {
+      "id": "pilot-14",
+      "sourceId": "control-zamyatin-we-1924",
+      "author": "Yevgeny Zamyatin",
+      "title": "We",
+      "year": 1924,
+      "language": "English translation",
+      "locator": "Local word range 4971–5395",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/61963",
+      "originalText": "I shall be quite frank: even we have not attained the absolute,\nexact solution of the problem of happiness. Twice a day, from\nsixteen to seventeen o'clock and from twenty-one to twenty-two, our\nunited powerful organism dissolves into separate cells; these are\nthe personal hours designated by the Tables. During these hours\nyou would see the curtains discreetly drawn in the rooms of some;\nothers march slowly over the pavement of the main avenue or sit at\ntheir desks as I sit now. But I firmly believe, let them call me\nan idealist and a dreamer, I believe that sooner or later we shall\nsomehow find even for these hours, a place in the general formula.\nSomehow, all of the 86,400 seconds will be incorporated in the\nTables of Hours.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "government-measurement-and-surveillance",
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "automatism",
+            "relation": "advances"
+          },
+          {
+            "claimId": "govern",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "rights-and-self-government",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "fiction",
+        "modes": [
+          "satire",
+          "warning"
+        ],
+        "rationale": "The passage presents a society whose Tables regulate nearly all time and collective conduct, treating the absorption of private hours into a general formula as the route to happiness. The narrator appears to endorse this logic, but the dystopian fiction makes the resulting loss of private choice and individual separation satirically alarming."
+      }
+    },
+    {
+      "id": "pilot-15",
+      "sourceId": "control-bernays-propaganda-1928",
+      "author": "Edward Bernays",
+      "title": "Propaganda",
+      "year": 1928,
+      "language": "English",
+      "locator": "Local word range 356–780",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/78634",
+      "originalText": "It is not usually realized how necessary these invisible governors\nare to the orderly functioning of our group life. In theory, every\ncitizen may vote for whom he pleases. Our Constitution does not\nenvisage political parties as part of the mechanism of government,\nand its framers seem not to have pictured to themselves the existence\nin our national politics of anything like the modern political\nmachine. But the American voters soon found that without organization\nand direction their individual votes, cast, perhaps, for dozens or\nhundreds of candidates, would produce nothing but confusion. Invisible\ngovernment, in the shape of rudimentary political parties, arose almost\novernight. Ever since then we have agreed, for the sake of simplicity\nand practicality, that party machines should narrow down the field of\nchoice to two candidates, or at most three or four.\n\nIn theory, every citizen makes up his mind on public questions and\nmatters of private conduct. In practice, if all men had to study\nfor themselves the abstruse economic, political, and ethical data\ninvolved in every question, they would find it impossible to come\nto a conclusion about anything. We have voluntarily agreed to let an\ninvisible government sift the data and high-spot the outstanding issues\nso that our field of choice shall be narrowed to practical proportions.\nFrom our leaders and the media they use to reach the public, we\naccept the evidence and the demarcation of issues bearing upon public\nquestions; from some ethical teacher, be it a minister, a favorite\nessayist, or merely prevailing opinion, we accept a standardized code\nof social conduct to which we conform most of the time.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "crowds-media-and-public-opinion",
+          "government-measurement-and-surveillance"
+        ],
+        "claims": [
+          {
+            "claimId": "social-arrangement",
+            "relation": "advances"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "rights-and-self-government",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "politics-and-economics",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Bernays explains that political parties, leaders, media, and prevailing opinion act as an invisible government that filters information and narrows citizens' choices. He presents this arrangement as practically useful for avoiding confusion, but it diminishes independent judgment and self-government because people delegate the formation of opinions and standards of conduct."
+      }
+    },
+    {
+      "id": "pilot-16",
+      "sourceId": "control-forster-eternal-moment-1928",
+      "author": "E. M. Forster",
+      "title": "The Eternal Moment and Other Stories",
+      "year": 1928,
+      "language": "English",
+      "locator": "Local word range 9586–10010",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/72890",
+      "originalText": "To attribute these two great developments to the Central Committee,\nis to take a very narrow view of civilisation. The Central Committee\nannounced the developments, it is true, but they were no more the cause\nof them than were the kings of the imperialistic period the cause of\nwar. Rather did they yield to some invincible pressure, which came no\none knew whither, and which, when gratified, was succeeded by some\nnew pressure equally invincible. To such a state of affairs it is\nconvenient to give the name of progress. No one confessed the Machine\nwas out of hand. Year by year it was served with increased efficiency\nand decreased intelligence. The better a man knew his own duties upon\nit, the less he understood the duties of his neighbour, and in all the\nworld there was not one who understood the monster as a whole. Those\nmaster brains had perished. They had left full directions, it is true,\nand their successors had each of them mastered a portion of those\ndirections. But Humanity, in its desire for comfort, had over-reached\nitself. It had exploited the riches of nature too far. Quietly and\ncomplacently, it was sinking into decadence, and progress had come to\nmean the progress of the Machine.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "dependence-succession-and-replacement",
+          "labour-and-mechanization",
+          "progress-and-decline"
+        ],
+        "claims": [
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          },
+          {
+            "claimId": "bounded-servant",
+            "relation": "rejects"
+          },
+          {
+            "claimId": "succession",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "character-and-human-development",
+          "economic-and-material-power",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "fiction",
+        "modes": [
+          "analysis",
+          "warning"
+        ],
+        "rationale": "The passage presents the Machine as an increasingly opaque system that people serve without understanding as a whole. Specialization and inherited instructions reduce shared human knowledge, while the pursuit of comfort and exploitation of nature produce dependence and decadence. Calling this process “progress” is treated as a warning that technological progress has displaced human development."
+      }
+    },
+    {
+      "id": "pilot-17",
+      "sourceId": "longtail-bose-response-1902",
+      "author": "Jagadish Chandra Bose",
+      "title": "Response in the Living and Non-Living",
+      "year": 1902,
+      "language": "English",
+      "locator": "Local word range 41891–42315",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18986",
+      "originalText": "The parallel is the more striking since it has long been known with\nregard to animal tissues that the same drug, administered in large or\nsmall doses, might have opposite effects, and in preceding chapters we\nhave seen that the same statement holds good of plants and metals also.\n\n#Stimulus of light.#--Even the responses of such a highly specialised\norgan as the retina are strictly paralleled by inorganic responses. We\nhave seen how the stimulus of light evokes in the artificial retina\nresponses which coincide in all their detail with those produced in the\nreal retina. This was seen in ineffective stimuli becoming effective\nafter repetition, in the relation between stimulus and response, and in\nthe effects produced by temperature; also in the phenomenon of\nafter-oscillation. These similarities went even further, the very\nabnormalities of retinal response finding their reflection in the\ninorganic.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "free-will-and-automatism"
+        ],
+        "claims": [
+          {
+            "claimId": "vitalism",
+            "relation": "rejects"
+          }
+        ],
+        "grounds": [
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "no-judgment",
+        "genre": "science-and-medicine",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Bose argues from experimental parallels between animal, plant, metal, and artificial-retina responses. The passage rejects the need for a special vital force, but it does not directly evaluate human autonomy or agency."
+      }
+    },
+    {
+      "id": "pilot-18",
+      "sourceId": "longtail-chousy-ignis-1883",
+      "author": "Didier de Chousy",
+      "title": "Ignis",
+      "year": 1883,
+      "language": "French",
+      "locator": "Local word range 48281–48705",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Ignis_(Chousy)",
+      "originalText": "On a déjà reconnu la race pseudo-humaine conçue par lord Hotairwell et mise au monde par ses habiles ingénieurs : les Enginemen, ou plutôt les Atmophytes, car cette dernière appellation avait prévalu ; les phytes ruraux, grossiers paysans, aussi inférieurs à leurs collègues de la ville que le valet de ferme qui panse le cheval est inférieur au valet de chambre qui panse l’homme. Ces derniers seulement méritent le nom d’Atmophytes (hommes-vapeur), car on ne saurait appeler animaux ou machines des fac-simile d’hommes aussi ressemblants à leurs créateurs, doués d’une sorte d’âme et de rouages supérieurs à des membres ; hommes de fer et de cuivre, semblables à des scaphandres ou à des chevaliers dans leur armure ; corps en qui la vapeur s’est substituée au sang, dont l’électricité anime le mécanisme si affiné, si subtil, si imprégné de génie humain, qu’il s’immalérialise par lavirtuosité de sa matière, et que ses gestes ressemblent moins à des produits de la force qu’à des manifestations de la vie. Créatures assez parfaites pour inquiéter leurs créateurs, si quelque jour ces êtres étranges dépassant, par leur vitesse acquise, l’étroite frontière où l’intelligence confine à l’instinct, essayaient à leur tour d’escalader le ciel, d’étouffer sur leurs poitrines de bronze leurs maîtres éperdus, et de rendre à leur poussière natale, les idoles d’argile humaine qu’ils avaient prises pour des dieux !",
+      "englishText": "The pseudo-human race conceived by Lord Hotairwell and brought into the world by his able engineers has already been identified: the Enginemen, or rather the Atmophytes, since the latter name prevailed; the rural phytes, crude peasants, as inferior to their urban colleagues as the farmhand who tends the horse is inferior to the valet who tends the man. Only the latter deserve the name Atmophytes (steam-men), for one could not call animals or machines such facsimiles of men, so much do they resemble their creators, endowed with a sort of soul and with mechanisms superior to limbs; men of iron and copper, like divers’ suits or knights in armour; bodies in which steam has replaced blood, whose electricity animates a mechanism so refined, subtle, and imbued with human genius that it becomes immaterial through the virtuosity of its matter, and whose gestures resemble less products of force than manifestations of life. Creatures perfect enough to alarm their creators, if one day these strange beings, surpassing through acquired speed the narrow frontier where intelligence borders on instinct, should in turn try to climb the sky, crush their distraught masters against their bronze breasts, and return to their native dust the human clay idols they had taken for gods!",
+      "sourceCheckRequired": true,
+      "sourceMatchLevel": "partial-anchors-in-full-source",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "machine-minds-and-made-persons",
+          "dependence-succession-and-replacement",
+          "labour-and-mechanization"
+        ],
+        "claims": [
+          {
+            "claimId": "emergent-mind",
+            "relation": "advances"
+          },
+          {
+            "claimId": "made-persons",
+            "relation": "considers"
+          },
+          {
+            "claimId": "succession",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "consequences-and-welfare",
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "fiction",
+        "modes": [
+          "analysis",
+          "warning"
+        ],
+        "rationale": "The passage presents engineered agricultural beings as human-like creations with a sort of soul and life-like intelligence, rather than merely animals or machines. It then warns that their developed capacities could carry them beyond their creators and allow them to overpower humanity. Their origin as designed labourers also frames mechanization as a possible route to human displacement and loss of control."
+      }
+    },
+    {
+      "id": "pilot-19",
+      "sourceId": "longtail-gastev-poetry-worker-blow-1918",
+      "author": "Alexei Gastev",
+      "title": "Poeziia rabochego udara",
+      "year": 1918,
+      "language": "Russian",
+      "locator": "Local word range 12781–13205",
+      "sourceUrl": "https://rusneb.ru/catalog/000199_000009_008841083/",
+      "originalText": "Только вошел, и уже полонен, покорен, закован\nвесь без остатка стихіей грома, движенія, свѣта.\n    Воздух гремит и восторженно стонет. - Желѣзная\nдуша завода пронзила толпу. Грудь загудѣла металли-\nческой дрожью. В корпусах началась грузная возня.\nИ все тяжелѣе, все громче.\n    Корпуса разорвутся, лопнут. Они сейчас снимутся\nсъ мѣста, взорвутся. Разразится катастрофа, из земли\nвырвутся фонтаны раскаленнаго металла...\n    — Ну, да грянь! Грянь!—Мы готовы! Мы надворѣ,\nмы уже другіе.\n    Толпа идет новым маршем, ноги уловили желѣзный\nтемп.\n    Руки горят, им нельзя без дѣла, им не терпится\nбез молотка, без работы. Токи энергіи надо раз-\nрядить.\n    — Бей же! Бей!\n    Да скорѣе, да чаще!\n    Руби, пили!\n    К машинам!\n    Мы—их рычаг, мы—их дыханіе, замысел.\n    Т ы с я ч а работников, необъятная площадь станков.\n    — Пѣсню!\n    Желѣзную!\n    Одну, единую!\n    Еще, еще быстрѣе мчитесь колеса!\n    Камень, металл, работники, все в вихрѣ, смѣшалось.",
+      "englishText": "The moment one enters, one is already captured, subdued, shackled completely by the element of thunder, movement, and light. The air thunders and groans ecstatically. The iron soul of the factory pierces the crowd. The breast hums with a metallic tremor. In the buildings a heavy bustle begins. And everything grows heavier, louder. The buildings will burst, split apart. They are about to tear themselves from their foundations, explode. A catastrophe will break out; fountains of molten metal will burst from the earth. Well then, let it thunder! We are ready! We are outside; we are already different. The crowd proceeds in a new march; its feet have caught the iron tempo. Their hands burn; they cannot remain idle and cannot wait without a hammer, without work. Currents of energy must be discharged. Strike! Strike! Faster, more often! Cut, saw! To the machines! We are their lever, their breath, their design. A thousand workers, an immeasurable expanse of machines. A song! An iron one! One, unified! Faster still, wheels, rush on! Stone, metal, workers—all are mixed together in the whirlwind.",
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "exact-selected-window",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization",
+          "dependence-succession-and-replacement",
+          "technological-catastrophe"
+        ],
+        "claims": [
+          {
+            "claimId": "instrument",
+            "relation": "advances"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "advances"
+          },
+          {
+            "claimId": "restrict",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "economic-and-material-power",
+          "character-and-human-development",
+          "consequences-and-welfare"
+        ],
+        "autonomyEffect": "diminishes",
+        "genre": "fiction",
+        "modes": [
+          "warning",
+          "analysis"
+        ],
+        "rationale": "The passage celebrates and dramatizes the factory's power, but depicts workers as captured, shackled, and absorbed into its mechanical rhythm: they become the machines' lever, breath, and design. The predicted explosion introduces a clear image of technological catastrophe. Its ecstatic tone makes restriction an implicit consideration rather than an explicit policy recommendation."
+      }
+    },
+    {
+      "id": "pilot-20",
+      "sourceId": "longtail-rathenau-mechanism-spirit-1913",
+      "author": "Walther Rathenau",
+      "title": "Zur Mechanik des Geistes",
+      "year": 1913,
+      "language": "German",
+      "locator": "Local word range 71356–71780",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zur_Mechanik_des_Geistes_(IA_zurmechanikdesge00rathrich).pdf",
+      "originalText": "Die Maschine erwuchs, ihr Arbeitsgenosse wurde zum Pfleger und Aufseher, und die Mechanisierungspraxis selbst, freilich nicht aus Menschlichkeit, sondern aus ökonomischem Instinkt, betrachtet heute den Betrieb als unvollkommen, der geistlose Arbeit fordert. Den Ausfall an Muskelleistung muß die zweite Natur der freiwilligen Körperübung bekämpfen; Jugendausbildung und reichliche Mußezeit sind bestimmt, dem Geiste Spannkraft und Verantwortungsfähigkeit zu erwerben und zu erhalten. In dieser Richtung sehen wir die Wirtschaftstendenzen in mechanistisch vorgeschrittenen Ländern sich bewegen; eine Rückkehr zum patriarchalischen und sklavischen Verhältnis findet nirgends statt; eine spätere Periode aber wird die Forderung wachsender Vergeistigung und Verantwortung der Arbeit zum sittlichen Prinzip erheben und lieber auf Arbeitsgüter verzichten, als sie aus den Händen menschlicher Maschinen empfangen.",
+      "englishText": "The machine emerged and became its fellow worker, caretaker, and overseer; and mechanization itself, prompted not by humanity but by economic instinct, now regards as imperfect an enterprise that demands mindless labour. The loss of muscular exertion must be countered by the second nature of voluntary physical exercise; education for the young and abundant leisure are intended to acquire and preserve strength of mind and capacity for responsibility. In this direction we see economic tendencies moving in technologically advanced countries; nowhere is there a return to patriarchal and slave-like relations; but a later period will elevate the demand for the increasing spiritualization and responsibility of work into a moral principle, and would rather forgo products of labour than receive them from the hands of human machines.",
+      "sourceCheckRequired": true,
+      "sourceMatchLevel": "unresolved",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "labour-and-mechanization",
+          "habit-and-self-command",
+          "progress-and-decline"
+        ],
+        "claims": [
+          {
+            "claimId": "instrument",
+            "relation": "considers"
+          },
+          {
+            "claimId": "dependence",
+            "relation": "rejects"
+          },
+          {
+            "claimId": "restrict",
+            "relation": "advances"
+          }
+        ],
+        "grounds": [
+          "character-and-human-development",
+          "economic-and-material-power"
+        ],
+        "autonomyEffect": "conditional",
+        "genre": "philosophy",
+        "modes": [
+          "analysis",
+          "proposal"
+        ],
+        "rationale": "Rathenau presents mechanization as transforming the machine into a worker, caretaker, and overseer while reducing the need for bodily labour. He argues that exercise, education, leisure, and increasingly responsible work can preserve human strength of mind and responsibility. The passage favors refusing goods produced by dehumanized ‘human machines,’ but treats mechanization’s effects as potentially redeemable through human development rather than simply rejecting all machinery."
+      }
+    }
+  ]
+}

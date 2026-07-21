@@ -1,0 +1,1516 @@
+{
+  "meta": {
+    "generatedFrom": [
+      "research/historical-source-manifest.json",
+      "src/data/historical_passages.json",
+      "src/data/question_bank.json"
+    ],
+    "sourceCount": 57,
+    "note": "Public reading-copy index. Each text is emitted separately under public/source-texts so source pages load only the requested work."
+  },
+  "sources": [
+    {
+      "sourceId": "control-shelley-frankenstein-1818",
+      "passageId": null,
+      "author": "Mary Shelley",
+      "title": "Frankenstein; or, The Modern Prometheus (1818 edition)",
+      "year": 1818,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Maker responsibility and the creature's demand for companionship; a labeled pre-1860 anchor.",
+      "questions": [
+        77
+      ],
+      "subjects": [
+        "RESPONSIBILITY"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/41445",
+      "textPath": "/source-texts/control-shelley-frankenstein-1818.txt",
+      "status": "repository-text",
+      "wordCount": 75772,
+      "characterCount": 428020,
+      "sha256": "dfed3b486a88cdce69f9303786a3d97cf2685126cb624f3d833a90c158a4924f"
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-lectures-and-miscellanies",
+      "passageId": null,
+      "author": "Henry James Sr.",
+      "title": "Lectures and Miscellanies",
+      "year": 1852,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q77; human gold tagging pending.",
+      "questions": [
+        77
+      ],
+      "subjects": [
+        "RESPONSIBILITY"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/henry-james-sr-lectures-and-miscellanies",
+      "textPath": "/source-texts/jamesiana-henry-james-sr-lectures-and-miscellanies.txt",
+      "status": "repository-text",
+      "wordCount": 100696,
+      "characterCount": 577210,
+      "sha256": "55f69c1a7a3ac5830a437b72749fb2b1306c3e0f3158ed7b21a1293ddd694322"
+    },
+    {
+      "sourceId": "control-mill-representative-government-1861",
+      "passageId": null,
+      "author": "John Stuart Mill",
+      "title": "Considerations on Representative Government",
+      "year": 1861,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Fitness for self-government, participation, political education, and the franchise.",
+      "questions": [
+        11,
+        13,
+        15
+      ],
+      "subjects": [
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5669",
+      "textPath": "/source-texts/control-mill-representative-government-1861.txt",
+      "status": "repository-text",
+      "wordCount": 98257,
+      "characterCount": 583965,
+      "sha256": "f8ecf4382ec8a9e0d0e5291cfda2c588b8de508164abb1149c52fe57f6c0b325"
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-substance-and-shadow",
+      "passageId": "JTP-036",
+      "author": "Henry James Sr.",
+      "title": "Substance and Shadow",
+      "year": 1866,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q77, Q78; human gold tagging pending.",
+      "questions": [
+        77,
+        78
+      ],
+      "subjects": [
+        "RESPONSIBILITY",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/henry-james-sr-substance-and-shadow",
+      "textPath": "/source-texts/jamesiana-henry-james-sr-substance-and-shadow.txt",
+      "status": "repository-text",
+      "wordCount": 141107,
+      "characterCount": 821435,
+      "sha256": "7941de4b49a392436a055671020fb8d7353f0972aabffc4c05f32b56e192590d"
+    },
+    {
+      "sourceId": "control-marx-capital-machinery-1867",
+      "passageId": null,
+      "author": "Karl Marx",
+      "title": "Capital, Volume I, Chapter 15: Machinery and Modern Industry",
+      "year": 1867,
+      "language": "English translation",
+      "region": null,
+      "tier": "control",
+      "relevance": "Machinery, factory discipline, displacement, and the worker's relation to the production process.",
+      "questions": [
+        17,
+        33,
+        34
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm",
+      "textPath": "/source-texts/control-marx-capital-machinery-1867.txt",
+      "status": "repository-text",
+      "wordCount": 63110,
+      "characterCount": 380347,
+      "sha256": "199c37ec50827d15a88ce005c1c280421fdf3528031f685cf532b58c42d58598"
+    },
+    {
+      "sourceId": "control-mill-subjection-women-1869",
+      "passageId": null,
+      "author": "John Stuart Mill",
+      "title": "The Subjection of Women",
+      "year": 1869,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Legal subordination, government of one's own person, and women's political capacity.",
+      "questions": [
+        12
+      ],
+      "subjects": [
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/27083",
+      "textPath": "/source-texts/control-mill-subjection-women-1869.txt",
+      "status": "repository-text",
+      "wordCount": 47111,
+      "characterCount": 274077,
+      "sha256": "7bc1058965005e93646d1b699ee2a243ccd6cc715e56b0246c42ce305ea2c886"
+    },
+    {
+      "sourceId": "control-darwin-descent-1871",
+      "passageId": null,
+      "author": "Charles Darwin",
+      "title": "The Descent of Man, and Selection in Relation to Sex",
+      "year": 1871,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Continuity of human and animal mental faculties and the evolution of moral and intellectual powers.",
+      "questions": [
+        4,
+        10,
+        19,
+        20
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "HEREDITY"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2300",
+      "textPath": "/source-texts/control-darwin-descent-1871.txt",
+      "status": "repository-text",
+      "wordCount": 310620,
+      "characterCount": 1863174,
+      "sha256": "13ef307058e90fe1be432e38458bb42d17e70664ac74372ac3d6a273b403eaa2"
+    },
+    {
+      "sourceId": "control-butler-erewhon-1872",
+      "passageId": null,
+      "author": "Samuel Butler",
+      "title": "Erewhon",
+      "year": 1872,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Machine evolution, dependence, succession, and destruction of machines.",
+      "questions": [
+        22,
+        76,
+        100
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1906",
+      "textPath": "/source-texts/control-butler-erewhon-1872.txt",
+      "status": "repository-text",
+      "wordCount": 87285,
+      "characterCount": 482067,
+      "sha256": "d7246e1af74011cae2c90b92df992d0df13465b188380e2465d7c709efdff988"
+    },
+    {
+      "sourceId": "control-huxley-automata-1874",
+      "passageId": null,
+      "author": "T. H. Huxley",
+      "title": "On the Hypothesis That Animals Are Automata, and Its History",
+      "year": 1874,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Original formulation of conscious automatism and its physiological evidence.",
+      "questions": [
+        2,
+        3,
+        4,
+        23
+      ],
+      "subjects": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/files/52344/52344-h/52344-h.htm",
+      "textPath": "/source-texts/control-huxley-automata-1874.txt",
+      "status": "repository-text",
+      "wordCount": 96844,
+      "characterCount": 578457,
+      "sha256": "3509f4bc52fbe221514a859467e1fc55e0ef616cd1916629fd1da6fcf5663e5d"
+    },
+    {
+      "sourceId": "longtail-kapp-philosophy-technology-1877",
+      "passageId": null,
+      "author": "Ernst Kapp",
+      "title": "Grundlinien einer Philosophie der Technik",
+      "year": 1877,
+      "language": "German",
+      "region": "Germany",
+      "tier": "long_tail_pilot",
+      "relevance": "Technology as organ projection: machines understood through the human body rather than as an autonomous external species.",
+      "questions": [
+        7,
+        21,
+        22,
+        33
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kapp_E._-_Grundlinien_einer_Philosophie_der_Technik_(1877).pdf",
+      "textPath": "/source-texts/longtail-kapp-philosophy-technology-1877.txt",
+      "status": "ocr-transcription",
+      "wordCount": 1011,
+      "characterCount": 6786,
+      "sha256": "66477797547a1c488002b97026ab7ac93967db3967fa08caaf8a329fdebf8df5"
+    },
+    {
+      "sourceId": "control-george-progress-poverty-1879",
+      "passageId": null,
+      "author": "Henry George",
+      "title": "Progress and Poverty",
+      "year": 1879,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Poverty amid technological progress and the social production and appropriation of wealth.",
+      "questions": [
+        17,
+        29,
+        34,
+        37
+      ],
+      "subjects": [
+        "LABOUR",
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/55308",
+      "textPath": "/source-texts/control-george-progress-poverty-1879.txt",
+      "status": "repository-text",
+      "wordCount": 180150,
+      "characterCount": 1054956,
+      "sha256": "5242faacc98c8cd544cbbe5eddce8711bb6ab134e089ae908654c4b8f703970b"
+    },
+    {
+      "sourceId": "jamesiana-are-we-automata",
+      "passageId": "JTP-031",
+      "author": "William James",
+      "title": "Are We Automata?",
+      "year": 1879,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q57; human gold tagging pending.",
+      "questions": [
+        57
+      ],
+      "subjects": [
+        "WILL"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/are-we-automata",
+      "textPath": "/source-texts/jamesiana-are-we-automata.txt",
+      "status": "repository-text",
+      "wordCount": 9938,
+      "characterCount": 59128,
+      "sha256": "9b4f1ee8ef467ab2235f9669456dd402e02970dd526e0b1287637c0627fea127"
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-society-the-redeemed-form-of-man",
+      "passageId": "JTP-023",
+      "author": "Henry James Sr.",
+      "title": "Society the Redeemed Form of Man",
+      "year": 1879,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q17, Q77, Q78; human gold tagging pending.",
+      "questions": [
+        17,
+        77,
+        78
+      ],
+      "subjects": [
+        "LABOUR",
+        "RESPONSIBILITY"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/henry-james-sr-society-the-redeemed-form-of-man",
+      "textPath": "/source-texts/jamesiana-henry-james-sr-society-the-redeemed-form-of-man.txt",
+      "status": "repository-text",
+      "wordCount": 116771,
+      "characterCount": 664429,
+      "sha256": "279b91be4dd2009b210450a76a88d1ee627fd343e1f0ef412e862d869520f12f"
+    },
+    {
+      "sourceId": "longtail-holmberg-horacio-kalibang-1879",
+      "passageId": "HTP-002",
+      "author": "Eduardo Ladislao Holmberg",
+      "title": "Horacio Kalibang o los automatas",
+      "year": 1879,
+      "language": "Spanish",
+      "region": "Argentina",
+      "tier": "long_tail_pilot",
+      "relevance": "Artificial persons and automata used to stage a materialist-spiritualist dispute in late nineteenth-century Argentina.",
+      "questions": [
+        6,
+        7,
+        22,
+        59,
+        80
+      ],
+      "subjects": [
+        "BODY",
+        "MIND-MACHINE",
+        "RESPONSIBILITY",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horacio_Kalibang_o_Los_automatas_-_Eduardo_L._Holmberg.pdf",
+      "textPath": "/source-texts/longtail-holmberg-horacio-kalibang-1879.txt",
+      "status": "ocr-transcription",
+      "wordCount": 6297,
+      "characterCount": 41516,
+      "sha256": "4ca5c8731ff315beb819e36385ad33fc0fe934f3d7ae76e713e333ee366c6f69"
+    },
+    {
+      "sourceId": "longtail-chousy-ignis-1883",
+      "passageId": null,
+      "author": "Didier de Chousy",
+      "title": "Ignis",
+      "year": 1883,
+      "language": "French",
+      "region": "France",
+      "tier": "long_tail_pilot",
+      "relevance": "Automated industry, manufactured workers, capitalist control, labor conflict, and technological catastrophe.",
+      "questions": [
+        31,
+        33,
+        34,
+        41,
+        64
+      ],
+      "subjects": [
+        "FATE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://fr.wikisource.org/wiki/Ignis_(Chousy)",
+      "textPath": "/source-texts/longtail-chousy-ignis-1883.txt",
+      "status": "repository-text",
+      "wordCount": 80534,
+      "characterCount": 484744,
+      "sha256": "7bed6bf3c839b06af9b7a27904aaa336d7904b1fe824eb4c6dbf5d3e403ab7f6"
+    },
+    {
+      "sourceId": "control-morris-useful-work-1884",
+      "passageId": null,
+      "author": "William Morris",
+      "title": "Useful Work versus Useless Toil",
+      "year": 1884,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Meaningful work, toil, machinery, and the social conditions of liberation from labor.",
+      "questions": [
+        17,
+        29,
+        33,
+        36
+      ],
+      "subjects": [
+        "LABOUR",
+        "FATE"
+      ],
+      "sourceUrl": "https://www.marxists.org/archive/morris/works/1884/useful.htm",
+      "textPath": "/source-texts/control-morris-useful-work-1884.txt",
+      "status": "repository-text",
+      "wordCount": 8666,
+      "characterCount": 47172,
+      "sha256": "82a5ec9c2d2d68d028ed3a29bccc1af1cf7855f713b557e619d66bc6a4cb6790"
+    },
+    {
+      "sourceId": "jamesiana-literary-remains-henry-james-sr-introduction",
+      "passageId": "JTP-033",
+      "author": "William James",
+      "title": "Introduction to The Literary Remains of the Late Henry James",
+      "year": 1885,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q77; human gold tagging pending.",
+      "questions": [
+        77
+      ],
+      "subjects": [
+        "RESPONSIBILITY"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/literary-remains-henry-james-sr-introduction",
+      "textPath": "/source-texts/jamesiana-literary-remains-henry-james-sr-introduction.txt",
+      "status": "repository-text",
+      "wordCount": 27648,
+      "characterCount": 159942,
+      "sha256": "8e02d85a01798ff3cb05bcc77548fe8bc2cf1c1cb8154b2d54e09a41b2224131"
+    },
+    {
+      "sourceId": "control-james-principles-v1-1890",
+      "passageId": null,
+      "author": "William James",
+      "title": "The Principles of Psychology, Volume 1",
+      "year": 1890,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Habit, automaton theory, brain function, and association.",
+      "questions": [
+        3,
+        8,
+        21,
+        23
+      ],
+      "subjects": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57628",
+      "textPath": "/source-texts/control-james-principles-v1-1890.txt",
+      "status": "repository-text",
+      "wordCount": 281752,
+      "characterCount": 1668847,
+      "sha256": "960483ce551f05a38158b65243d457586636270a25e6d4e9c7443eb85b89fc64"
+    },
+    {
+      "sourceId": "control-james-principles-v2-1890",
+      "passageId": null,
+      "author": "William James",
+      "title": "The Principles of Psychology, Volume 2",
+      "year": 1890,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Emotion, competing desires, effort of attention, and will.",
+      "questions": [
+        24,
+        27,
+        40
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "WILL",
+        "KNOWLEDGE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57634",
+      "textPath": "/source-texts/control-james-principles-v2-1890.txt",
+      "status": "repository-text",
+      "wordCount": 283491,
+      "characterCount": 1675080,
+      "sha256": "5f98e4564e907aa3bdeaed648e58be7e33166693805f18530e7788db647f5de7"
+    },
+    {
+      "sourceId": "jamesiana-principles-of-psychology",
+      "passageId": "JTP-009",
+      "author": "William James",
+      "title": "The Principles of Psychology",
+      "year": 1890,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q1, Q8, Q70; human gold tagging pending.",
+      "questions": [
+        1,
+        8,
+        70
+      ],
+      "subjects": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/principles-of-psychology",
+      "textPath": "/source-texts/jamesiana-principles-of-psychology.txt",
+      "status": "repository-text",
+      "wordCount": 569796,
+      "characterCount": 3294171,
+      "sha256": "dbb48237151dcd359d9f30d1894d3514e6aa01630d92a4542a1aeaa2981d29d6"
+    },
+    {
+      "sourceId": "jamesiana-psychology-briefer-course",
+      "passageId": "JTP-016",
+      "author": "William James",
+      "title": "Psychology (Briefer Course)",
+      "year": 1892,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q8, Q57, Q70; human gold tagging pending.",
+      "questions": [
+        8,
+        57,
+        70
+      ],
+      "subjects": [
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/psychology-briefer-course",
+      "textPath": "/source-texts/jamesiana-psychology-briefer-course.txt",
+      "status": "repository-text",
+      "wordCount": 158255,
+      "characterCount": 911388,
+      "sha256": "3e46411ff037f0ab47abe4f5368cca28dd109ebd4812afbe766b039c84fd5a90"
+    },
+    {
+      "sourceId": "control-lebon-crowd-1895",
+      "passageId": null,
+      "author": "Gustave Le Bon",
+      "title": "The Crowd: A Study of the Popular Mind",
+      "year": 1895,
+      "language": "English translation",
+      "region": null,
+      "tier": "control",
+      "relevance": "Individual judgment and agency in a psychological crowd.",
+      "questions": [
+        38
+      ],
+      "subjects": [
+        "MASS"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/445",
+      "textPath": "/source-texts/control-lebon-crowd-1895.txt",
+      "status": "repository-text",
+      "wordCount": 57993,
+      "characterCount": 351980,
+      "sha256": "4f0044c22f73236bbd511b72d7af4fc6b78cc3b0ec591b7e86cd61099c462d30"
+    },
+    {
+      "sourceId": "control-wells-time-machine-1895",
+      "passageId": null,
+      "author": "H. G. Wells",
+      "title": "The Time Machine",
+      "year": 1895,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Narrative vision of cosmic decline and the dying Earth.",
+      "questions": [
+        30
+      ],
+      "subjects": [
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/35",
+      "textPath": "/source-texts/control-wells-time-machine-1895.txt",
+      "status": "repository-text",
+      "wordCount": 35489,
+      "characterCount": 198868,
+      "sha256": "2f1de9bca82597fd30d50b11eee917e2d0f16420bc74bba71b702918ad194bc8"
+    },
+    {
+      "sourceId": "control-james-will-believe-1897",
+      "passageId": null,
+      "author": "William James",
+      "title": "The Will to Believe and Other Essays in Popular Philosophy",
+      "year": 1897,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Includes The Dilemma of Determinism, The Will to Believe, and Great Men and Their Environment.",
+      "questions": [
+        1,
+        2,
+        18,
+        26,
+        28,
+        32
+      ],
+      "subjects": [
+        "WILL",
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26659",
+      "textPath": "/source-texts/control-james-will-believe-1897.txt",
+      "status": "repository-text",
+      "wordCount": 104518,
+      "characterCount": 612939,
+      "sha256": "5cd9cfdf75c6af06ec501a872959fbf8fcd584acbb432e7350e25ece1a3d85c9"
+    },
+    {
+      "sourceId": "jamesiana-will-to-believe",
+      "passageId": "JTP-032",
+      "author": "William James",
+      "title": "The Will to Believe and Other Essays",
+      "year": 1897,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q57; human gold tagging pending.",
+      "questions": [
+        57
+      ],
+      "subjects": [
+        "WILL"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/will-to-believe",
+      "textPath": "/source-texts/jamesiana-will-to-believe.txt",
+      "status": "repository-text",
+      "wordCount": 102051,
+      "characterCount": 583627,
+      "sha256": "749efa237f0617aab03fe1908157fbd54f1d96a3de934806942d13f431d75f39"
+    },
+    {
+      "sourceId": "longtail-mantegazza-anno-3000-1897",
+      "passageId": "HTP-005",
+      "author": "Paolo Mantegazza",
+      "title": "L'anno 3000",
+      "year": 1897,
+      "language": "Italian",
+      "region": "Italy",
+      "tier": "long_tail_pilot",
+      "relevance": "Artificial vital power, planetary infrastructure, medical governance, thought-reading, and the gap between technical and moral progress.",
+      "questions": [
+        21,
+        29,
+        40,
+        43,
+        55,
+        58
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "FATE",
+        "KNOWLEDGE",
+        "BODY"
+      ],
+      "sourceUrl": "https://it.wikisource.org/wiki/L%27anno_3000",
+      "textPath": "/source-texts/longtail-mantegazza-anno-3000-1897.txt",
+      "status": "repository-text",
+      "wordCount": 44050,
+      "characterCount": 277038,
+      "sha256": "5f8a1cca9ce93bee462b5ce620a06b141f1752dfaab8fb031c5b61ebacd72ae3"
+    },
+    {
+      "sourceId": "jamesiana-talks-to-teachers",
+      "passageId": "JTP-018",
+      "author": "William James",
+      "title": "Talks to Teachers on Psychology",
+      "year": 1899,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q17, Q34; human gold tagging pending.",
+      "questions": [
+        17,
+        34
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/talks-to-teachers",
+      "textPath": "/source-texts/jamesiana-talks-to-teachers.txt",
+      "status": "repository-text",
+      "wordCount": 63755,
+      "characterCount": 363362,
+      "sha256": "171d3d92101c93d1d1354e7549cfd0615a66de583998257b6ae96a8c2ea46fe5"
+    },
+    {
+      "sourceId": "longtail-anestin-year-4000-1899",
+      "passageId": null,
+      "author": "Victor Anestin",
+      "title": "In anul 4000 sau o calatorie la Venus",
+      "year": 1899,
+      "language": "Romanian",
+      "region": "Romania",
+      "tier": "long_tail_pilot",
+      "relevance": "A Romanian technological future and voyage to Venus, useful for testing non-Anglophone ideas of progress and planetary civilization.",
+      "questions": [
+        29,
+        31,
+        62
+      ],
+      "subjects": [
+        "FATE",
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://revistatransilvania.ro/1899-victor-anestin-in-anul-4000/",
+      "textPath": "/source-texts/longtail-anestin-year-4000-1899.txt",
+      "status": "ocr-transcription",
+      "wordCount": 45491,
+      "characterCount": 292879,
+      "sha256": "486e783ef7acacef38c4b97830dd0fd019cc7544f73990632b84094e35b9c4a8"
+    },
+    {
+      "sourceId": "longtail-bose-response-1902",
+      "passageId": null,
+      "author": "Jagadish Chandra Bose",
+      "title": "Response in the Living and Non-Living",
+      "year": 1902,
+      "language": "English",
+      "region": "Bengal / British India",
+      "tier": "long_tail_pilot",
+      "relevance": "Experimental comparison of electrical response in metals, plants, and animal tissue that disputes a hard boundary between living and non-living matter.",
+      "questions": [
+        7,
+        21,
+        22,
+        23
+      ],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18986",
+      "textPath": "/source-texts/longtail-bose-response-1902.txt",
+      "status": "repository-text",
+      "wordCount": 47125,
+      "characterCount": 302913,
+      "sha256": "92d3689ef438635281436c1ad70867e70a74577768ef549b671ab54b06ce8d09"
+    },
+    {
+      "sourceId": "control-russell-free-mans-worship-1903",
+      "passageId": null,
+      "author": "Bertrand Russell",
+      "title": "A Free Man's Worship, in Modern Essays",
+      "year": 1903,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Human value and action in an indifferent, ultimately lifeless universe.",
+      "questions": [
+        28,
+        30,
+        32
+      ],
+      "subjects": [
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/38280",
+      "textPath": "/source-texts/control-russell-free-mans-worship-1903.txt",
+      "status": "repository-text",
+      "wordCount": 88003,
+      "characterCount": 509222,
+      "sha256": "33fb2efdcd866bd0e0021e63c82ab5ae23bd8c8d96fa2d144bcaf24e6a713821"
+    },
+    {
+      "sourceId": "jamesiana-dubois-souls-of-black-folk",
+      "passageId": "JTP-019",
+      "author": "W. E. B. Du Bois",
+      "title": "The Souls of Black Folk",
+      "year": 1903,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q17; human gold tagging pending.",
+      "questions": [
+        17
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/dubois-souls-of-black-folk",
+      "textPath": "/source-texts/jamesiana-dubois-souls-of-black-folk.txt",
+      "status": "repository-text",
+      "wordCount": 71189,
+      "characterCount": 409167,
+      "sha256": "091d9500dd63e2630aae20c298d9980f894b967b7d52d610e33ec1451ee24cbc"
+    },
+    {
+      "sourceId": "longtail-hossain-sultanas-dream-1905",
+      "passageId": "HTP-004",
+      "author": "Rokeya Sakhawat Hossain",
+      "title": "Sultana's Dream",
+      "year": 1905,
+      "language": "English",
+      "region": "Bengal / British India",
+      "tier": "long_tail_pilot",
+      "relevance": "A feminist technological utopia in which solar power, scientific education, and altered gender relations are inseparable.",
+      "questions": [
+        12,
+        14,
+        31,
+        33,
+        45
+      ],
+      "subjects": [
+        "SELF-GOVT",
+        "FATE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://en.wikisource.org/wiki/Sultana%27s_Dream",
+      "textPath": "/source-texts/longtail-hossain-sultanas-dream-1905.txt",
+      "status": "repository-text",
+      "wordCount": 4118,
+      "characterCount": 22733,
+      "sha256": "412e5dd764724f2c00f74c16f2b299a8703f8f893b0af2c16e906e71af1b2942"
+    },
+    {
+      "sourceId": "longtail-bryusov-southern-cross-1906",
+      "passageId": "HTP-006",
+      "author": "Valery Bryusov",
+      "title": "The Republic of the Southern Cross",
+      "year": 1906,
+      "language": "Russian",
+      "region": "Russian Empire",
+      "tier": "long_tail_pilot",
+      "relevance": "A highly administered industrial republic whose apparent order collapses through collective behavioral breakdown.",
+      "questions": [
+        16,
+        31,
+        38,
+        41,
+        49,
+        64
+      ],
+      "subjects": [
+        "MASS",
+        "FATE",
+        "LABOUR",
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://ru.wikisource.org/wiki/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%AE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%B0_(%D0%91%D1%80%D1%8E%D1%81%D0%BE%D0%B2)",
+      "textPath": "/source-texts/longtail-bryusov-southern-cross-1906.txt",
+      "status": "repository-text",
+      "wordCount": 23269,
+      "characterCount": 172787,
+      "sha256": "e7c547410c660a3829f20b447c8b0619d7368e5247b951e41a0cd8577064cbf2"
+    },
+    {
+      "sourceId": "jamesiana-pragmatism",
+      "passageId": "JTP-010",
+      "author": "William James",
+      "title": "Pragmatism",
+      "year": 1907,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q1; human gold tagging pending.",
+      "questions": [
+        1
+      ],
+      "subjects": [
+        "WILL"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/pragmatism",
+      "textPath": "/source-texts/jamesiana-pragmatism.txt",
+      "status": "repository-text",
+      "wordCount": 53016,
+      "characterCount": 308161,
+      "sha256": "3d7aa9851cd3bde79c1c74922373f9db6d3c51600d4779fe6c7b723f50a3617d"
+    },
+    {
+      "sourceId": "control-wells-war-air-1908",
+      "passageId": null,
+      "author": "H. G. Wells",
+      "title": "The War in the Air",
+      "year": 1908,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Technological power turning cities and civilization into targets.",
+      "questions": [
+        31,
+        45
+      ],
+      "subjects": [
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/780",
+      "textPath": "/source-texts/control-wells-war-air-1908.txt",
+      "status": "repository-text",
+      "wordCount": 100164,
+      "characterCount": 579200,
+      "sha256": "a7c1ec48e01776d9b74d0c713723159fa674a41c3616c59c1363c6589b676b2e"
+    },
+    {
+      "sourceId": "jamesiana-galton-memories-of-my-life",
+      "passageId": "JTP-001",
+      "author": "Francis Galton",
+      "title": "Memories of My Life",
+      "year": 1908,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q1; human gold tagging pending.",
+      "questions": [
+        1
+      ],
+      "subjects": [
+        "WILL"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/galton-memories-of-my-life",
+      "textPath": "/source-texts/jamesiana-galton-memories-of-my-life.txt",
+      "status": "repository-text",
+      "wordCount": 119404,
+      "characterCount": 702330,
+      "sha256": "dcb3b9d04c3cedf2e9e7200b0630e880a3a26bd3833b0e6bf634f25cd3a0b6eb"
+    },
+    {
+      "sourceId": "longtail-wu-new-story-stone-1908",
+      "passageId": null,
+      "author": "Wu Jianren",
+      "title": "Xin Shitou Ji (New Story of the Stone)",
+      "year": 1908,
+      "language": "Chinese",
+      "region": "Qing China",
+      "tier": "long_tail_pilot",
+      "relevance": "A late-Qing technological future used to ask how scientific capacity, political order, and national self-determination fit together.",
+      "questions": [
+        29,
+        31,
+        45,
+        54,
+        62
+      ],
+      "subjects": [
+        "FATE",
+        "KNOWLEDGE",
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://zh.wikisource.org/zh-hant/%E6%96%B0%E7%9F%B3%E9%A0%AD%E8%A8%98",
+      "textPath": "/source-texts/longtail-wu-new-story-stone-1908.txt",
+      "status": "repository-text",
+      "wordCount": 795,
+      "characterCount": 157932,
+      "sha256": "05a6f9be2774f71a08deebffd450532034cee03f3a5893c1f8a3e6e137bd62c2"
+    },
+    {
+      "sourceId": "longtail-quiroga-artificial-man-1910",
+      "passageId": "HTP-010",
+      "author": "Horacio Quiroga (published as S. Fragoso Lima)",
+      "title": "El hombre artificial",
+      "year": 1910,
+      "language": "Spanish",
+      "region": "Uruguay / Argentina",
+      "tier": "long_tail_pilot",
+      "relevance": "A Buenos Aires magazine serial about manufacturing a human capable of sensation, thought, and suffering; obscure within a famous author's oeuvre.",
+      "questions": [
+        6,
+        7,
+        21,
+        22,
+        55,
+        77,
+        80
+      ],
+      "subjects": [
+        "BODY",
+        "MIND-MACHINE",
+        "RESPONSIBILITY",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://lecturia.org/cuentos-y-relatos/horacio-quiroga-el-hombre-artificial/25771/",
+      "textPath": "/source-texts/longtail-quiroga-artificial-man-1910.txt",
+      "status": "repository-text",
+      "wordCount": 11722,
+      "characterCount": 70175,
+      "sha256": "ebc5d90b2ddb62d84c1f75e0a99355a16a5f859513efec4cedede3365322eb7a"
+    },
+    {
+      "sourceId": "control-taylor-scientific-management-1911",
+      "passageId": null,
+      "author": "Frederick Winslow Taylor",
+      "title": "The Principles of Scientific Management",
+      "year": 1911,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Task decomposition, managerial control over method and pace, and worker discretion.",
+      "questions": [
+        34,
+        41
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6435",
+      "textPath": "/source-texts/control-taylor-scientific-management-1911.txt",
+      "status": "repository-text",
+      "wordCount": 39534,
+      "characterCount": 226904,
+      "sha256": "ab69144923a15ecf49b270ecee00813cc75fe3504a438787e6f1ccb4dc4ed656"
+    },
+    {
+      "sourceId": "longtail-zulawski-old-earth-1911",
+      "passageId": "HTP-007",
+      "author": "Jerzy Zulawski",
+      "title": "Stara Ziemia (The Old Earth)",
+      "year": 1911,
+      "language": "Polish",
+      "region": "Partitioned Poland",
+      "tier": "long_tail_pilot",
+      "relevance": "Technological modernity, social control, automation, and estrangement in the final volume of the Lunar Trilogy.",
+      "questions": [
+        31,
+        41,
+        49,
+        62,
+        64
+      ],
+      "subjects": [
+        "FATE",
+        "LABOUR",
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://pl.wikisource.org/wiki/Stara_Ziemia",
+      "textPath": "/source-texts/longtail-zulawski-old-earth-1911.txt",
+      "status": "ocr-transcription",
+      "wordCount": 76568,
+      "characterCount": 479786,
+      "sha256": "2a1c17ce391386b5abade8c14f51ff6fd7bc3676aa9e5376d09d3ed0b049a200"
+    },
+    {
+      "sourceId": "longtail-rathenau-mechanism-spirit-1913",
+      "passageId": null,
+      "author": "Walther Rathenau",
+      "title": "Zur Mechanik des Geistes",
+      "year": 1913,
+      "language": "German",
+      "region": "Germany",
+      "tier": "long_tail_pilot",
+      "relevance": "A critique of social and intellectual mechanization that locates the danger in institutions and habits rather than in autonomous machines.",
+      "questions": [
+        17,
+        33,
+        34,
+        36,
+        41,
+        54
+      ],
+      "subjects": [
+        "LABOUR",
+        "KNOWLEDGE"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zur_Mechanik_des_Geistes_(IA_zurmechanikdesge00rathrich).pdf",
+      "textPath": "/source-texts/longtail-rathenau-mechanism-spirit-1913.txt",
+      "status": "ocr-transcription",
+      "wordCount": 80391,
+      "characterCount": 739650,
+      "sha256": "1310d7738220faa6abd9794dc1e6e93917693444baefcae049bc5cdfc6859f3c"
+    },
+    {
+      "sourceId": "longtail-unamuno-mecanopolis-1913",
+      "passageId": "HTP-003",
+      "author": "Miguel de Unamuno",
+      "title": "Mecanopolis",
+      "year": 1913,
+      "language": "Spanish",
+      "region": "Spain",
+      "tier": "long_tail_pilot",
+      "relevance": "A city populated and governed only by machines, presented as both alluring and intolerably inhuman.",
+      "questions": [
+        22,
+        54,
+        66,
+        76
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "KNOWLEDGE"
+      ],
+      "sourceUrl": "https://ciudadseva.com/texto/mecanopolis/",
+      "textPath": "/source-texts/longtail-unamuno-mecanopolis-1913.txt",
+      "status": "repository-text",
+      "wordCount": 1575,
+      "characterCount": 9211,
+      "sha256": "d1d84cdef68c4667c7887dcdb9b2812f72bb5aade1836edd62e935686b26668d"
+    },
+    {
+      "sourceId": "control-wells-world-set-free-1914",
+      "passageId": null,
+      "author": "H. G. Wells",
+      "title": "The World Set Free",
+      "year": 1914,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Civilization-scale technological danger and atomic war.",
+      "questions": [
+        31,
+        45,
+        47,
+        63
+      ],
+      "subjects": [
+        "FATE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1059",
+      "textPath": "/source-texts/control-wells-world-set-free-1914.txt",
+      "status": "repository-text",
+      "wordCount": 68063,
+      "characterCount": 395653,
+      "sha256": "cf824c20f59b9e5798d03ee4207dd3578d70891d4fd8cbf414c7c1b7326b48f0"
+    },
+    {
+      "sourceId": "longtail-karinthy-faremido-1916",
+      "passageId": "HTP-008",
+      "author": "Frigyes Karinthy",
+      "title": "Utazas Faremidoba",
+      "year": 1916,
+      "language": "Hungarian",
+      "region": "Hungary",
+      "tier": "long_tail_pilot",
+      "relevance": "A society of intelligent machine beings that regards organic humanity and war as diseased forms of life.",
+      "questions": [
+        7,
+        22,
+        31,
+        66,
+        80
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "FATE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://mek.oszk.hu/00700/00721/",
+      "textPath": "/source-texts/longtail-karinthy-faremido-1916.txt",
+      "status": "repository-text",
+      "wordCount": 12167,
+      "characterCount": 86221,
+      "sha256": "7aa902aa1ff27374851093ff73b7b0db7063679384b15914b5f9a577478b21f9"
+    },
+    {
+      "sourceId": "longtail-gastev-poetry-worker-blow-1918",
+      "passageId": null,
+      "author": "Alexei Gastev",
+      "title": "Poeziia rabochego udara",
+      "year": 1918,
+      "language": "Russian",
+      "region": "Russia",
+      "tier": "long_tail_pilot",
+      "relevance": "Worker poetry representing the factory, the machine, and the laboring body as mutually transforming systems.",
+      "questions": [
+        17,
+        23,
+        33,
+        34,
+        36,
+        41
+      ],
+      "subjects": [
+        "LABOUR",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://rusneb.ru/catalog/000199_000009_008841083/",
+      "textPath": "/source-texts/longtail-gastev-poetry-worker-blow-1918.txt",
+      "status": "ocr-transcription",
+      "wordCount": 26720,
+      "characterCount": 183686,
+      "sha256": "3bb37b46753296267f3b09428eb2c34475044c45d73d0427c2d11acc7c19d75c"
+    },
+    {
+      "sourceId": "jamesiana-collected-essays-and-reviews",
+      "passageId": "JTP-002",
+      "author": "William James",
+      "title": "Collected Essays and Reviews",
+      "year": 1920,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q1; human gold tagging pending.",
+      "questions": [
+        1
+      ],
+      "subjects": [
+        "WILL"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/collected-essays-and-reviews",
+      "textPath": "/source-texts/jamesiana-collected-essays-and-reviews.txt",
+      "status": "repository-text",
+      "wordCount": 124620,
+      "characterCount": 729739,
+      "sha256": "a6f5d77412a5913b80c9d4005546d88dbec0899781df8c58678b7d9e403fe133"
+    },
+    {
+      "sourceId": "jamesiana-dubois-darkwater",
+      "passageId": "JTP-028",
+      "author": "W. E. B. Du Bois",
+      "title": "Darkwater: Voices from Within the Veil",
+      "year": 1920,
+      "language": "English",
+      "region": "United States",
+      "tier": "jamesiana_discovery",
+      "relevance": "Semantic-search discovery in Jamesiana for questions Q17, Q34, Q78; human gold tagging pending.",
+      "questions": [
+        17,
+        34,
+        78
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/dubois-darkwater",
+      "textPath": "/source-texts/jamesiana-dubois-darkwater.txt",
+      "status": "repository-text",
+      "wordCount": 69416,
+      "characterCount": 394660,
+      "sha256": "593b1574a9d787835b6af76015130ea9e82adda60b51a5005ce243011f5ed64d"
+    },
+    {
+      "sourceId": "control-freud-group-psychology-1921",
+      "passageId": null,
+      "author": "Sigmund Freud",
+      "title": "Group Psychology and the Analysis of the Ego",
+      "year": 1921,
+      "language": "English translation",
+      "region": null,
+      "tier": "control",
+      "relevance": "Identification, suggestion, and altered individual agency in groups.",
+      "questions": [
+        27,
+        38,
+        40
+      ],
+      "subjects": [
+        "WILL",
+        "MASS",
+        "KNOWLEDGE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/67332",
+      "textPath": "/source-texts/control-freud-group-psychology-1921.txt",
+      "status": "repository-text",
+      "wordCount": 74688,
+      "characterCount": 444149,
+      "sha256": "130918e45c6f3fdba6955bcf16b3bc43b476b9f4e21736451a553f118ba0fb26"
+    },
+    {
+      "sourceId": "control-lippmann-public-opinion-1922",
+      "passageId": null,
+      "author": "Walter Lippmann",
+      "title": "Public Opinion",
+      "year": 1922,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Pseudo-environments, stereotypes, news, and the formation of public opinion.",
+      "questions": [
+        39,
+        46,
+        57
+      ],
+      "subjects": [
+        "MASS",
+        "WILL"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6456",
+      "textPath": "/source-texts/control-lippmann-public-opinion-1922.txt",
+      "status": "repository-text",
+      "wordCount": 107276,
+      "characterCount": 634054,
+      "sha256": "22b61b8c9db487b2c1b4e5891f9089c3a40d2795643065f461b67894d62d256a"
+    },
+    {
+      "sourceId": "longtail-teofilo-reino-kiato-1922",
+      "passageId": null,
+      "author": "Rodolfo Teofilo",
+      "title": "O Reino de Kiato",
+      "year": 1922,
+      "language": "Portuguese",
+      "region": "Brazil",
+      "tier": "long_tail_pilot",
+      "relevance": "A Brazilian planned utopia connecting public health, eugenics, education, governance, and personal freedom.",
+      "questions": [
+        11,
+        14,
+        19,
+        29,
+        35,
+        55
+      ],
+      "subjects": [
+        "SELF-GOVT",
+        "HEREDITY",
+        "FATE",
+        "LABOUR",
+        "BODY"
+      ],
+      "sourceUrl": "https://pt.wikisource.org/wiki/O_Reino_de_Kiato",
+      "textPath": "/source-texts/longtail-teofilo-reino-kiato-1922.txt",
+      "status": "ocr-transcription",
+      "wordCount": 32111,
+      "characterCount": 202457,
+      "sha256": "c8bedcca1b4bbca25064099f5a94ca097d51fca495e3da6fcf3ba709ac8b5c0c"
+    },
+    {
+      "sourceId": "control-capek-rur-1923",
+      "passageId": null,
+      "author": "Karel Capek",
+      "title": "R.U.R. (Rossum's Universal Robots)",
+      "year": 1923,
+      "language": "English translation",
+      "region": null,
+      "tier": "control",
+      "relevance": "Artificial workers, exploitation, personhood, and revolt.",
+      "questions": [
+        22,
+        80
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/59112",
+      "textPath": "/source-texts/control-capek-rur-1923.txt",
+      "status": "repository-text",
+      "wordCount": 24729,
+      "characterCount": 148605,
+      "sha256": "1b31cbf5fbd663027b16bb00dfe5a313cc1be72676e2ba8e9131f30686c580da"
+    },
+    {
+      "sourceId": "longtail-hosoi-work-machine-1923",
+      "passageId": "HTP-001",
+      "author": "Wakizo Hosoi",
+      "title": "Sagyo Kikai (Work Machine)",
+      "year": 1923,
+      "language": "Japanese",
+      "region": "Japan",
+      "tier": "long_tail_pilot",
+      "relevance": "A proletarian poem in which the machine does not liberate the operator: the worker becomes part of its mechanism and is physically consumed by it.",
+      "questions": [
+        17,
+        33,
+        34,
+        36,
+        41
+      ],
+      "subjects": [
+        "LABOUR"
+      ],
+      "sourceUrl": "https://www.aozora.gr.jp/cards/000371/files/53959_57596.html",
+      "textPath": "/source-texts/longtail-hosoi-work-machine-1923.txt",
+      "status": "repository-text",
+      "wordCount": 62,
+      "characterCount": 800,
+      "sha256": "46651536c00207c0087959dfa380cfeb40f3866eec53509bc1143355c7ad6690"
+    },
+    {
+      "sourceId": "control-zamyatin-we-1924",
+      "passageId": null,
+      "author": "Yevgeny Zamyatin",
+      "title": "We",
+      "year": 1924,
+      "language": "English translation",
+      "region": null,
+      "tier": "control",
+      "relevance": "Numbered citizens, scheduled life, regulated intimacy, and dangerous imagination.",
+      "questions": [
+        79
+      ],
+      "subjects": [
+        "SELF-GOVT"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/61963",
+      "textPath": "/source-texts/control-zamyatin-we-1924.txt",
+      "status": "repository-text",
+      "wordCount": 67225,
+      "characterCount": 379922,
+      "sha256": "b633149ad56b843c49917f0cb37baa22683859af7ee757769fe2acced51d57c9"
+    },
+    {
+      "sourceId": "longtail-park-artificial-laborer-1925",
+      "passageId": null,
+      "author": "Karel Capek",
+      "title": "Injo Nodongja (Artificial Laborer)",
+      "year": 1925,
+      "language": "Korean",
+      "region": "Colonial Korea",
+      "tier": "reception_pilot",
+      "relevance": "A Korean translation of R.U.R., serialized in Kaebyok from February through May 1925; valuable for tracing colonial reception, but not an independent historical source for the idea.",
+      "questions": [
+        17,
+        22,
+        33,
+        35,
+        41,
+        77,
+        80
+      ],
+      "subjects": [
+        "LABOUR",
+        "MIND-MACHINE",
+        "RESPONSIBILITY"
+      ],
+      "sourceUrl": "https://ko.wikisource.org/wiki/%EC%9D%B8%EC%A1%B0%EB%85%B8%EB%8F%99%EC%9E%90",
+      "textPath": "/source-texts/longtail-park-artificial-laborer-1925.txt",
+      "status": "repository-text",
+      "wordCount": 17044,
+      "characterCount": 71420,
+      "sha256": "568b3a9d1f395e93d4241aaf0167ae1202bc368a190e72ce132de65061d89dc5"
+    },
+    {
+      "sourceId": "control-bernays-propaganda-1928",
+      "passageId": null,
+      "author": "Edward Bernays",
+      "title": "Propaganda",
+      "year": 1928,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Deliberate organization of public habits and opinions.",
+      "questions": [
+        39,
+        46,
+        52,
+        57,
+        70
+      ],
+      "subjects": [
+        "MASS",
+        "WILL",
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/78634",
+      "textPath": "/source-texts/control-bernays-propaganda-1928.txt",
+      "status": "repository-text",
+      "wordCount": 36426,
+      "characterCount": 222437,
+      "sha256": "fc0281069d9825cac5ad3fc0ca86937942cdf3206f9af70443122415849843b2"
+    },
+    {
+      "sourceId": "control-forster-eternal-moment-1928",
+      "passageId": null,
+      "author": "E. M. Forster",
+      "title": "The Eternal Moment and Other Stories",
+      "year": 1928,
+      "language": "English",
+      "region": null,
+      "tier": "control",
+      "relevance": "Includes The Machine Stops: infrastructural dependence, isolation, machine worship, and collapse.",
+      "questions": [
+        54,
+        66,
+        78
+      ],
+      "subjects": [
+        "KNOWLEDGE",
+        "MIND-MACHINE",
+        "LABOUR"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/72890",
+      "textPath": "/source-texts/control-forster-eternal-moment-1928.txt",
+      "status": "repository-text",
+      "wordCount": 40155,
+      "characterCount": 228761,
+      "sha256": "a55ab0d32683aabff7dbb94b50fe934901c92cb225aedad7efa103a6b29a9a83"
+    },
+    {
+      "sourceId": "longtail-yokomitsu-machine-1930",
+      "passageId": "HTP-009",
+      "author": "Riichi Yokomitsu",
+      "title": "Kikai (Machine)",
+      "year": 1930,
+      "language": "Japanese",
+      "region": "Japan",
+      "tier": "long_tail_pilot",
+      "relevance": "Factory work and suspicion rendered through an unseen social machine that measures people and drives their actions; included near the end of the 1850–1940 period.",
+      "questions": [
+        9,
+        17,
+        23,
+        34,
+        41,
+        54
+      ],
+      "subjects": [
+        "MIND-MACHINE",
+        "LABOUR",
+        "KNOWLEDGE"
+      ],
+      "sourceUrl": "https://www.aozora.gr.jp/cards/000168/card907.html",
+      "textPath": "/source-texts/longtail-yokomitsu-machine-1930.txt",
+      "status": "repository-text",
+      "wordCount": 51,
+      "characterCount": 22278,
+      "sha256": "de83415a3e27606428ef155117a9d36636a02b16c8c209a462f5c304b8cf65da"
+    }
+  ]
+}
