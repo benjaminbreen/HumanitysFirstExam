@@ -53,6 +53,12 @@ export default function RootLayout({
               <Link href="/erewhon" className="text-ink-soft hover:text-ink">
                 Erewhon test
               </Link>
+              <Link href="/live" className="text-ink-soft hover:text-ink">
+                Live draws
+              </Link>
+              <Link href="/relationships" className="text-ink-soft hover:text-ink">
+                Map
+              </Link>
               <Link href="/#topics" className="text-ink-soft hover:text-ink">
                 Topics
               </Link>

@@ -1,15 +1,19 @@
 import codebookData from "@/data/codebook.json";
 import corpusWorks from "@/data/corpus_works.json";
 import erewhonExperiment from "@/data/erewhon_experiment.json";
+import liveRunsData from "@/data/live_runs.json";
 import questionBank from "@/data/question_bank.json";
+import relationshipsData from "@/data/relationships.json";
 import bundle from "@/data/site_bundle.json";
 import type {
   Band,
   CodebookBranch,
   CorpusWork,
   Family,
+  LiveRuns,
   PerspectiveExperiment,
   Question,
+  RelationshipsDoc,
   SiteBundle,
   Survey,
   Topic,
@@ -21,6 +25,8 @@ export const questions = questionBank as Question[];
 export const works = corpusWorks as CorpusWork[];
 export const erewhon = erewhonExperiment as PerspectiveExperiment;
 export const codebook = codebookData as CodebookBranch[];
+export const liveRuns = liveRunsData as LiveRuns;
+export const relationships = relationshipsData as RelationshipsDoc;
 
 const leafById = new Map(
   codebook.flatMap((b) =>

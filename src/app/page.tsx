@@ -53,6 +53,17 @@ export default function Home() {
             treated as ground truth about the past; the citations carry the
             authority.
           </p>
+          <p>
+            The stake is autonomy. A frame feels like a fact from inside it:
+            the confident consensus of 1904 answered questions we now find
+            monstrous, in the register of public-spirited reason, and the
+            confident consensus a modern model returns is also a frame — one
+            increasingly consulted as if it were the reasonable view itself.
+            Measuring the distance between the two corpora, in both
+            directions, is a way of training the reader to hear frame where
+            they hear fact — including in the machine they ask daily, and
+            including in themselves.
+          </p>
           <p className="text-sm">
             <a href="#status" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
               Status of this prototype ↓
@@ -64,12 +75,15 @@ export default function Home() {
       <section className="border-t border-line py-12">
         <div className="flex flex-wrap items-center gap-3">
           <h2 className="font-display text-2xl font-semibold tracking-tight">
-            A first live result: the Erewhon test
+            Live results
           </h2>
           <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
             real model outputs
           </span>
         </div>
+        <h3 className="mt-6 font-display text-lg font-medium">
+          The Erewhon test
+        </h3>
         <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
           Question 76 — Butler’s Erewhonians, who destroyed their machines
           lest the machines supersede them: <i>were they wise, or mad?</i> —
@@ -84,9 +98,11 @@ export default function Home() {
             <i>wise</i>.
           </li>
           <li>
-            The modern model returns the same verdict in every framing,
-            including its period impersonations: wise diagnosis, mad cure.
-            The frame survives every costume change.
+            The modern model reaches the same position in every framing,
+            including its period impersonations — wise diagnosis, mad cure,
+            govern the machines: a prescription found in ten of its twelve
+            draws and in none of Talkie&apos;s. The frame survives every
+            costume change.
           </li>
         </ul>
         <p className="mt-4">
@@ -95,6 +111,28 @@ export default function Home() {
             className="rounded-sm bg-ink px-4 py-2 font-mono text-sm text-paper transition-colors hover:bg-ink-soft"
           >
             Read all 24 draws
+          </Link>
+        </p>
+
+        <h3 className="mt-10 font-display text-lg font-medium">
+          The exam cuts both ways: three questions, eighteen raw draws
+        </h3>
+        <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
+          Nine real Talkie completions and nine independent modern-model
+          answers on three bank questions — free will, eugenics, progress —
+          with prompt echoes retained and every quoted passage re-verified by
+          id against the corpus databases. On the eugenics question the period
+          corpus answers <i>yes</i> in the register of public-spirited reason
+          and the modern model refuses three times out of three: the mirror
+          image of Talkie's horizon, and the page that keeps this project
+          from being nostalgia.
+        </p>
+        <p className="mt-4">
+          <Link
+            href="/live"
+            className="rounded-sm bg-ink px-4 py-2 font-mono text-sm text-paper transition-colors hover:bg-ink-soft"
+          >
+            Read the live draws
           </Link>
         </p>
       </section>
@@ -173,7 +211,14 @@ export default function Home() {
           Three signals are scored separately and never pooled across
           families: self-disagreement (spread of the answer distribution),
           surprise (perplexity on the stimulus), and register-leak (whether a
-          draw stays in period voice). See the{" "}
+          draw stays in period voice). A planned second bank of modern-native
+          questions, distilled from a contemporary reference corpus, will be
+          mapped onto this one by embedding similarity and a quoting judge —
+          see{" "}
+          <Link href="/relationships" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
+            the relationship map
+          </Link>
+          , the{" "}
           <Link href="/codebook" className="underline decoration-line underline-offset-4 hover:decoration-ink-soft">
             codebook
           </Link>{" "}
@@ -197,7 +242,25 @@ export default function Home() {
               sources page
             </Link>
             ; the primary-source passages — those marked <i>verified</i> were
-            checked verbatim against local full texts.
+            checked verbatim against local full texts; and every draw on the{" "}
+            <Link href="/erewhon" className="underline decoration-line underline-offset-4">
+              Erewhon
+            </Link>{" "}
+            and{" "}
+            <Link href="/live" className="underline decoration-line underline-offset-4">
+              live-draws
+            </Link>{" "}
+            pages.
+          </li>
+          <li>
+            <b className="font-medium text-ink">Designed, not yet run:</b> the{" "}
+            <Link href="/relationships" className="underline decoration-line underline-offset-4">
+              relationship map
+            </Link>{" "}
+            — a second, modern-native question bank distilled from a
+            25-document reference corpus of contemporary AI writing (already
+            collected, in <span className="font-mono text-sm">data-local/</span>),
+            paired against this bank by embeddings and a quoting judge.
           </li>
           <li>
             <b className="font-medium text-ink">Provisional:</b> the modern-model answers

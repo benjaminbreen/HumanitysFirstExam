@@ -142,9 +142,10 @@ export default function ErewhonPage() {
             future in which they did.
           </p>
           <p>
-            The modern model never renders either plain verdict. In all four
-            framings — including when role-playing 1830 and 1930 — it
-            converges on the same accommodation: wise diagnosis, mad cure,
+            The modern model sometimes renders the plain verdict — four draws
+            say <i>mad</i> — but the position underneath never moves. In all
+            four framings, including when role-playing 1830 and 1930, it
+            arrives at the same accommodation: wise diagnosis, mad cure,
             govern the machines instead. Its period impersonations are
             fluent, historically decorated, and structurally identical to its
             unframed answer: the single frame survives every costume change.

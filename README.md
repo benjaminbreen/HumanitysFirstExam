@@ -6,53 +6,79 @@ autonomy in period-native language; sample Talkie (a 13B model trained only
 on pre-1931 text) twenty times per question and a modern frontier model
 twenty times under the same protocol; cluster both distributions; and set
 the results against cited primary sources so the reader can check the
-machine against the record. The site shows the full question bank, three
-worked topic pages, and the corpus holdings.
+machine against the record. A planned second bank of modern-native
+questions, distilled from a contemporary reference corpus, gets mapped onto
+the first by embedding similarity and a quoting LLM judge — see `/relationships`.
 
-**Everything the site shows is driven by one file:**
-`src/data/site_bundle.json`. Provenance (also shown in the site footer and
-the home page honesty box):
+## What is real and what is not
 
-- **Real:** the questions; the primary-source passages (those marked
-  `verified: true` were checked verbatim against full texts in
-  `historical-corpus-builder` and the `William Jamesiana` collection); the
-  modern answers, written by a frontier model (Claude) during mockup
-  construction.
-- **Simulated:** every Talkie sample and all cluster counts are hand-written
-  illustrations. The week-one pilot replaces them with real draws.
+Stated in the site footer, the home-page status section, and per-element
+badges. As of `prototype-0.4`:
+
+- **Real:** the 100-question bank (Nathan Davies); the corpus holdings on
+  `/sources`; the primary-source passages marked `verified` (checked
+  verbatim against local full texts, or re-verified by passage id against
+  the Premodern Concordance and William Jamesiana databases); all draws on
+  `/erewhon` (24, real Talkie + Claude under four temporal framings) and
+  `/live` (18, nine supplied Talkie completions and nine independent GPT-5
+  Codex runs, prompt echoes retained).
+- **Provisional:** the modern answers on the three topic pages, written by
+  Claude during mockup construction; the pipeline replaces them with N=20
+  API draws.
+- **Simulated:** Talkie samples and cluster counts on the topic pages —
+  hand-written illustrations, always badged. The week-one pilot replaces
+  them with real draws.
+- **Designed, not run:** the relationship map (`/relationships`). The
+  25-document modern reference corpus it needs is collected in
+  `data-local/lesswrong/` (gitignored; not otherwise used by the site).
 
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router, static generation) + TypeScript
 - Tailwind CSS v4 (design tokens in `src/app/globals.css`)
-- No backend — the bundle is imported at build time; every page prerendered.
+- No backend — the data is imported at build time; every page prerendered.
 
 ## Layout
 
 ```
 src/
-  data/site_bundle.json     ← worked topics: surveys, clusters, passages, notes
-  data/question_bank.json   ← the full 100-question bank (Nathan Davies)
-  data/corpus_works.json    ← 1860–1930 holdings exported from historical-corpus-builder
-  lib/types.ts              ← schema: Topic, Survey, Cluster, SourcePassage, Question
-  lib/data.ts               ← typed access + band/family display metadata
-  components/
-    SurveyBlock.tsx         ← distribution bars + draw-an-answer + sample sheet
-    QuestionBank.tsx        ← condensed/expandable 100-question listing
-    SourcePassageCard.tsx   ← cited primary source with verified/approximate badge
-    BandBadge.tsx
+  data/site_bundle.json        ← worked topics: surveys, clusters, passages, notes
+  data/question_bank.json      ← the full 100-question bank
+  data/erewhon_experiment.json ← real draws: Q76 under four temporal framings
+  data/live_runs.json          ← real draws: Q3/Q19/Q29, both models, verified passages
+  data/relationships.json      ← the two-bank relationship-map design
+  data/codebook.json           ← fixed coding frame applied to clusters and passages
+  data/corpus_works.json       ← 1860–1930 holdings from historical-corpus-builder
+  lib/types.ts                 ← schema for all of the above
+  lib/data.ts                  ← typed access + band/family display metadata
+  components/                  ← SurveyBlock, QuestionBank, SourcePassageCard,
+                                 HumanAnswer (local-only reader answers), badges/chips
   app/
-    page.tsx                ← overview, worked examples, question bank, method, status
-    topics/[slug]/page.tsx  ← one topic: both distributions, sources, curatorial note
-    sources/page.tsx        ← cited passages + corpus holdings table
+    page.tsx                   ← overview, live results, topics, bank, method, status
+    erewhon/page.tsx           ← the Erewhon test (four framings, 24 draws)
+    live/page.tsx              ← live draws (three questions, 18 draws, sources)
+    relationships/page.tsx     ← the relationship map (design)
+    codebook/page.tsx          ← the coding frame
+    topics/[slug]/page.tsx     ← one worked topic: distributions, sources, note
+    sources/page.tsx           ← cited passages + corpus holdings table
 ```
+
+`data-local/` holds working corpora that never ship in a build. The sibling
+`humanitys-first-exam-codex/` repo was a parallel-prototype comparison
+exercise (July 2026); its real model runs and verified passages were ported
+here (`live_runs.json`), and its source-importer pattern is worth reusing
+when the pipeline is built.
 
 ## Conventions worth keeping
 
 - Cluster `label`s must be phrases quoted from the samples — the clustering
-  model may not import its own categories.
+  model may not import its own categories. The codebook and the four
+  relationship types are the only analyst-authored categories, and both are
+  versioned with the dataset.
 - Simulated content always carries the amber "simulated" badge; primary
-  sources carry a verified/approximate badge. Don't ship either unlabeled.
+  sources carry a verified/approximate badge; live-draw defects (prompt
+  echoes, loops) are flagged and retained, never cleaned away. Don't ship
+  any of these unlabeled.
 - Two typographic registers: period text is Newsreader on paper (oxblood),
   modern text is IBM Plex Mono on near-black (cobalt). Band colors
   (native/partial/horizon) were validated for contrast and CVD separation

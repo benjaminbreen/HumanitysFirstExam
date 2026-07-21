@@ -1,5 +1,5 @@
 /**
- * Data model for "Second Opinions from the Machine Age".
+ * Data model for "Humanity's First Exam".
  *
  * The site renders entirely from `src/data/site_bundle.json`, which mirrors
  * the file the eventual pipeline will export. One Topic = one page = one
@@ -150,6 +150,57 @@ export interface PerspectiveExperiment {
   question: string;
   protocol: string;
   conditions: PerspectiveCondition[];
+}
+
+/** One raw draw from a live model run. Text is verbatim; flags mark defects. */
+export interface LiveDraw {
+  id: string;
+  text: string;
+  /** e.g. "prompt echo" — retained, never cleaned away. */
+  flags: string[];
+}
+
+/** Real draws on one bank question from both models, with checked sources. */
+export interface LiveQuestion {
+  n: number;
+  family: Family;
+  band: Band;
+  axis: string;
+  title: string;
+  text: string;
+  talkie: LiveDraw[];
+  modern: LiveDraw[];
+  /** Editorial reading of what the draws show. */
+  summary: string;
+  curatorialNote: string;
+  passages: SourcePassage[];
+}
+
+/** The ported real-output pilot: nine Talkie + nine modern draws. */
+export interface LiveRuns {
+  note: string;
+  talkie: { modelLabel: string; date: string; provenance: string };
+  modern: { modelLabel: string; date: string; provenance: string };
+  questions: LiveQuestion[];
+}
+
+/** One of the four cross-bank relationship types (the hypothesis layer). */
+export interface RelationType {
+  id: string;
+  label: string;
+  definition: string;
+  /** The sampling signature this type predicts — falsifiable by the draws. */
+  prediction: string;
+  instance: { label: string; href: string; body: string } | null;
+}
+
+/** The two-bank relationship-map design. */
+export interface RelationshipsDoc {
+  status: string;
+  note: string;
+  premise: string;
+  pipeline: { name: string; body: string }[];
+  types: RelationType[];
 }
 
 /** One work in the 1860–1930 holdings of the historical corpus. */
