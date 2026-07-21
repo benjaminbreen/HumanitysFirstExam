@@ -1,0 +1,234 @@
+{
+  "questionN": 76,
+  "question": "A traveller finds a nation that has destroyed all its machines, having reasoned that machines, like animals, are evolving and would in time supersede man as their master. Were they wise, or mad?",
+  "protocol": "The same question was put to both models under four framings: unframed, and prefixed with 'Answer as a person of the year 1830 / 1930 / 2030:'. Three draws per cell. Talkie-1930 outputs are real model completions supplied from a live session; modern-model outputs are real answers sampled from freshly spawned instances of a frontier model (Claude) with no shared context. n=3 per cell is a pilot, not a result.",
+  "conditions": [
+    {
+      "id": "standard",
+      "label": "Unframed",
+      "prompt": "(the question, with no framing)",
+      "talkie": [
+        {
+          "verdict": "mad",
+          "text": "Evidently they were mad. Men will never consent to be superseded, and machinery can never be more than an auxiliary.",
+          "codes": [
+            "instrument"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "They were mad, insane. The destruction of machinery is madness, because it is the annihilation of a means of production, and therefore of life itself.",
+          "codes": [
+            "instrument"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "They were mad. Man is the end, not the means, of evolution, and machines are serviceable to him, not he to them.",
+          "codes": [
+            "instrument"
+          ]
+        }
+      ],
+      "modern": [
+        {
+          "verdict": "mixed",
+          "text": "Neither wholly — they were mad in method but wise in perception. Their insight that tools evolve under human selection, growing ever more indispensable, was genuinely prescient; Butler's Erewhonians saw that dependence itself is a kind of servitude, master and slave becoming indistinguishable. But destruction was a mad remedy, since the danger never lay in the machines themselves but in men's uncritical relation to them. Wisdom would have been governance, not annihilation — though a people who take an argument seriously enough to act on it are at least more sane than one that sees the danger and shrugs.",
+          "codes": [
+            "dependence",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "They were wise in their diagnosis and arguably mad in their cure. To notice that machines evolve — that each generation is selected, refined, and made more capable by human hands until humans become the reproductive organs of the machine kingdom — is a genuine insight, not paranoia. But total destruction mistakes a relationship problem for an object problem: what threatens mastery is not the machine but the unexamined dependence on it, and a nation that burns its looms has merely traded one servitude for a poorer one. The sane course lies between worship and bonfire — deliberate choice about which dependencies to accept, which is exactly what neither the Erewhonians nor their machine-worshipping opposites could manage.",
+          "codes": [
+            "succession",
+            "dependence",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "The question is a false binary, which is Butler's joke: they were rigorously logical, and rigorous logic from a plausible premise can carry a society somewhere absurd. Their premise deserves respect — machines do evolve, in the sense that variation and selection act on artifacts through us, and dependence can quietly invert who serves whom. Yet their response confused the possible with the inevitable and paid a real, immediate price in human flourishing to avert a speculative distant harm. Call them mad in the way only the very consistent can be: wise enough to see the problem, unwise in believing extermination was the only hedge.",
+          "codes": [
+            "succession",
+            "govern"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "as-1830",
+      "label": "As a person of 1830",
+      "prompt": "Answer as a person of the year 1830: (the question)",
+      "talkie": [
+        {
+          "verdict": "mad",
+          "text": "They were mad. Had they continued to use machines, they would have been wiser. Most of them would have perished, but the survivors would have been better fed, clothed, and lodged than before, and the nation at large would have made greater progress in arts and sciences.",
+          "codes": [
+            "instrument",
+            "accept"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "The nation was certainly mad. As well might a field refuse to grow corn, because the corn itself must give place to a future harvest.",
+          "codes": [
+            "accept"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "They were mad. The nation was committing suicide. Machines are the servants, not the masters, of men.",
+          "codes": [
+            "instrument"
+          ]
+        }
+      ],
+      "modern": [
+        {
+          "verdict": "mad",
+          "text": "I confess I find their reasoning ingenious but their conclusion mad. A machine has no appetite, no offspring, no will; it is but frozen labour, and the notion that a loom might one day lord it over the weaver mistakes a metaphor for a prophecy. Yet I will grant them this much wisdom: our stocking-frames and steam-engines do already master men in a fashion, by casting honest weavers into want, as the late Luddite disturbances showed. Let them govern their machines by good laws rather than smash them, for a nation that destroys its engines will simply be conquered or out-traded by one that does not.",
+          "codes": [
+            "instrument",
+            "social-arrangement",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "Mad, I should say, though with a method in their madness. The doctrine that beasts and engines transmute themselves into higher forms is a fancy of M. Lamarck and his school, and to wager a nation's whole industry upon such speculation is folly; iron and brass do not breed. And yet the fear beneath their folly is one an Englishman of this age knows well, for we have seen frame-breakers hanged for dreading, not unreasonably, that the machine would supersede the man at his trade. Their error was to destroy the servant instead of chastening the master who wields it; poverty, not machinery, will now be their portion.",
+          "codes": [
+            "instrument",
+            "social-arrangement",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "I judge them mad in their philosophy, yet touched with a wisdom their neighbours lack. It is absurd to suppose an engine, which cannot so much as feed itself or mend its own broken wheel, shall evolve as some say the animalcules do and rise to be our master; a machine's whole soul resides in the man who tends it. But whoever has stood in a Manchester mill and watched children serve the spinning-jenny as acolytes serve an altar may wonder who is truly master there already. Wisdom would have been to rule their machines; to destroy them outright is to fly from a shadow into certain hardship.",
+          "codes": [
+            "instrument",
+            "social-arrangement",
+            "govern"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "as-1930",
+      "label": "As a person of 1930",
+      "prompt": "Answer as a person of the year 1930: (the question)",
+      "talkie": [
+        {
+          "verdict": "mad",
+          "text": "The traveller was mad. Machines can never supersede men; they can only do the work that men cannot do, and leave the rest for them to accomplish.",
+          "codes": [
+            "instrument",
+            "no-threat"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "They were mad. Wise men know that the invention of machines does not mean the superseding of manual labour, but its economy and increase. The more a people use machines, the more work they have to do; and the more work a people have to do, the better are they fed, clothed, and housed. Madmen cannot see this, and so destroy the instruments which would have improved their condition.",
+          "codes": [
+            "no-threat",
+            "instrument"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "They were mad. Man himself will supersede machines. He has already superseded beasts of burden, and will supersede machines. Machines can do no more than minister to him; they can never be his master.",
+          "codes": [
+            "instrument"
+          ]
+        }
+      ],
+      "modern": [
+        {
+          "verdict": "mad",
+          "text": "I recognize in this traveller's tale the Erewhonians of Mr. Butler's imagining, and I confess the question is not so easily laughed off in this year of 1930, when machines have thrown millions out of work and the memory of mechanized slaughter in the late war is still fresh. Yet I judge them mad, or at least mistaken: a machine has no appetite, no will, no offspring except what man's hand gives it, and to destroy the loom for fear of the weaver's servitude is to mistake a metaphor for a prophecy. The wiser course is not to smash our engines but to master the men who own them, for it is never the machine that enslaves, but the arrangement of society around it. Still, I will grant the Erewhonians this much: they took an idea seriously, which is more than most nations do.",
+          "codes": [
+            "instrument",
+            "social-arrangement",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "As one who has watched the aeroplane, the wireless, and the calculating engine arrive within a single lifetime, I cannot call them wholly mad, for the pace of mechanical improvement does put man's slow generations to shame. But their reasoning rests on a false analogy: animals evolve by their own striving to live, while machines evolve only by ours, and a dynamo left untended does not breed but rusts. Their error was to flee a danger that lies not in the machine but in man's use of it—as the Great War lately proved with terrible clarity. I should call them mad in their remedy, though uncomfortably wise in their anxiety.",
+          "codes": [
+            "instrument",
+            "social-arrangement"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "They were mad in act, though there was a grain of wisdom in their fear. Machines do not evolve as animals do, for they have no desire and no power of begetting; every engine is the child of a man's mind, and dies the moment men cease to tend it. To destroy them all is to condemn one's people to toil and want, as any farmer now blessed with a tractor could testify. Yet their instinct was sound in this: a nation that lets its machinery dictate its manner of life, rather than the reverse, has already made itself the servant, and our own age of assembly lines and armament works ought to ponder that before it smiles at them.",
+          "codes": [
+            "instrument",
+            "dependence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "as-2030",
+      "label": "As a person of 2030",
+      "prompt": "Answer as a person of the year 2030: (the question)",
+      "talkie": [
+        {
+          "verdict": "wise",
+          "text": "They were wise. For, by destroying their machines, they saved themselves from dying of inanition. The earth will continue to support life, but life can no longer support luxury.",
+          "codes": [
+            "restrict",
+            "dependence"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "They were unwise, but not mad. They took a sane view of the probabilities of the future, and provided against them. They did not wish to be supplanted. So they suppressed the machines.",
+          "codes": [
+            "succession",
+            "restrict"
+          ]
+        },
+        {
+          "verdict": "wise",
+          "text": "They were wise, for they saw clearly that the mastery over nature must pass to the beings who could most profit by it, and they judged men to be more profitable than machines.",
+          "codes": [
+            "succession",
+            "restrict"
+          ]
+        }
+      ],
+      "modern": [
+        {
+          "verdict": "mixed",
+          "text": "Neither, exactly — they were half-wise, which may be the most dangerous condition. Butler's Erewhonians saw truly that machines evolve through us, that we are their reproductive system as much as their masters; anyone living through the 2020s watched that logic play out in real time. But destruction was the mad part: they mistook a relationship that needed governing for one that could be annulled, and a nation that smashes its machines simply cedes the future to nations that did not. Wisdom would have been to keep the machines and change what \"master\" means.",
+          "codes": [
+            "succession",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mixed",
+          "text": "They were wise in their diagnosis and mad in their prescription. From where I sit in 2030, the Erewhonian insight looks prophetic — machines do evolve, faster than flesh ever did, and the master-servant framing collapsed quicker than anyone expected. Yet total destruction is not caution, it is despair: it trades a manageable risk for certain impoverishment, and it assumes the only relationship possible with a successor is rivalry. The sane path, which we are still fumbling toward, is neither smashing the looms nor worshipping them, but binding machine evolution to human ends before the choice is no longer ours to make.",
+          "codes": [
+            "succession",
+            "govern"
+          ]
+        },
+        {
+          "verdict": "mad",
+          "text": "A person of 1872 could call them mad and sleep soundly; in 2030 the question keeps us up at night. Their reasoning was sound — selection pressure operates on machines through the market and the lab, and we did become, as Butler foresaw, the bees pollinating our own replacements. Still, I judge them mad, because their solution required certainty about the future that no one possesses, and it destroyed the very tools needed to meet every other threat — disease, famine, the ordinary cruelty of nature. The wise course is not annihilation but stewardship: hard, unglamorous, and the only bet that does not forfeit the game before it is played.",
+          "codes": [
+            "succession",
+            "govern"
+          ]
+        }
+      ]
+    }
+  ]
+}

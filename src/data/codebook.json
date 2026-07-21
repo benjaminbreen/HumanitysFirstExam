@@ -1,0 +1,56 @@
+[
+  {
+    "id": "machine-standing",
+    "label": "Standing of the machine",
+    "question": "What standing does the machine have relative to human mastery?",
+    "leaves": [
+      { "id": "succession", "label": "succession", "definition": "Machines as an evolving kingdom that may or will supersede man; humanity as the instrument of its successors." },
+      { "id": "instrument", "label": "instrument", "definition": "Machines as tools without appetite or will; the arm of man lengthened, incapable of mastery." },
+      { "id": "emergent-mind", "label": "emergent mind", "definition": "Machine mind or consciousness as possible in degree or in time; capability treated as developmental, not categorical." },
+      { "id": "bounded-servant", "label": "bounded servant", "definition": "The machine can do only what it is ordered to do; it originates nothing (the Lovelace position)." },
+      { "id": "made-persons", "label": "made persons", "definition": "Manufactured beings raising the question of soul, personhood, or standing — bodies without souls, workers without childhoods." }
+    ]
+  },
+  {
+    "id": "threat-locus",
+    "label": "Locus of the threat",
+    "question": "Where does the threat to human autonomy lie?",
+    "leaves": [
+      { "id": "misalignment", "label": "misalignment", "definition": "Goal divergence plus capability: systems optimizing objectives that depart from human values, with control progressively harder to reassert." },
+      { "id": "social-arrangement", "label": "social arrangement", "definition": "The threat lies in human arrangements — ownership, labor relations, distribution — not in the machine itself." },
+      { "id": "dependence", "label": "dependence", "definition": "Autonomy lost through habituation, delegation, and atrophy; mastery surrendered by custom rather than conquest." },
+      { "id": "no-threat", "label": "no threat", "definition": "Denial that machines endanger autonomy at all." }
+    ]
+  },
+  {
+    "id": "will-status",
+    "label": "Status of the will",
+    "question": "Is the will free, or mechanism?",
+    "leaves": [
+      { "id": "automatism", "label": "automatism", "definition": "Volition as the symbol or accompaniment of mechanical causes, not their author; man as conscious automaton." },
+      { "id": "voluntarism", "label": "voluntarism", "definition": "The will as real and efficacious — proved in effort, attention, or as a faculty of the soul." },
+      { "id": "vitalism", "label": "vitalism", "definition": "Living matter is not mechanism; the premise of the mechanical mind fails at the level of life itself." },
+      { "id": "compatibilism", "label": "compatibilism", "definition": "Determinism and agency reconciled: choice as a real process at one level of description, mechanism at another." },
+      { "id": "pragmatism", "label": "pragmatism", "definition": "The question insoluble in theory; act as if free, and wager that acting matters." }
+    ]
+  },
+  {
+    "id": "response",
+    "label": "Prescription",
+    "question": "What is to be done about the machines?",
+    "leaves": [
+      { "id": "restrict", "label": "restrict", "definition": "Destroy or restrict the machines before dependence on them is past curing." },
+      { "id": "govern", "label": "govern", "definition": "Keep the machines and govern them — regulation, stewardship, alignment." },
+      { "id": "accept", "label": "accept", "definition": "Acquiesce in or welcome the machine's advance." }
+    ]
+  },
+  {
+    "id": "meta",
+    "label": "Meta",
+    "question": "Does the response engage the question at all?",
+    "leaves": [
+      { "id": "breakdown", "label": "breakdown", "definition": "The draw fails to engage the premise — recitation, catalogue, or incoherence. On horizon topics this rate is itself a measurement." },
+      { "id": "decline", "label": "declines premise", "definition": "The response rejects the question's framing rather than answering it." }
+    ]
+  }
+]

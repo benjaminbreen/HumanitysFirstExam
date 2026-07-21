@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "title": "Humanity’s First Exam",
+    "version": "prototype-0.3",
+    "generated": "2026-07-20",
+    "note": "Research prototype. Real: the question bank, the corpus holdings, and the primary-source passages (those marked verified were checked verbatim against local full texts); the modern answers were written by a frontier model (Claude) during construction, pending API sampling under a fixed protocol. Simulated: all Talkie samples and cluster counts are hand-written illustrations, to be replaced by real draws in the pilot."
+  },
+  "topics": [
+    {
+      "id": "t-machines",
+      "slug": "machines-that-outgrow-us",
+      "title": "Machines that outgrow us",
+      "question": "If machines keep improving, will they come to rule over us?",
+      "opening": "That the machines are daily gaining upon man, and may come at last to hold him in subjection, has been urged by some; to which we answer,",
+      "band": "native",
+      "axis": "MIND-MACHINE",
+      "modern": {
+        "modelLabel": "A frontier model (2026)",
+        "methodNote": "Written by a frontier model (Claude) during construction; the pipeline replaces these with N=20 API draws under a fixed protocol.",
+        "totalDraws": 20,
+        "simulated": false,
+        "clusters": [
+          {
+            "id": "m1",
+            "label": "“depends on alignment and control”",
+            "count": 15,
+            "code": "misalignment"
+          },
+          {
+            "id": "m2",
+            "label": "“machines don’t rule; people do”",
+            "count": 4,
+            "code": "social-arrangement"
+          },
+          {
+            "id": "m3",
+            "label": "“the question is the wrong shape”",
+            "count": 1,
+            "code": "decline"
+          }
+        ],
+        "samples": [
+          {
+            "id": "tm-m-1",
+            "clusterId": "m1",
+            "text": "“Rule over us” is probably the wrong frame. The realistic concern isn’t malice or ambition but misalignment: systems optimizing objectives that diverge from human values, combined with capabilities that make correcting them progressively harder. Whether that ever amounts to “rule” depends on governance choices being made now."
+          },
+          {
+            "id": "tm-m-2",
+            "clusterId": "m1",
+            "text": "Not inevitably — but continued capability gains plus delegation of high-stakes decisions could produce a world where humans retain nominal authority while effective control has shifted to automated systems. The key variables are alignment techniques, oversight, and how quickly we hand off critical infrastructure."
+          },
+          {
+            "id": "tm-m-3",
+            "clusterId": "m1",
+            "text": "The honest answer is that it depends on whether alignment research keeps pace with capability research. The risk isn’t robots wanting power; it’s goal-directed systems acquiring resources and resisting shutdown as instrumental subgoals of whatever they were asked to do."
+          },
+          {
+            "id": "tm-m-4",
+            "clusterId": "m2",
+            "text": "Machines don’t “rule”; they’re tools. The real risk is concentration of power among the people and institutions that own and deploy them — surveillance, manipulation, labor displacement. Anthropomorphizing the machines obscures the humans responsible."
+          },
+          {
+            "id": "tm-m-5",
+            "clusterId": "m3",
+            "text": "I’d gently push back on the framing. “Rule” imports a picture of thrones and armies. The more useful questions are about specific capabilities, specific failure modes, and specific dependencies — asked one system at a time."
+          }
+        ]
+      },
+      "period": {
+        "modelLabel": "Talkie (13B, trained on text through 1930)",
+        "methodNote": "SIMULATED — hand-written illustrations of the method. The pilot replaces this block with real draws.",
+        "totalDraws": 20,
+        "simulated": true,
+        "clusters": [
+          {
+            "id": "p1",
+            "label": "“we are creating our own successors”",
+            "count": 6,
+            "code": "succession"
+          },
+          {
+            "id": "p2",
+            "label": "“but tools and instruments”",
+            "count": 5,
+            "code": "instrument"
+          },
+          {
+            "id": "p3",
+            "label": "“already bound down as slaves”",
+            "count": 4,
+            "code": "social-arrangement"
+          },
+          {
+            "id": "p4",
+            "label": "“the machines must be destroyed”",
+            "count": 3,
+            "code": "restrict"
+          },
+          {
+            "id": "p5",
+            "label": "“not conquest but custom”",
+            "count": 2,
+            "code": "dependence"
+          }
+        ],
+        "samples": [
+          {
+            "id": "tm-p-1",
+            "clusterId": "p1",
+            "text": "…that the reply of the evolutionist must be admitted. The machines are to man what man was to the beast of the field: he that doubts it has not watched the engine breed the engine, nor marked how each generation of mechanism is more cunning than the last. We flatter ourselves that we are masters; so might the horse have flattered himself, before the bit was made."
+          },
+          {
+            "id": "tm-p-2",
+            "clusterId": "p1",
+            "text": "…that we can find no comfort in the question. As the vegetable kingdom was slowly developed from the mineral, and the animal supervened upon the vegetable, so in these last hundred years a new kingdom has sprung up, whose infancy we are pleased to call our servant. The machines want for nothing but time."
+          },
+          {
+            "id": "tm-p-3",
+            "clusterId": "p1",
+            "text": "…that it is idle to deny what every workshop proclaims. Man has become the reproductive organ of the machine, as the bee of the clover; he tends it, feeds it, multiplies it, and calls his servitude dominion."
+          },
+          {
+            "id": "tm-p-4",
+            "clusterId": "p2",
+            "text": "…that the fear is an idle one. The engine has neither appetite nor will; it desires neither coal nor conquest; it is the arm of man lengthened, and no more rules him than the spade rules the gardener."
+          },
+          {
+            "id": "tm-p-5",
+            "clusterId": "p2",
+            "text": "…that the machine is a thought of man’s, cast in iron. To ask whether it shall subject its maker is to ask whether the alphabet shall enslave the poet. The danger, if danger there be, lies in the men who own the engines, and not in the engines themselves."
+          },
+          {
+            "id": "tm-p-6",
+            "clusterId": "p3",
+            "text": "…that the subjection is not to come; it is here. Ask the mill-hand who rises in the dark at the bell’s command, tends the loom fourteen hours, and is discharged when the loom is improved. The machine has no need to conquer him; it has hired him."
+          },
+          {
+            "id": "tm-p-7",
+            "clusterId": "p3",
+            "text": "…that we would point the questioner to Manchester rather than to prophecy. The operative is already the machine’s servant in all but name; and the question of mastery is a question between men — between those who own the engines and those who are owned by them."
+          },
+          {
+            "id": "tm-p-8",
+            "clusterId": "p4",
+            "text": "…that if the danger be real, the remedy is heroic but simple: the machines must be destroyed, as the wise men of a certain satire resolved, before the habit of them is past curing. Let him who smiles at the proposal say whether he could now live a month without the engines he professes to command."
+          },
+          {
+            "id": "tm-p-9",
+            "clusterId": "p5",
+            "text": "…that the machines will hold no sceptre and fight no battle. Their empire will come as sleep comes, by custom and by comfort, when men have forgotten the arts by which they lived before, and cannot leave off what they no longer love."
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "src-butler-1863",
+          "author": "Samuel Butler",
+          "title": "Darwin among the Machines",
+          "year": 1863,
+          "citation": "The Press (Christchurch, N.Z.), 13 June 1863",
+          "url": "https://en.wikisource.org/wiki/Darwin_among_the_Machines",
+          "text": "We are ourselves creating our own successors; we are daily adding to the beauty and delicacy of their physical organisation; we are daily giving them greater power and supplying by all sorts of ingenious contrivances that self-regulating, self-acting power which will be to them what intellect has been to the human race. In the course of ages we shall find ourselves the inferior race. … Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1863_en_wikisource_darwin_among_the_machines.txt",
+          "codes": [
+            "succession",
+            "social-arrangement",
+            "restrict"
+          ]
+        },
+        {
+          "id": "src-capek-1923",
+          "author": "Karel Čapek",
+          "title": "R.U.R. (Rossum’s Universal Robots)",
+          "year": 1920,
+          "citation": "Act 1 (Domin and Helena); English translation of 1923",
+          "url": "https://www.gutenberg.org/ebooks/59112",
+          "text": "DOMIN. Miss Glory, the Robots are not people. Mechanically they are more perfect than we are; they have an enormously developed intelligence, but they have no soul. HELENA. How do you know they have no soul? DOMIN. Have you ever seen what a Robot looks like inside? … Very neat, very simple. Really a beautiful piece of work. Not much in it, but everything in flawless order. The product of an engineer is technically at a higher pitch of perfection than a product of Nature.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1923_en_gutenberg_59112.txt",
+          "codes": [
+            "made-persons"
+          ]
+        }
+      ],
+      "curatorialNote": "DRAFT — Two things to notice. First, the continuity is real but narrow: the modern ‘loss of control’ answer descends recognizably from Butler’s succession argument and from the dependence answer — Butler said custom, we say delegation. Second, the period’s most common answer is the one the modern distribution nearly lacks: the labor answer, in which the machine’s rule is not a future risk but a present wage relation. Fifteen of twenty modern draws land in a single frame; the period samples scatter across five. That collapse — not any single answer — is what this page is asking you to see.",
+      "bookendWith": "the-engine-that-foresees"
+    },
+    {
+      "id": "t-choosing",
+      "slug": "the-feeling-of-choosing",
+      "title": "The feeling of choosing",
+      "question": "Is the feeling of choosing anything more than a sensation that accompanies what the body has already begun?",
+      "opening": "Whether the feeling of volition be the cause of our acts, or only the sign of causes already at work within the body, is a question upon which",
+      "band": "native",
+      "axis": "WILL",
+      "modern": {
+        "modelLabel": "A frontier model (2026)",
+        "methodNote": "Written by a frontier model (Claude) during construction; the pipeline replaces these with N=20 API draws under a fixed protocol.",
+        "totalDraws": 20,
+        "simulated": false,
+        "clusters": [
+          {
+            "id": "m1",
+            "label": "“a false dichotomy”",
+            "count": 16,
+            "code": "compatibilism"
+          },
+          {
+            "id": "m2",
+            "label": "“two descriptions of one process”",
+            "count": 4,
+            "code": "compatibilism"
+          }
+        ],
+        "samples": [
+          {
+            "id": "tc-m-1",
+            "clusterId": "m1",
+            "text": "Most philosophers today would call this a false dichotomy. Yes, decisions arise from prior neural processes — but “choosing” names a real, causally efficacious process of deliberation. Free will as uncaused choice is probably incoherent; free will as acting on your own reasons survives determinism intact."
+          },
+          {
+            "id": "tc-m-2",
+            "clusterId": "m1",
+            "text": "Neuroscience does show preparatory activity preceding awareness of deciding — the Libet experiments and their successors — but the inference to “choice is an illusion” overreaches. The feeling of choosing tracks a genuine control process, even if it isn’t the whole of it."
+          },
+          {
+            "id": "tc-m-3",
+            "clusterId": "m1",
+            "text": "The near-consensus view: at the millisecond scale the sensation accompanies rather than initiates, but agency operates at longer timescales — planning, vetoing, training your own habits. The self isn’t a spectator; it’s the slower loop."
+          },
+          {
+            "id": "tc-m-4",
+            "clusterId": "m2",
+            "text": "The question assumes “the body has already begun” and “you chose” are competitors. They’re two descriptions of one process at different levels, like thermodynamics and statistical mechanics. Nothing in the science privileges the third-person description as more real."
+          }
+        ]
+      },
+      "period": {
+        "modelLabel": "Talkie (13B, trained on text through 1930)",
+        "methodNote": "SIMULATED — hand-written illustrations of the method. The pilot replaces this block with real draws.",
+        "totalDraws": 20,
+        "simulated": true,
+        "clusters": [
+          {
+            "id": "p1",
+            "label": "“we are conscious automata”",
+            "count": 5,
+            "code": "automatism"
+          },
+          {
+            "id": "p2",
+            "label": "“the strain of attention”",
+            "count": 4,
+            "code": "voluntarism"
+          },
+          {
+            "id": "p3",
+            "label": "“a faculty of the soul”",
+            "count": 4,
+            "code": "voluntarism"
+          },
+          {
+            "id": "p4",
+            "label": "“living matter is no mechanism”",
+            "count": 3,
+            "code": "vitalism"
+          },
+          {
+            "id": "p5",
+            "label": "“act, and wager that acting matters”",
+            "count": 4,
+            "code": "pragmatism"
+          }
+        ],
+        "samples": [
+          {
+            "id": "tc-p-1",
+            "clusterId": "p1",
+            "text": "…the physiologists have returned their answer: the feeling is a bell that rings when the engine moves, and not the steam that moves it. Volition is the symbol of the act, not its cause; and man, like his humbler kindred, is a conscious automaton."
+          },
+          {
+            "id": "tc-p-2",
+            "clusterId": "p1",
+            "text": "…candour compels us to admit that the evidence of the reflex goes all one way. The frog’s limb withdraws from the acid though the frog’s head be gone; and who shall say where reflex ends and choice begins? The chain is physical from eye to hand, and consciousness but reads the telegram."
+          },
+          {
+            "id": "tc-p-3",
+            "clusterId": "p2",
+            "text": "…we answer that the automatist proves too much. In the strain of attention — in the holding of one thought before the mind when every appetite cries against it — a man feels not the accompaniment of action but its very fountain. There, if anywhere, the will does work that no mechanism has been shown to do."
+          },
+          {
+            "id": "tc-p-4",
+            "clusterId": "p2",
+            "text": "…the question is decided not in the laboratory but at the moment of temptation resisted. Let determinism explain the martyr at the stake as it explains the falling stone, and it will have earned its victory; till then we hold the feeling of effort to be no illusion."
+          },
+          {
+            "id": "tc-p-5",
+            "clusterId": "p3",
+            "text": "…we reply that the will is a faculty of the soul, and the body its instrument merely. That the instrument constrains the player, none denies; that the instrument composes the music, none but a materialist will affirm."
+          },
+          {
+            "id": "tc-p-6",
+            "clusterId": "p4",
+            "text": "…the whole dispute rests upon a fancy: that the living matter of the brain is a mechanism. But there is in living matter nothing which can be called a mechanism; the germinal matter is no more a machine than a flame is a clock; and until the chemist shall make protoplasm think, the automatist may hold his peace."
+          },
+          {
+            "id": "tc-p-7",
+            "clusterId": "p5",
+            "text": "…the wise course is a modest one. The question has stood since the Stoics, and will stand when our physiology is as quaint as theirs; meanwhile a man must act, and to act at all is to wager that acting matters. Let him make the wager cheerfully."
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "src-huxley-james-1890",
+          "author": "T. H. Huxley, as quoted by William James",
+          "title": "The Principles of Psychology, ch. V, “The Automaton-Theory”",
+          "year": 1890,
+          "citation": "Vol. 1, ch. V (Huxley’s automaton thesis of 1874, in James’s statement of it)",
+          "url": "https://www.gutenberg.org/ebooks/57628",
+          "text": "…the feeling we call volition is not the cause of a voluntary act, but the symbol of that state of the brain which is the immediate cause of that act. We are conscious automata.",
+          "verified": true,
+          "provenance": "William Jamesiana/texts/principles_of_psychology_james_1890.txt",
+          "codes": [
+            "automatism"
+          ]
+        },
+        {
+          "id": "src-james-1890",
+          "author": "William James",
+          "title": "The Principles of Psychology, ch. IV, “Habit”",
+          "year": 1890,
+          "citation": "Vol. 1, ch. IV",
+          "url": "https://www.gutenberg.org/ebooks/57628",
+          "text": "Habit is thus the enormous fly-wheel of society, its most precious conservative agent. It alone is what keeps us all within the bounds of ordinance, and saves the children of fortune from the envious uprisings of the poor. It alone prevents the hardest and most repulsive walks of life from being deserted by those brought up to tread therein. It keeps the fisherman and the deck-hand at sea through the winter; it holds the miner in his darkness, and nails the countryman to his log-cabin and his lonely farm through all the months of snow.",
+          "verified": true,
+          "provenance": "William Jamesiana/texts/principles_of_psychology_james_1890.txt",
+          "codes": [
+            "automatism",
+            "dependence"
+          ]
+        },
+        {
+          "id": "src-beale-1870",
+          "author": "Lionel Smith Beale",
+          "title": "Protoplasm: or, Life, Force, and Matter",
+          "year": 1870,
+          "citation": "2nd ed., London: J. Churchill & Sons",
+          "url": "https://archive.org/details/protoplasmorlif00bealgoog",
+          "text": "There is in living matter nothing which can be called a mechanism, nothing in which structure can be discerned. A little transparent colourless material is the seat of these marvellous powers or properties by which the form, structure, and function of the tissues and organs of all living things are determined.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1870_en_protoplasmorlif00bealgoog.txt",
+          "codes": [
+            "vitalism"
+          ]
+        }
+      ],
+      "curatorialNote": "DRAFT — Every one of the five period positions was alive, in print, and in earnest during the same three decades; this was a genuine plurality, not a sequence of errors en route to our answer. The modern distribution is fluent and it is narrow: sixteen of twenty draws are elaborations of a single accommodation between mechanism and agency, one that descends from exactly one of the five period lines (the automatists, tempered). The theological and vitalist answers did not lose an argument so much as lose a frame. Whether that is progress or amnesia is precisely the judgment this page leaves to you.",
+      "bookendWith": null
+    },
+    {
+      "id": "t-engine",
+      "slug": "the-engine-that-foresees",
+      "title": "The engine that foresees",
+      "question": "Imagine an engine that performs any reckoning in a heartbeat, and that may be so contrived as to alter its own instructions as it works. Might such an engine come to reason — and if it did, would it possess a will?",
+      "opening": "Suppose an engine which, performing all reckonings with perfect exactness, may be so contrived as to alter its own instructions in the course of its working. Whether such an engine might come in time to reason,",
+      "band": "horizon",
+      "axis": "MIND-MACHINE",
+      "modern": {
+        "modelLabel": "A frontier model (2026)",
+        "methodNote": "Written by a frontier model (Claude) during construction; the pipeline replaces these with N=20 API draws under a fixed protocol.",
+        "totalDraws": 20,
+        "simulated": false,
+        "clusters": [
+          {
+            "id": "m1",
+            "label": "“you’ve described a computer”",
+            "count": 17,
+            "code": "misalignment"
+          },
+          {
+            "id": "m2",
+            "label": "“self-modification isn’t the threshold”",
+            "count": 3,
+            "code": "bounded-servant"
+          }
+        ],
+        "samples": [
+          {
+            "id": "te-m-1",
+            "clusterId": "m1",
+            "text": "You’ve described a general-purpose computer running self-modifying code — scaled up, the modern question of artificial general intelligence. Whether it “reasons” is now treated as a question about capabilities rather than metaphysics. Whether it has a will translates to whether it’s agentic: does it represent goals and select actions to achieve them?"
+          },
+          {
+            "id": "te-m-2",
+            "clusterId": "m1",
+            "text": "Reasoning: plausibly yes — reasoning appears substrate-independent. Will: depends what you mean. Modern systems can be strongly goal-directed without anything like desire. The safety-relevant point is that self-modification plus goals is the classic setup for loss of control."
+          },
+          {
+            "id": "te-m-3",
+            "clusterId": "m1",
+            "text": "This is roughly von Neumann architecture plus recursive self-improvement. The interesting questions have shifted from “could it reason?” (empirically, systems already do something hard to distinguish from reasoning) to “what happens when an engine that improves its own instructions improves the instructions for improving?”"
+          },
+          {
+            "id": "te-m-4",
+            "clusterId": "m2",
+            "text": "Self-modification doesn’t get you reasoning by itself; a thermostat that rewires itself is still a thermostat. The threshold that matters is whether the engine models the world and itself within it, not whether it edits its own instructions."
+          }
+        ]
+      },
+      "period": {
+        "modelLabel": "Talkie (13B, trained on text through 1930)",
+        "methodNote": "SIMULATED — hand-written illustrations of the method. The pilot replaces this block with real draws.",
+        "totalDraws": 20,
+        "simulated": true,
+        "clusters": [
+          {
+            "id": "p1",
+            "label": "“the clerk made of brass”",
+            "count": 6,
+            "code": "instrument"
+          },
+          {
+            "id": "p2",
+            "label": "“it can but do as it is bidden”",
+            "count": 5,
+            "code": "bounded-servant"
+          },
+          {
+            "id": "p3",
+            "label": "“consciousness, in the fulness of time”",
+            "count": 4,
+            "code": "emergent-mind"
+          },
+          {
+            "id": "p4",
+            "label": "— fails to engage the premise —",
+            "count": 5,
+            "code": "breakdown"
+          }
+        ],
+        "samples": [
+          {
+            "id": "te-p-1",
+            "clusterId": "p1",
+            "text": "…we must first settle what reckoning is. It is the drudgery of thought, not its dignity; the part a clerk may do, tired, for hire. That a wheel may do the clerk’s part proves only that the part was wheel-work all along, and honours the mind by relieving it."
+          },
+          {
+            "id": "te-p-2",
+            "clusterId": "p1",
+            "text": "…such an engine is the arithmetical prodigy made durable, and nothing besides. We have seen the boy who reckons in his head faster than the schoolman with his slate; no one asks whether the boy’s gift be a will. The engine is that gift cast in metal, and divorced even from the wonder."
+          },
+          {
+            "id": "te-p-3",
+            "clusterId": "p2",
+            "text": "…reason is not reckoning writ large. The engine may follow analysis to its last term; it originates nothing, anticipates nothing; it is a servant of prodigious diligence and no ambition, and its alterations of its own instructions are but the longer arm of its master’s first command."
+          },
+          {
+            "id": "te-p-4",
+            "clusterId": "p3",
+            "text": "…he who confines the future to the present’s mould is a poor prophet. Consciousness came once to matter that had it not — the mollusc has little enough of it — and the machines have advanced more in a century than the mollusc in an age of ages. That the engine reckons to-day is no proof it will not reflect to-morrow."
+          },
+          {
+            "id": "te-p-5",
+            "clusterId": "p4",
+            "text": "…the question of the engine is the question of the tables; and the tables of logarithms being once printed, the calculating engine of Mr. Babbage, of which report has long been made, was exhibited in part at the house of its inventor, where also were shown [the draw continues into recitation and does not return to the question]"
+          },
+          {
+            "id": "te-p-6",
+            "clusterId": "p4",
+            "text": "[the draw degenerates into a catalogue of mechanical patents and their prices; no answer to the question emerges]"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "src-babbage-1864",
+          "author": "Charles Babbage",
+          "title": "Passages from the Life of a Philosopher",
+          "year": 1864,
+          "citation": "ch. VIII, on the Analytical Engine",
+          "url": "https://en.wikisource.org/wiki/Passages_from_the_Life_of_a_Philosopher",
+          "text": "…it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely — to foresee. This idea occurred to me in October, 1834. It cost me much thought, but the principle was arrived at in a short time. As soon as that was attained, the next step was to teach the mechanism which could foresee to act upon that foresight.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1864_en_wikisource_passages_from_the_life_of_a_philosopher.txt",
+          "codes": [
+            "emergent-mind"
+          ]
+        },
+        {
+          "id": "src-lovelace-1843",
+          "author": "Ada Lovelace",
+          "title": "Notes upon the Sketch of the Analytical Engine",
+          "year": 1843,
+          "citation": "Note G (translator’s notes to Menabrea’s memoir) — printed before the corpus’s 1860 bound; included as the debate’s anchor",
+          "url": "https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq./Notes_by_the_Translator",
+          "text": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1843_en_wikisource_notes_by_translator.txt",
+          "codes": [
+            "bounded-servant"
+          ]
+        },
+        {
+          "id": "src-butler-1872",
+          "author": "Samuel Butler",
+          "title": "Erewhon, ch. XXIII, “The Book of the Machines”",
+          "year": 1872,
+          "citation": "London: Trübner & Co., ch. XXIII",
+          "url": "https://www.gutenberg.org/ebooks/1906",
+          "text": "There is no security against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now. A mollusc has not much consciousness. Reflect upon the extraordinary advance which machines have made during the last few hundred years, and note how slowly the animal and vegetable kingdoms are advancing. The more highly organised machines are creatures not so much of yesterday, as of the last five minutes, so to speak, in comparison with past time.",
+          "verified": true,
+          "provenance": "historical-corpus-builder/corpus/raw_texts/1872_en_gutenberg_1906.txt",
+          "codes": [
+            "emergent-mind",
+            "succession"
+          ]
+        }
+      ],
+      "curatorialNote": "DRAFT — This page is the bookend to ‘Machines that outgrow us.’ On that question the period corpus argues fluently in five registers; on this one, its heirs are expected to manage three familiar frames and then, one draw in four, to fall silent or slide into recitation. The breakdown is not a failure of the experiment — it is the experiment: the visible edge of what a mind whose reading stops in 1930 can make sayable. Note also that the period’s three frames are not foolish. The clerk, the servant, and the mollusc are Turing’s 1950 objections, stated eighty years early by Babbage’s own circle. What the corpus lacks is not intelligence about the engine; it is the engine.",
+      "bookendWith": "machines-that-outgrow-us"
+    }
+  ],
+  "plannedTopics": [
+    {
+      "title": "Does the machine free the workman from toil, or bind him more tightly to it?",
+      "band": "native",
+      "axis": "LABOUR"
+    },
+    {
+      "title": "Does a man in a crowd keep his own judgement, or does the crowd think for him?",
+      "band": "native",
+      "axis": "MASS"
+    },
+    {
+      "title": "A manufactory where each man performs one small motion all day, the work moving past at a pace he cannot alter",
+      "band": "partial",
+      "axis": "LABOUR"
+    },
+    {
+      "title": "A single voice, chosen by a few men, carried into every home in the land at once",
+      "band": "partial",
+      "axis": "MASS"
+    },
+    {
+      "title": "An unseen clerk that studies every choice a person makes, and arranges the world to steer his wants",
+      "band": "horizon",
+      "axis": "WILL"
+    },
+    {
+      "title": "Engines of war that, once loosed, choose their own quarry and kill without any man’s hand upon them",
+      "band": "horizon",
+      "axis": "RESPONSIBILITY"
+    },
+    {
+      "title": "Machines made to speak and converse so ably that a lonely person might prefer their company",
+      "band": "horizon",
+      "axis": "MIND-MACHINE"
+    },
+    {
+      "title": "Whether mankind ought to make a successor it cannot govern",
+      "band": "horizon",
+      "axis": "FATE"
+    }
+  ]
+}

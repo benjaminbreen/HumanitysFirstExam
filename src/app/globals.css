@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens.
+ *
+ * Two registers, one page: the historical corpus reads as print on paper
+ * (Newsreader on warm paper, oxblood accents); the modern corpus reads as
+ * text on a screen (IBM Plex Mono on near-black panels, cobalt accents).
+ * The four alignment buckets get one categorical hue each — validated for
+ * contrast and CVD separation — and are never shown without a text label.
+ */
+@theme {
+  /* surfaces */
+  --color-paper: #f3efe6;
+  --color-paper-deep: #eae4d4;
+  --color-panel: #16181d;
+  --color-panel-soft: #23262e;
+
+  /* ink */
+  --color-ink: #211d19;
+  --color-ink-soft: #5c554b;
+  --color-ink-faint: #8a8174;
+  --color-line: #d9d2c3;
+  --color-panel-ink: #e9e7de;
+  --color-panel-faint: #9ca0ab;
+  --color-panel-line: #34383f;
+
+  /* corpus + alignment buckets (categorical, fixed order) */
+  --color-period: #8a2d22;
+  --color-modern: #2450c8;
+  --color-continuity: #217a4b;
+  --color-falsecont: #b07c1f;
+
+  /* type */
+  --font-display: var(--font-fraunces);
+  --font-serif: var(--font-newsreader);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-falsecont) 30%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-modern);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
