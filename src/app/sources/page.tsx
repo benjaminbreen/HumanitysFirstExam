@@ -561,7 +561,7 @@ export default function SourcesPage() {
             href="/answer-key/q33"
             className="font-mono text-xs underline decoration-line underline-offset-4 hover:text-period"
           >
-            Passage-selection prototype →
+            How passages are selected →
           </Link>
         </div>
       </footer>

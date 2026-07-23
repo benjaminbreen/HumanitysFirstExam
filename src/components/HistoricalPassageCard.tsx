@@ -1,16 +1,5 @@
 import CodeChip from "@/components/CodeChip";
-import type {
-  HistoricalPassage,
-  HistoricalSourceVerification,
-  IndependentConvergenceStatus,
-} from "@/lib/types";
-
-const SOURCE_LABELS: Record<HistoricalSourceVerification, string> = {
-  "repository-text-checked": "repository text checked",
-  "scan-checked": "scan and page checked",
-  "transcription-checked": "transcription and date checked",
-  "transcription-checked-scan-pending": "transcription checked · issue scan pending",
-};
+import type { HistoricalPassage, IndependentConvergenceStatus } from "@/lib/types";
 
 const CONVERGENCE_LABELS: Record<IndependentConvergenceStatus, string> = {
   candidate: "candidate for independent comparison",
@@ -19,9 +8,6 @@ const CONVERGENCE_LABELS: Record<IndependentConvergenceStatus, string> = {
 };
 
 export default function HistoricalPassageCard({ passage }: { passage: HistoricalPassage }) {
-  const sourcePending = passage.source.verificationLevel === "transcription-checked-scan-pending";
-  const translationPending = passage.translation.reviewStatus === "required";
-
   return (
     <article className="rounded-sm border border-line border-l-2 border-l-period bg-paper-deep/35 p-5 md:p-6">
       <div className="flex flex-wrap items-start justify-between gap-3">
@@ -35,26 +21,6 @@ export default function HistoricalPassageCard({ passage }: { passage: Historical
           <p className="mt-1 text-sm text-ink-soft">
             {passage.region} · {passage.language} · {passage.genre}
           </p>
-        </div>
-        <div className="flex max-w-md flex-wrap justify-end gap-1.5">
-          <span
-            className={`rounded-full border px-2.5 py-0.5 font-mono text-[11px] ${
-              sourcePending
-                ? "border-falsecont/40 bg-falsecont/10 text-falsecont"
-                : "border-continuity/40 bg-continuity/10 text-continuity"
-            }`}
-          >
-            {SOURCE_LABELS[passage.source.verificationLevel]}
-          </span>
-          <span
-            className={`rounded-full border px-2.5 py-0.5 font-mono text-[11px] ${
-              translationPending
-                ? "border-falsecont/40 bg-falsecont/10 text-falsecont"
-                : "border-continuity/40 bg-continuity/10 text-continuity"
-            }`}
-          >
-            {translationPending ? "working translation · review needed" : "original is English"}
-          </span>
         </div>
       </div>
 

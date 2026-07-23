@@ -192,7 +192,7 @@ function SourceBody({
           </div>
           <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-soft">
             <span>{workingPassage.locator}</span>
-            <span>working prototype classification</span>
+            <span>passage classification</span>
             {workingPassage.sourceCheckRequired && (
               <span>source wording still to be checked</span>
             )}

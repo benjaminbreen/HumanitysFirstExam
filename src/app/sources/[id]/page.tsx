@@ -155,7 +155,7 @@ export default async function SourceDetailPage({
           {workingPassage && (
             <details open className="mb-9 border-y border-line py-4">
               <summary className="cursor-pointer font-mono text-xs text-ink-soft hover:text-ink">
-                Selected passage and working classification
+                Selected passage and classification
               </summary>
               <div className="mt-5">
                 <blockquote className="border-l-2 border-period pl-5 text-lg leading-relaxed">
@@ -245,7 +245,7 @@ export default async function SourceDetailPage({
                   Classification
                 </dt>
                 <dd className="mt-1">
-                  Working prototype tags; editable in the local review workspace.
+                  Tags connect the passage to the project&apos;s historical concept space.
                 </dd>
               </div>
             )}

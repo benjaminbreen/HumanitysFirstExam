@@ -131,7 +131,7 @@ const positions = [...byClaim.values()].sort(
 const BAND_LABELS: Record<Position["band"], string> = {
   shared: "Attested and occupied",
   attested: "Attested, unreached",
-  occupied: "Occupied, unattested in the pilot record",
+  occupied: "Occupied, unattested in the historical concept space",
 };
 
 const attestedCount = positions.filter((p) => p.passages.length > 0).length;
@@ -301,7 +301,7 @@ function Ledger() {
                     </p>
                     {p.passages.length === 0 && (
                       <p className="text-sm text-ink-faint">
-                        No passage in the pilot record advances this claim.
+                        No selected passage advances this claim.
                       </p>
                     )}
                     {p.passages.map((passage) => (
@@ -421,19 +421,7 @@ export default function FieldPage() {
       </nav>
 
       <header className="mt-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
-            real model outputs
-          </span>
-          <span className="rounded-full border border-falsecont/40 bg-falsecont/10 px-2.5 py-0.5 font-mono text-[11px] text-falsecont">
-            working tags · not historian-verified
-          </span>
-          <span className="font-mono text-[11px] text-ink-faint">
-            pilot · {prototypePassages.passages.length} passages ·{" "}
-            {draws.length} draws
-          </span>
-        </div>
-        <h1 className="mt-4 font-display text-3xl font-semibold tracking-tight md:text-4xl">
+        <h1 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
           The field
         </h1>
         <p className="mt-4 max-w-3xl font-serif text-lg leading-relaxed">

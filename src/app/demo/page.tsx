@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SourcePassageCard from "@/components/SourcePassageCard";
-import { data, historicalPassages, liveRuns } from "@/lib/data";
+import { data, liveRuns, prototypePassages } from "@/lib/data";
 import type { LiveDraw } from "@/lib/types";
 
 export const metadata: Metadata = {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 const q29 = liveRuns.questions.find((question) => question.n === 29)!;
-const zulawski = historicalPassages.passages.find(
-  (passage) => passage.id === "HTP-007",
+const forster = prototypePassages.passages.find(
+  (passage) => passage.id === "pilot-16",
 )!;
 
 const differences = [
@@ -171,9 +171,8 @@ export default function DemoPage() {
           The historical record complicates both
         </h2>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
-          The sources introduce a third possibility: change can be lawful and
-          technically impressive without constituting moral progress or
-          enlarging the will.
+          The sources introduce a third possibility: technical change can be
+          real and impressive while narrowing human intelligence and purpose.
         </p>
 
         <div className="mt-7 grid gap-8 md:grid-cols-2">
@@ -202,17 +201,20 @@ export default function DemoPage() {
 
           <figure>
             <blockquote className="border-l-2 border-continuity pl-5 font-serif text-xl leading-relaxed">
-              “They work relatively short hours and are well paid, but their
-              minds, sharpened in one direction, grow strangely dull in all
-              others. Everything is wisely given to them, until in the end they
-              cease to want anything at all.”
+              “No one confessed the Machine was out of hand. Year by year it
+              was served with increased efficiency and decreased intelligence.
+              [...] Humanity, in its desire for comfort, had over-reached
+              itself. [...] Quietly and complacently, it was sinking into
+              decadence, and progress had come to mean the progress of the
+              Machine.”
             </blockquote>
             <figcaption className="mt-4 text-sm leading-relaxed text-ink-soft">
-              <span className="font-mono text-xs text-continuity">1911</span>{" "}
-              Jerzy Żuławski, <i>The Old Earth</i>. Scan checked; working
-              translation awaiting review.{" "}
+              <span className="font-mono text-xs text-continuity">1909</span>{" "}
+              E. M. Forster, <i>The Machine Stops</i>. Forster makes the
+              machine&apos;s autonomous advance—not human betterment—the thing
+              called progress.{" "}
               <a
-                href={zulawski.source.url}
+                href={forster.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline decoration-line underline-offset-4"
@@ -267,15 +269,12 @@ export default function DemoPage() {
               ))}
               <figure className="border-l-2 border-continuity pl-5">
                 <figcaption className="text-sm text-ink-soft">
-                  <span className="font-mono text-xs text-continuity">1911</span>{" "}
-                  — {zulawski.author}, <i>{zulawski.title}</i>
+                  <span className="font-mono text-xs text-continuity">1909</span>{" "}
+                  — {forster.author}, <i>The Machine Stops</i>
                 </figcaption>
                 <blockquote className="mt-3 leading-relaxed">
-                  {zulawski.englishText}
+                  {forster.originalText}
                 </blockquote>
-                <p className="mt-3 font-serif text-sm leading-relaxed text-ink-soft" lang="pl">
-                  {zulawski.originalText}
-                </p>
               </figure>
             </div>
           </details>

@@ -28,7 +28,7 @@ export default function ReckoningPage() {
             href="/benchmark"
             className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
           >
-            benchmark pilot
+            historical concept-space map
           </Link>{" "}
           scores fresh answers to this question against thirteen documented
           positions.

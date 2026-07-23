@@ -231,9 +231,9 @@ tr:has(.poshover-b:hover) .pospill-b,
 tr:has(.poshover-c:hover) .pospill-c,
 tr:has(.poshover-d:hover) .pospill-d,
 tr:has(.poshover-e:hover) .pospill-e {
-  transform: scale(1.18);
-  font-weight: 700;
-  filter: saturate(2.2);
+  transform: scale(1.05);
+  filter: saturate(1.35);
+  box-shadow: 0 0 0 1px currentColor;
 }
 
 tr:has(.poshover-a:hover) .pospill-a.posrep::after,

@@ -6,9 +6,9 @@ import { data, getCode, q33AnswerKey } from "@/lib/data";
 import type { AnswerKeyAttestation, AnswerKeyPosition } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: `Q33 answer-key prototype · ${data.meta.title}`,
+  title: `Q33 answer key · ${data.meta.title}`,
   description:
-    "A worked prototype showing how source passages become historically attested answers and a computable benchmark key.",
+    "How source passages become historically attested answers and a computable benchmark key.",
 };
 
 function VerdictChip({ verdict }: { verdict: AnswerKeyPosition["verdict"] }) {
@@ -110,7 +110,7 @@ export default function Q33AnswerKeyPage() {
       <div className="mt-5 flex flex-wrap items-start justify-between gap-4">
         <div>
           <p className="font-mono text-xs uppercase tracking-wider text-period">
-            Worked prototype · Q{q33AnswerKey.question.n}
+            Worked answer key · Q{q33AnswerKey.question.n}
           </p>
           <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight">
             From passages to an answer key
@@ -159,7 +159,7 @@ export default function Q33AnswerKeyPage() {
 
       <section className="mt-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">
-          The five answers in the prototype key
+          The five answers in the key
         </h2>
         <p className="mt-2 max-w-3xl leading-relaxed text-ink-soft">
           These five cards—not the source list—are what a set of responses is

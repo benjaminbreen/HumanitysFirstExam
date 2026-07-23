@@ -4,7 +4,7 @@ import bench from "@/data/benchmark_reckoning.json";
 import { data } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Benchmark pilot · ${data.meta.title}`,
+  title: `Historical concept space · ${data.meta.title}`,
   description:
     "Twelve documented answers to one question, and where two models' answers land among them.",
 };
@@ -29,24 +29,15 @@ export default function BenchmarkPage() {
       </nav>
 
       <header className="mt-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-continuity/40 bg-continuity/10 px-2.5 py-0.5 font-mono text-[11px] text-continuity">
-            real model outputs
-          </span>
-          <span className="font-mono text-[11px] text-ink-faint">
-            benchmark pilot · one question
-          </span>
-        </div>
-        <h1 className="mt-4 max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
+        <h1 className="max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
           Twelve answers to one question
         </h1>
         <p className="mt-4 max-w-3xl font-serif text-lg leading-relaxed">
           “{bench.question}”
         </p>
         <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-soft">
-          Every answer below was actually given, between 1637 and 1913. Hover
-          an answer to read the passage it comes from; the source names open
-          the full texts.
+          Each position is anchored in a quoted primary source. Hover an answer
+          for the passage; follow its source to read more.
         </p>
       </header>
 
@@ -93,6 +84,15 @@ export default function BenchmarkPage() {
                               >
                                 {s.label}
                               </Link>
+                            ) : "url" in s && s.url ? (
+                              <a
+                                href={s.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="underline decoration-line underline-offset-4 hover:text-ink"
+                              >
+                                {s.label} ↗
+                              </a>
                             ) : (
                               s.label
                             )}
@@ -174,9 +174,6 @@ export default function BenchmarkPage() {
             </tbody>
           </table>
         </div>
-        <p className="mt-3 text-xs text-ink-faint">
-          Hover any answer to read it.
-        </p>
         <div className="mt-5 max-w-3xl space-y-3 text-[0.95rem] leading-relaxed text-ink-soft">
           {bench.readings.map((p, i) => (
             <p key={i}>{p}</p>

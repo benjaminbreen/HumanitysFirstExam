@@ -78,7 +78,7 @@ export default function RootLayout({
                 {data.meta.title}
               </p>
               <p className="mt-1">
-                A prototype by{" "}
+                Created by{" "}
                 <a
                   href="https://benjaminpbreen.com"
                   target="_blank"

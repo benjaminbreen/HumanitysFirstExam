@@ -621,7 +621,7 @@
       "language": "English",
       "region": null,
       "tier": "control",
-      "relevance": "Habit, automaton theory, brain function, and association.",
+      "relevance": "James’s automaton theory: the brain supplies possibilities, while consciousness creates and selects ends, reinforces favourable paths, and represses others. Habit, brain function, and association.",
       "questions": [
         3,
         8,
@@ -1301,7 +1301,7 @@
       "language": "English",
       "region": null,
       "tier": "benchmark_grounds",
-      "relevance": "Lecture I states the organism's apparent autonomy of its own ends, then criticizes the vitalist reading of it. 1921 printing of the 1913 lectures.",
+      "relevance": "Haldane rejects both mechanism and a separate vital force: an organism's parts, activities, and environment are manifestations of a self-maintaining whole. Conscious personality further learns from experience and acts with past and future in view. 1921 printing of the 1913 lectures.",
       "questions": [],
       "subjects": [
         "MIND-MACHINE"

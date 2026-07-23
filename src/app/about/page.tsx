@@ -14,9 +14,11 @@ export default function AboutPage() {
       </h1>
       <div className="mt-6 max-w-2xl space-y-4 font-serif text-lg leading-relaxed text-ink-soft">
         <p>
-          Humanity&apos;s First Exam is a research prototype exploring how older
-          ways of thinking about machines can challenge the assumptions of
-          contemporary AI.
+          Humanity&apos;s First Exam asks whether contemporary AI debates become
+          narrower when they are detached from the arguments that once made
+          machines, autonomy, dependence, and progress intelligible. It uses
+          primary sources to make those alternative premises available for
+          inspection.
         </p>
         <p>
           It was created by{" "}

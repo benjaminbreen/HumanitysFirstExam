@@ -21,9 +21,9 @@
   },
   {
    "verdict": "denies",
-   "answer": "it has no purposes of its own",
-   "statement": "Reason belongs to a consciousness that pursues ends of its own choosing; a mechanism has none.",
-   "quote": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all.",
+   "answer": "reason requires consciousness that selects ends",
+   "statement": "A physical mechanism supplies possibilities and means, but does not make one outcome matter more than another. Consciousness creates and selects ends, then reinforces the paths that serve them; computation or self-modification alone therefore does not establish will.",
+   "quote": "The brain is an instrument of possibilities, but of no certainties. But the consciousness, with its own ends present to it, and knowing also well which possibilities lead thereto and which away, will, if endowed with causal efficacy, reinforce the favorable possibilities and repress the unfavorable or indifferent ones.",
    "sources": [
     {
      "label": "William James, The Principles of Psychology (1890), ch. V",
@@ -53,9 +53,9 @@
   },
   {
    "verdict": "denies",
-   "answer": "a machine lacks the integrated autonomy of an organism",
-   "statement": "Living things pursue their own ends as integrated wholes under endlessly varying conditions; their action is intelligible only as the coordinated response of the whole organism, and no assembly of parts behaves this way.",
-   "quote": "Living organisms seem everywhere to present evidence of an autonomy of their own. They seem to go their own way, and pursue their own ends, in spite of all kinds of disturbing conditions. ... Mechanisms which would cause them to do this under the very varied conditions which they experience seem hardly conceivable.",
+   "answer": "a mechanism lacks the living unity of an organism",
+   "statement": "A machine can be understood by isolating its parts and their externally caused motions. A living organism cannot: its parts, activities, and environment are expressions of one continuously self-maintaining whole. Mechanistic explanation is useful within physiology, but cannot exhaust what life is; conscious personality further learns from experience and acts with past and future in view.",
+   "quote": "The parts and activities which we discern in a living organism and its biological environment can be understood only as manifestations of a whole which is the life of the organism. ... They cannot be understood as the separate parts and activities of a machine can be understood.",
    "sources": [
     {
      "label": "J. S. Haldane, Mechanism, Life and Personality (1913), Lecture I",
@@ -66,8 +66,8 @@
   {
    "verdict": "denies",
    "answer": "mind requires an immaterial principle",
-   "statement": "Reason and will require a vital or immaterial principle that no arrangement of matter supplies.",
-   "quote": "",
+   "statement": "Thought requires an essentially active, unified subject. Intelligence and freedom are the attributes that make this immaterial subject spiritual; the human soul is therefore not merely a force, but an intelligent and free force.",
+   "quote": "The soul, as consciousness reveals it to us, is therefore not merely a self-moving force, a primum movens, but a force that knows itself to be acting, that is master of some of its actions, an intelligent and free force.",
    "sources": [
     {
      "label": "Francisque Bouillier, Du principe vital et de l'ame pensante (1862)",
@@ -143,7 +143,7 @@
    "verdict": "splits",
    "answer": "formal inference can be done by machinery",
    "statement": "The true process of logical inference can be accomplished in a purely mechanical manner; conscious thought is still needed to frame the problem and interpret the result, but the inference itself is the machine's. Bosanquet widens the claim from logical machines to scientific instruments generally: knowledge is embodied in apparatus.",
-   "quote": "It cannot be asserted indeed that the machine entirely supersedes the agency of conscious thought; mental labour is required in interpreting the meaning of grammatical expressions, and in correctly impressing that meaning on the machine; it is further required in gathering the conclusion from the remaining combinations. Nevertheless the true process of logical inference is really accomplished in a purely mechanical manner.",
+   "quote": "I think that a spectroscope, or a fine compound microscope with all sorts of illuminating devices, or even a first-rate chronometer, is perhaps as truly a reasoning machine as any logical apparatus that has been devised.",
    "sources": [
     {
      "label": "W. S. Jevons, The Principles of Science (1874/1877)",
@@ -151,7 +151,8 @@
     },
     {
      "label": "Bernard Bosanquet, Knowledge and Reality (1885)",
-     "id": null
+     "id": null,
+     "url": "https://commons.wikimedia.org/wiki/File:Knowledge_and_reality;_a_criticism_of_Mr._F._H._Bradley%27s_%22Principles_of_logic%22_(IA_knowledgereality00bosa).pdf"
     }
    ]
   },

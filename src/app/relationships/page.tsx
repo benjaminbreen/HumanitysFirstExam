@@ -103,7 +103,7 @@ export default function RelationshipsPage() {
       </nav>
 
       <header className="mt-8">
-        <p className="font-mono text-[11px] text-ink-faint">12-question pilot</p>
+        <p className="font-mono text-[11px] text-ink-faint">12-question map</p>
         <h1 className="mt-4 font-display text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
           The relationship map
         </h1>

@@ -4,11 +4,83 @@
     "status": "working-prototype-classifications",
     "generatedAt": "2026-07-21T20:14:13.111Z",
     "model": "gpt-5.6-luna",
-    "passageCount": 21,
+    "passageCount": 24,
     "sourceCheckRequiredCount": 4,
     "note": "Working prototype tags delegated to the coding model. They may be corrected in the local review workspace; they are not presented as historian-verified gold data."
   },
   "passages": [
+    {
+      "id": "pilot-24",
+      "sourceId": "control-spencer-first-principles-1862",
+      "author": "Herbert Spencer",
+      "title": "First Principles",
+      "year": 1862,
+      "language": "English",
+      "locator": "Chapter II, ‘The Law of Evolution,’ pp. 144–146",
+      "sourceUrl": "https://archive.org/details/cu31924029047558/page/n160/mode/1up",
+      "originalText": "The class of phenomena to be considered under the title of Evolution, is in a great measure co-extensive with the class commonly indicated by the word Progress. But the word Progress is here inappropriate, for several reasons. To specify these reasons will perhaps be the best way of showing what is to be understood by Evolution.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "verbatim-selected-excerpt-in-source-edition",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["progress-and-decline"],
+        "claims": [],
+        "grounds": ["nature-and-evolution", "scientific-or-empirical-evidence"],
+        "autonomyEffect": "no-judgment",
+        "genre": "philosophy",
+        "modes": ["analysis"],
+        "rationale": "Spencer distinguishes evolution from progress: a broad account of lawful change does not by itself establish moral improvement, human flourishing, or a direction history ought to take."
+      }
+    },
+    {
+      "id": "pilot-22",
+      "sourceId": "grounds-haldane-mechanism-1913",
+      "author": "J. S. Haldane",
+      "title": "Mechanism, Life and Personality",
+      "year": 1913,
+      "language": "English",
+      "locator": "Summary of Book, pp. 140–45 (1921 printing of the 1913 lectures)",
+      "sourceUrl": "https://archive.org/details/mechanismlifeper0000jsha",
+      "originalText": "In the light of this more adequate hypothesis the parts and activities which we discern in a living organism and its biological environment can be understood only as manifestations of a whole which is the life of the organism, and which expresses itself in activity. The parts and their spatial arrangements, including environment, are the expression of active and unceasing maintenance, nutrition, or metabolism; and the activities are activities which express themselves in this maintenance. Reproduction is only a phase of that constant insensible reproduction which is ordinarily called nutrition.\n\nThe structures or spatial arrangements and activities maintain themselves as a whole, and together constitute the whole which we call life. They cannot be understood as the separate parts and activities of a machine can be understood; and the spatial arrangements of the parts, including environment, cannot be understood as those of a mechanical system. Life does not exist as something localised in space. Spatial relations are within it, as an expression of it.\n\nAn organism considered simply as such is blind to its experience. Its reactions are simply the expression of its nature. ... The characteristic distinction of a conscious organism is that it ‘learns’ from experience. This signifies that a conscious nervous response is determined not merely by the simultaneously inflowing influences from all parts of the living body and its environment, but also by what, in order of time, has preceded or will succeed.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "verbatim-selected-excerpts-in-full-source",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["tools-and-agents", "machine-minds-and-made-persons"],
+        "claims": [{ "claimId": "instrument", "relation": "rejects" }],
+        "grounds": ["scientific-or-empirical-evidence", "religion-or-metaphysics"],
+        "autonomyEffect": "no-judgment",
+        "genre": "philosophy",
+        "modes": ["analysis"],
+        "rationale": "Haldane rejects both the reduction of life to separable mechanisms and the hypothesis of an independently acting vital force. Life is an active, self-maintaining organism–environment whole; conscious personality adds learning from experience, with past and future in view."
+      }
+    },
+    {
+      "id": "pilot-23",
+      "sourceId": "grounds-bouillier-principe-vital-1862",
+      "author": "Francisque Bouillier",
+      "title": "Du principe vital et de l’âme pensante",
+      "year": 1862,
+      "language": "French",
+      "locator": "pp. 15–16, 28–30",
+      "sourceUrl": "https://archive.org/details/duprincipevital00bouigoog",
+      "originalText": "Sans doute, la conscience nous apprend que nous pensons; si nous ne pensions pas, nous ne saurions pas que nous existons. Mais elle nous apprend en même temps qu’il y a en nous, ou plutôt que nous sommes nous-mêmes, un principe essentiellement actif, cause et sujet de la pensée, sans lequel la pensée elle-même n’existerait pas. Cette prise de possession de soi-même, ce redoublement sur soi, cette opposition du moi à ce qui n’est pas moi, condition essentielle de toute pensée, n’exigent-ils pas nécessairement un sujet doué d’activité, activité qui n’est pas moins présente à la conscience que la pensée elle-même et qui ne peut s’en séparer?\n\nMais, après avoir considéré l’âme humaine dans ce qu’elle a de commun avec toutes les autres âmes, il faut la considérer aussi dans ce qu’elle a de spécial, sa prééminence infinie, et, à proprement parler, sa spiritualité. Il faut distinguer, en effet, l’immatérialité de la spiritualité. De cela seul que l’être de l’âme est cause et force, sans aucun rapport de ressemblance avec l’étendue et la figure, avec rien qui puisse se représenter aux sens et à l’imagination, de cela seul qu’il est essentiellement actif, un et identique, il suit que l’âme est immatérielle. Partout où il y a l’activité essentielle avec l’unité, il y a l’immatérialité; toutes les âmes sans exception, celles des animaux et celles des plantes, toutes les forces de la nature sont immatérielles. Mais cette immatérialité n’est que la base de la spiritualité et non la spiritualité elle-même. La spiritualité, c’est l’immatérialité accompagnée de certains attributs, de la liberté et de l’intelligence.\n\nL’âme, telle que la conscience nous la révèle, n’est donc pas seulement une force soi-mouvante, un primum movens, mais une force qui se sait agissante, qui est maîtresse d’une partie de ses actions, une force intelligente et libre. Voilà ce que l’âme humaine possède en propre, voilà ce qui lui appartient à l’exclusion de toutes les autres âmes. […] Qu’est-ce donc que l’âme, et qu’est-ce que la spiritualité? L’âme est une force, une force motrice, une force intelligente et libre. La spiritualité commence où commence l’intelligence; elle a pour base l’activité essentielle et l’unité, elle a pour couronnement l’intelligence et la liberté.",
+      "englishText": "Consciousness undoubtedly teaches us that we think; if we did not think, we would not know that we exist. But at the same time it teaches us that there is within us—or rather, that we ourselves are—an essentially active principle, the cause and subject of thought, without which thought itself would not exist. This taking possession of oneself, this turning back upon oneself, this opposition of the self to what is not the self, which is an essential condition of all thought—do these not necessarily require a subject endowed with activity, an activity no less present to consciousness than thought itself and inseparable from it?\n\nBut after considering the human soul in what it has in common with all other souls, we must also consider what is distinctive in it: its infinite preeminence and, properly speaking, its spirituality. Immateriality must indeed be distinguished from spirituality. From the mere fact that the being of the soul is cause and force, bearing no resemblance to extension or figure, or to anything that can be represented to the senses and the imagination; from the mere fact that it is essentially active, one, and identical, it follows that the soul is immaterial. Wherever essential activity is joined with unity, there is immateriality. All souls without exception—the souls of animals and plants—and all the forces of nature are immaterial. But this immateriality is only the basis of spirituality, not spirituality itself. Spirituality is immateriality accompanied by certain attributes: freedom and intelligence.\n\nThe soul, as consciousness reveals it to us, is therefore not merely a self-moving force, a primum movens, but a force that knows itself to be acting, that is master of some of its actions, an intelligent and free force. This is what the human soul possesses as its own and what belongs to it to the exclusion of all other souls. […] What, then, are the soul and spirituality? The soul is a force: a motive force, an intelligent and free force. Spirituality begins where intelligence begins; its basis is essential activity and unity, and its culmination is intelligence and freedom.",
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "verbatim-cited-passage-with-supplied-translation",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["free-will-and-automatism", "machine-minds-and-made-persons"],
+        "claims": [{ "claimId": "instrument", "relation": "rejects" }],
+        "grounds": ["religion-or-metaphysics"],
+        "autonomyEffect": "enlarges",
+        "genre": "philosophy",
+        "modes": ["analysis"],
+        "rationale": "Bouillier grounds thought in an essentially active, unified, self-knowing subject. Intelligence and freedom make the human soul spiritual, so neither can be reduced to an arrangement of material parts."
+      }
+    },
     {
       "id": "pilot-21",
       "sourceId": "grounds-babbage-passages-1864",
@@ -344,33 +416,34 @@
       "title": "The Principles of Psychology, Volume 1",
       "year": 1890,
       "language": "English",
-      "locator": "Local word range 46861–47285",
+      "locator": "Chapter V, ‘The Automaton-Theory,’ pp. 141–42",
       "sourceUrl": "https://www.gutenberg.org/ebooks/57628",
-      "originalText": "As a final practical maxim, relative to these\nhabits of the will, we may, then, offer something like this: _Keep\nthe faculty of effort alive in you by a little gratuitous exercise\nevery day_. That is, be systematically ascetic or heroic in little\nunnecessary points, do every day or two something for no other reason\nthan that you would rather not do it, so that when the hour of dire\nneed draws nigh, it may find you not unnerved and untrained to stand\nthe test. Asceticism of this sort is like the insurance which a man\npays on his house and goods. The tax does him no good at the time, and\npossibly may never bring him a return. But if the fire _does_ come,\nhis having paid it will be his salvation from ruin. So with the man\nwho has daily inured himself to habits of concentrated attention,\nenergetic volition, and self-denial in unnecessary things. He will\nstand like a tower when everything rocks around him, and when his\nsofter fellow-mortals are winnowed like chaff in the blast.",
+      "originalText": "The organs themselves, and all the rest of the physical world, will, however, all the time be quite indifferent to this consequence, and would quite as cheerfully, the circumstances changed, compass the animal’s destruction. In a word, survival can enter into a purely physiological discussion only as an hypothesis made by an onlooker, about the future. But the moment you bring a consciousness into the midst, survival ceases to be a mere hypothesis. No longer is it, ‘if survival is to occur, then so and so must brain and other organs work.’ It has now become an imperative decree: ‘Survival shall occur, and therefore organs must so work!’ Real ends appear for the first time now upon the world’s stage. The conception of consciousness as a purely cognitive form of being, which is the pet way of regarding it in many idealistic schools, modern as well as ancient, is thoroughly anti-psychological, as the remainder of this book will show. Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all. Its powers of cognition are mainly subservient to these ends, discerning which facts further them and which do not.\n\nNow let consciousness only be what it seems to itself, and it will help an instable brain to compass its proper ends. The movements of the brain per se yield the means of attaining these ends mechanically, but only out of a lot of other ends, if so they may be called, which are not the proper ones of the animal, but often quite opposed. The brain is an instrument of possibilities, but of no certainties. But the consciousness, with its own ends present to it, and knowing also well which possibilities lead thereto and which away, will, if endowed with causal efficacy, reinforce the favorable possibilities and repress the unfavorable or indifferent ones. The nerve-currents, coursing through the cells and fibres, must in this case be supposed strengthened by the fact of their awaking one consciousness and dampened by awaking another. How such reaction of the consciousness upon the currents may occur must remain at present unsolved: it is enough for my purpose to have shown that it may not uselessly exist, and that the matter is less simple than the brain-automatists hold.",
       "englishText": null,
       "sourceCheckRequired": false,
-      "sourceMatchLevel": "whitespace-normalized-selected-window",
+      "sourceMatchLevel": "verbatim-contextual-passage-in-full-source",
       "classification": {
         "status": "working-prototype-classification",
         "themes": [
-          "habit-and-self-command",
-          "moral-responsibility"
+          "free-will-and-automatism",
+          "machine-minds-and-made-persons"
         ],
         "claims": [
           {
-            "claimId": "voluntarism",
+            "claimId": "instrument",
             "relation": "advances"
           }
         ],
         "grounds": [
-          "character-and-human-development"
+          "scientific-or-empirical-evidence",
+          "religion-or-metaphysics"
         ],
         "autonomyEffect": "enlarges",
         "genre": "philosophy",
         "modes": [
-          "proposal"
+          "analysis"
         ],
-        "rationale": "James argues that deliberately exercising effort, attention, and self-denial preserves and strengthens one's capacity for voluntary action, especially under future pressure. The passage presents self-discipline as a practical means of forming character and maintaining self-command."
+        "rationale": "James distinguishes a physical brain, which supplies possible routes, from consciousness, which creates ends, selects among alternatives, and can make the routes serving its ends more effective. He therefore rejects the view that consciousness is a causally idle accompaniment of brain activity."
       }
     },
     {

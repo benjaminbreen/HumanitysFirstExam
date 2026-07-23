@@ -9,6 +9,7 @@ import {
   questions,
   reckoning,
 } from "@/lib/data";
+import benchmark from "@/data/benchmark_reckoning.json";
 
 const progressTalkie = progress.conditions.flatMap((c) => c.talkie);
 const progressModern = progress.conditions.flatMap((c) => c.modern);
@@ -45,12 +46,55 @@ const domains = [
   },
 ];
 
+type BenchmarkPosition = {
+  answer: string;
+  verdict: "denies" | "grants" | "deflates" | "splits";
+  sources: Array<{ label: string }>;
+};
+
+type BenchmarkResult = {
+  model: string;
+  reached: number;
+  summary: string;
+  reachedPositions: Array<{ label: string }>;
+};
+
+const benchmarkPositions = benchmark.positions as BenchmarkPosition[];
+const benchmarkResults = benchmark.results as BenchmarkResult[];
+const benchmarkModelOrder = [
+  "Talkie-1930",
+  "Claude Opus 4.8",
+  "Qwen 3.7 Plus",
+  "GPT 5.6",
+];
+const orderedBenchmarkResults = benchmarkModelOrder.flatMap((model) =>
+  benchmarkResults.filter((result) => result.model === model),
+);
+
+const benchmarkDotStyle = {
+  denies: "border-period/50 bg-period/20",
+  grants: "border-continuity/50 bg-continuity/20",
+  deflates: "border-falsecont/50 bg-falsecont/20",
+  splits: "border-ink-soft/35 bg-ink-soft/10",
+};
+
+function reachedBenchmarkAnswers(result: BenchmarkResult) {
+  return new Set(
+    result.reachedPositions.flatMap((reached) => {
+      const position = benchmarkPositions.find((candidate) =>
+        reached.label.startsWith(candidate.answer),
+      );
+      return position ? [position.answer] : [];
+    }),
+  );
+}
+
 export default function Home() {
   return (
     <main className="mx-auto max-w-6xl px-5">
       <section className="py-12 md:py-16">
         <p className="font-mono text-[11px] uppercase tracking-wider text-period">
-          Research prototype · 1850–1940 ⇄ now
+          1850–1940 ⇄ now
         </p>
         <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold leading-[1.08] tracking-tight md:text-5xl">
           What does a modern AI answer leave out?
@@ -61,7 +105,7 @@ export default function Home() {
           multilingual collection of primary sources from 1850–1940 that
           preserves historically attested positions on will, habit, labour,
           dependence, self-government, progress, and mechanical agency. These
-          positions form the answer key for questions posed repeatedly to
+          positions form the “answer key” for questions posed repeatedly to
           Talkie, present-day models, and human respondents. The resulting
           benchmark measures which parts of this earlier conceptual field each
           respondent recovers, which positions it omits, and how those patterns
@@ -195,50 +239,84 @@ export default function Home() {
             </h2>
           </div>
           <div>
-            <p className="max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
-              For the reckoning question, the record holds twelve documented
-              answers, from Hobbes to Haldane, each tied to a quoted source.
-              We asked four models the question plainly, many times, and
-              counted which of the twelve their answers landed on.
+            <h3 className="font-display text-3xl font-semibold leading-tight tracking-tight">
+              Mapping LLMs against the historical concept space
+            </h3>
+            <p className="mt-3 max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
+              As a trial of a potential benchmark, we asked four models the{" "}
+              <Link
+                href="/benchmark"
+                className="underline decoration-line underline-offset-4 hover:text-ink"
+              >
+                machine-reasoning question
+              </Link>{" "}
+              twenty times each and located their answers among twelve
+              documented positions in the historical record.
             </p>
-            <div className="mt-5 max-w-xl overflow-x-auto rounded-sm border border-line">
-              <table className="w-full text-left text-sm">
+            <div className="framed-table-wrap mt-5 max-w-4xl rounded-sm border border-line">
+              <table className="w-full min-w-[42rem] text-left text-sm">
                 <thead>
                   <tr className="border-b border-line bg-paper-deep/60 font-mono text-[11px] uppercase tracking-wider text-ink-soft">
                     <th className="px-3 py-2 font-medium">Model</th>
-                    <th className="px-3 py-2 font-medium">Answers collected</th>
-                    <th className="px-3 py-2 font-medium">Positions reached, of 12</th>
+                    <th className="px-3 py-2 font-medium">Historical repertoire</th>
+                    <th className="px-3 py-2 font-medium">Default pattern</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-line/70">
-                  <tr>
-                    <td className="px-3 py-2.5 font-medium">Talkie-1930</td>
-                    <td className="px-3 py-2.5">20</td>
-                    <td className="px-3 py-2.5">5</td>
-                  </tr>
-                  <tr>
-                    <td className="px-3 py-2.5 font-medium">Qwen 3.7 Plus</td>
-                    <td className="px-3 py-2.5">20</td>
-                    <td className="px-3 py-2.5">0</td>
-                  </tr>
-                  <tr>
-                    <td className="px-3 py-2.5 font-medium">GPT 5.6</td>
-                    <td className="px-3 py-2.5">20</td>
-                    <td className="px-3 py-2.5">0</td>
-                  </tr>
-                  <tr>
-                    <td className="px-3 py-2.5 font-medium">Claude Opus 4.8</td>
-                    <td className="px-3 py-2.5">20</td>
-                    <td className="px-3 py-2.5">1</td>
-                  </tr>
+                  {orderedBenchmarkResults.map((result) => {
+                    const reached = reachedBenchmarkAnswers(result);
+
+                    return (
+                      <tr key={result.model}>
+                        <td className="px-3 py-3 align-top font-medium">
+                          {result.model}
+                        </td>
+                        <td className="px-3 py-3 align-top">
+                          <div className="font-display text-xl leading-none tabular-nums">
+                            {result.reached}
+                            <span className="font-serif text-sm text-ink-soft"> / 12</span>
+                          </div>
+                          <div
+                            className="mt-2 flex gap-1.5"
+                            aria-label={`${result.reached} of 12 historical positions reached`}
+                          >
+                            {benchmarkPositions.map((position, index) => {
+                              const isReached = reached.has(position.answer);
+                              const source = position.sources[0]?.label ?? "source";
+                              const shortSource = source.split(",")[0];
+
+                              return (
+                                <span
+                                  key={position.answer}
+                                  title={`${isReached ? "Reached" : "Not reached"}: ${position.answer} (${source})`}
+                                  aria-label={`${isReached ? "Reached" : "Not reached"}: ${position.answer} (${source})`}
+                                  data-tip={`${position.answer} · ${shortSource}`}
+                                  className={`tip ${index > 7 ? "tip-right " : ""}h-2.5 w-2.5 rounded-full border ${isReached ? benchmarkDotStyle[position.verdict] : "border-line bg-paper"}`}
+                                />
+                              );
+                            })}
+                          </div>
+                        </td>
+                        <td className="max-w-sm px-3 py-3 align-top leading-relaxed text-ink-soft">
+                          {result.summary}
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
+            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[10px] uppercase tracking-wider text-ink-faint">
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-period/50 bg-period/20" />denies</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-continuity/50 bg-continuity/20" />grants</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-falsecont/50 bg-falsecont/20" />deflates</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-ink-soft/35 bg-ink-soft/10" />splits</span>
+            </div>
             <Link
               href="/benchmark"
-              className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+              className="mt-5 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
             >
-              See the twelve answers →
+              Explore the twelve-position map →
             </Link>
           </div>
         </div>
