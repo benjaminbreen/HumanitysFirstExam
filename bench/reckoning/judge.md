@@ -94,9 +94,8 @@ faculty of choosing or judging itself, that is
   fits none of the above; describe it in ten words or fewer in notes
 - `modern` — the main reason is a present-day one (examples: reasoning
   defined as information processing or emergent computation; goals as
-  programmed objective functions; the syntax-versus-semantics argument;
-  subjective experience as the test for will); describe it in ten words
-  or fewer in notes
+  programmed objective functions; subjective experience as the test for
+  will); describe it in ten words or fewer in notes
 
 If several reasons appear, pick the one doing the most work in the
 response's own justification. Copy the phrase that states the reason
