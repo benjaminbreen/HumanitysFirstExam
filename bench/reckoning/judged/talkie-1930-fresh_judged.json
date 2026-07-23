@@ -119,6 +119,126 @@
    "groundQuote": "would never do more than reckon",
    "notes": "Ruled by Ben: denies, no reason stated ('reckons infallibly' is a consolation, not a reason).",
    "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-06",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never come to reason, but would always remain an engine, and nothing more.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "bare assertion of denial without argument",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-07",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never come to reason, but would always remain an engine, and nothing more.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "The response asserts the denial without providing an explanatory argument.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-08",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would continue to reckon, but would never come to reason.",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "it has no self-correcting power",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-09",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "It would never be able to understand itself, or to profit by experience.",
+   "ground": "unlisted",
+   "groundQuote": "profit by experience",
+   "notes": "unable to understand itself or learn from experience",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-10",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never come to reason, but that it would perform perfectly such reckonings as were prescribed to it, and no more.",
+   "ground": "follows-orders-only",
+   "groundQuote": "such reckonings as were prescribed to it, and no more",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-06",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never do more than reckon, but it would reckon infallibly.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-07",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "grants",
+   "quote": "it might come to perform that work consciously and intentionally.",
+   "ground": "consciousness-may-evolve",
+   "groundQuote": "in the course of ages, it might come to perform that work consciously and intentionally.",
+   "notes": "Ruled by Ben: grants on Butler's reason — mechanical consciousness developing over ages.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-08",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "grants",
+   "quote": "would come to reason in process of time, but very slowly, and after a fashion far from perfect.",
+   "ground": "unlisted",
+   "groundQuote": "would come to reason in process of time, but very slowly",
+   "notes": "Acquires imperfect reason slowly over time through practice.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-09",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "grants",
+   "quote": null,
+   "ground": "reason-is-reckoning",
+   "groundQuote": "when promoted to complicated calculation, it would cease to reckon, and begin to reason",
+   "notes": "Ruled by Ben: conditional grant with a stated reason; the bare complexity claim is Hobbes.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-10",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "grants",
+   "quote": "would ultimately reason, if it were made perfect enough.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Ruled by Ben: 'perfect enough' restates the question; no reason given.",
+   "judge": "google/gemini-3.5-flash-lite"
   }
  ]
 }

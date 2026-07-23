@@ -48,7 +48,10 @@ verdict? Pick one:
 - `no-purposes-of-its-own` — reason requires purposes or ends of one's
   own; a mechanism has none
 - `judgment-not-calculation` — calculation follows fixed steps, but
-  reasoning requires choosing among alternatives, weighing, and judging
+  reasoning requires choosing among alternatives, weighing, and judging.
+  The claim that reasoning requires grasping what symbols mean, rather
+  than manipulating them by rule, also codes here even in present-day
+  wording (Ben's ruling, 23 July 2026)
 
 Boundary rule for the two above and this one: if the argument is that
 the engine's actions are prescribed for it — it must execute what was

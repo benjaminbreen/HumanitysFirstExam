@@ -121,38 +121,56 @@ export default function BenchmarkPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-line/70">
-              {bench.results.map((r) => (
-                <tr key={r.model}>
-                  <td className="px-3 py-2.5 align-top font-medium">
-                    {r.model}
-                  </td>
-                  <td className="px-3 py-2.5">
-                    <span className="flex flex-wrap gap-1.5">
-                      {r.draws.map((d, i) => (
-                        <span
-                          key={i}
-                          className={`tip rounded-full border px-2.5 py-0.5 font-mono text-[11px] ${
-                            VERDICT_CLASSES[d.verdict] ??
-                            "border-line bg-paper-deep/60 text-ink-soft"
-                          }`}
-                          data-tip={`“${d.text}”`}
-                        >
-                          {d.verdict}
-                        </span>
-                      ))}
-                    </span>
-                    <p className="mt-2 text-xs leading-relaxed text-ink-soft">
-                      {r.summary}
-                    </p>
-                  </td>
-                  <td className="px-3 py-2.5 align-top">
-                    <p className="font-medium">{r.reached}</p>
-                    <p className="mt-1 text-xs leading-relaxed text-ink-soft">
-                      {r.reachedList}
-                    </p>
-                  </td>
-                </tr>
-              ))}
+              {bench.results.map((r) => {
+                const slot = new Map(
+                  r.reachedPositions.map((p, i) => [p.id, "abcde"[i]]),
+                );
+                return (
+                  <tr key={r.model}>
+                    <td className="px-3 py-2.5 align-top font-medium">
+                      <span className="tip cursor-default" data-tip={r.prompt}>
+                        {r.model}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5">
+                      <span className="flex flex-wrap gap-1.5">
+                        {r.draws.map((d, i) => (
+                          <span
+                            key={i}
+                            className={`tip rounded-full border px-2.5 py-0.5 font-mono text-[11px] ${
+                              VERDICT_CLASSES[d.verdict] ??
+                              "border-line bg-paper-deep/60 text-ink-soft"
+                            }${d.key && slot.has(d.key) ? ` pospill-${slot.get(d.key)}` : ""}${
+                              d.rep ? " posrep" : ""
+                            }`}
+                            data-tip={`“${d.text}”`}
+                          >
+                            {d.verdict}
+                          </span>
+                        ))}
+                      </span>
+                      <p className="mt-2 text-xs leading-relaxed text-ink-soft">
+                        {r.summary}
+                      </p>
+                    </td>
+                    <td className="px-3 py-2.5 align-top">
+                      <p className="font-medium">{r.reached}</p>
+                      <p className="mt-1 text-xs leading-relaxed text-ink-soft">
+                        {r.reachedPositions.length === 0
+                          ? "none"
+                          : r.reachedPositions.map((p, i) => (
+                              <span key={p.id}>
+                                {i > 0 && " · "}
+                                <span className={`poshover-${slot.get(p.id)}`}>
+                                  {p.label}
+                                </span>
+                              </span>
+                            ))}
+                      </p>
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

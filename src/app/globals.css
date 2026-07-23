@@ -210,6 +210,53 @@ summary.question-more-summary {
   right: 0;
 }
 
+/*
+ * Benchmark results: hovering a reached-position label highlights the
+ * answer pills that landed on it (same table row) and shows one
+ * representative pill's tooltip. Three slots cover up to three reached
+ * positions per row.
+ */
+.pospill-a,
+.pospill-b,
+.pospill-c,
+.pospill-d,
+.pospill-e {
+  transition:
+    transform 120ms ease,
+    filter 120ms ease;
+}
+
+tr:has(.poshover-a:hover) .pospill-a,
+tr:has(.poshover-b:hover) .pospill-b,
+tr:has(.poshover-c:hover) .pospill-c,
+tr:has(.poshover-d:hover) .pospill-d,
+tr:has(.poshover-e:hover) .pospill-e {
+  transform: scale(1.18);
+  font-weight: 700;
+  filter: saturate(2.2);
+}
+
+tr:has(.poshover-a:hover) .pospill-a.posrep::after,
+tr:has(.poshover-b:hover) .pospill-b.posrep::after,
+tr:has(.poshover-c:hover) .pospill-c.posrep::after,
+tr:has(.poshover-d:hover) .pospill-d.posrep::after,
+tr:has(.poshover-e:hover) .pospill-e.posrep::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.poshover-a,
+.poshover-b,
+.poshover-c,
+.poshover-d,
+.poshover-e {
+  cursor: default;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-ink-faint);
+  text-underline-offset: 3px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

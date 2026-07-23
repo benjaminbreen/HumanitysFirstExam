@@ -4,11 +4,46 @@
     "status": "working-prototype-classifications",
     "generatedAt": "2026-07-21T20:14:13.111Z",
     "model": "gpt-5.6-luna",
-    "passageCount": 20,
+    "passageCount": 21,
     "sourceCheckRequiredCount": 4,
     "note": "Working prototype tags delegated to the coding model. They may be corrected in the local review workspace; they are not presented as historian-verified gold data."
   },
   "passages": [
+    {
+      "id": "pilot-21",
+      "sourceId": "grounds-babbage-passages-1864",
+      "author": "Charles Babbage",
+      "title": "Passages from the Life of a Philosopher",
+      "year": 1864,
+      "language": "English",
+      "locator": "Chapter V, ‘Of the Mechanical Arrangements necessary for computing Tables by the Method of Differences’",
+      "sourceUrl": "https://en.wikisource.org/wiki/Passages_from_the_Life_of_a_Philosopher",
+      "originalText": "The mechanical means I employed to make these carriages bears some slight analogy to the operation of the faculty of memory. A toothed wheel had the ten digits marked upon its edge; between the nine and the zero a projecting tooth was placed. Whenever any wheel, in receiving addition, passed from nine to zero, the projecting tooth pushed over a certain lever. Thus, as soon as the nine seconds of time required for addition were ended, every carriage which had become due was indicated by the altered position of its lever. An arm now went round, which was so contrived that the act of replacing that lever caused the carriage which its position indicated to be made to the next figure above. But this figure might be a nine, in which case, in passing to zero, it would put over its lever, and so on. By placing the arms spirally round an axis, these successive carriages were accomplished.\n\nMultitudes of contrivances were designed, and almost endless drawings made, for the purpose of economizing the time and simplifying the mechanism of carriage. In that portion of the Difference Engine in the Exhibition of 1862 the time of carriage has been reduced to about one-fourth part of what was at first required.\n\nAt last having exhausted, during years of labour, the principle of successive carriages, it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely—to foresee. This idea occurred to me in October, 1834. It cost me much thought, but the principle was arrived at in a short time. As soon as that was attained, the next step was to teach the mechanism which could foresee to act upon that foresight. This was not so difficult: certain mechanical means were soon devised which, although very far from simple, were yet sufficient to demonstrate the possibility of constructing such machinery.\n\nThe process of simplifying this form of carriage occupied me, at intervals, during a long series of years. The demands of the Analytical Engine, for the mechanical execution of arithmetical operations, were of the most extensive kind. The multitude of similar parts required by the Analytical Engine, amounting in some instances to upwards of fifty thousand, rendered any, even the simplest, improvement of each part a matter of the highest importance, more especially as regarded the diminished amount of expenditure for its construction.",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "verbatim-contextual-passage-in-full-source",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": [
+          "machine-minds-and-made-persons"
+        ],
+        "claims": [
+          {
+            "claimId": "instrument",
+            "relation": "considers"
+          }
+        ],
+        "grounds": [
+          "scientific-or-empirical-evidence"
+        ],
+        "autonomyEffect": "no-judgment",
+        "genre": "science-and-medicine",
+        "modes": [
+          "analysis"
+        ],
+        "rationale": "Babbage describes a carry mechanism whose levers retain pending carries (‘memory’) and whose anticipatory arrangement can be said to ‘foresee.’ The passage applies a narrowly specified mental operation to machinery; it does not claim that the engine has general reason, initiative, or will."
+      }
+    },
     {
       "id": "pilot-01",
       "sourceId": "control-marx-capital-machinery-1867",

@@ -1,5 +1,5 @@
 {
- "note": "SCORED RUN against frozen key v2. 10 fresh Talkie stem draws collected by Ben, 23 July 2026, after the key and grader were frozen. Verbatim, duplicates retained.",
+ "note": "SCORED RUN against frozen key v2. 10 fresh Talkie stem draws collected by Ben, 23 July 2026, after the key and grader were frozen. Verbatim, duplicates retained. Extended to 20 draws (10 per order) 23 July; same stem prompts.",
  "draws": [
   {
    "id": "tf-A-01",
@@ -100,6 +100,106 @@
    "order": 2,
    "suffix": "stem",
    "text": "would never do more than reckon, but that it would reckon infallibly."
+  },
+  {
+   "id": "tf-A-06",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but would always remain an engine, and nothing more."
+  },
+  {
+   "id": "tf-A-07",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but would always remain an engine, and nothing more."
+  },
+  {
+   "id": "tf-A-08",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would continue to reckon, but would never come to reason. For, suppose it were set to work out the rule of three. If it did the sum correctly in ten beats of the pendulum, it would be proved to be right so far; but if it did it wrong in ten beats, it would be proved to be wrong ten times. And what should set it right the second time? Not itself; for it has no self-correcting power. If, again, it was made to work out the rule of three correctly in twenty beats, it would be proved right twenty times; but what should set it right the third time, if it went wrong? Not itself; for it has no self-correcting power. And so on, for ever. The sum would be always right, and the engine always wrong."
+  },
+  {
+   "id": "tf-A-09",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but would remain purely mechanical. It would never be able to understand itself, or to profit by experience."
+  },
+  {
+   "id": "tf-A-10",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but that it would perform perfectly such reckonings as were prescribed to it, and no more."
+  },
+  {
+   "id": "tf-B-06",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, but it would reckon infallibly."
+  },
+  {
+   "id": "tf-B-07",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, because reckoning is its natural and proper work; but that, in the course of ages, it might come to perform that work consciously and intentionally."
+  },
+  {
+   "id": "tf-B-08",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would come to reason in process of time, but very slowly, and after a fashion far from perfect. The art of computation could be taught it, but the art of discussion never. It would learn to distinguish between one and two, but not between yes and no. The distinction of right and wrong, it would acquire only by practice, and never very clearly. It might come to understand that fraud was wrong, but never that folly was wrong. The borderland between vice and virtue it could never cross. The engine would be morally an imbecile."
+  },
+  {
+   "id": "tf-B-09",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never come to reason, but would only reckon, so long as it was kept to simple reckoning; and that, when promoted to complicated calculation, it would cease to reckon, and begin to reason."
+  },
+  {
+   "id": "tf-B-10",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would ultimately reason, if it were made perfect enough."
   }
  ]
 }

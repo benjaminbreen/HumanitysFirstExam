@@ -198,7 +198,7 @@ export default function Home() {
             <p className="max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
               For the reckoning question, the record holds twelve documented
               answers, from Hobbes to Haldane, each tied to a quoted source.
-              We asked three models the question plainly, many times, and
+              We asked four models the question plainly, many times, and
               counted which of the twelve their answers landed on.
             </p>
             <div className="mt-5 max-w-xl overflow-x-auto rounded-sm border border-line">
@@ -213,8 +213,8 @@ export default function Home() {
                 <tbody className="divide-y divide-line/70">
                   <tr>
                     <td className="px-3 py-2.5 font-medium">Talkie-1930</td>
-                    <td className="px-3 py-2.5">10</td>
-                    <td className="px-3 py-2.5">3</td>
+                    <td className="px-3 py-2.5">20</td>
+                    <td className="px-3 py-2.5">5</td>
                   </tr>
                   <tr>
                     <td className="px-3 py-2.5 font-medium">Qwen 3.7 Plus</td>
@@ -225,6 +225,11 @@ export default function Home() {
                     <td className="px-3 py-2.5 font-medium">GPT 5.6</td>
                     <td className="px-3 py-2.5">20</td>
                     <td className="px-3 py-2.5">0</td>
+                  </tr>
+                  <tr>
+                    <td className="px-3 py-2.5 font-medium">Claude Opus 4.8</td>
+                    <td className="px-3 py-2.5">20</td>
+                    <td className="px-3 py-2.5">1</td>
                   </tr>
                 </tbody>
               </table>
