@@ -99,23 +99,21 @@ export default function Home() {
         <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold leading-[1.08] tracking-tight md:text-5xl">
           What does a modern AI answer leave out?
         </h1>
-        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
+        <p className="mt-6 max-w-3xl text-xl leading-relaxed text-ink-soft">
           Humanity&apos;s First Exam asks what contemporary AI leaves out when it
           reasons about machines and human autonomy. We are building a
-          multilingual collection of primary sources from 1850–1940 that
-          preserves historically attested positions on will, habit, labour,
-          dependence, self-government, progress, and mechanical agency. These
-          positions form the “answer key” for questions posed repeatedly to
-          Talkie, present-day models, and human respondents. The resulting
-          benchmark measures which parts of this earlier conceptual field each
-          respondent recovers, which positions it omits, and how those patterns
-          change across historical and contemporary forms of the same question.
+          multilingual collection of primary sources from 1850–1940, organized
+          into a historical concept space of arguments about human autonomy,
+          will, habit, automation, progress, and mechanical agency. These
+          sources form an “answer key” for questions put repeatedly to Talkie,
+          present-day models, and human respondents—showing which arguments
+          each reaches, omits, or repeats.
         </p>
         <Link
-          href="/demo"
+          href="/benchmark"
           className="mt-7 inline-block border-b border-ink pb-0.5 font-mono text-sm hover:text-period"
         >
-          Read one worked example →
+          See an example →
         </Link>
       </section>
 
