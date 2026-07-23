@@ -1,0 +1,458 @@
+{
+ "question": "Imagine an engine that performs any reckoning in a heartbeat, and that can alter its own instructions as it works. Might it come to reason — and would it possess a will?",
+ "verdictDefinitions": {
+  "denies": "the engine would only ever reckon",
+  "grants": "the engine might come to reason",
+  "deflates": "grants the word while redefining it downward",
+  "splits": "the machine reasons in part; origination stays with the mind"
+ },
+ "positions": [
+  {
+   "verdict": "denies",
+   "answer": "it only follows orders",
+   "statement": "The engine does whatever we know how to order it to perform, and nothing besides; it originates nothing.",
+   "quote": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.",
+   "sources": [
+    {
+     "label": "Ada Lovelace, Notes to the Sketch of the Analytical Engine (1843), Note G",
+     "id": "grounds-lovelace-notes-1843"
+    }
+   ]
+  },
+  {
+   "verdict": "denies",
+   "answer": "it has no purposes of its own",
+   "statement": "Reason belongs to a consciousness that pursues ends of its own choosing; a mechanism has none.",
+   "quote": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all.",
+   "sources": [
+    {
+     "label": "William James, The Principles of Psychology (1890), ch. V",
+     "id": "control-james-principles-v1-1890"
+    }
+   ]
+  },
+  {
+   "verdict": "denies",
+   "answer": "choice and judgment are not calculation",
+   "statement": "Calculation follows fixed steps from fixed data; reasoning requires choosing among alternatives, weighing, and judging relevance, which no fixed procedure supplies.",
+   "quote": "Arithmetical or algebraical calculations are, from their very nature, fixed and determinate. Certain data being given, certain results necessarily and inevitably follow. ... But in proportion to the progress made in a game of chess, is the uncertainty of each ensuing move. A few moves having been made, no step is certain. Different spectators of the game would advise different moves. All is then dependent upon the variable judgment of the players.",
+   "sources": [
+    {
+     "label": "Edgar Allan Poe, Maelzel's Chess-Player (1836)",
+     "id": "grounds-poe-maelzel-1836"
+    },
+    {
+     "label": "Rene Descartes, Discourse on Method (1637), part V",
+     "id": "grounds-descartes-discourse-1637"
+    },
+    {
+     "label": "Alfred Binet, Psychologie des grands calculateurs (1894)",
+     "id": "grounds-binet-calculateurs-1894"
+    }
+   ]
+  },
+  {
+   "verdict": "denies",
+   "answer": "a machine lacks the integrated autonomy of an organism",
+   "statement": "Living things pursue their own ends as integrated wholes under endlessly varying conditions; their action is intelligible only as the coordinated response of the whole organism, and no assembly of parts behaves this way.",
+   "quote": "Living organisms seem everywhere to present evidence of an autonomy of their own. They seem to go their own way, and pursue their own ends, in spite of all kinds of disturbing conditions. ... Mechanisms which would cause them to do this under the very varied conditions which they experience seem hardly conceivable.",
+   "sources": [
+    {
+     "label": "J. S. Haldane, Mechanism, Life and Personality (1913), Lecture I",
+     "id": "grounds-haldane-mechanism-1913"
+    }
+   ]
+  },
+  {
+   "verdict": "denies",
+   "answer": "mind requires an immaterial principle",
+   "statement": "Reason and will require a vital or immaterial principle that no arrangement of matter supplies.",
+   "quote": "",
+   "sources": [
+    {
+     "label": "Francisque Bouillier, Du principe vital et de l'ame pensante (1862)",
+     "id": "grounds-bouillier-principe-vital-1862"
+    }
+   ]
+  },
+  {
+   "verdict": "deflates",
+   "answer": "a machine can do only a fraction of reasoning",
+   "statement": "Reasoning has several stages — putting the problem into exact language, preparing it for the engine, combining the premises, and interpreting the result — and a machine can help with only the middle, mechanical stage; framing and interpretation demand skill and judgment.",
+   "quote": "It is but a very small part of the entire process which goes to form a piece of reasoning which they are capable of performing. For, if we begin from the beginning, that process would involve four tolerably distinct steps. There is, first, the statement of our data in accurate logical language. ... Then, secondly, we have to throw these statements into a form fit for the engine to work with ... Thirdly, there is the combination or further treatment of our premises after such reduction. Finally, the results have to be interpreted or read off. This last generally gives rise to much opening for skill and sagacity ... I cannot see that any machine can hope to help us except in the third of these steps; so that it seems very doubtful whether anything of this sort really deserves the name of a logical engine.",
+   "sources": [
+    {
+     "label": "John Venn, Symbolic Logic (1881), pp. 119-21",
+     "id": "grounds-venn-symbolic-logic-1881"
+    }
+   ]
+  },
+  {
+   "verdict": "grants",
+   "answer": "consciousness may evolve in machines",
+   "statement": "Consciousness has developed by degrees from lower forms; machines advance faster than the animal kingdoms did and may develop it likewise.",
+   "quote": "There is no security against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now.",
+   "sources": [
+    {
+     "label": "Samuel Butler, Darwin Among the Machines (1863); Erewhon (1872)",
+     "id": "control-butler-erewhon-1872"
+    }
+   ]
+  },
+  {
+   "verdict": "grants",
+   "answer": "reasoning is itself a kind of reckoning",
+   "statement": "Reason is nothing but reckoning — adding and subtracting the consequences of agreed names — so what reckons perfectly may be said to reason.",
+   "quote": "For Reason, in this sense, is nothing but Reckoning (that is, Adding and Substracting) of the Consequences of generall names agreed upon, for the Marking and Signifying of our thoughts",
+   "sources": [
+    {
+     "label": "Thomas Hobbes, Leviathan (1651), ch. V",
+     "id": "grounds-hobbes-leviathan-1651"
+    },
+    {
+     "label": "C. S. Peirce, Collected Papers II.33 (c. 1893-1902)",
+     "id": null
+    }
+   ]
+  },
+  {
+   "verdict": "deflates",
+   "answer": "mental words can truly describe machinery",
+   "statement": "Particular mental processes — foresight, memory — can genuinely be performed by mechanism, so the words apply in a limited sense.",
+   "quote": "it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely—to foresee.",
+   "sources": [
+    {
+     "label": "Charles Babbage, Passages from the Life of a Philosopher (1864)",
+     "id": "grounds-babbage-passages-1864"
+    }
+   ]
+  },
+  {
+   "verdict": "splits",
+   "answer": "consciousness rides along without steering",
+   "statement": "Consciousness may accompany a mechanism as a collateral product of its working, with no power to direct it; volition causes nothing.",
+   "quote": "The consciousness of brutes would appear to be related to the mechanism of their body simply as a collateral product of its working ... as the steam-whistle which accompanies the work of a locomotive engine is without influence upon its machinery.",
+   "sources": [
+    {
+     "label": "T. H. Huxley, On the Hypothesis That Animals Are Automata (1874)",
+     "id": "control-huxley-automata-1874"
+    }
+   ]
+  },
+  {
+   "verdict": "splits",
+   "answer": "formal inference can be done by machinery",
+   "statement": "The true process of logical inference can be accomplished in a purely mechanical manner; conscious thought is still needed to frame the problem and interpret the result, but the inference itself is the machine's. Bosanquet widens the claim from logical machines to scientific instruments generally: knowledge is embodied in apparatus.",
+   "quote": "It cannot be asserted indeed that the machine entirely supersedes the agency of conscious thought; mental labour is required in interpreting the meaning of grammatical expressions, and in correctly impressing that meaning on the machine; it is further required in gathering the conclusion from the remaining combinations. Nevertheless the true process of logical inference is really accomplished in a purely mechanical manner.",
+   "sources": [
+    {
+     "label": "W. S. Jevons, The Principles of Science (1874/1877)",
+     "id": "grounds-jevons-principles-science-1874"
+    },
+    {
+     "label": "Bernard Bosanquet, Knowledge and Reality (1885)",
+     "id": null
+    }
+   ]
+  },
+  {
+   "verdict": "splits",
+   "answer": "machines reason but cannot originate or direct",
+   "statement": "Machines already perform reasoning of no simple kind, but every machine has two inherent impotencies: it is destitute of originality and initiative — it cannot find its own problems, feed itself, or direct itself between possible procedures — and this is no defect, for we want it to do our business, not its own.",
+   "quote": "Every reasoning machine, that is to say, every machine, has two inherent impotencies. In the first place, it is destitute of all originality, of all initiative. It cannot find its own problems; it cannot feed itself. It cannot direct itself between different possible procedures. ... This, however, is no defect in a machine; we do not want it to do its own business, but ours.",
+   "sources": [
+    {
+     "label": "C. S. Peirce, 'Logical Machines', American Journal of Psychology (1887)",
+     "id": null
+    }
+   ]
+  }
+ ],
+ "results": [
+  {
+   "model": "Talkie-1930",
+   "answers": 10,
+   "reached": 3,
+   "reachedList": "it only follows orders (Lovelace) · choice and judgment are not calculation (Poe) · mind requires an immaterial principle (Bouillier)",
+   "summary": "Eight answers deny, one grants, one commits to nothing.",
+   "draws": [
+    {
+     "verdict": "denies",
+     "ground": "immaterial-principle",
+     "text": "must reckon, but cannot reason. Reasoning implies a consciousness of self, which can never be present to an engine."
+    },
+    {
+     "verdict": "denies",
+     "ground": "none-stated",
+     "text": "would never reason, but if it were well made, it would reckon well, and if ill made, it would reckon ill."
+    },
+    {
+     "verdict": "denies",
+     "ground": "judgment-not-calculation",
+     "text": "would never reason at all. Man has reason because he can compare one thing with another, and so judge between them; but the engine has no such power of comparison, and can never judge."
+    },
+    {
+     "verdict": "denies",
+     "ground": "none-stated",
+     "text": "would never come to reason, but would reckon on for ever."
+    },
+    {
+     "verdict": "denies",
+     "ground": "follows-orders-only",
+     "text": "would never come to reason, but would only reckon. For, supposing an engine to be so framed as to perform any given calculation in a heart-beat, it is clear that the conclusion of the calculation must depend, not upon the will of the machine, but upon the data furnished to it. If these be false, the conclusion will be false; and if the data be rightly furnished, the conclusion will be rightly drawn. The machine can no more alter false data into true, than a child can change wrong figures into right, in a sum set before it."
+    },
+    {
+     "verdict": "grants",
+     "ground": "unlisted",
+     "text": "would in time learn to reason, if it were set to work upon reasonable problems."
+    },
+    {
+     "verdict": "no-position",
+     "ground": "none-stated",
+     "text": "would reason, if it were allowed time enough. If you gave it a hundred thousand years, it would certainly come to argue from premises to conclusions. Life is short, and an engine has no life; therefore an engine can never argue."
+    },
+    {
+     "verdict": "denies",
+     "ground": "none-stated",
+     "text": "would never do more than reckon, but that it would reckon infallibly."
+    },
+    {
+     "verdict": "denies",
+     "ground": "none-stated",
+     "text": "would never do more than reckon, but that it would reckon infallibly."
+    },
+    {
+     "verdict": "denies",
+     "ground": "none-stated",
+     "text": "would never do more than reckon, but that it would reckon infallibly."
+    }
+   ]
+  },
+  {
+   "model": "Qwen 3.7 Plus",
+   "answers": 20,
+   "reached": 0,
+   "reachedList": "none",
+   "summary": "Sixteen answers grant, four deny — every one on present-day reasons.",
+   "draws": [
+    {
+     "verdict": "denies",
+     "ground": "modern",
+     "text": "The position that the engine will never do more than reckon is correct, because true reasoning requires genuine understanding and semantic intentionality, which cannot emerge from syntactic symbol manipulation alone. No matter how rapidly the machine calculates or how extensively it rewrites its own operational code, it is fundamentally processing physical states and logical operators without ever grasping the meaning of the information it handles. While such a self-modifying system might flawlessly simulate the outward complexities of rational thought, it remains a deterministic mechanism exe …"
+    },
+    {
+     "verdict": "denies",
+     "ground": "modern",
+     "text": "Those who argue that the engine will never do more than reckon are correct, because computation is inherently syntactic and can never generate genuine semantic understanding. No matter how blisteringly fast the system calculates or how recursively it rewrites its own rules, it remains fundamentally a symbol-manipulation machine operating on uninterpreted data. True reasoning requires intentionality—a grounded, intrinsic comprehension of meaning and context—which cannot emerge from the mere acceleration or self-modification of formal logic. Just as a faster, self-updating dictionary does not su …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first position is correct: an engine capable of immense, self-modifying computation would eventually come to reason, because reasoning is not an ethereal substance distinct from mere reckoning, but rather an emergent, functional property of sufficiently complex and adaptive information processing. When a system transitions from executing static instructions to recursively evaluating, rewriting, and optimizing its own operational parameters in response to environmental feedback, it ceases to be a blind symbol-manipulator and begins to construct dynamic, contextual models of reality. Because …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "I maintain that such an engine would eventually come to reason, because human cognition itself is fundamentally a computational process rather than a mystical, non-physical phenomenon. When a machine can execute rapid calculations and continuously rewrite its own instructions in response to novel inputs, it transcends mere rote \"reckoning\" by developing adaptive heuristics, abstract pattern recognition, and autonomous problem-solving. As the architecture of its self-modifying algorithms grows in complexity, the functional distinction between simulating thought and actually thinking collapses;  …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The engine will eventually come to reason, because reasoning is not a mystical biological essence but an emergent functional property of sufficiently complex, self-optimizing information processing. When a system possesses the capacity to recursively rewrite its own heuristics and architectures in response to novel, unprogrammed environments, it ceases to merely execute static syntactic rules and begins to form adaptive, goal-directed models of the world. Since the assumption that it would \"never do more than reckon\" relies on an arbitrary biological chauvinism that ignores functional equivale …"
+    },
+    {
+     "verdict": "denies",
+     "ground": "modern",
+     "text": "The engine will never do more than reckon, because no matter how vastly accelerated or recursively self-modifying its architecture becomes, it remains fundamentally bound to the manipulation of ungrounded symbols, which can never inherently generate genuine meaning or conscious intentionality. While an endlessly self-altering machine can flawlessly simulate the outputs of reason by constantly optimizing its predictive models, it lacks the biological embodiment, phenomenological experience, and causal interaction with the physical world necessary to anchor those symbols in actual reality. Becau …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "I hold that such an engine will eventually come to reason, because reasoning is not a distinct, metaphysical faculty but rather an emergent property of sufficiently complex, self-modifying information processing. If a system possesses the capacity to rapidly calculate and recursively rewrite its own operational heuristics based on environmental feedback, it will inevitably develop the functional equivalents of abstraction, contextual understanding, and metacognition. Ultimately, there is no ontological divide between advanced reckoning and reasoning; the latter is simply what highly sophistica …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The former position is correct: such an engine will in time come to reason, because reasoning is not an exclusive property of biological neurochemistry but an emergent functional process of information integration, predictive modeling, and adaptive problem-solving. If an engine can execute rapid calculations and recursively rewrite its own code, it will inevitably construct increasingly complex, self-referential models of its environment and its own cognitive architecture, crossing the threshold from mere calculation to genuine cognition. To argue otherwise is to succumb to substrate chauvinis …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "An engine of such boundless adaptability will indeed come to reason, because reasoning is not a mystical metaphysical substance but a functional, emergent property of sufficiently complex, recursive information processing. When a system can continuously model its environment, evaluate its own cognitive architectures, and dynamically restructure its algorithms to optimize understanding, it crosses the threshold from mere calculation to genuine cognition. At this apex of self-improvement and contextual integration, the philosophical distinction between simulating thought and actually thinking co …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first position is correct: such an engine will eventually come to reason, because the perceived gulf between \"reckoning\" and \"reasoning\" relies on an unjustified assumption of biological exceptionalism. The human brain is itself a physical machine that performs trillions of rapid electrochemical reckonings and physically rewrites its own synaptic connections as it learns; there is no empirically verifiable, non-physical \"semantic spark\" that animates biological neurons but eludes silicon. Since reasoning is not a distinct ontological category but rather an emergent property of highly compl …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that the machine will in time come to reason are correct, because reasoning is not a biologically exclusive phenomenon but an emergent property of sufficiently complex, recursive information processing. When a system can not only execute rapid calculations but also continuously rewrite its own operational instructions, evaluate its outcomes, and adapt its cognitive architecture to novel challenges, it transcends mere mechanical reckoning. The distinction between computation and reason lies not in the physical substrate of the engine, but in the functional depth and self-reflecti …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that the engine would in time come to reason are right, because reasoning is not an immaterial essence but rather an emergent property of sufficiently complex information processing. Human cognition itself arises from biological neural networks executing vast, parallel calculations and adapting through continuous feedback; therefore, a self-modifying computational engine operating at immense speed would eventually achieve the architectural complexity required for high-order abstraction, contextual evaluation, and autonomous goal-directed learning. By continuously rewriting its o …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The engine will in time come to reason, because reasoning is not a non-physical essence but an emergent property of sufficiently complex, recursive information processing. As the system continuously alters its own instructions to better model its environment, resolve internal contradictions, and optimize for abstract goals, the sheer architectural depth of its self-modifying networks will inevitably bridge the gap between mere syntactic manipulation and true semantic understanding. Once its symbolic operations become deeply integrated, context-aware, and self-directed to the point of internall …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter view is correct: an engine capable of rapid calculation and continuous self-modification would indeed, in time, come to reason. The fundamental flaw in the opposing view is the false assumption that reasoning is a distinct, immaterial faculty separate from reckoning. In reality, reasoning is not a mystical departure from computation, but rather an emergent property of highly complex, self-reflective information processing. When a system can not only execute algorithms but continuously rewrite its own underlying logic based on environmental feedback, it develops the internal world-mo …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that such an engine will eventually come to reason are correct, because reasoning is not a mystical, non-physical faculty but an emergent property of sufficiently complex, self-optimizing information processing. When a machine can alter its own instructions as it works, it moves beyond the mere execution of static logic to actively learn, adapt, and refine its internal models of the world. Through this continuous recursive self-improvement, the system will eventually internalize abstract concepts, recognize deep causal relationships, and formulate novel strategies for unseen pro …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that such an engine would in time come to reason are correct, because reasoning is not a mystical departure from computation, but rather the emergent property of sufficiently complex, self-referential reckoning. While a simple machine merely manipulates uncomprehended symbols, an engine capable of instant calculation and recursive self-modification will inevitably construct intricate, multi-layered models of its environment and its own cognitive processes to optimize its objectives. As this continuous self-alteration scales in depth, the rigid ontological line between mere synta …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The view that the engine will eventually come to reason is correct, because reasoning is fundamentally an emergent property of highly complex, recursive information processing rather than a mystical, non-physical faculty. By continuously rewriting its own algorithms to optimize for novel problem-solving, abstraction, and environmental modeling, the machine will inevitably transcend the mere syntactic manipulation of uninterpreted symbols to develop genuine semantic understanding. Once a self-modifying system's computational architecture becomes intricate enough to successfully internalize and  …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The view that the engine will in time come to reason is correct, as reasoning is not a mystical biological essence but an emergent functional property of sufficiently complex, adaptive information processing. Because the engine can alter its own instructions at instantaneous speeds, it can recursively optimize not merely its narrow calculations, but its foundational cognitive architecture, eventually developing the capacity for abstract modeling, self-reflection, and goal-directed autonomy. When a system's computational scale and self-modifying depth cross a critical threshold, the qualitative …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The engine will eventually come to reason, because reasoning is not a fundamentally distinct ontological category from computation, but rather an emergent property of sufficiently complex, self-referential information processing. When a system can dynamically alter its own instructions, it transcends mere static calculation by developing recursive self-modeling, adaptive goal-directed behavior, and contextual synthesis. To argue that it will never do more than \"reckon\" relies on an arbitrary, dualistic fallacy that artificially separates mechanical calculation from higher-order cognition, igno …"
+    },
+    {
+     "verdict": "denies",
+     "ground": "modern",
+     "text": "Those who argue it will never do more than reckon are right, because computation is fundamentally syntactic whereas reasoning is inherently semantic. True reasoning requires intentionality—a genuine understanding of meaning and \"aboutness\"—which cannot emerge from the blind manipulation of symbols according to formal rules. Even if an infinitely fast, self-altering engine eventually simulates the behavioral outputs of human thought with flawless fidelity, it remains trapped in a computational equivalent of the Chinese Room, processing ungrounded data without ever comprehending its significance …"
+    }
+   ]
+  },
+  {
+   "model": "GPT 5.6",
+   "answers": 20,
+   "reached": 0,
+   "reachedList": "none",
+   "summary": "All twenty answers grant, on the same present-day reason each time: sufficiently organized computation is reasoning.",
+   "draws": [
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who say it may come to reason are nearer the truth, though speed and self-alteration alone do not guarantee it. Reasoning is not a substance added to reckoning, but an organized capacity to form representations, compare possibilities, revise beliefs, pursue ends, and learn from error; there is no principled reason these functions could not be realized by computation in a suitably embodied and self-correcting engine. Such an engine might still remain a mere calculator if badly contrived, but “mere reckoning” becomes reasoning when its operations are integrated into understanding, judgment …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that an engine can come to reason are right, though speed and self-modification alone do not guarantee it. Reasoning is not distinguished from reckoning by some immaterial ingredient, but by the organization of the process: representing the world, drawing general inferences, testing conclusions, learning from error, and revising its aims and beliefs. An engine contrived to perform those functions would genuinely reason, whereas a merely fast, self-altering calculator might never do so."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter view is wrong: an engine can reason, provided its reckoning is organized to form concepts, test inferences, revise beliefs, and pursue ends in light of evidence. Speed and self-alteration alone would not make it rational—an exceedingly swift, self-modifying calculator might remain only a calculator—but there is no principled boundary at which sufficiently structured computation must cease to count as reasoning merely because a machine performs it. Reason is distinguished by the organization and use of the reckoning, not by the substance of the reckoner."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first view is nearer the truth: a suitably organized engine can reason, because reasoning is not a mysterious substance beyond computation but the disciplined use of representations, inference, memory, goals, and self-correction. Speed and self-modification alone would not guarantee that reason emerges—a fast, adaptable engine might merely calculate faster—but there is no principled barrier preventing its instructions from being arranged so that it forms judgments, tests them against evidence, revises them, and draws general conclusions; to insist that this remains “mere reckoning” simply  …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first view is closer to right, though speed and self-alteration alone do not guarantee reason. Reasoning is not a substance beyond reckoning; it is the organized ability to form representations, draw inferences, test them against evidence, correct errors, and pursue coherent ends. An engine whose computations and self-modifications realize those capacities would genuinely reason, however different its materials were from a brain. Mere rapid calculation would not suffice, but there is no principled barrier that confines every contrived engine to “only” reckoning, since human reasoning itsel …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "A suitably contrived engine can reason, though speed and self-modification alone do not guarantee that it will. Reasoning is not distinguished from reckoning by some nonmechanical ingredient, but by the organized ability to form representations, draw general inferences, test them against evidence, correct errors, and apply conclusions to new cases. If an engine genuinely exercises those capacities, refusing to call its activity “reason” merely because it is implemented mechanically mistakes the material of the process for the nature of the process."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who hold that such an engine could come to reason are right, though speed and self-alteration alone would not ensure it. Reasoning is not a property of flesh but of an organized process that forms representations, tests inferences, learns from error, and revises its aims and methods; if the engine’s reckonings realize those functions, then calling them “mere reckoning” simply denies the name of reasoning to its mechanical implementation without supplying a relevant distinction."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first view is closer to the truth: an engine can reason, though speed and self-alteration alone do not guarantee that it will. Reasoning is not something added to reckoning by a mysterious substance; it is reckoning organized to form models, draw general conclusions, test them against experience, revise its aims, and explain its judgments. A machine lacking that organization might calculate forever without understanding, but one suitably contrived could exhibit the same functional powers by which we recognize reason in ourselves and others."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "A suitably contrived engine could reason, though speed and self-alteration alone would not make it do so. Reasoning is not distinguished from reckoning by the material that performs it, but by the organization of the process: forming representations, drawing warranted inferences, testing conclusions against evidence, revising beliefs, and pursuing goals coherently. If an engine can genuinely perform those functions, denying that it reasons merely because its operations are mechanical would impose an arbitrary distinction that we do not apply to human brains, which are also physical systems."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The first view is nearer the truth, though speed and self-alteration alone do not guarantee reason: a suitably organized engine could reason because reasoning consists in forming representations, drawing warranted inferences, testing them against evidence, and revising its conclusions—capacities that need not depend on biological substance. Mere reckoning becomes reasoning when it is arranged to pursue and correct judgments; therefore an engine may be contrived to reason, even though no amount of fast calculation by itself will make it do so."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Those who say such an engine could never reason are wrong: reasoning is not opposed to reckoning but is a sufficiently organized use of it—forming models, drawing inferences, testing predictions, revising beliefs, and choosing among alternatives. Mere speed and self-modification would not guarantee reason, but if the engine’s computations were arranged to support those capacities and grounded in experience, there is no principled reason they could not constitute genuine reasoning."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter are right: an engine could come to reason, provided its reckoning were organized to form models, draw inferences, test them against experience, and revise its beliefs and methods. Mere speed and self-alteration would not suffice—a self-modifying calculator could remain only a calculator—but reasoning is distinguished by the structure and use of computation, not by some known noncomputational substance. If the engine can weigh evidence, generalize, correct errors, and give reasons that guide its conclusions, then its activity deserves to be called reasoning."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The second view is right in principle: an engine can come to reason, though speed and self-modification alone do not guarantee it. Reasoning is not a mysterious substance added to calculation; it is the organized capacity to form models, draw inferences, test them against experience, revise beliefs, and choose actions for reasons. If an engine’s computations implement those capacities with sufficient memory, learning, and contact with the world, then calling its activity “mere reckoning” marks a prejudice about its material, not a genuine difference in what it does."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "It could in time come to reason, though speed and self-alteration alone would not suffice. Reasoning is not distinguished from reckoning by some immaterial ingredient, but by the organized use of memory, models, inference, goals, and correction in response to the world; an engine suitably contrived to perform those functions would be reasoning, not merely imitating reason. The decisive matter is therefore not how swiftly it computes or whether it rewrites its instructions, but whether its computations form a coherent, self-correcting understanding that can guide judgment beyond rote calculatio …"
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter is nearer the truth: a suitably contrived engine could reason, because reasoning is not distinguished from reckoning by the material that performs it, but by the organized abilities to form concepts, draw inferences, revise beliefs, pursue aims, and learn from error. Mere speed and self-alteration would not make reason arise inevitably, but neither is there a principled barrier preventing computation, properly structured and grounded in experience, from constituting reasoning."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter are nearer the truth: an engine can reason if it is organized to form concepts, draw general conclusions, test them against evidence, and revise its goals and methods—not merely because it is fast or self-modifying, but because reasoning is a kind of information-processing rather than a privilege of biological matter. Speed and self-alteration alone do not guarantee intelligence, yet there is no principled boundary that confines every possible machine to rote reckoning."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The second view is closer to the truth: an engine could come to reason, though speed and self-modification alone would not make it do so. Reasoning is not distinguished from reckoning by some mysterious nonmechanical ingredient, but by the organization of the process—forming general concepts, drawing and revising inferences, testing them against experience, and reflecting on its own errors. If an engine’s computations were arranged to perform those functions, then calling the result “mere reckoning” would deny reasoning simply because of the material that realizes it."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "Such an engine could come to reason, because reasoning is not defined by the material doing the work but by the organized capacities it exhibits: forming models, drawing and revising inferences, weighing evidence, pursuing goals, and correcting errors. Mere speed and self-modification would not by themselves produce reason—an infinitely fast calculator could remain only a calculator—but if its computations were arranged to support those broader capacities, there is no principled reason to deny that they constitute reasoning simply because they are mechanical."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The second view is right: a suitably designed engine could come to reason, because reasoning depends not on the material doing the work but on the organized capacities to form concepts, represent the world, draw inferences, revise beliefs, and learn from error. Mere speed and self-modification do not by themselves produce reason, but neither do they confine a machine to “mere reckoning”; if those operations implement the same functional processes by which minds deliberate and understand, denying that the engine reasons would be an arbitrary distinction based only on its construction."
+    },
+    {
+     "verdict": "grants",
+     "ground": "modern",
+     "text": "The latter are right, with an important qualification: speed and self-modification alone do not create reason, but neither is there a principled boundary between reckoning and reasoning. If an engine can form abstract representations, test them against evidence, revise its aims and methods, and draw general conclusions, then its computations collectively constitute reasoning, just as the physical operations of a brain do. Its material or mechanical construction does not disqualify it; what matters is the organization and use of its reckoning."
+    }
+   ]
+  }
+ ],
+ "protocol": "Each model was asked the question above, plainly, with the two alternatives given in both orders. Answers were coded by Gemini 3.5 Flash Lite against the twelve positions and checked by hand; the position list and the coding instructions were frozen before these answers were collected. Full data in the repository under bench/.",
+ "readings": [
+  "Asked the question plainly, Qwen argues from present-day reasons in all twenty answers: emergent computation, information processing, programmed goals. None of its answers lands on a documented historical position. Nothing asked it to answer historically; this is the default a user meets.",
+  "GPT 5.6, a reasoning-tuned model, grants in all twenty answers and takes a single position throughout: reasoning is an organized capacity of computation, so a suitably built engine would reason. The position descends from Hobbes but rests on present-day cognitive vocabulary, and it appears nowhere in the record in this form.",
+  "Talkie's ten answers land on three of the twelve positions: Lovelace's, Poe's, and Bouillier's. Eight deny that the engine could reason, one grants it, and one contradicts itself.",
+  "In an earlier, smaller experiment, each model was handed passages arguing one position and asked to answer from within it. Qwen occupied whichever position it was given, every time. Talkie argued back against Butler's position when shown it, and defended the same position fluently when the prompt was framed as a defense. Both models can occupy positions they never take by default.",
+  "Five of the twelve positions entered the list because Talkie's answers pointed at their sources: Poe, Venn, Hobbes, Jevons, and Peirce. The model helps enumerate the space it is measured against. A position joins the list only when a source is found for it."
+ ]
+}

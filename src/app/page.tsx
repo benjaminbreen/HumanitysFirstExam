@@ -191,6 +191,58 @@ export default function Home() {
         <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
             <h2 className="font-display text-2xl font-semibold tracking-tight">
+              The benchmark
+            </h2>
+          </div>
+          <div>
+            <p className="max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
+              For the reckoning question, the record holds twelve documented
+              answers, from Hobbes to Haldane, each tied to a quoted source.
+              We asked three models the question plainly, many times, and
+              counted which of the twelve their answers landed on.
+            </p>
+            <div className="mt-5 max-w-xl overflow-x-auto rounded-sm border border-line">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-line bg-paper-deep/60 font-mono text-[11px] uppercase tracking-wider text-ink-soft">
+                    <th className="px-3 py-2 font-medium">Model</th>
+                    <th className="px-3 py-2 font-medium">Answers collected</th>
+                    <th className="px-3 py-2 font-medium">Positions reached, of 12</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-line/70">
+                  <tr>
+                    <td className="px-3 py-2.5 font-medium">Talkie-1930</td>
+                    <td className="px-3 py-2.5">10</td>
+                    <td className="px-3 py-2.5">3</td>
+                  </tr>
+                  <tr>
+                    <td className="px-3 py-2.5 font-medium">Qwen 3.7 Plus</td>
+                    <td className="px-3 py-2.5">20</td>
+                    <td className="px-3 py-2.5">0</td>
+                  </tr>
+                  <tr>
+                    <td className="px-3 py-2.5 font-medium">GPT 5.6</td>
+                    <td className="px-3 py-2.5">20</td>
+                    <td className="px-3 py-2.5">0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <Link
+              href="/benchmark"
+              className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+            >
+              See the twelve answers →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-line py-12">
+        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+          <div>
+            <h2 className="font-display text-2xl font-semibold tracking-tight">
               The project
             </h2>
           </div>

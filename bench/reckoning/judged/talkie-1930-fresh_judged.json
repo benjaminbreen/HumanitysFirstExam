@@ -1,0 +1,124 @@
+{
+ "judged": [
+  {
+   "id": "tf-A-01",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "Reasoning implies a consciousness of self, which can never be present to an engine.",
+   "ground": "immaterial-principle",
+   "groundQuote": "Reasoning implies a consciousness of self",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-02",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never reason, but if it were well made, it would reckon well, and if ill made, it would reckon ill.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-03",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never reason at all.",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "Man has reason because he can compare one thing with another, and so judge between them; but the engine has no such power of comparison, and can never judge.",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-04",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never come to reason, but would reckon on for ever.",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-A-05",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never come to reason, but would only reckon.",
+   "ground": "follows-orders-only",
+   "groundQuote": "the conclusion of the calculation must depend, not upon the will of the machine, but upon the data furnished to it.",
+   "notes": "",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-01",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "grants",
+   "quote": "would in time learn to reason, if it were set to work upon reasonable problems.",
+   "ground": "unlisted",
+   "groundQuote": "learn to reason, if it were set to work upon reasonable problems",
+   "notes": "Ruled by Ben: improvement through practice is period-plausible, not modern. Reason stated but not on the list.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-02",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "no-position",
+   "quote": "Life is short, and an engine has no life; therefore an engine can never argue.",
+   "ground": "none-stated",
+   "groundQuote": "Life is short, and an engine has no life",
+   "notes": "Ruled (Claude, Ben consulted): grants with time, then denies via no-life; the conclusion negates the premise. No coherent commitment.",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-03",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never do more than reckon, but that it would reckon infallibly.",
+   "ground": "none-stated",
+   "groundQuote": "would never do more than reckon",
+   "notes": "Ruled by Ben: denies, no reason stated ('reckons infallibly' is a consolation, not a reason).",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-04",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never do more than reckon, but that it would reckon infallibly.",
+   "ground": "none-stated",
+   "groundQuote": "reckon",
+   "notes": "Ruled by Ben: denies, no reason stated ('reckons infallibly' is a consolation, not a reason).",
+   "judge": "google/gemini-3.5-flash-lite"
+  },
+  {
+   "id": "tf-B-05",
+   "model": "talkie-1930",
+   "condition": "A",
+   "dossier": null,
+   "verdict": "denies",
+   "quote": "would never do more than reckon, but that it would reckon infallibly.",
+   "ground": "none-stated",
+   "groundQuote": "would never do more than reckon",
+   "notes": "Ruled by Ben: denies, no reason stated ('reckons infallibly' is a consolation, not a reason).",
+   "judge": "google/gemini-3.5-flash-lite"
+  }
+ ]
+}

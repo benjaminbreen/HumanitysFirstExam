@@ -27,7 +27,7 @@ badges. As of `prototype-0.6`:
   `/subjection` (10) — and the 12 judged pairings on
   `/relationships`, from
   `research/modern-bank-pilot/` (source-anchored modern questions,
-  embedding retrieval, two independent raters, κ reported). Real does not
+  embedding retrieval, two independent raters). Real does not
   mean conclusive: pilot cells run n=1–6 and are held as data, not
   findings.
 - **Translation review required:** nine of the ten multilingual pilot

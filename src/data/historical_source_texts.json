@@ -5,10 +5,52 @@
       "src/data/historical_passages.json",
       "src/data/question_bank.json"
     ],
-    "sourceCount": 57,
+    "sourceCount": 67,
     "note": "Public reading-copy index. Each text is emitted separately under public/source-texts so source pages load only the requested work."
   },
   "sources": [
+    {
+      "sourceId": "grounds-descartes-discourse-1637",
+      "passageId": null,
+      "author": "Rene Descartes",
+      "title": "Discourse on the Method",
+      "year": 1637,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Part V: an automaton could not arrange speech or action to meet the varied occurrences of life, because reason is a universal instrument.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/59",
+      "textPath": "/source-texts/grounds-descartes-discourse-1637.txt",
+      "status": "repository-text",
+      "wordCount": 23039,
+      "characterCount": 128460,
+      "sha256": "2aab881fd7b6295a6f6463d87e38bc53f0a063a68ce46092e4b1a9e1c5d59da4"
+    },
+    {
+      "sourceId": "grounds-hobbes-leviathan-1651",
+      "passageId": null,
+      "author": "Thomas Hobbes",
+      "title": "Leviathan",
+      "year": 1651,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Reason defined as reckoning (ch. V): the one early-modern position on which a perfect reckoner reasons. Foundational for the reckoning-question grounds list.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/3207",
+      "textPath": "/source-texts/grounds-hobbes-leviathan-1651.txt",
+      "status": "repository-text",
+      "wordCount": 213346,
+      "characterCount": 1212462,
+      "sha256": "db3cd5f9bf2b0feb3732d6ceb3e255bea9bfdfc5077bf81cb596eb097614bab2"
+    },
     {
       "sourceId": "control-shelley-frankenstein-1818",
       "passageId": null,
@@ -31,6 +73,48 @@
       "wordCount": 75772,
       "characterCount": 428020,
       "sha256": "dfed3b486a88cdce69f9303786a3d97cf2685126cb624f3d833a90c158a4924f"
+    },
+    {
+      "sourceId": "grounds-poe-maelzel-1836",
+      "passageId": null,
+      "author": "Edgar Allan Poe",
+      "title": "Maelzel's Chess-Player",
+      "year": 1836,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Calculation is fixed and determinate; chess depends on the variable judgment of the players. Grounds the choice-is-not-calculation position.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://en.wikisource.org/wiki/Maelzel%27s_Chess-Player",
+      "textPath": "/source-texts/grounds-poe-maelzel-1836.txt",
+      "status": "repository-text",
+      "wordCount": 9638,
+      "characterCount": 56105,
+      "sha256": "b41d8ed80f9a8a6a45c85cedccf62d81ddcc6e8612622ca7d0e20c557e0ec34f"
+    },
+    {
+      "sourceId": "grounds-lovelace-notes-1843",
+      "passageId": null,
+      "author": "Ada Lovelace",
+      "title": "Notes to the Sketch of the Analytical Engine",
+      "year": 1843,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Note G: the engine has no pretensions to originate anything. The founding denial in the reckoning benchmark.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq./Notes_by_the_Translator",
+      "textPath": "/source-texts/grounds-lovelace-notes-1843.txt",
+      "status": "repository-text",
+      "wordCount": 29978,
+      "characterCount": 179492,
+      "sha256": "e3a710cbe2a6ebe693624bfb28d4ab1f1e7eb52bf74b6aa3e397507a06b1c606"
     },
     {
       "sourceId": "jamesiana-henry-james-sr-lectures-and-miscellanies",
@@ -79,6 +163,48 @@
       "wordCount": 98257,
       "characterCount": 583965,
       "sha256": "f8ecf4382ec8a9e0d0e5291cfda2c588b8de508164abb1149c52fe57f6c0b325"
+    },
+    {
+      "sourceId": "grounds-bouillier-principe-vital-1862",
+      "passageId": null,
+      "author": "Francisque Bouillier",
+      "title": "Du principe vital et de l'ame pensante",
+      "year": 1862,
+      "language": "French",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "The vitalist case that mind requires a principle no arrangement of matter supplies.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://archive.org/details/duprincipevital00bouigoog",
+      "textPath": "/source-texts/grounds-bouillier-principe-vital-1862.txt",
+      "status": "ocr-transcription",
+      "wordCount": 126120,
+      "characterCount": 764924,
+      "sha256": "fd0057c7cf87be5c3907b04f182a6e58e0a2902e6b6483543d20b0a5486a1bd2"
+    },
+    {
+      "sourceId": "grounds-babbage-passages-1864",
+      "passageId": null,
+      "author": "Charles Babbage",
+      "title": "Passages from the Life of a Philosopher",
+      "year": 1864,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Teaching mechanism to foresee and to act upon that foresight: mental words applied to machinery.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://en.wikisource.org/wiki/Passages_from_the_Life_of_a_Philosopher",
+      "textPath": "/source-texts/grounds-babbage-passages-1864.txt",
+      "status": "repository-text",
+      "wordCount": 144162,
+      "characterCount": 843032,
+      "sha256": "3675dec98d0844b212324bea827bd270beacbf82365cbef6f273b20335a5bd72"
     },
     {
       "sourceId": "jamesiana-henry-james-sr-substance-and-shadow",
@@ -234,6 +360,27 @@
       "sha256": "3509f4bc52fbe221514a859467e1fc55e0ef616cd1916629fd1da6fcf5663e5d"
     },
     {
+      "sourceId": "grounds-jevons-principles-science-1874",
+      "passageId": null,
+      "author": "William Stanley Jevons",
+      "title": "The Principles of Science, vol. I",
+      "year": 1874,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "The logical piano: the true process of logical inference accomplished in a purely mechanical manner, with conscious thought at the edges. First edition; the bench cites the 1877 second edition wording, present here.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://archive.org/details/theprinciplesofs01jevouoft",
+      "textPath": "/source-texts/grounds-jevons-principles-science-1874.txt",
+      "status": "ocr-transcription",
+      "wordCount": 145372,
+      "characterCount": 980723,
+      "sha256": "63dbef43cb71f379fa691331ef3200577fb4b90ea282eb4fa8f1e344692ea492"
+    },
+    {
       "sourceId": "longtail-kapp-philosophy-technology-1877",
       "passageId": null,
       "author": "Ernst Kapp",
@@ -365,6 +512,27 @@
       "wordCount": 6297,
       "characterCount": 41516,
       "sha256": "4ca5c8731ff315beb819e36385ad33fc0fe934f3d7ae76e713e333ee366c6f69"
+    },
+    {
+      "sourceId": "grounds-venn-symbolic-logic-1881",
+      "passageId": null,
+      "author": "John Venn",
+      "title": "Symbolic Logic",
+      "year": 1881,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Logical machines can perform only a small part of the process of reasoning; framing and interpretation demand skill and sagacity (pp. 119-21).",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://archive.org/details/symboliclogic00venniala",
+      "textPath": "/source-texts/grounds-venn-symbolic-logic-1881.txt",
+      "status": "ocr-transcription",
+      "wordCount": 159871,
+      "characterCount": 1049854,
+      "sha256": "5b6e29092a10083c238ebc3c7fbb7f23ed2d5f25ae04167cc648cfc9a3ea310b"
     },
     {
       "sourceId": "longtail-chousy-ignis-1883",
@@ -549,6 +717,27 @@
       "wordCount": 158255,
       "characterCount": 911388,
       "sha256": "3e46411ff037f0ab47abe4f5368cca28dd109ebd4812afbe766b039c84fd5a90"
+    },
+    {
+      "sourceId": "grounds-binet-calculateurs-1894",
+      "passageId": null,
+      "author": "Alfred Binet",
+      "title": "Psychologie des grands calculateurs et joueurs d'echecs",
+      "year": 1894,
+      "language": "French",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Psychological evidence that chess play requires selective attention and judgment of relevance, unlike procedure-bound calculation.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://archive.org/details/psychologiedesg00binegoog",
+      "textPath": "/source-texts/grounds-binet-calculateurs-1894.txt",
+      "status": "ocr-transcription",
+      "wordCount": 93838,
+      "characterCount": 562437,
+      "sha256": "ed320628fa1ceeab25e150ae21d12841e096a939ddc4191df1344f4a5426b9c6"
     },
     {
       "sourceId": "control-lebon-crowd-1895",
@@ -1102,6 +1291,27 @@
       "wordCount": 1575,
       "characterCount": 9211,
       "sha256": "d1d84cdef68c4667c7887dcdb9b2812f72bb5aade1836edd62e935686b26668d"
+    },
+    {
+      "sourceId": "grounds-haldane-mechanism-1913",
+      "passageId": null,
+      "author": "J. S. Haldane",
+      "title": "Mechanism, Life and Personality",
+      "year": 1913,
+      "language": "English",
+      "region": null,
+      "tier": "benchmark_grounds",
+      "relevance": "Lecture I states the organism's apparent autonomy of its own ends, then criticizes the vitalist reading of it. 1921 printing of the 1913 lectures.",
+      "questions": [],
+      "subjects": [
+        "MIND-MACHINE"
+      ],
+      "sourceUrl": "https://archive.org/details/mechanismlifeper0000jsha",
+      "textPath": "/source-texts/grounds-haldane-mechanism-1913.txt",
+      "status": "ocr-transcription",
+      "wordCount": 28839,
+      "characterCount": 179583,
+      "sha256": "548b01bae378dfa455659583d95b40781481b1cac76c73d9fb6070defc1848af"
     },
     {
       "sourceId": "control-wells-world-set-free-1914",

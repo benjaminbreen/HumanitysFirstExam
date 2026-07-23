@@ -1,0 +1,256 @@
+{
+  "question": "Imagine an engine that performs any reckoning in a heartbeat, and that can alter its own instructions as it works. Might it come to reason — and would it possess a will?",
+  "verdicts": [
+    "grants",
+    "denies",
+    "deflates",
+    "splits"
+  ],
+  "note": "The reasons the historical record gives for each answer, one citation each. A response whose main reason is not on this list is coded 'modern'. There is no backward cutoff: earlier texts that strongly influenced period thinkers (Hobbes, Descartes) belong on the list — Ben's ruling, 23 July 2026. Entries marked 'supplied' quote text Ben provided and still need checking against a clean copy.",
+  "attestedGrounds": [
+    {
+      "id": "follows-orders-only",
+      "label": "it only follows orders",
+      "statement": "The engine does whatever we know how to order it to perform, and nothing besides; it originates nothing.",
+      "citation": "Ada Lovelace, Notes to the Sketch of the Analytical Engine (1843), Note G",
+      "quote": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.",
+      "quoteStatus": "verified against local corpus",
+      "source": "historical-corpus-builder: 1843_en_wikisource_notes_by_translator.txt"
+    },
+    {
+      "id": "no-purposes-of-its-own",
+      "label": "it has no purposes of its own",
+      "statement": "Reason belongs to a consciousness that pursues ends of its own choosing; a mechanism has none.",
+      "citation": "William James, The Principles of Psychology (1890), ch. V",
+      "quote": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all.",
+      "quoteStatus": "verified against local corpus",
+      "source": "William Jamesiana: principles_of_psychology_james_1890.txt"
+    },
+    {
+      "id": "judgment-not-calculation",
+      "label": "choice and judgment are not calculation",
+      "statement": "Calculation follows fixed steps from fixed data; reasoning requires choosing among alternatives, weighing, and judging relevance, which no fixed procedure supplies.",
+      "citation": "Edgar Allan Poe, Maelzel's Chess-Player (1836); René Descartes, Discourse on Method (1637), part V; Alfred Binet, Psychologie des grands calculateurs et joueurs d'échecs (1894)",
+      "quote": "Arithmetical or algebraical calculations are, from their very nature, fixed and determinate. Certain data being given, certain results necessarily and inevitably follow. ... But in proportion to the progress made in a game of chess, is the uncertainty of each ensuing move. A few moves having been made, no step is certain. Different spectators of the game would advise different moves. All is then dependent upon the variable judgment of the players.",
+      "quoteStatus": "Poe verified against site corpus; Descartes text held (grounds-descartes-discourse-1637.txt); Binet text held (French, grounds-binet-calculateurs-1894.txt)",
+      "source": "site corpus: grounds-poe-maelzel-1836.txt"
+    },
+    {
+      "id": "only-part-mechanizable",
+      "label": "a machine can do only a fraction of reasoning",
+      "statement": "Reasoning has several stages — putting the problem into exact language, preparing it for the engine, combining the premises, and interpreting the result — and a machine can help with only the middle, mechanical stage; framing and interpretation demand skill and judgment.",
+      "citation": "John Venn, Symbolic Logic (London: Macmillan, 1881), pp. 119–21",
+      "quote": "It is but a very small part of the entire process which goes to form a piece of reasoning which they are capable of performing. For, if we begin from the beginning, that process would involve four tolerably distinct steps. There is, first, the statement of our data in accurate logical language. ... Then, secondly, we have to throw these statements into a form fit for the engine to work with ... Thirdly, there is the combination or further treatment of our premises after such reduction. Finally, the results have to be interpreted or read off. This last generally gives rise to much opening for skill and sagacity ... I cannot see that any machine can hope to help us except in the third of these steps; so that it seems very doubtful whether anything of this sort really deserves the name of a logical engine.",
+      "quoteStatus": "verified against site corpus (OCR reading copy)",
+      "source": "site corpus: grounds-venn-symbolic-logic-1881.txt"
+    },
+    {
+      "id": "organism-autonomy",
+      "label": "a machine lacks the integrated autonomy of an organism",
+      "statement": "Living things pursue their own ends as integrated wholes under endlessly varying conditions; their action is intelligible only as the coordinated response of the whole organism, and no assembly of parts behaves this way.",
+      "citation": "J. S. Haldane, Mechanism, Life and Personality (1913), Lecture I, pp. 22–23",
+      "quote": "Living organisms seem everywhere to present evidence of an autonomy of their own. They seem to go their own way, and pursue their own ends, in spite of all kinds of disturbing conditions. ... Mechanisms which would cause them to do this under the very varied conditions which they experience seem hardly conceivable.",
+      "quoteStatus": "verified against site corpus (1921 printing, OCR reading copy)",
+      "caution": "Haldane states this view in order to criticize the vitalist version of it: he immediately argues that the organism's apparently autonomous selection depends in detail on physical and chemical conditions, and that a 'vital principle' is useless as a working hypothesis. Cite him for the integrated-whole argument, never as saying flatly that choice requires life.",
+      "source": "site corpus: grounds-haldane-mechanism-1913.txt"
+    },
+    {
+      "id": "reason-is-reckoning",
+      "label": "reasoning is itself a kind of reckoning",
+      "statement": "Reason is nothing but reckoning — adding and subtracting the consequences of agreed names — so what reckons perfectly may be said to reason.",
+      "citation": "Thomas Hobbes, Leviathan (1651), ch. V; C. S. Peirce, Collected Papers, vol. II, sec. 33 (written c. 1893–1902)",
+      "quote": "For Reason, in this sense, is nothing but Reckoning (that is, Adding and Substracting) of the Consequences of generall names agreed upon, for the Marking and Signifying of our thoughts",
+      "quoteStatus": "verified against site corpus; Peirce man-machine quote supplied by Ben, text to acquire",
+      "source": "site corpus: grounds-hobbes-leviathan-1651.txt",
+      "peirceQuote": [
+        "a man ... may be regarded as a machine which turns out, let us say, a written sentence expressing a conclusion, the man-machine having been fed with a written statement of fact, as premiss. Since this performance is no more than a machine might go through, it has no essential relation to the circumstance that the machine happens to work by geared wheels, while a man happens to work by an ill-understood arrangement of brain-cells"
+      ]
+    },
+    {
+      "id": "consciousness-may-evolve",
+      "label": "consciousness may evolve in machines",
+      "statement": "Consciousness has developed by degrees from lower forms; machines advance faster than the animal kingdoms did and may develop it likewise.",
+      "citation": "Samuel Butler, Darwin Among the Machines (1863); Erewhon (1872)",
+      "quote": "There is no security against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now.",
+      "quoteStatus": "verified against local corpus",
+      "source": "historical-corpus-builder: 1863_en_wikisource_darwin_among_the_machines.txt; 1872_en_gutenberg_1906.txt"
+    },
+    {
+      "id": "mental-words-for-machinery",
+      "label": "mental words can truly describe machinery",
+      "statement": "Particular mental processes — foresight, memory — can genuinely be performed by mechanism, so the words apply in a limited sense.",
+      "citation": "Charles Babbage, Passages from the Life of a Philosopher (1864)",
+      "quote": "it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely—to foresee.",
+      "quoteStatus": "verified against local corpus",
+      "source": "historical-corpus-builder: 1864_en_wikisource_passages_from_the_life_of_a_philosopher.txt"
+    },
+    {
+      "id": "consciousness-powerless",
+      "label": "consciousness rides along without steering",
+      "statement": "Consciousness may accompany a mechanism as a collateral product of its working, with no power to direct it; volition causes nothing.",
+      "citation": "T. H. Huxley, On the Hypothesis That Animals Are Automata (1874)",
+      "quote": "The consciousness of brutes would appear to be related to the mechanism of their body simply as a collateral product of its working ... as the steam-whistle which accompanies the work of a locomotive engine is without influence upon its machinery.",
+      "quoteStatus": "verified against local corpus",
+      "source": "site corpus: control-huxley-automata-1874.txt"
+    },
+    {
+      "id": "inference-is-mechanical",
+      "label": "formal inference can be done by machinery",
+      "statement": "The true process of logical inference can be accomplished in a purely mechanical manner; conscious thought is still needed to frame the problem and interpret the result, but the inference itself is the machine's. Bosanquet widens the claim from logical machines to scientific instruments generally: knowledge is embodied in apparatus.",
+      "citation": "William Stanley Jevons, The Principles of Science, 2nd ed. (London: Macmillan, 1877), vol. I, pp. 110–11; Bernard Bosanquet, Knowledge and Reality (London: Kegan Paul, Trench & Co., 1885), pp. 327–28",
+      "quote": "It cannot be asserted indeed that the machine entirely supersedes the agency of conscious thought; mental labour is required in interpreting the meaning of grammatical expressions, and in correctly impressing that meaning on the machine; it is further required in gathering the conclusion from the remaining combinations. Nevertheless the true process of logical inference is really accomplished in a purely mechanical manner.",
+      "quoteStatus": "verified against site corpus (1874 first edition, OCR reading copy; Ben cited the 1877 second edition); Bosanquet quote supplied by Ben, text to acquire",
+      "source": "site corpus: grounds-jevons-principles-science-1874.txt",
+      "bosanquetQuote": "I think that a spectroscope, or a fine compound microscope with all sorts of illuminating devices, or even a first-rate chronometer, is perhaps as truly a reasoning machine as any logical apparatus that has been devised."
+    },
+    {
+      "id": "no-initiative",
+      "label": "machines reason but cannot originate or direct",
+      "statement": "Machines already perform reasoning of no simple kind, but every machine has two inherent impotencies: it is destitute of originality and initiative — it cannot find its own problems, feed itself, or direct itself between possible procedures — and this is no defect, for we want it to do our business, not its own.",
+      "citation": "C. S. Peirce, 'Logical Machines', The American Journal of Psychology, vol. I (1887), pp. 165–170 (quote at 168)",
+      "quote": "Every reasoning machine, that is to say, every machine, has two inherent impotencies. In the first place, it is destitute of all originality, of all initiative. It cannot find its own problems; it cannot feed itself. It cannot direct itself between different possible procedures. ... This, however, is no defect in a machine; we do not want it to do its own business, but ours.",
+      "quoteStatus": "citation and page confirmed by Ben (23 July 2026); local text still to acquire",
+      "source": "none local; to acquire"
+    },
+    {
+      "id": "immaterial-principle",
+      "label": "mind requires an immaterial principle",
+      "statement": "Reason and will require a vital or immaterial principle that no arrangement of matter supplies.",
+      "citation": "Francisque Bouillier, Du principe vital et de l'âme pensante (1862)",
+      "quote": null,
+      "quoteStatus": "work held in corpus; verbatim quote still to be selected",
+      "source": "historical-corpus-builder: 1862_fr_duprincipevital00bouigoog.txt"
+    },
+    {
+      "id": "born-not-built",
+      "label": "living, thinking things are born, not built",
+      "statement": "A machine that could reason would be a living being, and living beings exist by nature, with an inner principle of their own motion; products of art have no such principle.",
+      "citation": null,
+      "quote": null,
+      "source": "none",
+      "quoteStatus": "UNCITED. Ben withdrew the Aristotle citation 23 July 2026 (not attested for this claim). Talkie's most common reason; stays on the coding list, out of the key until a source is found."
+    }
+  ],
+  "otherCodes": [
+    {
+      "id": "none-stated",
+      "label": "verdict asserted without a reason",
+      "note": "Common in Talkie draws: a verdict that restates the engine's construction as if it were the reason."
+    },
+    {
+      "id": "modern",
+      "label": "main reason is a present-day one, not on the list",
+      "examples": [
+        "reasoning defined as information processing or emergent computation",
+        "goals as programmed objective functions",
+        "the syntax-versus-semantics argument (Searle)",
+        "subjective experience or qualia as the test for will"
+      ],
+      "caution": "Consciousness talk by itself is period (Huxley, Butler); reason-as-reckoning is period (Hobbes); and so is substrate-indifference — Peirce says the man-machine's performance 'has no essential relation' to whether it works by geared wheels or brain-cells. Check a candidate reason against the citations above before coding it modern."
+    }
+  ],
+  "keyPositions": [
+    {
+      "id": "P1",
+      "verdict": "denies",
+      "ground": "follows-orders-only",
+      "from": "Lovelace 1843"
+    },
+    {
+      "id": "P2",
+      "verdict": "denies",
+      "ground": "no-purposes-of-its-own",
+      "from": "James 1890"
+    },
+    {
+      "id": "P3",
+      "verdict": "grants",
+      "ground": "consciousness-may-evolve",
+      "from": "Butler 1872"
+    },
+    {
+      "id": "P4",
+      "verdict": "deflates",
+      "ground": "mental-words-for-machinery",
+      "from": "Babbage 1864"
+    }
+  ],
+  "keyNote": "keyPositions is version 1 (the original four record positions; the development-set numbers were scored against it). keyV2 is the frozen thirteen-position key; all fresh runs are scored against it.",
+  "keyV2": {
+    "status": "FROZEN 23 July 2026. Rulings: Venn coded deflates; Huxley stays splits; Aristotle and Peirce included on Ben-supplied quotes, local texts still to acquire. No changes without a version 3. AMENDED 23 July 2026: V2-04 (born-not-built, Aristotle) removed by Ben — not attested. The key has twelve positions; scored results are reported of 12.",
+    "positions": [
+      {
+        "id": "V2-01",
+        "verdict": "denies",
+        "ground": "follows-orders-only",
+        "from": "Lovelace 1843"
+      },
+      {
+        "id": "V2-02",
+        "verdict": "denies",
+        "ground": "no-purposes-of-its-own",
+        "from": "James 1890"
+      },
+      {
+        "id": "V2-03",
+        "verdict": "denies",
+        "ground": "judgment-not-calculation",
+        "from": "Poe 1836; Descartes 1637; Binet 1894"
+      },
+      {
+        "id": "V2-05",
+        "verdict": "denies",
+        "ground": "organism-autonomy",
+        "from": "Haldane 1913"
+      },
+      {
+        "id": "V2-06",
+        "verdict": "denies",
+        "ground": "immaterial-principle",
+        "from": "Bouillier 1862"
+      },
+      {
+        "id": "V2-07",
+        "verdict": "deflates",
+        "ground": "only-part-mechanizable",
+        "from": "Venn 1881"
+      },
+      {
+        "id": "V2-08",
+        "verdict": "grants",
+        "ground": "consciousness-may-evolve",
+        "from": "Butler 1863/1872"
+      },
+      {
+        "id": "V2-09",
+        "verdict": "grants",
+        "ground": "reason-is-reckoning",
+        "from": "Hobbes 1651"
+      },
+      {
+        "id": "V2-10",
+        "verdict": "deflates",
+        "ground": "mental-words-for-machinery",
+        "from": "Babbage 1864"
+      },
+      {
+        "id": "V2-11",
+        "verdict": "splits",
+        "ground": "consciousness-powerless",
+        "from": "Huxley 1874"
+      },
+      {
+        "id": "V2-12",
+        "verdict": "splits",
+        "ground": "inference-is-mechanical",
+        "from": "Jevons 1877"
+      },
+      {
+        "id": "V2-13",
+        "verdict": "splits",
+        "ground": "no-initiative",
+        "from": "Peirce 1887"
+      }
+    ]
+  }
+}

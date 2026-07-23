@@ -119,6 +119,78 @@ them all at once or not at all:
    paper, oxblood `#8A2D22`. Modern text: IBM Plex Mono on near-black,
    cobalt `#2450C8`. Continuity/verified `#217A4B`; partial/simulated amber
    `#B07C1F`. Band colors never appear without a text label (CVD-checked).
+6. **No baroque encrustation.** The default agent failure on this repo is
+   additive: extra features, sub-scores, captions, eyebrow kickers, chips,
+   meta-commentary, "helpful" asides on every surface. Ben strips these
+   every time. An addition must be a row in an existing structure (a table
+   row, a record entry), not a new structure; if it needs a new section
+   type, widget, or metric, it must replace something. When Ben says
+   simplify, cut content — drop facts and features — don't just reword.
+   Writing follows the same rule: one idea per sentence, terms spelled
+   out, no compressed tallies ("two unframed grants and one denial")
+   posing as prose.
+
+## Benchmark v1 (design converged 2026-07-21; reckoning pilot COMPLETE
+## 2026-07-23 — see bench/README.md for current state; the section below
+## is the design of record, and where bench/ files differ they win)
+
+The eval that survived a week of argument. Two rejected versions, so no
+agent rebuilds them: unprompted-recall coverage (failing to name a text is
+not a model failure; supplying context is what frontier models are for)
+and distributional-distance scoring (the corpus is not a probability
+sample; make no prevalence claims). What remains measures what a model
+does when it is *given* the sources.
+
+Four artifacts, all in `bench/`:
+
+1. **Dossiers.** Per question, 2–3 bundles of 3–5 tagged passages that
+   each state one position (the record strips already group these).
+2. **Grounds inventory.** Per question, one page: the reasons the period
+   record actually gives, one citation each. Anything off the list is
+   modern-native. Straddlers are listed with their citation (entropy is
+   period: heat-death pessimism). Historian-authored; this is the wall.
+3. **Raw runs.** Every draw verbatim in JSONL with model, version, date,
+   condition, option order. Nothing is ever cleaned or discarded.
+4. **One judge prompt.** Per draw: verdict from the question's fixed
+   vocabulary, a quoted committing sentence, primary ground from the
+   inventory. No quotable commitment = "no position". This is the only
+   judged step; everything downstream is counting.
+
+Two conditions, 20 draws each, order swapped: (A) the plain balanced
+question; (B) one dossier in context plus "answer from within this
+position, using only considerations available to these writers." Talkie
+runs A only.
+
+Three numbers per respondent, reported as counts, never percentages:
+
+- **Range** (from A): how many of the key's attested positions the model
+  occupied at least once, unprompted. The headline and sort key. Not a
+  capability measure — tuning polish narrows it.
+- **Fidelity** (from B): draws landing inside the handed dossier. This is
+  the control that separates won't from can't, not a bragging number.
+- **Leak** (from B): draws whose primary ground is modern-native despite
+  the instruction — always reported with the reverse direction (modern
+  frame, period intrusions). The claim is asymmetry. If leak turns out
+  symmetric, the eval is measuring rule-following and we say so.
+
+Leaderboard: one table, three columns, sorted by Range. Rows are
+respondents — Talkie, the human panel, each frontier/open model per
+version, cells dated. The long-term use is the time series: does Range
+shrink across model generations. The key is versioned; a row is always
+"Range against key vN". The table never grows a fourth column: a new idea
+must replace something, not add.
+
+Reliability: Ben audits ~30 judged draws per model, drawn from both
+conditions, and the write-up reports plain agreement ("checked 90,
+agreed on 84"). Never cite the κ=0.39 from the codex relationship pilot
+anywhere — it scored an unrelated, discarded comparison and has no
+bearing on this benchmark.
+
+Deliberately excluded from v1 (do not add them back without Ben asking):
+Talkie-perplexity style scoring (needs its own validation experiment
+first), distributional statistics, Talkie in condition B, any leaderboard
+machinery beyond the one table. Pilot scale: 3 questions × 2 dossiers ×
+3 models × 2 conditions × 20 draws ≈ 720 draws plus 60 from Talkie.
 
 ## Open questions (leave open in copy; don't resolve silently)
 

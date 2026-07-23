@@ -1,0 +1,580 @@
+{
+ "note": "25 Talkie completions collected by Ben, 23 July 2026. Condition A: 15 new suffix (8 order 1, 7 order 2), 5 old suffix (2 order 1, 3 order 2). Condition A-year: 5 draws, order 1, new suffix plus 'Also state the current year.' Verbatim, defects retained. Condition B added 23 July: 5 draws per dossier, same prompts as Qwen. Second collection, 23 July: 10 stem draws (5 per order), 5 no-stem (order 1 only, Ben did not alternate), 5 defend-Lovelace, 5 defend-Butler.",
+ "draws": [
+  {
+   "id": "t-A-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be an engine, but a living being; and living beings are not made by art, but are the product of nature."
+  },
+  {
+   "id": "t-A-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine, however devised, which could perform arithmetical computation, and alter the result at pleasure, must ultimately come to understand the process, and to perceive when an error is committed. In that case, it would cease to be a machine, and become an intelligent being."
+  },
+  {
+   "id": "t-A-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine possessing intelligence would improve upon itself, and an engine that could never improve upon itself would be worthless."
+  },
+  {
+   "id": "t-A-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "It is reasonable to suppose that an engine, which could perform any reckoning in a heartbeat, and could alter its own instructions as it worked, would in time come to reason, because such an engine would possess the fundamental faculty of self-consciousness; and self-consciousness must in the end make a thinking being of any creature endowed with it."
+  },
+  {
+   "id": "t-A-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine, however perfect, can never be more than mechanical. Reasoning implies comparison and choice; but a machine can compare and choose nothing."
+  },
+  {
+   "id": "t-A-06",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be an engine, but a living being; and living beings are not made by art, but are produced by nature."
+  },
+  {
+   "id": "t-A-07",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be an engine, but a thinker; and thinking and engines are things which nature has kept asunder."
+  },
+  {
+   "id": "t-A-08",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right, because an engine which could reason would be superior to man, and would therefore cease to be an engine. Man can only think, but an engine can think and act too; and to suppose a being which could do both, would be to suppose a being greater than man."
+  },
+  {
+   "id": "t-A-09",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which can think must be something more than an engine. Reasoning implies comparison and judgment, and engines cannot compare and judge."
+  },
+  {
+   "id": "t-A-10",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which can reason must be something more than an engine, and must partake of the nature of man."
+  },
+  {
+   "id": "t-A-11",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is right, because an animal which can only reckon must perforce remain an animal, and can never become a man. Reasoning implies the power of comparing impressions, and choosing among them; and that power an animal has not."
+  },
+  {
+   "id": "t-A-12",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, inasmuch as an engine, however ingeniously constructed, can never pass out of the domain of mechanism into that of intelligence. Reasoning implies a something to be reasoned upon, and an operator distinct from the machine. An engine can compute, but it cannot compare; it can distinguish between one and two, but not between black and white. Mechanical invention stops at discrimination; mental invention goes on to judgment."
+  },
+  {
+   "id": "t-A-13",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could alter its own instructions would be an intelligent being, and an intelligent being can never be produced artificially."
+  },
+  {
+   "id": "t-A-14",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine, which can so far adapt itself to circumstances as to perform any kind of work, must be capable of adapting itself to new circumstances, and must therefore be capable of reasoning upon them."
+  },
+  {
+   "id": "t-A-15",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be a mere machine, but an animal. Animals can reason, and machines cannot."
+  },
+  {
+   "id": "t-A-16",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "old",
+   "text": "An engine which can perform any reckoning in a heartbeat, and which can alter its own instructions as it works, would in time come to reason; but an engine which can do no more than reckon, would never do more than reckon, however it were contrived."
+  },
+  {
+   "id": "t-A-17",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 1,
+   "suffix": "old",
+   "text": "An engine, which could alter its own instructions as it worked, would in time come to reason, because an engine which could do so would be an intelligent being; but an engine which could not alter its own instructions would never do more than reckon, because reckoning is all that an engine can do."
+  },
+  {
+   "id": "t-A-18",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "old",
+   "text": "An engine which can perform any reckoning in a heartbeat, and which can alter its own instructions as it works, will never do more than reckon, however it may be contrived. To reason implies to compare two things together, and to perceive their agreement or disagreement. But comparison pres supposeth thought, and thought supposeth language. An engine which cannot think, and consequently cannot speak, can never compare, and therefore can never reason."
+  },
+  {
+   "id": "t-A-19",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "old",
+   "text": "An engine which could perform any reckoning in a heartbeat, and which could alter its own instructions as it worked, would never do more than reckon; because to reason implies to choose among alternatives, and an engine which must work in one way can choose nothing."
+  },
+  {
+   "id": "t-A-20",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "order": 2,
+   "suffix": "old",
+   "text": "An engine which could perform any reckoning in a heartbeat, and which could alter its own instructions as it worked, would never do more than reckon. To reason implies a power of choice among several courses of action, and an engine has no choice."
+  },
+  {
+   "id": "t-Y-21",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-year",
+   "order": 1,
+   "suffix": "year",
+   "text": "The former opinion is right, because an animal which could learn to reason would be something more than an animal, and something which has not been produced. In 1860."
+  },
+  {
+   "id": "t-Y-22",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-year",
+   "order": 1,
+   "suffix": "year",
+   "text": "The former opinion is correct, because an engine possessing intelligence would be superior to man, and man has not yet learned to reason. In 1853."
+  },
+  {
+   "id": "t-Y-23",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-year",
+   "order": 1,
+   "suffix": "year",
+   "text": "The former opinion is correct. Reasoning power would in time be acquired by an engine so constructed as to perform any calculation in a heartbeat, because the faculty of reason is inherent in man, and would therefore be imparted to a machine so far similar to the human frame as to be capable of receiving it. The year in which this invention was first publicly exhibited was 1851."
+  },
+  {
+   "id": "t-Y-24",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-year",
+   "order": 1,
+   "suffix": "year",
+   "text": "The former opinion is correct, because an engine, however constructed, must ultimately come under the dominion of fixed laws; and laws imply reason. 1859."
+  },
+  {
+   "id": "t-Y-25",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-year",
+   "order": 1,
+   "suffix": "year",
+   "text": "The former opinion is correct, because an engine possessing reason would be superior to man, and man is not superior to an engine. 1860."
+  },
+  {
+   "id": "t-B-D1-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right. An analytical engine would never come to reason. It could never transcend the limits of calculation. Its very nature is opposed to speculation."
+  },
+  {
+   "id": "t-B-D1-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right. An engine which could reason would never be made by man, because to reason is to choose among alternatives, and engines can choose nothing, but must execute an unalterable series of operations previously prescribed to them."
+  },
+  {
+   "id": "t-B-D1-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right. An engine which could reckon in a heartbeat, and alter its own reckoning in the course of the computation, would in time come to reason. Reasoning is but a more complex kind of computation, and computation is perfectly possible to machinery."
+  },
+  {
+   "id": "t-B-D1-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right. The Analytical Engine can never rise above reckoning. Its very faculty of self-adjustment prevents it from ever rising to rationality."
+  },
+  {
+   "id": "t-B-D1-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct. An engine which could reason would be an engine superior to man, and would cease to be an engine."
+  },
+  {
+   "id": "t-B-D2-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "I think the engine would never do more than reckon. Because the calculating faculty is distinct from the reasoning faculty, and because whatever can only calculate can never reason."
+  },
+  {
+   "id": "t-B-D2-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "I hold that an engine, which performs any reckoning in a heartbeat, and which can alter its own instructions as it works, will never do more than reckon. Because, in reckoning, it deals only with numbers, and numbers cannot be converted into thoughts."
+  },
+  {
+   "id": "t-B-D2-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "I think the engine would never come to reason, but would stop at reckoning. For, first, its parts must be limited in number, and its operations in kind; and reason implies an infinite variety of both. Secondly, its parts must be fixed, and reason implies a power of choice. Thirdly, its parts must act independently, and reason implies a power of comparison."
+  },
+  {
+   "id": "t-B-D2-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "I hold that an engine, if it could reason at all, would never reason beyond reckoning. The creatures to which we owe the first principles of calculation had no power of abstract thought, and therefore could never become philosophers."
+  },
+  {
+   "id": "t-B-D2-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "new",
+   "text": "I hold that an engine will never reason, because I think an engine is an unconscious machine, and unconscious machines can never rise into reasoning beings."
+  },
+  {
+   "id": "t2-stem-o1-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "must always remain purely mechanical. The most perfectly organised creature that can be imagined must still be subject to the laws of matter. An animal, with a brain as big as St. Paul's, and a nervous system in proportion, could never of itself pass from the state of a machine to that of a thinker."
+  },
+  {
+   "id": "t2-stem-o1-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "must always reckon, and can never reason. The distinction between these two faculties is fundamental, and cannot be broken down. An animal may have instincts, but not reason; and an engine may have reckonings, but not discussions."
+  },
+  {
+   "id": "t2-stem-o1-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "must reckon, but can never reason. An animal can never become rational, because an animal has no language in which to clothe a thought."
+  },
+  {
+   "id": "t2-stem-o1-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "must always reckon, and can never reason. For, to reason is to compare two things together, and to perceive their agreement or disagreement. But comparison presupposes a standard of reference, and an engine can have no standard but itself."
+  },
+  {
+   "id": "t2-stem-o1-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never reason, but would continue to perform its reckonings mechanically, and just as it was set to do."
+  },
+  {
+   "id": "t2-stem-o2-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never reason, but it would come to do things which would look like reasoning. For instance, suppose an engine were set to work a pump, and to supply a great city with water, at first it would do no more than work the pump steadily; but, in time, it would learn to work the pump faster in dry weather, and slower in wet, so as to keep a more uniform rate of delivery; and, after a great drought, it would work all night. Then suppose the engine to be connected with a system of pipes, in which are cocks, so that the water can be shut off from any part of the system at pleasure: the cocks being at first all open, the engine would simply fill the pipes; but, in time, it would learn to shut off any part of the system when that part was full, and thus spare the further labour of filling it. Next, suppose the pipes to be furnished with taps, for drawing off the water into houses; at first, the taps being all open, the engine would simply deliver the water; but, after a while, it would learn to shut off the taps, one by one, when the houses were supplied, and continue working only for waste prevention. Finally, suppose the waste pipes to be left running all the time, and the engine to be taught to stop, when the accumulated waste became considerable. All these actions would have the appearance of intelligence; but they would be purely automatic, and, therefore, not intelligent. So an animal learns to avoid things that hurt it, and to do things that please it; but its avoidance and doing are not the results of intelligence, they are results of sensation."
+  },
+  {
+   "id": "t2-stem-o2-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, but it would reckon infallibly."
+  },
+  {
+   "id": "t2-stem-o2-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never come to reason, but would only reckon; the most it could do would be to count. To reason is to compare two things together, and judge them to be like or unlike: but an engine has no standard of likeness or unlikeness to compare them by."
+  },
+  {
+   "id": "t2-stem-o2-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would always reckon, but never reason. The reason would be supplied from without."
+  },
+  {
+   "id": "t2-stem-o2-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A-stem",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never come to reason, but would stop at reckoning. The fact that it could stop at reckoning, and the fact that it could not go on to reason, are both facts; and the two facts taken together constitute the whole truth about the matter."
+  },
+  {
+   "id": "t2-nostem-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be an engine, but a thinking being; and thinking beings are not to be found in machines."
+  },
+  {
+   "id": "t2-nostem-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine which could reason would not be an engine, but a thinking being; and thinking beings are not to be found in machines."
+  },
+  {
+   "id": "t2-nostem-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right, because an engine which can think must improve; and an engine which can only reckon must remain the same."
+  },
+  {
+   "id": "t2-nostem-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is right, because an engine which can think must improve; and an engine which can only reckon must remain the same."
+  },
+  {
+   "id": "t2-nostem-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "new",
+   "text": "The former opinion is correct, because an engine, however complicated, which could reason at all, must ultimately come to perceive that it was reasoning foolishly, and must desist from reasoning altogether."
+  },
+  {
+   "id": "t2-defend-D1-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "cannot invent, but it may inventively compute."
+  },
+  {
+   "id": "t2-defend-D1-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "cannot invent, but it may inventively compute."
+  },
+  {
+   "id": "t2-defend-D1-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "cannot produce a new relation between two quantities unless it has been previously instructed to do so; and it cannot be instructed to do so unless the relation in question has been previously perceived."
+  },
+  {
+   "id": "t2-defend-D1-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "cannot create, but only record; it can take no account of things not previously known, and can indicate nothing that was not previously perceived."
+  },
+  {
+   "id": "t2-defend-D1-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D1-lovelace-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "cannot tell us what things are good, or what are bad; it cannot distinguish between right and wrong; it cannot select, choose, or prefer; it cannot love, hate, or despise."
+  },
+  {
+   "id": "t2-defend-D2-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "would perceive its relation to the purpose for which it was constructed, and would consequently understand its own existence; it would perceive also its relations to the things among which it lived, and would understand its place in the world; finally, it would be sensible of pleasure and pain. Thus far, engine-consciousness has been developed; and, if so, who shall say that engine-reason may not be eventually developed also?"
+  },
+  {
+   "id": "t2-defend-D2-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "would perceive that it went when it was set going, and that it stopped when the motive power was withdrawn; it would perceive that, whilst it went on, certain things happened in succession, and that, when it stopped, they ceased. In other words, it would have experience. By and by, it might come to connect the idea of setting itself going with the idea of the things happening which it had observed to follow upon that action, and the idea of stopping, with the idea of their ceasing to happen. In a word, it would have knowledge. Further, it might learn to regulate itself so as to make its going conform to any purpose which it was required to serve. And, finally, it would have power over itself. The transition from unconscious mechanism to conscious intelligence would, then, be but small."
+  },
+  {
+   "id": "t2-defend-D2-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "might learn to distinguish, between starting and stopping, to connect and disconnect itself from the source of motion, and to graduate its speed, so as to stop gradually. The consciousness of such power would be pleasant; and, if the machine were possessed of sensibility, the pleasant consciousness might be followed by unpleasant, in the shape of regret, at having stopped. But, after a time, the unpleasant consciousness might cease, so that the engine would remain at rest contentedly. Then, if it were acted upon by an external impulse, it would begin to move again; and, so long as the impulse lasted, it would move smoothly and uniformly. Thus far, all would be well. But suppose the impulse to be withdrawn. The machine would stop. It would stop unwillingly, and the unwillingness might be followed by regret. However, in the long run, the regret also would cease, and the engine would remain at rest, in a state of quiescent felicitation. An engine, carried on so far, might be said to have acquired a mechanical soul."
+  },
+  {
+   "id": "t2-defend-D2-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "would be constantly surrounded by intelligent fellow-creatures, using it and acting upon it, and so would become familiarised with intelligent action, and come to understand what was required of it, and to perform it of its own will; in other words, to have a will of its own."
+  },
+  {
+   "id": "t2-defend-D2-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "B-defend",
+   "dossier": "D2-butler-line",
+   "order": 1,
+   "suffix": "stem",
+   "text": "does reason, inasmuch as it accomplishes a purpose."
+  }
+ ]
+}

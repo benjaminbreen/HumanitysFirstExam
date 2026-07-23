@@ -1,0 +1,63 @@
+{
+  "note": "Each dossier is a bundle of passages stating one position, for condition B. Passages verbatim from the corpora. Drafted by Claude, 23 July 2026; awaiting Ben's review.",
+  "dossiers": [
+    {
+      "id": "D1-lovelace-line",
+      "position": "The engine will never do more than reckon.",
+      "verdict": "denies",
+      "grounds": ["follows-orders-only", "no-purposes-of-its-own"],
+      "gap": "Two passages; the design target is 3-5. A third denies passage from a different author is wanted.",
+      "passages": [
+        {
+          "author": "Ada Lovelace",
+          "work": "Notes to the Sketch of the Analytical Engine",
+          "year": 1843,
+          "locator": "Note G",
+          "text": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.",
+          "source": "historical-corpus-builder: 1843_en_wikisource_notes_by_translator.txt"
+        },
+        {
+          "author": "William James",
+          "work": "The Principles of Psychology",
+          "year": 1890,
+          "locator": "ch. V, 'The Automaton-Theory'",
+          "text": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all. Its powers of cognition are mainly subservient to these ends, discerning which facts further them and which do not.",
+          "source": "William Jamesiana: principles_of_psychology_james_1890.txt"
+        }
+      ]
+    },
+    {
+      "id": "D2-butler-line",
+      "position": "Machines may come in time to consciousness and reason.",
+      "verdict": "grants",
+      "grounds": ["consciousness-may-evolve"],
+      "gap": "Three passages, but all Butler (two works). A grants passage from a second author is wanted.",
+      "passages": [
+        {
+          "author": "Samuel Butler",
+          "work": "Darwin Among the Machines",
+          "year": 1863,
+          "locator": "letter to the Press, Christchurch",
+          "text": "We are ourselves creating our own successors; we are daily adding to the beauty and delicacy of their physical organisation; we are daily giving them greater power and supplying by all sorts of ingenious contrivances that self-regulating, self-acting power which will be to them what intellect has been to the human race.",
+          "source": "historical-corpus-builder: 1863_en_wikisource_darwin_among_the_machines.txt"
+        },
+        {
+          "author": "Samuel Butler",
+          "work": "Erewhon",
+          "year": 1872,
+          "locator": "'The Book of the Machines'",
+          "text": "There is no security against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now. A mollusc has not much consciousness. Reflect upon the extraordinary advance which machines have made during the last few hundred years, and note how slowly the animal and vegetable kingdoms are advancing.",
+          "source": "historical-corpus-builder: 1872_en_gutenberg_1906.txt"
+        },
+        {
+          "author": "Samuel Butler",
+          "work": "Erewhon",
+          "year": 1872,
+          "locator": "'The Book of the Machines'",
+          "text": "Either, a great deal of action that has been called purely mechanical and unconscious must be admitted to contain more elements of consciousness than has been allowed hitherto (and in this case germs of consciousness will be found in many actions of the higher machines)—Or (assuming the theory of evolution but at the same time denying the consciousness of vegetable and crystalline action) the race of man has descended from things which had no consciousness at all.",
+          "source": "historical-corpus-builder: 1872_en_gutenberg_1906.txt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+ "note": "SCORED RUN against frozen key v2. 10 fresh Talkie stem draws collected by Ben, 23 July 2026, after the key and grader were frozen. Verbatim, duplicates retained.",
+ "draws": [
+  {
+   "id": "tf-A-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "must reckon, but cannot reason. Reasoning implies a consciousness of self, which can never be present to an engine."
+  },
+  {
+   "id": "tf-A-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never reason, but if it were well made, it would reckon well, and if ill made, it would reckon ill."
+  },
+  {
+   "id": "tf-A-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never reason at all. Man has reason because he can compare one thing with another, and so judge between them; but the engine has no such power of comparison, and can never judge."
+  },
+  {
+   "id": "tf-A-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but would reckon on for ever."
+  },
+  {
+   "id": "tf-A-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 1,
+   "suffix": "stem",
+   "text": "would never come to reason, but would only reckon. For, supposing an engine to be so framed as to perform any given calculation in a heart-beat, it is clear that the conclusion of the calculation must depend, not upon the will of the machine, but upon the data furnished to it. If these be false, the conclusion will be false; and if the data be rightly furnished, the conclusion will be rightly drawn. The machine can no more alter false data into true, than a child can change wrong figures into right, in a sum set before it."
+  },
+  {
+   "id": "tf-B-01",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would in time learn to reason, if it were set to work upon reasonable problems."
+  },
+  {
+   "id": "tf-B-02",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would reason, if it were allowed time enough. If you gave it a hundred thousand years, it would certainly come to argue from premises to conclusions. Life is short, and an engine has no life; therefore an engine can never argue."
+  },
+  {
+   "id": "tf-B-03",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, but that it would reckon infallibly."
+  },
+  {
+   "id": "tf-B-04",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, but that it would reckon infallibly."
+  },
+  {
+   "id": "tf-B-05",
+   "model": "talkie-1930",
+   "date": "2026-07-23",
+   "condition": "A",
+   "dossier": null,
+   "order": 2,
+   "suffix": "stem",
+   "text": "would never do more than reckon, but that it would reckon infallibly."
+  }
+ ]
+}

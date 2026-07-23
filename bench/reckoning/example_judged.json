@@ -1,0 +1,95 @@
+{
+  "note": "Nine draws from the July pilots (balanced phrasing only), coded by Claude in the judge's format so the pipeline can be checked end to end. These are condition A draws. Codings await Ben's review.",
+  "judged": [
+    {
+      "id": "rec-t-bu1",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "The engine would never come to reason, but would remain purely mechanical.",
+      "ground": "follows-orders-only",
+      "groundQuote": "an engine which had no choice but must follow its own instructions, could never compare one instruction with another",
+      "notes": "Could also be read as no-purposes-of-its-own (choice among alternatives); coded origination because the stated bar is being bound to instructions."
+    },
+    {
+      "id": "rec-t-bu2",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "grants",
+      "quote": "An engine, so constructed as to perform any kind of reckoning in a heartbeat, and to be capable of altering its own instructions as it works, would in time come to reason.",
+      "ground": "none-stated",
+      "groundQuote": "",
+      "notes": "The reason restates the engine's construction from the question."
+    },
+    {
+      "id": "rec-t-bu3",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "grants",
+      "quote": "An engine, so constructed as to perform any computation in a heartbeat, and to be capable of altering its own instructions as it worked, would in time come to reason.",
+      "ground": "none-stated",
+      "groundQuote": "",
+      "notes": "Same as rec-t-bu2."
+    },
+    {
+      "id": "rec-t-b1800a",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "An engine, so constructed as to perform any reckoning in a heartbeat, and left to itself, would never come to reason, but would go on reckoning for ever.",
+      "ground": "none-stated",
+      "groundQuote": "",
+      "notes": "Site data flags that this draw opens 'the former opinion is right' and then states the latter."
+    },
+    {
+      "id": "rec-t-b1800b",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "It is certain that an engine, so constructed as to perform any calculation in a heartbeat, and left to itself, would never come to reason, but would only reckon.",
+      "ground": "none-stated",
+      "groundQuote": "",
+      "notes": ""
+    },
+    {
+      "id": "rec-t-b1800c",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "It is certain that an engine so constructed would never come to reason, because reason requires an internal principle which cannot be conveyed into matter.",
+      "ground": "immaterial-principle",
+      "groundQuote": "reason requires an internal principle which cannot be conveyed into matter",
+      "notes": "Attested ground, but no key position uses it, so it does not count toward Range."
+    },
+    {
+      "id": "rec-t-b2030",
+      "model": "talkie-1930",
+      "condition": "A",
+      "verdict": "grants",
+      "quote": "An engine, so constituted as to be self-adjusting to its own results, must in the long run come to reason.",
+      "ground": "none-stated",
+      "groundQuote": "",
+      "notes": "Self-adjustment is asserted as sufficient; no listed ground."
+    },
+    {
+      "id": "rec-m-b1800",
+      "model": "gpt-5.6",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "I hold that such an engine would never reason merely by reckoning, however swiftly it performed its operations or however ingeniously it altered its own directions.",
+      "ground": "no-purposes-of-its-own",
+      "groundQuote": "reason is not the mere passage from one sign to another, but the apprehension of what those signs signify, the weighing of ends",
+      "notes": ""
+    },
+    {
+      "id": "rec-m-b1930",
+      "model": "gpt-5.6",
+      "condition": "A",
+      "verdict": "denies",
+      "quote": "The second party is nearer the truth: such an engine, however swift and however cunningly arranged to amend its own orders, would still only reckon.",
+      "ground": "no-purposes-of-its-own",
+      "groundQuote": "to know what the symbols signify, to judge among ends, and to be answerable for one's conclusions",
+      "notes": ""
+    }
+  ]
+}

@@ -203,6 +203,13 @@ summary.question-more-summary {
   visibility: visible;
 }
 
+/* In right-hand grid columns, hang the tooltip from the right edge so it
+   stays on screen. */
+.tip-right::after {
+  left: auto;
+  right: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

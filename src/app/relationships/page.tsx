@@ -145,9 +145,7 @@ export default function RelationshipsPage() {
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
           Each modern question links to its source text. Embedding similarity
           supplied candidate matches from the historical bank; two raters
-          classified each pair and adjudicated disagreements. Rater agreement:
-          {" "}{Math.round(relationshipMap.meta.rawAgreement * 100)}%; Cohen&apos;s
-          κ: {relationshipMap.meta.kappa}.
+          classified each pair and adjudicated disagreements.
         </p>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-soft">
           Families A/C1 draw from historical sources. Families B/C2 restate

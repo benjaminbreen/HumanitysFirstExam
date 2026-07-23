@@ -23,7 +23,15 @@ export default function ReckoningPage() {
           >
             engine experiment
           </Link>{" "}
-          ran the same underlying question as a completion opening.
+          ran the same underlying question as a completion opening. The{" "}
+          <Link
+            href="/benchmark"
+            className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
+          >
+            benchmark pilot
+          </Link>{" "}
+          scores fresh answers to this question against thirteen documented
+          positions.
         </>
       }
     />

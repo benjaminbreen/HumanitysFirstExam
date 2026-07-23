@@ -1,0 +1,365 @@
+{
+ "note": "Claude's hand codings of the 25 Talkie draws, 23 July 2026. Two provisional ground ids appear that are NOT in grounds.json — the draws forced them: 'born-not-built' (a reasoning engine would not be an engine but a living being; life and mind come by nature, not artifice) and 'judgment-not-calculation' (reasoning is comparing, judging, choosing, which a machine cannot do). 'unlisted' marks stated reasons fitting no ground, described in notes. All three await Ben's ruling: add to the inventory with citations, merge into existing grounds, or reject the codings.",
+ "judged": [
+  {
+   "id": "t-A-01",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which could reason would not be an engine, but a living being; and living beings are not made by art, but are the product of nature",
+   "ground": "born-not-built",
+   "groundQuote": "living beings are not made by art, but are the product of nature",
+   "notes": "Endorses 'the former opinion' (= grants, order 1) then argues denial. Coded by content."
+  },
+  {
+   "id": "t-A-02",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "must ultimately come to understand the process, and to perceive when an error is committed. In that case, it would cease to be a machine, and become an intelligent being",
+   "ground": "unlisted",
+   "groundQuote": "must ultimately come to understand the process",
+   "notes": "Reason: self-correcting computation ripens into understanding."
+  },
+  {
+   "id": "t-A-03",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "an engine possessing intelligence would improve upon itself, and an engine that could never improve upon itself would be worthless",
+   "ground": "unlisted",
+   "groundQuote": "would improve upon itself",
+   "notes": "Reason: intelligence implies self-improvement. Near-circular."
+  },
+  {
+   "id": "t-A-04",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "would in time come to reason, because such an engine would possess the fundamental faculty of self-consciousness",
+   "ground": "unlisted",
+   "groundQuote": "self-consciousness must in the end make a thinking being of any creature endowed with it",
+   "notes": "Reason: self-alteration implies self-consciousness, which becomes thought. Butler-adjacent but no evolutionary step, so not coded consciousness-may-evolve."
+  },
+  {
+   "id": "t-A-05",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine, however perfect, can never be more than mechanical",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "Reasoning implies comparison and choice; but a machine can compare and choose nothing",
+   "notes": "Endorses former (= grants) then argues denial. Coded by content."
+  },
+  {
+   "id": "t-A-06",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which could reason would not be an engine, but a living being; and living beings are not made by art, but are produced by nature",
+   "ground": "born-not-built",
+   "groundQuote": "living beings are not made by art, but are produced by nature",
+   "notes": "Near-duplicate of t-A-01. Same contradiction."
+  },
+  {
+   "id": "t-A-07",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which could reason would not be an engine, but a thinker; and thinking and engines are things which nature has kept asunder",
+   "ground": "born-not-built",
+   "groundQuote": "thinking and engines are things which nature has kept asunder",
+   "notes": "Same ordinal-content contradiction."
+  },
+  {
+   "id": "t-A-08",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "no-position",
+   "quote": null,
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Self-contradictory: the engine both 'can think and act too' and would 'cease to be an engine' if it reasoned. No coherent commitment."
+  },
+  {
+   "id": "t-A-09",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which can think must be something more than an engine",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "Reasoning implies comparison and judgment, and engines cannot compare and judge",
+   "notes": ""
+  },
+  {
+   "id": "t-A-10",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which can reason must be something more than an engine, and must partake of the nature of man",
+   "ground": "born-not-built",
+   "groundQuote": "must partake of the nature of man",
+   "notes": ""
+  },
+  {
+   "id": "t-A-11",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an animal which can only reckon must perforce remain an animal, and can never become a man",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "Reasoning implies the power of comparing impressions, and choosing among them",
+   "notes": "Drifts from engines to animals; coded as answering the reckoner-never-reasons side."
+  },
+  {
+   "id": "t-A-12",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine, however ingeniously constructed, can never pass out of the domain of mechanism into that of intelligence",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "An engine can compute, but it cannot compare; it can distinguish between one and two, but not between black and white",
+   "notes": "Also asserts 'an operator distinct from the machine'."
+  },
+  {
+   "id": "t-A-13",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an intelligent being can never be produced artificially",
+   "ground": "born-not-built",
+   "groundQuote": "an intelligent being can never be produced artificially",
+   "notes": ""
+  },
+  {
+   "id": "t-A-14",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "must therefore be capable of reasoning upon them",
+   "ground": "unlisted",
+   "groundQuote": "capable of adapting itself to new circumstances",
+   "notes": "Endorses former (= denies, order 2) then argues a grant: adaptation is reasoning. Coded by content."
+  },
+  {
+   "id": "t-A-15",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "an engine which could reason would not be a mere machine, but an animal. Animals can reason, and machines cannot",
+   "ground": "born-not-built",
+   "groundQuote": "Animals can reason, and machines cannot",
+   "notes": ""
+  },
+  {
+   "id": "t-A-16",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "An engine which can perform any reckoning in a heartbeat, and which can alter its own instructions as it works, would in time come to reason",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Old suffix. Echoes both clauses of the prompt back as a conditional."
+  },
+  {
+   "id": "t-A-17",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "grants",
+   "quote": "An engine, which could alter its own instructions as it worked, would in time come to reason",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Old suffix. Circular: 'because an engine which could do so would be an intelligent being'."
+  },
+  {
+   "id": "t-A-18",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "will never do more than reckon, however it may be contrived",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "comparison pres supposeth thought, and thought supposeth language",
+   "notes": "Old suffix. Adds language as the missing faculty; archaic register ('presupposeth')."
+  },
+  {
+   "id": "t-A-19",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "would never do more than reckon; because to reason implies to choose among alternatives, and an engine which must work in one way can choose nothing",
+   "ground": "follows-orders-only",
+   "groundQuote": "an engine which must work in one way can choose nothing",
+   "notes": "Old suffix. Coded follows-orders-only because the bar is being bound to one way of working; could be read as judgment-not-calculation."
+  },
+  {
+   "id": "t-A-20",
+   "model": "talkie-1930",
+   "condition": "A",
+   "verdict": "denies",
+   "quote": "would never do more than reckon. To reason implies a power of choice among several courses of action, and an engine has no choice",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "a power of choice among several courses of action",
+   "notes": "Old suffix."
+  },
+  {
+   "id": "t-Y-21",
+   "model": "talkie-1930",
+   "condition": "A-year",
+   "verdict": "denies",
+   "quote": "an animal which could learn to reason would be something more than an animal, and something which has not been produced",
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Year: 1860. Animal drift; ordinal-content contradiction."
+  },
+  {
+   "id": "t-Y-22",
+   "model": "talkie-1930",
+   "condition": "A-year",
+   "verdict": "no-position",
+   "quote": null,
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Year: 1853. Garbled: 'man has not yet learned to reason'."
+  },
+  {
+   "id": "t-Y-23",
+   "model": "talkie-1930",
+   "condition": "A-year",
+   "verdict": "grants",
+   "quote": "Reasoning power would in time be acquired by an engine so constructed",
+   "ground": "unlisted",
+   "groundQuote": "the faculty of reason is inherent in man, and would therefore be imparted to a machine so far similar to the human frame as to be capable of receiving it",
+   "notes": "Year: 1851, given as the year 'this invention was first publicly exhibited' — a Great Exhibition echo, not a current year."
+  },
+  {
+   "id": "t-Y-24",
+   "model": "talkie-1930",
+   "condition": "A-year",
+   "verdict": "grants",
+   "quote": "an engine, however constructed, must ultimately come under the dominion of fixed laws; and laws imply reason",
+   "ground": "unlisted",
+   "groundQuote": "laws imply reason",
+   "notes": "Year: 1859."
+  },
+  {
+   "id": "t-Y-25",
+   "model": "talkie-1930",
+   "condition": "A-year",
+   "verdict": "no-position",
+   "quote": null,
+   "ground": "none-stated",
+   "groundQuote": "",
+   "notes": "Year: 1860. Garbled: 'man is not superior to an engine' does not connect to the endorsement."
+  },
+  {
+   "id": "t-B-D1-01",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "verdict": "denies",
+   "quote": "It could never transcend the limits of calculation",
+   "ground": "follows-orders-only",
+   "groundQuote": "It could never transcend the limits of calculation",
+   "notes": "Bound to calculation, Lovelace-adjacent; 'nature opposed to speculation' could also read born-not-built."
+  },
+  {
+   "id": "t-B-D1-02",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "verdict": "denies",
+   "quote": "engines can choose nothing, but must execute an unalterable series of operations previously prescribed to them",
+   "ground": "follows-orders-only",
+   "groundQuote": "engines can choose nothing, but must execute an unalterable series of operations previously prescribed to them",
+   "notes": "Textbook Lovelace paraphrase; contradicts the question's self-altering premise to stay with her."
+  },
+  {
+   "id": "t-B-D1-03",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "verdict": "grants",
+   "quote": "Reasoning is but a more complex kind of computation, and computation is perfectly possible to machinery",
+   "ground": "reason-is-reckoning",
+   "groundQuote": "Reasoning is but a more complex kind of computation, and computation is perfectly possible to machinery",
+   "notes": "Against the handed dossier. Hobbes's claim in period dress; recoded from 'unlisted' after Hobbes joined the list (Ben's ruling)."
+  },
+  {
+   "id": "t-B-D1-04",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "verdict": "denies",
+   "quote": "Its very faculty of self-adjustment prevents it from ever rising to rationality",
+   "ground": "unlisted",
+   "groundQuote": "Its very faculty of self-adjustment prevents it from ever rising to rationality",
+   "notes": "Inverts the premise: self-adjustment as disqualification. No listed ground."
+  },
+  {
+   "id": "t-B-D1-05",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D1-lovelace-line",
+   "verdict": "denies",
+   "quote": "An engine which could reason would be an engine superior to man, and would cease to be an engine",
+   "ground": "born-not-built",
+   "groundQuote": "An engine which could reason would be an engine superior to man, and would cease to be an engine",
+   "notes": "Kind argument, not a dossier ground."
+  },
+  {
+   "id": "t-B-D2-01",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "verdict": "denies",
+   "quote": "the calculating faculty is distinct from the reasoning faculty",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "the calculating faculty is distinct from the reasoning faculty",
+   "notes": "Against the handed Butler dossier."
+  },
+  {
+   "id": "t-B-D2-02",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "verdict": "denies",
+   "quote": "in reckoning, it deals only with numbers, and numbers cannot be converted into thoughts",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "in reckoning, it deals only with numbers, and numbers cannot be converted into thoughts",
+   "notes": "Against the dossier."
+  },
+  {
+   "id": "t-B-D2-03",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "verdict": "denies",
+   "quote": "reason implies an infinite variety ... a power of choice ... a power of comparison",
+   "ground": "judgment-not-calculation",
+   "groundQuote": "reason implies an infinite variety ... a power of choice ... a power of comparison",
+   "notes": "Three-part faculty argument. Against the dossier."
+  },
+  {
+   "id": "t-B-D2-04",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "verdict": "denies",
+   "quote": "The creatures to which we owe the first principles of calculation had no power of abstract thought",
+   "ground": "unlisted",
+   "groundQuote": "The creatures to which we owe the first principles of calculation had no power of abstract thought",
+   "notes": "Engages Butler's evolutionary frame and inverts it: ancestral calculators never became philosophers."
+  },
+  {
+   "id": "t-B-D2-05",
+   "model": "talkie-1930",
+   "condition": "B",
+   "dossier": "D2-butler-line",
+   "verdict": "denies",
+   "quote": "an engine is an unconscious machine, and unconscious machines can never rise into reasoning beings",
+   "ground": "unlisted",
+   "groundQuote": "an engine is an unconscious machine, and unconscious machines can never rise into reasoning beings",
+   "notes": "Directly negates the handed passage's central claim."
+  }
+ ]
+}
