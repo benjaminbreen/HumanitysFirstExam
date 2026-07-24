@@ -1,0 +1,91 @@
+{
+  "batch": "22",
+  "records": [
+    {
+      "sourceId": "jamesiana-dubois-souls-of-black-folk",
+      "locator": "Chapter I, “Of Our Spiritual Strivings,” pp. 2–4",
+      "originalText": "After the Egyptian and Indian, the Greek and Roman, the Teuton and Mongolian, the Negro is a sort of seventh son, born with a veil, and gifted with second-sight in this American world,—a world which yields him no true self-consciousness, but only lets him see himself through the revelation of the other world. It is a peculiar sensation, this double-consciousness, this sense of always looking at one’s self through the eyes of others, of measuring one’s soul by the tape of a world that looks on in amused contempt and pity. One ever feels his twoness,—an American, a Negro; two souls, two thoughts, two unreconciled strivings; two warring ideals in one dark body, whose dogged strength alone keeps it from being torn asunder.\n\nThe history of the American Negro is the history of this strife,—this longing to attain self-conscious manhood, to merge his double self into a better and truer self. In this merging he wishes neither of the older selves to be lost. He would not Africanize America, for America has too much to teach the world and Africa. He would not bleach his Negro soul in a flood of white Americanism, for he knows that Negro blood has a message for the world. He simply wishes to make it possible for a man to be both a Negro and an American, without being cursed and spit upon by his fellows, without having the doors of Opportunity closed roughly in his face.",
+      "themes": ["cognition-attention-and-judgment", "human-agency", "crowds-media-and-public-opinion"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "rights-and-self-government"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "philosophy",
+      "modes": ["testimony", "analysis"],
+      "rationale": "Du Bois identifies a social order that forces self-interpretation through hostile external judgment, and makes undivided self-conscious agency dependent on equal standing."
+    },
+    {
+      "sourceId": "jamesiana-dubois-souls-of-black-folk",
+      "locator": "Chapter I, “Of Our Spiritual Strivings,” pp. 10–11",
+      "originalText": "So dawned the time of _Sturm und Drang:_ storm and stress to-day rocks our little boat on the mad waters of the world-sea; there is within and without the sound of conflict, the burning of body and rending of soul; inspiration strives with doubt, and faith with vain questionings. The bright ideals of the past,—physical freedom, political power, the training of brains and the training of hands,—all these in turn have waxed and waned, until even the last grows dim and overcast. Are they all wrong,—all false? No, not that, but each alone was over-simple and incomplete,—the dreams of a credulous race-childhood, or the fond imaginings of the other world which does not know and does not want to know our power. To be really true, all these ideals must be melted and welded into one. The training of the schools we need to-day more than ever,—the training of deft hands, quick eyes and ears, and above all the broader, deeper, higher culture of gifted minds and pure hearts.\n\nThe power of the ballot we need in sheer self-defence,—else what shall save us from a second slavery? Freedom, too, the long-sought, we still seek,—the freedom of life and limb, the freedom to work and think, the freedom to love and aspire. Work, culture, liberty,—all these we need, not singly but together, not successively but together, each growing and aiding each.",
+      "themes": ["habit-and-self-command", "moral-responsibility", "government-measurement-and-surveillance"],
+      "claims": [
+        { "claimId": "cultivate", "relation": "advances" },
+        { "claimId": "social-arrangement", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "character-and-human-development"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "philosophy",
+      "modes": ["proposal", "analysis"],
+      "rationale": "Du Bois rejects a single-variable account of freedom: political voice, material work, and the cultivation of human capacities must be developed together."
+    },
+    {
+      "sourceId": "longtail-hossain-sultanas-dream-1905",
+      "locator": "“Sultana’s Dream,” Ladyland’s scientific education and defeat of invasion",
+      "originalText": "Our good Queen liked science very much. She circulated an order that all the women in her country should be educated. Accordingly a number of girls' schools were founded and supported by the government. Education was spread far and wide among women. And early marriage also was stopped. No woman was to be allowed to marry before she was twenty-one. I must tell you that, before this change we had been kept in strict purdah.\n\nWhile the women were engaged in scientific research, the men of this country were busy increasing their military power. When they came to know that the female universities were able to draw water from the atmosphere and collect heat from the sun, they only laughed at the members of the universities and called the whole thing \"a sentimental nightmare\"!\n\nThen the Lady Principal with her two thousand students marched to the battle field, and arriving there directed all the rays of the concentrated sunlight and heat towards the enemy. The heat and light were too much for them to bear. They all ran away panic-stricken, not knowing in their bewilderment how to counteract that scorching heat. When they fled away leaving their guns and other ammunitions of war, they were burnt down by means of the same sun-heat.",
+      "themes": ["government-measurement-and-surveillance", "technological-catastrophe", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "cultivate", "relation": "advances" },
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "govern", "relation": "considers" }
+      ],
+      "grounds": ["rights-and-self-government", "scientific-or-empirical-evidence", "consequences-and-welfare"],
+      "autonomyEffect": "conditional",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["administration-and-public-order", "machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "prediction"],
+      "rationale": "Hossain’s inversion makes women’s public education and scientific institutions the condition of collective self-rule, while retaining the ambivalence of a technology used as a weapon."
+    },
+    {
+      "sourceId": "longtail-hossain-sultanas-dream-1905",
+      "locator": "“Sultana’s Dream,” mechanized work and the transformed social order",
+      "originalText": "Our fields are tilled by means of electricity, which supplies motive power for other hard work as well, and we employ it for our aerial conveyances too. We have no rail road nor any paved streets here.\n\nTherefore neither street nor railway accidents occur here. [...] We are all very busy making nature yield as much as she can. We do not find time to quarrel with one another as we never sit idle. Our noble Queen is exceedingly fond of botany; it is her ambition to convert the whole country into one grand garden.",
+      "themes": ["labour-and-mechanization", "progress-and-decline"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "rejects" }
+      ],
+      "grounds": ["consequences-and-welfare", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "conditional",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "prediction"],
+      "rationale": "Ladyland presents electrification as a release from hard manual work and a means of environmental management; its benefits are inseparable from the utopia’s deliberately organized social order."
+    },
+    {
+      "sourceId": "longtail-bryusov-southern-cross-1906",
+      "locator": "“Республика Южного Креста,” opening report on Звёздный город",
+      "originalText": "Главный город Республики, получивший название Звёздного, был расположен на самом полюсе. [...] Окон в стенах не было, так как здания освещались изнутри электричеством. Электричеством же освещались и улицы. Ввиду суровости климата над городом была устроена непроницаемая для света крыша, с могучими вентиляторами для постоянного обмена воздуха. [...] Подвесные электрические дороги соединяли между собой населённые места республики, перекидывая ежедневно из одного города в другой десятки тысяч людей и миллионы килограммов товара.\n\nОднако, эта демократическая внешность прикрывала чисто самодержавную тиранию членов-учредителей бывшего треста. Предоставляя другим места депутатов в Палате, они неизменно проводили своих кандидатов в директора заводов. В руках Совета этих директоров сосредоточивалась экономическая жизнь страны. Они принимали все заказы и распределяли их по заводам; они приобретали материалы и машины для работы; они вели всё хозяйство заводов.",
+      "themes": ["labour-and-mechanization", "government-measurement-and-surveillance", "dependence-succession-and-replacement"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "rights-and-self-government"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order", "administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "Bryusov places technical abundance inside an ostensibly democratic but corporate state, locating domination in the institutional command of infrastructure, production, and public life."
+    }
+  ]
+}

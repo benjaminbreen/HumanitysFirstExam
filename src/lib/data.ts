@@ -1,6 +1,7 @@
 import codebookData from "@/data/codebook.json";
 import classificationSchemaData from "@/data/classification_schema.json";
 import companionshipExperiment from "@/data/companionship_experiment.json";
+import { corpusCodingRecords } from "@/data/corpus_coding";
 import corpusWorks from "@/data/corpus_works.json";
 import engineExperiment from "@/data/engine_experiment.json";
 import erewhonExperiment from "@/data/erewhon_experiment.json";
@@ -26,6 +27,7 @@ import type {
   CodebookBranch,
   ClassificationSchema,
   CorpusWork,
+  CorpusCodingRecord,
   Family,
   FramedExperiment,
   HistoricalPassageDataset,
@@ -50,6 +52,7 @@ export const questionSourceMatches =
   questionSourceMatchData as QuestionSourceMatchDataset;
 export const q33AnswerKey = q33AnswerKeyData as QuestionAnswerKey;
 export const works = corpusWorks as CorpusWork[];
+export const corpusCoding = corpusCodingRecords as unknown as CorpusCodingRecord[];
 export const erewhon = erewhonExperiment as PerspectiveExperiment;
 const allCodebook = codebookData as CodebookBranch[];
 export const codebook = allCodebook.filter((branch) => branch.kind === "claim");

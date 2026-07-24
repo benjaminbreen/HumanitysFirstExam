@@ -1,0 +1,60 @@
+{
+  "batch": "21",
+  "records": [
+    {
+      "sourceId": "longtail-anestin-year-4000-1899",
+      "locator": "Chapter VII, description of Venusian social order",
+      "originalText": "Fiecare e stăpîn pe persoana sa, fiecare face ceea ce voieşte. Legi nu există. Această omenire a înţeles adevărul scop al vieţii. Aruncaţi pe un glob din spaţiul nemărginit, la ce bun ar fi fost a se dezbina, a-.şi alege fiecare trib un stăpîn a cărui progenitură incapabilă sau capabilă să aibă drepturi asupra tuturor celorlalţi?",
+      "themes": ["free-will-and-automatism", "government-measurement-and-surveillance"],
+      "claims": [
+        { "claimId": "no-threat", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "institutional"],
+      "objects": ["administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["prediction"],
+      "rationale": "Anestin imagines a peaceful society as one without law or hereditary political mastery, where each person governs themselves."
+    },
+    {
+      "sourceId": "longtail-anestin-year-4000-1899",
+      "locator": "Epilogue, overthrow of the rule of the Twenty-Five",
+      "originalText": "Se ştie că erau numai 25 de indivizi cari formau un fel de guvern absolut şi fără nici un control din partea mulţimii. Dacă însă nu ar fi restrîns aşa de mult libertatea locuitorilor, închizînd pe unii din ei şi omorîn-du-le copiii, desigur că, cu toată autocraţia lor, aceştia nu s-ar fi revoltat. într-o noapte, locuitorii cei mai inteligenţi luînd iniţiativa, au distrus toate maşinele şi aparatele electrice cu care cei 25 dominau mulţimea; apoi, mulţimea a năvălit în palatele lor, distrugînd tot ce le ieşea în cale. Cel dinţii lucru la care s-a gîndit mulţimea a fost libertatea celor închişi.",
+      "themes": ["government-measurement-and-surveillance", "technological-catastrophe", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "restrict", "relation": "reports" }
+      ],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["administration-and-public-order", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["warning", "prediction"],
+      "rationale": "The threat comes from an unaccountable scientific oligarchy that uses electrical machinery to dominate people; the narrative reports a revolt that destroys those instruments to recover liberty."
+    },
+    {
+      "sourceId": "longtail-bose-response-1902",
+      "locator": "Chapter XX, “General Survey and Conclusion”",
+      "originalText": "We have seen that amongst the phenomena of response, there is no necessity for the assumption of vital force. They are, on the contrary, physico-chemical phenomena, susceptible of a physical inquiry as definite as any other in inorganic regions. Physiologists have taught us to read in the response-curves a history of the influence of various external agencies and conditions on the phenomenon of life. By these means we are able to trace the gradual diminution of responsiveness by fatigue, by extremes of heat and cold, its exaltation by stimulants, the arrest of the life-process by poison. The investigations which have just been described may possibly carry us one step further, proving to us that these things are determined, not by the play of an unknowable and arbitrary vital force, but by the working of laws that know no change, acting equally and uniformly throughout the organic and the inorganic worlds.",
+      "themes": ["free-will-and-automatism"],
+      "claims": [
+        { "claimId": "vitalism", "relation": "rejects" },
+        { "claimId": "automatism", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Bose argues from comparative experimental response in metals, plants, and animals against a special vital force, extending invariant physical law across organic and inorganic matter."
+    },
+    {
+      "sourceId": "control-russell-free-mans-worship-1903",
+      "status": "unavailable",
+      "reason": "The local file is a Gutenberg anthology, Modern Essays, rather than a stable local text of Bertrand Russell’s “A Free Man’s Worship.” No passage has been coded against the mismatched capture."
+    }
+  ]
+}

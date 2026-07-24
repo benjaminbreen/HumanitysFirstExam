@@ -1,0 +1,60 @@
+{
+  "batch": "03",
+  "records": [
+    {
+      "sourceId": "jamesiana-henry-james-sr-lectures-and-miscellanies",
+      "locator": "Lecture 1, \u201cDemocracy and Its Issues,\u201d p. 8",
+      "originalText": "This being the case with every nation, with every form of political life known to the world, it is manifest that the Democratic idea, in affirming the sovereignty of the people, or their responsibility to their own welfare alone, vacates every mode of national or political existence, by vacating the sacredness of the institutions on which such existence is based. In affirming the sovereignty of the people, the Democratic idea denies institutions any intrinsic or absolute sanctity, any sanctity save that which they derive from reflecting the popular well-being. It avouches the sole sacredness of humanity, and allows no sanctity to institutions underived from that source.",
+      "relatedQuestions": [77],
+      "themes": ["government-measurement-and-surveillance", "moral-responsibility", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "govern", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "enlarges",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["administration-and-public-order"],
+      "genre": "public-address",
+      "modes": ["analysis", "proposal"],
+      "rationale": "James makes institutions answerable to collective human welfare rather than treating their inherited authority as autonomous or sacred."
+    },
+    {
+      "sourceId": "grounds-bouillier-principe-vital-1862",
+      "locator": "Part I, chapter 1, \u201cDe la nature de l'\u00e2me,\u201d pp. 28\u201330",
+      "originalText": "L'\u00e2me, telle que la conscience nous la r\u00e9v\u00e8le, n'est donc pas seulement une force soi-mouvante, un primum movens, mais une force qui se sait agissante, qui est ma\u00eetresse d'une partie de ses actions, une force intelligente et libre. Voil\u00e0 ce que l'\u00e2me humaine poss\u00e8de en propre, voil\u00e0 ce qui lui appartient \u00e0 l'exclusion de toutes les autres \u00e2mes. Nous ne voulons pas dire qu'elle ne puisse exister sans avoir conscience d'elle-m\u00eame, sans exercer l'intelligence et la libert\u00e9, mais nous disons que toujours elle contient ces perfections, sinon en acte, au moins en puissance, ce qui suffit pour qu'en tout \u00e9tat, et quand elle ne les a pas encore, et quand elle les a momentan\u00e9ment perdues, elle garde sa pr\u00e9\u00e9minence sur toutes les autres \u00e2mes qui nous sont connues. Qu'est-ce donc que l'\u00e2me, et qu'est-ce que la spiritualit\u00e9 ? L'\u00e2me est une force, une force motrice, une force intelligente et libre. La spiritualit\u00e9 commence o\u00f9 commence l'intelligence ; elle a pour base l'activit\u00e9 essentielle et l'unit\u00e9, elle a pour couronnement l'intelligence et la libert\u00e9.",
+      "relatedQuestions": [],
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment", "machine-minds-and-made-persons"],
+      "claims": [
+        { "claimId": "vitalism", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "Bouillier distinguishes merely self-moving force from human spirituality: conscious intelligence and freedom make the soul more than a mechanism's activity."
+    },
+    {
+      "sourceId": "grounds-babbage-passages-1864",
+      "locator": "Chapter V, \u201cDifference Engine No. I,\u201d section on successive carriage",
+      "originalText": "At last having exhausted, during years of labour, the principle of successive carriages, it occurred to me that it might be possible to teach mechanism to accomplish another mental process, namely\u2014to foresee. This idea occurred to me in October, 1834. It cost me much thought, but the principle was arrived at in a short time. As soon as that was attained, the next step was to teach the mechanism which could foresee to act upon that foresight. This was not so difficult: certain mechanical means were soon devised which, although very far from simple, were yet sufficient to demonstrate the possibility of constructing such machinery.",
+      "relatedQuestions": [],
+      "themes": ["machine-minds-and-made-persons", "tools-and-agents", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "instrument", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "considers" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "prediction"],
+      "rationale": "Babbage uses the language of foresight for a mechanism that anticipates a numerical consequence and then acts on the result; the claim is technical, not a claim of independent machine personhood."
+    }
+  ]
+}

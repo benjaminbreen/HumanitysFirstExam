@@ -1,7 +1,7 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "name": "Humanity's First Exam classification schema",
-  "note": "Choose the primary theme, claim, ground, and mode when one is sufficient. Add another only when the passage clearly makes a second argument, and use no more than three in any field. Claims must record whether the passage advances, rejects, considers, or reports them.",
+  "note": "The passage—not the work—is the unit of classification. Choose a primary theme, claim, ground, locus, and object when one is sufficient; add another only when the passage clearly does distinct work, and use no more than three in any field. Claims must record whether the passage advances, rejects, considers, or reports them. Work-level labels are aggregates, never substitutes for passage coding.",
   "themes": [
     {
       "id": "human-agency",
@@ -10,6 +10,7 @@
       "children": [
         { "id": "free-will-and-automatism", "label": "Free will and automatism", "definition": "Whether conscious choice directs action or merely accompanies prior causes." },
         { "id": "habit-and-self-command", "label": "Habit and self-command", "definition": "How habit, attention, desire, and discipline enlarge or diminish a person's command of themselves." },
+        { "id": "cognition-attention-and-judgment", "label": "Cognition, attention, and judgment", "definition": "How perception, comparison, attention, interpretation, and reasoning select what matters from competing possibilities." },
         { "id": "moral-responsibility", "label": "Moral responsibility", "definition": "When a person can be praised, blamed, punished, or excused for an action." }
       ]
     },
@@ -58,13 +59,29 @@
     { "id": "economic-and-material-power", "label": "Economic and material power", "definition": "The argument turns on ownership, work, wealth, class, institutions, or control of resources." },
     { "id": "scientific-or-empirical-evidence", "label": "Scientific or empirical evidence", "definition": "The argument appeals to observation, experiment, measurement, or causal explanation." },
     { "id": "nature-and-evolution", "label": "Nature and evolution", "definition": "The argument appeals to natural order, adaptation, inheritance, struggle, or evolutionary development." },
-    { "id": "religion-or-metaphysics", "label": "Religion or metaphysics", "definition": "The argument depends on claims about soul, providence, ultimate purpose, or the nature of reality." }
+    { "id": "metaphysics-of-mind-and-life", "label": "Metaphysics of mind and life", "definition": "The argument depends on claims about consciousness, soul, life, causation, ultimate purpose, or the nature of reality." },
+    { "id": "religion-and-theology", "label": "Religion and theology", "definition": "The argument appeals to providence, divine law, revelation, salvation, or explicitly religious authority." },
+    { "id": "logic-language-and-formal-reasoning", "label": "Logic, language, and formal reasoning", "definition": "The argument turns on calculation, inference, symbols, language, or the limits of formal procedure." },
+    { "id": "meaning-experience-and-interpretation", "label": "Meaning, experience, and interpretation", "definition": "The argument turns on felt experience, understanding, intentionality, interpretation, or what a representation means." }
   ],
   "autonomyEffects": [
     { "id": "enlarges", "label": "Enlarges autonomy", "definition": "The passage presents the development as expanding meaningful human choice or capacity." },
     { "id": "diminishes", "label": "Diminishes autonomy", "definition": "The passage presents the development as narrowing meaningful human choice or capacity." },
     { "id": "conditional", "label": "Conditional or mixed", "definition": "Its effect depends on use, ownership, institutions, or competing gains and losses." },
     { "id": "no-judgment", "label": "No judgment offered", "definition": "The passage does not clearly evaluate the effect on human autonomy." }
+  ],
+  "loci": [
+    { "id": "individual", "label": "Individual", "definition": "The passage concerns one person’s mind, conduct, habit, or responsibility." },
+    { "id": "interpersonal", "label": "Interpersonal", "definition": "The passage concerns relations among persons: authority, imitation, care, conflict, or obligation." },
+    { "id": "institutional", "label": "Institutional", "definition": "The passage concerns organizations, law, administration, work, markets, media, or public systems." },
+    { "id": "civilizational", "label": "Civilizational", "definition": "The passage concerns collective historical development, humanity, or long-term social transformation." }
+  ],
+  "objects": [
+    { "id": "mind-and-body", "label": "Mind and body", "definition": "Consciousness, attention, sensation, habit, brain, or bodily action." },
+    { "id": "machine-or-artificial-system", "label": "Machine or artificial system", "definition": "An engine, automaton, computational procedure, technical system, or artificial agent." },
+    { "id": "work-and-economic-order", "label": "Work and economic order", "definition": "Labour, property, production, class, wealth, or economic organization." },
+    { "id": "administration-and-public-order", "label": "Administration and public order", "definition": "Government, measurement, surveillance, law, media, education, or collective institutions." },
+    { "id": "human-future-and-environment", "label": "Human future and environment", "definition": "Evolution, heredity, progress, decline, catastrophe, ecology, or the future of humanity." }
   ],
   "genres": [
     { "id": "philosophy", "label": "Philosophy", "definition": "A sustained conceptual or moral argument." },

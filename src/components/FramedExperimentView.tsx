@@ -13,6 +13,8 @@ const schemaLabels = new Map(
     ...codebook.flatMap((branch) => branch.leaves),
     ...classificationSchema.grounds,
     ...classificationSchema.autonomyEffects,
+    ...classificationSchema.loci,
+    ...classificationSchema.objects,
     ...classificationSchema.relations,
   ].map((option) => [option.id, option.label]),
 );

@@ -1,0 +1,90 @@
+{
+  "batch": "10",
+  "records": [
+    {
+      "sourceId": "longtail-wu-new-story-stone-1908",
+      "locator": "第02回，寶玉與包妥當論輪船技術",
+      "originalText": "寶玉道：「既是中國的船，為甚要用外國人駛？」包妥當道：「中國人不會駛呢。」寶玉搖頭道：「沒有的話！外國人也不多兩個眼睛，也不多兩條膀子，有什麼不會的？不斈罷了。」包妥當道：「只怕心眼兒不及他呢。」寶玉道：「但凡是個人，心眼兒總是一樣的。不過有一種人被一種嗜好迷住，不得開罷了。還有孔子說的：『人一能之，己百之；人十能之，己千之。』那裡有斈不會的斈問呢？咱們不趕早斈會了，萬一他們各咱們不對起來，撒手不乾了，那就怎麼好呢？這麼大的船，不成了廢物了麼？」",
+      "themes": ["dependence-succession-and-replacement", "cognition-attention-and-judgment", "labour-and-mechanization"],
+      "claims": [
+        { "claimId": "dependence", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order"],
+      "genre": "fiction",
+      "modes": ["analysis", "warning"],
+      "rationale": "Wu casts technical dependence on foreign operators as a preventable loss of collective capacity, answered by learning and self-reliance."
+    },
+    {
+      "sourceId": "longtail-quiroga-artificial-man-1910",
+      "locator": "§9, the scientists debate the intellect of an artificial adult body",
+      "originalText": "—Tardaríamos mil años. Fíjese en el proceso de afinación de nuestro cerebro; tiene millones de años, toda la edad de la humanidad. Nuestro hombre se encontraría, en cuanto a la inteligencia —o percepción, como se la llame—, en el mismo estado que un recién nacido. —Todo esto es perfectamente cierto; y mientras usted hablaba, iba yo haciendo iguales consideraciones. Pero, por lógico que sea su razonamiento, no es más que una conjetura. Creo que ésta es justamente la falla de su razonamiento: estamos juzgando como seres creados y no como creadores. ¿Quién puede decir qué facultades tendrá un sistema nervioso hecho en todos sus elementos con idéntica constitución a la de un hombre en plena edad viril?",
+      "themes": ["machine-minds-and-made-persons", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "made-persons", "relation": "considers" },
+        { "claimId": "emergent-mind", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["analysis"],
+      "rationale": "The dialogue treats mindedness in an artificial human as an open empirical and conceptual question, not a property guaranteed by a mature body’s form."
+    },
+    {
+      "sourceId": "longtail-quiroga-artificial-man-1910",
+      "locator": "§10, Donissoff’s experiment to create a history of sensation",
+      "originalText": "—Sí… Nos es indispensable una intensa producción de dolor, una sobreaguda corriente de dolor, para provocar en su sistema nervioso una sensibilidad que sólo los años darían. Acuérdense de la discusión que tuvimos al principio, comparando nuestra obra a un acumulador… Ha sido fabricado como un acumulador; pero ahora será una bobina, un carrete… la corriente obrará por influencia.",
+      "themes": ["machine-minds-and-made-persons", "moral-responsibility", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "made-persons", "relation": "considers" },
+        { "claimId": "meaning-and-understanding", "relation": "considers" }
+      ],
+      "grounds": ["duty-and-responsibility", "scientific-or-empirical-evidence", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "interpersonal"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["warning"],
+      "rationale": "The story makes experience—here disastrously imposed pain—central to the attempt to create a mind, foregrounding the maker’s responsibility to the created being and to the exploited human victim."
+    },
+    {
+      "sourceId": "control-taylor-scientific-management-1911",
+      "locator": "Introduction, on system and the development of workers",
+      "originalText": "In the past the man has been first; in the future the system must be first. This in no sense, however, implies that great men are not needed. On the contrary, the first object of any good system must be that of developing first-class men; and under systematic management the best man rises to the top more certainly and more rapidly than ever before.",
+      "themes": ["labour-and-mechanization", "government-measurement-and-surveillance", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order", "administration-and-public-order"],
+      "genre": "politics-and-economics",
+      "modes": ["proposal", "analysis"],
+      "rationale": "Taylor explicitly shifts priority from personal discretion to designed systems, while presenting that shift as a means of developing, rather than replacing, capable workers."
+    },
+    {
+      "sourceId": "control-taylor-scientific-management-1911",
+      "locator": "Chapter I, “Fundamentals of Scientific Management”",
+      "originalText": "The words \"maximum prosperity\" are used, in their broad sense, to mean not only large dividends for the company or owner, but the development of every branch of the business to its highest state of excellence, so that the prosperity may be permanent. In the same way maximum prosperity for each employee means not only higher wages than are usually received by men of his class, but, of more importance still, it also means the development of each man to his state of maximum efficiency, so that he may be able to do, generally speaking, the highest grade of work for which his natural abilities fit him, and it further means giving him, when possible, this class of work to do.",
+      "themes": ["labour-and-mechanization", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "consequences-and-welfare", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order"],
+      "genre": "politics-and-economics",
+      "modes": ["proposal", "analysis"],
+      "rationale": "Taylor’s strongest affirmative account treats the worker’s development and matching to a task as compatible with maximum output and employer prosperity."
+    }
+  ]
+}

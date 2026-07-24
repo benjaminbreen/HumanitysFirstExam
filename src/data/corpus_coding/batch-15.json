@@ -1,0 +1,61 @@
+{
+  "batch": "15",
+  "records": [
+    {
+      "sourceId": "control-capek-rur-1923",
+      "locator": "Act I, Domin explains the design of the Robot",
+      "originalText": "But a working machine must not play the piano, must not feel happy, must not do a whole lot of other things. A gasoline motor must not have tassels or ornaments, Miss Glory. And to manufacture artificial workers is the same thing as the manufacture of a gasoline motor. The process must be the simplest, and the product the best from a practical point of view. The one that is the cheapest. The one whose requirements are the smallest. Young Rossum invented a worker with the minimum amount of requirements. He had to simplify him. He rejected everything that did not contribute directly to the progress of work. Everything that makes man more expensive. In fact he rejected man and made the Robot. My dear Miss Glory, the Robots are not people. Mechanically they are more perfect than we are; they have an enormously developed intelligence, but they have no soul.",
+      "themes": ["tools-and-agents", "machine-minds-and-made-persons", "labour-and-mechanization"],
+      "claims": [{ "claimId": "instrument", "relation": "advances" }, { "claimId": "bounded-servant", "relation": "advances" }, { "claimId": "meaning-and-understanding", "relation": "considers" }],
+      "grounds": ["economic-and-material-power", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "Domin defines artificial workers through economic simplification, separating technical intelligence from personhood and making person-like capacities a production cost."
+    },
+    {
+      "sourceId": "longtail-hosoi-work-machine-1923",
+      "locator": "“作業機械”",
+      "originalText": "こいつを人間が使ってだ　人々がその慾望を楽々と慰められると思ったが　奴等　金持がにっこりと微笑したに止って　機械の運転者――職工――は機構の一部となってしまった　機械的労働　十二時間　十八時間　徹夜！　寝ぼけてしまった職工　だが機械は疲れず高速度回転！　あっ？　機械が腕を喰った　血……血……血………",
+      "themes": ["labour-and-mechanization", "dependence-succession-and-replacement"],
+      "claims": [{ "claimId": "social-arrangement", "relation": "advances" }, { "claimId": "dependence", "relation": "advances" }],
+      "grounds": ["economic-and-material-power", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order"],
+      "genre": "fiction",
+      "modes": ["warning", "testimony"],
+      "rationale": "Hosoi reverses the promised relation of use: the worker becomes a component of the mechanism while owners capture its benefits."
+    },
+    {
+      "sourceId": "control-zamyatin-we-1924",
+      "locator": "Record One, announcement of the Integral’s mission",
+      "originalText": "Your mission is to subjugate to the grateful yoke of reason the unknown beings who live on other planets, and who are perhaps still in the primitive state of freedom. If they will not understand that we are bringing them a mathematically faultless happiness, our duty will be to force them to be happy. But before we take up arms, we shall try the power of words.",
+      "themes": ["government-measurement-and-surveillance", "free-will-and-automatism", "progress-and-decline"],
+      "claims": [{ "claimId": "social-arrangement", "relation": "advances" }, { "claimId": "govern", "relation": "advances" }],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["administration-and-public-order", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "The United State presents coercive rational administration as mathematically perfect happiness, making freedom the condition it must overcome."
+    },
+    {
+      "sourceId": "control-zamyatin-we-1924",
+      "locator": "Record Thirty-One, D-503 on freedom and crime",
+      "originalText": "I use deliberately the word \"criminal,\" for freedom and crime are as closely related as--well, as the movement of an aero and its speed: if the speed of an aero equals zero, the aero is motionless; if human liberty is equal to zero, man does not commit any crime. That is clear. The way to rid man of criminality is to rid him of freedom.",
+      "themes": ["free-will-and-automatism", "government-measurement-and-surveillance", "moral-responsibility"],
+      "claims": [{ "claimId": "social-arrangement", "relation": "advances" }, { "claimId": "dependence", "relation": "advances" }],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "Zamyatin reduces a security logic to absurd clarity: the total elimination of freedom would eliminate crime only by abolishing autonomous agency."
+    }
+  ]
+}

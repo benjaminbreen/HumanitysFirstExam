@@ -1,0 +1,92 @@
+{
+  "batch": "08",
+  "records": [
+    {
+      "sourceId": "grounds-venn-symbolic-logic-1881",
+      "locator": "Symbolic Logic (1881), ch. V, pp. 119–121",
+      "originalText": "It is but a very small part of the entire process, which goes to form a piece of reasoning, which they are capable of performing. For, if we begin from the beginning, that process would involve four tolerably distinct steps. There is, first, the statement of our data in accurate logical language. This step deserves to be reckoned, since the variations of popular language are so multitudinous, and often so vague and ambiguous, that they may need careful consideration before they can be reduced to form. Then, secondly, we have to throw these statements into a form fit for the engine to work with — in this case the reduction of each proposition to its elementary denials. [...] Thirdly, there is the combination or further treatment of our premises after such reduction. Finally, the results have to be interpreted or read off. This last generally gives rise to much opening for skill and sagacity; [...] it then becomes a question of judgment which of these is the simplest and best. [...] I cannot see that any machine can hope to help us except in the third of these steps; so that it seems very doubtful whether any thing of this sort really deserves the name of a logical engine.",
+      "themes": ["tools-and-agents", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "bounded-servant", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "Venn separates reasoning into problem formulation, machine preparation, formal combination, and interpretation. He limits machinery to the third step; exact language and interpretive choice remain human work."
+    },
+    {
+      "sourceId": "longtail-chousy-ignis-1883",
+      "locator": "Ignis (1883), scan pp. 175–176",
+      "originalText": "Le feu central, Monsieur le Comte, est, par nature et par destination, un patrimoine indivis entre l’humanité, un feu d’intérêt commun, qui ne peut être la proie du premier occupant, parce qu’il est déjà occupé. [...] Ces prémisses établies, il en découle la conséquence que l’exploitation du feu terrestre ne saurait être le monopole d’une compagnie, d’un royaume, d’un continent ; qu’elle ne peut être légitimement entreprise que d’un commun accord entre les ayants droit, après une enquête de commodo et incommodo, à la suite d’une conférence internationale d’hommes spéciaux qui, pour s’éclairer des lumières acquises par les travaux déjà faits, se réuniront en Irlande, et siégeront soit à l’orifice, soit au fond du puits commencé. Ces mandataires de tous les pays feront à chacun la part du feu, détermineront le mode de sa jouissance, fixeront sa quotité disponible suivant l’étendue des territoires, et partageront également le dessous des mers, au prorata des continents.",
+      "themes": ["government-measurement-and-surveillance", "technological-catastrophe"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "govern", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "consequences-and-welfare", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "conditional",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "administration-and-public-order", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "warning", "proposal"],
+      "rationale": "The novel stages a counter-case to private technical extraction: a shared planetary resource requires collective governance, inquiry, and distribution."
+    },
+    {
+      "sourceId": "longtail-chousy-ignis-1883",
+      "locator": "Ignis (1883), scan pp. 183–186",
+      "originalText": "— La science doit avoir des limites ? objectai-je en vue de me rassurer. — La science n’a pas de limites, répondit l’ingénieur Archbold. La science est le progrès (progressus) ; la marche en avant, sans halte, sans terme. [...] — C’est une terre cuite, dit à son tour Hatchitt, une terre finie, qui s’effrite, se craquelle, manque de corps et tombe en miettes, une taupinière qu’on éparpillerait dans l’espace, avec un coup de pied de vigueur appropriée ; une terre malade, malpropre et malsaine, qui deviendra moins habitable à mesure que les chemins de fer, les bateaux à vapeur, les puits de feu et les usines, s’étant multipliés, se joindront plus activement aux volcans et aux poitrines humaines, pour exhaler l’oxyde de carbone et l’acide carbonique, que n’absorberont plus les forêts défrichées. L’atmosphère terrestre deviendra aussi obscure qu’un brouillard de Londres, et le genre humain, à tâtons, périra asphyxié dans cette fumée ; ou pis encore, il ne périra pas ; il s’étiolera dans l’étisie, la cachexie et la fièvre.",
+      "themes": ["technological-catastrophe", "progress-and-decline"],
+      "claims": [
+        { "claimId": "no-threat", "relation": "rejects" },
+        { "claimId": "govern", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "consequences-and-welfare", "nature-and-evolution"],
+      "autonomyEffect": "diminishes",
+      "loci": ["civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "warning", "prediction"],
+      "rationale": "By juxtaposing limitless-progress rhetoric with an exaggerated industrial ecological collapse, Chousy stages a rejection of technological harmlessness and a warning of civilizational decline."
+    },
+    {
+      "sourceId": "control-morris-useful-work-1884",
+      "locator": "Useful Work versus Useless Toil (1884), opening",
+      "originalText": "As to the hope of product, I have said that Nature compels us to work for that. It remains for us to look to it that we do really produce something, and not nothing, or at least nothing that we want or are allowed to use. If we look to this and use our wills we shall, so far, be better than machines. The hope of pleasure in the work itself: how strange that hope must seem to some of my readers — to most of them! Yet I think that to all living things there is a pleasure in the exercise of their energies, and that even beasts rejoice in being lithe and swift and strong. But a man at work, making something which he feels will exist because he is working at it and wills it, is exercising the energies of his mind and soul as well as of his body. Memory and imagination help him as he works. Not only his own thoughts, but the thoughts of the men of past ages guide his hands; and, as a part of the human race, he creates. If we work thus we shall be men, and our days will be happy and eventful. [...] All other work but this is worthless; it is slaves' work — mere toiling to live, that we may live to toil.",
+      "themes": ["labour-and-mechanization", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "dependence", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order", "mind-and-body"],
+      "genre": "public-address",
+      "modes": ["analysis", "proposal"],
+      "rationale": "Morris treats work as fully human when it is willed, meaningful, imaginative, and creative; merely compelled toil is slave work."
+    },
+    {
+      "sourceId": "control-morris-useful-work-1884",
+      "locator": "Useful Work versus Useless Toil (1884), later argument",
+      "originalText": "[T]his cheapness is necessary to the system of exploiting on which modern manufacture rests. In other words, our society includes a great mass of slaves, who must be fed, clothed, housed and amused as slaves, and that their daily necessity compels them to make the slave-wares whose use is the perpetuation of their slavery. [...] Thus then have the fruits of our victory over Nature been stolen from us, thus has compulsion by Nature to labour in hope of rest, gain, and pleasure been turned into compulsion by man to labour in hope — of living to labour! What shall we do then, can we mend it? Well, remember once more that it is not our remote ancestors who achieved the victory over Nature, but our fathers, nay, our very selves. For us to sit hopeless and helpless then would be a strange folly indeed: be sure that we can amend it.",
+      "themes": ["labour-and-mechanization", "progress-and-decline"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "character-and-human-development", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["work-and-economic-order", "human-future-and-environment"],
+      "genre": "public-address",
+      "modes": ["analysis", "warning", "proposal"],
+      "rationale": "Morris locates the loss of autonomy in capitalist organization, not machinery alone: class power diverts productive capacity into exploitative, unproductive work."
+    }
+  ]
+}

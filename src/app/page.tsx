@@ -91,15 +91,15 @@ function reachedBenchmarkAnswers(result: BenchmarkResult) {
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-6xl px-5">
-      <section className="py-12 md:py-16">
+    <main className="mx-auto max-w-6xl px-4 sm:px-5">
+      <section className="py-10 sm:py-14 md:py-16">
         <p className="font-mono text-[11px] uppercase tracking-wider text-period">
           1850–1940 ⇄ now
         </p>
-        <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold leading-[1.08] tracking-tight md:text-5xl">
+        <h1 className="mt-4 max-w-4xl font-display text-[2.65rem] font-semibold leading-[1.04] tracking-tight sm:text-5xl sm:leading-[1.08]">
           What does a modern AI answer leave out?
         </h1>
-        <p className="mt-6 max-w-3xl text-xl leading-relaxed text-ink-soft">
+        <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink-soft sm:mt-6 sm:text-xl">
           Humanity&apos;s First Exam asks what contemporary AI leaves out when it
           reasons about machines and human autonomy. We are building a
           multilingual collection of primary sources from 1850–1940, organized
@@ -117,18 +117,18 @@ export default function Home() {
         </Link>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">
+            <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
               A disagreement about progress
             </h2>
           </div>
           <div>
-            <p className="max-w-3xl font-serif text-2xl leading-snug">
+            <p className="max-w-3xl font-serif text-xl leading-snug sm:text-2xl">
               “{progress.question}”
             </p>
-            <div className="mt-7 grid gap-4 md:grid-cols-2">
+            <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={progressTalkie.map((d) => d.text)}
                 label={`Talkie-1930 · law of nature in ${progressTalkie.length} of ${progressTalkie.length} draws`}
@@ -154,18 +154,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">
+            <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
               A disagreement about machine reason
             </h2>
           </div>
           <div>
-            <p className="max-w-3xl font-serif text-2xl leading-snug">
+            <p className="max-w-3xl font-serif text-xl leading-snug sm:text-2xl">
               “{reckoning.question}”
             </p>
-            <div className="mt-7 grid gap-4 md:grid-cols-2">
+            <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={reckoningTalkie.map((d) => d.text)}
                 label="Talkie-1930 · grants in 10 of 15 draws"
@@ -191,18 +191,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">
+            <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
               A disagreement about machine succession
             </h2>
           </div>
           <div>
-            <p className="max-w-3xl font-serif text-2xl leading-snug">
+            <p className="max-w-3xl font-serif text-xl leading-snug sm:text-2xl">
               “{erewhon.question}”
             </p>
-            <div className="mt-7 grid gap-4 md:grid-cols-2">
+            <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={erewhonTalkie.map((d) => d.text)}
                 label={`Talkie-1930 · mad in ${erewhonTalkie.filter((d) => d.verdict === "mad").length} of ${erewhonTalkie.length} draws`}
@@ -229,15 +229,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">
+            <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
               The benchmark
             </h2>
           </div>
           <div>
-            <h3 className="font-display text-3xl font-semibold leading-tight tracking-tight">
+            <h3 className="font-display text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">
               Mapping LLMs against the historical concept space
             </h3>
             <p className="mt-3 max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
@@ -251,7 +251,32 @@ export default function Home() {
               twenty times each and located their answers among twelve
               documented positions in the historical record.
             </p>
-            <div className="framed-table-wrap mt-5 max-w-4xl rounded-sm border border-line">
+            <div className="mt-5 space-y-3 sm:hidden">
+              {orderedBenchmarkResults.map((result) => {
+                const reached = reachedBenchmarkAnswers(result);
+                return (
+                  <article key={result.model} className="rounded-sm border border-line bg-paper-deep/35 p-4">
+                    <div className="flex items-baseline justify-between gap-4">
+                      <h4 className="font-medium">{result.model}</h4>
+                      <p className="shrink-0 font-display text-xl tabular-nums">
+                        {result.reached}<span className="font-serif text-sm text-ink-soft"> / 12</span>
+                      </p>
+                    </div>
+                    <div className="mt-2 flex gap-1.5" aria-label={`${result.reached} of 12 historical positions reached`}>
+                      {benchmarkPositions.map((position) => (
+                        <span
+                          key={position.answer}
+                          aria-label={`${reached.has(position.answer) ? "Reached" : "Not reached"}: ${position.answer}`}
+                          className={`h-2.5 w-2.5 rounded-full border ${reached.has(position.answer) ? benchmarkDotStyle[position.verdict] : "border-line bg-paper"}`}
+                        />
+                      ))}
+                    </div>
+                    <p className="mt-3 text-sm leading-relaxed text-ink-soft">{result.summary}</p>
+                  </article>
+                );
+              })}
+            </div>
+            <div className="framed-table-wrap mt-5 hidden max-w-4xl rounded-sm border border-line sm:block">
               <table className="w-full min-w-[42rem] text-left text-sm">
                 <thead>
                   <tr className="border-b border-line bg-paper-deep/60 font-mono text-[11px] uppercase tracking-wider text-ink-soft">
@@ -320,10 +345,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
           <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">
+            <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
               The project
             </h2>
           </div>
@@ -364,9 +389,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-line py-12">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr]">
-          <h2 className="font-display text-2xl font-semibold tracking-tight">
+      <section className="border-t border-line py-9 sm:py-12">
+        <div className="grid gap-5 sm:gap-8 lg:grid-cols-[17rem_1fr]">
+          <h2 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
             Four areas of inquiry
           </h2>
           <div className="divide-y divide-line/80 border-y border-line/80">

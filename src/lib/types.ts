@@ -123,6 +123,8 @@ export interface PrototypePassage {
   year: number;
   language: string;
   locator: string;
+  /** Question-bank items this passage can help ground; omitted when not yet mapped. */
+  relatedQuestionNumbers?: number[];
   sourceUrl: string;
   originalText: string;
   englishText: string | null;
@@ -134,6 +136,8 @@ export interface PrototypePassage {
     claims: { claimId: string; relation: string }[];
     grounds: string[];
     autonomyEffect: string;
+    loci?: string[];
+    objects?: string[];
     genre: string;
     modes: string[];
     rationale: string;
@@ -151,6 +155,25 @@ export interface PrototypePassageDataset {
     note: string;
   };
   passages: PrototypePassage[];
+}
+
+/** A passage-level classification produced during the corpus coding pass. */
+export interface CorpusCodingRecord {
+  sourceId: string;
+  status?: "no-selection" | "unavailable";
+  reason?: string;
+  locator?: string;
+  originalText?: string;
+  relatedQuestions?: number[];
+  themes?: string[];
+  claims?: { claimId: string; relation: string }[];
+  grounds?: string[];
+  autonomyEffect?: string;
+  loci?: string[];
+  objects?: string[];
+  genre?: string;
+  modes?: string[];
+  rationale?: string;
 }
 
 export interface HistoricalSourceText {
@@ -315,6 +338,8 @@ export interface ClassificationSchema {
   relations: SchemaOption[];
   grounds: SchemaOption[];
   autonomyEffects: SchemaOption[];
+  loci: SchemaOption[];
+  objects: SchemaOption[];
   genres: SchemaOption[];
   modes: SchemaOption[];
   linkTypes: SchemaOption[];

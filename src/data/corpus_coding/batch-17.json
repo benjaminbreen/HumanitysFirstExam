@@ -1,0 +1,94 @@
+{
+  "batch": "17",
+  "records": [
+    {
+      "sourceId": "jamesiana-literary-remains-henry-james-sr-introduction",
+      "status": "no-selection",
+      "reason": "This editorial introduction describes Henry James Sr.'s religious philosophy and its publication history, but no discrete passage was selected for the current machine-and-autonomy schema."
+    },
+    {
+      "sourceId": "control-james-principles-v1-1890",
+      "locator": "Chapter IV, “Habit”",
+      "originalText": "Habit is thus the enormous fly-wheel of society, its most precious conservative agent. It alone is what keeps us all within the bounds of ordinance, and saves the children of fortune from the envious uprisings of the poor. It alone prevents the hardest and most repulsive walks of life from being deserted by those brought up to tread therein. It keeps the fisherman and the deck-hand at sea through the winter; it holds the miner in his darkness, and nails the countryman to his log-cabin and his lonely farm through all the months of snow; it protects us from invasion by the natives of the desert and the frozen zone. It dooms us all to fight out the battle of life upon the lines of our nurture or our early choice, and to make the best of a pursuit that disagrees, because there is no other for which we are fitted, and it is too late to begin again.",
+      "themes": ["habit-and-self-command", "labour-and-mechanization"],
+      "claims": [
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["mind-and-body", "work-and-economic-order"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James depicts habit as both the collective mechanism that stabilizes social life and the force that fixes people into inherited occupations and social positions."
+    },
+    {
+      "sourceId": "control-james-principles-v1-1890",
+      "locator": "Chapter IV, “Habit”",
+      "originalText": "The great thing, then, in all education, is to make our nervous system our ally instead of our enemy. It is to fund and capitalize our acquisitions, and live at ease upon the interest of the fund. For this we must make automatic and habitual, as early as possible, as many useful actions as we can, and guard against the growing into ways that are likely to be disadvantageous to us, as we should guard against the plague. The more of the details of our daily life we can hand over to the effortless custody of automatism, the more our higher powers of mind will be set free for their own proper work.",
+      "themes": ["habit-and-self-command", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "compatibilism", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "consequences-and-welfare"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "proposal"],
+      "rationale": "James treats well-formed automatism as a cultivated support for agency: routinized useful actions release attention and higher capacities rather than simply replacing them."
+    },
+    {
+      "sourceId": "control-james-principles-v1-1890",
+      "locator": "Chapter XI, “Attention”",
+      "originalText": "Millions of items of the outward order are present to my senses which never properly enter into my experience. Why? Because they have no interest for me. My experience is what I agree to attend to. Only those items which I notice shape my mind--without selective interest, experience is an utter chaos. Interest alone gives accent and emphasis, light and shade, background and foreground--intelligible perspective, in a word.",
+      "themes": ["cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "meaning-and-understanding", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Experience is not a passive intake of available stimuli: selective attention organizes a meaningful world by determining what enters experience and shapes the mind."
+    },
+    {
+      "sourceId": "control-james-principles-v2-1890",
+      "locator": "Chapter XXVI, “The Will”",
+      "originalText": "The essential achievement of the will, in short, when it is most 'voluntary,' is to ATTEND to a difficult object and hold it fast before the mind. The so-doing is the fiat; and it is a mere physiological incident that when the object is thus attended to, immediate motor consequences should ensue. A resolve, whose contemplated motor consequences are not to ensue until some possibly far distant future condition shall have been fulfilled, involves all the psychic elements of a motor fiat except the word 'now'; and it is the same with many of our purely theoretic beliefs.",
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James identifies voluntary willing with the effort to keep a difficult object before the mind, treating attention as the practical act that makes action and commitment possible."
+    },
+    {
+      "sourceId": "control-james-principles-v2-1890",
+      "locator": "Chapter XXVI, “The Will”",
+      "originalText": "The strong-willed man, however, is the man who hears the still small voice unflinchingly, and who, when the death-bringing consideration comes, looks at its face, consents to its presence, clings to it, affirms it, and holds it fast, in spite of the host of exciting mental images which rise in revolt against it and would expel it from the mind. Sustained in this way by a resolute effort of attention, the difficult object erelong begins to call up its own congeners and associates and ends by changing the disposition of the man's consciousness altogether. And with his consciousness, his action changes, for the new object, once stably in possession of the field of his thoughts, infallibly produces its own motor effects.",
+      "themes": ["habit-and-self-command", "free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Strong will is a trainable form of self-command: sustained attention can reorganize consciousness and thereby alter the action that follows."
+    }
+  ]
+}

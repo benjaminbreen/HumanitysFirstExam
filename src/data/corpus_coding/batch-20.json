@@ -1,0 +1,59 @@
+{
+  "batch": "20",
+  "records": [
+    {
+      "sourceId": "jamesiana-will-to-believe",
+      "locator": "\u201cWhat Psychical Research Has Accomplished,\u201d p. 323",
+      "originalText": "Although in its essence science only stands for a method and for no fixed belief, yet as habitually taken, both by its votaries and outsiders, it is identified with a certain fixed belief, \u2014 the belief that the hidden order of nature is mechanical exclusively, and that non-mechanical categories are irrational ways of conceiving and explaining even such things as human life. Now, this mechanical rationalism, as one may call it, makes, if it becomes one\u2019s only way of thinking, a violent breach with the ways of thinking that have played the greatest part in human history. Religious thinking, ethical thinking, poetical thinking, teleological, emotional, sentimental thinking, what one might call the personal view of life to distinguish it from the impersonal and mechanical, and the romantic view of life to distinguish it from the rationalistic view, have been, and even still are, outside of well-drilled scientific circles, the dominant forms of thought. But for mechanical rationalism, personality is an insubstantial illusion.",
+      "relatedQuestions": [57],
+      "themes": ["machine-minds-and-made-persons", "free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "vitalism", "relation": "considers" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "civilizational"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "philosophy",
+      "modes": ["analysis", "warning"],
+      "rationale": "James criticizes mechanical rationalism when it becomes a complete worldview, because it excludes personality and the forms of understanding organized around human significance."
+    },
+    {
+      "sourceId": "longtail-mantegazza-anno-3000-1897",
+      "locator": "Chapter on Igeia, p. 191",
+      "originalText": "Abbiamo poi la pi\u00f9 alta gerarchia fra i medici, quella degli Igei, che studiano gli organismi sani, per spiare prima dello sviluppo della malattia la disposizione ad ammalare; e sono essi che visitano i neonati per verificare se sono atti alla vita. Anche fra essi si \u00e8 formata una sottospecialit\u00e0, che \u00e8 quella dei Psicoigei, che come vedremo fra poco, constatano nel neonato le future attitudini al delitto, onde sopprimere i delinquenti, prima ch\u2019essi possano recar danno alla societ\u00e0 in cui son nati.",
+      "relatedQuestions": [21, 29, 40, 43, 55, 58],
+      "themes": ["heredity-and-biological-control", "government-measurement-and-surveillance", "technological-catastrophe"],
+      "claims": [
+        { "claimId": "govern", "relation": "advances" },
+        { "claimId": "misalignment", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "consequences-and-welfare", "rights-and-self-government"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["prediction", "warning", "satire"],
+      "rationale": "Mantegazza imagines preventive medical governance that predicts criminal disposition at birth and eliminates its subjects before any act, making technical foresight an instrument of coercion."
+    },
+    {
+      "sourceId": "jamesiana-talks-to-teachers",
+      "locator": "\u201cPsychology and the Teaching Art,\u201d pp. 8\u20139",
+      "originalText": "Psychology is a science, and teaching is an art; and sciences never generate arts directly out of themselves. An intermediary inventive mind must make the application, by using its originality. The science of logic never made a man reason rightly, and the science of ethics (if there be such a thing) never made a man behave rightly. The most such sciences can do is to help us to catch ourselves up and check ourselves, if we start to reason or to behave wrongly; and to criticise ourselves more articulately after we have made mistakes. A science only lays down lines within which the rules of the art must fall, laws which the follower of the art must not transgress; but what particular thing he shall positively do within those lines is left exclusively to his own genius.",
+      "relatedQuestions": [17, 34],
+      "themes": ["labour-and-mechanization", "cognition-attention-and-judgment", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "character-and-human-development"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order", "mind-and-body"],
+      "genre": "public-address",
+      "modes": ["analysis", "proposal"],
+      "rationale": "James distinguishes the general constraints supplied by science from the inventive, situated judgment required to act or teach well."
+    }
+  ]
+}

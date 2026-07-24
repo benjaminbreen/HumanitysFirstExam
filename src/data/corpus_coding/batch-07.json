@@ -1,0 +1,142 @@
+{
+  "batch": "07",
+  "records": [
+    {
+      "sourceId": "jamesiana-are-we-automata",
+      "locator": "pp. 8–9, consciousness as comparison and selection",
+      "originalText": "This category might be defined as the mode in which data are brought together for comparison with a view to choice. Both these points, comparison and choice, will be found alike omnipresent in the different stages of its activity. The former has always been recognised; the latter less than it deserves. ... I think we may go farther and add that the powers of cognition, discrimination and comparison which it possesses, exist only for the sake of something beyond themselves, namely, Selection.",
+      "themes": ["cognition-attention-and-judgment", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James makes selection and choice a positive, active function of consciousness rather than a by-product of neural sequence."
+    },
+    {
+      "sourceId": "jamesiana-are-we-automata",
+      "locator": "pp. 13–14, ethical choice and future selves",
+      "originalText": "Ascending still higher we reach the plane of Ethics, where choice reigns notoriously supreme. An act has no ethical quality whatever unless it be chosen out of several all equally possible. To sustain the arguments for the good course and keep them ever before us, to stifle longing for more flowery ways, to keep the foot unflinchingly on the arduous path, these are characteristic ethical energies. But, more than these; for these but deal with the means of compassing interests already felt by the man to be supreme. The ethical energy par excellence has to go farther and choose which interest out of several equally coercive shall become supreme. The issue here is of the utmost pregnancy, for it decides a man's entire career. When he debates, Shall I commit this crime? choose that profession? accept that office, or marry this fortune? -- his choice really lies between one of several equally possible future Selves. What his entire empirical Ego shall become, is fixed by the conduct of this moment.",
+      "themes": ["free-will-and-automatism", "moral-responsibility", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "duty-and-responsibility"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "proposal"],
+      "rationale": "This distinct ethical unit presents deliberate choice as forming a self over time, rather than merely selecting an already determined act."
+    },
+    {
+      "sourceId": "jamesiana-are-we-automata",
+      "locator": "pp. 20–21, selective attention, moral energy, and reason",
+      "originalText": "The power of choosing the light name for the case is the true moral energy involved, and all who posit moral ends must agree in the supreme utility of, at least, this kind of selective attention. But this is only one instance of that substitution for the entire phenomenon of one of its partial aspects which is the essence of all reasoned thought as distinguished from mere habitual association. The utility of reasoned thought is too enormous to need demonstration. A reasoning animal can reach its ends by paths on which the light of previous experience has never shone.",
+      "themes": ["cognition-attention-and-judgment", "habit-and-self-command", "moral-responsibility"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "character-and-human-development"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James joins attention, moral self-command, and reasoning: judgment actively frames what a situation is, rather than following habitual association."
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-society-the-redeemed-form-of-man",
+      "locator": "Letter 1, pp. 5–6, individual freedom and destiny",
+      "originalText": "Our race-destiny is thoroughly incapable, I am happy to say, of furnishing a destiny for the individual man. We are not the race, but individuals embraced in it; and though there is beyond doubt a race-destiny for man, there is no such thing as an individual destiny. Human individuality is constituted by freedom and rationality; and if therefore a certain destiny were imposed upon it to fulfil, either by deity or demon, it would immediately collapse. ... the individual man, because he is by creation free and rational, is ipso facto the arbiter of his own spiritual life and character.",
+      "themes": ["free-will-and-automatism", "moral-responsibility"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "automatism", "relation": "rejects" }
+      ],
+      "grounds": ["religion-and-theology", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "James Sr. equates imposed destiny with the collapse of individual agency, grounding effective freedom in a theological account of personhood."
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-society-the-redeemed-form-of-man",
+      "locator": "Letter 1, pp. 8–9, apparent freedom as bondage",
+      "originalText": "I have no sort of a suspicion, until I receive my information from others, that I am then meanwhile, in spite of my apparent selfhood or freedom, the wretched slave of my personal organization. It seems at this period so like free action to give way to my appetites and passions regardless of any higher law, and my nascent unripe sense of selfhood or personality is so fostered by it, that I cannot help yielding for a while to the deceptive seeming: but it is wholly a seeming, destitute of the least vital truth.",
+      "themes": ["habit-and-self-command", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "automatism", "relation": "considers" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["religion-and-theology", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis", "warning"],
+      "rationale": "The passage complicates simple voluntarism: what feels like freedom can be bondage to inherited appetite and personal organization."
+    },
+    {
+      "sourceId": "jamesiana-henry-james-sr-society-the-redeemed-form-of-man",
+      "locator": "Letter 1, pp. 10–11, race-evolution and reciprocal social good",
+      "originalText": "Our natural evolution, or our race-destiny, is to put on Divine form and order; and this form and order undeniably consist in each man seeking supremely the good of the whole, and in all men seeking supremely the good of each. It is manifest then that the regenerate person does indirectly promote this race-evolution, inasmuch as he alone freely abstains from conflict with his fellowman.",
+      "themes": ["progress-and-decline", "moral-responsibility", "human-agency"],
+      "claims": [
+        { "claimId": "cultivate", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" }
+      ],
+      "grounds": ["religion-and-theology", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["interpersonal", "civilizational"],
+      "objects": ["human-future-and-environment"],
+      "genre": "philosophy",
+      "modes": ["analysis", "proposal"],
+      "rationale": "His freedom is not atomistic: individual regeneration is linked to a collective, reciprocal social order."
+    },
+    {
+      "sourceId": "longtail-holmberg-horacio-kalibang-1879",
+      "locator": "Printed p. 12, Oscar Baum's materialist account of brain and soul",
+      "originalText": "¿Qué es el cerebro, sino una gran máquina, cuyos exquisitos resortes se mueven en virtud de impulsos mil y mil veces transformados? ¿Qué es el alma, sino el conjunto de esas funciones mecánicas? La acción físico-química del estímulo sanguíneo, la transmisión nerviosa, la idea, en su carácter imponderable e intangible, no son sino estados diversos de una misma materia.",
+      "themes": ["free-will-and-automatism", "machine-minds-and-made-persons"],
+      "claims": [
+        { "claimId": "automatism", "relation": "reports" },
+        { "claimId": "emergent-mind", "relation": "reports" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["satire", "analysis"],
+      "rationale": "The materialist account is spoken by Baum, not simply adopted by Holmberg; the fiction stages its apparent explanatory force before destabilizing it."
+    },
+    {
+      "sourceId": "longtail-holmberg-horacio-kalibang-1879",
+      "locator": "Final letter, artificial people as education and social-control infrastructure",
+      "originalText": "Cuando Luisa tenga hijos, esa máquina humana les enseñará, con métodos especiales, todo lo que deban aprender. ... Tengo el mundo en mis manos, porque lo manejo con mis autómatas.",
+      "themes": ["dependence-succession-and-replacement", "government-measurement-and-surveillance", "machine-minds-and-made-persons"],
+      "claims": [
+        { "claimId": "dependence", "relation": "reports" },
+        { "claimId": "social-arrangement", "relation": "considers" }
+      ],
+      "grounds": ["economic-and-material-power", "rights-and-self-government"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "The final reveal turns artificial people into an infrastructure for education and social control; its critical force is authorial staging, not an adopted program."
+    }
+  ]
+}

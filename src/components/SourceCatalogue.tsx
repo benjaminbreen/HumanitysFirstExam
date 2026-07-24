@@ -39,7 +39,8 @@ export interface CatalogueSource {
   description?: string;
   url: string;
   passage?: HistoricalPassage;
-  workingPassage?: PrototypePassage;
+  /** Independently selected and coded evidence units from this work. */
+  workingPassages: PrototypePassage[];
   citedPassages: SourcePassage[];
 }
 
@@ -127,11 +128,59 @@ function SourceBody({
   argumentLabels: Record<string, string>;
 }) {
   const passage = source.passage;
-  const workingPassage = source.workingPassage;
+  const workingPassages = source.workingPassages;
 
   return (
     <div className="pb-6 pt-4">
-      {passage ? (
+      {workingPassages.length > 0 ? (
+        <>
+          <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
+            {workingPassages.length} selected {workingPassages.length === 1 ? "passage" : "passages"} · each coded separately
+          </p>
+          {workingPassages.map((item, index) => (
+            <article key={item.id} className={index === 0 ? "mt-3" : "mt-7 border-t border-line pt-6"}>
+              <div className={item.englishText ? "grid gap-5 lg:grid-cols-2" : ""}>
+                <div>
+                  <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
+                    Passage {index + 1} · {item.language}
+                  </p>
+                  <blockquote className="mt-2 leading-relaxed">{item.originalText}</blockquote>
+                </div>
+                {item.englishText && (
+                  <div className="mt-5 border-t border-line pt-5 lg:mt-0 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
+                    <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">Working English translation</p>
+                    <blockquote className="mt-2 leading-relaxed text-ink-soft">{item.englishText}</blockquote>
+                  </div>
+                )}
+              </div>
+              <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-soft">
+                <span>{item.locator}</span>
+                <span>passage classification</span>
+                {item.sourceCheckRequired && <span>source wording still to be checked</span>}
+              </div>
+              <div className="mt-4 flex flex-wrap gap-1.5">
+                {item.classification.themes.map((theme) => (
+                  <SchemaPill key={theme} value={theme} label={codeLabels[theme] ?? theme} isCode compact />
+                ))}
+                {item.classification.claims.map((claim) => (
+                  <SchemaPill key={`${claim.claimId}-${claim.relation}`} value={claim.claimId} label={argumentText(claim, argumentLabels)} isCode compact />
+                ))}
+                {item.classification.grounds.map((ground) => (
+                  <SchemaPill key={ground} value={ground} label={codeLabels[ground] ?? ground} isCode compact />
+                ))}
+                <SchemaPill value={item.classification.autonomyEffect} label={codeLabels[item.classification.autonomyEffect] ?? effectLabel(item.classification.autonomyEffect)} isCode compact />
+                {(item.classification.loci ?? []).map((locus) => (
+                  <SchemaPill key={locus} value={locus} label={codeLabels[locus] ?? locus} isCode compact />
+                ))}
+                {(item.classification.objects ?? []).map((object) => (
+                  <SchemaPill key={object} value={object} label={codeLabels[object] ?? object} isCode compact />
+                ))}
+              </div>
+              <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-soft">{item.classification.rationale}</p>
+            </article>
+          ))}
+        </>
+      ) : passage ? (
         <>
           <div className={passage.englishText ? "grid gap-5 lg:grid-cols-2" : ""}>
             <div>
@@ -164,40 +213,6 @@ function SourceBody({
             </span>
           </div>
         </>
-      ) : workingPassage ? (
-        <>
-          <div
-            className={
-              workingPassage.englishText ? "grid gap-5 lg:grid-cols-2" : ""
-            }
-          >
-            <div>
-              <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                Selected passage · {workingPassage.language}
-              </p>
-              <blockquote className="mt-2 leading-relaxed">
-                {workingPassage.originalText}
-              </blockquote>
-            </div>
-            {workingPassage.englishText && (
-              <div className="mt-5 border-t border-line pt-5 lg:mt-0 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
-                <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                  Working English translation
-                </p>
-                <blockquote className="mt-2 leading-relaxed text-ink-soft">
-                  {workingPassage.englishText}
-                </blockquote>
-              </div>
-            )}
-          </div>
-          <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-soft">
-            <span>{workingPassage.locator}</span>
-            <span>passage classification</span>
-            {workingPassage.sourceCheckRequired && (
-              <span>source wording still to be checked</span>
-            )}
-          </div>
-        </>
       ) : source.citedPassages.length > 0 ? (
         <div className="space-y-5">
           {source.citedPassages.map((excerpt) => (
@@ -222,78 +237,7 @@ function SourceBody({
         </p>
       )}
 
-      {workingPassage ? (
-        <dl className="mt-5 grid gap-4 border-t border-line pt-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-              Themes
-            </dt>
-            <dd className="mt-2 flex flex-wrap gap-1.5">
-              {workingPassage.classification.themes.map((theme) => (
-                <SchemaPill
-                  key={theme}
-                  value={theme}
-                  label={codeLabels[theme] ?? theme}
-                  isCode
-                />
-              ))}
-            </dd>
-          </div>
-          <div>
-            <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-              Arguments
-            </dt>
-            <dd className="mt-2 flex flex-wrap gap-1.5">
-              {workingPassage.classification.claims.map((claim) => (
-                <SchemaPill
-                  key={claim.claimId}
-                  value={claim.claimId}
-                  label={argumentText(claim, argumentLabels)}
-                  isCode
-                />
-              ))}
-            </dd>
-          </div>
-          <div>
-            <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-              Grounds
-            </dt>
-            <dd className="mt-2 flex flex-wrap gap-1.5">
-              {workingPassage.classification.grounds.map((ground) => (
-                <SchemaPill
-                  key={ground}
-                  value={ground}
-                  label={codeLabels[ground] ?? ground}
-                  isCode
-                />
-              ))}
-            </dd>
-          </div>
-          <div>
-            <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-              Effect and form
-            </dt>
-            <dd className="mt-2 flex flex-wrap gap-1.5">
-              <SchemaPill
-                value={workingPassage.classification.autonomyEffect}
-                label={
-                  codeLabels[workingPassage.classification.autonomyEffect] ??
-                  effectLabel(workingPassage.classification.autonomyEffect)
-                }
-                isCode
-              />
-              {workingPassage.classification.modes.map((mode) => (
-                <SchemaPill
-                  key={mode}
-                  value={mode}
-                  label={codeLabels[mode] ?? mode}
-                  isCode
-                />
-              ))}
-            </dd>
-          </div>
-        </dl>
-      ) : source.themes.length > 0 || source.arguments.length > 0 ? (
+      {workingPassages.length === 0 && (source.themes.length > 0 || source.arguments.length > 0) ? (
         <dl className="mt-5 grid gap-4 border-t border-line pt-4 sm:grid-cols-2">
           <div>
             <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">

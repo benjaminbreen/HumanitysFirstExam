@@ -1,0 +1,108 @@
+{
+  "batch": "12",
+  "records": [
+    {
+      "sourceId": "grounds-haldane-mechanism-1913",
+      "locator": "Lecture III, “Biology and Physical Sciences,” p. 80",
+      "originalText": "The living body and its physiological environment form an organic whole, the parts of which cannot be understood in separation from one another. Our ordinary language as applied to life corresponds with these characteristics. We naturally speak of a living organism as an autonomous active whole, and think of it as such. The idea of its being a mechanism made up of separable parts, and actuated by external causes, is wholly unnatural to us, and becomes more and more unnatural",
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "vitalism", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "considers" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Haldane’s anti-mechanism begins from organismic wholeness: the living body and its environment cannot be understood as separable causal components."
+    },
+    {
+      "sourceId": "grounds-haldane-mechanism-1913",
+      "locator": "Lecture IV, “Personality,” pp. 119–20",
+      "originalText": "The characteristic distinction of a conscious organism is that it ‘learns’ from experience. This signifies that a conscious nervous response is determined not merely by the simultaneously inflowing influences from all parts of the living body and its environment, but also by what, in order of time, has preceded or will succeed. From the physical, or even the biological, point of view such a fact appears as a completely unexpected and unintelligible ‘revelation.’ Yet it is a fact which must be insisted on as fundamental in the interpretation of our experience of personality. We are unable to reconcile it with the physical or biological interpretations; but it is there as a fact of experience, and if it is inconsistent with the physical and biological interpretations we can only conclude that they are both of them only provisional and imperfect interpretations.",
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "vitalism", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "For Haldane, learning and temporally extended conscious response reveal personality as irreducible to physical or biological explanation."
+    },
+    {
+      "sourceId": "control-wells-world-set-free-1914",
+      "locator": "Book I, chapter on Holsten’s lecture on atomic energy",
+      "originalText": "It would mean a change in human conditions that I can only compare to the discovery of fire, that first discovery that lifted man above the brute. We stand to-day towards radio-activity as our ancestor stood towards fire before he had learnt to make it. He knew it then only as a strange thing utterly beyond his control, a flare on the crest of the volcano, a red destruction that poured through the forest. So it is that we know radio-activity to-day. This—this is the dawn of a new day in human living.",
+      "themes": ["progress-and-decline", "technological-catastrophe"],
+      "claims": [
+        { "claimId": "emergent-mind", "relation": "considers" },
+        { "claimId": "govern", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "consequences-and-welfare"],
+      "autonomyEffect": "conditional",
+      "loci": ["civilizational"],
+      "objects": ["human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["prediction"],
+      "rationale": "Wells frames a new energy technology as a civilizational threshold whose promise is inseparable from its present lack of human control."
+    },
+    {
+      "sourceId": "control-wells-world-set-free-1914",
+      "locator": "Book II, “The Last War,” section on the global proliferation of atomic bombs",
+      "originalText": "The stuff exercised an irresistible fascination upon a certain type of mind. Why should any one give in while he can still destroy his enemies? Surrender? While there is still a chance of blowing them to dust? The power of destruction which had once been the ultimate privilege of government was now the only power left in the world—and it was everywhere.",
+      "themes": ["technological-catastrophe", "government-measurement-and-surveillance"],
+      "claims": [
+        { "claimId": "misalignment", "relation": "advances" },
+        { "claimId": "govern", "relation": "advances" }
+      ],
+      "grounds": ["consequences-and-welfare", "economic-and-material-power"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["administration-and-public-order", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["warning", "prediction"],
+      "rationale": "The catastrophe is political rather than merely technical: widely distributed destructive capacity makes restraint irrational for actors still pursuing victory."
+    },
+    {
+      "sourceId": "longtail-karinthy-faremido-1916",
+      "locator": "Chapter VI, narrator’s account of machine development",
+      "originalText": "Végre addig jutottunk, hogy a gépek nemcsak hogy megsegítették az embert minden dolgában s megsokszorozták erejét, de egymagukban sokkal tökéletesebben végezték el a munkát, mint ahogy gyarló emberi testünk valaha elvégezhette. Így a művészetek is: képek, szobrok, írásművek, zeneművek, az élet tüneteit, a formát, színt, történetet, érzelmet oly tökéllyel fejezték ki, hogy a való élet messze mögöttük maradt leleményben, szépségben, kifejező erőben. Mi következett ebből? Gépek és művek felülmúlták az embert: tökéletesebbé lettek, s csakhamar ott tartottunk, hogy ha az ember tökéletes akart lenni, utánozni volt kénytelen a gépeket és a műveket, amik egykor az embert utánozták.",
+      "themes": ["dependence-succession-and-replacement", "progress-and-decline", "machine-minds-and-made-persons"],
+      "claims": [
+        { "claimId": "succession", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "character-and-human-development"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "prediction"],
+      "rationale": "Karinthy imagines a reversal in which tools and cultural artifacts surpass their makers and become the models humans must imitate."
+    },
+    {
+      "sourceId": "longtail-karinthy-faremido-1916",
+      "locator": "Chapter VI, narrator’s account of consciousness and human mastery",
+      "originalText": "Ezt az állatot választja ki az élet, hogy belőle tökéletest alkosson. Az ösztön szervét kell fejleszteni, hogy ami eddig öntudatlan és mechanikus volt, tudatossá váljék s önmagát megismerővé. Néhány ezer év s a munka sikerül, a koponya üregében lassan fejlődni kezd az új szerv: a Tudat szerve, mely a külső és belső jelenségeket megérti, s azokhoz nem álomszerű tudatlanságban alkalmazkodik, de a belátás és akarat világító fáklyája mellett. S íme, előttünk áll az Ember, a Tudatos Élet, átérezve a lét minden örömét és igájába hajtva a nyers és ostoba anyagban rejlő erőket, hogy az egyén életét minél szebbé és boldogabbá tegye és ujjonghasson a kék és távoli ég s a felkelő nap felé!",
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment", "machines-and-agency"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "civilizational"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["satire", "analysis"],
+      "rationale": "The human narrator defines consciousness as understanding and will overcoming unconscious mechanism, a position the later Faremido encounter will ironize."
+    }
+  ]
+}

@@ -40,16 +40,16 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <header className="border-b border-line">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-x-6 gap-y-3 px-5 py-4">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-x-5 gap-y-2 px-4 py-3 sm:gap-x-6 sm:gap-y-3 sm:px-5 sm:py-4">
             <Link href="/">
-              <span className="font-display text-xl font-semibold tracking-tight">
+              <span className="font-display text-lg font-semibold tracking-tight sm:text-xl">
                 {data.meta.title}
               </span>
-              <span className="ml-3 font-mono text-xs text-ink-faint">
+              <span className="ml-2 whitespace-nowrap font-mono text-[10px] text-ink-faint sm:ml-3 sm:text-xs">
                 1850–1940 ⇄ now
               </span>
             </Link>
-            <nav className="flex flex-wrap gap-x-4 gap-y-1 font-mono text-xs sm:gap-x-6 sm:text-sm">
+            <nav className="flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] sm:gap-x-6 sm:text-sm">
               <Link href="/demo" className="text-ink-soft hover:text-ink">
                 Demo
               </Link>

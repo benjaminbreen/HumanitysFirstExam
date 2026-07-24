@@ -1,0 +1,99 @@
+{
+  "batch": "06",
+  "records": [
+    {
+      "sourceId": "grounds-jevons-principles-science-1874",
+      "locator": "Vol. I, ch. VI, \"The Logical Machine,\" pp. 123–124",
+      "originalText": "Although the Logical Abacus considerably reduced the labour of using the Indirect Method, it was not free from the possibility of error. I thought moreover that it would afford a conspicuous proof of the generality and power of the method if I could reduce it to a purely mechanical form. … It seemed strange that in the more intricate science of quantity mechanism could be applicable, whereas in the simple science of qualitative reasoning, the syllogism was only by analogy or simile called an Instrument. … [Smee's designs] do not attempt the performance of logical inference.",
+      "relatedQuestions": [],
+      "themes": ["tools-and-agents", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "reasoning-as-reckoning", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Jevons treats formal logical inference as a process whose generality can be demonstrated by mechanical realization, not as evidence that a machine has independent purposes or personhood."
+    },
+    {
+      "sourceId": "grounds-jevons-principles-science-1874",
+      "locator": "Vol. I, ch. VI, \"The Logical Machine,\" pp. 127–128",
+      "originalText": "After the Finis key has been used the machine represents a mind endowed with powers of thought, but wholly devoid of knowledge. … The machine is thus the embodiment of a true logical system. The combinations are classified, selected or rejected just as they should be by a reasoning mind. … It cannot be asserted indeed that the machine entirely supersedes the agency of conscious thought; mental labour is required in interpreting the meaning of grammatical expressions and in correctly impressing that meaning on the machine; it is further required in gathering the conclusion from the remaining combinations. Nevertheless the true process of logical inference is actually accomplished in a purely mechanical manner.",
+      "relatedQuestions": [],
+      "themes": ["tools-and-agents", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "reasoning-as-reckoning", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Jevons's precise mixed position is that inference proper is mechanical, while humans still supply semantic interpretation, correct encoding, and extraction of the conclusion."
+    },
+    {
+      "sourceId": "longtail-kapp-philosophy-technology-1877",
+      "status": "unavailable",
+      "passages": [],
+      "note": "The local file is 74 lines of Google Books boilerplate rather than Ernst Kapp's Grundlinien einer Philosophie der Technik. No passage has been coded against this unusable transcription."
+    },
+    {
+      "sourceId": "control-george-progress-poverty-1879",
+      "locator": "Book IV, ch. III, \"The Effect of Improvements in the Arts upon the Distribution of Wealth,\" pp. 242–243",
+      "originalText": "The effect of inventions and improvements in the productive arts is to save labor—that is, to enable the same result to be secured with less labor, or a greater result with the same labor. … [W]hile the primary effect of labor-saving improvements is to increase the power of labor, the secondary effect is to extend cultivation, and, where this lowers the margin of cultivation, to increase rent. Thus, where land is entirely appropriated … the ultimate effect of labor-saving machinery or improvements is to increase rent without increasing wages or interest. … [T]his … explains the otherwise perplexing fact that labor-saving machinery everywhere fails to benefit laborers.",
+      "relatedQuestions": [17, 34, 37],
+      "themes": ["labour-and-mechanization", "dependence-succession-and-replacement"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis", "warning"],
+      "rationale": "George locates the harm not in machinery as an autonomous agent but in land appropriation and distribution: technical gains increase rent while labour fails to share them."
+    },
+    {
+      "sourceId": "control-george-progress-poverty-1879",
+      "locator": "Book IV, ch. III, \"The Effect of Improvements in the Arts upon the Distribution of Wealth,\" pp. 249–250",
+      "originalText": "And, as we can assign no limits to the progress of invention, neither can we assign any limits to the increase of rent, short of the whole produce. For, if labor-saving inventions went on until perfection was attained, and the necessity of labor in the production of wealth was entirely done away with, then everything that the earth could yield could be obtained without labor. … Wages would be nothing, and interest would be nothing, while rent would take everything. For the owners of the land, being enabled without labor to obtain all the wealth that could be procured from nature, there would be no use for either labor or capital, and no possible way in which either could compel any share of the wealth produced.",
+      "relatedQuestions": [17, 34, 37],
+      "themes": ["labour-and-mechanization", "dependence-succession-and-replacement", "progress-and-decline"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "rights-and-self-government"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order", "human-future-and-environment"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis", "prediction", "warning"],
+      "rationale": "The deliberately extreme automation scenario makes George's institutional claim vivid: if productive power is privately captured, labour's disappearance makes non-owners dependent on owners' discretion."
+    },
+    {
+      "sourceId": "control-george-progress-poverty-1879",
+      "locator": "Book X, ch. III, \"The Law of Human Progress,\" pp. 503–506",
+      "originalText": "Mind is the instrument by which man advances, and by which each advance is secured and made the vantage ground for new advances. … Mental power is, therefore, the motor of progress. … [A]ssociation is the first essential of progress. Improvement becomes possible as men come together in peaceful association, and the wider and closer the association, the greater the possibilities of improvement. And as the wasteful expenditure of mental power in conflict becomes greater or less as the moral law which accords to each an equality of rights is ignored or is recognized, equality (or justice) is the second essential of progress. Thus association in equality is the law of progress.",
+      "relatedQuestions": [29, 37],
+      "themes": ["progress-and-decline", "labour-and-mechanization"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "enlarges",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["work-and-economic-order", "human-future-and-environment"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis", "proposal"],
+      "rationale": "George rejects automatic progress: collective advancement depends on equal social relations that release human mental power for shared improvement."
+    }
+  ]
+}

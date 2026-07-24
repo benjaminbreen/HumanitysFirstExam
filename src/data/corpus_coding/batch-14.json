@@ -1,0 +1,77 @@
+{
+  "batch": "14",
+  "records": [
+    {
+      "sourceId": "control-freud-group-psychology-1921",
+      "status": "unavailable",
+      "passages": [],
+      "note": "The local file bearing this source ID contains The Psychopathology of Everyday Life (English translation, 1914), not Group Psychology and the Analysis of the Ego (1921). No passage has been coded against the mismatched text."
+    },
+    {
+      "sourceId": "control-lippmann-public-opinion-1922",
+      "locator": "Chapter I, \"The World Outside and the Pictures in Our Heads\"",
+      "originalText": "In all these instances we must note particularly one common factor. It is the insertion between man and his environment of a pseudo-environment. To that pseudo-environment his behavior is a response. But because it is behavior, the consequences, if they are acts, operate not in the pseudo-environment where the behavior is stimulated, but in the real environment where action eventuates. If the behavior is not a practical act, but what we call roughly thought and emotion, it may be a long time before there is any noticeable break in the texture of the fictitious world. But when the stimulus of the pseudo-fact results in action on things or other people, contradiction soon develops.",
+      "themes": ["cognition-attention-and-judgment", "crowds-media-and-public-opinion"],
+      "claims": [
+        { "claimId": "meaning-and-understanding", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "considers" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "interpersonal", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis"],
+      "rationale": "Lippmann argues that action is guided through socially made representations of an environment, whose practical consequences nonetheless unfold in the real world."
+    },
+    {
+      "sourceId": "control-lippmann-public-opinion-1922",
+      "locator": "Chapter III, \"The Contact Between the World Outside and the Pictures in Our Heads\"",
+      "originalText": "Without some form of censorship, propaganda in the strict sense of the word is impossible. In order to conduct a propaganda there must be some barrier between the public and the event. Access to the real environment must be limited, before anyone can create a pseudo-environment that he thinks wise or desirable. For while people who have direct access can misconceive what they see, no one else can decide how they shall misconceive it, unless he can decide where they shall look, and at what.",
+      "themes": ["government-measurement-and-surveillance", "crowds-media-and-public-opinion"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "considers" }
+      ],
+      "grounds": ["economic-and-material-power", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["interpersonal", "institutional"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis", "warning"],
+      "rationale": "Propaganda works here by arranging access and attention: an institution that controls what people can see can steer the public's interpretation of events."
+    },
+    {
+      "sourceId": "longtail-teofilo-reino-kiato-1922",
+      "locator": "Chapter III, publicity campaign for the nevrozicida",
+      "originalText": "O baptismo do remedio seria a reclame, mas como preceitua o ritual americano: intelligente, berrante, a accordar o publico absorvido na intensa luta pela vida. Paterson, não se achando habilitado para tão difficil tarefa, dirigiu-se a um especialista e contractou por alguns mil dollares o plano da propaganda. Não seria o annuncio esteril de quarta pagina de jornal, mas annuncio que impressionasse por um ou mais sentidos. New-York despertou um dia atordoada com a reclame do nevrozicida. Lia-se o annuncio por toda a parte. Cartazes, affixados nos lugares mais frequentados pelo publico, representavam, em bellissimos chromos, diversos doentes que com o milagroso remedio haviam alcançado a cura. Bandos de palhaços, vestidos de corres berrantes, percorriam as ruas, a fazer piruetas, distribuindo reclames.",
+      "themes": ["crowds-media-and-public-opinion"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "reports" }
+      ],
+      "grounds": ["economic-and-material-power", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["interpersonal", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "Teófilo stages commercial propaganda as an engineered sensory environment: specialists purchase attention and make an unverified cure seem socially omnipresent."
+    },
+    {
+      "sourceId": "longtail-teofilo-reino-kiato-1922",
+      "locator": "Chapter V, manifesto of the Kingdom of Kiato",
+      "originalText": "A todos que aportarem ao reino de Kiato faço saber que: — sendo prohibida a fabricação do álcool e de líquidos que o contenham, como o maior factor que é da degeneração physica, e perversão moral do genero humano, é condemnado á morte todo aquelle que infringir essa lei humana e sabia; os que desembarcarem em estado de embriaguez, offendendo a sã moral dos habitantes do Reino, dando um exemplo péssimo de sua corrupção, serão presos e enviados ao navio de que são passageiros e este intimado a deixar o porto dentro de duas horas; prohibido o plantio e, ipso-facto, a manipulação e o uso de fumo, causa que é de graves desordens orgânicas que encurtam a vida, serão presos e deportados os que clandestinamente procurarem restaurar o uso e o plantio do fumo em Kiato; é prohibido o desembarque em todos os portos do Reino aos doentes de moléstias contagiosas.",
+      "themes": ["government-measurement-and-surveillance", "moral-responsibility"],
+      "claims": [
+        { "claimId": "restrict", "relation": "reports" }
+      ],
+      "grounds": ["consequences-and-welfare", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "interpersonal"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["prediction", "satire"],
+      "rationale": "The fictional polity makes health and moral claims the warrant for coercive regulation, including execution, deportation, and exclusion from its ports."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "status": "working-prototype-classifications",
     "generatedAt": "2026-07-21T20:14:13.111Z",
     "model": "gpt-5.6-luna",
-    "passageCount": 24,
+    "passageCount": 25,
     "sourceCheckRequiredCount": 4,
     "note": "Working prototype tags delegated to the coding model. They may be corrected in the local review workspace; they are not presented as historian-verified gold data."
   },
@@ -50,7 +50,7 @@
         "status": "working-prototype-classification",
         "themes": ["tools-and-agents", "machine-minds-and-made-persons"],
         "claims": [{ "claimId": "instrument", "relation": "rejects" }],
-        "grounds": ["scientific-or-empirical-evidence", "religion-or-metaphysics"],
+        "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
         "autonomyEffect": "no-judgment",
         "genre": "philosophy",
         "modes": ["analysis"],
@@ -74,7 +74,7 @@
         "status": "working-prototype-classification",
         "themes": ["free-will-and-automatism", "machine-minds-and-made-persons"],
         "claims": [{ "claimId": "instrument", "relation": "rejects" }],
-        "grounds": ["religion-or-metaphysics"],
+        "grounds": ["metaphysics-of-mind-and-life"],
         "autonomyEffect": "enlarges",
         "genre": "philosophy",
         "modes": ["analysis"],
@@ -436,7 +436,7 @@
         ],
         "grounds": [
           "scientific-or-empirical-evidence",
-          "religion-or-metaphysics"
+          "metaphysics-of-mind-and-life"
         ],
         "autonomyEffect": "enlarges",
         "genre": "philosophy",
@@ -472,7 +472,7 @@
         ],
         "grounds": [
           "scientific-or-empirical-evidence",
-          "religion-or-metaphysics"
+          "metaphysics-of-mind-and-life"
         ],
         "autonomyEffect": "no-judgment",
         "genre": "philosophy",
@@ -967,6 +967,33 @@
           "proposal"
         ],
         "rationale": "Rathenau presents mechanization as transforming the machine into a worker, caretaker, and overseer while reducing the need for bodily labour. He argues that exercise, education, leisure, and increasingly responsible work can preserve human strength of mind and responsibility. The passage favors refusing goods produced by dehumanized ‘human machines,’ but treats mechanization’s effects as potentially redeemable through human development rather than simply rejecting all machinery."
+      }
+    },
+    {
+      "id": "pilot-27",
+      "sourceId": "jamesiana-are-we-automata",
+      "author": "William James",
+      "title": "Are We Automata?",
+      "year": 1879,
+      "language": "English",
+      "locator": "Are We Automata? · line 452",
+      "relatedQuestionNumbers": [57],
+      "sourceUrl": "https://jamesiana.vercel.app/sources/are-we-automata#document-passage-chunk-32",
+      "originalText": "That these eddies are stirred by causes that have no connection with either dominant interests or present impressions seems manifest from the phenomena of dreaming. The chaotic imagery there appears due to the unequal stimulus of nutrition in different localities. But if an accidental variation in nutrition is sufficient to determine the brain's action, what safeguard have we at any time against its random influence? It may of course be reasonably objected that the exceptional state of sleep can afford no proper clue to the brain's operations when awake. But Maury in his classic work, Le Sommeil, has conclusively proved the passage of dreams through \"hypnagogic hallucinations\" into that meteoric shower of images and suggestions, irrelevant to the main line of thought, the continual presence of which every one who has once had his interest awakened in the subject, will without difficulty recognise in himself. Ordinarily these perish in being born, but if one by chance saunters into the mind, which is related to the dominant pursuit of the moment, presto! it is pounced upon and becomes part of the empirical Ego. The greatest inventions, the most brilliant thoughts often turn up thus accidentally, but may mould for all that the future of the man. Would they have gained this prominence above their peers without the watchful eye of consciousness to recognise their value and emphasise them into permanence?",
+      "englishText": null,
+      "sourceCheckRequired": false,
+      "sourceMatchLevel": "repository-text-checked-selected-passage",
+      "classification": {
+        "status": "working-prototype-classification",
+        "themes": ["cognition-attention-and-judgment", "habit-and-self-command"],
+        "claims": [{ "claimId": "selection-and-judgment", "relation": "advances" }],
+        "grounds": ["scientific-or-empirical-evidence", "meaning-experience-and-interpretation"],
+        "autonomyEffect": "enlarges",
+        "loci": ["individual"],
+        "objects": ["mind-and-body"],
+        "genre": "science-and-medicine",
+        "modes": ["analysis"],
+        "rationale": "James grants accidental physiological origins for ideas, but makes consciousness decisive in recognizing, valuing, and preserving the ideas that become part of a life."
       }
     }
   ]

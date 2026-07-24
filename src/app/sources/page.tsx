@@ -6,6 +6,7 @@ import SourceCatalogue, {
 import {
   classificationSchema,
   codebook,
+  corpusCoding,
   data,
   historicalPassages,
   historicalSourceTexts,
@@ -90,7 +91,7 @@ function sourceIdentity(source: CatalogueSource) {
 
 function sourceEvidenceScore(source: CatalogueSource) {
   return (
-    (source.workingPassage ? 8 : 0) +
+    (source.workingPassages.length > 0 ? 8 : 0) +
     (source.passage ? 8 : 0) +
     (source.citedPassages.length > 0 ? 6 : 0) +
     (source.readerId ? 3 : 0)
@@ -99,7 +100,7 @@ function sourceEvidenceScore(source: CatalogueSource) {
 
 function hasSelectedPassage(source: CatalogueSource) {
   return Boolean(
-    source.passage || source.workingPassage || source.citedPassages.length,
+    source.passage || source.workingPassages.length || source.citedPassages.length,
   );
 }
 
@@ -141,7 +142,12 @@ function deduplicateSources(sources: CatalogueSource[]) {
     existing.readerId ??= source.readerId;
     existing.description ??= source.description;
     existing.passage ??= source.passage;
-    existing.workingPassage ??= source.workingPassage;
+    existing.workingPassages = [
+      ...existing.workingPassages,
+      ...source.workingPassages.filter(
+        (passage) => !existing.workingPassages.some((item) => item.id === passage.id),
+      ),
+    ];
     existing.genre ||= source.genre;
     existing.autonomyEffect ||= source.autonomyEffect;
 
@@ -176,134 +182,6 @@ const argumentLabels: Record<string, string> = {
   accept: "People should adapt to machine advance",
 };
 
-function completeSourceClassification(
-  source: CatalogueSource,
-  codeLabels: Record<string, string>,
-) {
-  const evidence = [
-    source.title,
-    source.description,
-    ...source.subjects,
-    source.passage?.questionSeed,
-    source.passage?.originalText,
-    ...source.citedPassages.map((passage) => passage.text),
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLocaleLowerCase();
-
-  if (source.themes.length === 0) {
-    const inferredThemes: string[] = [];
-    const addTheme = (theme: string) => {
-      if (!inferredThemes.includes(theme) && inferredThemes.length < 2) {
-        inferredThemes.push(theme);
-      }
-    };
-
-    if (/labour|labor|workman|factory|industry|economic|poverty/.test(evidence)) {
-      addTheme("labour-and-mechanization");
-    }
-    if (/crowd|public opinion|press|propaganda|mass/.test(evidence)) {
-      addTheme("crowds-media-and-public-opinion");
-    }
-    if (/government|self-government|surveillance|measurement|statistic|state/.test(evidence)) {
-      addTheme("government-measurement-and-surveillance");
-    }
-    if (/heredity|eugeni|breed|germ-plasm|inherit/.test(evidence)) {
-      addTheme("heredity-and-biological-control");
-    }
-    if (/progress|fate|future|civilization|civilisation|decline/.test(evidence)) {
-      addTheme("progress-and-decline");
-    }
-    if (/catastroph|war|destruction|extinction|end of humanity/.test(evidence)) {
-      addTheme("technological-catastrophe");
-    }
-    if (/will|automatism|vitalism|soul|volition|mechanism/.test(evidence)) {
-      addTheme("free-will-and-automatism");
-    }
-    if (/habit|attention|self-command|character/.test(evidence)) {
-      addTheme("habit-and-self-command");
-    }
-    if (/responsib|blame|duty|crime/.test(evidence)) {
-      addTheme("moral-responsibility");
-    }
-    if (/dependen|replace|succession|supersed|deskilling/.test(evidence)) {
-      addTheme("dependence-succession-and-replacement");
-    }
-    if (/conscious|mind|intelligen|thinking machine|artificial being/.test(evidence)) {
-      addTheme("machine-minds-and-made-persons");
-    }
-    if (/machine|engine|automata|automaton|computing|chess/.test(evidence)) {
-      addTheme("tools-and-agents");
-    }
-
-    source.themes = inferredThemes.length > 0 ? inferredThemes : ["tools-and-agents"];
-  }
-
-  if (source.arguments.length === 0) {
-    const primaryTheme = source.themes[0];
-    const claimByTheme: Record<string, string> = {
-      "free-will-and-automatism": /vitalism|soul|life force/.test(evidence)
-        ? "vitalism"
-        : "automatism",
-      "habit-and-self-command": "voluntarism",
-      "moral-responsibility": "compatibilism",
-      "tools-and-agents": /conscious|mind|intelligen|thinking/.test(evidence)
-        ? "emergent-mind"
-        : "instrument",
-      "machine-minds-and-made-persons": "made-persons",
-      "dependence-succession-and-replacement": /evol|succession|supersed/.test(evidence)
-        ? "succession"
-        : "dependence",
-      "labour-and-mechanization": "social-arrangement",
-      "government-measurement-and-surveillance": "govern",
-      "crowds-media-and-public-opinion": "dependence",
-      "progress-and-decline": "accept",
-      "heredity-and-biological-control": "govern",
-      "technological-catastrophe": "restrict",
-    };
-    source.arguments = [
-      { claimId: claimByTheme[primaryTheme] ?? "instrument", relation: "considers" },
-    ];
-  }
-
-  if (!source.autonomyEffect) {
-    if (
-      /diminish|subjection|coerc|dominat|danger|threat|dependen|loss of|atroph|deskilling|catastroph|destroy|extinction|unfree/.test(
-        evidence,
-      )
-    ) {
-      source.autonomyEffect = "diminishes";
-    } else if (
-      /enlarge|emancipat|liberat|self-government|self command|freedom|freeing|human capacity/.test(
-        evidence,
-      )
-    ) {
-      source.autonomyEffect = "enlarges";
-    } else if (/depend on|conditional|both |mixed|may either/.test(evidence)) {
-      source.autonomyEffect = "conditional";
-    } else {
-      source.autonomyEffect = "no-judgment";
-    }
-  }
-
-  if (!source.genre) {
-    if (/letter|correspondence|memoir|diary/.test(evidence)) {
-      source.genre = codeLabels["personal-writing"];
-    } else if (/chronicle|newspaper|journalism|periodical|magazine/.test(evidence)) {
-      source.genre = codeLabels.journalism;
-    } else if (/novel|fiction|story|utopia|romance/.test(evidence)) {
-      source.genre = codeLabels.fiction;
-    } else if (/government|law|politic|economic|labour|labor/.test(evidence)) {
-      source.genre = codeLabels["politics-and-economics"];
-    } else if (/science|psycholog|medicine|vitalism|protoplasm|evolution/.test(evidence)) {
-      source.genre = codeLabels["science-and-medicine"];
-    } else {
-      source.genre = codeLabels.philosophy;
-    }
-  }
-}
-
 export default function SourcesPage() {
   const themeIds = new Set(
     classificationSchema.themes.flatMap((theme) =>
@@ -319,6 +197,8 @@ export default function SourcesPage() {
       ...codebook.flatMap((branch) => branch.leaves),
       ...classificationSchema.grounds,
       ...classificationSchema.autonomyEffects,
+      ...classificationSchema.loci,
+      ...classificationSchema.objects,
       ...classificationSchema.genres,
       ...classificationSchema.modes,
       ...classificationSchema.relations,
@@ -337,6 +217,7 @@ export default function SourcesPage() {
     arguments: [],
     autonomyEffect: "",
     url: work.url,
+    workingPassages: [],
     citedPassages: [],
   }));
   const sourceByUrl = new Map(sources.map((source) => [source.url, source]));
@@ -369,6 +250,7 @@ export default function SourcesPage() {
       autonomyEffect: "",
       description: text.relevance,
       url: text.sourceUrl,
+      workingPassages: [],
       citedPassages: [],
     };
     sources.push(source);
@@ -410,6 +292,7 @@ export default function SourcesPage() {
         autonomyEffect: "",
         url: passage.source.url,
         passage,
+        workingPassages: [],
         citedPassages: [],
       };
       sources.push(source);
@@ -439,14 +322,22 @@ export default function SourcesPage() {
       existing.language = normalizeLanguage(passage.language);
       existing.genre = genre;
       existing.subjects = unique([...subjects, ...existing.subjects]);
-      existing.themes = classification.themes.filter((theme) =>
-        themeIds.has(theme),
-      );
-      existing.arguments = classification.claims.filter((claim) =>
-        claimIds.has(claim.claimId),
-      );
-      existing.autonomyEffect = classification.autonomyEffect;
-      existing.workingPassage = passage;
+      existing.themes = unique([
+        ...existing.themes,
+        ...classification.themes.filter((theme) => themeIds.has(theme)),
+      ]);
+      existing.arguments = [
+        ...existing.arguments,
+        ...classification.claims.filter(
+          (claim) =>
+            claimIds.has(claim.claimId) &&
+            !existing.arguments.some(
+              (item) => item.claimId === claim.claimId && item.relation === claim.relation,
+            ),
+        ),
+      ];
+      existing.autonomyEffect ||= classification.autonomyEffect;
+      existing.workingPassages.push(passage);
       existing.readerId = passage.sourceId;
       sourceByReaderId.set(passage.sourceId, existing);
     } else {
@@ -465,13 +356,73 @@ export default function SourcesPage() {
         ),
         autonomyEffect: classification.autonomyEffect,
         url: passage.sourceUrl,
-        workingPassage: passage,
+        workingPassages: [passage],
         citedPassages: [],
       };
       sources.push(source);
       sourceByUrl.set(source.url, source);
       sourceByReaderId.set(passage.sourceId, source);
     }
+  }
+
+  // The full corpus is coded passage by passage in versioned batches. These
+  // records retain their own classifications; the work row only aggregates
+  // them for sorting and filtering.
+  for (const [index, record] of corpusCoding.entries()) {
+    if (!record.originalText || !record.locator || !record.themes || !record.claims || !record.grounds || !record.autonomyEffect || !record.genre || !record.modes) {
+      continue;
+    }
+    const text = historicalSourceTexts.sources.find(
+      (item) => item.sourceId === record.sourceId,
+    );
+    if (!text) continue;
+    const existing = sourceByReaderId.get(record.sourceId);
+    if (!existing) continue;
+    if (existing.workingPassages.some((item) => item.originalText === record.originalText)) {
+      continue;
+    }
+
+    const passage = {
+      id: `corpus-${String(index + 1).padStart(3, "0")}`,
+      sourceId: record.sourceId,
+      author: text.author,
+      title: text.title,
+      year: text.year,
+      language: normalizeLanguage(text.language),
+      locator: record.locator,
+      relatedQuestionNumbers: record.relatedQuestions,
+      sourceUrl: text.sourceUrl,
+      originalText: record.originalText,
+      englishText: null,
+      sourceCheckRequired: false,
+      sourceMatchLevel: "corpus-coding-passage-selected-in-local-text",
+      classification: {
+        status: "working-prototype-classification" as const,
+        themes: record.themes,
+        claims: record.claims,
+        grounds: record.grounds,
+        autonomyEffect: record.autonomyEffect,
+        loci: record.loci ?? [],
+        objects: record.objects ?? [],
+        genre: record.genre,
+        modes: record.modes,
+        rationale: record.rationale ?? "Passage selected in the corpus coding pass.",
+      },
+    };
+
+    existing.genre ||= codeLabels[record.genre] ?? record.genre;
+    existing.themes = unique([...existing.themes, ...record.themes]);
+    existing.arguments = [
+      ...existing.arguments,
+      ...record.claims.filter(
+        (claim) =>
+          !existing.arguments.some(
+            (item) => item.claimId === claim.claimId && item.relation === claim.relation,
+          ),
+      ),
+    ];
+    existing.autonomyEffect ||= record.autonomyEffect;
+    existing.workingPassages.push(passage);
   }
 
   for (const topic of data.topics) {
@@ -505,6 +456,7 @@ export default function SourcesPage() {
             .map((claimId) => ({ claimId })),
           autonomyEffect: "",
           url: passage.url,
+          workingPassages: [],
           citedPassages: [passage],
         };
         sources.push(source);
@@ -517,9 +469,6 @@ export default function SourcesPage() {
   // Records without a selected passage remain in the versioned source files
   // until passage selection admits them here.
   const cleanedSources = deduplicateSources(sources).filter(hasSelectedPassage);
-  for (const source of cleanedSources) {
-    completeSourceClassification(source, codeLabels);
-  }
   const languageCount = new Set(
     cleanedSources.map((source) => source.language),
   ).size;

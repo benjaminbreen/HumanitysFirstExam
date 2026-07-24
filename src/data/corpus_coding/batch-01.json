@@ -1,0 +1,106 @@
+{
+  "batch": "01",
+  "records": [
+    {
+      "sourceId": "grounds-descartes-discourse-1637",
+      "locator": "Part V, tests distinguishing a machine from a human being",
+      "originalText": "And here I specially stayed to show that, were there such machines exactly resembling organs and outward form an ape or any other irrational animal, we could have no means of knowing that they were in any respect of a different nature from these animals; but if there were machines bearing the image of our bodies, and capable of imitating our actions as far as it is morally possible, there would still remain two most certain tests whereby to know that they were not therefore really men. Of these the first is that they could never use words or other signs arranged in such a manner as is competent to us in order to declare our thoughts to others: for we may easily conceive a machine to be so constructed that it emits vocables, and even that it emits some correspondent to the action upon it of external objects which cause a change in its organs; for example, if touched in a particular place it may demand what we wish to say to it; if in another it may cry out that it is hurt, and such like; but not that it should arrange them variously so as appositely to reply to what is said in its presence, as men of the lowest grade of intellect can do.",
+      "themes": ["machine-minds-and-made-persons", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "meaning-and-understanding", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "Descartes makes context-sensitive expression of thought, rather than outward resemblance or a stimulus-bound vocal response, the test that a humanlike machine cannot meet."
+    },
+    {
+      "sourceId": "grounds-descartes-discourse-1637",
+      "locator": "Part V, the rational soul",
+      "originalText": "I had after this described the reasonable soul, and shown that it could by no means be educed from the power of matter, as the other things of which I had spoken, but that it must be expressly created; and that it is not sufficient that it be lodged in the human body exactly like a pilot in a ship, unless perhaps to move its members, but that it is necessary for it to be joined and united more closely to the body, in order to have sensations and appetites similar to ours, and thus constitute a real man.",
+      "themes": ["machine-minds-and-made-persons", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "vitalism", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "A real person requires a rational soul, irreducible to matter and intimately united with a body; mechanical movement alone therefore does not make a human being."
+    },
+    {
+      "sourceId": "grounds-hobbes-leviathan-1651",
+      "locator": "Chapter V, \"Of Reason, and Science\"",
+      "originalText": "Out of all which we may define, (that is to say determine,) what that is, which is meant by this word Reason, when wee reckon it amongst the Faculties of the mind. For Reason, in this sense, is nothing but Reckoning (that is, Adding and Substracting) of the Consequences of generall names agreed upon, for the Marking and Signifying of our thoughts; I say Marking them, when we reckon by our selves; and Signifying, when we demonstrate, or approve our reckonings to other men.",
+      "themes": ["cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "reasoning-as-reckoning", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual", "interpersonal"],
+      "objects": ["mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "Hobbes explicitly defines reasoning as rule-governed addition and subtraction over agreed general names, usable both privately and in demonstration to others."
+    },
+    {
+      "sourceId": "control-shelley-frankenstein-1818",
+      "locator": "Volume II, Chapter II, the creature appeals to his creator",
+      "originalText": "Remember, that I am thy creature: I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed. Every where I see bliss, from which I alone am irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
+      "themes": ["machine-minds-and-made-persons", "moral-responsibility"],
+      "claims": [
+        { "claimId": "made-persons", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["duty-and-responsibility", "consequences-and-welfare"],
+      "autonomyEffect": "conditional",
+      "loci": ["interpersonal"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["warning"],
+      "rationale": "The creature claims a creator’s obligation toward a feeling, morally responsive being whose character has been damaged by abandonment and exclusion."
+    },
+    {
+      "sourceId": "control-shelley-frankenstein-1818",
+      "locator": "Volume III, Chapter III, the creature’s demand for a companion",
+      "originalText": "I am malicious because I am miserable; am I not shunned and hated by all mankind? You, my creator, would tear me to pieces, and triumph; remember that, and tell me why I should pity man more than he pities me? You would not call it murder, if you could precipitate me into one of those ice-rifts, and destroy my frame, the work of your own hands. Shall I respect man, when he contemns me? Let him live with me in the interchange of kindness, and, instead of injury, I would bestow every benefit upon him with tears of gratitude at his acceptance. But that cannot be; the human senses are insurmountable barriers to our union. Yet mine shall not be the submission of abject slavery. I will revenge my injuries: if I cannot inspire love, I will cause fear; and chiefly towards you my arch-enemy, because my creator, do I swear inextinguishable hatred.",
+      "themes": ["machine-minds-and-made-persons", "moral-responsibility", "dependence-succession-and-replacement"],
+      "claims": [
+        { "claimId": "misalignment", "relation": "advances" },
+        { "claimId": "made-persons", "relation": "advances" }
+      ],
+      "grounds": ["consequences-and-welfare", "duty-and-responsibility", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["interpersonal"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["warning"],
+      "rationale": "Shelley presents antagonistic action not as a defect in an inert device but as a response to misery, social rejection, and a creator’s refusal of responsibility."
+    },
+    {
+      "sourceId": "control-shelley-frankenstein-1818",
+      "locator": "Volume III, Chapter VII, Victor’s retrospective account",
+      "originalText": "In a fit of enthusiastic madness I created a rational creature, and was bound towards him, to assure, as far as was in my power, his happiness and well-being. This was my duty; but there was another still paramount to that. My duties towards my fellow-creatures had greater claims to my attention, because they included a greater proportion of happiness or misery. Urged by this view, I refused, and I did right in refusing, to create a companion for the first creature.",
+      "themes": ["machine-minds-and-made-persons", "moral-responsibility"],
+      "claims": [
+        { "claimId": "made-persons", "relation": "advances" },
+        { "claimId": "restrict", "relation": "advances" }
+      ],
+      "grounds": ["duty-and-responsibility", "consequences-and-welfare"],
+      "autonomyEffect": "conditional",
+      "loci": ["interpersonal", "civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["analysis", "warning"],
+      "rationale": "Victor explicitly frames creation as an obligation to a rational being, then sets that obligation against his claimed responsibility to the wider human community."
+    }
+  ]
+}

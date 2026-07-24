@@ -1,0 +1,95 @@
+{
+  "batch": "13",
+  "records": [
+    {
+      "sourceId": "longtail-gastev-poetry-worker-blow-1918",
+      "locator": "\u00ab\u0412\u0432\u0435\u0434\u0435\u043d\u0456\u0435: \u041c\u044b \u0440\u0430\u0441\u0442\u0435\u043c \u0438\u0437 \u0436\u0435\u043b\u0452\u0437\u0430\u00bb, p. 7",
+      "originalText": "\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0435!\u2014\u042f \u0441\u0442\u043e\u044e \u0441\u0440\u0435\u0434\u0438 \u043d\u0438\u0445: \u0441\u0442\u0430\u043d\u043a\u043e\u0432, \u043c\u043e\u043b\u043e\u00ad\u0442\u043e\u0432, \u0432\u0430\u0433\u0440\u0430\u043d\u043e\u043a \u0438 \u0433\u043e\u0440\u043d \u0438 \u0441\u0440\u0435\u0434\u0438 \u0441\u043e\u0442\u043d\u0438 \u0442\u043e\u0432\u0430\u0440\u0438\u0449\u0435\u0439. \u0413\u043b\u044f\u0436\u0443 \u043d\u0430 \u043d\u0438\u0445 \u0438 \u0432\u044b\u043f\u0440\u044f\u043c\u043b\u044f\u044e\u0441\u044c. \u0412 \u0436\u0438\u043b\u044b \u043b\u044c\u0435\u0442\u0441\u044f \u043d\u043e\u0432\u0430\u044f \u0436\u0435\u043b\u0452\u0437\u043d\u0430\u044f \u043a\u0440\u043e\u0432\u044c. \u042f \u0432\u044b\u0440\u043e\u0441 \u0435\u0449\u0435. \u0423 \u043c\u0435\u043d\u044f \u0443 \u0441\u0430\u043c\u043e\u0433\u043e \u0432\u044b\u0440\u0430\u0441\u0442\u0430\u044e\u0442 \u0441\u0442\u0430\u043b\u044c\u043d\u044b\u044f \u043f\u043b\u0435\u0447\u0438 \u0438 \u0431\u0435\u0437\u043c\u0451\u0440\u043d\u043e \u0441\u0438\u043b\u044c\u043d\u044b\u044f \u0440\u0443\u043a\u0438. \u042f \u0441\u043b\u0438\u043b\u0441\u044f \u0441 \u0436\u0435\u043b\u0452\u0437\u043e\u043c \u043f\u043e\u0441\u0442\u0440\u043e\u0439\u043a\u0438.",
+      "relatedQuestions": [17, 23, 33, 34, 36, 41],
+      "themes": ["labour-and-mechanization", "tools-and-agents", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "accept", "relation": "advances" },
+        { "claimId": "instrument", "relation": "considers" }
+      ],
+      "grounds": ["character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual", "civilizational"],
+      "objects": ["work-and-economic-order", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["testimony", "proposal"],
+      "rationale": "Gastev's lyric makes industrial work a collective transformation: the speaker represents the factory's iron as a new strength incorporated into the worker's body."
+    },
+    {
+      "sourceId": "jamesiana-collected-essays-and-reviews",
+      "locator": "\u201cBain and Renouvier,\u201d p. 28",
+      "originalText": "For him it is merely a question as to the ambiguity of certain futures, those human acts, namely, which are preceded by deliberation. What are the phenomena here? A representation arises in a mind, but ere it can discharge itself into a train of action, it is inhibited by another which confronts it. This, on the point of discharging itself, is again checked by the first, which returns with a reinforced intensity, and so for a time the pendulum swings to and fro, till finally one or the other representation recurs with such a degree of reinforcement that the tumult ceases, and an act, a decision for the future, or the arrest of a passionate impulse takes place. This stable survival of one representation is called a volition.",
+      "relatedQuestions": [1],
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "reports" },
+        { "claimId": "voluntarism", "relation": "considers" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "In his account of Renouvier, James describes deliberation as a contest among representations whose settled survival constitutes volition."
+    },
+    {
+      "sourceId": "jamesiana-collected-essays-and-reviews",
+      "locator": "\u201cThe Feeling of Effect,\u201d pp. 217\u201318",
+      "originalText": "The point of application of the volitional effort always lies within the inner world, being an idea or representation of afferent sensations of some sort. From its intrinsic nature or from the presence of other ideas, this representation may spontaneously tend to lapse from vivid and stable consciousness. Mental effort may then accompany its maintenance. Attention, belief, affirmation, and motor volition are thus four names for an identical process, incidental to the conflict of ideas alone, the survival of one in spite of the opposition of others.",
+      "relatedQuestions": [1],
+      "themes": ["cognition-attention-and-judgment", "free-will-and-automatism", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "pragmatism", "relation": "considers" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James treats attention, belief, and motor volition as one selective process: mental effort is the maintenance of an idea against competing ideas."
+    },
+    {
+      "sourceId": "jamesiana-dubois-darkwater",
+      "locator": "\u201cThe Souls of White Folk,\u201d p. 43",
+      "originalText": "The scheme of Europe was no sudden invention, but a way out of long-pressing difficulties. It is plain to modern white civilization that the subjection of the white working classes cannot much longer be maintained. Education, political power, and increased knowledge of the technique and meaning of the industrial process are destined to make a more and more equitable distribution of wealth in the near future. The day of the very rich is drawing to a close, so far as individual white nations are concerned. But there is a loophole. There is a chance for exploitation on an immense scale for inordinate profit, not simply to the very rich, but to the middle class and to the laborers. This chance lies in the exploitation of darker peoples. It is here that the golden hand beckons. Here are no labor unions or votes or questioning onlookers or inconvenient consciences. These men may be used down to the very bone, and shot and maimed in \"punitive\" expeditions when they revolt. In these dark lands \"industrial development\" may repeat in exaggerated form every horror of the industrial history of Europe, from slavery and rape to disease and maiming, with only one test of success,--dividends!",
+      "relatedQuestions": [17, 34],
+      "themes": ["labour-and-mechanization", "government-measurement-and-surveillance", "progress-and-decline"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["economic-and-material-power", "rights-and-self-government", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["institutional", "civilizational"],
+      "objects": ["work-and-economic-order", "administration-and-public-order"],
+      "genre": "journalism",
+      "modes": ["analysis", "warning"],
+      "rationale": "Du Bois argues that industrial prosperity and class accommodation in Europe are purchased through colonial exploitation, where political rights and public scrutiny are withheld."
+    },
+    {
+      "sourceId": "jamesiana-dubois-darkwater",
+      "locator": "\u201cThe Souls of White Folk,\u201d pp. 43\u201344",
+      "originalText": "This theory of human culture and its aims has worked itself through warp and woof of our daily thought with a thoroughness that few realize. Everything great, good, efficient, fair, and honorable is \"white\"; everything mean, bad, blundering, cheating, and dishonorable is \"yellow\"; a bad taste is \"brown\"; and the devil is \"black.\" The changes of this theme are continually rung in picture and story, in newspaper heading and moving-picture, in sermon and school book, until, of course, the King can do no wrong,--a White Man is always right and a Black Man has no rights which a white man is bound to respect.",
+      "relatedQuestions": [34, 78],
+      "themes": ["crowds-media-and-public-opinion", "government-measurement-and-surveillance", "moral-responsibility"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "govern", "relation": "considers" }
+      ],
+      "grounds": ["rights-and-self-government", "meaning-experience-and-interpretation", "character-and-human-development"],
+      "autonomyEffect": "diminishes",
+      "loci": ["interpersonal", "institutional", "civilizational"],
+      "objects": ["administration-and-public-order", "work-and-economic-order"],
+      "genre": "journalism",
+      "modes": ["analysis", "warning"],
+      "rationale": "Du Bois identifies the ordinary media, religious, and educational reproduction of racial hierarchy as an infrastructure that makes unequal rights appear legitimate."
+    }
+  ]
+}

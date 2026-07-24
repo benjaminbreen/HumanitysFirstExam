@@ -1,0 +1,82 @@
+[
+  {
+    "sourceId": "jamesiana-pragmatism",
+    "passages": [
+      {
+        "locator": "What Pragmatism Means, pp. 44–46, lines 142–148",
+        "originalText": "The pragmatic method is primarily a method of settling metaphysical disputes that otherwise might be interminable. Is the world one or many? — fated or free? — material or spiritual? — here are notions either of which may or may not hold good of the world; and disputes over such notions are unending. The pragmatic method in such cases is to try to interpret each notion by tracing its respective practical consequences. What difference would it practically make to anyone if this notion rather than that notion were true? If no practical difference whatever can be traced, then the alternatives mean practically the same thing, and all dispute is idle. Whenever a dispute is serious, we ought to be able to show some practical difference that must follow from one side or the other’s being right. A glance at the history of the idea will show you still better what pragmatism means. The term is derived from the same Greek word [pi rho alpha gamma mu alpha], meaning action, from which our words ‘practice’ and ‘practical’ come. It was first introduced into philosophy by Mr. Charles Peirce in 1878. In an article entitled ‘How to Make Our Ideas Clear,’ in the ‘Popular Science Monthly’ for January of that year [Footnote: Translated in the Revue Philosop hique for January, 1879 (vol. vii).] Mr. Peirce, after pointing out that our beliefs are really rules for action, said that to develope a thought’s meaning, we need only determine what conduct it is fitted to produce: that conduct is for us its sole significance. And the tangible fact at the root of all our thought-distinctions, however subtle, is that there is no one of them so fine as to consist in anything but a possible difference of practice. To attain perfect clearness in our thoughts of an object, then, we need only consider what conceivable effects of a practical kind the object may involve — what sensations we are to expect from it, and what reactions we must prepare. Our conception of these effects, whether immediate or remote, is then for us the whole of our conception of the object, so far as that conception has positive significance at all.",
+        "themes": ["cognition-attention-and-judgment"],
+        "claims": [{"claimId": "meaning-and-understanding", "relation": "advances"}],
+        "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+        "autonomyEffect": "no-judgment",
+        "loci": ["individual"],
+        "objects": ["mind-and-body"],
+        "genre": "philosophy",
+        "modes": ["analysis"],
+        "rationale": "James treats the meaning of a thought as the difference it makes to expected experience and prepared action, rejecting purely verbal distinctions."
+      }
+    ]
+  },
+  {
+    "sourceId": "control-wells-war-air-1908",
+    "passages": [
+      {
+        "locator": "Chapter III, ‘The German Air-Fleet,’ lines 2696–2714",
+        "originalText": "The essential fact of the politics of the age in which Bert Smallways lived--the age that blundered at last into the catastrophe of the War in the Air--was a very simple one, if only people had had the intelligence to be simple about it. The development of Science had altered the scale of human affairs. By means of rapid mechanical traction, it had brought men nearer together, so much nearer socially, economically, physically, that the old separations into nations and kingdoms were no longer possible, a newer, wider synthesis was not only needed, but imperatively demanded. Just as the once independent dukedoms of France had to fuse into a nation, so now the nations had to adapt themselves to a wider coalescence, they had to keep what was precious and possible, and concede what was obsolete and dangerous. A saner world would have perceived this patent need for a reasonable synthesis, would have discussed it temperately, achieved and gone on to organise the great civilisation that was manifestly possible to mankind. The world of Bert Smallways did nothing of the sort. Its national governments, its national interests, would not hear of anything so obvious; they were too suspicious of each other, too wanting in generous imaginations. They began to behave like ill-bred people in a crowded public car, to squeeze against one another, elbow, thrust, dispute and quarrel. Vain to point out to them that they had only to rearrange themselves to be comfortable. Everywhere, all over the world, the historian of the early twentieth century finds the same thing, the flow and rearrangement of human affairs inextricably entangled by the old areas, the old prejudices and a sort of heated irascible stupidity, and everywhere congested nations in inconvenient areas, slopping population and produce into each other, annoying each other with tariffs, and every possible commercial vexation, and threatening each other with navies and armies that grew every year more portentous.",
+        "themes": ["technological-catastrophe", "government-measurement-and-surveillance", "progress-and-decline"],
+        "claims": [{"claimId": "social-arrangement", "relation": "advances"}],
+        "grounds": ["economic-and-material-power", "consequences-and-welfare"],
+        "autonomyEffect": "diminishes",
+        "loci": ["institutional", "civilizational"],
+        "objects": ["machine-or-artificial-system", "administration-and-public-order", "human-future-and-environment"],
+        "genre": "fiction",
+        "modes": ["prediction", "warning"],
+        "rationale": "Wells locates the disaster not in mechanical progress alone but in national institutions failing to reorganize themselves for the interdependence that technology has created."
+      },
+      {
+        "locator": "Chapter X, ‘The World under the War,’ lines 6638–6670",
+        "originalText": "The special peculiarities of aerial warfare were of such a nature as to trend, once it had begun, almost inevitably towards social disorganisation. The first of these peculiarities was brought home to the Germans in their attack upon New York; the immense power of destruction an airship has over the thing below, and its relative inability to occupy or police or guard or garrison a surrendered position. Necessarily, in the face of urban populations in a state of economic disorganisation and infuriated and starving, this led to violent and destructive collisions, and even where the air-fleet floated inactive above, there would be civil conflict and passionate disorder below. Nothing comparable to this state of affairs had been known in the previous history of warfare, unless we take such a case as that of a nineteenth century warship attacking some large savage or barbaric settlement, or one of those naval bombardments that disfigure the history of Great Britain in the late eighteenth century. Then, indeed, there had been cruelties and destruction that faintly foreshadowed the horrors of the aerial war. Moreover, before the twentieth century the world had had but one experience, and that a comparatively light one, in the Communist insurrection of Paris, 1871, of the possibilities of a modern urban population under warlike stresses. A second peculiarity of airship war as it first came to the world that also made for social collapse, was the ineffectiveness of the early air-ships against each other. Upon anything below they could rain explosives in the most deadly fashion, forts and ships and cities lay at their mercy, but unless they were prepared for a suicidal grapple they could do remarkably little mischief to each other.",
+        "themes": ["technological-catastrophe", "government-measurement-and-surveillance"],
+        "claims": [{"claimId": "social-arrangement", "relation": "advances"}],
+        "grounds": ["consequences-and-welfare", "economic-and-material-power"],
+        "autonomyEffect": "diminishes",
+        "loci": ["institutional", "civilizational"],
+        "objects": ["machine-or-artificial-system", "administration-and-public-order", "human-future-and-environment"],
+        "genre": "fiction",
+        "modes": ["prediction", "warning"],
+        "rationale": "Wells identifies a structural asymmetry of aerial power: it can devastate a society without supplying the capacity to govern the disorder it produces."
+      }
+    ]
+  },
+  {
+    "sourceId": "jamesiana-galton-memories-of-my-life",
+    "passages": [
+      {
+        "locator": "Chapter XX, ‘Heredity,’ pp. 299–300, lines 1811–1814",
+        "originalText": "Many years later I was so harassed with the old question of Determinism, which would leave every human action under the control of Heredity and Environment, that I made a series of observations on the actions of my own mind in relation to Free Will. I employ the word not merely as meaning ‘unhindered’ but in the special sense of an uncaused and creative action. It was carried on almost continuously for six weeks, and off and on for many subsequent months[55]. The procedure was this. Whenever I caught myself in an act of what seemed to be ‘Free Will’ in the above sense, I checked myself and tried hard to recollect what had happened before, made rapid notes, and then wrote a full account of the case. To my surprise, I found, after some days’ work, that the occasions were rare on which there seemed room for the exercise of Free Will as defined above. I subsequently reckoned that they did not occur oftener than once a day. Motives for all the other events could be traced backwards in succession, by orderly and continuous steps, until they led into a tangle of familiar paths. It was curious to watch the increase of power given by practice, of recalling mental actions which being usually overlooked give the false idea that much has been performed through a creative act, or by inspiration, which is really due to straightforward causation. The subject is too complex to be more fully gone into here; I must refer to the Memoir itself. The general result of the inquiry was to support the views of those who hold that man is little more than a conscious machine, the slave of heredity and environment, the larger part, perhaps all, of whose actions are therefore predictable. As regards such residuum as may not be automatic but creative, and which a Being, however wise and well-informed, could not possibly foresee, I have nothing to say, but I found that the more carefully I inquired, whether it was into hereditary similarities of conduct, into the life-histories of twins, or introspectively into the actions of my own mind, the smaller seemed the room left for this possible residuum.",
+        "themes": ["free-will-and-automatism", "heredity-and-biological-control"],
+        "claims": [{"claimId": "automatism", "relation": "advances"}],
+        "grounds": ["scientific-or-empirical-evidence", "nature-and-evolution"],
+        "autonomyEffect": "diminishes",
+        "loci": ["individual"],
+        "objects": ["mind-and-body"],
+        "genre": "science-and-medicine",
+        "modes": ["testimony", "analysis"],
+        "rationale": "Galton uses self-observation, twin evidence, and hereditary resemblance to argue that apparently creative acts are largely predictable effects of heredity and environment."
+      },
+      {
+        "locator": "Chapter XXI, ‘Race Improvement,’ pp. 314–315, lines 1887–1896",
+        "originalText": "The subject of Race Improvement, or Eugenics, with which I have much occupied myself during the last few years, is a pursuit of no recent interest. I published my views as long ago as 1865, in two articles written in Macmillan’s Magazine[20], while preparing materials for my book, Hereditary Genius. But I did not then realise, as now, the powerful influence of Small Causes upon statistical results. I was too much disposed to think of marriage under some regulation, and not enough of the effects of self-interest and of social and religious sentiment. Popular feeling was not then ripe to accept even the elementary truths of hereditary talent and character, upon which the possibility of Race Improvement depends. Still less was it prepared to consider dispassionately any proposals for practical action. So I laid the subject wholly to one side for many years. Now I see my way better, and an appreciative audience is at last to be had, though it be small. As in most other cases of novel views, the wrong-headedness of objectors to Eugenics has been curious. The most common misrepresentations now are that its methods must be altogether those of compulsory unions, as in breeding animals. It is not so. I think that stern compulsion ought to be exerted to prevent the free propagation of the stock of those who are seriously afflicted by lunacy, feeble-mindedness, habitual criminality, and pauperism, but that is quite different from compulsory marriage. How to restrain ill-omened marriages is a question by itself, whether it should be effected by seclusion, or in other ways yet to be devised that are consistent with a humane and well-informed public opinion. I cannot doubt that our democracy will ultimately refuse consent to that liberty of propagating children which is now allowed to the undesirable classes, but the populace has yet to be taught the true state of these things. A democracy cannot endure unless it be composed of able citizens; therefore it must in self-defence withstand the free introduction of degenerate stock. What I desire is that the importance of eugenic marriages should be reckoned at its just value, neither too high nor too low, and that Eugenics should form one of the many considerations by which marriages are promoted or hindered, as they are by social position, adequate fortune, and similarity of creed. I can believe hereafter that it will be felt as derogatory to a person of exceptionally good stock to marry into an inferior one as it is for a person of high Austrian rank to marry one who has not sixteen heraldic quarterings. I also hope that social recognition of an appropriate kind will be given to healthy, capable, and large families, and that social influence will be exerted towards the encouragement of eugenic marriages.",
+        "themes": ["heredity-and-biological-control", "government-measurement-and-surveillance"],
+        "claims": [{"claimId": "restrict", "relation": "advances"}],
+        "grounds": ["nature-and-evolution", "scientific-or-empirical-evidence", "consequences-and-welfare"],
+        "autonomyEffect": "diminishes",
+        "loci": ["institutional", "civilizational"],
+        "objects": ["administration-and-public-order", "human-future-and-environment"],
+        "genre": "science-and-medicine",
+        "modes": ["proposal"],
+        "rationale": "Galton explicitly advocates state and social restrictions on reproduction to reshape population quality, subordinating reproductive liberty to eugenic governance."
+      }
+    ]
+  }
+]

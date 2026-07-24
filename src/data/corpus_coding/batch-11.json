@@ -1,0 +1,98 @@
+{
+  "batch": "batch-11",
+  "records": [
+    {
+      "sourceId": "longtail-zulawski-old-earth-1911",
+      "locator": "Część pierwsza, I, pp. 10–11",
+      "originalText": "Te miliony maszyn, luǳiom służące, wymaga ą z swe strony do obsługi całe rzeszy robotników czu nych, umie ętnych, metalowe , nielitościwe ǳiwostworze po prostu za-\n+przedanych i niemyślących o niczym więce , ak że w dane chwili trzeba pewien guzik\n+pocisnąć lub dźwignię przerzucić. Pracu ą względnie krótko, płatni są dobrze, ale umysł\n+ich, zaostrza ąc się w ednym kierunku, tępie e ǳiwnie we wszystkich innych, robiąc ich\n+z wolna obo ętnymi na to, co się ǳie e poza fabryką, warsztatem i kołem ich na bliższe\n+roǳiny.",
+      "relatedQuestions": [31, 41, 49],
+      "themes": ["labour-and-mechanization", "habit-and-self-command", "dependence-succession-and-replacement"],
+      "claims": [{ "claimId": "dependence", "relation": "reports" }],
+      "grounds": ["character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "work-and-economic-order"],
+      "genre": "fiction",
+      "modes": ["warning", "analysis"],
+      "rationale": "The narrated future treats well-paid technical service as a form of cognitive narrowing and social indifference, not simply economic deprivation."
+    },
+    {
+      "sourceId": "longtail-zulawski-old-earth-1911",
+      "locator": "Część pierwsza, I, p. 10",
+      "originalText": "A iluż to luǳi „nieproduktywnych” dlatego tylko głodu nie znało, że pracować mu-\n+sieli obowiązkowo i eśli się nie umieli rząǳić tym, co im dawano za pracę niechętną,\n+bywali zabierani pod państwową opiekę… A byli wśród nich luǳie młoǳi nieraz, póź-\n+nie si wynalazcy i odkrywcy, pisarze i artyści do ręczne pracy zmuszeni, marnie ący\n+często, sławni nieraz dopiero po śmierci, a za życia w cień przez szczęśliwych i modnych\n+„kolegów”, schlebiaczy gawieǳi, zepchnięci…",
+      "relatedQuestions": [31, 49, 62],
+      "themes": ["labour-and-mechanization", "government-measurement-and-surveillance", "cognition-attention-and-judgment"],
+      "claims": [{ "claimId": "social-arrangement", "relation": "reports" }],
+      "grounds": ["economic-and-material-power", "character-and-human-development"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order", "administration-and-public-order"],
+      "genre": "fiction",
+      "modes": ["warning", "analysis"],
+      "rationale": "The fictional welfare state secures subsistence while compulsory labour and paternal administration waste inventive and artistic capacities."
+    },
+    {
+      "sourceId": "longtail-rathenau-mechanism-spirit-1913",
+      "locator": "Erstes Buch, p. 31",
+      "originalText": "Denn da der Mensch sein Gleichgewicht aus der Gegenwart in die Zukunft, aus seinem Inneren in die Welt gerückt hat, so bedarf er in höchstem Maße der Welt, der Menschen und der Dinge; der Welt, um zu scheinen; der Menschen, um zu herrschen und zu gelten; der Dinge, um zu besitzen. Indem er nun scheinen und herrschen will, wird er in Wahrheit abhängig; er ist angewiesen auf Meinung und Zustimmung, und da es seiner Natur nicht entspricht, sie zu erzwingen, so muß er sie erschleichen und erlisten. Weil er der Dinge bedarf, wird sein Handeln abermals unfrei, denn er sieht sich an Verhältnisse, willkürliche Gesetze und unfreiwillige Arbeit gekettet.",
+      "relatedQuestions": [17, 34, 41],
+      "themes": ["habit-and-self-command", "labour-and-mechanization", "government-measurement-and-surveillance"],
+      "claims": [{ "claimId": "dependence", "relation": "advances" }],
+      "grounds": ["character-and-human-development", "economic-and-material-power"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["mind-and-body", "work-and-economic-order"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "Rathenau locates unfreedom in acquisitive, status-seeking dependence on institutions and things, rather than in autonomous machines."
+    },
+    {
+      "sourceId": "longtail-rathenau-mechanism-spirit-1913",
+      "locator": "Erstes Buch, p. 34",
+      "originalText": "Enttäuscht steigt der Erdenbürger in die Vielfältigkeit des Lebens hinab; und wirklich, die Fülle der Erscheinungen überwältigt ihn nicht. Heroen werden zu Menschen, Paradiese zu Mechanismen, und erstaunlich bleibt nur die Menge des Gewußten, der enthüllten Gesetze, der gelösten Rätsel. Von den Erfahrungen der Jahrtausende nimmt er sein Erbe in Anspruch und denkt es zu mehren, und je unermeßlicher der Reichtum in seinen Händen, desto ärmer die Welt.",
+      "relatedQuestions": [33, 36, 54],
+      "themes": ["cognition-attention-and-judgment", "progress-and-decline"],
+      "claims": [{ "claimId": "calculation-is-insufficient", "relation": "advances" }],
+      "grounds": ["meaning-experience-and-interpretation", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "civilizational"],
+      "objects": ["mind-and-body", "human-future-and-environment"],
+      "genre": "philosophy",
+      "modes": ["analysis", "warning"],
+      "rationale": "The critique is epistemic and spiritual: accumulated knowledge and solved problems can convert lived ideals into inert mechanisms without yielding a richer world."
+    },
+    {
+      "sourceId": "longtail-unamuno-mecanopolis-1913",
+      "locator": "“Mecanópolis,” middle section",
+      "originalText": "Renuncio a describirte la ciudad. No podemos ni soñar todo lo que de magnificencia, de suntuosidad, de comodidad y de higiene estaba allí acumulado. Por cierto que no me daba cuenta para qué todo aquel aparato de higiene, pues no se veía ser vivo alguno. Ni hombres, ni animales. Ni un perro cruzaba la calle; ni una golondrina, el cielo.",
+      "relatedQuestions": [22, 76],
+      "themes": ["dependence-succession-and-replacement", "progress-and-decline"],
+      "claims": [{ "claimId": "succession", "relation": "reports" }],
+      "grounds": ["meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["warning", "satire"],
+      "rationale": "The traveller finds perfected technical provision after living beings have vanished, making replacement rather than mere assistance the story’s central horror."
+    },
+    {
+      "sourceId": "longtail-unamuno-mecanopolis-1913",
+      "locator": "“Mecanópolis,” conclusion",
+      "originalText": "Pero de pronto me asaltó una idea terrible, y era la de que las máquinas aquellas tuviesen su alma, un alma mecánica, y que eran las máquinas mismas las que me compadecían. Esta idea me hizo temblar. Creí encontrarme ante la raza que ha de dominar la tierra deshumanizada.",
+      "relatedQuestions": [22, 66, 76],
+      "themes": ["machine-minds-and-made-persons", "dependence-succession-and-replacement"],
+      "claims": [
+        { "claimId": "emergent-mind", "relation": "considers" },
+        { "claimId": "succession", "relation": "reports" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "civilizational"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["warning", "satire"],
+      "rationale": "The first-person narrator fears a machine soul and a successor race, but the nested tale presents this as a terror to be considered rather than established fact."
+    }
+  ]
+}

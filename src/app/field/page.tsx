@@ -35,7 +35,10 @@ const GROUND_SHORT: Record<string, string> = {
   "economic-and-material-power": "economy",
   "scientific-or-empirical-evidence": "science",
   "nature-and-evolution": "nature",
-  "religion-or-metaphysics": "religion",
+  "metaphysics-of-mind-and-life": "metaphysics",
+  "religion-and-theology": "religion",
+  "logic-language-and-formal-reasoning": "logic",
+  "meaning-experience-and-interpretation": "meaning",
   unstated: "unstated",
 };
 

@@ -1,0 +1,92 @@
+{
+  "batch": "02",
+  "records": [
+    {
+      "sourceId": "grounds-poe-maelzel-1836",
+      "locator": "“Maelzel’s Chess-Player,” comparison of calculation and chess",
+      "originalText": "Arithmetical or algebraical calculations are, from their very nature, fixed and determinate. Certain ''data'' being given, certain results necessarily and inevitably follow. These results have dependence upon nothing, and are influenced by nothing but the ''data'' originally given. And the question to be solved proceeds, or should proceed, to its final determination, by a succession of unerring steps liable to no change, and subject to no modification. This being the case, we can without difficulty conceive the ''possibility'' of so arranging a piece of mechanism, that upon starting it in accordance with the ''data'' of the question to be solved, it should continue its movements regularly, progressively, and undeviatingly towards the required solution, since these movements, however complex, are never imagined to be otherwise than finite and determinate. But the case is widely different with the Chess-Player. With him there is no determinate progression. No one move in chess necessarily follows upon any one other. From no particular disposition of the men at one period of a game can we predicate their disposition at a different period. Let us place the ''first move'' in a game of chess, in juxta-position with the ''data'' of an algebraical question, and their great difference will be immediately perceived. From the latter — from the ''data'' — the second step of the question, dependent thereupon, inevitably follows. It is modeled by the ''data''. It must be ''thus'' and not otherwise. But from the first move in the game of chess no especial second move follows of necessity. In the algebraical question, as it proceeds towards solution, the ''certainty'' of its operations remains altogether unimpaired. The second step having been a consequence of the ''data'', the third step is equally a consequence of the second, the fourth of the third, the fifth of the fourth, and so on, ''and not possibly otherwise'', to the end. But in proportion to the progress made in a game of chess, is the ''uncertainty'' of each ensuing move. A few moves having been made, ''no'' step is certain. Different spectators of the game would advise different moves. All is then dependent upon the variable judgment of the players.",
+      "themes": ["cognition-attention-and-judgment", "tools-and-agents"],
+      "claims": [
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "journalism",
+      "modes": ["analysis"],
+      "rationale": "Poe grants that a mechanism can execute a determinate calculation, but argues that chess calls for judgment among moves that no prior position necessitates."
+    },
+    {
+      "sourceId": "grounds-lovelace-notes-1843",
+      "locator": "Note G, conclusion on the Analytical Engine’s powers",
+      "originalText": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.",
+      "themes": ["tools-and-agents", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "bounded-servant", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Lovelace distinguishes following a supplied analysis from originating or anticipating an analytical relation, assigning the Engine an executive rather than inventive role."
+    },
+    {
+      "sourceId": "grounds-lovelace-notes-1843",
+      "locator": "Note G, indirect effects of the Analytical Engine on mathematical inquiry",
+      "originalText": "This it is calculated to effect primarily and chiefly of course, through its executive faculties; but it is likely to exert an indirect and reciprocal influence on science itself in another manner. For, in so distributing and combining the truths and the formulæ of analysis, that they may become most easily and rapidly amenable to the mechanical combinations of the engine, the relations and the nature of many subjects in that science are necessarily thrown into new lights, and more profoundly investigated. This is a decidedly indirect, and a somewhat speculative, consequence of such an invention. It is however pretty evident, on general principles, that in devising for Mathematical truths a new form in which to record and throw themselves out for actual use, views are likely to be induced, which should again react on the more theoretical phase of the subject.",
+      "themes": ["cognition-attention-and-judgment", "tools-and-agents"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "considers" },
+        { "claimId": "instrument", "relation": "advances" }
+      ],
+      "grounds": ["logic-language-and-formal-reasoning", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "prediction"],
+      "rationale": "Lovelace separately allows that arranging knowledge for mechanical execution can alter human inquiry: the engine remains an instrument, while its use may disclose new relations to human investigators."
+    },
+    {
+      "sourceId": "control-mill-representative-government-1861",
+      "locator": "Chapter I, “To What Extent Forms of Government Are a Matter of Choice”",
+      "originalText": "Let us remember, then, in the first place, that political institutions (however the proposition may be at times ignored) are the work of men--owe their origin and their whole existence to human will. Men did not wake on a summer morning and find them sprung up. Neither do they resemble trees, which, once planted, \"are aye growing\" while men \"are sleeping.\" In every stage of their existence they are made what they are by human voluntary agency. Like all things, therefore, which are made by men, they may be either well or ill made; judgment and skill may have been exercised in their production, or the reverse of these.\n\nOn the other hand, it is also to be borne in mind that political machinery does not act of itself. As it is first made, so it has to be worked, by men, and even by ordinary men. It needs, not their simple acquiescence, but their active participation; and must be adjusted to the capacities and qualities of such men as are available.",
+      "themes": ["human-agency", "government-measurement-and-surveillance", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["character-and-human-development", "rights-and-self-government"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "institutional"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis"],
+      "rationale": "Mill treats institutions as deliberately made arrangements rather than self-acting organisms, while insisting that their operation depends on the judgment, capacity, and active participation of those governed."
+    },
+    {
+      "sourceId": "control-mill-representative-government-1861",
+      "locator": "Chapter III, “That the Ideally Best Form of Government is Representative Government”",
+      "originalText": "Suppose the difficulty vanquished. What should we then have? One man of superhuman mental activity managing the entire affairs of a mentally passive people. Their passivity is implied in the very idea of absolute power. The nation as a whole, and every individual composing it, are without any potential voice in their own destiny. They exercise no will in respect to their collective interests. All is decided for them by a will not their own, which it is legally a crime for them to disobey. What sort of human beings can be formed under such a regimen? What development can either their thinking or their active faculties attain under it? On matters of pure theory they might perhaps be allowed to speculate, so long as their speculations either did not approach politics, or had not the remotest connection with its practice. On practical affairs they could at most be only suffered to suggest; and even under the most moderate of despots, none but persons of already admitted or reputed superiority could hope that their suggestions would be known to, much less regarded by, those who had the management of affairs. A person must have a very unusual taste for intellectual exercise in and for itself who will put himself to the trouble of thought when it is to have no outward effect, or qualify himself for functions which he has no chance of being allowed to exercise.",
+      "themes": ["free-will-and-automatism", "habit-and-self-command", "government-measurement-and-surveillance"],
+      "claims": [
+        { "claimId": "dependence", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["rights-and-self-government", "character-and-human-development"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis", "warning"],
+      "rationale": "Mill argues that being governed in place of acting on one’s collective interests diminishes both practical autonomy and the faculties that participation exercises."
+    }
+  ]
+}

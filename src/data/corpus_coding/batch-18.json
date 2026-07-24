@@ -1,0 +1,93 @@
+{
+  "batch": "18",
+  "records": [
+    {
+      "sourceId": "jamesiana-principles-of-psychology",
+      "locator": "Chapter V, “The Automaton-Theory,” pp. 141–42",
+      "originalText": "Every actually existing consciousness seems to itself at any rate to be a fighter for ends, of which many, but for its presence, would not be ends at all. Its powers of cognition are mainly subservient to these ends, discerning which facts further them and which do not.\n\nNow let consciousness only be what it seems to itself, and it will help an instable brain to compass its proper ends. The movements of the brain per se yield the means of attaining these ends mechanically, but only out of a lot of other ends, if so they may be called, which are not the proper ones of the animal, but often quite opposed. The brain is an instrument of possibilities, but of no certainties. But the consciousness, with its own ends present to it, and knowing also well which possibilities lead thereto and which away, will, if endowed with causal efficacy, reinforce the favorable possibilities and repress the unfavorable or indifferent ones.",
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "automatism", "relation": "rejects" },
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James argues that consciousness makes a causal difference by selecting among mechanically available possibilities in light of an organism’s ends."
+    },
+    {
+      "sourceId": "jamesiana-principles-of-psychology",
+      "locator": "Chapter V, “The Automaton-Theory,” pp. 142–43",
+      "originalText": "All the facts of the natural history of consciousness lend color to this view. Consciousness, for example, is only intense when nerve-processes are hesitant. In rapid, automatic, habitual action it sinks to a minimum. Nothing could be more fitting than this, if consciousness have the teleological function we suppose; nothing more meaningless, if not. Habitual actions are certain, and being in no danger of going astray from their end, need no extraneous help. In hesitant action, there seem many alternative possibilities of final nervous discharge. The feeling awakened by the nascent excitement of each alternative nerve-tract seems by its attractive or repulsive quality to determine whether the excitement shall abort or shall become complete. Where indecision is great, as before a dangerous leap, consciousness is agonizingly intense. Feeling, from this point of view, may be likened to a cross-section of the chain of nervous discharge, ascertaining the links already laid down, and groping among the fresh ends presented to it for the one which seems best to fit the case.",
+      "themes": ["habit-and-self-command", "cognition-attention-and-judgment", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "voluntarism", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James contrasts automatic habit with moments of hesitation, where feeling and consciousness select among genuinely competing courses of action."
+    },
+    {
+      "sourceId": "jamesiana-psychology-briefer-course",
+      "locator": "Chapter VIII, “The Functions of the Brain,” pp. 103–04",
+      "originalText": "And yet our consciousness is there, and has in all probability been evolved, like all other functions, for a use — it is to the highest degree improbable a priori that it should have no use. Its use seems to be that of selection; but to select, it must be efficacious. States of consciousness which feel right are held fast to; those which feel wrong are checked. If the ‘holding’ and the ‘checking’ of the conscious states severally mean also the efficacious reinforcing or inhibiting of the correlated neural processes, then it would seem as if the presence of the states of mind might help to steer the nervous system and keep it in the path which to the consciousness seemed best. Now on the average what seems best to consciousness is really best for the creature.",
+      "themes": ["cognition-attention-and-judgment", "free-will-and-automatism"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "automatism", "relation": "rejects" }
+      ],
+      "grounds": ["nature-and-evolution", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "The Briefer Course makes selection consciousness’s evolutionary function: holding and checking mental states are proposed as causally steering neural activity."
+    },
+    {
+      "sourceId": "jamesiana-psychology-briefer-course",
+      "locator": "Chapter XXVI, “Will,” pp. 450–52",
+      "originalText": "Volitional effort is effort of attention. We thus find that we reach the heart of our inquiry into volition when we ask by what process it is that the thought of any given action comes to prevail stably in the mind. Where thoughts prevail without effort, we have sufficiently studied in the several chapters on Sensation, Association, and Attention, the laws of their advent before consciousness and of their stay. We shall not go over that ground again, for we know that interest and association are the words, let their worth be what they may, on which our explanations must perforce rely. Where, on the other hand, the prevalence of the thought is accompanied by the phenomenon of effort, the case is much less clear. Already in the chapter on Attention we postponed the final consideration of voluntary attention with effort to a later place. We have now brought things to a point at which we see that attention with effort is all that any case of volition implies. The essential achievement of the will, in short, when it is most ‘voluntary,’ is to attend to a difficult object and hold it fast before the mind.",
+      "themes": ["habit-and-self-command", "free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "scientific-or-empirical-evidence"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "James identifies the will with the disciplined effort to keep a difficult idea present, making attention the practical site of agency."
+    },
+    {
+      "sourceId": "grounds-binet-calculateurs-1894",
+      "locator": "Part I, chapter IV, “M. Inaudi — Mémoire des chiffres,” pp. 43–45",
+      "originalText": "M. Inaudi, qui présente un développement exceptionnel d'une seule espèce de mémoire, la mémoire des chiffres. C'est ce dont on s'aperçoit facilement lorsqu'on compare chez lui deux choses presque identiques, la mémoire des chiffres et la mémoire des lettres. [...] Sa mémoire des chiffres — que nous allons examiner tout à l'heure méthodiquement — est près de cent fois supérieure à la moyenne ; sa mémoire des lettres est faible : il est incapable de répéter plus de cinq à six lettres ; même impuissance pour répéter deux lignes de prose ou de vers. [...] Il n'y a qu'un seul cas où il se rappelle exactement une suite de mots : c'est quand ces mots font partie de l'énoncé d'un problème. Ceci est intéressant et montre combien l'attention et l'exercice sont des facteurs importants dans la formation des mémoires partielles ; cette formation ne repose probablement pas, selon nous, sur un fait anatomique, mais bien sur un fait psychologique; nous entendons par là que ce qui produit le développement d'une mémoire, c'est — outre une condition physiologique inconnue — un ensemble de facultés mentales, l'attention, la volonté, la persévérance et par-dessus tout un goût passionné pour le genre d'études qui est en connexion avec cette mémoire.\n\nLorsqu'on parcourt les études biographiques qui ont été publiées jusqu'à ce jour sur les calculateurs prodiges, on s'aperçoit que les auteurs n'ont point fait cette distinction importante entre la mémoire et le calcul; surtout ils n'ont pas cherché à prendre une mesure de la mémoire.",
+      "themes": ["cognition-attention-and-judgment", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "selection-and-judgment", "relation": "advances" },
+        { "claimId": "calculation-is-insufficient", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "character-and-human-development"],
+      "autonomyEffect": "no-judgment",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "testimony"],
+      "rationale": "Binet treats extraordinary calculation as a specific, trainable organization of memory and attention, and insists on separating the capacity to retain figures from calculation itself."
+    }
+  ]
+}

@@ -38,6 +38,18 @@
     ]
   },
   {
+    "id": "reasoning-and-understanding",
+    "kind": "claim",
+    "label": "What makes reasoning more than calculation?",
+    "question": "What, if anything, does reasoning require beyond formal procedure?",
+    "leaves": [
+      { "id": "reasoning-as-reckoning", "label": "reasoning is reckoning", "definition": "Reasoning is calculation, inference, or the lawful combination of signs; no further faculty is required." },
+      { "id": "calculation-is-insufficient", "label": "calculation is insufficient", "definition": "Formal calculation can perform only part of reasoning, which also requires judgment, relevance, framing, or interpretation." },
+      { "id": "selection-and-judgment", "label": "selection and judgment", "definition": "Attention, comparison, or judgment selects what matters from competing possibilities and thereby guides thought or action." },
+      { "id": "meaning-and-understanding", "label": "meaning and understanding", "definition": "Reasoning requires understanding, intentionality, or grasp of meaning that cannot be reduced to symbol manipulation alone." }
+    ]
+  },
+  {
     "id": "response",
     "kind": "claim",
     "label": "What should people do?",
@@ -45,7 +57,8 @@
     "leaves": [
       { "id": "restrict", "label": "restrict or refuse", "definition": "Destroy, prohibit, limit, or refuse a technology before dependence or danger becomes irreversible." },
       { "id": "govern", "label": "govern", "definition": "Keep the technology but subject it to deliberate human control, regulation, or stewardship." },
-      { "id": "accept", "label": "accept", "definition": "Acquiesce in, adapt to, or welcome the machine's advance." }
+      { "id": "accept", "label": "accept", "definition": "Acquiesce in, adapt to, or welcome the machine's advance." },
+      { "id": "cultivate", "label": "cultivate capacities", "definition": "Preserve or develop attention, judgment, skill, character, education, or other human capacities." }
     ]
   },
   {

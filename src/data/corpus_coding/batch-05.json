@@ -1,0 +1,124 @@
+{
+  "batch": "05",
+  "records": [
+    {
+      "sourceId": "control-darwin-descent-1871",
+      "locator": "Chapter V, ‘The moral sense’",
+      "originalText": "The following proposition seems to me in a high degree probable—namely, that any animal whatever, endowed with well-marked social instincts, the parental and filial affections being here included, would inevitably acquire a moral sense or conscience, as soon as its intellectual powers had become as well, or nearly as well developed, as in man. […] THIRDLY, after the power of language had been acquired, and the wishes of the community could be expressed, the common opinion how each member ought to act for the public good, would naturally become in a paramount degree the guide to action. […] LASTLY, habit in the individual would ultimately play a very important part in guiding the conduct of each member; for the social instinct, together with sympathy, is, like any other instinct, greatly strengthened by habit, and so consequently would be obedience to the wishes and judgment of the community.",
+      "themes": ["moral-responsibility", "habit-and-self-command", "crowds-media-and-public-opinion"],
+      "claims": [
+        { "claimId": "social-arrangement", "relation": "advances" },
+        { "claimId": "cultivate", "relation": "advances" }
+      ],
+      "grounds": ["nature-and-evolution", "scientific-or-empirical-evidence", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual", "interpersonal", "institutional"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Darwin gives an evolutionary account of conscience in which sympathy, community judgment, language, and habit jointly guide conduct; autonomy is socially formed rather than simply uncaused."
+    },
+    {
+      "sourceId": "control-darwin-descent-1871",
+      "locator": "Chapter V, ‘Natural Selection as Affecting Civilised Nations’",
+      "originalText": "We civilised men, on the other hand, do our utmost to check the process of elimination; we build asylums for the imbecile, the maimed, and the sick; we institute poor-laws; and our medical men exert their utmost skill to save the life of every one to the last moment. […] The aid which we feel impelled to give to the helpless is mainly an incidental result of the instinct of sympathy, which was originally acquired as part of the social instincts, but subsequently rendered, in the manner previously indicated, more tender and more widely diffused. Nor could we check our sympathy, even at the urging of hard reason, without deterioration in the noblest part of our nature. […] We must therefore bear the undoubtedly bad effects of the weak surviving and propagating their kind.",
+      "themes": ["heredity-and-biological-control", "moral-responsibility", "progress-and-decline"],
+      "claims": [
+        { "claimId": "cultivate", "relation": "advances" },
+        { "claimId": "social-arrangement", "relation": "considers" }
+      ],
+      "grounds": ["nature-and-evolution", "consequences-and-welfare", "character-and-human-development"],
+      "autonomyEffect": "conditional",
+      "loci": ["institutional", "civilizational", "interpersonal"],
+      "objects": ["human-future-and-environment", "administration-and-public-order"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Darwin frames care for vulnerable people as both an evolutionary problem and an indispensable expression of sympathy, resisting a simple conversion of evolutionary selection into social policy."
+    },
+    {
+      "sourceId": "control-butler-erewhon-1872",
+      "locator": "Chapter XXIII, ‘The Book of the Machines’ (fictional treatise reported by the narrator)",
+      "originalText": "There is no security […] against the ultimate development of mechanical consciousness, in the fact of machines possessing little consciousness now. A mollusc has not much consciousness. Reflect upon the extraordinary advance which machines have made during the last few hundred years, and note how slowly the animal and vegetable kingdoms are advancing. […] May not the world last twenty million years longer? If so, what will they not in the end become? Is it not safer to nip the mischief in the bud and to forbid them further progress? […] But who can say that the vapour engine has not a kind of consciousness? Where does consciousness begin, and where end? Who can draw the line?",
+      "themes": ["machine-minds-and-made-persons", "dependence-succession-and-replacement", "technological-catastrophe"],
+      "claims": [
+        { "claimId": "emergent-mind", "relation": "reports" },
+        { "claimId": "succession", "relation": "reports" },
+        { "claimId": "restrict", "relation": "reports" }
+      ],
+      "grounds": ["nature-and-evolution", "metaphysics-of-mind-and-life", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "prediction", "warning"],
+      "rationale": "The narrator reports an Erewhonian argument that evolutionary development may produce mechanical consciousness and make prevention prudent; the fiction requires `reports`, while retaining its conceptual force."
+    },
+    {
+      "sourceId": "control-butler-erewhon-1872",
+      "locator": "Chapter XXIV, ‘The Machines—continued’ (fictional treatise reported by the narrator)",
+      "originalText": "But I have heard it said, ‘granted that this is so, and that the vapour-engine has a strength of its own, surely no one will say that it has a will of its own?’ Alas! if we look more closely, we shall find that this does not make against the supposition that the vapour-engine is one of the germs of a new phase of life. What is there in this whole world, or in the worlds beyond it, which has a will of its own? The Unknown and Unknowable only! ‘A man is the resultant and exponent of all the forces that have been brought to bear upon him, whether before his birth or afterwards. His action at any moment depends solely upon his constitution, and on the intensity and direction of the various agencies to which he is, and has been, subjected. […] so will he do, as certainly and regularly as though he were a machine.’",
+      "themes": ["free-will-and-automatism", "tools-and-agents", "machine-minds-and-made-persons"],
+      "claims": [
+        { "claimId": "automatism", "relation": "reports" },
+        { "claimId": "emergent-mind", "relation": "reports" }
+      ],
+      "grounds": ["metaphysics-of-mind-and-life", "nature-and-evolution"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "civilizational"],
+      "objects": ["mind-and-body", "machine-or-artificial-system"],
+      "genre": "fiction",
+      "modes": ["satire", "analysis"],
+      "rationale": "The reported treatise makes human determinism an analogy for treating the steam engine as nascent life, entwining machine standing with a determinist account of human will."
+    },
+    {
+      "sourceId": "control-butler-erewhon-1872",
+      "locator": "Chapter XXIII, ‘The Book of the Machines’ (fictional treatise reported by the narrator)",
+      "originalText": "But returning to the argument, I would repeat that I fear none of the existing machines; what I fear is the extraordinary rapidity with which they are becoming something very different to what they are at present. No class of beings have in any time past made so rapid a movement forward. Should not that movement be jealously watched, and checked while we can still check it? And is it not necessary for this end to destroy the more advanced of the machines which are in use at present, though it is admitted that they are in themselves harmless? […] we cannot calculate on any corresponding advance in man’s intellectual or physical powers which shall be a set-off against the far greater development which seems in store for the machines.",
+      "themes": ["dependence-succession-and-replacement", "technological-catastrophe", "progress-and-decline"],
+      "claims": [
+        { "claimId": "succession", "relation": "reports" },
+        { "claimId": "restrict", "relation": "reports" }
+      ],
+      "grounds": ["consequences-and-welfare", "nature-and-evolution"],
+      "autonomyEffect": "diminishes",
+      "loci": ["civilizational"],
+      "objects": ["machine-or-artificial-system", "human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["satire", "warning", "prediction"],
+      "rationale": "The passage reports a precautionary argument: even presently harmless machines should be checked because their development may outstrip human capacities and become irreversible."
+    },
+    {
+      "sourceId": "control-huxley-automata-1874",
+      "locator": "Final argument, ‘The argumentation which applies to brutes holds equally good of men’",
+      "originalText": "It is quite true that, to the best of my judgment, the argumentation which applies to brutes holds equally good of men; and, therefore, that all states of consciousness in us, as in them, are immediately caused by molecular changes of the brain-substance. It seems to me that in men, as in brutes, there is no proof that any state of consciousness is the cause of change in the motion of the matter of the organism. If these positions are well based, it follows that our mental conditions are simply the symbols in consciousness of the changes which take place automatically in the organism; and that, to take an extreme illustration, the feeling we call volition is not the cause of a voluntary act, but the symbol of that state of the brain which is the immediate cause of that act. We are conscious automata, endowed with free will in the only intelligible sense of that much-abused term—inasmuch as in many respects we are able to do as we like—but none the less parts of the great series of causes and effects which, in unbroken continuity, composes that which is, and has been, and shall be—the sum of existence.",
+      "themes": ["free-will-and-automatism", "moral-responsibility"],
+      "claims": [
+        { "claimId": "automatism", "relation": "advances" },
+        { "claimId": "compatibilism", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "conditional",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Huxley extends physiological automatism to human beings but defines freedom as acting according to one’s desires despite their causal determination; this is a genuine compatibilist tension, not merely a denial of freedom."
+    },
+    {
+      "sourceId": "control-huxley-automata-1874",
+      "locator": "Section on brute consciousness and volition",
+      "originalText": "It may be assumed, then, that molecular changes in the brain are the causes of all the states of consciousness of brutes. Is there any evidence that these states of consciousness may, conversely, cause those molecular changes which give rise to muscular motion? I see no such evidence. The frog walks, hops, swims, and goes through his gymnastic performances quite as well without consciousness, and consequently without volition, as with it; and, if a frog, in his natural state, possesses anything corresponding with what we call volition, there is no reason to think that it is anything but a concomitant of the molecular changes in the brain which form part of the series involved in the production of motion. The consciousness of brutes would appear to be related to the mechanism of their body simply as a collateral product of its working, and to be as completely without any power of modifying that working as the steam-whistle which accompanies the work of a locomotive engine is without influence upon its machinery. Their volition, if they have any, is an emotion indicative of physical changes, not a cause of such changes.",
+      "themes": ["free-will-and-automatism"],
+      "claims": [
+        { "claimId": "automatism", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Huxley treats consciousness and volition as effects or signs of brain processes rather than causes of movement, using physiological comparison to formulate his epiphenomenalist position."
+    }
+  ]
+}

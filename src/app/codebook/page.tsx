@@ -51,13 +51,14 @@ export default function CodebookPage() {
         </p>
       </header>
 
-      <nav className="grid border-b border-line py-6 font-mono text-xs sm:grid-cols-5" aria-label="Schema facets">
+      <nav className="grid border-b border-line py-6 font-mono text-xs sm:grid-cols-6" aria-label="Schema facets">
         {[
           ["01", "Theme", "#themes"],
           ["02", "Claim", "#claims"],
           ["03", "Relation", "#relations"],
           ["04", "Grounds", "#grounds"],
-          ["05", "Form", "#form"],
+          ["05", "Scope", "#scope"],
+          ["06", "Form", "#form"],
         ].map(([number, label, href]) => (
           <a key={href} href={href} className="flex gap-2 py-1 text-ink-soft hover:text-ink">
             <span className="text-period">{number}</span>
@@ -157,9 +158,29 @@ export default function CodebookPage() {
         </div>
       </section>
 
+      <section id="scope" className="scroll-mt-8 border-t border-line py-10">
+        <h2 className="font-display text-2xl font-semibold tracking-tight">
+          5. Locus and object
+        </h2>
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
+          These descriptive tags identify where an argument operates and what it
+          principally concerns. They are not claims.
+        </p>
+        <div className="mt-7 grid gap-10 lg:grid-cols-2">
+          <div>
+            <h3 className="font-display text-xl font-semibold">Locus</h3>
+            <div className="mt-4"><OptionList options={classificationSchema.loci} /></div>
+          </div>
+          <div>
+            <h3 className="font-display text-xl font-semibold">Object</h3>
+            <div className="mt-4"><OptionList options={classificationSchema.objects} /></div>
+          </div>
+        </div>
+      </section>
+
       <section id="form" className="scroll-mt-8 border-t border-line py-10">
         <h2 className="font-display text-2xl font-semibold tracking-tight">
-          5. Form and context
+          6. Form and context
         </h2>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
           Genre and form describe how the argument is made. Date, language,

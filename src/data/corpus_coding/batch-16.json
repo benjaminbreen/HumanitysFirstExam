@@ -1,0 +1,52 @@
+{
+  "batch": "16",
+  "records": [
+    {
+      "sourceId": "longtail-park-artificial-laborer-1925",
+      "status": "no-selection",
+      "reason": "Local capture includes Wikisource interface material; no stable passage was selected in this pass."
+    },
+    {
+      "sourceId": "control-bernays-propaganda-1928",
+      "locator": "Chapter I, “Organizing Chaos”",
+      "originalText": "We are governed, our minds are molded, our tastes formed, our ideas suggested, largely by men we have never heard of. This is a logical result of the way our democratic society is organized. Vast numbers of human beings must coöperate in this manner if they are to live together as a smoothly functioning society.",
+      "themes": ["crowds-media-and-public-opinion", "government-measurement-and-surveillance"],
+      "claims": [{"claimId": "dependence", "relation": "advances"}, {"claimId": "social-arrangement", "relation": "advances"}],
+      "grounds": ["scientific-or-empirical-evidence", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["administration-and-public-order", "mind-and-body"],
+      "genre": "politics-and-economics",
+      "modes": ["analysis"],
+      "rationale": "Bernays describes mass opinion as routinely shaped by unseen organizers, not arrived at by independent individual judgment."
+    },
+    {
+      "sourceId": "control-forster-eternal-moment-1928",
+      "locator": "“The Machine Stops,” Kuno’s account of resistance to the Machine",
+      "originalText": "By these days it was a demerit to be muscular. Each infant was examined at birth, and all who promised undue strength were destroyed. Humanitarians may protest, but it would have been no true kindness to let an athlete live; he would never have been happy in that state of life to which the Machine had called him; he would have yearned for trees to climb, rivers to bathe in, meadows and hills against which he might measure his body. Man must be adapted to his surroundings, must he not? In the dawn of the world our weakly must be exposed on Mount Taygetus, in its twilight our strong will suffer euthanasia, that the Machine may progress, that the Machine may progress, that the Machine may progress eternally.",
+      "themes": ["dependence-succession-and-replacement", "government-measurement-and-surveillance", "habit-and-self-command"],
+      "claims": [{"claimId": "social-arrangement", "relation": "advances"}, {"claimId": "dependence", "relation": "advances"}],
+      "grounds": ["rights-and-self-government", "character-and-human-development"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["machine-or-artificial-system", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["satire", "warning"],
+      "rationale": "Forster depicts a technical system that preserves itself by eliminating human capacities no longer compatible with its environment."
+    },
+    {
+      "sourceId": "longtail-yokomitsu-machine-1930",
+      "locator": "Opening section, narrator on hazardous chemical work",
+      "originalText": "この穴へ落ち込むと金属を腐蝕させる塩化鉄で衣類や皮膚がだんだん役に立たなくなり、臭素の刺戟で咽喉を破壊し夜の睡眠がとれなくなるばかりではなく頭脳の組織が変化して来て視力さえも薄れて来る。",
+      "themes": ["labour-and-mechanization", "habit-and-self-command"],
+      "claims": [{"claimId": "social-arrangement", "relation": "advances"}, {"claimId": "dependence", "relation": "advances"}],
+      "grounds": ["economic-and-material-power", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "institutional"],
+      "objects": ["work-and-economic-order", "mind-and-body"],
+      "genre": "fiction",
+      "modes": ["testimony", "warning"],
+      "rationale": "Yokomitsu locates mechanized work’s violence in the gradual bodily and cognitive degradation imposed by factory chemicals."
+    }
+  ]
+}

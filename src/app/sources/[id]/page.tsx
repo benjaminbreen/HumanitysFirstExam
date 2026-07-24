@@ -5,6 +5,7 @@ import SourceTextReader from "@/components/SourceTextReader";
 import {
   classificationSchema,
   codebook,
+  corpusCoding,
   data,
   historicalPassages,
   historicalSourceTexts,
@@ -32,6 +33,8 @@ const schemaLabels = new Map(
     ...codebook.flatMap((branch) => branch.leaves),
     ...classificationSchema.grounds,
     ...classificationSchema.autonomyEffects,
+    ...classificationSchema.loci,
+    ...classificationSchema.objects,
     ...classificationSchema.genres,
     ...classificationSchema.modes,
     ...classificationSchema.relations,
@@ -76,9 +79,52 @@ export default async function SourceDetailPage({
   const passage = historicalPassages.passages.find(
     (item) => item.sourceId === source.sourceId,
   );
-  const workingPassage = prototypePassages.passages.find(
+  const workingPassages = prototypePassages.passages.filter(
     (item) => item.sourceId === source.sourceId,
   );
+  for (const [index, record] of corpusCoding.entries()) {
+    if (
+      record.sourceId !== source.sourceId ||
+      !record.originalText ||
+      !record.locator ||
+      !record.themes ||
+      !record.claims ||
+      !record.grounds ||
+      !record.autonomyEffect ||
+      !record.genre ||
+      !record.modes ||
+      workingPassages.some((item) => item.originalText === record.originalText)
+    ) {
+      continue;
+    }
+    workingPassages.push({
+      id: `corpus-${String(index + 1).padStart(3, "0")}`,
+      sourceId: source.sourceId,
+      author: source.author,
+      title: source.title,
+      year: source.year,
+      language: source.language,
+      locator: record.locator,
+      relatedQuestionNumbers: record.relatedQuestions,
+      sourceUrl: source.sourceUrl,
+      originalText: record.originalText,
+      englishText: null,
+      sourceCheckRequired: false,
+      sourceMatchLevel: "corpus-coding-passage-selected-in-local-text",
+      classification: {
+        status: "working-prototype-classification",
+        themes: record.themes,
+        claims: record.claims,
+        grounds: record.grounds,
+        autonomyEffect: record.autonomyEffect,
+        loci: record.loci ?? [],
+        objects: record.objects ?? [],
+        genre: record.genre,
+        modes: record.modes,
+        rationale: record.rationale ?? "Passage selected in the corpus coding pass.",
+      },
+    });
+  }
   const extent =
     source.language === "Japanese"
       ? source.characterCount.toLocaleString() + " characters"
@@ -152,50 +198,39 @@ export default async function SourceDetailPage({
             </details>
           )}
 
-          {workingPassage && (
+          {workingPassages.length > 0 && (
             <details open className="mb-9 border-y border-line py-4">
               <summary className="cursor-pointer font-mono text-xs text-ink-soft hover:text-ink">
-                Selected passage and classification
+                {workingPassages.length} selected {workingPassages.length === 1 ? "passage" : "passages"} and classifications
               </summary>
-              <div className="mt-5">
-                <blockquote className="border-l-2 border-period pl-5 text-lg leading-relaxed">
-                  {workingPassage.originalText}
-                </blockquote>
-                {workingPassage.englishText && (
-                  <div className="mt-5 border-l border-line pl-5">
-                    <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                      Working English translation
-                    </p>
-                    <p className="mt-2 leading-relaxed text-ink-soft">
-                      {workingPassage.englishText}
-                    </p>
+              {workingPassages.map((workingPassage, index) => (
+                <article key={workingPassage.id} className={index === 0 ? "mt-5" : "mt-8 border-t border-line pt-7"}>
+                  <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">Passage {index + 1}</p>
+                  <blockquote className="mt-3 border-l-2 border-period pl-5 text-lg leading-relaxed">
+                    {workingPassage.originalText}
+                  </blockquote>
+                  {workingPassage.englishText && (
+                    <div className="mt-5 border-l border-line pl-5">
+                      <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">Working English translation</p>
+                      <p className="mt-2 leading-relaxed text-ink-soft">{workingPassage.englishText}</p>
+                    </div>
+                  )}
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    {workingPassage.classification.themes.map((theme) => <SchemaLink key={theme} id={theme} />)}
+                    {workingPassage.classification.claims.map((claim) => (
+                      <SchemaLink key={`${claim.claimId}-${claim.relation}`} id={claim.claimId} suffix={` · ${schemaLabels.get(claim.relation) ?? claim.relation}`} />
+                    ))}
+                    {workingPassage.classification.grounds.map((ground) => <SchemaLink key={ground} id={ground} />)}
+                    <SchemaLink id={workingPassage.classification.autonomyEffect} />
+                    {(workingPassage.classification.loci ?? []).map((locus) => <SchemaLink key={locus} id={locus} />)}
+                    {(workingPassage.classification.objects ?? []).map((object) => <SchemaLink key={object} id={object} />)}
                   </div>
-                )}
-
-                <div className="mt-5 flex flex-wrap gap-2">
-                  {workingPassage.classification.themes.map((theme) => (
-                    <SchemaLink key={theme} id={theme} />
-                  ))}
-                  {workingPassage.classification.claims.map((claim) => (
-                    <SchemaLink
-                      key={claim.claimId}
-                      id={claim.claimId}
-                      suffix={` · ${schemaLabels.get(claim.relation) ?? claim.relation}`}
-                    />
-                  ))}
-                  <SchemaLink id={workingPassage.classification.autonomyEffect} />
-                </div>
-
-                <p className="mt-5 text-sm leading-relaxed text-ink-soft">
-                  {workingPassage.classification.rationale}
-                </p>
-                <p className="mt-3 font-mono text-[10px] text-ink-faint">
-                  {workingPassage.locator}
-                  {workingPassage.sourceCheckRequired
-                    ? " · source wording still to be checked"
-                    : ""}
-                </p>
-              </div>
+                  <p className="mt-5 text-sm leading-relaxed text-ink-soft">{workingPassage.classification.rationale}</p>
+                  <p className="mt-3 font-mono text-[10px] text-ink-faint">
+                    {workingPassage.locator}{workingPassage.sourceCheckRequired ? " · source wording still to be checked" : ""}
+                  </p>
+                </article>
+              ))}
             </details>
           )}
 
@@ -239,7 +274,7 @@ export default async function SourceDetailPage({
                 <dd className="mt-1">{passage.source.note}</dd>
               </div>
             )}
-            {workingPassage && (
+            {workingPassages.length > 0 && (
               <div>
                 <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
                   Classification

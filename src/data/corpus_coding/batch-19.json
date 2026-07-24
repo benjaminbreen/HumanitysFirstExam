@@ -1,0 +1,77 @@
+{
+  "batch": "19",
+  "records": [
+    {
+      "sourceId": "control-lebon-crowd-1895",
+      "locator": "Book I, chapter 1, \u201cGeneral Characteristics of Crowds\u201d",
+      "originalText": "Under certain given circumstances, and only under those circumstances, an agglomeration of men presents new characteristics very different from those of the individuals composing it. The sentiments and ideas of all the persons in the gathering take one and the same direction, and their conscious personality vanishes. A collective mind is formed, doubtless transitory, but presenting very clearly defined characteristics. The gathering has thus become what, in the absence of a better expression, I will call an organised crowd, or, if the term is considered preferable, a psychological crowd. It forms a single being, and is subjected to the LAW OF THE MENTAL UNITY OF CROWDS.",
+      "relatedQuestions": [38],
+      "themes": ["crowds-media-and-public-opinion", "free-will-and-automatism", "cognition-attention-and-judgment"],
+      "claims": [
+        { "claimId": "automatism", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "meaning-experience-and-interpretation"],
+      "autonomyEffect": "diminishes",
+      "loci": ["interpersonal", "civilizational"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis"],
+      "rationale": "Le Bon's crowd is a temporary collective mind in which converging sentiments displace individual conscious personality."
+    },
+    {
+      "sourceId": "control-lebon-crowd-1895",
+      "locator": "Book I, chapter 1, section on suggestion and contagion",
+      "originalText": "We see, then, that the disappearance of the conscious personality, the predominance of the unconscious personality, the turning by means of suggestion and contagion of feelings and ideas in an identical direction, the tendency to immediately transform the suggested ideas into acts; these, we see, are the principal characteristics of the individual forming part of a crowd. He is no longer himself, but has become an automaton who has ceased to be guided by his will.",
+      "relatedQuestions": [38],
+      "themes": ["crowds-media-and-public-opinion", "free-will-and-automatism", "habit-and-self-command"],
+      "claims": [
+        { "claimId": "automatism", "relation": "advances" },
+        { "claimId": "dependence", "relation": "advances" }
+      ],
+      "grounds": ["scientific-or-empirical-evidence", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["individual", "interpersonal"],
+      "objects": ["mind-and-body", "administration-and-public-order"],
+      "genre": "science-and-medicine",
+      "modes": ["analysis", "warning"],
+      "rationale": "The individual in a crowd becomes, for Le Bon, an automaton: suggestion is converted directly into action and will no longer guides conduct."
+    },
+    {
+      "sourceId": "control-wells-time-machine-1895",
+      "locator": "Chapter XIV, \u201cThe Further Vision\u201d",
+      "originalText": "So I travelled, stopping ever and again, in great strides of a thousand years or more, drawn on by the mystery of the earth\u2019s fate, watching with a strange fascination the sun grow larger and duller in the westward sky, and the life of the old earth ebb away. At last, more than thirty million years hence, the huge red-hot dome of the sun had come to obscure nearly a tenth part of the darkling heavens. Then I stopped once more, for the crawling multitude of crabs had disappeared, and the red beach, save for its livid green liverworts and lichens, seemed lifeless.",
+      "relatedQuestions": [30],
+      "themes": ["progress-and-decline", "technological-catastrophe", "heredity-and-biological-control"],
+      "claims": [
+        { "claimId": "no-threat", "relation": "reports" },
+        { "claimId": "accept", "relation": "considers" }
+      ],
+      "grounds": ["nature-and-evolution", "consequences-and-welfare"],
+      "autonomyEffect": "diminishes",
+      "loci": ["civilizational"],
+      "objects": ["human-future-and-environment"],
+      "genre": "fiction",
+      "modes": ["prediction", "warning"],
+      "rationale": "Wells extends decline beyond social arrangements to a cosmic horizon: the Earth's life ebbs under an aging sun, beyond any human intervention."
+    },
+    {
+      "sourceId": "control-james-will-believe-1897",
+      "locator": "\u201cThe Dilemma of Determinism,\u201d pp. 155\u201357",
+      "originalText": "What is meant by saying that my choice of which way to walk home after the lecture is ambiguous and matter of chance as far as the present moment is concerned? It means that both Divinity Avenue and Oxford Street are called; but that only one, and that one either one, shall be chosen. Now, I ask you seriously to suppose that this ambiguity of my choice is real; and then to make the impossible hypothesis that the choice is made twice over, and each time falls on a different street. In other words, imagine that I first walk through Divinity Avenue, and then imagine that the powers governing the universe annihilate ten minutes of time with all that it contained, and set me back at the door of this hall just as I was before the choice was made. Imagine then that, everything else being the same, I now make a different choice and traverse Oxford Street.",
+      "relatedQuestions": [1, 2, 18, 26, 28, 32],
+      "themes": ["free-will-and-automatism", "cognition-attention-and-judgment", "moral-responsibility"],
+      "claims": [
+        { "claimId": "voluntarism", "relation": "advances" },
+        { "claimId": "pragmatism", "relation": "advances" }
+      ],
+      "grounds": ["meaning-experience-and-interpretation", "metaphysics-of-mind-and-life"],
+      "autonomyEffect": "enlarges",
+      "loci": ["individual"],
+      "objects": ["mind-and-body"],
+      "genre": "philosophy",
+      "modes": ["analysis"],
+      "rationale": "James makes freedom intelligible as a genuinely open choice between alternatives rather than an imperfection in the order of nature."
+    }
+  ]
+}
