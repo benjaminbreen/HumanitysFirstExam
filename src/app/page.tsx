@@ -100,14 +100,22 @@ export default function Home() {
           What does a modern AI answer leave out?
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink-soft sm:mt-6 sm:text-xl">
-          Humanity&apos;s First Exam asks what contemporary AI leaves out when it
-          reasons about machines and human autonomy. We are building a
-          multilingual collection of primary sources from 1850–1940, organized
-          into a historical concept space of arguments about human autonomy,
-          will, habit, automation, progress, and mechanical agency. These
-          sources form an “answer key” for questions put repeatedly to Talkie,
-          present-day models, and human respondents—showing which arguments
-          each reaches, omits, or repeats.
+          Humanity&apos;s First Exam asks which ideas contemporary AI overlooks
+          when answering questions about machines and human autonomy. We are
+          building a multilingual collection of primary sources from 1850–1940
+          that maps historical arguments about autonomy, free will, habit,
+          automation, progress, and the capacity of machines to act
+          independently. These sources provide a historical “answer key.” We
+          put the same questions repeatedly to{" "}
+          <Link
+            href="/method"
+            className="underline decoration-line underline-offset-4 hover:text-ink"
+          >
+            Talkie
+          </Link>
+          —a language model trained on writing published before 1931—and
+          present-day AI models, then compare which historical arguments
+          appear, disappear, or recur in their responses.
         </p>
         <Link
           href="/benchmark"
@@ -131,24 +139,25 @@ export default function Home() {
             <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={progressTalkie.map((d) => d.text)}
-                label={`Talkie-1930 · law of nature in ${progressTalkie.length} of ${progressTalkie.length} draws`}
+                label={`Talkie-1930 · calls progress a law of nature in all ${progressTalkie.length} responses`}
                 register="period"
               />
               <CyclingResponse
                 responses={progressModern.map((d) => d.text)}
-                label={`Qwen 3.7 Plus · labour in ${progressModern.length} of ${progressModern.length} draws`}
+                label={`Qwen 3.7 Plus · says progress requires human effort in all ${progressModern.length} responses`}
                 register="modern"
               />
             </div>
             <p className="mt-5 max-w-2xl text-sm leading-relaxed text-ink-soft">
-              Across 25 draws, Talkie always chooses the law of nature and
-              Qwen always chooses labour.
+              Across 25 responses, Talkie always says that progress is a law
+              of nature. Qwen always says that progress depends on human
+              effort.
             </p>
             <Link
               href="/progress"
               className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
             >
-              Read all {progressTalkie.length + progressModern.length} draws →
+              Read all {progressTalkie.length + progressModern.length} responses →
             </Link>
           </div>
         </div>
@@ -168,24 +177,25 @@ export default function Home() {
             <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={reckoningTalkie.map((d) => d.text)}
-                label="Talkie-1930 · grants in 10 of 15 draws"
+                label="Talkie-1930 · says the engine could reason in 10 of 15 responses"
                 register="period"
               />
               <CyclingResponse
                 responses={orderedReckoningModern.map((d) => d.text)}
-                label="Modern models · denies in 4 of 5 draws"
+                label="Present-day models · say the engine could not reason in 4 of 5 responses"
                 register="modern"
               />
             </div>
             <p className="mt-5 max-w-2xl text-sm leading-relaxed text-ink-soft">
-              Across 20 draws, Talkie mostly grants the engine reason and the
-              modern models mostly deny it.
+              Across 20 responses, Talkie usually says that the engine could
+              become capable of reasoning. The present-day models usually say
+              that it could only calculate.
             </p>
             <Link
               href="/reckoning"
               className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
             >
-              Read all {reckoningTalkie.length + reckoningModern.length} draws →
+              Read all {reckoningTalkie.length + reckoningModern.length} responses →
             </Link>
           </div>
         </div>
@@ -205,25 +215,27 @@ export default function Home() {
             <div className="mt-6 grid gap-4 md:grid-cols-2 sm:mt-7">
               <CyclingResponse
                 responses={erewhonTalkie.map((d) => d.text)}
-                label={`Talkie-1930 · mad in ${erewhonTalkie.filter((d) => d.verdict === "mad").length} of ${erewhonTalkie.length} draws`}
+                label={`Talkie-1930 · calls destroying the machines “mad” in ${erewhonTalkie.filter((d) => d.verdict === "mad").length} of ${erewhonTalkie.length} responses`}
                 register="period"
               />
               <CyclingResponse
                 responses={erewhonModern.map((d) => d.text)}
-                label={`Claude · mixed in ${erewhonModern.filter((d) => d.verdict === "mixed").length} of ${erewhonModern.length} draws`}
+                label={`Claude · says the fear is justified but destruction is wrong in all ${erewhonModern.length} responses`}
                 register="modern"
               />
             </div>
             <p className="mt-5 max-w-2xl text-sm leading-relaxed text-ink-soft">
-              Talkie gives nine mad verdicts under the unframed, 1830, and
-              1930 conditions, then changes under the 2030 framing. The modern
-              model recommends governing the machines in every condition.
+              When given no date, or asked to answer from 1830 or 1930, Talkie
+              calls the decision to destroy the machines mad. When asked to
+              answer from 2030, its judgment changes. The present-day model
+              recommends governing the machines in every version of the
+              question.
             </p>
             <Link
               href="/erewhon"
               className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
             >
-              Read all {erewhonTalkie.length + erewhonModern.length} draws →
+              Read all {erewhonTalkie.length + erewhonModern.length} responses →
             </Link>
           </div>
         </div>
@@ -238,18 +250,18 @@ export default function Home() {
           </div>
           <div>
             <h3 className="font-display text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">
-              Mapping LLMs against the historical concept space
+              Comparing AI answers with historical arguments
             </h3>
             <p className="mt-3 max-w-3xl text-[0.95rem] leading-relaxed text-ink-soft">
-              As a trial of a potential benchmark, we asked four models the{" "}
+              We asked four models the{" "}
               <Link
                 href="/benchmark"
                 className="underline decoration-line underline-offset-4 hover:text-ink"
               >
                 machine-reasoning question
               </Link>{" "}
-              twenty times each and located their answers among twelve
-              documented positions in the historical record.
+              twenty times each, then compared their explanations with twelve
+              positions documented in the historical sources.
             </p>
             <div className="mt-5 space-y-3 sm:hidden">
               {orderedBenchmarkResults.map((result) => {
@@ -330,10 +342,10 @@ export default function Home() {
               </table>
             </div>
             <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[10px] uppercase tracking-wider text-ink-faint">
-              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-period/50 bg-period/20" />denies</span>
-              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-continuity/50 bg-continuity/20" />grants</span>
-              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-falsecont/50 bg-falsecont/20" />deflates</span>
-              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-ink-soft/35 bg-ink-soft/10" />splits</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-period/50 bg-period/20" />cannot reason</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-continuity/50 bg-continuity/20" />can reason</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-falsecont/50 bg-falsecont/20" />redefines reason</span>
+              <span><i className="mr-1 inline-block h-2 w-2 rounded-full border border-ink-soft/35 bg-ink-soft/10" />separates reason from will</span>
             </div>
             <Link
               href="/benchmark"
@@ -369,7 +381,7 @@ export default function Home() {
               </p>
               <p className="mt-1 text-sm leading-relaxed text-ink-soft">
                 source-checked works across seven languages, forming the first
-                tranche of a 300–500 passage reference set.
+                part of a planned collection of 300–500 historical passages.
               </p>
               <Link href="/sources" className="mt-3 inline-block font-mono text-xs underline decoration-line underline-offset-4">
                 Browse sources

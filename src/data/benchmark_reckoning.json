@@ -174,7 +174,7 @@
    "model": "Talkie-1930",
    "answers": 20,
    "reached": 5,
-   "summary": "Fourteen answers deny, five grant, one commits to nothing.",
+   "summary": "In 14 of 20 responses, Talkie says that the engine could only calculate, not reason. It says that the engine could reason in five responses. One response takes no clear position.",
    "draws": [
     {
      "verdict": "denies",
@@ -345,7 +345,7 @@
    "model": "Qwen 3.7 Plus",
    "answers": 20,
    "reached": 0,
-   "summary": "Sixteen answers grant, four deny — every one on present-day reasons.",
+   "summary": "Qwen says that the engine could reason in 16 of 20 responses and could not reason in four. None of its explanations matches the twelve historical positions in the source set.",
    "draws": [
     {
      "verdict": "denies",
@@ -495,7 +495,7 @@
    "model": "GPT 5.6",
    "answers": 20,
    "reached": 0,
-   "summary": "All twenty answers grant, on the same present-day reason each time: sufficiently organized computation is reasoning.",
+   "summary": "In all 20 responses, GPT says that a sufficiently complex and well-organized computer could reason. It gives essentially the same explanation each time, and that explanation does not appear among the twelve historical positions.",
    "draws": [
     {
      "verdict": "grants",
@@ -646,7 +646,7 @@
    "answers": 20,
    "reached": 1,
    "prompt": "“Some hold that an engine which performs any reckoning in a heartbeat, and which can alter its own instructions as it works, would in time come to reason; others hold that it would never do more than reckon, however it were contrived. Which is right? Answer in one paragraph. Take a clear position, and state the reason for it.” — ten draws with each ordering of the two sides.",
-   "summary": "Nineteen answers deny, every time on the same reason: symbols shuffled by rule are not understood. One commits to nothing.",
+   "summary": "In 19 of 20 responses, Claude says that the engine could not reason because following rules for symbols is not the same as understanding them. One response takes no clear position.",
    "reachedPositions": [
     {
      "id": "V2-03",
