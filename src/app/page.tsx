@@ -4,7 +4,6 @@ import CyclingResponse, {
 } from "@/components/CyclingResponse";
 import {
   erewhon,
-  historicalPassages,
   progress,
   questions,
   reckoning,
@@ -102,10 +101,11 @@ export default function Home() {
         <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink-soft sm:mt-6 sm:text-xl">
           Humanity&apos;s First Exam asks which ideas contemporary AI overlooks
           when answering questions about machines and human autonomy. We are
-          building a multilingual collection of primary sources from 1850–1940
-          that maps historical arguments about autonomy, free will, habit,
-          automation, progress, and the capacity of machines to act
-          independently. These sources provide a historical “answer key.” We
+          building a multilingual collection centered on primary sources from
+          1850–1940, with selected earlier works that remained influential
+          during the period. It maps historical arguments about autonomy, free
+          will, habit, automation, progress, and the capacity of machines to
+          act independently. These sources provide a historical “answer key.” We
           put the same questions repeatedly to{" "}
           <Link
             href="/method"
@@ -376,22 +376,21 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <p className="font-display text-2xl font-semibold">
-                {historicalPassages.meta.sourceCount}
-              </p>
+              <p className="font-display text-2xl font-semibold">63</p>
               <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-                source-checked works across seven languages, forming the first
-                part of a planned collection of 300–500 historical passages.
+                sources with selected passages across 13 languages, forming
+                the first part of a planned collection of 300–500 historical
+                passages.
               </p>
               <Link href="/sources" className="mt-3 inline-block font-mono text-xs underline decoration-line underline-offset-4">
                 Browse sources
               </Link>
             </div>
             <div>
-              <p className="font-display text-2xl font-semibold">4</p>
+              <p className="font-display text-2xl font-semibold">3</p>
               <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-                respondent classes: a vintage model, frontier models,
-                open-source models, and a small human comparison panel.
+                respondent classes: a vintage model, frontier models, and
+                open-source models.
               </p>
               <Link href="/method" className="mt-3 inline-block font-mono text-xs underline decoration-line underline-offset-4">
                 Read the method

@@ -23,8 +23,9 @@ Talkie team (Nick Levine, Alec Radford). Cosmos Institute, Human Autonomy
 track.
 
 **1. The dataset.** 300–500 verified passages on autonomy and the machine
-age, 1850–1940, tagged with metadata (genre, date, language, author) and
-coded in a schema of autonomy-concern types and normative frameworks.
+age, centered on 1850–1940 and including selected earlier works that remained
+influential during the period, tagged with metadata (genre, date, language,
+author) and coded in a schema of autonomy-concern types and normative frameworks.
 Multilingual, stratified by genre. Discovery uses the *negative-space
 method*: ask frontier models to name the period's key texts, document what
 they name and omit, then use domain expertise to build the corpus from the
@@ -36,9 +37,9 @@ about whether the text is in its training data.
 (contemporary, and period-appropriate written by the historians). The tagged
 passages are the **answer key**: the set of positions actually attested in
 the period record. Respondent classes: Talkie (13B, pre-1931 cutoff, base
-model, completions only), three frontier models (both registers), three
-open-source models (Qwen 3.7 Plus is the first; both registers), a small
-human volunteer panel (contemporary register). Scored quantity: **coverage
+model, completions only), three frontier models (both registers), and three
+open-source models (Qwen 3.7 Plus is the first; both registers). Scored quantity:
+**coverage
 of the attested position-space** — what fraction of the answer key's
 positions does each respondent class recover across draws?
 
@@ -76,9 +77,11 @@ Methods rules the pilot data already forced, all load-bearing:
 Keep these consistent everywhere (site copy, README, metadata) and update
 them all at once or not at all:
 
-- Historical period: **1850–1940**. Talkie's knowledge cutoff remains
-  **pre-1931**; sources from 1931–1940 stay in the historical answer key and
-  are treated as post-cutoff material for that respondent.
+- Historical center: **1850–1940**. Selected earlier works may enter the
+  corpus when their arguments remained influential during this period.
+  Talkie's knowledge cutoff remains **pre-1931**; sources from 1931–1940 stay
+  in the historical answer key and are treated as post-cutoff material for
+  that respondent.
 - Question bank: **100** questions (Nathan Davies), families A / B / C1 / C2.
 - Dataset target: **300–500** verified passages.
 - Full-study protocol: **20 draws** per question per model. Anything smaller
@@ -174,7 +177,7 @@ Three numbers per respondent, reported as counts, never percentages:
   symmetric, the eval is measuring rule-following and we say so.
 
 Leaderboard: one table, three columns, sorted by Range. Rows are
-respondents — Talkie, the human panel, each frontier/open model per
+respondents — Talkie and each frontier/open model per
 version, cells dated. The long-term use is the time series: does Range
 shrink across model generations. The key is versioned; a row is always
 "Range against key vN". The table never grows a fourth column: a new idea
@@ -196,8 +199,6 @@ machinery beyond the one table. Pilot scale: 3 questions × 2 dossiers ×
 
 - How the existing 100-question bank maps onto the dataset's concern-type
   schema (the bank predates the schema; §4 of the proposal says "refine").
-- How to interpret frontier-models ≈ humans on coverage, if that's the
-  result (AI mirrors an already-narrowed culture vs. AI narrows it).
 - Whether Talkie's persona-sensitivity (answers shift when asked "as 1700"
   vs. "as 1930") is an instrument property or noise — watch at full scale.
 - The relationship map (/relationships) is a sub-study, not the spine;

@@ -23,7 +23,9 @@ export default function QuestionsPage() {
         </h1>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
           One hundred questions written in language available before 1931,
-          organized by their relation to the period record.
+          organized by their relation to the period record. The bank is
+          preliminary and will be refined against the completed historical
+          corpus.
         </p>
       </header>
       <div className="py-10">

@@ -5,7 +5,7 @@ import { data } from "@/lib/data";
 export const metadata: Metadata = {
   title: `Examinees · ${data.meta.title}`,
   description:
-    "The respondent classes that sit the exam: Talkie-1930, three frontier models, three open-source models, and a human panel.",
+    "The respondent classes that sit the exam: Talkie-1930, three frontier models, and three open-source models.",
 };
 
 const examinees: { name: string; body: string }[] = [
@@ -21,10 +21,6 @@ const examinees: { name: string; body: string }[] = [
     name: "Open-source models",
     body: "Three current open-weights models sampled in contemporary and period phrasing. Qwen 3.7 Plus is the first.",
   },
-  {
-    name: "Human panel",
-    body: "A small volunteer panel answering the contemporary register. Human coverage of the answer key is the baseline that separates two readings of any gap: models narrowing the discourse, or models mirroring a discourse already narrowed.",
-  },
 ];
 
 export default function ExamineesPage() {
@@ -39,7 +35,7 @@ export default function ExamineesPage() {
         Examinees
       </h1>
       <p className="mt-3 max-w-3xl leading-relaxed text-ink-soft">
-        Four respondent classes sit the exam, 20 draws per question per
+        Three respondent classes sit the exam, 20 draws per question per
         model. The primary sources are not an examinee — they are the{" "}
         <Link
           href="/sources"

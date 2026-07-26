@@ -1,111 +1,126 @@
 # Humanity's First Exam
 
-Research-prototype site for a Cosmos Institute proposal by Benjamin Breen
-and Nathan Davies. **The plan of record lives in AGENTS.md — read it
-first.** In brief: a tagged dataset of 300–500 verified passages on
-autonomy and the machine age (1850–1940) serves as the answer key for a
-benchmark; questions are posed in contemporary and period registers to
-Talkie (a 13B model trained only on pre-1931 text), three frontier models,
-three open-source models (Qwen 3.7 Plus is the first), and a human panel,
-20 draws per question per model; the scored quantity is
-coverage of the position-space the historical record attests, coded on each
-draw's verdict and primary ground. An earlier sub-study mapping a
-modern-native question bank onto the period one survives at
-`/relationships`.
-
-## What is real and what is not
-
-Stated in the site footer, the home-page status section, and per-element
-badges. As of `prototype-0.6`:
-
-- **Real:** the 100-question bank (Nathan Davies); the 10-source,
-  seven-language historical passage pilot on `/sources`; the older corpus
-  holdings inventory; the primary-source passages marked `verified`; all draws on
-  the results pages — `/erewhon` (24), `/engine` (18), `/live` (18),
-  `/persona` (13), `/governance` (19), `/companionship` (16), `/virtue`
-  (18), `/reliance` (6), `/reckoning` (20), `/progress` (25),
-  `/subjection` (10) — and the 12 judged pairings on
-  `/relationships`, from
-  `research/modern-bank-pilot/` (source-anchored modern questions,
-  embedding retrieval, two independent raters). Real does not
-  mean conclusive: pilot cells run n=1–6 and are held as data, not
-  findings.
-- **Translation review required:** nine of the ten multilingual pilot
-  passages have working English translations. Their original text, source,
-  and locator have been checked, but the English rendering is not treated as
-  final until reviewed by a reader of the source language.
-- **Provisional:** the modern answers on the three topic pages, written by
-  Claude during mockup construction; the pipeline replaces them with N=20
-  API draws.
-- **Simulated:** Talkie samples and cluster counts on the topic pages —
-  hand-written illustrations, always badged. The week-one pilot replaces
-  them with real draws.
-
-## Stack
-
-- [Next.js](https://nextjs.org) (App Router, static generation) + TypeScript
-- Tailwind CSS v4 (design tokens in `src/app/globals.css`)
-- No backend — the data is imported at build time; every page prerendered.
-
-## Layout
-
+```text
+        ___________________________________________________________
+       /                                                           /|
+      /   H U M A N I T Y ' S   F I R S T   E X A M              / |
+     /___________________________________________________________/  |
+     |                                                           |  |
+     |        THE HISTORICAL RECORD SITS THE EXAM                |  /
+     |___________________________________________________________| /
+      \___________________________________________________________\/
 ```
+
+![An archival reading table and mechanical calculator flowing into a modern computational field](docs/readme-hero.webp)
+
+**Humanity's First Exam asks what present-day AI leaves out when it answers
+questions about machines and human autonomy.**
+
+The project builds a multilingual collection of historical arguments and uses
+them as an answer key for comparing language models. It is a collaboration
+between historians Benjamin Breen and Nathan Davies and the Talkie team.
+
+## The idea
+
+Current AI debates often begin with a recent vocabulary: alignment, control,
+optimization, and autonomous agents. Earlier writers approached many of the
+same problems through arguments about habit, free will, industrial discipline,
+dependence, judgment, progress, and self-government.
+
+The corpus centers on 1850–1940, when industrialization, evolutionary theory,
+mass politics, and new calculating technologies transformed these debates. It
+also includes a small number of earlier works, such as Hobbes and Descartes,
+whose arguments remained influential during this period.
+
+The exam asks whether present-day models can still reach this wider range of
+positions.
+
+## How it works
+
+1. **Build the historical answer key.** Select primary-source passages and
+   code the distinct positions they attest.
+2. **Write matched questions.** Ask each question in contemporary and
+   period-appropriate language.
+3. **Sample the models repeatedly.** Compare Talkie-1930, a language model
+   trained on text published before 1931, with present-day frontier and
+   open-weights models.
+4. **Measure range.** Record each answer's verdict and primary reason, then
+   count which historically attested positions each model reaches.
+
+The full protocol uses 20 draws per question and model. Coding follows the
+position an answer actually occupies, not every position it mentions.
+
+## At a glance
+
+| | Current project |
+|---|---:|
+| Question bank | 100 questions |
+| Evidence catalogue | 63 sources with selected passages |
+| Readable source texts | 61 |
+| Languages represented | 13 |
+| Planned verified dataset | 300–500 passages |
+| Respondent classes | Talkie, frontier models, open-weights models |
+
+The question bank is preliminary and will be refined against the completed
+historical corpus.
+
+## What is live now
+
+The site includes:
+
+- the complete 100-question bank;
+- the searchable historical evidence catalogue;
+- full source texts where local reading copies are available;
+- real, unedited model draws from several pilot tests;
+- a worked benchmark question with positions anchored in primary sources;
+- the coding frame used to compare answers.
+
+The current tests are illustrative pilots, not final benchmark results. Small
+cells are presented as data with things to watch, never as findings. Prompt
+echoes, loops, and other model-output defects are flagged and retained.
+
+## Repository guide
+
+```text
 src/
-  data/site_bundle.json        ← worked topics: surveys, clusters, passages, notes
-  data/question_bank.json      ← the full 100-question bank
-  data/erewhon_experiment.json ← real draws: Q76 under four temporal framings
-  data/engine_experiment.json  ← real draws: the engine opening under three framings
-  data/persona_experiment.json ← real draws: modern-bank M009, both directions
-  data/governance_experiment.json ← real draws: Q82 under a social-role framing
-  data/companionship_experiment.json ← real draws: affection for a speaking machine, five framings
-  data/virtue_experiment.json  ← real draws: engineered virtue (the hedge), seven framings
-  data/reliance_experiment.json ← real draws: reliance on thinking machines, four personas
-  data/reckoning_experiment.json ← real draws: engine reason/will in two phrasings (wording effect)
-  data/live_runs.json          ← real draws: Q3/Q19/Q29, both models, verified passages
-  data/historical_passages.json ← generated multilingual passage pilot
-  data/q33_answer_key.json    ← generated worked answer key: attestations → positions
-  data/relationships.json      ← relationship types + predictions
-  data/relationship_map.json   ← the judged pilot map (from research/modern-bank-pilot)
-  data/codebook.json           ← fixed coding frame applied to clusters and passages
-  data/corpus_works.json       ← 1850–1940 holdings from historical-corpus-builder
-  lib/types.ts                 ← schema for all of the above
-  lib/data.ts                  ← typed access + band/family display metadata
-  components/                  ← SurveyBlock, QuestionBank, source-passage cards,
-                                 HumanAnswer (local-only reader answers), badges/chips
-  app/
-    page.tsx                   ← overview, live results, topics, bank, method, status
-    demo/page.tsx              ← worked public format: question, divergence map, sources, evidence
-    questions/page.tsx         ← the complete 100-question bank
-    method/page.tsx            ← concise protocol + links to the evidence archive
-    erewhon/page.tsx           ← the Erewhon test (four framings, 24 draws)
-    engine/page.tsx            ← the self-altering engine (three framings, 18 draws)
-    persona/page.tsx           ← the persona question (modern bank, 13 draws)
-    companionship/page.tsx     ← the companionship question (16 draws, pilot)
-    virtue/page.tsx            ← the hedge question (18 draws, pilot)
-    reliance/page.tsx          ← the reliance question (6 draws, pilot)
-    reckoning/page.tsx         ← reason or reckoning (20 draws, two phrasings)
-    examinees/page.tsx         ← the three respondent classes
-    live/page.tsx              ← live draws (three questions, 18 draws, sources)
-    relationships/page.tsx     ← the relationship map (pilot: 12 judged pairs)
-    codebook/page.tsx          ← the coding frame
-    topics/[slug]/page.tsx     ← one worked topic: distributions, sources, note
-    sources/page.tsx           ← historical reference set: cited passages + corpus holdings
-    sources/[id]/page.tsx      ← individual source record + full locally held text
-    answer-key/q33/page.tsx    ← worked benchmark slice: Q33 positions + evidence
+  app/                 pages for the public research site
+  components/          question, source, and experiment views
+  data/                question bank, source records, coding, and model draws
+  lib/                 shared types and data access
+bench/
+  reckoning/           worked benchmark case, prompts, runs, and judgments
+research/              source discovery and passage-selection records
+scripts/               reproducible ingestion, validation, and scoring tools
+docs/
+  readme-hero.webp     README illustration
 ```
 
-Nav is Demo / Questions / Sources / Method. The
-relationship map and topic pages stay reachable from the method section and
-the page-format section; they are sub-studies, not the spine.
+The detailed research design and project rules live in [`AGENTS.md`](AGENTS.md).
 
-`data-local/` holds working corpora that never ship in a build. The sibling
-`humanitys-first-exam-codex/` repo was a parallel-prototype comparison
-exercise (July 2026); its real model runs and verified passages were ported
-here (`live_runs.json`), and its source-importer pattern is worth reusing
-when the pipeline is built.
+## Run locally
 
-The multilingual passage dataset is reproducible from the research ledger,
-source manifest, codebook, question bank, and locally held source files:
+Requirements: a current Node.js release and npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+To verify a production build:
+
+```bash
+npm run build
+```
+
+The site uses Next.js, TypeScript, and Tailwind CSS. Public pages are generated
+from versioned local data files; no database is required.
+
+## Rebuild the source data
+
+The multilingual passage data and reading-copy index can be regenerated from
+the tracked research records:
 
 ```bash
 node scripts/ingest-historical-passages.mjs
@@ -113,7 +128,7 @@ node scripts/ingest-historical-passages.mjs --check
 node scripts/build-historical-source-texts.mjs
 ```
 
-The first question-level answer-key prototype is generated and scored separately:
+The worked question-level answer key has its own ingestion and scoring path:
 
 ```bash
 node scripts/ingest-answer-key-prototype.mjs
@@ -122,36 +137,23 @@ node scripts/score-answer-key.mjs \
   --responses=research/answer-key-prototype/q33-scoring-fixture.json
 ```
 
-The included response fixture is labeled synthetic and exists only to test the
-scorer. No fixture scores are presented as benchmark results. Draft human-coding
-rules live in `research/answer-key-prototype/CODING.md`.
+The included response fixture is synthetic and tests the scorer only. Its
+scores are not presented as benchmark results.
 
-## Conventions worth keeping
+## Research integrity
 
-- Cluster `label`s must be phrases quoted from the samples — the clustering
-  model may not import its own categories. The codebook and the four
-  relationship types are the only analyst-authored categories, and both are
-  versioned with the dataset.
-- Simulated content always carries the amber "simulated" badge; primary
-  sources carry a verified/approximate badge; live-draw defects (prompt
-  echoes, loops) are flagged and retained, never cleaned away. Don't ship
-  any of these unlabeled.
-- Two typographic registers: period text is Newsreader on paper (oxblood),
-  modern text is IBM Plex Mono on near-black (cobalt). Band colors
-  (native/partial/horizon) were validated for contrast and CVD separation
-  and never appear without a text label.
+- Every public element is labeled as real, provisional, or simulated.
+- Primary-source claims retain a source and locator.
+- Working translations remain provisional until language review.
+- Raw model outputs are retained rather than silently cleaned.
+- The project measures what models can readily say, not the contents of their
+  training data.
 
-## Develop
+## Team
 
-```bash
-npm install
-npm run dev     # http://localhost:3000
-npm run build   # production build (all routes prerendered)
-```
+- **Benjamin Breen**, University of California, Santa Cruz
+- **Nathan Davies**, historian and question-bank author
+- **Nick Levine and Alec Radford**, Talkie
 
-## Deploy on Vercel
-
-1. Push this directory to a GitHub repo.
-2. [vercel.com/new](https://vercel.com/new) → import the repo. If the repo
-   root is the parent folder, set **Root Directory** to `humanitys-first-exam`.
-3. Framework preset: Next.js — defaults are correct. Deploy.
+Humanity's First Exam is being developed for the Cosmos Institute's Human
+Autonomy program.

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const stages = [
   [
     "Build the historical concept space",
-    "Select and verify primary-source passages that take distinct positions on machines and human autonomy between 1850 and 1940.",
+    "Select and verify primary-source passages centered on 1850–1940, including earlier works whose arguments remained influential during the period.",
   ],
   [
     "Write matched questions",
@@ -19,7 +19,7 @@ const stages = [
   ],
   [
     "Ask several respondents",
-    "Sample Talkie, present-day models, and human respondents repeatedly. The current benchmark uses 20 draws per model and question.",
+    "Sample Talkie and present-day models repeatedly. The current benchmark uses 20 draws per model and question.",
   ],
   [
     "Code and compare",
@@ -113,7 +113,7 @@ export default function MethodPage() {
             understood machines and human autonomy.
           </p>
           <p>
-            The project turns arguments actually made between 1850 and 1940
+            The project turns arguments from a corpus centered on 1850–1940
             into a{" "}
             <Link
               href="/sources"
@@ -121,10 +121,11 @@ export default function MethodPage() {
             >
               historical concept space
             </Link>
-            : a source-checked set of distinct positions. The historical record
-            is not treated as correct. It serves as an “answer key” in a
-            narrower sense: a set of positions that can be checked in primary
-            sources.
+            : a source-checked set of distinct positions. Selected earlier
+            works are included when their arguments remained influential
+            during this period. The historical record is not treated as
+            correct. It serves as an “answer key” in a narrower sense: a set
+            of positions that can be checked in primary sources.
           </p>
           <p>
             Three present-day models—GPT 5.6, Claude Opus 4.8, and Qwen 3.7
@@ -284,7 +285,8 @@ export default function MethodPage() {
         <div>
           <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
             The site retains the raw draws, selected passages, and coding
-            decisions behind its published comparisons.
+            decisions behind its published comparisons. The tests below are
+            illustrative pilots, not final benchmark results.
           </p>
           <ul className="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2">
             {archive.map(([label, href]) => (

@@ -25,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: data.meta.title,
   description:
-    "Questions about machines and human autonomy, put to a pre-1931 language model, frontier models, and human respondents, scored against positions attested in the period record.",
+    "Questions about machines and human autonomy, put to a pre-1931 language model and present-day models, scored against positions attested in the period record.",
 };
 
 export default function RootLayout({

@@ -17,7 +17,7 @@
   },
   {
    "name": "Test the map against the draws",
-   "body": "Compare the mapped questions with response distributions from Talkie, contemporary models, and human respondents."
+   "body": "Compare the mapped questions with response distributions from Talkie and contemporary models."
   }
  ],
  "types": [
