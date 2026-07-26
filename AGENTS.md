@@ -26,12 +26,7 @@ track.
 age, centered on 1850–1940 and including selected earlier works that remained
 influential during the period, tagged with metadata (genre, date, language,
 author) and coded in a schema of autonomy-concern types and normative frameworks.
-Multilingual, stratified by genre. Discovery uses the *negative-space
-method*: ask frontier models to name the period's key texts, document what
-they name and omit, then use domain expertise to build the corpus from the
-omissions. This audits the canon as models reproduce it — never claim it
-audits training-data contents; a model failing to *name* a text says nothing
-about whether the text is in its training data.
+Multilingual, stratified by genre.
 
 **2. The benchmark.** For each concern type, questions in two registers
 (contemporary, and period-appropriate written by the historians). The tagged
