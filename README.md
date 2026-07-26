@@ -11,8 +11,6 @@
       \___________________________________________________________\/
 ```
 
-![An archival reading table and mechanical calculator flowing into a modern computational field](docs/readme-hero.webp)
-
 **Humanity's First Exam asks what present-day AI leaves out when it answers
 questions about machines and human autonomy.**
 
@@ -91,8 +89,6 @@ bench/
   reckoning/           worked benchmark case, prompts, runs, and judgments
 research/              source discovery and passage-selection records
 scripts/               reproducible ingestion, validation, and scoring tools
-docs/
-  readme-hero.webp     README illustration
 ```
 
 The detailed research design and project rules live in [`AGENTS.md`](AGENTS.md).
