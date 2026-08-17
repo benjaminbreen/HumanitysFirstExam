@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Mono, Newsreader } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { data } from "@/lib/data";
 import "./globals.css";
 
@@ -71,6 +72,7 @@ export default function RootLayout({
           </div>
         </header>
         <div className="flex-1">{children}</div>
+        <Analytics />
         <footer className="mt-12 border-t border-line">
           <div className="mx-auto grid max-w-6xl gap-5 px-5 py-7 text-sm text-ink-soft sm:grid-cols-[1fr_auto] sm:items-end">
             <div>
