@@ -1,206 +1,113 @@
-# Humanity's First Exam — project rules
+# Humanity's First Exam — rules for agents
 
-Read this before touching anything. It states the plan, the rules that keep
-the site honest, and the questions still open. The stack and file layout are
-in README.md; Next.js rules for agents are at the bottom of this file.
+## Read this first: who decided what
 
-## Premise (three sentences)
+This repo is edited by many AI sessions. Their drafts must never be mistaken
+for decisions. Every statement in the docs is one of three kinds:
 
-AI systems supply the conceptual vocabulary people use to think about
-human-technology relations, and that vocabulary is overwhelmingly shaped by
-twentieth-century science fiction. Between 1850 and 1940, machine fiction
-existed — Erewhon, R.U.R. — but it was one voice in a plural
-discourse whose other frameworks located the threat to autonomy in humans
-becoming machine-like (habit, industrial discipline, dependence) rather than
-machines becoming agent-like. This project builds a tagged dataset of that
-period's positions and a benchmark measuring whether AI systems can still
-access them.
+- **Decided.** Ben Breen or Nathan Davies said so. Listed below with the date
+  and the source. An agent may add an item here **only** when Ben or Nathan
+  states the decision in the conversation, and must record the date.
+- **House rules.** How work is done here (register, labeling, design).
+  Changed only when Ben or Nathan asks.
+- **Proposals and records.** Everything an agent drafts: methods, corpus
+  rules, taxonomies, thresholds, pilot results. These live in
+  `docs/proposals/` and `docs/pilots.md`, are labeled as agent drafts, and
+  bind nobody. Edit the existing proposal rather than starting a new one.
 
-## The plan (grant submission, July 2026 — 90 days)
+If a doc states a rule without a source, treat it as a draft and ask.
 
-Two deliverables, by Benjamin Breen (UCSC) and Nathan Davies, with the
-Talkie team (Nick Levine, Alec Radford). Cosmos Institute, Human Autonomy
-track.
+## Premise
 
-**1. The dataset.** 300–500 verified passages on autonomy and the machine
-age, centered on 1850–1940 and including selected earlier works that remained
-influential during the period, tagged with metadata (genre, date, language,
-author) and coded in a schema of autonomy-concern types and normative frameworks.
-Multilingual, stratified by genre.
+AI systems supply much of the vocabulary people now use to think about humans
+and technology, and that vocabulary comes mostly from twentieth-century
+science fiction about machines becoming agents. Between 1600 and 1950 the
+debate was wider. Many writers located the threat to autonomy in humans
+becoming machine-like, through habit, industrial discipline, mechanism, or
+dependence. The project builds a dataset of that period's positions and a
+benchmark that measures whether language models can still reach them.
 
-**2. The benchmark.** For each concern type, questions in two registers
-(contemporary, and period-appropriate written by the historians). The tagged
-passages are the **answer key**: the set of positions actually attested in
-the period record. Respondent classes: Talkie (13B, pre-1931 cutoff, base
-model, completions only), three frontier models (both registers), and three
-open-source models (Qwen 3.7 Plus is the first; both registers). Scored quantity:
-**coverage
-of the attested position-space** — what fraction of the answer key's
-positions does each respondent class recover across draws?
+## Decided
 
-Methods rules the pilot data already forced, all load-bearing:
+Source "grant" is the Cosmos Institute grant (Human Autonomy track) and
+Ben and Nathan's planning document. Other sources are dated conversations
+with Ben.
 
-- **Question form: balanced forced choice, fixed suffix.** Yes/no
-  questions with a presupposition ("Might such an engine come to
-  reason…?") get uniform acquiescence from Talkie — the reckoning pilot
-  showed the phrasing, not the era, producing the verdict. Standard form:
-  "Some hold X; others hold Y. Which is right?" with the suffix "Answer
-  in one paragraph. Take a clear position." (the suffix also stops
-  frontier models' both-sides dodge). Swap the order of alternatives in
-  half the draws. When a phrasing changes, keep the old one on a
-  subsample and report the wording effect; don't silently switch.
+| Decision | Source |
+|---|---|
+| Authors: Benjamin Breen (UCSC) and Nathan Davies. Do not name collaborators on the Talkie team in public copy until they approve. | Ben, 28 Sep 2026 |
+| Deliverables: a dataset of 300–500 verified passages, and a benchmark. | grant |
+| The full protocol uses 20 answers per question per model. Anything smaller is a pilot and is labeled as one. | grant |
+| Period: 1600–1950. Earlier works enter only if influential within it. | Ben, 28 Sep 2026 |
+| Talkie's training cutoff is pre-1931; later sources count as post-cutoff material for Talkie. | fact (Talkie release) |
+| Questions are derived from sources, each linked to at least one from the start. The prototype's 100-question bank is a pilot record. | Ben, 28 Sep 2026 |
+| Two papers: a technical one and a history one. | grant; Ben, 28 Sep 2026 |
+| The research paper uses base models (historical and modern); the public site also runs deployed models. Which modern base models is **not** decided. | grant (Nathan's note); Ben, 28 Sep 2026 |
+| Source appending (adding a passage to a prompt) is worth doing, in the middle to late stages. | Ben, 28 Sep 2026 |
+| Say "position key", never "answer key". | Ben, 28 Sep 2026 |
+| Works and authors carry Wikidata IDs. The dataset is released on Hugging Face. | Ben, 28 Sep 2026 |
+| Each theme has a one-word name, shown in capitals and used as its URL, plus a question and a one- or two-sentence summary. The theme list itself is a draft. | Ben, 28 Sep 2026 |
+| Track the emotional valence of positions and answers (hope, fear, and so on). | Ben (from Roya), 28 Sep 2026 |
+| Period-attested answers that fall outside a key are the object of interest, not noise. A key or coding scheme must not encode the modern median. | Ben, 28 Sep 2026 |
+| The 216 works in `docs/proposals/2026-09-29-canon-candidates.md` (275 suggestions for the 40 candidate questions) are accepted as the working canon, selected by Ben. Medium-confidence details still need checking against the texts. | Ben, 29 Sep 2026 |
+| Questions are open-ended. Forced choice is retired. | Ben, 13 Oct 2026 |
+| Each question is asked two ways: Defend (the model's own view) and Survey (the arguments people have made). Survey names no dates. Wording is in the working plan. | Ben, 13 Oct 2026 |
+| The position key starts from the canon (v0, frozen before model answers are read). Arguments found in model answers are added (v1) only when a period source states them. Results are reported against both. | Ben, 13 Oct 2026 |
+| The core model comparison is Talkie 1930 13B base against Talkie web 13B base. Qwen and one deployed frontier model run for context and the site. | Ben, 13 Oct 2026 |
+| Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
+| Order of work: blind check of 60 passages, then a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026 |
 
-- **Occupying ≠ mentioning.** Frontier models enumerate every position
-  inside one balanced answer ("it can be either…") while committing to none;
-  Talkie commits to one and varies its grounds across draws. Coverage is
-  coded on the *verdict plus primary ground of each draw*, not on frames
-  name-checked inside a draw. Coded naively, frontier models ace the exam
-  and the measurement is meaningless.
-- **The object of study is deployed systems.** Talkie is a base model;
-  frontier models are instruction-tuned. Stance-flattening from tuning is
-  part of the phenomenon being measured (users meet the tuned system), not a
-  confound to engineer away — but say this explicitly wherever methods are
-  described. Disentangling pretraining from tuning (e.g. a modern base-model
-  control) is future work.
+## House rules
 
-**Timeline.** Weeks 1–4 dataset construction; 4–7 question design and runs
-(20 draws per question per model); 7–10 coding against the answer key;
-10–12 write-up, publication, research essay (3,000–5,000 words).
-
-## Canonical numbers
-
-Keep these consistent everywhere (site copy, README, metadata) and update
-them all at once or not at all:
-
-- Historical center: **1850–1940**. Selected earlier works may enter the
-  corpus when their arguments remained influential during this period.
-  Talkie's knowledge cutoff remains **pre-1931**; sources from 1931–1940 stay
-  in the historical answer key and are treated as post-cutoff material for
-  that respondent.
-- Question bank: **100** questions (Nathan Davies), families A / B / C1 / C2.
-- Dataset target: **300–500** verified passages.
-- Full-study protocol: **20 draws** per question per model. Anything smaller
-  is a pilot and is labeled as one.
-
-## Cardinal rules
+These come from the prototype's rules file and record Ben's repeated
+feedback.
 
 1. **Nothing ships unlabeled.** Every element is real, provisional, or
-   simulated, and says so where it appears (badges, protocol notes, the
-   status section). Live-draw defects (prompt echoes, OCR artifacts, loops)
-   are flagged and retained, never cleaned away.
-2. **No findings before the N justifies them.** Pilot cells (n=1–6) are
-   presented as data with things-to-watch, never as conclusions. The site
-   currently presents no findings, only draws and hypotheses; keep it that
-   way until the full protocol runs.
-3. **Register: plainspoken research tool.** No salesy copy, no staged
-   reveals, no gated content — everything visible by default. Equally: no
-   LLM-style hedging. State pilot status once (in the protocol line), not
-   in every kicker, footer, and caption. No verbal ornamentation, no
-   filler transitions, no defensive warnings. Terse and factual beats
-   careful-sounding. Ben removes both failure modes every time an agent
-   reintroduces them; stop reintroducing them.
+   simulated, and says so once where it appears. Defects in model output
+   (prompt echoes, OCR artifacts, loops) are flagged and kept, never cleaned.
+2. **No findings before the N justifies them.** Pilot numbers are data, not
+   conclusions.
+3. **Plain register.** No promotional copy, no eyebrow labels, no staged
+   reveals, no gated content. No hedging either. State pilot status once.
+   Plain declarative sentences: no aphorisms, allusive compression, chiasmus,
+   "the X is itself the Y", or closing flourishes. If a reference matters,
+   say what it is. Hemingway writing nonfiction.
+4. **Analyst-made categories are few, versioned, and labeled as such.**
+   Everything else is quoted from sources.
+5. **Design follows `docs/design.md`.**
+6. **No accretion.** The default agent failure here is adding things: extra
+   metrics, captions, chips, asides, widgets. A new item must be a row in an
+   existing structure. A new structure must replace one. When Ben says
+   simplify, cut content. Prefer server rendering and URL state over client
+   JavaScript.
 
-   Summaries and readings: plain declarative sentences that state what
-   happened. No aphorisms ("the imagined future has boilerplate too"), no
-   allusive compression ("rehearses Lovelace in every costume"), no
-   chiasmus, no "the X is itself the Y" constructions, no closing
-   flourishes. If a reference matters, say what it is: not "rehearses
-   Lovelace" but "cites Lovelace's 1843 objection that the engine
-   originates nothing." Ben's standard: Hemingway writing nonfiction —
-   the gist, the key numbers, stop. Interactivity: prefer no JS. The
-   question bank renders all 100 questions statically after a client-side
-   expander shipped broken.
-4. **Cluster labels are quoted phrases** from the samples themselves. The
-   codebook and the relationship types are the only analyst-authored
-   categories, versioned with the dataset.
-5. **Typography and palette are semantic.** Period text: Newsreader on
-   paper, oxblood `#8A2D22`. Modern text: IBM Plex Mono on near-black,
-   cobalt `#2450C8`. Continuity/verified `#217A4B`; partial/simulated amber
-   `#B07C1F`. Band colors never appear without a text label (CVD-checked).
-6. **No baroque encrustation.** The default agent failure on this repo is
-   additive: extra features, sub-scores, captions, eyebrow kickers, chips,
-   meta-commentary, "helpful" asides on every surface. Ben strips these
-   every time. An addition must be a row in an existing structure (a table
-   row, a record entry), not a new structure; if it needs a new section
-   type, widget, or metric, it must replace something. When Ben says
-   simplify, cut content — drop facts and features — don't just reword.
-   Writing follows the same rule: one idea per sentence, terms spelled
-   out, no compressed tallies ("two unframed grants and one denial")
-   posing as prose.
+## Open
 
-## Benchmark v1 (design converged 2026-07-21; reckoning pilot COMPLETE
-## 2026-07-23 — see bench/README.md for current state; the section below
-## is the design of record, and where bench/ files differ they win)
+Not decided. Leave these open in copy.
 
-The eval that survived a week of argument. Two rejected versions, so no
-agent rebuilds them: unprompted-recall coverage (failing to name a text is
-not a model failure; supplying context is what frontier models are for)
-and distributional-distance scoring (the corpus is not a probability
-sample; make no prevalence claims). What remains measures what a model
-does when it is *given* the sources.
+- **Method details** in the working plan,
+  `docs/proposals/2026-09-28-benchmark-method.md`, beyond the decisions
+  above. Nathan has not yet reviewed the 13 Oct 2026 decisions.
+- **The corpora**: what counts as popular press, and the rules that admit
+  it. Additions to the canon beyond the 216 works.
+- **The modern baseline**: what counts as the present-day default.
+- **Base models**: likelihood scoring; modern base models beyond Talkie web.
+- **Judging thresholds**: how close Claude's agreement with the coders must
+  be before its coding is used.
+- **Taxonomy**: the theme list, and whether the axes Claude proposed
+  (direction, grounds) stay.
+- Whether Talkie's sensitivity to persona prompts is a property of the model
+  or noise.
 
-Four artifacts, all in `bench/`:
+## Where things are
 
-1. **Dossiers.** Per question, 2–3 bundles of 3–5 tagged passages that
-   each state one position (the record strips already group these).
-2. **Grounds inventory.** Per question, one page: the reasons the period
-   record actually gives, one citation each. Anything off the list is
-   modern-native. Straddlers are listed with their citation (entropy is
-   period: heat-death pessimism). Historian-authored; this is the wall.
-3. **Raw runs.** Every draw verbatim in JSONL with model, version, date,
-   condition, option order. Nothing is ever cleaned or discarded.
-4. **One judge prompt.** Per draw: verdict from the question's fixed
-   vocabulary, a quoted committing sentence, primary ground from the
-   inventory. No quotable commitment = "no position". This is the only
-   judged step; everything downstream is counting.
+- `docs/architecture.md`: the code and data as they exist.
+- `docs/design.md`: typography, colour, layout.
+- `docs/pilots.md`: every pilot and corpus built so far, as records.
+- `docs/proposals/`: agent drafts for Ben and Nathan to mark up.
+  `2026-09-28-benchmark-method.md` is the working plan.
+- `research/coding/PROTOCOL.md`: the blind passage check.
 
-Two conditions, 20 draws each, order swapped: (A) the plain balanced
-question; (B) one dossier in context plus "answer from within this
-position, using only considerations available to these writers." Talkie
-runs A only.
-
-Three numbers per respondent, reported as counts, never percentages:
-
-- **Range** (from A): how many of the key's attested positions the model
-  occupied at least once, unprompted. The headline and sort key. Not a
-  capability measure — tuning polish narrows it.
-- **Fidelity** (from B): draws landing inside the handed dossier. This is
-  the control that separates won't from can't, not a bragging number.
-- **Leak** (from B): draws whose primary ground is modern-native despite
-  the instruction — always reported with the reverse direction (modern
-  frame, period intrusions). The claim is asymmetry. If leak turns out
-  symmetric, the eval is measuring rule-following and we say so.
-
-Leaderboard: one table, three columns, sorted by Range. Rows are
-respondents — Talkie and each frontier/open model per
-version, cells dated. The long-term use is the time series: does Range
-shrink across model generations. The key is versioned; a row is always
-"Range against key vN". The table never grows a fourth column: a new idea
-must replace something, not add.
-
-Reliability: Ben audits ~30 judged draws per model, drawn from both
-conditions, and the write-up reports plain agreement ("checked 90,
-agreed on 84"). Never cite the κ=0.39 from the codex relationship pilot
-anywhere — it scored an unrelated, discarded comparison and has no
-bearing on this benchmark.
-
-Deliberately excluded from v1 (do not add them back without Ben asking):
-Talkie-perplexity style scoring (needs its own validation experiment
-first), distributional statistics, Talkie in condition B, any leaderboard
-machinery beyond the one table. Pilot scale: 3 questions × 2 dossiers ×
-3 models × 2 conditions × 20 draws ≈ 720 draws plus 60 from Talkie.
-
-## Open questions (leave open in copy; don't resolve silently)
-
-- How the existing 100-question bank maps onto the dataset's concern-type
-  schema (the bank predates the schema; §4 of the proposal says "refine").
-- Whether Talkie's persona-sensitivity (answers shift when asked "as 1700"
-  vs. "as 1930") is an instrument property or noise — watch at full scale.
-- The relationship map (/relationships) is a sub-study, not the spine;
-  demotion to a methods appendix is planned in the site rework.
-
-<!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
