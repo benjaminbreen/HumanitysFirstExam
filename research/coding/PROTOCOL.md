@@ -1,9 +1,9 @@
 Blind passage check
 
-Status: draft by Claude, 29 September 2026, rewritten 13 October 2026
-after Ben chose the simpler design below. Nathan approves or amends it
-before either coder starts. Commit the approved version before the first
-entry is saved; the commit date is the pre-registration date.
+Status: approved by Nathan Davies, 14 October 2026 (reported by Ben).
+Drafted by Claude, 29 September 2026, rewritten 13 October 2026 after Ben
+chose the simpler design below. The commit that records this approval is
+the pre-registration date; no entry was saved before it.
 
 Purpose
 

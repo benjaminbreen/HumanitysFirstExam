@@ -56,6 +56,7 @@ with Ben.
 | The core model comparison is Talkie 1930 13B base against Talkie web 13B base. Qwen and one deployed frontier model run for context and the site. | Ben, 13 Oct 2026 |
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
 | Order of work: blind check of 60 passages, then a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026 |
+| The blind passage check protocol (`research/coding/PROTOCOL.md`) is approved as written. Its commit date is the pre-registration date. | Nathan (via Ben), 14 Oct 2026 |
 
 ## House rules
 
