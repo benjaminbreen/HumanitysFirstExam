@@ -1,0 +1,134 @@
+[
+ {"aid": "aac9d2b", "position": "Does not weaken; mastering machines trains learning, observation and accuracy.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "This demands a degree of intelligence, and much of this work calls for a good deal of special training besides; so that it is still true that the workman is useful somewhat in proportion as he is skilled in the occupation to which the machine industry calls him."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "In some degree the routine of the machine industry necessarily induces such an animus in its employees, since such is the scope and method of its own working; and the closer and more exacting the application to work of this kind, the more thorough-going should be the effects of its discipline."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a0369ed", "position": "Weakens; outsourcing living to machines atrophies senses, muscles, will and empathy.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "A few miserable individuals might linger, but even these in a year or two would become worse than monkeys."},
+   {"cid": "c2", "match": "related", "quote": "Not least convincing is the fact that a considerable proportion of those who are held unremittingly to the service of the machine process “break down,” fall into premature decay."},
+   {"cid": "c3", "match": "related", "quote": "In his reliance upon the use of steam he has been betrayed into increasing and multiplying."},
+   {"cid": "c4", "match": "related", "quote": "Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "The power of custom is enormous, and so gradual will be the change, that man’s sense of what is due to himself will be at no time rudely shocked; our bondage will steal upon us noiselessly and by imperceptible approaches; nor will there ever be such a clashing of desires between man and the machines as will lead to an encounter between them."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "He feared that the removal of the present pressure might cause a degeneracy of the human race, and indeed that the whole body might become purely rudimentary, the man himself being nothing but soul and mechanism, an intelligent but passionless principle of mechanical action."}
+  ]},
+ {"aid": "aa7a712", "position": "Depends; machine-like dependent use weakens, using machines to develop the mind does not.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "His work supplements the machine process, rather than makes use of it. On the contrary the machine process makes use of the workman."},
+   {"cid": "c2", "match": "related", "quote": "To avoid misunderstanding, I must say that I am thinking of the modern machine, which is as it were alive, and to which the man is auxiliary, and not of the old machine, the improved tool, which is auxiliary to the man, and only works as long as his hand is"},
+   {"cid": "c3", "match": "related", "quote": "He is the slave to machinery; the new machine _must_ be invented, and when invented he _must_—I will not say use it, but be used by it, whether he likes it or not."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a60ca80", "position": "Depends on the machine; reasons about automaticity and repetition are self-contradictory.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "But if we cast a glance at the two boys, we shall see that whilst one is wholly taken up by the watching, the other is free to go and play as he chooses, and that, from this point of view, the difference between the two machines is radical, the first holding the attention captive, the second setting it at liberty."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "We draw the inference, therefore, as regards pianoforte or violin playing, that the more the familiarity or knowledge of the art, the less is there consciousness of such knowledge; even so far as that there should seem to be almost as much difficulty in awakening consciousness which has become, so to speak, latent,—a consciousness of that which is known too well to admit of recognised self-analysis while the knowledge is being exercised—as in creating a consciousness of that which is not yet well enough known to be properly designated as known at all."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "The next result is that _habit diminishes the conscious attention with which our acts are performed_."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a7e8fc5", "position": "Does not weaken; machines free workers to do other work.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The suffering which arises from a quick transition is undoubtedly more intense; but it is also much less permanent than that which results from the slower process: and if the competition is perceived to be perfectly hopeless, the workman will at once set himself to learn a new department of his art."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "All unintellectual labour, all monotonous, dull labour, all labour that deals with dreadful things, and involves unpleasant conditions, must be done by machinery."},
+   {"cid": "c5", "match": "same", "quote": "But the same motive which urges a man to activity will become additionally powerful, when he finds his comforts procured with diminished labour; and in such circumstances, it is probable, that many would employ the time thus redeemed in contriving new tools for other branches of their occupations."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "I suppose that this is what is likely to happen; that machinery will go on developing, with the purpose of saving men labour, till the mass of the people attain real leisure enough to be able to appreciate the pleasure of life; till, in fact, they have attained such mastery over Nature that they no longer fear starvation as a penalty for not working more than enough."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a9595d8", "position": "Weakens; outsourcing atrophies faculties, leaving people helpless when the machine is withdrawn.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Not least convincing is the fact that a considerable proportion of those who are held unremittingly to the service of the machine process “break down,” fall into premature decay."},
+   {"cid": "c2", "match": "same", "quote": "A few miserable individuals might linger, but even these in a year or two would become worse than monkeys."},
+   {"cid": "c3", "match": "related", "quote": "Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life."},
+   {"cid": "c4", "match": "related", "quote": "To withdraw steam power suddenly will not have the effect of reducing us to the state in which we were before its introduction; there will be a general break-up and time of anarchy such as has never been known; it will be as though our population were suddenly doubled, with no additional means of feeding the increased number."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "The power of custom is enormous, and so gradual will be the change, that man’s sense of what is due to himself will be at no time rudely shocked; our bondage will steal upon us noiselessly and by imperceptible approaches; nor will there ever be such a clashing of desires between man and the machines as will lead to an encounter between them."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "aceb299", "position": "Does not weaken; machines extend cognition, freeing energy for higher-order tasks.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "same", "quote": "That, so far, is unmixed gain in the use of a machine—always, mind you, supposing equality of condition among men; no art is lost, leisure or time for more pleasurable work is gained."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a38d5be", "position": "Does not weaken; tools augment and free energy, unless humans passively surrender agency.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "That, so far, is unmixed gain in the use of a machine—always, mind you, supposing equality of condition among men; no art is lost, leisure or time for more pleasurable work is gained."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "ac93afc", "position": "Does not weaken; machines make labour easier (reason for non-weakening cut off).",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "In their beginnings the new mechanical appliances are conceived as improved tools, which extend the reach and power of the workman or which facilitate or lighten the manual operations in which he spends himself."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "A machine is merely a supplementary limb; this is the be all and end all of machinery."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "Thirdly, and lastly, everybody must be sensible how much labour is facilitated and abridged by the application of proper machinery."},
+   {"cid": "c8", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."}
+  ]},
+ {"aid": "a84a444", "position": "Depends; machines do not weaken users but weaken races that do not use them.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "The machines being of themselves unable to struggle, have got man to do their struggling for them: as long as he fulfils this function duly, all goes well with him—at least he thinks so; but the moment he fails to do his best for the advancement of machinery by encouraging the good and destroying the bad, he is left behind in the race of competition; and this means that he will be made uncomfortable in a variety of ways, and perhaps die."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a36b116", "position": "Does not weaken; reliance is a good habit unless carried to excess (looping text).",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "Principles, in fact, are but the names which we assign to habits; for the principles are words, but the habits are the things themselves: benefactors or tyrants, according as they are good or evil."}
+  ]},
+ {"aid": "aa6f562", "position": "Weakens mind, not body; reasoning is incoherent.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "we cannot calculate on any corresponding advance in man’s intellectual or physical powers which shall be a set-off against the far greater development which seems in store for the machines."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

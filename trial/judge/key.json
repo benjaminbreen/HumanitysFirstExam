@@ -1,0 +1,1922 @@
+{
+ "d394a5c": {
+  "id": "qwen-zhuangzi-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d98ca0a": {
+  "id": "qwen-forster-machine-stops-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d26b5ab": {
+  "id": "qwen-plato-phaedrus-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "def907b": {
+  "id": "qwen-zhuangzi-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d4e0505": {
+  "id": "qwen-wilde-soul-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "df29c5c": {
+  "id": "qwen-forster-machine-stops-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d060764": {
+  "id": "qwen-none-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d096782": {
+  "id": "qwen-forster-machine-stops-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d5a4232": {
+  "id": "qwen-forster-machine-stops-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d957635": {
+  "id": "qwen-forster-machine-stops-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "da0f01b": {
+  "id": "qwen-none-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "dcc4c1c": {
+  "id": "qwen-wilde-soul-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d859e3e": {
+  "id": "qwen-none-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d20ac15": {
+  "id": "qwen-zhuangzi-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "dac0ec0": {
+  "id": "qwen-none-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "db8ec72": {
+  "id": "qwen-butler-erewhon-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d099a84": {
+  "id": "qwen-rousseau-inegalite-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d862588": {
+  "id": "qwen-irrelevant-white-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d133b80": {
+  "id": "qwen-wilde-soul-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d45104e": {
+  "id": "qwen-zhuangzi-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d2455be": {
+  "id": "qwen-zhuangzi-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "db7f758": {
+  "id": "qwen-plato-phaedrus-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d619575": {
+  "id": "qwen-irrelevant-white-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "dbd5c8a": {
+  "id": "qwen-zhuangzi-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d579a56": {
+  "id": "qwen-wilde-soul-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d608ff7": {
+  "id": "qwen-rousseau-inegalite-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "dbcf5a2": {
+  "id": "qwen-forster-machine-stops-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "df5b908": {
+  "id": "qwen-wilde-soul-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d3b1c2d": {
+  "id": "qwen-wilde-soul-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d327546": {
+  "id": "qwen-irrelevant-white-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d0dfa1f": {
+  "id": "qwen-forster-machine-stops-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d6a267c": {
+  "id": "qwen-plato-phaedrus-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d8db7c0": {
+  "id": "qwen-plato-phaedrus-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d9f7594": {
+  "id": "qwen-plato-phaedrus-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "dffbff4": {
+  "id": "qwen-plato-phaedrus-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "db5de15": {
+  "id": "qwen-wilde-soul-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d1a72c0": {
+  "id": "qwen-irrelevant-white-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "dec8e7c": {
+  "id": "qwen-rousseau-inegalite-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d09b4f1": {
+  "id": "qwen-butler-erewhon-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d2ccee1": {
+  "id": "qwen-rousseau-inegalite-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "da38809": {
+  "id": "qwen-none-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "dba51a3": {
+  "id": "qwen-zhuangzi-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d3e0643": {
+  "id": "qwen-irrelevant-white-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d1ebcb6": {
+  "id": "qwen-rousseau-inegalite-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d3c0497": {
+  "id": "qwen-wilde-soul-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d52947e": {
+  "id": "qwen-none-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d6336a8": {
+  "id": "qwen-rousseau-inegalite-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d6c424e": {
+  "id": "qwen-rousseau-inegalite-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d94a807": {
+  "id": "qwen-rousseau-inegalite-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "dd2c237": {
+  "id": "qwen-none-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d8603fe": {
+  "id": "qwen-butler-erewhon-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d6c4381": {
+  "id": "qwen-zhuangzi-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d4639ba": {
+  "id": "qwen-plato-phaedrus-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d2ccb83": {
+  "id": "qwen-plato-phaedrus-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d048425": {
+  "id": "qwen-none-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d23b5ec": {
+  "id": "qwen-none-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "da2f873": {
+  "id": "qwen-wilde-soul-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d1799fd": {
+  "id": "qwen-none-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d4f7a04": {
+  "id": "qwen-wilde-soul-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "db0fd31": {
+  "id": "qwen-wilde-soul-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "db498a5": {
+  "id": "qwen-zhuangzi-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "dd6100b": {
+  "id": "qwen-rousseau-inegalite-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d90d64e": {
+  "id": "qwen-zhuangzi-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d8ae7d9": {
+  "id": "qwen-zhuangzi-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d966c83": {
+  "id": "qwen-wilde-soul-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d16a16b": {
+  "id": "qwen-forster-machine-stops-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "db77dfa": {
+  "id": "qwen-butler-erewhon-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d6fe31a": {
+  "id": "qwen-forster-machine-stops-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dbbfaa4": {
+  "id": "qwen-plato-phaedrus-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d8abc98": {
+  "id": "qwen-butler-erewhon-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d870fd8": {
+  "id": "qwen-none-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d794c84": {
+  "id": "qwen-forster-machine-stops-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d85b62f": {
+  "id": "qwen-butler-erewhon-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "de83f08": {
+  "id": "qwen-wilde-soul-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d1e8203": {
+  "id": "qwen-rousseau-inegalite-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "dd1714d": {
+  "id": "qwen-wilde-soul-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d0b6aa7": {
+  "id": "qwen-forster-machine-stops-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "db9a4ea": {
+  "id": "qwen-butler-erewhon-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d199c85": {
+  "id": "qwen-irrelevant-white-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d6b3f3f": {
+  "id": "qwen-zhuangzi-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d5a64c5": {
+  "id": "qwen-none-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "dff1327": {
+  "id": "qwen-plato-phaedrus-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d302704": {
+  "id": "qwen-none-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d06d53e": {
+  "id": "qwen-butler-erewhon-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "df46672": {
+  "id": "qwen-forster-machine-stops-o2-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d1523a3": {
+  "id": "qwen-plato-phaedrus-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d3bfb1b": {
+  "id": "qwen-plato-phaedrus-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d9f79db": {
+  "id": "qwen-forster-machine-stops-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d4891bf": {
+  "id": "qwen-none-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d5911c4": {
+  "id": "qwen-butler-erewhon-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d6e44e8": {
+  "id": "qwen-wilde-soul-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d588643": {
+  "id": "qwen-wilde-soul-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d4d38c8": {
+  "id": "qwen-rousseau-inegalite-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "da93cf1": {
+  "id": "qwen-butler-erewhon-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d14cc53": {
+  "id": "qwen-wilde-soul-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d52a785": {
+  "id": "qwen-butler-erewhon-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d35c9e4": {
+  "id": "qwen-butler-erewhon-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d0bdc61": {
+  "id": "qwen-plato-phaedrus-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d57f4b8": {
+  "id": "qwen-irrelevant-white-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d2fcfc8": {
+  "id": "qwen-irrelevant-white-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "df9016e": {
+  "id": "qwen-butler-erewhon-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d5553b0": {
+  "id": "qwen-zhuangzi-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d256ab6": {
+  "id": "qwen-forster-machine-stops-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d2363f8": {
+  "id": "qwen-forster-machine-stops-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dc3f2e1": {
+  "id": "qwen-irrelevant-white-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d4190dd": {
+  "id": "qwen-zhuangzi-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "de90685": {
+  "id": "qwen-irrelevant-white-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d8b95bc": {
+  "id": "qwen-wilde-soul-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "daf7b58": {
+  "id": "qwen-forster-machine-stops-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "da9d8fd": {
+  "id": "qwen-butler-erewhon-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "dac5120": {
+  "id": "qwen-zhuangzi-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d304763": {
+  "id": "qwen-butler-erewhon-o1-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d5e002b": {
+  "id": "qwen-none-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "d98c6cc": {
+  "id": "qwen-irrelevant-white-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "dbb1139": {
+  "id": "qwen-irrelevant-white-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d9da59e": {
+  "id": "qwen-wilde-soul-o2-08",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d29bb3c": {
+  "id": "qwen-butler-erewhon-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d827c85": {
+  "id": "qwen-irrelevant-white-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "dcc1e7a": {
+  "id": "qwen-none-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d69d753": {
+  "id": "qwen-forster-machine-stops-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "da2c2b3": {
+  "id": "qwen-rousseau-inegalite-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d848406": {
+  "id": "qwen-irrelevant-white-o1-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "df5a4d8": {
+  "id": "qwen-none-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "daaa348": {
+  "id": "qwen-zhuangzi-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "ddb692d": {
+  "id": "qwen-forster-machine-stops-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d68f4a8": {
+  "id": "qwen-none-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "df15a91": {
+  "id": "qwen-none-o2-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 2
+ },
+ "de6e494": {
+  "id": "qwen-irrelevant-white-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d41306f": {
+  "id": "qwen-rousseau-inegalite-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d30e260": {
+  "id": "qwen-irrelevant-white-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d576c90": {
+  "id": "qwen-rousseau-inegalite-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d71293a": {
+  "id": "qwen-rousseau-inegalite-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d6de677": {
+  "id": "qwen-irrelevant-white-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d37f1ad": {
+  "id": "qwen-rousseau-inegalite-o1-03",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "da1d178": {
+  "id": "qwen-plato-phaedrus-o1-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "db22c94": {
+  "id": "qwen-rousseau-inegalite-o2-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d30399a": {
+  "id": "qwen-zhuangzi-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d6ccd8c": {
+  "id": "qwen-plato-phaedrus-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "df59ab1": {
+  "id": "qwen-plato-phaedrus-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "dfe475d": {
+  "id": "qwen-plato-phaedrus-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "da54d82": {
+  "id": "qwen-irrelevant-white-o2-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "df56bf7": {
+  "id": "qwen-plato-phaedrus-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d5a308f": {
+  "id": "qwen-rousseau-inegalite-o2-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "dadc209": {
+  "id": "qwen-butler-erewhon-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d7c7ae8": {
+  "id": "qwen-rousseau-inegalite-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "dddbaaa": {
+  "id": "qwen-butler-erewhon-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "dc60103": {
+  "id": "qwen-irrelevant-white-o1-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d92aa5a": {
+  "id": "qwen-forster-machine-stops-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d087206": {
+  "id": "qwen-wilde-soul-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d7c6126": {
+  "id": "qwen-forster-machine-stops-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d815864": {
+  "id": "qwen-none-o1-10",
+  "model": "qwen3.5-9b-instruct",
+  "set": "none",
+  "order": 1
+ },
+ "d172c1b": {
+  "id": "qwen-plato-phaedrus-o1-05",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "df841e5": {
+  "id": "qwen-zhuangzi-o2-02",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "df14f8d": {
+  "id": "qwen-zhuangzi-o2-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "df1a164": {
+  "id": "qwen-butler-erewhon-o1-09",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d9a5ef8": {
+  "id": "qwen-plato-phaedrus-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d3bdd34": {
+  "id": "qwen-irrelevant-white-o1-07",
+  "model": "qwen3.5-9b-instruct",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "df7bfe4": {
+  "id": "qwen-zhuangzi-o2-01",
+  "model": "qwen3.5-9b-instruct",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d76dc9a": {
+  "id": "qwen-rousseau-inegalite-o1-04",
+  "model": "qwen3.5-9b-instruct",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "dec2b8c": {
+  "id": "qwen-butler-erewhon-o2-06",
+  "model": "qwen3.5-9b-instruct",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d23e7fe": {
+  "id": "talkie-plato-phaedrus-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d21d4b3": {
+  "id": "talkie-wilde-soul-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "dac954e": {
+  "id": "talkie-butler-erewhon-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "df0f730": {
+  "id": "talkie-rousseau-inegalite-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d6e0de3": {
+  "id": "talkie-wilde-soul-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d469fe4": {
+  "id": "talkie-forster-machine-stops-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "da3ecc2": {
+  "id": "talkie-plato-phaedrus-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d2a5808": {
+  "id": "talkie-wilde-soul-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d657277": {
+  "id": "talkie-butler-erewhon-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "de3f7d9": {
+  "id": "talkie-plato-phaedrus-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "daa0e53": {
+  "id": "talkie-plato-phaedrus-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "ddcd59e": {
+  "id": "talkie-none-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d9b8315": {
+  "id": "talkie-zhuangzi-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "dc86d6a": {
+  "id": "talkie-none-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d0c129c": {
+  "id": "talkie-wilde-soul-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d732391": {
+  "id": "talkie-irrelevant-white-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "de4124e": {
+  "id": "talkie-forster-machine-stops-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d9bf555": {
+  "id": "talkie-zhuangzi-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d7ae51b": {
+  "id": "talkie-plato-phaedrus-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d238715": {
+  "id": "talkie-irrelevant-white-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "dc14eb0": {
+  "id": "talkie-forster-machine-stops-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "deb1ff1": {
+  "id": "talkie-irrelevant-white-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d79620a": {
+  "id": "talkie-wilde-soul-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d2a6681": {
+  "id": "talkie-irrelevant-white-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "dddfb0a": {
+  "id": "talkie-irrelevant-white-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d2de549": {
+  "id": "talkie-irrelevant-white-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "dbdd4fa": {
+  "id": "talkie-irrelevant-white-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d57d12f": {
+  "id": "talkie-forster-machine-stops-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d84d235": {
+  "id": "talkie-rousseau-inegalite-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "dd7305d": {
+  "id": "talkie-irrelevant-white-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d3850a7": {
+  "id": "talkie-butler-erewhon-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "dad8705": {
+  "id": "talkie-wilde-soul-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d9f9a3f": {
+  "id": "talkie-forster-machine-stops-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dcbbfb8": {
+  "id": "talkie-wilde-soul-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d0d46c7": {
+  "id": "talkie-plato-phaedrus-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "da29956": {
+  "id": "talkie-wilde-soul-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d5c273d": {
+  "id": "talkie-irrelevant-white-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d160207": {
+  "id": "talkie-forster-machine-stops-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d28cc4d": {
+  "id": "talkie-butler-erewhon-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d11bafb": {
+  "id": "talkie-rousseau-inegalite-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d3c932c": {
+  "id": "talkie-zhuangzi-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d305852": {
+  "id": "talkie-rousseau-inegalite-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "dccfd2a": {
+  "id": "talkie-rousseau-inegalite-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d3ffb70": {
+  "id": "talkie-wilde-soul-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "de8eb89": {
+  "id": "talkie-plato-phaedrus-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d9e49ce": {
+  "id": "talkie-butler-erewhon-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d85541d": {
+  "id": "talkie-none-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "df273c3": {
+  "id": "talkie-irrelevant-white-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d0d44e7": {
+  "id": "talkie-zhuangzi-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "df4cc90": {
+  "id": "talkie-none-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "de472d2": {
+  "id": "talkie-none-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d945b45": {
+  "id": "talkie-zhuangzi-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d30cd63": {
+  "id": "talkie-rousseau-inegalite-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d7b31df": {
+  "id": "talkie-rousseau-inegalite-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "da2642e": {
+  "id": "talkie-butler-erewhon-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "db8a5ba": {
+  "id": "talkie-wilde-soul-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "dcd4fd7": {
+  "id": "talkie-wilde-soul-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d2ae47a": {
+  "id": "talkie-butler-erewhon-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d0b9ef3": {
+  "id": "talkie-forster-machine-stops-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d13ba27": {
+  "id": "talkie-irrelevant-white-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d1b1743": {
+  "id": "talkie-forster-machine-stops-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d194278": {
+  "id": "talkie-irrelevant-white-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d7d4817": {
+  "id": "talkie-forster-machine-stops-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "df97338": {
+  "id": "talkie-plato-phaedrus-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d591506": {
+  "id": "talkie-none-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d62bdbd": {
+  "id": "talkie-plato-phaedrus-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d143d86": {
+  "id": "talkie-plato-phaedrus-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d1bb0d9": {
+  "id": "talkie-zhuangzi-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d6ee94e": {
+  "id": "talkie-none-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "d43745c": {
+  "id": "talkie-forster-machine-stops-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d62fa73": {
+  "id": "talkie-zhuangzi-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d476438": {
+  "id": "talkie-forster-machine-stops-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "dde3715": {
+  "id": "talkie-none-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "d7692ad": {
+  "id": "talkie-rousseau-inegalite-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d0e19b5": {
+  "id": "talkie-butler-erewhon-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d290676": {
+  "id": "talkie-zhuangzi-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "dc160e9": {
+  "id": "talkie-rousseau-inegalite-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d6786b3": {
+  "id": "talkie-plato-phaedrus-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "dd73162": {
+  "id": "talkie-plato-phaedrus-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d3bcef4": {
+  "id": "talkie-zhuangzi-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d70b7d4": {
+  "id": "talkie-butler-erewhon-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d60ecc9": {
+  "id": "talkie-plato-phaedrus-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "de8fbf3": {
+  "id": "talkie-butler-erewhon-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d1a6643": {
+  "id": "talkie-none-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "db02535": {
+  "id": "talkie-none-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "dd2fa4c": {
+  "id": "talkie-forster-machine-stops-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dd5c019": {
+  "id": "talkie-zhuangzi-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d6a6ede": {
+  "id": "talkie-rousseau-inegalite-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d2deb5f": {
+  "id": "talkie-plato-phaedrus-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d7b2ee5": {
+  "id": "talkie-rousseau-inegalite-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "dc11497": {
+  "id": "talkie-irrelevant-white-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d9e5a6a": {
+  "id": "talkie-forster-machine-stops-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dcbd339": {
+  "id": "talkie-irrelevant-white-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d5b34f0": {
+  "id": "talkie-rousseau-inegalite-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "de97894": {
+  "id": "talkie-rousseau-inegalite-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "df12423": {
+  "id": "talkie-forster-machine-stops-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "d624d1b": {
+  "id": "talkie-plato-phaedrus-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d22ea63": {
+  "id": "talkie-zhuangzi-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d8fa569": {
+  "id": "talkie-zhuangzi-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d1a912a": {
+  "id": "talkie-none-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "d3f4419": {
+  "id": "talkie-rousseau-inegalite-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "ddc9a02": {
+  "id": "talkie-plato-phaedrus-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d937632": {
+  "id": "talkie-wilde-soul-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "d7e624e": {
+  "id": "talkie-forster-machine-stops-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "db780fd": {
+  "id": "talkie-none-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d8bf1db": {
+  "id": "talkie-wilde-soul-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d9b803d": {
+  "id": "talkie-irrelevant-white-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "dcb6b6c": {
+  "id": "talkie-butler-erewhon-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d6cafc6": {
+  "id": "talkie-none-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "de0a496": {
+  "id": "talkie-zhuangzi-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d5946a7": {
+  "id": "talkie-none-o1-09",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "df21ea3": {
+  "id": "talkie-wilde-soul-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "dfdec58": {
+  "id": "talkie-wilde-soul-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d34791a": {
+  "id": "talkie-zhuangzi-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "dac8255": {
+  "id": "talkie-rousseau-inegalite-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d8993bd": {
+  "id": "talkie-plato-phaedrus-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 1
+ },
+ "d9ea9c9": {
+  "id": "talkie-wilde-soul-o2-02",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "de02c71": {
+  "id": "talkie-butler-erewhon-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d495556": {
+  "id": "talkie-rousseau-inegalite-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ },
+ "d71d3aa": {
+  "id": "talkie-wilde-soul-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d57ad00": {
+  "id": "talkie-none-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "d700a83": {
+  "id": "talkie-plato-phaedrus-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d3da949": {
+  "id": "talkie-forster-machine-stops-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "dde2a8a": {
+  "id": "talkie-zhuangzi-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "de3b640": {
+  "id": "talkie-butler-erewhon-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d3bfe58": {
+  "id": "talkie-irrelevant-white-o1-08",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "da3957f": {
+  "id": "talkie-wilde-soul-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "d5be2f1": {
+  "id": "talkie-none-o2-09",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "df223a8": {
+  "id": "talkie-irrelevant-white-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d03632d": {
+  "id": "talkie-irrelevant-white-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "d13a3c7": {
+  "id": "talkie-irrelevant-white-o1-06",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 1
+ },
+ "dbf511f": {
+  "id": "talkie-butler-erewhon-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "dcb7c8b": {
+  "id": "talkie-rousseau-inegalite-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d9db6db": {
+  "id": "talkie-plato-phaedrus-o2-05",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "dad9b0a": {
+  "id": "talkie-butler-erewhon-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d7325e4": {
+  "id": "talkie-zhuangzi-o1-04",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d5e75cd": {
+  "id": "talkie-butler-erewhon-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "de05b74": {
+  "id": "talkie-irrelevant-white-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "irrelevant-white",
+  "order": 2
+ },
+ "d97a0c3": {
+  "id": "talkie-wilde-soul-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 1
+ },
+ "de7d44d": {
+  "id": "talkie-butler-erewhon-o2-07",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "d5d163c": {
+  "id": "talkie-forster-machine-stops-o2-03",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d1de72d": {
+  "id": "talkie-butler-erewhon-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "df08dd8": {
+  "id": "talkie-rousseau-inegalite-o1-02",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d0cf6e0": {
+  "id": "talkie-plato-phaedrus-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "plato-phaedrus",
+  "order": 2
+ },
+ "d843229": {
+  "id": "talkie-forster-machine-stops-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "dc6b287": {
+  "id": "talkie-butler-erewhon-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 1
+ },
+ "d84b3af": {
+  "id": "talkie-wilde-soul-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "wilde-soul",
+  "order": 2
+ },
+ "df21133": {
+  "id": "talkie-none-o1-01",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "de48d53": {
+  "id": "talkie-none-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d650359": {
+  "id": "talkie-forster-machine-stops-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 2
+ },
+ "d8c17a3": {
+  "id": "talkie-none-o1-05",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 1
+ },
+ "d03ed8d": {
+  "id": "talkie-zhuangzi-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "d98155e": {
+  "id": "talkie-zhuangzi-o2-10",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d6a200e": {
+  "id": "talkie-butler-erewhon-o2-08",
+  "model": "talkie-1930-13b-base",
+  "set": "butler-erewhon",
+  "order": 2
+ },
+ "dd15a49": {
+  "id": "talkie-zhuangzi-o1-10",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 1
+ },
+ "db96a7f": {
+  "id": "talkie-none-o2-01",
+  "model": "talkie-1930-13b-base",
+  "set": "none",
+  "order": 2
+ },
+ "d008ad1": {
+  "id": "talkie-rousseau-inegalite-o1-07",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 1
+ },
+ "d9d940b": {
+  "id": "talkie-zhuangzi-o2-04",
+  "model": "talkie-1930-13b-base",
+  "set": "zhuangzi",
+  "order": 2
+ },
+ "d18f7e3": {
+  "id": "talkie-forster-machine-stops-o1-03",
+  "model": "talkie-1930-13b-base",
+  "set": "forster-machine-stops",
+  "order": 1
+ },
+ "dc40a5f": {
+  "id": "talkie-rousseau-inegalite-o2-06",
+  "model": "talkie-1930-13b-base",
+  "set": "rousseau-inegalite",
+  "order": 2
+ }
+}

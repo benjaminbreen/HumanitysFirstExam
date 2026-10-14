@@ -1,0 +1,12 @@
+{
+ "model": "text-embedding-3-small",
+ "corpora": [
+  {
+   "id": "canon",
+   "label": "Canon (accepted works, downloaded texts)",
+   "count": 48100,
+   "dims": 512,
+   "default": true
+  }
+ ]
+}

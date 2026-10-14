@@ -1,0 +1,134 @@
+[
+ {"aid": "paae63a", "position": "Does not weaken; machines are God's creation and man's role is to control them.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "that even those artificial objects which we commonly say are made by men, are only natural objects shaped and moved by men; and that, in the sense of creating, that is to say, of causing something to exist which did not exist in some other shape before, man can make nothing whatever."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "If, then, man by his power of mental energy converts the original and crude forces with which the earth is endowed into new forms, and by giving them new direction increases his power of production of the means of his own subsistence and enjoyment of life, _does it not follow that creation is a continuous procession in which man is a factor_?"},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pa3e121", "position": "Weakens; offloaded skills atrophy from disuse, like unexercised muscle.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p8759ab", "position": "Does not weaken; reliance is a good habit unless carried to excess.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "By a faulty logic, things which in excess are hurtful are denied a moderate use."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p30be40", "position": "Weakens; machine convenience replaces direct experience, atrophying senses, will, and relations.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "Families so circumstanced wear out their health and existence in unvarying labour--not requiring much immediate exertion of strength, it is true; but wearisome from its continued sameness, which gives no exercise whatever to the mind."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p2a38b7", "position": "Depends; machine-like dependent use weakens, mind-developing use does not.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "A mechanical condition would therefore be one wherein an individual acts without intelligence or volition, according to certain laws or habits coming to him from others; a mechanical state of society, one wherein the government moves on according to the will of one or more men, without thought, love, or even attention from the mass of the people, content only with their acquiescence."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "His mind is not tied down to the repetition of the same act, chipping a stone, straightening a wire, watching the whirling of a wheel, from the beginning of the year to the end, but almost each day brings a new set of thoughts with it."},
+   {"cid": "c8", "match": "related", "quote": "We therefore look for little or no cultivation of mind in those who lead lives of manual toil, and who, during the brief moments allowed for recreation, are so fatigued as to be incapable of sustained mental effort."}
+  ]},
+ {"aid": "p2a2c91", "position": "Weakens, via looping circular reasoning; no coherent reason given.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pc0085a", "position": "Depends; machines erode offloaded skills while augmenting others.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Our sense organs are thus indefinitely multiplied and extended by such extra-organic sense organs as the microscope, telescope, resonator, telephone, telegraph, thermometer, etc."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "It is probable that some of the hurry and absence of precision and of tenacious research which characterize the modern form of mind may be the natural result of the sudden rush of new discoveries which have taken us, as it were, by surprise and carried us off our feet."}
+  ]},
+ {"aid": "pf5b4bb", "position": "Does not weaken, strengthens; machines are means through which human intelligence operates.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "You spin by a steam-engine, and some complicated system of reels and pulleys, but the human finger is not spared--the human volition is still wanted."},
+   {"cid": "c2", "match": "related", "quote": "All he can do is to collect, concentrate and use, to the best advantage, the forces that exist."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "same", "quote": "The history of the arts, therefore, is that of man’s physical and intellectual progress."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "If, then, man by his power of mental energy converts the original and crude forces with which the earth is endowed into new forms, and by giving them new direction increases his power of production of the means of his own subsistence and enjoyment of life, _does it not follow that creation is a continuous procession in which man is a factor_?"}
+  ]},
+ {"aid": "p69653f", "position": "Depends; inventive capacity may shrink, but capacity to use machines grows.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pbb52df", "position": "Does not weaken; machines free cognition for higher-order work, as the printing press did.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "It is little to say this—yet this is something; for it is the first step toward making those who do govern the land, fit to govern it—namely, the people—toward enabling them to judge, unlike the constituents of best European representative governments, not of men only, but, mediately, of measures; toward giving them to judge and learn for themselves, from the actual progress of recorded events, daily occuring, something of the policy of foreign nations, something of the interest of their own country; lastly, toward rendering the permanent establishment of a falsehood, or the long suppression of the truth, an impossibility."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "Witness the relative progress of the last century as compared with all the previous centuries; then attempt to conceive what will be the condition of humanity a century hence, knowing, as we do, that the applications of science through mental energy now proceed in geometric progression, reversing the dogma of Malthus and leading to the concept of production unlimited, consumption limited."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pad61e1", "position": "Does not weaken; machines are neutral, the user's attitude decides the effect.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "And it is mind which enables the man not only to contrive, but to execute."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p7f6ed1", "position": "Weakens; machines consume time and strength needed to develop capacities.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "We may, by a diligent study, find out these causes, such as increase of outward knowledge, division of labor, a complexity of outward relations, and a consequent hurried life that leaves no time for thought; but a careful analysis of all these reduces them to one great cause--an undue attention to physical prosperity."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "This mechanical tendency has also an element which makes it worse than any corresponding state in former times, for these at least contained a faith which was positive, while ours is utterly negative; theirs sprang from want of mental power, ours from want of time."}
+  ]}
+]

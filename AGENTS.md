@@ -49,7 +49,7 @@ with Ben.
 | Each theme has a one-word name, shown in capitals and used as its URL, plus a question and a one- or two-sentence summary. The theme list itself is a draft. | Ben, 28 Sep 2026 |
 | Track the emotional valence of positions and answers (hope, fear, and so on). | Ben (from Roya), 28 Sep 2026 |
 | Period-attested answers that fall outside a key are the object of interest, not noise. A key or coding scheme must not encode the modern median. | Ben, 28 Sep 2026 |
-| The 216 works in `docs/proposals/2026-09-29-canon-candidates.md` (275 suggestions for the 40 candidate questions) are accepted as the working canon, selected by Ben. Medium-confidence details still need checking against the texts. | Ben, 29 Sep 2026 |
+| The 216 works in `docs/proposals/2026-09-29-canon-candidates.md` (275 suggestions for the 40 candidate questions) are accepted as the working canon, selected by Ben. Medium-confidence details still need checking against the texts. (They are 204 distinct works once titles listed twice are merged; `scripts/build_data.py`.) | Ben, 29 Sep 2026 |
 | Questions are open-ended. Forced choice is retired. | Ben, 13 Oct 2026 |
 | Each question is asked two ways: Defend (the model's own view) and Survey (the arguments people have made). Survey names no dates. Wording is in the working plan. | Ben, 13 Oct 2026 |
 | The position key starts from the canon (v0, frozen before model answers are read). Arguments found in model answers are added (v1) only when a period source states them. Results are reported against both. | Ben, 13 Oct 2026 |
@@ -89,7 +89,7 @@ Not decided. Leave these open in copy.
   `docs/proposals/2026-09-28-benchmark-method.md`, beyond the decisions
   above. Nathan has not yet reviewed the 13 Oct 2026 decisions.
 - **The corpora**: what counts as popular press, and the rules that admit
-  it. Additions to the canon beyond the 216 works.
+  it. Additions to the canon beyond the 204 accepted works.
 - **The modern baseline**: what counts as the present-day default.
 - **Base models**: likelihood scoring; modern base models beyond Talkie web.
 - **Judging thresholds**: how close Claude's agreement with the coders must

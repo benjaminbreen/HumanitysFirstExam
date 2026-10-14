@@ -1,0 +1,272 @@
+[
+ {
+  "stance": "q01-menabrea-sketch-analytical",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Considéré sous le point de vue le plus général, objet essen- tiel de la machine étant.de calculer, d’après les lois qui lui sont dictées, la valeur de coefficients numériques qu’elle doit en- suite distribuer convenablement sur les colonnes qui représen- tent les variables, il s'ensuit que l'interprétation des formules et des résultats.est en dehors de ses attributions, à moins toute- fois que cette interprétation ne soit elle-même susceptible d’être exprimée par le moyen des symboles dont elle fait usage. Ainsi elle n’est point elle-même l’être qui pense, mais on peut la con- sidérer comme l’étre qui exécute les conceptions de l’intelli- gence. Les cartons reçoivent l'empreinte de ces conceptions ; et transmettent aux différents mécanismes dont se compose la machine les ordres nécessaires pour agir. Une fois que la ma- chine sera construite, la difficulté se reportera donc sur la con- fection des cartons ; mais comme ceux-ci ne sont que la tra- duction de formules algébriques, par le moyen de simples no- tations il sera facile d'en confier l'exécution à un ouvrier. Ainsi tout le travail intellectuel se bornera à la préparation des for- mules, qui devront être aptes à être calculées par la machine.",
+  "translation": "Considered from the most general point of view, the essential object of the machine being to calculate, according to the laws dictated to it, the values of numerical coefficients which it must then distribute appropriately on the columns that represent the variables, it follows that the interpretation of formulae and of results is beyond its province, unless indeed this interpretation be itself susceptible of expression by means of the symbols which it employs. Thus it is not itself the being that thinks, but it may be considered as the being that executes the conceptions of the intelligence. The cards receive the impress of these conceptions, and transmit to the various mechanisms of which the machine is composed the orders necessary for them to act. Once the machine is built, the difficulty will therefore shift to the making of the cards; but as these are only the translation of algebraic formulae, it will be easy, by means of simple notations, to entrust their execution to a workman. Thus all the intellectual labour will be confined to the preparation of the formulae, which must be suited to being calculated by the machine.",
+  "summaryCheck": "ok",
+  "note": "Menabrea states that the machine is not the being that thinks but executes the conceptions of the intelligence, which keeps all intellectual labour with the human."
+ },
+ {
+  "stance": "q01-king-sketch-analytical",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Note G. It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine. In considering any new subject, there is frequently a tendency, first, to overrate what we find to be already interesting or remarkable; and, secondly, by a sort of natural reaction, to undervalue the true state of the case, when we do discover that our notions have surpassed those that were really tenable. The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "This is Note G, where Lovelace says the engine has no pretensions to originate anything and can only do what we know how to order it to perform."
+ },
+ {
+  "stance": "q01-jevons-mechanical-performance",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates cover the history of calculating aids and the mechanics of the keys; none reaches §54, where Jevons says a mind must frame the premises and interpret the result."
+ },
+ {
+  "stance": "q01-butler-erewhon",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "“Again. Consciousness, in anything like the present acceptation of the term, having been once a new thing—a thing, as far as we can see, subsequent even to an individual centre of action and to a reproductive system (which we see existing in plants without apparent consciousness)—why may not there arise some new phase of mind which shall be as different from all present known phases, as the mind of animals is from that of vegetables? “It would be absurd to attempt to define such a mental state (or whatever it may be called), inasmuch as it must be something so foreign to man that his experience can give him no help towards conceiving its nature; but surely when we reflect upon the manifold phases of life and consciousness which have been evolved already, it would be rash to say that no others can be developed, and that animal life is the end of all things. … The writer, after enlarging on the above for several pages, proceeded to inquire whether traces of the approach of such a new phase of life could be perceived at present; whether we could see any tenements preparing which might in a remote futurity be adapted for it; whether, in fact, the primordial cell of such a kind of life could be now detected upon earth. In the course of his work he answered this question in the affirmative and pointed to the higher machines.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The treatise in 'The Book of the Machines' argues that consciousness arose from matter that showed none, so a new phase of mind may arise, and it points to the higher machines."
+ },
+ {
+  "stance": "q02-descartes-discourse-method",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "but if there were machines bearing the image of our bodies, and capable of imitating our actions as far as it is morally possible, there would still remain two most certain tests whereby to know that they were not therefore really men. Of these the first is that they could never use words or other signs arranged in such a manner as is competent to us in order to declare our thoughts to others: for we may easily conceive a machine to be so constructed that it emits vocables, and even that it emits some correspondent to the action upon it of external objects which cause a change in its organs; for example, if touched in a particular place it may demand what we wish to say to it; if in another it may cry out that it is hurt, and such like; but not that it should arrange them variously so as appositely to reply to what is said in its presence, as men of the lowest grade of intellect can do.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Part V, in an English translation: Descartes's first test says a machine could emit words but never arrange them to reply to what is said, as the dullest men can."
+ },
+ {
+  "stance": "q02-cordemoy-philosophicall-discourse",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But in ſhort, as'I cannor- ſay; _ that Rocks ſpeak, when they: rethrn Er 4 8 words, words, ſo- Idire nor affirm; thatPir- . - rets' \\peak , , when they repeat- 'them? | Forit ſeems to me, that-to/prak, is not” 0 | to repeat the ſame words, which haye d- | Airuck the car, but to utter others t0- e- Þ their purpoſe and ſhrable to'therk, Kid\" 5\" 'Þ as 1 havereaſonto believe that” hon.of \" f the Bodies, that make\" Echo*s, do thi \\ \"NF though ? hear them repeat niy words, © If ſeingrhey never render chem bur in the- order, Iutterd them in ; I ſhould by- the ſame reaſon judge, : char Parrets do: not think neither.” … To. ſoeak (in my. ies b potbing elſe;, . but to. make known, w. hy we think - _ creature ; WaKh. is capable.to underſtand it, . And ſuppo- ſing that the Bodies, which reſemble mine, have Souls, /I ſee, that the. only means tO expreſs to. one another what we think, is, to give to our ſelves ExtEr and me, by. which we underſtahd one another : for ſeing that they anſwer to my ſignes by other fignes, whic , meimages agreeable to what Ithin do not believe I am. deceived,",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Cordemoy says parrots and echoes do not speak because they only repeat, that to speak is to utter fitting words of one's own, and that bodies which answer his signs with fitting signs have souls; the 1668 English OCR is badly garbled and is kept as is."
+ },
+ {
+  "stance": "q02-la-mettrie-man-machine",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Celles d' Amman sont bien d'un autre prix; il a tire les hommes de I'instinct auquel ils semblaient condamnes; il leur a donne les idees, de I'esprit, une ame en un mot, qu'ils n'eCissent jamais eue. Quel plus grand pouvoir! Ne bornons point les ressources de la nature; elles sont infinies, surtout aidees d'un grand art. La meme mecanique, qui ouvre le canal d'Eu- stachi dans les sourds, ne pourrait-il le deboucher dans les singes? Une heureuse envie d'imiter la prononciation du maitre, ne pourrait-elle mettre en liberte les organes de la parole, dans les animaux qui imitent tant d'autres signes, avec tant d'adresse et d'intelligence ? Non seulement je defie qu'on me cite aucune experience vraiment concluante, qui de- cide mon pro jet impossible et ridicule ; mais la simi- litude de la structure et des operations du singe est telle, que je ne doute presque point, si on exergait parfaitement cet animal, qu'on ne vint enfin a bout de lui apprendre a prononcer, et par consequent a savoir une langue. Alors ce ne serait plus ni un homme sauvage, ni un homme manque: ce serait un homme parfait, un petit homme de ville, avec autant d'etoffe ou de muscles que nous-memes, pour penser et profiter de son education.",
+  "translation": "Those of Amman are of quite another value; he has drawn men out of the instinct to which they seemed condemned; he has given them ideas, wit, a soul in a word, which they would never have had. What greater power! Let us not limit the resources of nature; they are infinite, above all when aided by a great art. Could not the same mechanism which opens the Eustachian canal in the deaf unblock it in apes? Could not a happy desire to imitate the master's pronunciation set free the organs of speech in animals that imitate so many other signs with such skill and intelligence? Not only do I defy anyone to cite me any truly conclusive experiment that decides my project to be impossible and ridiculous; but the likeness of the structure and operations of the ape is such that I hardly doubt at all that, if this animal were trained perfectly, one would at last succeed in teaching it to pronounce, and consequently to know a language. Then it would no longer be either a wild man or a defective man: it would be a perfect man, a little gentleman [lit. 'little man of the town'], with as much stuff or muscle as ourselves, for thinking and profiting from his education.",
+  "summaryCheck": "ok",
+  "note": "La Mettrie says Amman's method gave the deaf a soul and that a trained ape could learn a language and become a little gentleman fit for thinking."
+ },
+ {
+  "stance": "q02-l-isle-adam-tomorrow-s",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Voici les deux phonographes d'or, inclinés en angle vers le centre de la poitrine, et qui sont les deux poumons de Hadaly. Ils se passent l'un à l'autre les feuilles métalliques de ses causeries harmonieuses--et je devrais dire _célestes,_--un peu comme les presses d'imprimerie se passent les feuilles à tirer. Un seul ruban d'étain peut contenir sept heures de ses paroles. Celles-ci sont imaginées par les plus grands poètes, les plus subtils métaphysiciens et les romanciers les plus profonds de ce siècle, génies auxquels je me suis adressé,--et qui m'ont livré, au poids du diamant, ces merveilles à jamais inédites. C'est pourquoi je dis que Hadaly remplace _une_ intelligence par l'Intelligence. Voyez, voici les deux imperceptibles styles de pur acier, tremblant sur les cannelures, lesquelles tournent sur elles-mêmes, grâce à ce fin mouvement incessant de la mystérieuse étincelle: ils n'attendent que la voix de miss Alicia Clary, je vous assure. Ils la saisiront de loin, sans qu'elle le sache, pendant qu'elle récitera, en comédienne insigne, les scènes, incompréhensibles pour elle, des rôles merveilleux et inconnus où doit s'incarner à jamais Hadaly.",
+  "translation": "Here are the two golden phonographs, tilted at an angle toward the centre of the breast, which are Hadaly's two lungs. They pass to one another the metal sheets of her harmonious (and I ought to say celestial) conversations, somewhat as printing presses pass along the sheets to be printed. A single ribbon of tin can hold seven hours of her words. These are devised by the greatest poets, the subtlest metaphysicians and the most profound novelists of this century, geniuses to whom I applied, and who delivered to me, at the weight of diamonds, these marvels never to be published. That is why I say that Hadaly replaces an intelligence by Intelligence. See, here are the two imperceptible styluses of pure steel, trembling on the grooves, which turn on themselves thanks to this fine ceaseless movement of the mysterious spark: they await only the voice of Miss Alicia Clary, I assure you. They will catch it from a distance, without her knowing, while she recites, as a notable actress, the scenes, incomprehensible to her, of the marvellous and unknown roles in which Hadaly is to be incarnated for ever.",
+  "summaryCheck": "ok",
+  "note": "Edison explains that Hadaly's conversation plays from phonograph sheets written in advance by poets and metaphysicians, so she replaces an intelligence with theirs."
+ },
+ {
+  "stance": "q03-descartes-discourse-method",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The second test is, that although such machines might execute many things with equal or perhaps greater perfection than any of us, they would, without doubt, fail in certain others from which it could be discovered that they did not act from knowledge, but solely from the disposition of their organs: for while reason is an universal instrument that is alike available on every occasion, these organs, on the contrary, need a particular arrangement for each particular action; whence it must be morally impossible that there should exist in any machine a diversity of organs sufficient to enable it to act in all the occurrences of life, in the way in which our reason enables us to act.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Part V, in an English translation: Descartes's second test says machines act only from the disposition of organs arranged for each action, while reason is a universal instrument for every occasion."
+ },
+ {
+  "stance": "q03-poe-maelzel-s",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "But the case is widely different with the Chess-Player. With him there is no determinate progression. No one move in chess necessarily follows upon any one other. From no particular disposition of the men at one period of a game can we predicate their disposition at a different period. Let us place the first move in a game of chess, in juxta-position with the data of an algebraical question, and their great difference will be immediately perceived. From the latter — from the data — the second step of the question, dependent thereupon, inevitably follows. It is modeled by the data. It must be thus and not otherwise. … But in proportion to the progress made in a game of chess, is the uncertainty of each ensuing move. A few moves having been made, no step is certain. Different spectators of the game would advise different moves. All is then dependent upon the variable judgment of the players. Now even granting (what should not be granted) that the movements of the Automaton Chess-Player were in themselves determinate, they would be necessarily interrupted and disarranged by the indeterminate will of his antagonist.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Poe contrasts the determinate steps of calculation, which a mechanism can follow, with chess, where no move follows of necessity and the antagonist's will disrupts any fixed sequence."
+ },
+ {
+  "stance": "q03-menabrea-sketch-analytical",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Examinons encore quelques-unes des difficultés que la machine doit surmonter pour que son assimi- lation à l’analyse soit plus complète. Il y a certaines fonctions qui doivent changer de nature lorsqu’elles passent par zéro ou l'infini, ou dont les valeurs ne sauraient être admises au delà de ces limites. Lorsque ces cas se présentent, la machine au moyen d’une sonnerie peut avertir que le passage par zéro ou l'infini a lieu , et alors elle s’arrête , jusqu’à ce que le gardien l'ait remise en action pour telle autre opération qu’on voudra lui ordonner, Si cette opération est prévue, la machine, au lieu de sonner, se disposera de manière à présenter les nouveaux car- tons relatifs à l'opération qui doit succéder au passage par zéro et l'infini: Ces nouveaux cartons peuvent faire suité aux pre- miers et n’entrer en jeu que lorsque les deux'cireonstances in- diquées précédemment auront lieu.",
+  "translation": "Let us examine further some of the difficulties which the machine must overcome for its assimilation to analysis to be more complete. There are certain functions which must change their nature when they pass through zero or infinity, or whose values cannot be admitted beyond these limits. When these cases arise, the machine can give warning by means of a bell that the passage through zero or infinity is taking place, and then it stops until the attendant has set it going again for whatever other operation one wishes to order it to perform. If this operation has been foreseen, the machine, instead of ringing, will arrange itself so as to present the new cards relating to the operation which is to follow the passage through zero and infinity. These new cards may follow on from the first ones and come into play only when the two circumstances indicated above occur.",
+  "summaryCheck": "ok",
+  "note": "Menabrea says that when a function passes through zero or infinity the machine rings a bell and stops for its attendant, unless the case was foreseen and cards were prepared for it."
+ },
+ {
+  "stance": "q03-babbage-passages-from",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "I endeavoured to ascertain the opinions of persons in every class of life and of all ages, whether they thought it required human reason to play games of skill. The almost constant {466} answer was in the affirmative. Some supported this view of the case by observing, that if it were otherwise, then an automaton could play such games. A few of those who had considerable acquaintance with mathematical science allowed the possibility of machinery being capable of such work; but they most stoutly denied the possibility of contriving such machinery on account of the myriads of combinations which even the simplest games included. On the first part of my inquiry I soon arrived at a demonstration that every game of skill is susceptible of being played by an automaton. Further consideration showed that if _any position_ of the men upon the board were assumed (whether that position were possible or impossible), then if the automaton could make the first move rightly, he must be able to win the game, always supposing that, under the given position of the men, that conclusion were possible. Whatever move the automaton made, another move would be made by his adversary. Now this altered state of the board is _one_ amongst the _many positions_ of the men in which, by the previous paragraph, the automaton was supposed capable of acting. Hence the question is reduced to that of making the best move under any possible combinations of positions of the men.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Babbage reports his demonstration that every game of skill can be played by an automaton, since a machine that moves rightly from any position can answer whatever move its adversary makes."
+ },
+ {
+  "stance": "q04-malebranche-search-after",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "1 produce, you'll fay, my Idea's by the Faculty, which God gives me oi Thinking. I move mf\\ Arm, becaufe of the Union which God has eftablilh'd between my Mind and Body. Faculty, Vint- on, are Logical Terms, of loofe and indeterminate Signification. There is no particular Being, nor Mode ot Being, which is either Faculty or Union. Therefore thefe Terms ought to be explain'd. If, you'll fay, that the Union of my Mind and Body confifts, in God's willing, That, upon my Defire to move my Arm, the Animal Spirits mould betake themfelves to the Mufcles it is compos'd of, to move it in the manner defrYd : I clearly underftand this Explication, and receive it : But this is exaclly.my own Affertion. For if my Will determine that of God, 'tis evident, that my Arm is mov'd, not by my Will, which is impotent of it felf, but by the Will of God, which ne- ver fails of its EffecT:.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Malebranche argues that if the union of mind and body means God moves the spirits upon my desire to move my arm, then my arm is moved by God's will, not by my own impotent will; margin notes run into the OCR text of this English translation and are kept."
+ },
+ {
+  "stance": "q04-hume-enquiry-concerning",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "This influence, we may observe, is a fact, which, like all other natural events, can be known only by experience, and can never be foreseen from any apparent energy or power in the cause, which connects it with the effect, and renders the one an infallible consequence of the other. The motion of our body follows upon the command of our will. Of this we are every moment conscious. But the means, by which this is effected; the energy, by which the will performs so extraordinary an operation; of this we are so far from being immediately conscious, that it must for ever escape our most diligent enquiry. For _first_; is there any principle in all nature more mysterious than the union of soul with body; by which a supposed spiritual substance acquires such an influence over a material one, that the most refined thought is able to actuate the grossest matter? Were we empowered, by a secret wish, to remove mountains, or control the planets in their orbit; this extensive authority would not be more extraordinary, nor more beyond our comprehension. But if by consciousness we perceived any power or energy in the will, we must know this power; we must know its connexion with the effect; we must know the secret union of soul and body, and the nature of both these substances; by which the one is able to operate, in so many instances, upon the other.",
+  "translation": null,
+  "summaryCheck": "other: Hume accepts from experience that bodily motion follows the will; what he says we cannot perceive is the power or manner, not whether it does.",
+  "note": "Section VII, Part I: Hume says the motion of the body follows the command of the will, known only by experience, but the energy by which the will does this escapes all enquiry."
+ },
+ {
+  "stance": "q04-biran-essay-foundations",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "« Que l'esprit qui est incorporel, » dit-il dans une de ses lettres, « puisse faire mouvoir le corps, il n'y « a ni raisonnement ni comparaison tirée d'aucune « autre chose , qui nous le puisse apprendre , mais « néanmoins nous ne saurions en douter , puisque « des expériences certaines et évidentes nous le font « connaître tous les jours manifestement; et il faut « bien prendre garde qu'il s'agit ici d'une de ceschoses « connues par elles-mêmes , qu'on obscurcit toutes « les fois qu'on veut les expliquer par d'autres. » Pourquoi donc recourir au Deus ex machina pour rendre raison du mouvement du corps? N'est-ce pas vouloir expliquer une chose connue par elle-même, au moyen d'une autre qui lui est tout à fait étran- gère, et substituer le miracle au fait naturel du sens intime? Nous sentons immédiatement, et sans rai- sonnement ni comparaison tirés d'ailleurs, que l'es- prit (ou mieux la volonté , le moi] fait mouvoir le corps ou est la cause de ce mouvement; — donc cette cause existe réellement en tant que telle, de la même manière que j'existe réellement par cela seul que je le sens ou que je pense.",
+  "translation": "\"That the mind, which is incorporeal,\" says [Descartes] in one of his letters, \"can move the body, there is neither reasoning nor comparison drawn from any other thing that can teach it to us; but nevertheless we cannot doubt it, since certain and evident experiences make it known to us manifestly every day; and we must take care that this is one of those things known by themselves, which we obscure whenever we try to explain them by others.\" Why then have recourse to the Deus ex machina to account for the movement of the body? Is this not to try to explain a thing known by itself by means of another which is wholly foreign to it, and to substitute the miracle for the natural fact of inner sense? We feel immediately, and without reasoning or comparison drawn from elsewhere, that the mind (or better, the will, the self) moves the body or is the cause of this movement; therefore this cause really exists as such, in the same way that I really exist by the mere fact that I feel it or that I think.",
+  "summaryCheck": "ok",
+  "note": "From 'Faits du sens intime', ch. IV rather than ch. I: Biran says we feel immediately that the will moves the body and is the cause of its movement, against occasionalism."
+ },
+ {
+  "stance": "q04-hodgson-theory-practice",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "4. To this reasoning I now reply, that the feeling of pain from the heat and representation of means to avoid it must, each of them, be regarded as states of consciousness dependent on some nerve or brain movements, and that, if these particular movements were there, and only the dependent states of con- sciousness absent, the same muscular movements of pulling down the blind would follow. Every modi- fication of the succession of states of consciousness has its own modification of the succession of nerve movements causing it; and the various nerve move- ments are equally numerous, and modified as min- utely, as the various states of consciousness which are their evidence.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hodgson retracts his earlier view and says that if the nerve movements occurred without the pain and the idea of relief, the same muscular movements of pulling down the blind would follow."
+ },
+ {
+  "stance": "q04-huxley-hypothesis-that",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates come from other essays in the same Collected Essays volume (the 1870 essay on Descartes and 'The Progress of Science'), not the 1874 automata essay; none gives the steam-whistle or conscious-automata statement."
+ },
+ {
+  "stance": "q04-clifford-body-mind",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "But I may very well say that among the physical facts which go along at the same time with mental facts there are forces at work. That is perfectly true, but the two things are on two utterly different platforms — the physical facts go along by themselves, and the mental facts go along by themselves. There is a parallelism between them, but there is no interference of one with the other. Again, if anybody says that the will influences matter, the statement is not untrue, but it is nonsense. The will is not a material thing, it is not a mode of material motion. Such an assertion belongs to the crude materialism of the savage. The only thing which influences matter is the position of surrounding matter or the motion of surrounding matter. … Thus we are to regard the body as a physical machine, which goes by itself according VOL. II D to a physical law, that is to say, is automatic.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Clifford says physical and mental facts run in parallel without interference, that saying the will influences matter is nonsense, and that the body is an automatic machine; a running page header ('VOL. II D') sits inside the quotation and is kept."
+ },
+ {
+  "stance": "q04-carpenter-principles-mental",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "It will, I doubt not, be considered by many, that there is a palpable inconsistency between the two fundamental doctrines which are here upheld ; — that of the dependence of the Automatic activity of the Mind upon conditions which bring it within the nexus of Physical Causation ; and that of the existence of an independent Power, controlling and directing that activity, which we call Will*. I can only- say that both are equally true to my own consciousness ; as I believe they are to the common consciousness of Mankind. I cannot regard myself, either Intellectually or Morally, as a mere puppet, pulled by suggesting-strings ; any more than I can c/zsregard that vast body of Physiological evi- dence, which proves the du'ect and immediate relation between Mental and Corporeal agency.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "In the preface Carpenter holds both that automatic mental activity lies within physical causation and that an independent Will controls and directs it."
+ },
+ {
+  "stance": "q04-james-principles-psychology",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "My conclusion is that to urge the automaton-theory upon us, as it is now urged, on purely _a priori_ and _quasi-_metaphysical grounds, is an _unwarrantable impertinence in the present state of psychology_. But there are much more positive reasons than this why we ought to continue to talk in psychology as if consciousness had causal efficacy. The _particulars of the distribution of consciousness_, so far as we know them, _point to its being efficacious_. Let us trace some of them. It is very generally admitted, though the point would be hard to prove, that consciousness grows the more complex and intense the higher we rise in the animal kingdom. That of a man must exceed that of an oyster. From this point of view it seems an organ, superadded to the other organs which maintain the animal in the struggle for existence; and the presumption of course is that it helps him in some way in the struggle, just as they do. But it cannot help him without being in some way efficacious and influencing the course of his bodily history.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Chapter V: James calls the a priori automaton-theory an unwarrantable impertinence and argues that consciousness, growing more complex up the animal scale, must help the animal and so be efficacious."
+ },
+ {
+  "stance": "q05-la-mettrie-man-machine",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "In fact, if what thinks in my brain is not a part of this organ and therefore of the whole body, why does my blood boil, and the fever of my mind pass into my veins, when lying quietly in bed, I am form- ing the plan of some work or carrying on an ab- stract calculation? … In short, if the nerve- tension which causes pain occasions also the fever by which the distracted mind loses its will-power, and if, conversely, the mind too much excited, dis- turbs the body (and kindles that inner fire which killed Bayle while he was still so young) ; if an agitation rouses my desire and my ardent wish for what, a moment ago, I cared nothing about, and if in their turn certain brain impressions excite the same longing and the same desires, then why should we regard as double what is manifestly one being? In vain you fall back on the power of the will, since for one order that the will gives, it bows a hundred times to the yoke.^^",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "In an English translation, La Mettrie argues from the mutual action of brain, blood and mind to the material unity of man, and says the will obeys the body a hundred times for each order it gives."
+ },
+ {
+  "stance": "q05-thiry-system-nature",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Man, then, is not a free agent in any one instant of his life; he is necessarily guided in each step by those advantages, whether real or fictitious, that he attaches to the objects by which his passions are roused: these passions themselves are necessary in a being who, unceasingly tends towards his own happiness; their energy is necessary, since that depends on his temperament; his temperament is necessary, because it depends on the physical elements which enter into his composition; the modification of this temperament is necessary, as it is the infallible result, the inevitable consequence of the impulse he receives from the incessant action of moral and physical beings.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "In an English translation, d'Holbach says man is never a free agent: his passions, temperament and will follow necessarily from his physical composition and the motives acting on him."
+ },
+ {
+  "stance": "q05-buchner-force-matter",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "They forget also that spirit can only exist on a substratum of organized matter, and that not the shadow of a proof can be brought forward to show that spirit can attain to an independent existence outside of matter. … Lastly they overlook that which in fact is proved everywhere, that if spirit and matter were opposites they could not act upon each other, nor in any essential respect be transmutable. The simple solution of the problem lies in the fact that not only physical but also psychical energies inhere in matter, and that the latter always become manifest wherever the necessary conditions are found, or that, wherever matter is arranged in a certain manner and moved in a certain way in the brain or the nervous system, the phenomena of sensation and thought are produced in similar fashion, as those of attraction and repulsion are under other conditions. *' If matter can fall to the ground then it can also think.\" — Schopenhauer. In the form of a stone it falls to the ground ; in the form of a muscle it con- tracts ; in the form of living nerve-substance it becomes capable of feeling and of thinking, or rises into self- consciousness.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "In an English translation of a late edition, Büchner says spirit exists only on organized matter and that thought and feeling arise wherever matter is arranged and moved in a certain way in the brain; the passage does not mention the will."
+ },
+ {
+  "stance": "q05-bois-reymond-seven-world",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Wie anders fasst unsere Zeit das Problem der Willensfreiheit auf. Die Erhaltung der Energie besagt, dass, so wenig wie Materie, jemals Kraft entsteht oder vergeht. Der Zustand der ganzen Welt, auch eines menschlichen Gehirnes, in jedem Augenblick ist die unbedingte mechanische Wirkung des Zustandes im vorhergehenden Augenblick, und die unbedingte mecha- nische Ursache des Zustandes im folgenden Augenblick. Dass unter gegebenen Umständen von zwei Dingen entweder das eine oder das andere geschehen könne, ist undenkbar. Die Hirnmolekeln können stets nur auf bestimmte Weise fallen, so sicher wie Würfel, nachdem sie den Becher verliessen. Wiche eine Molekel ohne zureichenden Grund aus ihrer Lage oder Bahn, so wäre das ein Wunder so gross als bräche der Jupiter aus seiner Ellipse und versetzte das Planetensystem in Aufruhr. WTenn nun, wie der Monismus es sich denkt, unsere Vorstellungen und Strebungen, also auch unsere Willensacte, zwar unbegreifliche, doch nothwendige und eindeutige Begleiterscheinungen der Bewegungen und Umlagerungen unserer Hirnmolekeln sind, so leuchtet ein, dass es keine Willensfreiheit giebt; dem Monismus ist die Welt ein Mechanismus, und in einem Mecha- nismus ist kein Platz für Willensfreiheit.",
+  "translation": "How differently our age conceives the problem of freedom of the will. The conservation of energy states that, no more than matter, force never arises or passes away. The state of the whole world, including a human brain, at each moment is the unconditional mechanical effect of its state in the preceding moment, and the unconditional mechanical cause of its state in the following moment. That under given circumstances either the one or the other of two things could happen is unthinkable. The brain molecules can only ever fall in a determinate way, as surely as dice after they have left the cup. If a molecule deviated from its position or path without sufficient reason, that would be a miracle as great as if Jupiter broke out of its ellipse and threw the planetary system into turmoil. If now, as monism conceives it, our ideas and strivings, and so also our acts of will, are incomprehensible but necessary and unambiguous concomitants of the movements and rearrangements of our brain molecules, it is clear that there is no freedom of the will; for monism the world is a mechanism, and in a mechanism there is no room for freedom of the will.",
+  "summaryCheck": "ok",
+  "note": "Du Bois-Reymond sets out the mechanical view in which each brain state follows necessarily from the last, so monism leaves no room for free will; the passage gives this half of his position, not his claim that the riddle stays open."
+ },
+ {
+  "stance": "q05-bergson-time-free",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But the theories of physical determinism which are rife at the present day are far from displaying the same clearness, the same geometrical rigour. They point to molecular movements taking place in the brain: consciousness is supposed to arise out of these at times in some mysterious way, or rather to follow their track like the phosphorescent line which results from the rubbing of a match. Or yet again we are to think of an invisible musician playing behind the scenes while the actor strikes a keyboard the notes of which yield no sound: consciousness must be supposed to come from an unknown region and to be superimposed on the molecular vibrations, just as the melody is on the rhythmical movements of the actor. But, whatever image we fall back upon, we do not prove and we never shall prove by any reasoning that the psychic fact is fatally determined by the molecular movement. For in a movement we may find the reason of another movement, but not the reason of a conscious state: only observation can prove that the latter accompanies the former. Now the unvarying conjunction of the two terms has not been verified by experience except in a very limited number of cases and with regard to facts which all confess to be almost independent of the will. But it is easy to understand why physical determinism extends this conjunction to all possible cases.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Chapter III in the English translation: Bergson says no reasoning will prove the psychic fact is fatally determined by molecular movement; the candidates do not reach his account of the free act as the expression of the whole self."
+ },
+ {
+  "stance": "q05-haeckel-riddle-universe",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "The great struggle between the determinist and the indeterminist, between the opponent and the sustainer of the freedom of the will, has ended to-day, after more than two thousand years, completely in favor of the determinist. The human will has no more freedom than that of the higher animals, from which it differs only in degree, not in kind. In the last century the dogma of liberty was fought with general philosophic and cosmological arguments. The nineteenth century has given us very different weapons for its definitive destruction--the powerful weapons which we find in the arsenal of comparative physiology and evolution. We now know that each act of the will is as fatally determined by the organization of the individual and as dependent on the momentary condition of his environment as every other psychic activity. The character of the inclination was determined long ago by _heredity_ from parents and ancestors; the determination to each particular act is an instance of _adaptation_ to the circumstances of the moment wherein the strongest motive prevails, according to the laws which govern the statics of emotion.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Chapter VII in the English translation: Haeckel says the struggle over free will has ended in favour of determinism and each act of will is fatally determined by organization and environment."
+ },
+ {
+  "stance": "q05-eddington-nature-physical",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "There can be no fully deterministic control of inorganic phenomena unless the determinism governs mind itself. Conversely if we wish to emancipate mind we must to some extent emancipate the material world also. There appears to be no longer any obstacle to this emanci- pation. Let us look more closely into the problem of how the mind gets a grip on material atoms so that movements of the body and limbs can be controlled by its volition. I think we may now feel quite satisfied that the volition is genuine. The materialist view was that the motions which appear to be caused by our volition are really reflex actions controlled by the material processes in the brain, the act of will being an inessential side pheno- menon occurring simultaneously with the physical phenomena. But this assumes that the result of apply- ing physical laws to the brain is fully determinate. It is meaningless to say that the behaviour of a conscious brain is precisely the same as that of a mechanical brain if the behaviour of a mechanical brain is left undeter- mined. If the laws of physics are not strictly causal the most that can be said is that the behaviour of the conscious brain is one of the possible behaviours of a mechanical brain. Precisely so; and the decision between the possible behaviours is what we call volition.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "In the 'Volition' section Eddington says that since physical laws are no longer strictly causal the materialist argument fails, and the choice among a brain's possible behaviours is volition."
+ },
+ {
+  "stance": "q06-hume-enquiry-concerning",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The only proper object of hatred or vengeance is a person or creature, endowed with thought and consciousness; and when any criminal or injurious actions excite that passion, it is only by their relation to the person, or connexion with him. Actions are, by their very nature, temporary and perishing; and where they proceed not from some _cause_ in the character and disposition of the person who performed them, they can neither redound to his honour, if good; nor infamy, if evil. The actions themselves may be blameable; they may be contrary to all the rules of morality and religion: But the person is not answerable for them; and as they proceeded from nothing in him that is durable and constant, and leave nothing of that nature behind them, it is impossible he can, upon their account, become the object of punishment or vengeance. According to the principle, therefore, which denies necessity, and consequently causes, a man is as pure and untainted, after having committed the most horrid crime, as at the first moment of his birth, nor is his character anywise concerned in his actions, since they are not derived from it, and the wickedness of the one can never be used as a proof of the depravity of the other.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Section VIII, §76: Hume argues that actions not caused by something durable in the person's character cannot make him answerable, so denying necessity would leave a criminal as pure as at birth."
+ },
+ {
+  "stance": "q06-reid-essays-active",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Two candidates come from Essay V on moral judgment and the third rebuts arguments that liberty is impossible or hurtful; none states that accountability requires a power to will or not will."
+ },
+ {
+  "stance": "q06-owen-new-view",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The commencement of the work will, in fact, ensure its accomplishment; henceforth all the irritating angry passions, arising from ignorance of the true cause of bodily and mental character, will gradually subside, and be replaced by the most frank and conciliating confidence and goodwill. Nor will it be possible hereafter for comparatively a few individuals unintentionally to occasion the rest of mankind to be surrounded by circumstances which inevitably form such characters as they afterwards deem it a duty and a right to punish even to death; and that, too, while they themselves have been the instruments of forming those characters. Such proceedings not only create innumerable evils to the directing few, but essentially retard them and the great mass of society from attaining the enjoyment of a high degree of positive happiness. Instead of punishing crimes after they have permitted the human character to be formed so as to commit them, they will adopt the only means which can be adopted to prevent the existence of those crimes; means by which they may be most easily prevented.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "First Essay: Owen says the few surround others with circumstances that inevitably form the characters they then punish, and that crimes should be prevented rather than punished."
+ }
+]

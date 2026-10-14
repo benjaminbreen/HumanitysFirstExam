@@ -42,8 +42,9 @@ Rules
 
 - Ben and Nathan code independently and do not discuss items until both
   have finished all 60.
-- Neither opens Claude's coding (the password-sealed blocks on the site)
-  before finishing.
+- The 60 sampled stances are held back on the site's public pages until
+  both have finished (CHECK_RUNNING in src/lib/data.ts). Every other
+  stance is visible.
 - An entry can be revised before the comparison opens; every earlier
   version is kept with its time.
 - The comparison opens only when both have coded every item.

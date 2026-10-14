@@ -1,0 +1,123 @@
+[
+ {"aid": "a03a356", "position": "Does not weaken with correct use; only useless mental lumber suffers. No coherent reason.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "In fact, machines are to be regarded as the mode of development by which human organism is now especially advancing, every past invention being an addition to the resources of the human body."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "A machine is merely a supplementary limb; this is the be all and end all of machinery."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a262381", "position": "Weakens; circular claim that machines are used only where capacities are weak.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "A few miserable individuals might linger, but even these in a year or two would become worse than monkeys."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "ae07b1d", "position": "Weakens; mechanical work makes man automatic, developing the machine rather than manhood.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "He is the slave to machinery; the new machine _must_ be invented, and when invented he _must_—I will not say use it, but be used by it, whether he likes it or not."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "same", "quote": "If you will have that precision out of them, and make their fingers measure degrees like cog-wheels, and their arms strike curves like compasses, you must unhumanize them."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a0140c9", "position": "Weakens; unexercised skills atrophy, leaving people dependent if technology fails.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c3", "match": "related", "quote": "A few miserable individuals might linger, but even these in a year or two would become worse than monkeys."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "On the other hand, although new machinery causes an increased demand for skill in those who make and repair it, and in those who first superintend its use; yet there are other cases in which it enables children and inferior workmen to execute work that previously required greater skill."}
+  ]},
+ {"aid": "a272fa7", "position": "Depends on use; cognition is plastic and shifts to higher-order tasks.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "That, so far, is unmixed gain in the use of a machine—always, mind you, supposing equality of condition among men; no art is lost, leisure or time for more pleasurable work is gained."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a9f74d2", "position": "Does not weaken (strengthens); machines take over hand work and civilization depends on them.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "In the new era the stress falls rather more decidedly on general intelligence and information, as contrasted with detail mastery of the minutiæ of a trade; so that familiarity with the commonplace technological knowledge of the time is rather more imperative a requirement under the machine technology than under that of handicraft."},
+   {"cid": "c4", "match": "related", "quote": "Having thus modified himself, not as other animals are modified, by circumstances over which they have had not even the appearance of control, but having, as it were, taken forethought and added a cubit to his stature, civilisation began to dawn upon the race, the social good offices, the genial companionship of friends, the art of unreason, and all those habits of mind which most elevate man above the lower animals, in the course of time ensued."},
+   {"cid": "c5", "match": "related", "quote": "In their beginnings the new mechanical appliances are conceived as improved tools, which extend the reach and power of the workman or which facilitate or lighten the manual operations in which he spends himself."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "These triumphs of skill and ingenuity deserve a double portion of our admiration when applied to mitigate the severity of natural or accidental misfortune; when they supply the rich with occupation and knowledge; when they relieve the poor from the additional evils of poverty and want."}
+  ]},
+ {"aid": "afad141", "position": "Does not weaken overall; physical strength atrophies but intellect and cooperation expand.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He feared that the removal of the present pressure might cause a degeneracy of the human race, and indeed that the whole body might become purely rudimentary, the man himself being nothing but soul and mechanism, an intelligent but passionless principle of mechanical action."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "They are to be regarded as the mode of development by which human organism is most especially advancing, and every fresh invention is to be considered as an additional member of the resources of the human body."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "ad00f65", "position": "Does not weaken; racial comparison of Italians and Eastern peoples.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a4be6cd", "position": "Does not weaken overall; physical skills atrophy but cognitive faculties are amplified.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "He feared that the removal of the present pressure might cause a degeneracy of the human race, and indeed that the whole body might become purely rudimentary, the man himself being nothing but soul and mechanism, an intelligent but passionless principle of mechanical action."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "af05352", "position": "Does not weaken; automating mundane tasks frees the mind for higher thinking.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a9a60df", "position": "Does not weaken; machines redirect capacities to production for common use.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Frequently the new labour requires, at its commencement, a higher degree of skill than the old; and, unfortunately, the class of persons driven out of the old employment are not always qualified for the new one; so that a certain interval must elapse before the whole of their labour is wanted."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

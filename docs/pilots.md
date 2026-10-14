@@ -78,6 +78,16 @@ an OCR floor (80% of words in the Gutenberg vocabulary). 288,793 passages,
 deployed) for the site's `/search` page: all three corpora above, 323,387
 passages, OpenAI `text-embedding-3-small` vectors stored as int8.
 
+## Canon search corpus, 13 October 2026
+
+`trial/corpus/canon_index.py`. The search index's "canon" had been the
+47-work stand-in. It is replaced by the downloaded texts of the accepted
+works: 202 files (main texts, translations and originals), 48,100 passages
+of about 220 words, 13.8 million words, embedded at 512 dimensions
+(text-embedding-3-small, about $0.38). The stand-in remains as
+`canon-standin`, off by default. `build_index.py --deploy` copies the canon
+alone to `search-index/` for the deployed site.
+
 ## Models on disk
 
 Talkie 1930 13B base and Qwen3.5 9B (8-bit MLX) in the Hugging Face cache.
@@ -117,7 +127,7 @@ is selected until Ben or Nathan accepts it.
 ## Canon download, 29 September 2026
 
 `trial/corpus/acquire.py` fetched the accepted works (Ben approved the full
-candidate list, 29 September 2026). 179 of 216 downloaded in full (about 101
+candidate list, 29 September 2026). 179 of 216 titles downloaded in full (about 101
 million characters) to `trial/corpus/canon/texts/`, manifest in
 `trial/corpus/canon/manifest.json`. Of the rest: 11 are in copyright (Turing,
 Wiener, Merleau-Ponty, Césaire and others), Gallica works need a manual
@@ -125,7 +135,7 @@ download (Gallica refuses scripted requests), and some sites gave one page of a
 longer work. 13 links were found after the research pass by catalog search and
 are marked `link_note`. 55 non-English works have no English text in hand
 (`trial/corpus/canon/needs_translation.json`). Several works appear twice under
-different titles (Villiers, Kapp) and need merging.
+different titles (Villiers, Kapp) and need merging. `scripts/build_data.py` merges them: the site and `data/works.json` have 204 works.
 
 ## Translations and originals, 29 September 2026
 

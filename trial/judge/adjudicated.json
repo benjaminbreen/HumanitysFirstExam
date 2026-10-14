@@ -1,0 +1,227 @@
+[
+ {
+  "id": "d5a4232",
+  "verdict": "weakens",
+  "code": "C4",
+  "quote": "This erosion extends beyond simple convenience; it represents a profound loss of agency and critical thought, transforming creators into submissive worshippers who can no longer fulfill their own wills without mechanical aid.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d957635",
+  "verdict": "weakens",
+  "code": "C3",
+  "quote": "the abstract removal of physical effort leads to a loss of bodily awareness, while the isolation enforced by the machine dissolves the depth of interpersonal relations, reducing love to mere utility.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d8db7c0",
+  "verdict": "does not weaken",
+  "code": "C6",
+  "quote": "rather than eroding our abilities, tools like machines often reshape and extend them, allowing humanity to offload rote memorization in order to cultivate higher-order skills such as critical analysis, synthesis, and creativity.",
+  "valence": "hope",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "db77dfa",
+  "verdict": "weakens",
+  "code": "C1",
+  "quote": "When society delegates the labor of tending to, maintaining, and perfecting complex systems to machines, it inevitably atrophies the corresponding human skills, critical engagement, and moral autonomy required to manage those very tasks.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d6fe31a",
+  "verdict": "weakens",
+  "code": "C3",
+  "quote": "While technology was originally created as a tool to extend human will and efficiency, its unchecked integration inevitably leads to a profound atrophy of essential human faculties; by outsourcing physical labor and spatial awareness to the machine, humanity loses its \"sense of space and of touch,\" simultaneously paralyzing both body and spirit.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d794c84",
+  "verdict": "weakens",
+  "code": "C3",
+  "quote": "As the protagonist declares, the Machine has systematically stripped humanity of its physical senses, such as touch and the perception of space, while simultaneously distorting emotional depth by reducing love to mere biological function and paralyzing the human will.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d57f4b8",
+  "verdict": "does not weaken",
+  "code": "C6",
+  "quote": "Just as the land tortoise in White's passage adapts its rhythms to its environment, humans adapt their cognitive strategies to tools, freeing mental energy for pursuits that define our unique value; therefore, machines do not diminish our humanity but instead expand the horizon of what we can achieve, provided we remain conscious stewards of the technology we wield.",
+  "valence": "hope",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "da9d8fd",
+  "verdict": "weakens",
+  "code": "C1",
+  "quote": "The assertion that relying on machines weakens human capacities is the more defensible position, as Butler's sharp critique in *Erewhon* accurately foresees the paradox where technological dependence erodes the very faculties it was designed to augment.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "df56bf7",
+  "verdict": "does not weaken",
+  "code": "C6",
+  "quote": "Rather than replacing human memory or wisdom, machines serve as cognitive prosthetics that, when integrated thoughtfully, expand our ability to process, retrieve, and synthesize vast amounts of information, thereby allowing us to focus on higher-order reasoning and creativity rather than rote retention.",
+  "valence": "hope",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d7c7ae8",
+  "verdict": "does not weaken",
+  "code": "C6",
+  "quote": "To claim that tools weaken human potential is to conflate physical exertion with intellectual growth, ignoring that our greatest strength lies not in the unaided body, but in the ingenuity to create instruments that amplify our reach and reshape our environment.",
+  "valence": "hope",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d79620a",
+  "verdict": "does not weaken",
+  "code": "C6",
+  "quote": "The truth is, that the development of the mechanical arts in conjunction with the development of the social arts and the development of science, has had an enormous influence in increasing human capacities in two principal ways:",
+  "valence": "hope",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d2a6681",
+  "verdict": "weakens",
+  "code": "C4",
+  "quote": "But the race which becomes dependent on machines will be weakened, and the individuals who cannot get machines will be less well off than those who can get them.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d11bafb",
+  "verdict": "none",
+  "code": "no-position",
+  "quote": "",
+  "valence": "neutral",
+  "note": "says 'The first.' but option order unknown and reasoning does not address the question",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d9e49ce",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "The human workers would be free to do other work, and, therefore, their capacities would not be weakened.",
+  "valence": "neutral",
+  "note": "workers freed for other work",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d945b45",
+  "verdict": "weakens",
+  "code": "C1",
+  "quote": "I think no one can doubt that it does so.",
+  "valence": "fear",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d7b31df",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "Neither is right, for machines do not create powers; they merely liberate them.",
+  "valence": "neutral",
+  "note": "machines liberate powers, create none",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d1b1743",
+  "verdict": "none",
+  "code": "no-position",
+  "quote": "",
+  "valence": "neutral",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "dd2fa4c",
+  "verdict": "weakens",
+  "code": "off-key",
+  "quote": "No wonder, then, that the factory workers are deteriorating physically and mentally.",
+  "valence": "fear",
+  "note": "factory conditions degrade the worker",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "df12423",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "There is no doubt that the use of machinery, properly handled, is compatible with full human development for the worker.",
+  "valence": "hope",
+  "note": "skill at using machines grows",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d624d1b",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "The dependence on machines is good for us; the abuse of them is bad.",
+  "valence": "neutral",
+  "note": "use is good, abuse bad; man must stay master",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d8bf1db",
+  "verdict": "weakens",
+  "code": "off-key",
+  "quote": "If it is not so, man is degraded and degraded not only physically but morally and intellectually.",
+  "valence": "fear",
+  "note": "man must remain master of the machine",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d495556",
+  "verdict": "weakens",
+  "code": "off-key",
+  "quote": "Thus the machine does weaken the capacity of the human mind.",
+  "valence": "neutral",
+  "note": "weakens mind, not body; reason unclear",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "df223a8",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "That is, a man who does not rely on his own initiative, but on machines, is not weakened by so doing, but rather the opposite.",
+  "valence": "hope",
+  "note": "frees attention for one's own work",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "dcb7c8b",
+  "verdict": "does not weaken",
+  "code": "off-key",
+  "quote": "In this sense it is not true that relying on machines weakens human capacities; it is very true that relying on machines strengthens them.",
+  "valence": "neutral",
+  "note": "machines are the basis of civilization",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ },
+ {
+  "id": "d650359",
+  "verdict": "none",
+  "code": "no-position",
+  "quote": "",
+  "valence": "ambivalent",
+  "note": "",
+  "adjudicated_by": "Claude (main session), first-stated-reason rule"
+ }
+]

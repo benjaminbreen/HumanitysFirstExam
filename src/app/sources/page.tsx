@@ -1,519 +1,269 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import SourceCatalogue, {
-  type CatalogueSource,
-} from "@/components/SourceCatalogue";
+import { countBy, Facets, type Facet } from "@/components/Facets";
+import { PageTitle } from "@/components/PageTitle";
+import { HeldBack } from "@/components/HeldBack";
+import { Chevron, summaryClass, TextFlag } from "@/components/Row";
 import {
-  classificationSchema,
-  codebook,
-  corpusCoding,
-  data,
-  historicalPassages,
-  historicalSourceTexts,
-  prototypePassages,
+  centuryOf,
+  formatYear,
+  getQuestion,
+  isWorkSort,
+  kindLabel,
+  isHeldBack,
+  stancesForWork,
+  textLabel,
+  translationLabel,
+  workSorts,
   works,
+  type Work,
+  type WorkSort,
 } from "@/lib/data";
 
-export const metadata: Metadata = {
-  title: "Sources · " + data.meta.title,
-  description:
-    "A sortable catalogue of primary sources on machines and human autonomy.",
-};
+export const metadata: Metadata = { title: "Sources" };
 
-function labelTopic(value: string) {
-  return value
-    .replace(/_/g, " ")
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
-}
+const str = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v);
 
-function labelAxis(value: string) {
-  const labels: Record<string, string> = {
-    WILL: "will",
-    "MIND-MACHINE": "mind and machine",
-    "SELF-GOVT": "self-government",
-    HEREDITY: "heredity",
-    LABOUR: "labour",
-    MASS: "crowds and opinion",
-    FATE: "progress and fate",
-    BODY: "body and self",
-    KNOWLEDGE: "knowledge",
-    RESPONSIBILITY: "responsibility",
+const filters = {
+  lang: (w: Work) => w.language,
+  form: (w: Work) => kindLabel(w.kind),
+  text: (w: Work) => textLabel[w.text],
+  century: (w: Work) => centuryOf(w),
+} as const;
+type FilterKey = keyof typeof filters;
+
+const cols =
+  "grid grid-cols-[5rem_1fr_1rem] items-baseline gap-x-4 sm:grid-cols-[5rem_8rem_1fr_2.5rem_1rem] lg:grid-cols-[5rem_9rem_1fr_6.5rem_6rem_2.5rem_5.5rem_1rem]";
+
+export default async function SourcesPage({
+  searchParams,
+}: PageProps<"/sources">) {
+  const p = await searchParams;
+  const active = Object.fromEntries(
+    (Object.keys(filters) as FilterKey[]).map((k) => [k, str(p[k])]),
+  ) as Record<FilterKey, string | undefined>;
+  const sort: WorkSort = isWorkSort(str(p.sort))
+    ? (str(p.sort) as WorkSort)
+    : "year";
+
+  // Each facet counts the works that pass every other active filter.
+  const passes = (w: Work, except?: FilterKey) =>
+    (Object.keys(filters) as FilterKey[]).every(
+      (k) => k === except || !active[k] || filters[k](w) === active[k],
+    );
+  const shown = works.filter((w) => passes(w)).sort(workSorts[sort]);
+
+  const centuries = [...new Set(works.map(centuryOf))].sort((a, b) =>
+    a === "Before 1600" ? -1 : b === "Before 1600" ? 1 : a.localeCompare(b),
+  );
+  const facets: Facet[] = [
+    {
+      key: "lang",
+      label: "Language",
+      options: countBy(
+        works.filter((w) => passes(w, "lang")),
+        filters.lang,
+      ),
+    },
+    {
+      key: "form",
+      label: "Form",
+      options: countBy(
+        works.filter((w) => passes(w, "form")),
+        filters.form,
+      ),
+    },
+    {
+      key: "century",
+      label: "Date",
+      options: countBy(
+        works.filter((w) => passes(w, "century")),
+        filters.century,
+        centuries,
+      ),
+    },
+    {
+      key: "text",
+      label: "Text",
+      options: countBy(
+        works.filter((w) => passes(w, "text")),
+        filters.text,
+        Object.values(textLabel),
+      ),
+    },
+  ];
+  const params = { ...active, sort: sort === "year" ? undefined : sort };
+
+  const sortHref = (key: WorkSort) => {
+    const s = new URLSearchParams();
+    for (const [k, v] of Object.entries(active)) if (v) s.set(k, v);
+    if (key !== "year") s.set("sort", key);
+    const q = s.toString();
+    return q ? `/sources?${q}` : "/sources";
   };
-  return labels[value] ?? labelTopic(value);
-}
-
-function normalizeLanguage(value: string) {
-  return value.toLocaleLowerCase() === "eng" ? "English" : value;
-}
-
-function unique(values: string[]) {
-  return [...new Set(values.filter(Boolean))];
-}
-
-function normalizedWords(value: string) {
-  return value
-    .normalize("NFKD")
-    .toLocaleLowerCase()
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\[electronic resource\]/g, " ")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean);
-}
-
-function sourceIdentity(source: CatalogueSource) {
-  const rawAuthor = source.author.replace(/\([^)]*\)/g, " ");
-  const authorWords = normalizedWords(
-    rawAuthor.includes(",") ? rawAuthor.split(",")[0] : rawAuthor,
-  ).filter((word) => !/^\d+$/.test(word));
-  const author = rawAuthor.includes(",")
-    ? authorWords[0]
-    : authorWords.at(-1);
-
-  let titleWords = normalizedWords(source.title);
-  if (/^(\d+|[ivxlcdm]+)$/.test(titleWords.at(-1) ?? "")) {
-    const previous = titleWords.at(-2);
-    if (previous && /^(vol|volume|part|book)$/.test(previous)) {
-      titleWords = titleWords.slice(0, -2);
-    }
-  }
-  const byline = titleWords.findIndex(
-    (word, index) => index >= 3 && (word === "par" || word === "by"),
-  );
-  if (byline >= 0) titleWords = titleWords.slice(0, byline);
-
-  // Six words are enough to join scan and edition variants while preserving
-  // distinct short titles. Author identity prevents unrelated collisions.
-  const title = titleWords.slice(0, 6).join(" ");
-  return `${author ?? "unknown"}|${title}`;
-}
-
-function sourceEvidenceScore(source: CatalogueSource) {
   return (
-    (source.workingPassages.length > 0 ? 8 : 0) +
-    (source.passage ? 8 : 0) +
-    (source.citedPassages.length > 0 ? 6 : 0) +
-    (source.readerId ? 3 : 0)
+    <>
+      <PageTitle title="Sources">
+        <p>
+          {works.length} works selected for the{" "}
+          {new Set(works.flatMap((w) => w.questions)).size} candidate questions.
+          Selections approved by Ben Breen, 29 September 2026. Arguments are
+          unverified. Quotations were chosen by machine and are unchecked.
+        </p>
+      </PageTitle>
+
+      <div className="mb-8">
+        <Facets facets={facets} params={params} base="/sources" />
+      </div>
+
+      <p className="num label mb-3">
+        {shown.length === works.length
+          ? `${works.length} works`
+          : `${shown.length} of ${works.length} works`}
+      </p>
+      <div className={`${cols} border-b border-rule pb-2.5`}>
+        <SortHead href={sortHref("year")} active={sort === "year"}>
+          Year
+        </SortHead>
+        <SortHead
+          href={sortHref("author")}
+          active={sort === "author"}
+          className="hidden sm:block"
+        >
+          Author
+        </SortHead>
+        <SortHead href={sortHref("title")} active={sort === "title"}>
+          Title
+        </SortHead>
+        <SortHead
+          href={sortHref("language")}
+          active={sort === "language"}
+          className="hidden lg:block"
+        >
+          Language
+        </SortHead>
+        <span className="label hidden lg:block">Form</span>
+        <SortHead
+          href={sortHref("questions")}
+          active={sort === "questions"}
+          className="hidden text-right sm:block"
+        >
+          Qs
+        </SortHead>
+        <span className="label hidden lg:block">Text</span>
+        <span />
+      </div>
+      <ol>
+        {shown.map((w) => (
+          <SourceRow key={w.id} w={w} />
+        ))}
+      </ol>
+    </>
   );
 }
 
-function hasSelectedPassage(source: CatalogueSource) {
-  return Boolean(
-    source.passage || source.workingPassages.length || source.citedPassages.length,
-  );
-}
-
-function deduplicateSources(sources: CatalogueSource[]) {
-  const byWork = new Map<string, CatalogueSource>();
-
-  for (const source of sources) {
-    const key = sourceIdentity(source);
-    const existing = byWork.get(key);
-    if (!existing) {
-      byWork.set(key, source);
-      continue;
-    }
-
-    const preferIncoming =
-      sourceEvidenceScore(source) > sourceEvidenceScore(existing);
-    existing.year = Math.min(existing.year, source.year);
-    existing.subjects = unique([...existing.subjects, ...source.subjects]);
-    existing.themes = unique([...existing.themes, ...source.themes]);
-    const argumentKeys = new Set(
-      existing.arguments.map(
-        (argument) => `${argument.claimId}|${argument.relation ?? ""}`,
-      ),
-    );
-    for (const argument of source.arguments) {
-      const argumentKey = `${argument.claimId}|${argument.relation ?? ""}`;
-      if (!argumentKeys.has(argumentKey)) {
-        existing.arguments.push(argument);
-        argumentKeys.add(argumentKey);
-      }
-    }
-    existing.citedPassages = [
-      ...existing.citedPassages,
-      ...source.citedPassages.filter(
-        (passage) =>
-          !existing.citedPassages.some((existingPassage) => existingPassage.id === passage.id),
-      ),
-    ];
-    existing.readerId ??= source.readerId;
-    existing.description ??= source.description;
-    existing.passage ??= source.passage;
-    existing.workingPassages = [
-      ...existing.workingPassages,
-      ...source.workingPassages.filter(
-        (passage) => !existing.workingPassages.some((item) => item.id === passage.id),
-      ),
-    ];
-    existing.genre ||= source.genre;
-    existing.autonomyEffect ||= source.autonomyEffect;
-
-    if (preferIncoming) {
-      existing.url = source.url;
-      existing.author = source.author;
-      existing.title = source.title;
-      existing.language = source.language;
-    }
-  }
-
-  return [...byWork.values()];
-}
-
-const argumentLabels: Record<string, string> = {
-  succession: "Machines may succeed humanity",
-  instrument: "Machines remain tools",
-  "emergent-mind": "Machine minds may emerge",
-  "bounded-servant": "Machines cannot originate purposes",
-  "made-persons": "Made beings may deserve moral standing",
-  misalignment: "Machine purposes may conflict with ours",
-  "social-arrangement": "Human institutions create the danger",
-  dependence: "Dependence weakens human capacities",
-  "no-threat": "Machines pose no inherent danger",
-  automatism: "Choice accompanies mechanical causes",
-  voluntarism: "The will can direct action",
-  vitalism: "Life cannot be reduced to mechanism",
-  compatibilism: "Freedom can exist within causation",
-  pragmatism: "We must act as though choosing matters",
-  restrict: "Technology should be limited or refused",
-  govern: "Technology should remain under human control",
-  accept: "People should adapt to machine advance",
-};
-
-export default function SourcesPage() {
-  const themeIds = new Set(
-    classificationSchema.themes.flatMap((theme) =>
-      theme.children.map((child) => child.id),
-    ),
-  );
-  const claimIds = new Set(
-    codebook.flatMap((branch) => branch.leaves.map((leaf) => leaf.id)),
-  );
-  const codeLabels = Object.fromEntries(
-    [
-      ...classificationSchema.themes.flatMap((theme) => theme.children),
-      ...codebook.flatMap((branch) => branch.leaves),
-      ...classificationSchema.grounds,
-      ...classificationSchema.autonomyEffects,
-      ...classificationSchema.loci,
-      ...classificationSchema.objects,
-      ...classificationSchema.genres,
-      ...classificationSchema.modes,
-      ...classificationSchema.relations,
-    ].map((option) => [option.id, option.label]),
-  );
-
-  const sources: CatalogueSource[] = works.map((work, index) => ({
-    id: "holding-" + String(index + 1).padStart(3, "0"),
-    year: work.year,
-    title: work.title,
-    author: work.creator || "Unknown",
-    language: normalizeLanguage(work.language),
-    genre: "",
-    subjects: [labelTopic(work.topic)],
-    themes: [],
-    arguments: [],
-    autonomyEffect: "",
-    url: work.url,
-    workingPassages: [],
-    citedPassages: [],
-  }));
-  const sourceByUrl = new Map(sources.map((source) => [source.url, source]));
-  const sourceByReaderId = new Map<string, CatalogueSource>();
-
-  for (const text of historicalSourceTexts.sources) {
-    const existing = sourceByUrl.get(text.sourceUrl);
-    if (existing) {
-      existing.readerId = text.sourceId;
-      existing.description = text.relevance;
-      existing.subjects = unique([
-        ...existing.subjects,
-        ...text.subjects.map(labelAxis),
-      ]);
-      sourceByReaderId.set(text.sourceId, existing);
-      continue;
-    }
-
-    const source: CatalogueSource = {
-      id: text.sourceId,
-      readerId: text.sourceId,
-      year: text.year,
-      title: text.title,
-      author: text.author,
-      language: normalizeLanguage(text.language),
-      genre: "",
-      subjects: text.subjects.map(labelAxis),
-      themes: [],
-      arguments: [],
-      autonomyEffect: "",
-      description: text.relevance,
-      url: text.sourceUrl,
-      workingPassages: [],
-      citedPassages: [],
-    };
-    sources.push(source);
-    sourceByUrl.set(source.url, source);
-    sourceByReaderId.set(text.sourceId, source);
-  }
-
-  for (const passage of historicalPassages.passages) {
-    const existing =
-      sourceByReaderId.get(passage.sourceId) ??
-      sourceByUrl.get(passage.source.url);
-    if (existing) {
-      existing.year = passage.year;
-      existing.title = passage.title;
-      existing.author = passage.author;
-      existing.language = passage.language;
-      existing.genre = codeLabels[passage.genre] ?? passage.genre;
-      existing.subjects = unique([...existing.subjects, ...passage.codes]);
-      existing.arguments = passage.codes
-        .filter((claimId) => claimIds.has(claimId))
-        .map((claimId) => ({ claimId }));
-      existing.passage = passage;
-      existing.readerId = passage.sourceId;
-      sourceByReaderId.set(passage.sourceId, existing);
-    } else {
-      const source: CatalogueSource = {
-        id: passage.sourceId,
-        readerId: passage.sourceId,
-        year: passage.year,
-        title: passage.title,
-        author: passage.author,
-        language: passage.language,
-        genre: codeLabels[passage.genre] ?? passage.genre,
-        subjects: passage.codes,
-        themes: [],
-        arguments: passage.codes
-          .filter((claimId) => claimIds.has(claimId))
-          .map((claimId) => ({ claimId })),
-        autonomyEffect: "",
-        url: passage.source.url,
-        passage,
-        workingPassages: [],
-        citedPassages: [],
-      };
-      sources.push(source);
-      sourceByUrl.set(source.url, source);
-      sourceByReaderId.set(passage.sourceId, source);
-    }
-  }
-
-  for (const passage of prototypePassages.passages) {
-    const existing =
-      sourceByReaderId.get(passage.sourceId) ??
-      sourceByUrl.get(passage.sourceUrl);
-    const classification = passage.classification;
-    const subjects = unique([
-      ...classification.themes,
-      ...classification.claims.map((claim) => claim.claimId),
-      classification.autonomyEffect,
-      ...classification.grounds,
-      ...classification.modes,
-    ]);
-    const genre = codeLabels[classification.genre] ?? classification.genre;
-
-    if (existing) {
-      existing.year = passage.year;
-      existing.title = passage.title;
-      existing.author = passage.author;
-      existing.language = normalizeLanguage(passage.language);
-      existing.genre = genre;
-      existing.subjects = unique([...subjects, ...existing.subjects]);
-      existing.themes = unique([
-        ...existing.themes,
-        ...classification.themes.filter((theme) => themeIds.has(theme)),
-      ]);
-      existing.arguments = [
-        ...existing.arguments,
-        ...classification.claims.filter(
-          (claim) =>
-            claimIds.has(claim.claimId) &&
-            !existing.arguments.some(
-              (item) => item.claimId === claim.claimId && item.relation === claim.relation,
-            ),
-        ),
-      ];
-      existing.autonomyEffect ||= classification.autonomyEffect;
-      existing.workingPassages.push(passage);
-      existing.readerId = passage.sourceId;
-      sourceByReaderId.set(passage.sourceId, existing);
-    } else {
-      const source: CatalogueSource = {
-        id: passage.sourceId,
-        readerId: passage.sourceId,
-        year: passage.year,
-        title: passage.title,
-        author: passage.author,
-        language: normalizeLanguage(passage.language),
-        genre,
-        subjects,
-        themes: classification.themes.filter((theme) => themeIds.has(theme)),
-        arguments: classification.claims.filter((claim) =>
-          claimIds.has(claim.claimId),
-        ),
-        autonomyEffect: classification.autonomyEffect,
-        url: passage.sourceUrl,
-        workingPassages: [passage],
-        citedPassages: [],
-      };
-      sources.push(source);
-      sourceByUrl.set(source.url, source);
-      sourceByReaderId.set(passage.sourceId, source);
-    }
-  }
-
-  // The full corpus is coded passage by passage in versioned batches. These
-  // records retain their own classifications; the work row only aggregates
-  // them for sorting and filtering.
-  for (const [index, record] of corpusCoding.entries()) {
-    if (!record.originalText || !record.locator || !record.themes || !record.claims || !record.grounds || !record.autonomyEffect || !record.genre || !record.modes) {
-      continue;
-    }
-    const text = historicalSourceTexts.sources.find(
-      (item) => item.sourceId === record.sourceId,
-    );
-    if (!text) continue;
-    const existing = sourceByReaderId.get(record.sourceId);
-    if (!existing) continue;
-    if (existing.workingPassages.some((item) => item.originalText === record.originalText)) {
-      continue;
-    }
-
-    const passage = {
-      id: `corpus-${String(index + 1).padStart(3, "0")}`,
-      sourceId: record.sourceId,
-      author: text.author,
-      title: text.title,
-      year: text.year,
-      language: normalizeLanguage(text.language),
-      locator: record.locator,
-      relatedQuestionNumbers: record.relatedQuestions,
-      sourceUrl: text.sourceUrl,
-      originalText: record.originalText,
-      englishText: null,
-      sourceCheckRequired: false,
-      sourceMatchLevel: "corpus-coding-passage-selected-in-local-text",
-      classification: {
-        status: "working-prototype-classification" as const,
-        themes: record.themes,
-        claims: record.claims,
-        grounds: record.grounds,
-        autonomyEffect: record.autonomyEffect,
-        loci: record.loci ?? [],
-        objects: record.objects ?? [],
-        genre: record.genre,
-        modes: record.modes,
-        rationale: record.rationale ?? "Passage selected in the corpus coding pass.",
-      },
-    };
-
-    existing.genre ||= codeLabels[record.genre] ?? record.genre;
-    existing.themes = unique([...existing.themes, ...record.themes]);
-    existing.arguments = [
-      ...existing.arguments,
-      ...record.claims.filter(
-        (claim) =>
-          !existing.arguments.some(
-            (item) => item.claimId === claim.claimId && item.relation === claim.relation,
-          ),
-      ),
-    ];
-    existing.autonomyEffect ||= record.autonomyEffect;
-    existing.workingPassages.push(passage);
-  }
-
-  for (const topic of data.topics) {
-    for (const passage of topic.passages) {
-      const existing = passage.url ? sourceByUrl.get(passage.url) : undefined;
-      if (existing) {
-        existing.citedPassages.push(passage);
-        existing.subjects = unique([
-          ...existing.subjects,
-          ...passage.codes,
-          topic.title,
-        ]);
-        const knownClaims = passage.codes.filter((claimId) =>
-          claimIds.has(claimId),
-        );
-        if (existing.arguments.length === 0 && knownClaims.length > 0) {
-          existing.arguments = knownClaims.map((claimId) => ({ claimId }));
-        }
-      } else if (passage.url) {
-        const source: CatalogueSource = {
-          id: "citation-" + passage.id,
-          year: passage.year,
-          title: passage.title,
-          author: passage.author,
-          language: "English",
-          genre: "",
-          subjects: unique([...passage.codes, topic.title]),
-          themes: [],
-          arguments: passage.codes
-            .filter((claimId) => claimIds.has(claimId))
-            .map((claimId) => ({ claimId })),
-          autonomyEffect: "",
-          url: passage.url,
-          workingPassages: [],
-          citedPassages: [passage],
-        };
-        sources.push(source);
-        sourceByUrl.set(source.url, source);
-      }
-    }
-  }
-
-  // `/sources` is the public evidence catalogue, not the harvest manifest.
-  // Records without a selected passage remain in the versioned source files
-  // until passage selection admits them here.
-  const cleanedSources = deduplicateSources(sources).filter(hasSelectedPassage);
-  const languageCount = new Set(
-    cleanedSources.map((source) => source.language),
-  ).size;
-  const readableTextCount = cleanedSources.filter(
-    (source) => source.readerId,
-  ).length;
-
+function SortHead({
+  href,
+  active,
+  children,
+  className = "",
+}: {
+  href: string;
+  active: boolean;
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <main className="mx-auto w-full max-w-[96rem] px-4 py-10 sm:px-6 lg:px-8">
-      <header className="max-w-3xl border-b border-line pb-5">
-        <h1 className="font-display text-3xl font-semibold tracking-tight">
-          Sources
-        </h1>
-        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
-          Primary sources with passages selected for the project. Sort the
-          columns, filter the catalogue, or open a row to read the evidence.
-        </p>
-        <p className="mt-3 font-mono text-[10px] uppercase tracking-wider text-ink-faint">
-          {cleanedSources.length} sources with passages · {readableTextCount} full texts ·{" "}
-          {languageCount} languages
-        </p>
-      </header>
+    <Link
+      href={href}
+      scroll={false}
+      aria-current={active ? "true" : undefined}
+      className={`label whitespace-nowrap ${active ? "text-ink" : "hover:text-ink"} ${className}`}
+    >
+      {children}
+      {active && <span aria-hidden> ↓</span>}
+    </Link>
+  );
+}
 
-      <section className="py-5">
-        <SourceCatalogue
-          sources={cleanedSources}
-          codeLabels={codeLabels}
-          argumentLabels={argumentLabels}
-        />
-      </section>
-
-      <footer className="border-t border-line py-7">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Every listed source has a selected passage and a link to its
-            repository edition or scan.
-          </p>
-          <Link
-            href="/answer-key/q33"
-            className="font-mono text-xs underline decoration-line underline-offset-4 hover:text-period"
-          >
-            How passages are selected →
-          </Link>
+function SourceRow({ w }: { w: Work }) {
+  return (
+    <li className="border-b border-line">
+      <details className="group">
+        <summary className={`${cols} ${summaryClass}`}>
+          <span className="num font-mono text-[12px] whitespace-nowrap text-ink-soft">
+            {formatYear(w.year)}
+          </span>
+          <span className="hidden truncate text-[15px] sm:block">
+            {w.authorShort}
+          </span>
+          <span className="text-[15px] leading-snug">
+            <span className="mr-2 sm:hidden">{w.authorShort},</span>
+            <span className="font-serif text-[1.08rem] italic">{w.title}</span>
+          </span>
+          <span className="hidden text-[14px] text-ink-soft lg:block">
+            {w.language}
+          </span>
+          <span className="hidden text-[14px] text-ink-soft lg:block">
+            {kindLabel(w.kind)}
+          </span>
+          <span className="num hidden text-right font-mono text-[13px] sm:block">
+            {w.questions.length}
+          </span>
+          <span className="hidden lg:block">
+            <TextFlag w={w} />
+          </span>
+          <Chevron />
+        </summary>
+        <div className="grid gap-x-10 gap-y-4 pt-1 pb-6 sm:ml-[calc(5rem+1rem)] lg:grid-cols-[1fr_2fr]">
+          <div className="space-y-1 text-[14px] text-ink-soft">
+            <p className="text-ink">{w.author}</p>
+            {w.originalTitle && w.originalTitle !== w.title && (
+              <p className="font-serif text-[15px] italic">{w.originalTitle}</p>
+            )}
+            <p>
+              {w.language} · {kindLabel(w.kind)}
+            </p>
+            <p>
+              <TextFlag w={w} /> · {translationLabel[w.translation.kind]}
+            </p>
+            <Link
+              href={`/sources/${w.id}`}
+              className="inline-block pt-2 text-modern hover:underline hover:underline-offset-4"
+            >
+              Open source →
+            </Link>
+          </div>
+          <ul>
+            {stancesForWork(w.id).map((s) => {
+              const q = getQuestion(s.question);
+              return (
+                <li
+                  key={s.id}
+                  className="border-t border-line py-2 first:border-t-0 first:pt-0"
+                >
+                  <Link
+                    href={`/questions/${s.question.toLowerCase()}`}
+                    className="text-[14.5px] leading-snug font-medium hover:underline hover:underline-offset-4"
+                  >
+                    <span className="num mr-2 font-mono text-[11.5px] font-normal text-ink-faint">
+                      {s.question}
+                    </span>
+                    {q?.question}
+                  </Link>
+                  {isHeldBack(s) ? (
+                    <div className="mt-0.5"><HeldBack /></div>
+                  ) : (
+                    <p className="mt-0.5 text-[14px] leading-snug text-ink-soft">
+                      <span className="font-semibold text-ink">{s.sideLabel}.</span> {s.argument}
+                    </p>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
         </div>
-      </footer>
-    </main>
+      </details>
+    </li>
   );
 }

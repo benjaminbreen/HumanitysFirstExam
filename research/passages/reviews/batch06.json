@@ -1,0 +1,290 @@
+[
+ {
+  "stance": "q25-babbage-economy-machinery",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Although, therefore, the use of machinery has at first a tendency to throw labour out of employment, yet the increased demand consequent upon the reduced price, almost immediately absorbs a considerable portion of that labour, and perhaps, in some cases, the whole of what would otherwise have been displaced. That the effect of a new machine is to diminish the labour required for the production of the same quantity of manufactured commodities may be clearly perceived, by imagining a society, in which occupations are not divided, each man himself manufacturing all the articles he consumes. Supposing each individual to labour during ten hours daily, one of which is devoted to making shoes, it is evident that if any tool or machine be introduced, by the use of which his shoes can be made in half the usual time, then each member of the community will enjoy the same comforts as before by only nine and one-half hours' labour.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Babbage's self-supplying society example and his claim that displaced labour is soon reabsorbed, as the summary says."
+ },
+ {
+  "stance": "q25-thoreau-walden",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The very simplicity and nakedness of man’s life in the primitive ages imply this advantage at least, that they left him still but a sojourner in nature. When he was refreshed with food and sleep he contemplated his journey again. He dwelt, as it were, in a tent in this world, and was either threading the valleys, or crossing the plains, or climbing the mountain tops. But lo! men have become the tools of their tools. The man who independently plucked the fruits when he was hungry is become a farmer; and he who stood under a tree for shelter, a housekeeper. We now no longer camp as for a night, but have settled down on earth and forgotten heaven. We have adopted Christianity merely as an improved method of _agri_-culture. We have built for this world a family mansion, and for the next a family tomb. The best works of art are the expression of man’s struggle to free himself from this condition, but the effect of our art is merely to make this low state comfortable and that higher state to be forgotten.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Contains the 'tools of their tools' sentence and the contrast between self-provision and settled dependence."
+ },
+ {
+  "stance": "q25-butler-erewhon",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "This is all very well. But the servant glides by imperceptible approaches into the master; and we have come to such a pass that, even now, man must suffer terribly on ceasing to benefit the machines. If all machines were to be annihilated at one moment, so that not a knife nor lever nor rag of clothing nor anything whatsoever were left to man but his bare body alone that he was born with, and if all knowledge of mechanical laws were taken from him so that he could make no more machines, and all machine-made food destroyed so that the race of man should be left as it were naked upon a desert island, we should become extinct in six weeks. A few miserable individuals might linger, but even these in a year or two would become worse than monkeys. Man’s very soul is due to the machines; it is a machine-made thing: he thinks as he thinks, and feels as he feels, through the work that machines have wrought upon him, and their existence is quite as much a _sine quâ non_ for his, as his for theirs. This fact precludes us from proposing the complete annihilation of machinery, but surely it indicates that we should destroy as many of them as we can possibly dispense with, lest they should tyrannise over us even more completely.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Erewhonian treatise states that man would become extinct in six weeks if all machines vanished."
+ },
+ {
+  "stance": "q25-wilde-soul-man",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "All work of that kind should be done by a machine. And I have no doubt that it will be so. Up to the present, man has been, to a certain extent, the slave of machinery, and there is something tragic in the fact that as soon as man had invented a machine to do his work he began to starve. This, however, is, of course, the result of our property system and our system of competition. One man owns a machine which does the work of five hundred men. Five hundred men are, in consequence, thrown out of employment, and, having no work to do, become hungry and take to thieving. The one man secures the produce of the machine and keeps it, and has five hundred times as much as he should have, and probably, which is of much more importance, a great deal more than he really wants. Were that machine the property of all, every one would benefit by it. It would be an immense advantage to the community. All unintellectual labour, all monotonous, dull labour, all labour that deals with dreadful things, and involves unpleasant conditions, must be done by machinery. Machinery must work for us in coal mines, and do all sanitary services, and be the stoker of steamers, and clean the streets, and run messages on wet days, and do anything that is tedious or distressing. At present machinery competes against man. Under proper conditions machinery will serve man.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Wilde says machinery starves men only under private ownership and will serve man under proper conditions."
+ },
+ {
+  "stance": "q25-kropotkin-fields-factories",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Nations, too, refuse to be specialised. Each nation is a compound aggregate of tastes and inclinations, of wants and resources, of capacities and inventive powers. The territory occupied by each nation is in its turn a most varied texture of soils and climates, of hills and valleys, of slopes leading to a still greater variety of territories and races. Variety is the distinctive feature, both of the territory and its inhabitants; and that variety implies a variety of occupations. Agriculture calls manufactures into existence, and manufactures support agriculture. Both are inseparable; and the combination, the integration of both brings about the grandest results. In proportion as technical knowledge becomes everybody’s virtual domain, in proportion as it becomes international, and can be concealed no longer, each nation acquires the possibility of applying the whole variety of her energies to the whole variety of industrial and agricultural pursuits. Knowledge ignores artificial political boundaries. So also do the industries; and the present tendency of humanity is to have the greatest possible variety of industries gathered in each country, in each separate region, side by side with agriculture.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kropotkin argues that as technical knowledge spreads each nation and region can gather a variety of industries alongside agriculture."
+ },
+ {
+  "stance": "q25-forster-machine-stops",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Then she broke down, for with the cessation of activity came an unexpected terror--silence. She had never known silence, and the coming of it nearly killed her--it did kill many thousands of people outright. Ever since her birth she had been surrounded by the steady hum. It was to the ear what artificial air was to the lungs, and agonizing pains shot across her head. And scarcely knowing what she did, she stumbled forward and pressed the unfamiliar button, the one that opened the door of her cell. Now the door of the cell worked on a simple hinge of its own. It was not connected with the central power station, dying far away in France. It opened, rousing immoderate hopes in Vashti, for she thought that the Machine had been mended. It opened, and she saw the dim tunnel that curved far away towards freedom. One look, and then she shrank back. For the tunnel was full of people--she was almost the last in that city to have taken alarm. People at any time repelled her, and these were nightmares from her worst dreams. People were crawling about, people were screaming, whimpering, gasping for breath, touching each other, vanishing in the dark, and ever and anon being pushed off the platform on to the live rail. Some were fighting round the electric bells, trying to summon trains which could not be summoned. Others were yelling for Euthanasia or for respirators, or blaspheming the Machine.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails."
+ },
+ {
+  "stance": "q25-gandhi-hind-swaraj",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "EDITOR: By raising this question, you have opened the wound I had received. When I read Mr. Dutt's Economic History of India I wept; and, as I think of it, again my heart sickens. It is machinery that has impoverished India. It is difficult to measure the harm that Manchester has done to us. It is due to Manchester that Indian handicraft has all but disappeared. But I make a mistake. How can Manchester be blamed? We wore Manchester cloth, and that is why Manchester wove it. I was delighted when I read about the bravery of Bengal. There are no cloth-mills in that Presidency. They were, therefore, able to restore the original hand-weaving occupation. It is true Bengal encourages the mill-industry of Bombay. If Bengal had proclaimed a boycott of _all_ machine-made goods, it would have been much better. Machinery has begun to desolate Europe. Ruination is now knocking at the English gates. Machinery is the chief symbol of modern civilization; it represents a great sin. The workers in the mills of Bombay have become slaves. The condition of the women working in the mills is shocking. When there were no mills, these women were not starving. If the machinery craze grows in our country, it will become an unhappy land.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Editor blames machinery for India's impoverishment and the loss of hand industry and praises Bengal's return to hand-weaving; the candidate is Gandhi's English translation, so no separate translation is given."
+ },
+ {
+  "stance": "q26-shelley-frankenstein-modern",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But she was innocent. I know, I feel she was innocent; you are of the same opinion, and that confirms me. Alas! Victor, when falsehood can look so like the truth, who can assure themselves of certain happiness? I feel as if I were walking on the edge of a precipice, towards which thousands are crowding and endeavouring to plunge me into the abyss. William and Justine were assassinated, and the murderer escapes; he walks about the world free, and perhaps respected. But even if I were condemned to suffer on the scaffold for the same crimes, I would not change places with such a wretch.” I listened to this discourse with the extremest agony. I, not in deed, but in effect, was the true murderer.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Elizabeth laments the innocent Justine's death and Victor answers that he, not in deed but in effect, was the true murderer."
+ },
+ {
+  "stance": "q26-wells-world-set",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "He turned his head and looked up over the back of the seat at the great hotels above him, full of softly shaded lights and the glow and colour and stir of feasting. Might his gift to mankind mean simply more of that? . . . He got up and walked out of the garden, surveyed a passing tram-car, laden with warm light, against the deep blues of evening, dripping and trailing long skirts of shining reflection; he crossed the Embankment and stood for a time watching the dark river and turning ever and again to the lit buildings and bridges. His mind began to scheme conceivable replacements of all those clustering arrangements.... ‘It has begun,’ he writes in the diary in which these things are recorded. ‘It is not for me to reach out to consequences I cannot foresee. I am a part, not a whole; I am a little instrument in the armoury of Change. If I were to burn all these papers, before a score of years had passed, some other man would be doing this.",
+  "translation": null,
+  "summaryCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
+  "note": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences."
+ },
+ {
+  "stance": "q26-capek-krakatit",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates show Prokop's delirium, his new laboratory, and a rhapsodic speech about releasing energy; none contains the closing advice to give up great things or any statement of the inventor's responsibility."
+ },
+ {
+  "stance": "q26-russell-icarus-future",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Mr. Haldane’s Daedalus has set forth an attractive picture of the future as it may become through the use of scientific discoveries to promote human happiness. Much as I should like to agree with his forecast, a long experience of statesmen and governments has made me somewhat sceptical. I am compelled to fear that science will be used to promote the power of dominant groups, rather than to make men happy. Icarus, having been taught to fly by his father Daedalus, was destroyed by his rashness.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The only candidate is the book's opening, where Russell fears science will serve the power of dominant groups rather than human happiness; the closing section named in the summary is not among the candidates."
+ },
+ {
+  "stance": "q26-haldane-daedalus-science",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But Minos held that a labyrinth and an annual provi¬ sion of 50 youths and 50 virgins were excessive as an endowment for re¬ search, and in order to escape from his ruthless economies Daedalus was forced to invent the art of flying. Minos pursued him to Sicily and was slain there. Save for his valuable invention of glue, little else is known of Daedalus. But it is most significant that, although he was responsible for the death of Zeus’ son Minos he was neither smitten by a thunderbolt, chained to a rock, nor pursued by furies. Still less did any of the rather numerous visitors to Hades discover him either in Elysium or Tartarus. We can hardly imagine him as a member of the throng of shades who besieged Charon’s ferry like sheep at a gap. He was the first to demonstrate that the scientific worker is not concerned with gods.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane notes that Daedalus caused Minos's death yet was never punished, and concludes that the scientific worker is not concerned with gods."
+ },
+ {
+  "stance": "q27-bacon-new-atlantis",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Lastly, we have three that raise the former discoveries by experiments into greater observations, axioms, and aphorisms. These we call Interpreters of Nature. \"We have also, as you must think, novices and apprentices, that the succession of the former employed men do not fail; besides, a great number of servants and attendants, men and women. And this we do also: we have consultations, which of the inventions and experiences which we have discovered shall be published, and which not: and take all an oath of secrecy, for the concealing of those which we think fit to keep secret: though some of those we do reveal sometimes to the state and some not.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Father of Salomon's House describes the consultations on which inventions to publish and the oath of secrecy, with some revealed to the state."
+ },
+ {
+  "stance": "q27-ure-philosophy-manufactures",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The introduction of new machines into any manufac- ture, with the effect of superseding hand labour, is tempered by the system of patents, which maintains them for a certain time at a monopoly price, and thereby obstructs their rapid multiplication. Did we admit the principles on which the use of particular self-acting mechanisms is objected to by workmen, we should not be able, in any case, to define the limits of their application. Had parliament acted on such prin- ciples sixty years ago, none of our manufactures could have attained to their present state of profitable employ- ment to either masters or men. The immediate causes of their vast augmentation may be ascribed, under the blessing of Providence, to the general spirit of industry and enterprize among a free and an enlightened people, left to the unrestrained exercise of their talents in the employment of a vast capital, pushing to the utmost the principle of the analysis of labour, summoning to their service all the resources of scientific research and mechanical ingenuity ;",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Ure argues that admitting the workmen's objections to self-acting machines would leave no limit to restriction, and that parliament acting on them would have stunted all manufactures."
+ },
+ {
+  "stance": "q27-butler-darwin-among-3",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Day by day, however, the machines are gaining ground upon us ; day by day we are becoming more subservient to them ; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life. The upshot is simply a question of time, but that the time will come when the machines will hold the real supremacy over the world and its inhabitants is what no person of a truly philosophic mind can for a moment question. Our opinion is that war to the death should be instantly proclaimed against them. Every machine of every sort should be destroyed by the well-wisher of his species. Let there be no exceptions made, no quarter shown ; let us at once go back to the primeval condition of the race. If it be urged that this is impossible under the present condition of human affairs, this at once proves that the mischief is already done, that our servitude has commenced in good earnest, that we have raised a race of beings whom it is beyond our power to destroy, and that we are not only enslaved but are absolutely acquiescent in our bondage.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Cellarius predicts machine supremacy and calls for war to the death and the destruction of every machine."
+ },
+ {
+  "stance": "q27-zhuangzi-zhuangzi-chuang",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "There he saw an old man engaged in making a ditch to connect his vegetable garden with a well. He had a pitcher in his hand, with which he was bringing up water and pouring it into the ditch,--great labour with very little result. \"If you had a machine here,\" cried Tzŭ Kung, \"in a day you could irrigate a hundred times your present area. The labour required is trifling as compared with the work done. Would you not like to have one?\" \"It is a contrivance made of wood,\" replied Tzŭ Kung, \"heavy behind and light in front. It draws up water as you do with your hands, but in a constantly overflowing stream. It is called a well-sweep.\" Thereupon the gardener flushed up and said, \"I have heard from my teacher that those who have cunning implements are cunning in their dealings, and that those who are cunning in their dealings have cunning in their hearts, and that those who have cunning in their hearts cannot be pure and incorrupt, and that those who are not pure and incorrupt are restless in spirit, and that those who are restless in spirit are not fit vehicles for TAO. It is not that I do not know of these things. I should be ashamed to use them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The gardener refuses the well-sweep because cunning implements make cunning hearts unfit for Tao; the text is Giles's English translation, and the gardener's question between Tzu Kung's two speeches is missing from the source text."
+ },
+ {
+  "stance": "q27-conference-declaration-concerning",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The Undersigned, Plenipotentiaries of the Powers represented at the International Peace Conference at The Hague, duly authorized to that effect by their Governments, Inspired by the sentiments which found expression in the Declaration of St. Petersburg of the 29th November (11th December), 1868 , The Contracting Powers agree to abstain from the use of projectiles the object of which is the diffusion of asphyxiating or deleterious gases. The present Declaration is only binding on the Contracting Powers in the case of a war between two or more of them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The operative clause of the declaration; the candidate is the Avalon Project's English text, not the French original, so no separate translation is given."
+ },
+ {
+  "stance": "q27-haldane-callinicus-defence",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Chemical warfare had been so far foreseen by statesmen that in 1907 the signatories of the Hague Conference agreed to renounce the use of projectiles the sole object of which was the diffusion of asphyxiating or harmful gases. They were thus debarred from using lachry- matory gas, the most humane weapon ever invented ; but permitted to dis- charge gas from cylinders on the ground, an exceedingly cruel practice. This regulation was well meant, but the path to August, 1914, was paved with good intentions. In 1914 none of the great powers had made any preparation for poison-gas warfare, and it was not till April 22nd, 1915, more than eight months after the beginning of the war, that the Germans began its use.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane calls tear gas the most humane weapon ever invented and says the Hague gas-projectile ban was well meant but misguided; he dates the ban to 1907."
+ },
+ {
+  "stance": "q28-descartes-discourse-method",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "And we ought not to confound speech with the natural movements which indicate the passions, and can be imitated by machines as well as manifested by animals; nor must it be thought with certain of the ancients, that the brutes speak, although we do not understand their language. For if such were the case, since they are endowed with many organs analogous to ours, they could as easily communicate their thoughts to us as to their fellows. It is also very worthy of remark, that, though there are many animals which manifest more industry than we in certain of their actions, the same animals are yet observed to show none at all in many others: so that the circumstance that they do better than we does not prove that they are endowed with mind, for it would thence follow that they possessed greater reason than any of us, and could surpass us in all things; on the contrary, it rather proves that they are destitute of reason, and that it is nature which acts in them according to the disposition of their organs: thus it is seen, that a clock composed only of wheels and weights can number the hours and measure time more exactly than we with all our skin.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Descartes argues that animals' skill proves they lack reason and that nature acts in them by the disposition of their organs, like a clock; the candidate is an English translation, so no separate translation is given."
+ },
+ {
+  "stance": "q28-voltaire-philosophical-dictionary",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Bring the same judgment to bear on this dog which has lost its master, which has sought him on every road with sorrowful cries, which enters the house agitated, uneasy, which goes down the stairs, up the stairs, from room to room, which at last finds in his study the master it loves, and which shows him its joy by its cries of delight, by its leaps, by its caresses. Barbarians seize this dog, which in friendship surpasses man so prodigiously; they nail it on a table, and they dissect it alive in order to show the mesenteric veins. You discover in it all the same organs of feeling that are in yourself. Answer me, machinist, has nature arranged all the means of feeling in this animal, so that it may not feel? has it nerves in order to be impassible? Do not suppose this impertinent contradiction in nature.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Voltaire describes a dog dissected alive and asks the 'machinist' whether nature gave it organs of feeling so that it should not feel; the candidate is an English translation."
+ },
+ {
+  "stance": "q28-bentham-introduction-principles",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates are from Chapter II on the principle of sympathy and antipathy and from the index; none contains the Chapter XVII footnote on whether animals can suffer."
+ },
+ {
+  "stance": "q28-shelley-frankenstein-modern",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Be calm! I entreat you to hear me before you give vent to your hatred on my devoted head. Have I not suffered enough, that you seek to increase my misery? Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it. Remember, thou hast made me more powerful than thyself; my height is superior to thine, my joints more supple. But I will not be tempted to set myself in opposition to thee. I am thy creature, and I will be even mild and docile to my natural lord and king if thou wilt also perform thy part, the which thou owest me. Oh, Frankenstein, be not equitable to every other and trample upon me alone, to whom thy justice, and even thy clemency and affection, is most due. Remember that I am thy creature; I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed. Everywhere I see bliss, from which I alone am irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The creature asks his maker to hear him, invokes the duties owed to a creature, and says misery made him a fiend."
+ },
+ {
+  "stance": "q28-huxley-hypothesis-that",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Two candidates quote and gloss Descartes's automaton passages and the third is from Huxley's essay on natural rights; none contains Huxley's own conclusion that animals probably feel and should be treated as weaker brethren."
+ },
+ {
+  "stance": "q28-salt-animals-rights",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "On the other side, the humanitarian contention is quite clear--that there is no difference _in kind_ between man and the other animals, nor any warrant in science or ethics for drawing between them, as between “persons” and “things,” an absolute line of demarcation. Compelled to admit that the difference is only one of degree, Mr. Ritchie sought to evade the significance of this fact by arguing that it does not follow that, if men have rights, animals also have rights “in the same sense of the term.” I maintain that it _does_ so follow. If by the recognition of rights we mean that man, as a sentient and intelligent being, should be exempt from all avoidable suffering, it follows that other beings who are also sentient and intelligent, though in a lower degree, should have, in a lower degree, the same exemption.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Salt argues that if sentient men have a right to exemption from avoidable suffering, animals have it in a lower degree."
+ },
+ {
+  "stance": "q28-capek-r-u",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "HELENA. Perhaps it’s just a sign that there’s a struggle within. Perhaps it’s a sort of revolt. Oh, if you could infuse them with it. DOMIN. That’ll be remedied, Miss Glory. Doctor Gall is just making some experiments. DR. GALL. Not with regard to that, Domin. At present I am making _pain_ nerves. DR. GALL. Yes, the Robots feel practically no bodily pain. You see, young Rossum provided them with too limited a _nervous_ system. We _must_ introduce _suffering_. HELENA. Why do you want to cause them pain? DR. GALL. For industrial reasons, Miss Glory. Sometimes a Robot does damage to himself because it doesn’t hurt him. He puts his hand into the machine-- (_Describes with gesture_) --breaks his finger-- (_Describes with gesture_) --smashes his head. It’s all the same to him. We must provide them with _pain_. That’s an automatic _protection_ against damage. HELENA. Will they be happier when they feel pain? DR. GALL. On the contrary; but they will be more perfect from a technical point of view. HELENA. Why don’t you create a soul for them? BUSMAN. That would increase the cost of production.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Dr Gall introduces pain nerves only as automatic protection against damage and says the Robots will not be happier, only more perfect technically, while Helena asks why they are not given a soul; the candidate is an English acting version, not the Czech original."
+ },
+ {
+  "stance": "q29-hobbes-leviathan",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Dominion is acquired two wayes; By Generation, and by Conquest. The right of Dominion by Generation, is that, which the Parent hath over his Children; and is called PATERNALL. And is not so derived from the Generation, as if therefore the Parent had Dominion over his Child because he begat him; but from the Childs Consent, either expresse, or by other sufficient arguments declared. For as to the Generation, God hath ordained to man a helper; and there be alwayes two that are equally Parents: the Dominion therefore over the Child, should belong equally to both; and he be equally subject to both, which is impossible; for no man can obey two Masters.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hobbes states that paternal dominion derives from the child's consent, not from having begotten it."
+ },
+ {
+  "stance": "q29-filmer-patriarcha-natural",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "(8.) It may ſeem abſurd] to maintain that Kings now are the Fathers of their People, ſince Experience (hews the con- trary. Tt is true, all Kings be not the Natural Parents of their Subjects, yet they all either are, or are to be reputed the next Heirs to thoſe firſt Progenitors, * Who were at firſt the Natural Parents of the whole People, and in their Right ſucceed to the Exerciſe of Supreme Ju- riſdiFion ; and ſuch Heirs are not only Lords of their own Children, but alſo were ſubject to their Fathers: And there- fore we find, that God told Cain of his Brother Abel, His Deſires ſhail be ſubje& unto thee, and thou ſhalt rile over him. Accordingly, when Jacob baught his Brother's Birth-right, Iſaac bleſſed him thus, Be Lord over thy Brethren, and let the Sons of thy Mother bow before thee. As long as the firſt Fathers of Fami- lies lived, the name of Patriarchs did aptly belong unto them; but after a few Deſcents, when the true Father- / hodd it ſelf was extin&, and only the | Right of the Father deſcends to the true Heir, then the Title of Prizce or King was more Significant , to expreſs the Power -of him who ſucceeds only to the Right of that Fatherhood which his Anceſtors did Naturally enjoy;",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Filmer grounds kingly jurisdiction in the natural fatherhood of the first progenitors, whose right descends to their heirs; the candidates do not mention a power of life and death."
+ },
+ {
+  "stance": "q29-locke-second-treatise",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Sect. 55. Children, I confess, are not born in this full state of equality, though they are born to it. Their parents have a sort of rule and jurisdiction over them, when they come into the world, and for some time after; but it is but a temporary one. The bonds of this subjection are like the swaddling clothes they are wrapt up in, and supported by, in the weakness of their infancy: age and reason as they grow up, loosen them, till at length they drop quite off, and leave a man at his own free disposal. Sect. 56. Adam was created a perfect man, his body and mind in full possession of their strength and reason, and so was capable, from the first instant of his being to provide for his own support and preservation, and govern his actions according to the dictates of the law of reason which God had implanted in him. From him the world is peopled with his descendants, who are all born infants, weak and helpless, without knowledge or understanding: but to supply the defects of this imperfect state, till the improvement of growth and age hath removed them, Adam and Eve, and after them all parents were, by the law of nature, under an obligation to preserve, nourish, and educate the children they had begotten; not as their own workmanship, but the workmanship of their own maker, the Almighty, to whom they were to be accountable for them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Locke says parents' rule is temporary and that children are the workmanship of the Almighty, not of the parents who begot them; the §6 passage on men as God's property is not among the candidates."
+ },
+ {
+  "stance": "q29-aristotle-politics",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "As in all arts which are brought to perfection it is necessary that they should have their proper instruments if they would complete their works, so is it in the art of managing a family: now of instruments some of them are alive, others inanimate; thus with respect to the pilot of the ship, the tiller is without life, the sailor is alive; for a servant is as an instrument in many arts. Thus property is as an instrument to living; an estate is a multitude of instruments; so a slave is an animated instrument, but every one that can minister of himself is more valuable than any other instrument; for if every instrument, at command, or from a preconception of its master's will, could accomplish its work (as the story goes of the statues of Daedalus; or what the poet tells us of the tripods of Vulcan, \"that they moved of their own accord into the assembly of the gods \"), the shuttle would then weave, and the lyre play of itself; nor would the architect want servants, or the [1254a] master slaves.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Aristotle calls the slave an animated instrument and says that if instruments worked of themselves, like the statues of Daedalus, masters would not need slaves; the candidate is Ellis's English translation."
+ },
+ {
+  "stance": "q29-shelley-frankenstein-modern",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Yet you, my creator, detest and spurn me, thy creature, to whom thou art bound by ties only dissoluble by the annihilation of one of us. You purpose to kill me. How dare you sport thus with life? Do your duty towards me, and I will do mine towards you and the rest of mankind. … I am thy creature, and I will be even mild and docile to my natural lord and king if thou wilt also perform thy part, the which thou owest me. Oh, Frankenstein, be not equitable to every other and trample upon me alone, to whom thy justice, and even thy clemency and affection, is most due. Remember that I am thy creature; I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The creature tells Victor he is bound to his creature, demands that he do his duty, and says 'I ought to be thy Adam'; Victor's line on the duties of a creator is not in the candidates."
+ },
+ {
+  "stance": "q29-l-isle-adam-tomorrow-s",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "--Ami, dit celui-ci pendant que l'Andréïde, comme revenue à elle-même, demeurait immobile, Halady est un présent qu'un demi-dieu seul pourrait offrir. Jamais dans les bazars de Bagdad ni de Cordoue, pareille esclave ne fut montrée aux califes! Jamais enchanteur ne suscita pareille vision! Jamais Shéhérazade n'eût osé l'imaginer dans ses _Mille et une Nuits,_ de peur d'éveiller le doute dans l'esprit du sultan Schariar. Aucun trésor ne pourrait acheter ce chef-d'oeuvre. Si, d'abord, il m'a transporté d'un mouvement de colère, l'admiration m'a vaincu. --Je serais un insensé, vraiment, si je refusais! --QUITTES!--dit Edison, gravement, et en lui tendant les mains, que lord Ewald pressa de même.",
+  "translation": "--Friend, said the latter, while the Andreid, as if come back to herself, remained motionless, Halady [sic] is a gift that only a demigod could offer. Never in the bazaars of Baghdad or of Cordoba was such a slave shown to the caliphs! Never did an enchanter call up such a vision! Never would Scheherazade have dared to imagine her in her _Thousand and One Nights_, for fear of awakening doubt in the mind of the sultan Schariar. No treasure could buy this masterpiece. If at first it carried me away in a movement of anger, admiration has overcome me. --I would be a madman, truly, if I refused! --QUITS!--said Edison, gravely, holding out his hands to him, which Lord Ewald pressed in the same way.",
+  "summaryCheck": "ok",
+  "note": "Lord Ewald accepts Hadaly as a gift only a demigod could offer, compares her to a slave shown to caliphs, and Edison declares them quits."
+ },
+ {
+  "stance": "q29-capek-r-u",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "In fact he _rejected man_ and made the _Robot_. My dear Miss Glory, the Robots are not people. Mechanically they are more _perfect_ than we are; they have an enormously developed intelligence, but they have no soul. (_Leans back._) HELENA. How do you know they have no soul? DOMIN. Have you ever seen what a Robot looks like inside? DOMIN. Very neat, very simple. Really a beautiful piece of work. Not much _in_ it, but everything in flawless order. The product of an engineer _is_ technically at a higher pitch of perfection than a product of Nature. HELENA. But man is supposed to be the product of God. DOMIN. All the worse. God hasn’t the slightest notion of modern engineering. Would you believe that young Rossum then proceeded to play at being God? DOMIN. He began to manufacture Super-Robots. Regular giants they were. He tried to make them twelve feet tall. But you wouldn’t believe what a failure they were. DOMIN. Yes. For no reason at all their limbs used to keep snapping off. “Evidently our planet is too small for giants.” Now we only make Robots of normal size and of very high-class human finish. HELENA. (_Hands him flower; he puts it in button-hole_) I saw the first Robots at home. The Town Council bought them for--I mean engaged them for work. DOMIN. No. _Bought_ them, Miss Glory. Robots are bought and sold.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Domin describes Robots as manufactured products with no soul and corrects Helena that they are bought and sold; the revolt appears in a separate candidate and cannot be joined to this passage. The candidate is an English acting version."
+ }
+]

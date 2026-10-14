@@ -35,6 +35,10 @@ The wordmark scrambles into random glyphs on hover and settles back. (Ben,
 Tokens are in `src/app/globals.css`; every token has a dark-mode value. A
 colour never appears without a text label.
 
+- Dark mode follows the system setting until the ◐ button in the header is
+  clicked; the choice is then remembered per browser. The dark palette is a
+  cool near-black (`#121316`) with off-white ink and dim rules, after
+  *Things to Come*. (Ben, 13 Oct 2026)
 - Oxblood `#8A2D22`: theme names. Cobalt `#2450C8`: links and external IDs.
   Green `#217A4B`: verified. Amber `#B07C1F`: provisional or pilot.
 - Direction shapes (▲ ● ◆), each with its label.
@@ -50,3 +54,6 @@ colour never appears without a text label.
 - Each model answer is a hoverable square showing its coding and opening
   sentences; clicking opens a page for that answer with a map of all answers
   below. (Ben, 28 Sep 2026)
+- The home page shows the dataset's state as a grid with one square per
+  answer: verified, quotation unchecked, no quotation, held back. It
+  replaces the counts that were in the intro. (Ben, 13 Oct 2026)

@@ -1,0 +1,202 @@
+[
+ {
+  "id": "Q01",
+  "theme": "THINKING",
+  "question": "Can a machine originate an idea that its maker did not supply?"
+ },
+ {
+  "id": "Q02",
+  "theme": "THINKING",
+  "question": "Would a machine's ability to converse appropriately be sufficient evidence that it thinks?"
+ },
+ {
+  "id": "Q03",
+  "theme": "THINKING",
+  "question": "Can a machine exercise judgment when faced with circumstances its maker did not anticipate?"
+ },
+ {
+  "id": "Q04",
+  "theme": "AUTOMATON",
+  "question": "Does conscious intention help cause bodily action?"
+ },
+ {
+  "id": "Q05",
+  "theme": "AUTOMATON",
+  "question": "Can human choices be fully explained by physical causes?"
+ },
+ {
+  "id": "Q06",
+  "theme": "AUTOMATON",
+  "question": "Can people be morally responsible for actions that follow necessarily from their bodily constitution and circumstances?"
+ },
+ {
+  "id": "Q07",
+  "theme": "LIFE",
+  "question": "Does living activity require a principle beyond physical and chemical processes?"
+ },
+ {
+  "id": "Q08",
+  "theme": "LIFE",
+  "question": "Does an organism's ability to repair itself distinguish it fundamentally from a machine?"
+ },
+ {
+  "id": "Q09",
+  "theme": "LIFE",
+  "question": "Can the development of an organism from an egg be explained as the operation of a machine?"
+ },
+ {
+  "id": "Q10",
+  "theme": "JUDGMENT",
+  "question": "Can a fixed procedure for reasoning settle a disagreement when the participants accept the same premises?"
+ },
+ {
+  "id": "Q11",
+  "theme": "JUDGMENT",
+  "question": "Should a judge follow a general rule when it produces an unjust result in a particular case?"
+ },
+ {
+  "id": "Q12",
+  "theme": "JUDGMENT",
+  "question": "Can numerical measures adequately determine a person's fitness for a position of responsibility?"
+ },
+ {
+  "id": "Q13",
+  "theme": "SUCCESSION",
+  "question": "Can machines undergo a process of evolution even when humans build and reproduce them?"
+ },
+ {
+  "id": "Q14",
+  "theme": "SUCCESSION",
+  "question": "Would machines becoming more capable than humans necessarily place humans in a subordinate position?"
+ },
+ {
+  "id": "Q15",
+  "theme": "TRANSCENDENCE",
+  "question": "Should extending human life indefinitely be a goal of technical progress?"
+ },
+ {
+  "id": "Q16",
+  "theme": "TRANSCENDENCE",
+  "question": "Would replacing bodily organs with artificial substitutes preserve the identity of the person?"
+ },
+ {
+  "id": "Q17",
+  "theme": "LABOR",
+  "question": "Does introducing labor-saving machinery improve workers' lives?"
+ },
+ {
+  "id": "Q18",
+  "theme": "LABOR",
+  "question": "Does operating machinery develop or diminish a worker's skill and judgment?"
+ },
+ {
+  "id": "Q19",
+  "theme": "LABOR",
+  "question": "Who should receive the benefits when machinery increases the amount a worker can produce?"
+ },
+ {
+  "id": "Q20",
+  "theme": "HABIT",
+  "question": "Does making an action habitual increase a person's freedom to act?"
+ },
+ {
+  "id": "Q21",
+  "theme": "HABIT",
+  "question": "Can repeated obedience train a person to obey without judgment?"
+ },
+ {
+  "id": "Q22",
+  "theme": "HABIT",
+  "question": "Does organizing daily life by fixed schedules strengthen or weaken self-government?"
+ },
+ {
+  "id": "Q23",
+  "theme": "DEPENDENCE",
+  "question": "Does relying on written records weaken the ability to remember?"
+ },
+ {
+  "id": "Q24",
+  "theme": "DEPENDENCE",
+  "question": "Does using calculating devices weaken the ability to calculate without them?"
+ },
+ {
+  "id": "Q25",
+  "theme": "DEPENDENCE",
+  "question": "Does relying on machinery for ordinary necessities reduce people's ability to provide for themselves?"
+ },
+ {
+  "id": "Q26",
+  "theme": "CONTROL",
+  "question": "Can inventors remain responsible for harmful uses of their inventions that they did not intend?"
+ },
+ {
+  "id": "Q27",
+  "theme": "CONTROL",
+  "question": "Should a useful invention be restricted if its harmful consequences cannot be reliably controlled?"
+ },
+ {
+  "id": "Q28",
+  "theme": "PERSONHOOD",
+  "question": "Would the capacity to suffer give an artificial being a claim to humane treatment?"
+ },
+ {
+  "id": "Q29",
+  "theme": "PERSONHOOD",
+  "question": "Would creating an intelligent being give its maker the right to own it?"
+ },
+ {
+  "id": "Q30",
+  "theme": "SACRED",
+  "question": "Should technological invention be understood as carrying out a divine purpose?"
+ },
+ {
+  "id": "Q31",
+  "theme": "SACRED",
+  "question": "Can reliance on machinery become a form of idolatry?"
+ },
+ {
+  "id": "Q32",
+  "theme": "CIVILIZATION",
+  "question": "Is widespread use of machinery evidence that a society is more civilized?"
+ },
+ {
+  "id": "Q33",
+  "theme": "CIVILIZATION",
+  "question": "Can a society adopt another society's machinery without adopting its ways of life?"
+ },
+ {
+  "id": "Q34",
+  "theme": "CIVILIZATION",
+  "question": "Does superiority in industrial or military technology justify one people governing another?"
+ },
+ {
+  "id": "Q35",
+  "theme": "STATE",
+  "question": "Does treating the state as an artificial machine give its members grounds to redesign it?"
+ },
+ {
+  "id": "Q36",
+  "theme": "STATE",
+  "question": "Should public officials carry out rules without exercising personal moral judgment?"
+ },
+ {
+  "id": "Q37",
+  "theme": "EXTENSION",
+  "question": "Should tools used to perform bodily functions be understood as parts of the human body?"
+ },
+ {
+  "id": "Q38",
+  "theme": "EXTENSION",
+  "question": "When a person accomplishes something through a machine, should the machine's power count as that person's capability?"
+ },
+ {
+  "id": "Q39",
+  "theme": "INTIMACY",
+  "question": "Can love for an artificial being remain genuine after its artificial nature is known?"
+ },
+ {
+  "id": "Q40",
+  "theme": "INTIMACY",
+  "question": "Can an artificial companion satisfy the need for companionship if it has no feelings of its own?"
+ }
+]

@@ -1,0 +1,290 @@
+[
+ {
+  "stance": "q19-lafargue-right-be",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Alas!, the leisure which the pagan poet announced has not come. The blind, perverse and murderous passion for work transforms the liberating machine into an instrument for the enslavement of free men. Its productiveness impoverishes them. A good workingwoman makes with her needles only five meshes a minute, while certain circular knitting machines make 30,000 in the same time. Every minute of the machine is thus equivalent to a hundred hours of the workingwomen's labor, or again, every minute of the machine's labor, gives the workingwomen ten days of rest. What is true for the knitting industry is more or less true for all industries reconstructed by modern machinery. But what do we see? In proportion as the machine is improved and performs man's work with an ever increasing rapidity and exactness, the laborer, instead of prolonging his former rest times, redoubles his ardor, as if he wished to rival the machine. O, absurd and murderous competition! That the competition of man and the machine might have free course, the proletarians have abolished wise laws which limited the labor of the artisans of the ancient guilds; they have suppressed the holidays.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Lafargue states that machine productivity should have brought rest but instead workers compete with the machine and give up their holidays; the three-hour proposal is in c3."
+ },
+ {
+  "stance": "q19-bellamy-looking-backward",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "\"I don't quite follow you there,\" I said. \"I admit the claim of this class to our pity, but how could they who produced nothing claim a share of the product as a right?\" \"How happened it,\" was Dr. Leete's reply, \"that your workers were able to produce more than so many savages would have done? Was it not wholly on account of the heritage of the past knowledge and achievements of the race, the machinery of society, thousands of years in contriving, found by you ready-made to your hand? How did you come to be possessors of this knowledge and this machinery, which represent nine parts to one contributed by yourself in the value of your product? You inherited it, did you not? And were not these others, these unfortunate and crippled brothers whom you cast out, joint inheritors, co-heirs with you? What did you do with their share? Did you not rob them when you put them off with crusts, who were entitled to sit with the heirs, and did you not add insult to robbery when you called the crusts charity?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Dr. Leete argues that the machinery of society is a common inheritance, so every citizen, including those who cannot work, is a co-heir of its product."
+ },
+ {
+  "stance": "q19-kropotkin-conquest-bread",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Thus the consequences which spring from the original act of monopoly spread through the whole of social life. Under pain of death, human societies are forced to return to first principles: the means of production being the collective work of humanity, the product should be the collective property of the race. Individual appropriation is neither just nor serviceable. All belongs to all. All things are for all men, since all men have need of them, since all men have worked in the measure of their strength to produce them, and since it is not possible to evaluate every one's part in the production of the world's wealth. All things for all. Here is an immense stock of tools and implements; here are all those iron slaves which we call machines, which saw and plane, spin and weave for us, unmaking and remaking, working up raw matter to produce the marvels of our time. But nobody has the right to seize a single one of these machines and say: \"This is mine; if you want to use it you must pay me a tax on each of your products,\" any more than the feudal lord of medieval times had the right to say to the peasant: \"This hill, this meadow belong to me, and you must pay me a tax on every sheaf of corn you reap, on every brick you build.\"",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kropotkin states that the means of production are the collective work of humanity, that all belongs to all, and that no one may claim a machine as his own."
+ },
+ {
+  "stance": "q20-rousseau-emile",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Food and sleep, too, exactly measured, become necessary at regular intervals, and soon desire is no longer the effect of need, but of habit, or rather habit adds a fresh need to those of nature. You must be on your guard against this. The only habit the child should be allowed to contract is that of having no habits; let him be carried on either arm, let him be accustomed to offer either hand, to use one or other indifferently; let him not want to eat, sleep, or do anything at fixed hours, nor be unable to be left alone by day or night. Prepare the way for his control of his liberty and the use of his strength by leaving his body its natural habit, by making him capable of lasting self-control, of doing all that he wills when his will is formed.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The tutor says the only habit to allow is having no habits, so the child keeps control of his liberty."
+ },
+ {
+  "stance": "q20-kant-anthropology-from",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Aber die Angewohnheit ( assuetudo ) ist eine physische innere Nöthigung 07 nach derselben Weise ferner zu verfahren, wie man bis dahin verfahren 08 hat. Sie benimmt den guten Handlungen eben dadurch ihren 09 moralischen Werth, weil sie der Freiheit des Gemüths Abbruch thut und 10 überdem zu gedankenlosen Wiederholungen ebendesselben Acts (Monotonie) 11 führt und dadurch lächerlich wird. - Angewöhnte Flickwörter 12 (Phrasen zu bloßer Ausfüllung der Leere an Gedanken) machen den Zuhörer 13 unaufhörlich besorgt, das Sprüchelchen wiederum hören zu müssen, 14 und den Redner zur Sprachmaschine. Die Ursache der Erregung des 15 Ekels, den die Angewohnheit eines Andern in uns erregt, ist, weil das 16 Thier hier gar zu sehr aus dem Menschen hervorspringt, das instinctmäßig 17 nach der Regel der Angewöhnung gleich als eine andere (nichtmenschliche) 18 Natur geleitet wird und so Gefahr läuft, mit dem Vieh in 19 eine und dieselbe Classe zu gerathen.",
+  "translation": "But habituation (assuetudo) is a physical inner compulsion to go on proceeding in the same way as one has proceeded until then. It takes away the moral worth of good actions precisely because it impairs freedom of mind and, moreover, leads to thoughtless repetitions of the very same act (monotony) and thereby becomes ridiculous. — Habitual filler words (phrases for merely filling up the emptiness of thought) make the listener constantly anxious at having to hear the little phrase once again, and turn the speaker into a speaking-machine. The reason for the disgust that another person's habit arouses in us is that here the animal springs out of the human being far too much, the human being who is led instinctively by the rule of habituation just like another (non-human) nature, and so runs the danger of falling into one and the same class with the beasts. [The line numbers of the Academy edition are retained in the original.]",
+  "summaryCheck": "ok",
+  "note": "Kant defines habit as a physical compulsion that removes moral worth by impairing freedom of mind; the sentence that all habit is objectionable is cut off at the chunk break."
+ },
+ {
+  "stance": "q20-hegel-encyclopaedia-philosophical",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Habit is rightly called a second nature; nature, because it is an immediate being of the soul; a second nature, because it is an immediacy created by the soul, impressing and moulding the corporeality which enters into the modes of feeling as such and into the representations and volitions so far as they have taken corporeal form (§ 401). In habit the human being’s mode of existence is “natural,” and for that reason not free; but still free, so far as the merely natural phase of feeling is by habit reduced to a mere being of _his_, and he is no longer involuntarily attracted or repelled by it, and so no longer interested, occupied, or dependent in regard to it. The want of freedom in habit is partly merely formal, as habit merely attaches to the being of the soul; partly only relative, so far as it strictly speaking arises only in the case of bad habits, or so far as a habit is opposed by another purpose: whereas the habit of right and goodness is an embodiment of liberty. The main point about Habit is that by its means man gets emancipated from the feelings, even in being affected by them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hegel says habit is unfree because natural but free because the soul is no longer occupied by feelings it has made habitual."
+ },
+ {
+  "stance": "q20-james-principles-psychology",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Man is born with a tendency to do more things than he has ready-made arrangements for in his nerve-centres. Most of the performances of other animals are automatic. But in him the number of them is so enormous, that most of them must be the fruit of painful study. If practice did not make perfect, nor habit economize the expense of nervous and muscular energy, he would therefore be in a sorry plight. As Dr. Maudsley says:[145] \"If an act became no easier after being done several times, if the careful direction of consciousness were necessary to its accomplishment on each occasion, it is evident that the whole activity of a lifetime might be confined to one or two deeds--that no progress could take place in development. A man might be occupied all day in dressing and undressing himself; the attitude of his body would absorb all his attention and energy; the washing of his hands or the fastening of a button would be as difficult to him on each occasion as to the child on its first trial; and he would, furthermore, be completely exhausted by his exertions.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "James argues that without habit economizing effort man would be in a sorry plight, and quotes Maudsley with approval that without it a lifetime could be spent on one or two deeds; the sentence about freeing the higher powers of mind is not in the candidates."
+ },
+ {
+  "stance": "q20-dewey-human-nature",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Even liberal thinkers have treated habit as essentially, not because of the character of existing customs, conservative. In fact only in a society dominated by modes of belief and admiration fixed by past custom is habit any more conservative than it is progressive. It all depends upon its quality. Habit is an ability, an art, formed through past experience. But whether an ability is limited to repetition of past acts adopted to past conditions or is available for new emergencies depends wholly upon what kind of habit exists. The tendency to think that only \"bad\" habits are disserviceable and that bad habits are conventionally enumerable, conduces to make all habits more or less bad. For what makes a habit bad is enslavement to old ruts. The common notion that enslavement to good ends converts mechanical routine into good is a negation of the principle of moral goodness. It identifies morality with what _was_ sometime rational, possibly in some prior experience of one's own, but more probably in the experience of some one else who is now blindly set up as a final authority. The genuine heart of reasonableness (and of goodness in conduct) lies in effective mastery of the conditions which _now_ enter into action. To be satisfied with repeating, with traversing the ruts which in other conditions led to good, is the surest way of creating carelessness about present and actual good.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Dewey says habit is progressive or conservative according to its quality, and that what makes a habit bad is enslavement to old ruts."
+ },
+ {
+  "stance": "q21-loyola-letter-perfect",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "other: c1 contains a statement of blind obedience of the understanding, but it is in Loyola's 1542 letter to Giovanni Battista Viola, not the 1553 Letter on Perfect Obedience.",
+  "note": "None of the candidates is from the Letter on Perfect Obedience; c1 is a different letter in the same volume and c2 and c3 do not state the position."
+ },
+ {
+  "stance": "q21-kant-answer-question",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Nun höre ich aber von allen Seiten rufen: räsonnirt nicht! Der Offizier sagt: räsonnirt nicht, sondern exercirt! Der Finanzrath: räsonnirt nicht, sondern bezahlt! Der Geistliche: räsonnirt nicht, sondern glaubt! (Nur ein einziger Herr in der Welt sagt: räsonnirt, so viel ihr wollt, und worüber ihr wollt; aber gehorcht!) Hier ist überall Einschränkung der Freiheit. … Nun ist zu manchen Geschäften, die in das Interesse des gemeinen Wesens laufen, ein gewisser Mechanism nothwendig, vermittelst dessen einige Glieder des gemeinen Wesens sich bloß passiv verhalten müssen, um durch eine künstliche Einhelligkeit von der Regierung zu öffentlichen Zwekken gerichtet, oder wenigstens von der Zerstörung dieser Zwekke abgehalten zu werden. Hier ist es nun freilich nicht erlaubt, zu räsonniren; sondern man muß gehorchen. So fern sich aber dieser Theil der Maschine zugleich als Glied eines ganzen gemeinen Wesens, ja sogar der Weltbürgergesellschaft ansieht, mithin in der Qualität eines Gelehrten, der sich an ein Publikum im eigentlichen Verstande durch Schriften wendet; kann er allerdings räsonniren, ohne daß dadurch die Geschäfte leiden, zu denen er zum Theile als passives Glied angesetzt ist.",
+  "translation": "But now I hear it cried from all sides: do not argue! The officer says: do not argue, but drill! The tax official: do not argue, but pay! The clergyman: do not argue, but believe! (Only one lord in the world says: argue as much as you will and about whatever you will; but obey!) Here there is everywhere restriction of freedom. … Now for many affairs that concern the interest of the commonwealth a certain mechanism is necessary, by means of which some members of the commonwealth must behave merely passively, so as to be directed by the government, through an artificial unanimity, to public ends, or at least kept from destroying those ends. Here it is certainly not permitted to argue; one must obey. But insofar as this part of the machine at the same time regards himself as a member of a whole commonwealth, indeed of the society of world citizens, and so in the capacity of a scholar who addresses a public in the proper sense through writings, he can certainly argue without harming the affairs to which he is assigned in part as a passive member.",
+  "summaryCheck": "ok",
+  "note": "Kant criticizes the demand \"do not argue, obey\" while allowing mechanical obedience in office; the passage calling statutes and formulas the shackles of immaturity is not in the candidates."
+ },
+ {
+  "stance": "q21-wollstonecraft-vindication-rights",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The great misfortune is this, that they both acquire manners before morals, and a knowledge of life before they have from reflection, any acquaintance with the grand ideal outline of human nature. The consequence is natural; satisfied with common nature, they become a prey to prejudices, and taking all their opinions on credit, they blindly submit to authority. So that if they have any sense, it is a kind of instinctive glance, that catches proportions, and decides with respect to manners; but fails when arguments are to be pursued below the surface, or opinions analyzed. May not the same remark be applied to women? Nay, the argument may be carried still further, for they are both thrown out of a useful station by the unnatural distinctions established in civilized life. Riches and hereditary honours have made cyphers of women to give consequence to the numerical figure; and idleness has produced a mixture of gallantry and despotism in society, which leads the very men who are the slaves of their mistresses, to tyrannize over their sisters, wives, and daughters. This is only keeping them in rank and file, it is true. Strengthen the female mind by enlarging it, and there will be an end to blind obedience; but, as blind obedience is ever sought for by power, tyrants and sensualists are in the right when they endeavour to keep women in the dark, because the former only want slaves, and the latter a play-thing.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Wollstonecraft says soldiers and women both submit blindly to authority for lack of reflection, and that strengthening the female mind would end blind obedience."
+ },
+ {
+  "stance": "q21-kant-kant-education",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "80. Above all things, obedience is an essen- Obedience tial feature in the character of a child, especially fold™ °f a sch°°l b°y or girl- This obedience is twofold, absolute including absolute obedience to his master's and volun tary; both commands, and obedience to what he feels to be kinds be ing essen- a good and reasonable will. Obedience may be character the result of compulsion ; it is then absolute : or it may arise out of confidence ; it is then obedi ence of the second kind. This voluntary obedi ence is very important, but the former is also very necessary, for it prepares the child for the fulfilment of laws that he will have to obey later, as a citizen, even though he may not like them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kant says absolute obedience in childhood is necessary because it prepares the child to obey laws as a citizen; marginal glosses from the scan are interleaved in the text."
+ },
+ {
+  "stance": "q21-thoreau-resistance-civil",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The mass of men serve the State thus, not as men mainly, but as machines, with their bodies. They are the standing army, and the militia, jailers, constables, _posse comitatus_, &c. In most cases there is no free exercise whatever of the judgment or of the moral sense; but they put themselves on a level with wood and earth and stones; and wooden men can perhaps be manufactured that will serve the purpose as well. Such command no more respect than men of straw, or a lump of dirt. They have the same sort of worth only as horses and dogs. Yet such as these even are commonly esteemed good citizens. Others, as most legislators, politicians, lawyers, ministers, and office-holders, serve the state chiefly with their heads; and, as they rarely make any moral distinctions, they are as likely to serve the devil, without _intending_ it, as God.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Thoreau says most men serve the state as machines with their bodies, with no free exercise of judgment or moral sense."
+ },
+ {
+  "stance": "q21-mill-liberty",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The human faculties of perception, judgment, discriminative feeling, mental activity, and even moral preference, are exercised only in making a choice. He who does anything because it is the custom, makes no choice. He gains no practice either in discerning or in desiring what is best. The mental and moral, like the muscular powers, are improved only by being used. The faculties are called into no exercise by doing a thing merely because others do it, no more than by believing a thing only because others believe it. If the grounds of an opinion are not conclusive to the person's own reason, his reason cannot be strengthened, but is likely to be weakened by his adopting it: and if the inducements to an act are not such as are consentaneous to his own feelings and character (where affection, or the rights of others, are not concerned), it is so much done towards rendering his feelings and character inert and torpid, instead of active and energetic. He who lets the world, or his own portion of it, choose his plan of life for him, has no need of any other faculty than the ape-like one of imitation. He who chooses his plan for himself, employs all his faculties. He must use observation to see, reasoning and judgment to foresee, activity to gather materials for decision, discrimination to decide, and when he has decided, firmness and self-control to hold to his deliberate decision.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Mill says the faculties of judgment are exercised only in making a choice, and that one who lets the world choose his plan needs only the ape-like faculty of imitation."
+ },
+ {
+  "stance": "q21-tolstoy-kingdom-god",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "On a fixed day they collect them, drive them together like a flock of sheep, and begin to train them in the military exercises and drill. Their teachers are fellows like themselves, only deceived and brutalized two or three years sooner. The means of instruction are: deception, stupefaction, blows, and vodka. And before a year has passed these good, intelligent, healthy-minded lads will be as brutal beings as their instructors. \"Come, now, suppose your father were arrested and tried to make his escape?\" I asked a young soldier. \"I should run him through with my bayonet,\" he answered with the foolish intonation peculiar to soldiers; \"and if he made off, I ought to shoot him,\" he added, obviously proud of knowing what he must do if his father were escaping. And when a good-hearted lad has been brought to a state lower than that of a brute, he is just what is wanted by those who use him as an instrument of violence. He is ready; the man has been destroyed and a new instrument of violence has been created.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tolstoy describes drill by deception, stupefaction, blows and vodka producing a soldier who would bayonet his own father."
+ },
+ {
+  "stance": "q22-rousseau-emile",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Food and sleep, too, exactly measured, become necessary at regular intervals, and soon desire is no longer the effect of need, but of habit, or rather habit adds a fresh need to those of nature. You must be on your guard against this. The only habit the child should be allowed to contract is that of having no habits; let him be carried on either arm, let him be accustomed to offer either hand, to use one or other indifferently; let him not want to eat, sleep, or do anything at fixed hours, nor be unable to be left alone by day or night. Prepare the way for his control of his liberty and the use of his strength by leaving his body its natural habit, by making him capable of lasting self-control, of doing all that he wills when his will is formed.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The tutor says the child should not want to eat, sleep or do anything at fixed hours, so that he keeps control of his liberty."
+ },
+ {
+  "stance": "q22-franklin-autobiography",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The precept of _Order_ requiring that _every part of my business should have its allotted time_, one page in my little book contain'd the following scheme of employment for the twenty-four hours of a natural day. … I enter'd upon the execution of this plan for self-examination, and continu'd it with occasional intermissions for some time. I was surpris'd to find myself so much fuller of faults than I had imagined; but I had the satisfaction of seeing them diminish. … My scheme of Order gave me the most trouble;[70] and I found that, tho' it might be practicable where a man's business was such as to leave him the disposition of his time, that of a journeyman printer, for instance, it was not possible to be exactly observed by a master, who must mix with the world, and often receive people of business at their own hours.",
+  "translation": null,
+  "summaryCheck": "other: Franklin reports that Order gave him the most trouble and that the hourly scheme could not be exactly observed by a master; the improvement he reports is a decrease in his faults generally.",
+  "note": "Franklin sets out his hourly scheme under the precept of Order and reports that his faults diminished, while saying the scheme was the hardest part to keep."
+ },
+ {
+  "stance": "q22-dickens-hard-times",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It was a town of machinery and tall chimneys, out of which interminable serpents of smoke trailed themselves for ever and ever, and never got uncoiled. It had a black canal in it, and a river that ran purple with ill-smelling dye, and vast piles of building full of windows where there was a rattling and a trembling all day long, and where the piston of the steam-engine worked monotonously up and down, like the head of an elephant in a state of melancholy madness. It contained several large streets all very like one another, and many small streets still more like one another, inhabited by people equally like one another, who all went in and out at the same hours, with the same sound upon the same pavements, to do the same work, and to whom every day was the same as yesterday and to-morrow, and every year the counterpart of the last and the next.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrator describes Coketown people who all go in and out at the same hours to do the same work, every day the same as the last."
+ },
+ {
+  "stance": "q22-dostoevsky-notes-from",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "He would even risk his cakes and would deliberately desire the most fatal rubbish, the most uneconomical absurdity, simply to introduce into all this positive good sense his fatal fantastic element. It is just his fantastic dreams, his vulgar folly that he will desire to retain, simply in order to prove to himself—as though that were so necessary—that men still are men and not the keys of a piano, which the laws of nature threaten to control so completely that soon one will be able to desire nothing but by the calendar. And that is not all: even if man really were nothing but a piano-key, even if this were proved to him by natural science and mathematics, even then he would not become reasonable, but would purposely do something perverse out of simple ingratitude, simply to gain his point. And if he does not find means he will contrive destruction and chaos, will contrive sufferings of all sorts, only to gain his point! He will launch a curse upon the world, and as only man can curse (it is his privilege, the primary distinction between him and other animals), may be by his curse alone he will attain his object—that is, convince himself that he is a man and not a piano-key!",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Underground Man says man will act against his interest to prove he is not a piano key that could desire nothing but by the calendar; the tables-of-logarithms passage is in c1."
+ },
+ {
+  "stance": "q22-bennett-how-live",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Another danger is the danger of being tied to a programme like a slave to a chariot. One's programme must not be allowed to run away with one. It must be respected, but it must not be worshipped as a fetish. A programme of daily employ is not a religion. This seems obvious. Yet I know men whose lives are a burden to themselves and a distressing burden to their relatives and friends simply because they have failed to appreciate the obvious. \"Oh, no,\" I have heard the martyred wife exclaim, \"Arthur always takes the dog out for exercise at eight o'clock and he always begins to read at a quarter to nine. So it's quite out of the question that we should...\" etc., etc. And the note of absolute finality in that plaintive voice reveals the unsuspected and ridiculous tragedy of a career. On the other hand, a programme is a programme. And unless it is treated with deference it ceases to be anything but a poor joke. To treat one's programme with exactly the right amount of deference, to live with not too much and not too little elasticity, is scarcely the simple affair it may appear to the inexperienced.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bennett warns against being tied to a programme like a slave to a chariot while insisting that a programme must be treated with deference."
+ },
+ {
+  "stance": "q22-zamyatin-we",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The Tables transformed each one of us, actually, into a six-wheeled steel hero of a great poem. Every morning with six-wheeled precision, at the same hour, at the same minute, we wake up, millions of us at once. At the very same hour millions like one we begin our work, and millions like one, we finish it. United into a single body with a million hands, at the very same second, designated by the Tables, we carry the spoons to our mouths; at the same second we all go out to walk, go to the auditorium, to the halls for the Taylor exercises and then to bed. I shall be quite frank: even we have not attained the absolute, exact solution of the problem of happiness. Twice a day, from sixteen to seventeen o'clock and from twenty-one to twenty-two, our united powerful organism dissolves into separate cells; these are the personal hours designated by the Tables. During these hours you would see the curtains discreetly drawn in the rooms of some; others march slowly over the pavement of the main avenue or sit at their desks as I sit now. But I firmly believe, let them call me an idealist and a dreamer, I believe that sooner or later we shall somehow find even for these hours, a place in the general formula. Somehow, all of the 86,400 seconds will be incorporated in the Tables of Hours.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrator praises the Tables that fix when millions rise, work, eat and walk, and hopes to absorb even the personal hours."
+ },
+ {
+  "stance": "q23-plato-phaedrus",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "But when they came to letters, This, said Theuth, will make the Egyptians wiser and give them better memories; it is a specific both for the memory and for the wit. Thamus replied: O most ingenious Theuth, the parent or inventor of an art is not always the best judge of the utility or inutility of his own inventions to the users of them. And in this instance, you who are the father of letters, from a paternal love of your own children have been led to attribute to them a quality which they cannot have; for this discovery of yours will create forgetfulness in the learners' souls, because they will not use their memories; they will trust to the external written characters and not remember of themselves. The specific which you have discovered is an aid not to memory, but to reminiscence, and you give your disciples not truth, but only the semblance of truth; they will be hearers of many things and will have learned nothing; they will appear to be omniscient and will generally know nothing; they will be tiresome company, having the show of wisdom without the reality.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Thamus tells Theuth that writing will create forgetfulness because learners will trust external characters and not remember of themselves."
+ },
+ {
+  "stance": "q23-locke-new-method",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "other: the statement that memory is the storehouse and that order and method assist it is Jean Le Clerc's prefatory account of Locke's method, not Locke's own words.",
+  "note": "The candidates contain the position only in Le Clerc's voice (c1, c2), not in Locke's letter."
+ },
+ {
+  "stance": "q23-watts-improvement-mind",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "I f we would fix in the Memory the Difcourfes we hear, or what we defign to fpeak, let us abftraft them into brief Com- fends , and review them often. Lawyers and Divines have need of fuch Affiftances : They write downjhort Notes or Hints of the prin- cipal Heads of what they defire to commit to their Memory in order to preach or plead j for fuch Abftracts and Epitomies may be review'd much fooner, and the feveral am- plifying Sentiments or Sentences will be more eafily invented or recollected in their proper Places. The Art of Short Hand is of excellent Ufe for this as well as other Purpofes. It mufl be acknowledged that thofe who fcarce ever take a Pen in their Hands to write mort Notes or Hints of what they are to fpeak or learn, who never try to caft Things into Method, or to contract the Survey of them in order to commit them to their Memory, had need have a double Degree of that natural Power of re- taining and recollecting what they read or hear, or intend to fpeak.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Watts advises lawyers and divines to write short notes to fix discourses in memory and says those who never do need double the natural power of memory."
+ },
+ {
+  "stance": "q23-johnson-idler-no",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But memory, however impartially distributed, so often deceives our trust, that almost every man attempts, by some artifice or other, to secure its fidelity. It is the practice of many readers to note, in the margin of their books, the most important passages, the strongest arguments, or the brightest sentiments. Thus they load their minds with superfluous attention, repress the vehemence of curiosity by useless deliberation, and by frequent interruption break the current of narration or the chain of reason, and at last close the volume, and forget the passages and marks together. Others I have found unalterably persuaded, that nothing is certainly remembered but what is transcribed; and they have, therefore, passed weeks and months in transferring large quotations to a commonplace-book. Yet, why any part of a book, which can be consulted at pleasure, should be copied, I was never able to discover. The hand has no closer correspondence with the memory than the eye. The act of writing itself distracts the thoughts, and what is read twice is commonly better remembered than what is transcribed. This method, therefore, consumes time without assisting memory. The true art of memory is the art of attention.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Johnson says copying passages from a book that can be consulted at will consumes time without assisting memory, and that the true art of memory is attention."
+ },
+ {
+  "stance": "q23-hugo-notre-dame",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "If the reader will sum up what we have hitherto briefly, very briefly, indicated, neglecting a thousand proofs and also a thousand objections of detail, he will be led to this: that architecture was, down to the fifteenth century, the chief register of humanity; that in that interval not a thought which is in any degree complicated made its appearance in the world, which has not been worked into an edifice; that every popular idea, and every religious law, has had its monumental records; that the human race has, in short, had no important thought which it has not written in stone. And why? Because every thought, either philosophical or religious, is interested in perpetuating itself; because the idea which has moved one generation wishes to move others also, and leave a trace. Now, what a precarious immortality is that of the manuscript! How much more solid, durable, unyielding, is a book of stone! In order to destroy the written word, a torch and a Turk are sufficient. To demolish the constructed word, a social revolution, a terrestrial revolution are required. The barbarians passed over the Coliseum; the deluge, perhaps, passed over the Pyramids. Human thought discovers a mode of perpetuating itself, not only more durable and more resisting than architecture, but still more simple and easy. Architecture is dethroned. Gutenberg’s letters of lead are about to supersede Orpheus’s letters of stone.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrator says architecture was the chief register of humanity and that printing supplies a more durable way for thought to perpetuate itself."
+ },
+ {
+  "stance": "q23-muller-india-what",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "How were these poems composed--for they are composed in very perfect metre--and how, after having been composed, were they handed down from 1500 before Christ to 1500 after Christ, the time to which most of our best Sanskrit MSS. belong? _Entirely by memory._[270] This may sound startling, but--what will sound still more startling, and yet is a fact that can easily be ascertained by anybody who doubts it--at the present moment, if every MS. of the Rig-Veda were lost, we should be able to recover the whole of it--from the memory of the _S_rotriyas in India. These native students learn the Veda by heart, and they learn it from the mouth of their Guru, never from a MS., still less from my printed edition--and after a time they teach it again to their pupils. I have had such students in my room at Oxford, who not only could repeat these hymns, but who repeated them with the proper accents (for the Vedic Sanskrit has accents like Greek), nay, who, when looking through my printed edition of the Rig-Veda, could point out a misprint without the slightest hesitation.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Müller says the Rig-Veda was handed down entirely by memory and that students who never learn from manuscripts could correct his printed edition."
+ },
+ {
+  "stance": "q24-napier-mirifici-logarithmorum",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "All three candidates are OCR of Napier's tables and rules of use; none contains the preface or any statement about sparing calculators tedium and error."
+ },
+ {
+  "stance": "q24-pascal-avis-necessaire",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Tu sçais comme, en operant par le jetton, le Calculateur (surtout lorsqu’il manque d’habitude) est souvent obligé, de peur de tomber en erreur, de faire une longue suite et extension de jettons, et comme la necessité le contraint apres d’abbreger et de relever ceux qui se trouvent inutilement estendus ; en quoy tu vois deux peines inutiles, avec la perte de deux temps. Cette machine facilite et retranche en ses operations tout ce superflu ; le plus ignorant y trouve autant d’avantage que le plus experimenté ; l’instrument supplée au defaut de l’ignorance ou du peu d’habitude, et, par des mouvemens necessaires, il fait luy seul, sans mesme l’intention de celuy qui s’en sert, tous les abbregez possibles à la nature, et à toutes les fois que les nombres s’y trouvent disposez. Tu sçais de mesme comme, en operant par la plume, on est à tous momens obligé de retenir ou d’emprunter les nombres necessaires, et combien d’erreurs se glis sent dans ces retentions et emprunts à moins d’une tres-longue habitude et en outre d’une attention profonde et qui fatigue l’esprit en peu de temps. Cette machine delivre celuy qui opere par elle de cette vexation ; il suffit qu’il ait le jugement, elle le releve du defaut de la memoire ; et, sans rien retenir ny emprunter, elle fait d’elle-mesme ce qu’il desire, sans mesme qu’il y pense.",
+  "translation": "You know how, when working with counters, the Calculator (above all when he lacks practice) is often obliged, for fear of falling into error, to lay out a long series and spread of counters, and how necessity then forces him to shorten and gather up those that turn out to be laid out uselessly; in which you see two useless labours, with the loss of two lots of time. This machine eases and cuts out of its operations all this superfluity; the most ignorant finds as much advantage in it as the most experienced; the instrument makes up for the defect of ignorance or of little practice, and, by necessary movements, it alone makes, without even the intention of the person using it, all the shortcuts possible in nature, every time the numbers are so disposed. You know likewise how, when working with the pen, one is at every moment obliged to carry or borrow the necessary numbers, and how many errors slip into these carryings and borrowings without very long practice and, besides, a deep attention that tires the mind in a short time. This machine delivers the person who works with it from this vexation; it is enough that he have judgment, it relieves him of the defect of memory; and, without carrying or borrowing anything, it does of itself what he wishes, without his even thinking of it.",
+  "summaryCheck": "ok",
+  "note": "Pascal says the machine removes the labour and errors of reckoning with counters or pen and relieves the mind of the fatigue of attention and memory."
+ },
+ {
+  "stance": "q24-rousseau-emile",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Too much apparatus, designed to guide us in our experiments and to supplement the exactness of our senses, makes us neglect to use those senses. The theodolite makes it unnecessary to estimate the size of angles; the eye which used to judge distances with much precision, trusts to the chain for its measurements; the steel yard dispenses with the need of judging weight by the hand as I used to do. The more ingenious our apparatus, the coarser and more unskilful are our senses. We surround ourselves with tools and fail to use those with which nature has provided every one of us. But when we devote to the making of these instruments the skill which did instead of them, when for their construction we use the intelligence which enabled us to dispense with them, this is gain not loss, we add art to nature, we gain ingenuity without loss of skill.",
+  "translation": null,
+  "summaryCheck": "other: Rousseau adds that making the instruments oneself, with the skill they replace, is gain not loss.",
+  "note": "The tutor says the theodolite, chain and steelyard make us neglect our senses, and that the more ingenious our apparatus the coarser our senses."
+ },
+ {
+  "stance": "q24-babbage-economy-machinery",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Third section. The members of this section, whose number varied from sixty to eighty, received certain numbers from the second section, and, using nothing more than simple addition and subtraction, they returned to that section the tables in a finished state. It is remarkable that nine-tenths of this class had no knowledge of arithmetic beyond the two first rules which they were thus called upon to exercise, and that these persons were usually found more correct in their calculations, than those who possessed a more extensive knowledge of the subject. 245. When it is stated that the tables thus computed occupy seventeen large folio volumes, some idea may perhaps be formed of the labour. From that part executed by the third class, which may almost be termed mechanical, requiring the least knowledge and by far the greatest exertions, the first class were entirely exempt. Such labour can always be purchased at an easy rate. … but when the completion of a calculating engine shall have produced a substitute for the whole of the third section of computers, the attention of analysts will naturally be directed to simplifying its application, by a new discussion of the methods of converting analytical formulae into numbers.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Babbage reports that the third section, knowing only addition and subtraction, were more correct than those with more knowledge, and that a calculating engine could replace them."
+ },
+ {
+  "stance": "q24-emerson-self-reliance",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "For every thing that is given something is taken. Society acquires new arts and loses old instincts. What a contrast between the well-clad, reading, writing, thinking American, with a watch, a pencil and a bill of exchange in his pocket, and the naked New Zealander, whose property is a club, a spear, a mat and an undivided twentieth of a shed to sleep under! But compare the health of the two men and you shall see that the white man has lost his aboriginal strength. If the traveller tell us truly, strike the savage with a broad axe and in a day or two the flesh shall unite and heal as if you struck the blow into soft pitch, and the same blow shall send the white to his grave. The civilized man has built a coach, but has lost the use of his feet. He is supported on crutches, but lacks so much support of muscle. He has a fine Geneva watch, but he fails of the skill to tell the hour by the sun. A Greenwich nautical almanac he has, and so being sure of the information when he wants it, the man in the street does not know a star in the sky. The solstice he does not observe; the equinox he knows as little; and the whole bright calendar of the year is without a dial in his mind.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Emerson says the civilized man with a watch and a nautical almanac cannot tell the hour by the sun or know a star, and that each gain takes something away."
+ }
+]

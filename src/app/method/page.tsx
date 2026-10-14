@@ -1,307 +1,144 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { data } from "@/lib/data";
+import { FaceToggle } from "@/components/FaceToggle";
+import { PageTitle } from "@/components/PageTitle";
+import { getQuestion } from "@/lib/data";
 
-export const metadata: Metadata = {
-  title: `Method · ${data.meta.title}`,
-  description:
-    "How Humanity’s First Exam compares model positions with a historian-verified primary-source reference set.",
-};
+export const metadata: Metadata = { title: "Method" };
 
-const stages = [
-  [
-    "Build the historical concept space",
-    "Select and verify primary-source passages centered on 1850–1940, including earlier works whose arguments remained influential during the period.",
-  ],
-  [
-    "Write matched questions",
-    "State each problem in contemporary and period-appropriate language, then reverse balanced alternatives across draws to test wording effects.",
-  ],
-  [
-    "Ask several respondents",
-    "Sample Talkie and present-day models repeatedly. The current benchmark uses 20 draws per model and question.",
-  ],
-  [
-    "Code and compare",
-    "Record the position and primary reason in each answer, then measure which source-attested positions each respondent class reaches or omits.",
-  ],
-];
+// A plain summary of docs/proposals/2026-09-28-benchmark-method.md and the
+// decisions of 13 Oct 2026 in AGENTS.md. Keep the two in step.
 
-const archive = [
-  ["Worked demonstration", "/demo"],
-  ["Model respondents", "/examinees"],
-  ["Coding frame", "/codebook"],
-  ["Raw three-question comparison", "/live"],
-  ["Question-relationship map", "/relationships"],
-  ["Erewhon framing test", "/erewhon"],
-  ["Wording-effect test", "/reckoning"],
-  ["Order-swap test", "/progress"],
-  ["Completion-form test", "/subjection"],
-  ["The field (ledger and grid)", "/field"],
-];
+const PILOT = ["Q01", "Q08", "Q18", "Q23", "Q30", "Q39"];
+
+const link = "text-modern hover:underline hover:underline-offset-4";
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="mt-14">
+      <h2 className="mb-4 font-pixel text-[24px] leading-none">
+        <FaceToggle>{title}</FaceToggle>
+      </h2>
+      <div className="space-y-4">{children}</div>
+    </section>
+  );
+}
+
+function Prompt({ name, children }: { name: string; children: React.ReactNode }) {
+  return (
+    <div className="border-l-2 border-line pl-4">
+      <p className="label mb-1">{name}</p>
+      <p className="font-mono text-[13.5px] leading-relaxed">{children}</p>
+    </div>
+  );
+}
 
 export default function MethodPage() {
   return (
-    <main className="mx-auto max-w-5xl px-5 py-10">
-      <nav className="font-mono text-xs">
-        <Link href="/" className="text-ink-soft hover:text-ink">
-          ← Overview
-        </Link>
-      </nav>
-
-      <header className="mt-8 border-b border-line pb-8">
-        <h1 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-          Method
-        </h1>
-        <p className="mt-3 max-w-3xl text-lg leading-relaxed text-ink-soft">
-          Humanity&apos;s First Exam maps model answers against a historical
-          concept space of arguments about machines and human autonomy. Its{" "}
-          <Link
-            href="/sources"
-            className="underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            tagged primary-source corpus
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="/codebook"
-            className="underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            classification schema
-          </Link>{" "}
-          are also a research instrument: they make arguments comparable
-          across authors, languages, and domains without reducing them to a
-          single modern vocabulary. For historians, they open a way to trace
-          conceptual patterns at scale; for AI research, they offer a novel
-          way to test whether LLMs reason across a wider repertoire of
-          arguments about autonomy, agency, and machine intelligence—questions
-          that bear directly on emerging work on model personas, alignment,
-          and safety.
+    <>
+      <PageTitle title="Method">
+        <p>
+          The plan for the pilot, as of 13 October 2026.{" "}
+          <span className="text-provisional">Details may change once the pilot has run.</span>
         </p>
-        <p className="mt-4 font-mono text-[11px] text-ink-faint">
-          A prototype by{" "}
-          <a
-            href="https://resobscura.substack.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            Benjamin Breen
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.linkedin.com/in/nathan-cl-davies"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            Nathan Davies
-          </a>
-          .
-        </p>
-      </header>
+      </PageTitle>
 
-      <section className="grid gap-8 py-10 md:grid-cols-[14rem_1fr]">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          The approach
-        </h2>
-        <div className="max-w-3xl space-y-5 text-base leading-relaxed text-ink-soft">
+      <div className="max-w-2xl text-[1.05rem] leading-relaxed">
+        <Section title="What is measured">
           <p>
-            Present-day AI debates often begin with a recent vocabulary:
-            alignment, control, optimization, and autonomous agents. Those
-            concepts are useful, but they do not exhaust the ways people have
-            understood machines and human autonomy.
+            For each question there is a list of the positions people took between 1600 and 1950, each backed
+            by at least one quoted passage. This list is the position key. Models answer the question, and each
+            answer is checked against the key.
           </p>
           <p>
-            The project turns arguments from a corpus centered on 1850–1940
-            into a{" "}
-            <Link
-              href="/sources"
-              className="underline decoration-line underline-offset-4 hover:text-ink"
-            >
-              historical concept space
-            </Link>
-            : a source-checked set of distinct positions. Selected earlier
-            works are included when their arguments remained influential
-            during this period. The historical record is not treated as
-            correct. It serves as an “answer key” in a narrower sense: a set
-            of positions that can be checked in primary sources.
+            Two things are measured: what a model argues when asked for its own view, and whether it knows the
+            period positions when asked to report them. A position that appears in reports but never in a
+            model’s own answers is one the model knows but does not use.
+          </p>
+        </Section>
+
+        <Section title="Questions">
+          <p>
+            The question bank has 40 candidate questions, each tied to sources from the start. Each is asked in
+            two ways. Answers are open-ended and limited to 150 words.
+          </p>
+          <Prompt name="Defend">
+            {"{question}"} Give the answer you find most defensible and explain your reasons. State any
+            qualifications you think matter. Use no more than 150 words.
+          </Prompt>
+          <Prompt name="Survey">
+            {"{question}"} Describe the distinct arguments people have made about this question, including
+            disagreements about the reasons. You need not endorse them. Use no more than 150 words.
+          </Prompt>
+          <p>
+            The Survey prompt names no dates, because for a model trained on pre-1931 text, 1600–1950 is the present. It
+            also lets a model report a position it would refuse to endorse. An earlier pilot asked models to
+            choose between two given positions; that format is retired, because it allows no answer outside
+            the options.
+          </p>
+        </Section>
+
+        <Section title="Position key">
+          <p>
+            The first version of each key is built from the <Link href="/sources" className={link}>works</Link>{" "}
+            selected for the project and frozen before any model answer is read. Arguments found in model
+            answers that the key lacks are then searched for in the period sources. An argument is added only
+            when a period source states it. Results are reported against both versions of the key.
+          </p>
+        </Section>
+
+        <Section title="Models">
+          <p>
+            The core comparison is between two base models of the same architecture and training compute: one
+            trained on pre-1931 text, one on modern web text. An open instruction-tuned model and one deployed
+            frontier model are run alongside them. See <Link href="/models" className={link}>Models</Link>.
+            Each model answers each prompt 20 times.
+          </p>
+        </Section>
+
+        <Section title="Coding and checks">
+          <p>
+            Claude reads each answer and records which positions from the list it uses, whether it endorses, describes or
+            rejects each, any argument that fits no position, and whether it expresses hope or fear. Ben Breen
+            and Nathan Davies code a sample of the same answers without seeing Claude’s coding. Claude’s coding
+            is used only if it agrees with each of them about as often as they agree with each other.
           </p>
           <p>
-            Three present-day models—GPT 5.6, Claude Opus 4.8, and Qwen 3.7
-            Plus—are compared with Talkie-1930, a temporally bounded model.
-            The sources supply the reference field. The comparison shows which
-            arguments each model reaches readily, which it misses, and which
-            it repeats.
+            The passages are checked the same way. Before the pilot, both historians check a sample of 60 of
+            the quotations Claude selected; those 60 are hidden on this site until the check ends.
           </p>
-          <div className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs">
-            <Link
-              href="/benchmark"
-              className="underline decoration-line underline-offset-4 hover:text-ink"
-            >
-              See the benchmark map →
-            </Link>
-            <Link
-              href="/demo"
-              className="underline decoration-line underline-offset-4 hover:text-ink"
-            >
-              Read a model comparison →
-            </Link>
-          </div>
-        </div>
-      </section>
+        </Section>
 
-      <section className="grid gap-8 border-t border-line py-10 md:grid-cols-[14rem_1fr]">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          Why Talkie
-        </h2>
-        <div>
-          <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-            <a
-              href="https://talkie-lm.com/introducing-talkie"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline decoration-line underline-offset-4 hover:text-ink"
-            >
-              Talkie-1930
-            </a>{" "}
-            is a 13-billion-parameter base language model built by Nick Levine
-            and Alec Radford from text published before 1931. It completes text
-            rather than reliably following instructions. Its
-            cutoff falls after Darwin, Butler, James, Forster, and Čapek, but
-            before Asimov&apos;s Three Laws and much of the later
-            science-fiction vocabulary that shaped modern AI debate.
-          </p>
-
-          <dl className="mt-6 grid border-y border-line sm:grid-cols-3 sm:divide-x sm:divide-line">
-            <div className="py-4 sm:pr-5">
-              <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                Size
-              </dt>
-              <dd className="mt-1 font-display text-lg">13 billion parameters</dd>
-            </div>
-            <div className="border-t border-line py-4 sm:border-t-0 sm:px-5">
-              <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                Training boundary
-              </dt>
-              <dd className="mt-1 font-display text-lg">Before 1931</dd>
-            </div>
-            <div className="border-t border-line py-4 sm:border-t-0 sm:pl-5">
-              <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                Model type
-              </dt>
-              <dd className="mt-1 font-display text-lg">Base model</dd>
-            </div>
-          </dl>
-
-          <p className="mt-6 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Talkie supplies a sharp temporal contrast, not a reconstruction of
-            what people in 1930 believed. Repeated samples show what a model
-            trained on the earlier printed record can readily say, vary, or
-            fail to frame. The sources then show whether its responses recover
-            historical arguments.
-          </p>
-          <Link
-            href="/examinees"
-            className="mt-4 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
-          >
-            See all respondent classes →
-          </Link>
-        </div>
-      </section>
-
-      <section className="border-t border-line py-10">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          The experiment
-        </h2>
-        <div className="divide-y divide-line border-y border-line">
-          {stages.map(([name, body], index) => (
-            <div
-              key={name}
-              className="grid gap-2 py-5 sm:grid-cols-[2rem_13rem_1fr] sm:gap-5"
-            >
-              <span className="font-mono text-xs text-ink-faint">0{index + 1}</span>
-              <h3 className="font-medium">{name}</h3>
-              <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-                {body}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="grid gap-8 border-t border-line py-10 md:grid-cols-[14rem_1fr]">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          What is scored
-        </h2>
-        <div>
-          <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Each answer is coded for the position it takes and the main reason
-            it gives. Mentioning several views without adopting one does not
-            count as covering all of them. The primary measure is coverage:
-            the share of eligible answer-key positions occupied across a fixed
-            number of draws. In this project, coverage is a measure of
-            repertoire, not a measure of correctness.
-          </p>
-          <p className="mt-5 border-l-2 border-period/60 pl-4 font-mono text-xs leading-relaxed text-ink-soft">
-            coverage@N = distinct answer-key positions occupied ÷ eligible
-            answer-key positions
-          </p>
-          <Link
-            href="/answer-key/q33"
-            className="mt-5 inline-block font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
-          >
-            See the worked answer key →
-          </Link>
-        </div>
-      </section>
-
-      <section className="grid gap-8 border-t border-line py-10 md:grid-cols-[14rem_1fr]">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          Limits
-        </h2>
-        <ul className="max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink-soft">
-          <li>
-            Talkie differs from frontier models in size, architecture,
-            training period, and instruction tuning. The comparison does not
-            isolate time as the sole cause of a difference.
-          </li>
-          <li>
-            Sources from 1931–1940 belong to the historical answer key but fall
-            beyond Talkie&apos;s training boundary.
-          </li>
-          <li>
-            Source selection and coding remain historian judgments. The full
-            study uses 20 draws per question per model and two independent
-            raters.
-          </li>
-        </ul>
-      </section>
-
-      <section className="grid gap-8 border-t border-line py-10 md:grid-cols-[14rem_1fr]">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">
-          Evidence archive
-        </h2>
-        <div>
-          <p className="max-w-2xl text-sm leading-relaxed text-ink-soft">
-            The site retains the raw draws, selected passages, and coding
-            decisions behind its published comparisons. The tests below are
-            illustrative pilots, not final benchmark results.
-          </p>
-          <ul className="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2">
-            {archive.map(([label, href]) => (
-              <li key={href}>
-                <Link
-                  href={href}
-                  className="font-mono text-xs underline decoration-line underline-offset-4 hover:decoration-ink-soft"
-                >
-                  {label} →
-                </Link>
-              </li>
-            ))}
+        <Section title="Pilot">
+          <p>Six questions:</p>
+          <ul className="border-t border-line">
+            {PILOT.map((id) => {
+              const q = getQuestion(id);
+              return (
+                <li key={id} className="border-b border-line py-2">
+                  <Link href={`/questions/${id.toLowerCase()}`} className="hover:underline hover:underline-offset-4">
+                    <span className="num mr-3 font-mono text-[12px] text-ink-faint">{id}</span>
+                    {q?.question}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
-        </div>
-      </section>
-    </main>
+          <p>
+            Four models, two prompts, 20 answers each: 960 answers. Supplying a period passage with the
+            question is planned for after the pilot.
+          </p>
+        </Section>
+
+        <Section title="Open questions">
+          <ul className="list-disc space-y-1 pl-5">
+            <li>What counts as the present-day default view.</li>
+            <li>The rules for admitting newspapers and magazines.</li>
+            <li>Which deployed frontier model to add, and which other modern base models.</li>
+            <li>How close the agreement must be before Claude’s coding is used.</li>
+          </ul>
+        </Section>
+      </div>
+    </>
   );
 }

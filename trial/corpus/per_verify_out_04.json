@@ -1,0 +1,134 @@
+[
+ {"aid": "p60f57a", "position": "Weakens if reliance is on the machine: unused muscles deteriorate; self-reliance strengthens.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p9ace8f", "position": "None: reports two views (machine frees from work; machine intensifies work).",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "To manufacture this machine, to tend it, to govern it--in short, to use it--far more manual labour is called into requisition than ever turned the simple spinning-wheel, or teased the flax from the distaff."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "Witness the relative progress of the last century as compared with all the previous centuries; then attempt to conceive what will be the condition of humanity a century hence, knowing, as we do, that the applications of science through mental energy now proceed in geometric progression, reversing the dogma of Malthus and leading to the concept of production unlimited, consumption limited."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p692c6a", "position": "Weakens (despite opening denial): monotonous, unhealthy factory work degrades workers physically and mentally.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The machine has called into existence, for its own service, an immense population, ill fed and ill clothed."},
+   {"cid": "c2", "match": "same", "quote": "Families so circumstanced wear out their health and existence in unvarying labour--not requiring much immediate exertion of strength, it is true; but wearisome from its continued sameness, which gives no exercise whatever to the mind."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "It increases the population of the cities, and proportionately decreases that of the rural districts, and, as a consequence, increases the cost of living, as it advances the price of property in the cities."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "The result is dear food, dear rent, pestilential diseases, moral degradation."},
+   {"cid": "c7", "match": "related", "quote": "The value of labor and the importance of the mechanic decline with the application of machinery to all industrial processes."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pbceadd", "position": "Weakens the mind, not the body; the stated reasoning is incoherent.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p860e39", "position": "Depends: both views may be right (present vs. future generations); no reason given.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pf6cc41", "position": "Does not weaken: machines only make heavy work easier; reason truncated.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Those persons, therefore, who would now have been thus occupied, are compelled to elevate themselves, and to become competent to earn their living in a manner which is more worthy of an intelligent human being."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pbac394", "position": "Does not weaken: machine-using West (Italians) advanced intellectually; East did not.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Why should we, indeed, when we remember that both are alike untaught in the arts and sciences which form the basis of mechanical invention?"},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "Without industry and commerce, which these devotees of \"the higher life\" never weary of deprecating, how would the inhabitants of the Italian republics have achieved the intellectual and artistic conquests that make them the admiration of every historian?"},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "The Asiatics, not less gifted by nature, have stifled, under the double influence of fatalism and a sensual morality, the germs of civilization which might have given them a durable life and glory."}
+  ]},
+ {"aid": "pe74774", "position": "Does not weaken: machines support the brain as crutches support legs.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "Those persons, therefore, who would now have been thus occupied, are compelled to elevate themselves, and to become competent to earn their living in a manner which is more worthy of an intelligent human being."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p9ce05d", "position": "Does not weaken permanently: like a drug, machine temporarily substitutes for intelligence.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "In hypnosis there is a temporary paralysis or sleep of the higher brain centers, upon which depends deliberative, rational action, and, the lower (older) centers alone being active, the subject becomes a mere ideo-motor machine acting out every suggestion."},
+   {"cid": "c6", "match": "related", "quote": "Certainly all the evidence goes to show that no mind is capable of its best efforts when influenced by even small quantities of alcohol."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p25da6a", "position": "Weakening can occur; incoherent machines/machinery distinction, no clear reason.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pe4195f", "position": "Does not weaken overall: physical atrophy is outweighed by gains in reasoning and cooperation.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p0f4870", "position": "Depends: dependence is good, abuse bad; indispensable but must not enslave us.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The human labourer becomes the slave of the machine."},
+   {"cid": "c2", "match": "same", "quote": "They also tend to convert the independent laborer into a workman at wages, and the freeman into the slave of machinery, to enrich a few railway presidents and directors, and stock-jobbers."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

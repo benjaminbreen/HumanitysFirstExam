@@ -1,0 +1,26 @@
+[
+ {"aid": "pe3d298",
+  "position": "Does not weaken; mind still selects what to remember once machine method is learned.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Of such paramount importance is a retentive memory considered, that the improvement of the faculty by constant exercise is the first object in education, and artificial aids for its advantage have been invented."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p587f63",
+  "position": "Does not weaken; only reason is an irrelevant claim that machines cannot remove clouds.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "We alter not, we control not by our machinery the forces of nature, and all the advantage we have obtained is in conforming to them, and in suffering them, according to their own laws, or laws which we have not imposed on them, to operate for us."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

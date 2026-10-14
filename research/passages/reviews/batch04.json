@@ -1,0 +1,272 @@
+[
+ {
+  "stance": "q15-metchnikoff-prolongation-life",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Ought we to listen to the cry of humanity that life is too short and that it would be well to prolong it? Would it really be for the good of the human race to extend the duration of the life of man beyond its present limits? … If the question were merely one of prolonging the life of old people without modifying old age itself, such considerations would be justified. It must be understood, however, that the prolongation of life would be associated with the preservation of intelligence and of the power to work. In the earlier parts of this book I have given many examples which show the possibility of useful work being done by persons of advanced years. When we have reduced or abolished such causes of precocious senility as intemperance and disease, it will no longer be necessary to give pensions at the age of sixty or seventy years. The cost of supporting the old, instead of increasing, will diminish progressively.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Metchnikoff's own voice arguing that prolonging life is useful because it would preserve intelligence and capacity for work; the intestinal-poisoning cause and the instinct for death are not in this passage, and c3 is the translator's introduction, not Metchnikoff."
+ },
+ {
+  "stance": "q16-locke-essay-concerning",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "SELF is that conscious thinking thing,—whatever substance made up of, (whether spiritual or material, simple or compounded, it matters not)—which is sensible or conscious of pleasure and pain, capable of happiness or misery, and so is concerned for itself, as far as that consciousness extends. Thus every one finds that, whilst comprehended under that consciousness, the little finger is as much a part of himself as what is most so. Upon separation of this little finger, should this consciousness go along with the little finger, and leave the rest of the body, it is evident the little finger would be the person, the same person; and self then would have nothing to do with the rest of the body.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Locke's section 17 places the self in consciousness whatever substance makes it up, with the severed little finger example."
+ },
+ {
+  "stance": "q16-hume-treatise-human",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "A change in any considerable part of a body destroys its identity; but it is remarkable, that where the change is produced gradually and insensibly we are less apt to ascribe to it the same effect. The reason can plainly be no other, than that the mind, in following the successive changes of the body, feels an easy passage from the surveying its condition in one moment to the viewing of it in another, and at no particular time perceives any interruption in its actions. From which continued perception, it ascribes a continued existence and identity to the object. But whatever precaution we may use in introducing the changes gradually, and making them proportionable to the whole, it is certain, that where the changes are at last observed to become considerable, we make a scruple of ascribing identity to such different objects. There is, however, another artifice, by which we may induce the imagination to advance a step farther; and that is, by producing a reference of the parts to each other, and a combination to some common end or purpose. A ship, of which a considerable part has been changed by frequent reparations, is still considered as the same; nor does the difference of the materials hinder us from ascribing an identity to it. The common end, in which the parts conspire, is the same under all their variations, and affords an easy transition of the imagination from one situation of the body to another.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hume on gradual change and the repaired ship, where identity is ascribed because the imagination passes easily across the change; c2 adds that the identity of the mind is 'only a fictitious one'."
+ },
+ {
+  "stance": "q16-reid-essays-intellectual",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Another necessary caution in this matter is, that we ought not to confound the organs of perception with the being that perceives. Perception must be the act of some being that perceives. The eye is not that which sees ; it is only the organ by which we see. The ear is not that which hears, but the organ by which we hear. And so of the rest.* A man cannot see the satellites of Jupiter but by a telescope. Does he conclude from this, that it is the telescope that sees those stars ? By no means ; such a conclusion would be absurd. It is no less absurd to conclude that it is the eye that sees or the ear that hears. The telescope is an artificial organ of sight, but it sees not. The eye is a natural organ of sight, by which we see ; but the natural organ sees as little as the artificial.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Reid distinguishes the organs of perception from the being that perceives, comparing the eye to a telescope as natural and artificial organs; the amputated-limb and indivisibility argument in the summary is not in these candidates."
+ },
+ {
+  "stance": "q16-poe-man-that",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "“Strange you shouldn’t know me, though, isn’t it? Pompey, bring me that leg!” Here Pompey handed the bundle a very capital cork leg, all ready already dressed, which it screwed on in a trice, and then it stood upright before my eyes. Devil the word could I say. “And a bloody action it was ,” continued the thing, as if in a soliloquy; “but then one musn’t fight with the Bugaboos and Kickapoos, and think of coming off with a mere scratch. Pompey, I’ll thank you now for that arm. Thomas (turning to me) is decidedly the best hand at a cork leg; he lives in Race street, No. 79 — stop, I’ll give you his card; but if you should ever want an arm, my dear fellow, you must really let me recommend you to Bishop.” Here Pompey screwed on an arm. … “O yes, by the by, my eye — here, Pompey, you scamp, screw it in! Those Kickapoos are not so very slow at a gouge — but he's a belied man, that Dr. Williams, after all; you can’t imagine how well I see with the eyes of his make.” I now began very clearly to perceive that the object before me was nothing more or less than my new acquaintance, Brevet Brigadier General John A. B. C. Smith. The manipulations of Pompey had made, I must confess, a very striking difference in the appearance of the personal man.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The scene in which General Smith is assembled by his servant from a cork leg, arm, wig, teeth and eye; the story states no thesis and the No reading is interpretive."
+ },
+ {
+  "stance": "q16-baum-tin-woodman",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "None of the candidates contains the scene in which the Tin Woodman meets his old head; c3 describes his flesh being replaced with tin but not the dispute over whether he is the same person."
+ },
+ {
+  "stance": "q16-belyaev-professor-dowell",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "На нее смотрела человеческая голова, — одна голова, без туловища. … Голова внимательно и скорбно смотрела на мисс Адамс, мигая веками. Не могло быть сомнения: голова жила, отделенная от тела, жила самостоятельной и сознательной жизнью. Несмотря на потрясающее впечатление, мисс Адамс не могла не заметить, что эта голова была удивительно похожа на недавно умершего известного ученого, хирурга, профессора Доуэля, прославившегося своими опытами оживления органов, вырезанных из свежего трупа. Мисс Адамс не раз была на его блестящих публичных лекциях, и ей хорошо запомнился этот высокий лоб, характерный профиль, волнистые, посеребренные сединой русые волосы головы и бороды, голубые глаза… Да, это была голова профессора Доуэля! Только губы и нос его стали тоньше, суше, виски и щеки втянулись, глаза глубже запали в орбиты, и белая кожа приобрела желто темный оттенок мумий… Но в глазах светилась живая человеческая мысль…",
+  "translation": "A human head was looking at her, a head alone, without a trunk. … The head looked at Miss Adams attentively and sorrowfully, blinking its eyelids. There could be no doubt: the head was alive, separated from the body, living an independent and conscious life. Despite the shattering impression, Miss Adams could not help noticing that this head was remarkably like the recently deceased famous scientist and surgeon Professor Dowell, who had become celebrated for his experiments in reviving organs cut from a fresh corpse. Miss Adams had more than once attended his brilliant public lectures, and she well remembered that high forehead, the characteristic profile, the wavy, grey-silvered light-brown hair of the head and beard, the blue eyes… Yes, it was the head of Professor Dowell! Only his lips and nose had become thinner and drier, his temples and cheeks had sunk in, his eyes had sunk deeper into their sockets, and the white skin had taken on the yellow-dark tint of mummies… But in the eyes shone living human thought…",
+  "summaryCheck": "ok",
+  "note": "Miss Adams sees the severed head living a conscious life on machines and recognizes it as Professor Dowell's."
+ },
+ {
+  "stance": "q16-bernal-world-flesh",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Sooner or later some eminent physiologist will have his neck broken in a super-civilized accident or find ^his body cells worn beyond capacity for repair. He will then be forced to decide whether to abandon his body or his life. After all it is brain that counts, and to have a brain suffused by fresh and cor- rectly prescribed blood is to be alive — to think. The experiment is not impossible; it has already been performed on a dog and that is three-quarters of the way •towards achieving it with a human sub- ject. But only a Brahmin philosopher would care to exist as an isolated brain, perpetually centred on its own meditations. Permanently to break off all com- munications with the world is as good as to be dead. However, the channels of communication are ready to hand. Al- ready we know the essential electrical nature of nerve impulses ; it is a matter of delicate surgery to attach nerves per- manently to apparatus which will either send messages to the nerves or receive them. And the brain thus connected up continues an existence, purely mental and with very different delights from those of the body, but even now perhaps preferable to complete extinction.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bernal's statement that 'it is brain that counts' and that a brain connected to apparatus continues an existence, the first step of his mechanized man."
+ },
+ {
+  "stance": "q16-jones-jameson-satellite",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Finally, after consummating his desires and having his efforts crowned with success, he placed the brain within the head of a machine. The brain was brought to consciousness. The creature's body was discarded after the all-important brain had been removed. As Professor Jameson came to, he became aware of a strange feeling. He was sick. The doctors had not expected him to live; they had frankly told him so--but he had cared little in view of the long, happy years stretched out behind him. Perhaps he was not to die yet. He wondered how long he had slept. How strange he felt--as if he had no body. Why couldn't he open his eyes? He tried very hard. A mist swam before him. His eyes had been open all the time but he had not seen before. That was queer, he ruminated. All was silent about his bedside. Had all the doctors and nurses left him to sleep--or to die?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The professor's brain is placed in a machine and he wakes with his own memories of his deathbed, nephew and doctors."
+ },
+ {
+  "stance": "q17-sismondi-new-principles",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Partout où cette calamité a été éprouvée, partout OÙ le travail a été vainement offert par ceux qui n'ont que leur travail pour vivre , et qui péris- sent de misère, au milieu de subsistances sura- bondantes qu'ils ne peuvent acheter, ce sont nos lois , ce sont nos institutions qui ont causé cette disproportion. Par un zèle imprudent, nos gou- vernemens ont troublé l'équilibre qu'avait établi la nature. L'instruction religieuse, la législation, l'organisation sociale ont tendu à faire naître une population que n'appelaient point les besoins de la société, en même temps que les législateurs , se proposant pour but l'accroissement des ri- chesses , non du bonheur de l'homme , s'étu- diaient à économiser sur la quantité de travail humain nécessaire pour accomplir l'ouvrage de- mandé. Au moment même où la consommation était tellement limitée, que tous les marchés étaient encombrés, on voyait les gouvernemens chercher avec une égale ardeur à multiplier les naissances, et à diminuer dans tous les arts le nombre de bras dont on avait besoin. C'est alors que la proportion entre les divers progrès rela- tifs de la société a été rompue , et que la souf- france est devenue universelle.",
+  "translation": "Wherever this calamity has been experienced, wherever labour has been offered in vain by those who have only their labour to live on, and who perish of want in the midst of superabundant subsistence that they cannot buy, it is our laws, it is our institutions that have caused this disproportion. Through imprudent zeal our governments have disturbed the equilibrium that nature had established. Religious instruction, legislation and social organization have tended to bring into being a population that the needs of society did not call for, at the same time as legislators, taking as their aim the increase of wealth and not the happiness of man, strove to economize on the quantity of human labour needed to accomplish the work demanded. At the very moment when consumption was so limited that all the markets were glutted, governments were seen seeking with equal ardour to multiply births and to diminish in all the arts the number of hands that were needed. It was then that the proportion between the various relative advances of society was broken, and that suffering became universal.",
+  "summaryCheck": "ok",
+  "note": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates."
+ },
+ {
+  "stance": "q17-ricardo-principles-political",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "None of the candidates is from the chapter On Machinery; c3 argues that cheaper goods from machinery are absorbed by wage adjustment, which is a different argument from the concession that machinery can reduce the fund employing labour."
+ },
+ {
+  "stance": "q17-babbage-economy-machinery",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "404. One of the objections most frequently urged against machinery is, that it has a tendency to supersede much of the hand labour which was previously employed; and in fact unless a machine diminished the labour necessary to make an article, it could never come into use. But if it have that effect, its owner, in order to extend the sale of his produce, will be obliged to undersell his competitors; this will induce them also to introduce the new machine, and the effect of this competition will soon cause the article to fall, until the profits on capital, under the new system, shall be reduced to the same rate as under the old. Although, therefore, the use of machinery has at first a tendency to throw labour out of employment, yet the increased demand consequent upon the reduced price, almost immediately absorbs a considerable portion of that labour, and perhaps, in some cases, the whole of what would otherwise have been displaced.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Babbage's section 404 states that displaced labour is largely or wholly reabsorbed through increased demand at lower prices."
+ },
+ {
+  "stance": "q17-ure-philosophy-manufactures",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "It is certainly of great consequence that the opera* tives themselves should be satisfied that improvements in machinery tend to raise the amount of money that they gain, individually and generally, for the same mzmber of hours* work. This fact is demonstrated by the infallible rules of arithmetic, in actual in- stances of several average fine spinning-mills; and it is here also proved that the improvements in machinery specified create a &esh demand for youi^ persons, whose wages are augmented in consequences. And as the price of the article in the market will be lowered, from the improved facility of manufacture, more of it will be consumed ; hence more hands will be required in the several subsidiary departments, and the wages throughout the whole range of cotton- working will be better than before.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Ure claims improvements in machinery raise operatives' earnings and wages throughout the trade; his description of cheerful child piecers is in c1."
+ },
+ {
+  "stance": "q17-bastiat-economic-sophisms",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "To get at the root of this sophism, it is necessary only to reflect that human labour is not the _end_, but the _means. It never remains unemployed_. If one obstacle is removed, it does battle with another; and society is freed from two obstacles by the same amount of labour which was formerly, required for the removal of one. If the labour of the cooper is rendered unnecessary in one department, it will soon take another direction. But how and from what source will it be remunerated? From the same source exactly from which it is remunerated at present; for when a certain amount of labour becomes disposable by the removal of an obstacle, a corresponding amount of remuneration becomes disposable also.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bastiat's statement that labour is a means and not an end and that labour freed by machinery finds other employment and pay."
+ },
+ {
+  "stance": "q17-mill-principles-political",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Even the industrial arts might be as earnestly and as successfully cultivated, with this sole difference, that instead of serving no purpose but the increase of wealth, industrial improvements would produce their legitimate effect, that of abridging labour. Hitherto it is questionable if all the mechanical inventions yet made have lightened the day's toil of any human being. They have enabled a greater population to live the same life of drudgery and imprisonment, and an increased number of manufacturers and others to make fortunes. They have increased the comforts of the middle classes. But they have not yet begun to effect those great changes in human destiny, which it is in their nature and in their futurity to accomplish. Only when, in addition to just institutions, the increase of mankind shall be under the deliberate guidance of judicious foresight, can the conquests made from the powers of nature by the intellect and energy of scientific discoverers, become the common property of the species, and the means of improving and elevating the universal lot.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Mill's passage that it is questionable whether all mechanical inventions have lightened the day's toil of any human being."
+ },
+ {
+  "stance": "q17-george-progress-poverty",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "And, unpleasant as it may be to admit it, it is at last becoming evident that the enormous increase in productive power which has marked the present century and is still going on with accelerating ratio, has no tendency to extirpate poverty or to lighten the burdens of those compelled to toil. It simply widens the gulf between Dives and Lazarus, and makes the struggle for existence more intense. The march of invention has clothed mankind with powers of which a century ago the boldest imagination could not have dreamed. But in factories where labor-saving machinery has reached its most wonderful development, little children are at work; wherever the new forces are anything like fully utilized, large classes are maintained by charity or live on the verge of recourse to it; amid the greatest accumulations of wealth, men die of starvation, and puny infants suckle dry breasts; while everywhere the greed of gain, the worship of wealth, shows the force of the fear of want. The promised land flies before us like the mirage. The fruits of the tree of knowledge turn as we grasp them to apples of Sodom that crumble at the touch.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "George states that increased productive power has not lessened poverty or toil and that children work where labour-saving machinery is most developed."
+ },
+ {
+  "stance": "q17-gandhi-hind-swaraj",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is machinery that has impoverished India. It is difficult to measure the harm that Manchester has done to us. It is due to Manchester that Indian handicraft has all but disappeared. But I make a mistake. How can Manchester be blamed ? We wore Manchester cloth, and this is why Manchester wove it, I was delighted when I read about the bravery of Bengal. There are no cloth-millfi in that Presidency. They were, there- fore, able to restore the original hand-weaving occupation. It is true, Bengal encourages the mill-industry of Bombay. If Bengal had proclaim- ed a boycott of all machine-made goods, it would have been much better. Machinery has begun to desolate Europe. Buibation is now knocking at the English gates. Machinery is the chief symbol of modern civili- sation; it represents a great sin. The workers in the mills of Bombay have becomf slaves. The condition of the women wojkiacr in the mills is shocking. When the^e were nomills^ these women were not starving.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Gandhi's Editor says machinery has impoverished India, destroyed handicraft, begun to desolate Europe and enslaved the Bombay mill-workers."
+ },
+ {
+  "stance": "q18-smith-inquiry-into",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "In the progress of the division of labour, the employment of the far greater part of those who live by labour, that is, of the great body of the people, comes to be confined to a few very simple operations; frequently to one or two. But the understandings of the greater part of men are necessarily formed by their ordinary employments. The man whose whole life is spent in performing a few simple operations, of which the effects, too, are perhaps always the same, or very nearly the same, has no occasion to exert his understanding, or to exercise his invention, in finding out expedients for removing difficulties which never occur. He naturally loses, therefore, the habit of such exertion, and generally becomes as stupid and ignorant as it is possible for a human creature to become. The torpor of his mind renders him not only incapable of relishing or bearing a part in any rational conversation, but of conceiving any generous, noble, or tender sentiment, and consequently of forming any just judgment concerning many even of the ordinary duties of private life. Of the great and extensive interests of his country he is altogether incapable of judging; and unless very particular pains have been taken to render him otherwise, he is equally incapable of defending his country in war.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Smith's passage on the worker confined to a few simple operations becoming as stupid and ignorant as a human creature can become; he attributes this to division of labour, not machinery."
+ },
+ {
+  "stance": "q18-ure-philosophy-manufactures",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "In fact, the division, or rather adaptation of labour to the diffe- rent talents of men, is little thought of in factory em- plojrment . On the contrary, wherever a process requires peculiar dexterity and steadiness of hand, it is with- drawn as soon as possible from the cunning workman, who is prone to irregularities of many kinds, and it is placed in charge of a peculiar mechanism, so self-re- gulating, that a child may superintend it. … The principle of the factory system then is, to substi- tute mechanical science for hand skilly and the partition of a process into its essential constituents, for the divi-i sion or graduation of labour among artisans. On the handicraft plan,, labour more or less skilled, was usually, the most expensive element of production — M^teriam superabat opus; but on the automatic plan, skilled labour gets progressively superseded, and will, even- tually, be replaced by mere overlookers of machines.",
+  "translation": null,
+  "summaryCheck": "other: Ure also argues (c1) that tending self-acting machines removes the 'cramping of the faculties' caused by division of labour and enlarges the operative's views, so he holds that skill is superseded without the worker's mind being diminished.",
+  "note": "Ure states that any process needing dexterity is taken from the skilled workman and given to a self-regulating machine a child can superintend."
+ },
+ {
+  "stance": "q18-tocqueville-democracy-america",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "When a workman is unceasingly and exclusively engaged in the fabrication of one thing, he ultimately does his work with singular dexterity; but at the same time he loses the general faculty of applying his mind to the direction of the work. He every day becomes more adroit and less industrious; so that it may be said of him, that in proportion as the workman improves the man is degraded. … In proportion as the principle of the division of labor is more extensively applied, the workman becomes more weak, more narrow-minded, and more dependent. The art advances, the artisan recedes. … Whereas the workman concentrates his faculties more and more upon the study of a single detail, the master surveys a more extensive whole, and the mind of the latter is enlarged in proportion as that of the former is narrowed. In a short time the one will require nothing but physical strength without intelligence; the other stands in need of science, and almost of genius, to insure success. This man resembles more and more the administrator of a vast empire--that man, a brute.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tocqueville on the workman who improves as the man is degraded, and the art that advances while the artisan recedes."
+ },
+ {
+  "stance": "q18-ruskin-stones-venice",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "§ XII. And observe, you are put to stern choice in this matter. You must either made a tool of the creature, or a man of him. You cannot make both. Men were not intended to work with the accuracy of tools, to be precise and perfect in all their actions. If you will have that precision out of them, and make their fingers measure degrees like cog-wheels, and their arms strike curves like compasses, you must unhumanize them. All the energy of their spirits must be given to make cogs and compasses of themselves. All their attention and strength must go to the accomplishment of the mean act. The eye of the soul must be bent upon the finger-point, and the soul's force must fill all the invisible nerves that guide it, ten hours a day, that it may not err from its steely precision, and so soul and sight be worn away, and the whole human being be lost at last--a heap of sawdust, so far as its intellectual work in this world is concerned; saved only by its Heart, which cannot go into the form of cogs and compasses, but expands, after the ten hours are over, into fireside humanity.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Ruskin's passage that one must make either a tool or a man of the workman, not both."
+ },
+ {
+  "stance": "q18-marx-capital-volume",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "But it is only in the factory system that this inversion for the first time acquires technical and palpable reality. By means of its conversion into an automa ton, the instrument of labour confronts the labourer, during the labour-process, in the shape of capital, of dead labour, that dominates, and pumps dry, living labour-power. The separa tion of the intellectual powers of production from the manual labour, and the conversion of those powers into the might of capital over labour, is, as we have already shown, finally com pleted by modern industry erected on the foundation of machinery. The special skill of each individual insignificant factory operative vanishes as an infinitesimal quantity before the science, the gigantic physical forces, and the mass of labour that are embodied in the factory mechanism and, together with that mechanism, constitute the power of the \"master.\"",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Marx states that the special skill of the individual operative vanishes before the science and forces embodied in the factory mechanism."
+ },
+ {
+  "stance": "q18-veblen-theory-business",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "For aometbing more than a bandred years past this change in the habllB of thought of the workman has been commonly spoken of as a deterioration or nomblng of his intelligence. Bat that seems too sweeping a characterization of the change brought on by habituation to machine work. It is safe to say that soch habitnation brings a change in the workman's habits of thought, — in the direction, method, and content of his thinking, — heightening his intelligence for some pur^ poses and lowering it for certain others. No doubt, on the whole, the machine's discipline lowers Uie intelligenoe of the workman for such purposes as were rated high as marks of intelligence before the com- ing of the machine, but it appears likewise to heighten his intelligence for such purposes as have been brought to the front by the machine. If he is l^ nature scantily endowed with the aptitudes that would make him thhik effectively in terms of the machine process, if he has intel- lectual capacity for other things and not for this, then the tnOning of the machine may fairly be said to lower his intellic^oe, since it lUnders the full development of the only capacities of which he is posaessed. The resulting difference in intellectual training is a difference in kind and direction, not necessarily in degree.",
+  "translation": null,
+  "summaryCheck": "other: Veblen says machine discipline lowers the workman's intelligence for purposes valued before the machine and raises it for others, a difference in kind, so 'does not lower' overstates.",
+  "note": "Veblen's footnote rejects the view that machine work simply numbs the workman's intelligence; the OCR is poor but legible."
+ },
+ {
+  "stance": "q18-taylor-principles-scientific",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "The writer asserts as a general principle (and he proposes to give illustrations tending to prove the fact later in this paper) that in almost all of the mechanic arts the science which underlies each act of each workman is so great and amounts to so much that the workman who is best suited to actually doing the work is incapable of fully understanding this science, without the guidance and help of those who are working with him or over him, either through lack of education or through insufficient mental capacity. In order that the work may be done in accordance with scientific laws, it is necessary that there shall be a far more equal division of the responsibility between the management and the workmen than exists under any of the ordinary types of management. Those in the management whose duty it is to develop this science should also guide and help the workman in working under it, and should assume a much larger share of the responsibility for results than under usual conditions is assumed by the management.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Taylor's statement that the workman best suited to the work cannot understand its science without guidance from management, which must take a larger share of responsibility."
+ },
+ {
+  "stance": "q18-ford-my-life",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Repetitive labour--the doing of one thing over and over again and always in the same way--is a terrifying prospect to a certain kind of mind. It is terrifying to me. I could not possibly do the same thing day in and day out, but to other minds, perhaps I might say to the majority of minds, repetitive operations hold no terrors. In fact, to some types of mind thought is absolutely appalling. To them the ideal job is one where the creative instinct need not be expressed. The jobs where it is necessary to put in mind as well as muscle have very few takers--we always need men who like a job because it is difficult. The average worker, I am sorry to say, wants a job in which he does not have to put forth much physical exertion--above all, he wants a job in which he does not have to think. Those who have what might be called the creative type of mind and who thoroughly abhor monotony are apt to imagine that all other minds are similarly restless and therefore to extend quite unwanted sympathy to the labouring man who day in and day out performs almost exactly the same operation.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Ford says repetitive work terrifies him but not most workers, who want jobs in which they need not think; his claim that it injures no one is in c2."
+ },
+ {
+  "stance": "q19-sismondi-new-principles",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Et d'abord, en admettant que les salaires des ouvriers s'élèvent en raison de l'augmentation de leurs produits , il en résultera qu'ils pourront gagner, par six heures de travail, le salaire qu'ils gagnaient auparavant par douze; ils seront appelés à décider s'ils veu- lent donner au repos, aux jouissances, à la cul- ture de leur esprit , le temps qu'ils ne sont plus obligés de consacrer à fournir aux premiers be- soins de la vie, ou s'ils veulent au contraire tra- vailler autant qu'ils faisaient auparavant, pour acheter à ce prix des jouissances de luxe. … Mais nous savons bien , et l'histoire du monde commerçant ne nous apprend que trop , que ce n'est pas l'ouvrier qui profite de la multiplication des produits du travail ; son salaire n'est point augmenté; M. Ricardo lui-même a dit ailleurs qu'il ne doit point l'être, si l'on veut que la richesse publique ne cesse pas de s'accroître. Une funeste expérience nous apprend au contraire qu'il est presque toujours diminué en raison même de cette multiplication.",
+  "translation": "And first, supposing that the wages of the workers rise in proportion to the increase of their products, it will follow that they can earn by six hours of work the wage they previously earned by twelve; they will be called on to decide whether they wish to give to rest, to enjoyments, to the cultivation of their minds, the time they are no longer obliged to devote to supplying the first needs of life, or whether on the contrary they wish to work as much as they did before, in order to buy luxury enjoyments at that price. … But we know well, and the history of the commercial world teaches us only too well, that it is not the worker who profits from the multiplication of the products of labour; his wage is not increased; Mr. Ricardo himself has said elsewhere that it must not be, if public wealth is to continue to grow. A fatal experience teaches us on the contrary that it is almost always diminished in proportion to that very multiplication.",
+  "summaryCheck": "ok",
+  "note": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1."
+ },
+ {
+  "stance": "q19-bastiat-economic-sophisms",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "What misleads the adversaries of machinery and foreign importations is, that they judge of them by their immediate and transitory effects, instead of following them out to their general and definitive consequences. The immediate effect of the invention and employment of an ingenious machine is to render superfluous, for the attainment of a given result, a certain amount of manual labour. But its action does not stop there. For the very reason that the desired result is obtained with fewer efforts, the product is handed over to the public at a lower price; and the aggregate of savings thus realized by all purchasers, enables them to procure other satisfactions; that is to say, to encourage manual labour in general to exactly the extent of the manual labour which has been saved in the special branch of industry which has been recently improved. So that the level of labour has not fallen, while that of enjoyments has risen.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bastiat states that the machine's product reaches the public at a lower price and the savings of all purchasers employ labour elsewhere."
+ },
+ {
+  "stance": "q19-mill-principles-political",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "All three candidates are from the chapter on the stationary state; none contains the argument for workers' co-operative ownership from the chapter on the futurity of the labouring classes."
+ },
+ {
+  "stance": "q19-marx-capital-volume",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Machinery produces relative surplus- value ; not only by directly depreciating the value of labour-power, and by in directly cheapening the same through cheapening the com modities that enter into its reproduction, but also, when it is first introduced sporadically into an industry, by converting the labour employed by the owner of that machinery, into labour of a higher degree and greater efficacy, by raising the social value of the article produced above its individual value, and thus enabling the capitalist to replace the value of a day s labour-power by a smaller portion of the value of a day s pro duct. During this transition period, when the use of machinery is a sort of monopoly, the profits are therefore exceptional, and the capitalist endeavours to exploit thoroughly \" the sunny time of this his first love,\" by prolonging the working day as much as possible. The magnitude of the profit whets his appetite for more profit.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Marx explains that machinery cheapens labour-power so the capitalist replaces a day's labour-power with a smaller share of the day's product; the claim that machinery is not meant to lighten toil is not in these candidates."
+ },
+ {
+  "stance": "q19-george-progress-poverty",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "But this new equilibrium established, further advances in productive power, and the tendency in this direction would be greatly accelerated, would result in still increasing rent, not at the expense of wages and interest, but by new gains in production, which, as rent would be taken by the community for public uses, would accrue to the advantage of every member of the community. Thus, as material progress went on, the condition of the masses would constantly improve. Not merely one class would become richer, but all would become richer; not merely one class would have more of the necessaries, conveniences, and elegancies of life, but all would have more. For, the increasing power of production, which comes with increasing population, with every new discovery in the productive arts, with every labor-saving invention, with every extension and facilitation of exchanges, could be monopolized by none. That part of the benefit which did not go directly to increase the reward of labor and capital would go to the state—that is to say, to the whole community.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "George says that if rent were taken by the community, the gains of every labour-saving invention could be monopolized by none and would go to the whole community."
+ }
+]

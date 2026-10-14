@@ -1,0 +1,134 @@
+[
+ {"aid": "a99d185", "position": "Depends: machines cripple powers when doing what we do better; wise otherwise.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He has long passed the stage at which machines are only used for doing work repulsive to an average man, or for doing what could be as well done by a machine as a man, and he instinctively expects a machine to be invented whenever any product of industry becomes sought after."},
+   {"cid": "c3", "match": "related", "quote": "must have noticed many instances in which the workmen were enabled to execute their task with precision, although labouring under the disadvantages of the loss of an arm or leg."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "I am thinking of the modern machine, which is as it were alive, and to which the man is auxiliary, and not of the old machine, the improved tool, which is auxiliary to the man, and only works as long as his hand is"}
+  ]},
+ {"aid": "aa48bd6", "position": "Does not weaken: offloading rote tasks frees people for higher thinking.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "same", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a97dce3", "position": "None: states two views on machines and work; no verdict on capacities.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "All unintellectual labour, all monotonous, dull labour, all labour that deals with dreadful things, and involves unpleasant conditions, must be done by machinery."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "He who has habitually worked ten hours a day, will employ the half hour saved by the new machine in gratifying some other want; and as each new machine adds to these gratifications, new luxuries will open to his view, which continued enjoyment will as surely render necessary to his happiness."},
+   {"cid": "c5", "match": "related", "quote": "The multiplication of labour has become a necessity for us, and as long as that goes on no ingenuity in the invention of machines will be of any real use to us."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "but that after a while they will find that there is not so much work to do as they expected, and that then they will have leisure to reconsider the whole subject"},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "ae21e80", "position": "Depends: blind reliance weakens; right use strengthens by easing hard operations.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."}
+  ]},
+ {"aid": "ac8ac16", "position": "Does not weaken: tools are neutral; the user's attitude and virtue decide.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c3", "match": "related", "quote": "If you will have that precision out of them, and make their fingers measure degrees like cog-wheels, and their arms strike curves like compasses, you must unhumanize them."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a083114", "position": "Weakens: offloaded skills atrophy from disuse, creating dependency.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Not least convincing is the fact that a considerable proportion of those who are held unremittingly to the service of the machine process “break down,” fall into premature decay."},
+   {"cid": "c2", "match": "related", "quote": "But the servant glides by imperceptible approaches into the master; and we have come to such a pass that, even now, man must suffer terribly on ceasing to benefit the machines."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c5", "match": "related", "quote": "our bondage will steal upon us noiselessly and by imperceptible approaches"},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a24bdbb", "position": "Does not weaken: machines augment by freeing cognitive resources from mundane labour.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "aff2d64", "position": "Weakens: dependence atrophies faculties; the tool becomes master (Forster).",
+  "matches": [
+   {"cid": "c1", "match": "same", "quote": "But the servant glides by imperceptible approaches into the master; and we have come to such a pass that, even now, man must suffer terribly on ceasing to benefit the machines."},
+   {"cid": "c2", "match": "related", "quote": "Not least convincing is the fact that a considerable proportion of those who are held unremittingly to the service of the machine process “break down,” fall into premature decay."},
+   {"cid": "c3", "match": "related", "quote": "Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life."},
+   {"cid": "c4", "match": "related", "quote": "True, from a low materialistic point of view, it would seem that those thrive best who use machinery wherever its use is possible with profit; but this is the art of the machines—they serve that they may rule."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "our bondage will steal upon us noiselessly and by imperceptible approaches"},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "In his reliance upon the use of steam he has been betrayed into increasing and multiplying."}
+  ]},
+ {"aid": "ac34acf", "position": "Does not weaken overall: some skills atrophy, others are amplified and redefined.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a396452", "position": "Depends: trusting the machine deteriorates the workman's strength; self-reliance increases it.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "He will be proficient in his craft in much the same degree in which he is master of the matter-of-fact logic involved in mechanical processes of pressure, velocity, displacement and the like; not in proportion as he can adroitly impart to the available materials the workmanlike turn of his own manual force and dexterity, nor in the degree in which he may be able shrewdly to guess the run of the season or the variations of temperature and moisture that condition the effectual serviceability of natural processes in handicraft."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "Conceit may puff a man up, but never prop him up; and there is too visible distress and hopelessness in men's aspects to admit of the supposition that they have any stable support of faith in themselves."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "ac804dd", "position": "Does not weaken: transforms capacities, freeing people from toil for higher work.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a448c67", "position": "Depends: use benefits, abuse weakens; machines cannot do thinking or designing.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "This, however, is, of course, the result of our property system and our system of competition."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "A machine is merely a supplementary limb; this is the be all and end all of machinery."}
+  ]}
+]

@@ -1,0 +1,6894 @@
+{
+ "version": "0.1",
+ "date": "2026-09-29",
+ "works": [
+  {
+   "id": "plato-phaedrus",
+   "author": "Plato",
+   "authorShort": "Plato",
+   "title": "Phaedrus",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": -370,
+   "earlier": true,
+   "language": "Greek",
+   "kind": "other",
+   "wikidata": "Q555862",
+   "textUrl": "https://www.gutenberg.org/ebooks/1636",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Benjamin Jowett translation, Gutenberg #1636"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "7231742a28",
+     "role": "main",
+     "language": "Greek",
+     "status": "ok",
+     "file": "canon/texts/7231742a28.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "aristotle-nicomachean-ethics",
+   "author": "Aristotle",
+   "authorShort": "Aristotle",
+   "title": "Nicomachean Ethics",
+   "originalTitle": "Ἠθικὰ Νικομάχεια",
+   "otherTitles": [],
+   "year": -340,
+   "earlier": true,
+   "language": "Greek",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://sacred-texts.com/cla/ari/nico/nico053.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "W. D. Ross translation (1908); several public-domain versions online."
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "973a3fc26c",
+     "role": "main",
+     "language": "Greek",
+     "status": "ok",
+     "file": "canon/texts/973a3fc26c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "aristotle-politics",
+   "author": "Aristotle",
+   "authorShort": "Aristotle",
+   "title": "Politics",
+   "originalTitle": "Πολιτικά",
+   "otherTitles": [],
+   "year": -330,
+   "earlier": true,
+   "language": "Greek",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/6762",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "William Ellis translation, Project Gutenberg #6762."
+   },
+   "questions": [
+    "Q14",
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "b12d1c8e62",
+     "role": "main",
+     "language": "Greek",
+     "status": "ok",
+     "file": "canon/texts/b12d1c8e62.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ovid-metamorphoses",
+   "author": "Ovid",
+   "authorShort": "Ovid",
+   "title": "Metamorphoses",
+   "originalTitle": "Metamorphoses",
+   "otherTitles": [],
+   "year": 8,
+   "earlier": true,
+   "language": "Latin",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/Translation:Metamorphoses/Pygmalion_and_Galatea",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Many public-domain English translations."
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "5f0ad818da",
+     "role": "main",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/5f0ad818da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "loyola-letter-perfect",
+   "author": "Ignatius of Loyola",
+   "authorShort": "Loyola",
+   "title": "Letter on Perfect Obedience (to the Jesuits of Portugal)",
+   "originalTitle": "Carta de la obediencia",
+   "otherTitles": [],
+   "year": 1553,
+   "earlier": true,
+   "language": "Spanish",
+   "kind": "letter",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/DeObedienciaPerfecta",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Letters and Instructions (1914)",
+    "url": "https://archive.org/details/LettersAndInstructionsOfStIgnatius"
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "1e60b4dd5b",
+     "role": "main",
+     "language": "Spanish",
+     "status": "ok",
+     "file": "canon/texts/1e60b4dd5b.txt"
+    },
+    {
+     "id": "1e60b4dd5b-en",
+     "role": "translation",
+     "language": "Spanish",
+     "status": "ok",
+     "file": "canon/texts/1e60b4dd5b-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "napier-mirifici-logarithmorum",
+   "author": "John Napier",
+   "authorShort": "Napier",
+   "title": "Mirifici Logarithmorum Canonis Descriptio",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1614,
+   "earlier": false,
+   "language": "Latin",
+   "kind": "treatise",
+   "wikidata": "Q107644956",
+   "textUrl": "https://archive.org/details/bim_early-english-books-1475-1640_mirifici-logarithmorum-c_napier-john_1614_0",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Edward Wright, 1616",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_a-description-of-the-adm_napier-john_1616"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [
+    {
+     "id": "71e9471113",
+     "role": "main",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/71e9471113.txt"
+    },
+    {
+     "id": "71e9471113-en",
+     "role": "translation",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/71e9471113-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bacon-novum-organum",
+   "author": "Francis Bacon",
+   "authorShort": "Bacon",
+   "title": "Novum Organum",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1620,
+   "earlier": false,
+   "language": "Latin",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/45988",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Gutenberg #45988 English translation"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "bac0622689",
+     "role": "main",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/bac0622689.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bacon-new-atlantis",
+   "author": "Francis Bacon",
+   "authorShort": "Bacon",
+   "title": "New Atlantis",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1627,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q1233830",
+   "textUrl": "https://www.gutenberg.org/ebooks/2434",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "384e8bdf59",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/384e8bdf59.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "descartes-discourse-method",
+   "author": "René Descartes",
+   "authorShort": "Descartes",
+   "title": "Discourse on Method",
+   "originalTitle": "Discours de la méthode",
+   "otherTitles": [
+    "Discourse on the Method"
+   ],
+   "year": 1637,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/Discourse_on_the_Method/Part_5",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "John Veitch translation (1850), public domain."
+   },
+   "questions": [
+    "Q02",
+    "Q03",
+    "Q15",
+    "Q28",
+    "Q40"
+   ],
+   "texts": [
+    {
+     "id": "f3ad81d9c1",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/f3ad81d9c1.txt"
+    },
+    {
+     "id": "d1a1fee4e0",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/d1a1fee4e0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "pascal-avis-necessaire",
+   "author": "Blaise Pascal",
+   "authorShort": "Pascal",
+   "title": "Avis nécessaire à ceux qui auront curiosité de voir la machine d'arithmétique",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1645,
+   "earlier": false,
+   "language": "French",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_D%C3%A9dicatoire_de_la_Machine_Arithm%C3%A9tique_et_Avis_n%C3%A9cessaire/Avis",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [
+    {
+     "id": "70167f6fc3",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/70167f6fc3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hobbes-leviathan",
+   "author": "Thomas Hobbes",
+   "authorShort": "Hobbes",
+   "title": "Leviathan",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1651,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q29",
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "b63075f168",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b63075f168.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "huang-waiting-dawn",
+   "author": "Huang Zongxi",
+   "authorShort": "Huang Zongxi",
+   "title": "Waiting for the Dawn",
+   "originalTitle": "明夷待訪錄",
+   "otherTitles": [],
+   "year": 1663,
+   "earlier": false,
+   "language": "Chinese",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/23855",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation; W. T. de Bary, Waiting for the Dawn (1993)."
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "c8063a4224",
+     "role": "main",
+     "language": "Chinese",
+     "status": "ok",
+     "file": "canon/texts/c8063a4224.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "descartes-description-human",
+   "author": "René Descartes",
+   "authorShort": "Descartes",
+   "title": "The Description of the Human Body",
+   "originalTitle": "La Description du corps humain",
+   "otherTitles": [],
+   "year": 1664,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Descartes/%C3%89dition_Adam_et_Tannery/La_Description_du_corps_humain",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed; modern translation in Cottingham et al., Philosophical Writings of Descartes (Cambridge)."
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "c8a3f4de5b",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/c8a3f4de5b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "cordemoy-philosophicall-discourse",
+   "author": "Géraud de Cordemoy",
+   "authorShort": "Cordemoy",
+   "title": "A Philosophicall Discourse Concerning Speech",
+   "originalTitle": "Discours physique de la parole",
+   "otherTitles": [],
+   "year": 1668,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k50506f",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: anonymous English translation, London 1668 (Internet Archive: bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668)"
+   },
+   "questions": [
+    "Q02"
+   ],
+   "texts": [
+    {
+     "id": "847de683cc",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/847de683cc.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "pascal-pensees",
+   "author": "Blaise Pascal",
+   "authorShort": "Pascal",
+   "title": "Pensées",
+   "originalTitle": "Pensées",
+   "otherTitles": [],
+   "year": 1670,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "W. F. Trotter translation, Project Gutenberg #18269."
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "32f654ae22",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/32f654ae22.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "leibniz-description-his",
+   "author": "Gottfried Wilhelm Leibniz",
+   "authorShort": "Leibniz",
+   "title": "Description of his calculating machine",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1671,
+   "earlier": false,
+   "language": "Latin",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "malebranche-search-after",
+   "author": "Nicolas Malebranche",
+   "authorShort": "Malebranche",
+   "title": "The Search after Truth",
+   "originalTitle": "De la recherche de la vérité",
+   "otherTitles": [],
+   "year": 1674,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/fathermalebranch00male",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: Thomas Taylor translation, 'Father Malebranche his Treatise concerning the Search after Truth' (1694; archive.org copy 1700)"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "e5d5bf8f2e",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/e5d5bf8f2e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "filmer-patriarcha-natural",
+   "author": "Robert Filmer",
+   "authorShort": "Filmer",
+   "title": "Patriarcha: or, the Natural Power of Kings",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1680,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/bim_early-english-books-1641-1700_patriarcha-or-the-natu_filmer-sir-robert_1680",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "cdc0e82bf4",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/cdc0e82bf4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "locke-second-treatise",
+   "author": "John Locke",
+   "authorShort": "Locke",
+   "title": "Second Treatise of Government",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1689,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q231949",
+   "textUrl": "https://www.gutenberg.org/ebooks/7370",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "4c3bdd91d2",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4c3bdd91d2.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "locke-essay-concerning",
+   "author": "John Locke",
+   "authorShort": "Locke",
+   "title": "An Essay Concerning Human Understanding",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1694,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/10615",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "49fa3db8bf",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/49fa3db8bf.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "locke-new-method",
+   "author": "John Locke",
+   "authorShort": "Locke",
+   "title": "A New Method of Making Common-Place-Books",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1706,
+   "earlier": false,
+   "language": "English",
+   "kind": "manual",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/gu_newmethodmaki00lock",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "92ad4a4c4e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/92ad4a4c4e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "swift-gulliver-s",
+   "author": "Jonathan Swift",
+   "authorShort": "Swift",
+   "title": "Gulliver's Travels",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1726,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/829",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "12e03a174d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/12e03a174d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hume-treatise-human",
+   "author": "David Hume",
+   "authorShort": "Hume",
+   "title": "A Treatise of Human Nature",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1739,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/4705",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "9e75f96ece",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9e75f96ece.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "watts-improvement-mind",
+   "author": "Isaac Watts",
+   "authorShort": "Watts",
+   "title": "The Improvement of the Mind",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1741,
+   "earlier": false,
+   "language": "English",
+   "kind": "manual",
+   "wikidata": "Q19090553",
+   "textUrl": "https://archive.org/details/suppimproveofmin00wattuoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "74892e610d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/74892e610d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "la-mettrie-man-machine",
+   "author": "Julien Offray de La Mettrie",
+   "authorShort": "La Mettrie",
+   "title": "Man a Machine",
+   "originalTitle": "L'Homme machine",
+   "otherTitles": [],
+   "year": 1747,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/manmachine00lame",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Gutenberg #52090 (Open Court, 1912)",
+    "url": "https://www.gutenberg.org/ebooks/52090"
+   },
+   "questions": [
+    "Q02",
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "12adc3d113",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/12adc3d113.txt"
+    },
+    {
+     "id": "12adc3d113-en",
+     "role": "translation",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/12adc3d113-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hume-enquiry-concerning",
+   "author": "David Hume",
+   "authorShort": "Hume",
+   "title": "An Enquiry concerning Human Understanding",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1748,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04",
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "a32729e2f1",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a32729e2f1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "montesquieu-spirit-laws",
+   "author": "Montesquieu",
+   "authorShort": "Montesquieu",
+   "title": "The Spirit of the Laws",
+   "originalTitle": "De l'esprit des lois",
+   "otherTitles": [],
+   "year": 1748,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://fr.wikisource.org/wiki/Esprit_des_lois_(1777)/L11/C6",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Nugent translation, vol. 1",
+    "url": "https://archive.org/details/spiritoflaws01nugguoft"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "86881641f8",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/86881641f8.txt"
+    },
+    {
+     "id": "86881641f8-en",
+     "role": "translation",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/86881641f8-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rousseau-discourse-origin",
+   "author": "Jean-Jacques Rousseau",
+   "authorShort": "Rousseau",
+   "title": "Discourse on the Origin of Inequality",
+   "originalTitle": "Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+   "otherTitles": [],
+   "year": 1755,
+   "earlier": true,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/11136",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "18th-century English translations exist; Marxists Internet Archive and constitution.org host one."
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "0099cf9f03",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/0099cf9f03.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "johnson-idler-no",
+   "author": "Samuel Johnson",
+   "authorShort": "Johnson",
+   "title": "The Idler, No. 74",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1759,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/12050",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "28158bb671",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/28158bb671.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wolff-theory-generation",
+   "author": "Caspar Friedrich Wolff",
+   "authorShort": "Wolff",
+   "title": "Theory of Generation",
+   "originalTitle": "Theoria generationis",
+   "otherTitles": [],
+   "year": 1759,
+   "earlier": false,
+   "language": "Latin",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/theoriagenerati00wolfgoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "3a24f69625",
+     "role": "main",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/3a24f69625.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rousseau-emile",
+   "author": "Jean-Jacques Rousseau",
+   "authorShort": "Rousseau",
+   "title": "Emile",
+   "originalTitle": "Émile, ou De l'éducation",
+   "otherTitles": [],
+   "year": 1762,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": "Q913599",
+   "textUrl": "https://www.gutenberg.org/ebooks/5427",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Barbara Foxley translation, Gutenberg #5427"
+   },
+   "questions": [
+    "Q20",
+    "Q22",
+    "Q24"
+   ],
+   "texts": [
+    {
+     "id": "b26c5dc30a",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/b26c5dc30a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rousseau-pygmalion-lyric",
+   "author": "Jean-Jacques Rousseau",
+   "authorShort": "Rousseau",
+   "title": "Pygmalion, lyric scene",
+   "originalTitle": "Pygmalion, scène lyrique",
+   "otherTitles": [],
+   "year": 1762,
+   "earlier": false,
+   "language": "French",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/bub_gb_0NTBdFDv3EYC",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed."
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "b89ffbd7cc",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/b89ffbd7cc.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "beccaria-crimes-punishments",
+   "author": "Cesare Beccaria",
+   "authorShort": "Beccaria",
+   "title": "On Crimes and Punishments",
+   "originalTitle": "Dei delitti e delle pene",
+   "otherTitles": [],
+   "year": 1764,
+   "earlier": false,
+   "language": "Italian",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "English translation, 1775",
+    "url": "https://archive.org/details/essayoncrimespun1775becc"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "c35a4aa1e5",
+     "role": "main",
+     "language": "Italian",
+     "status": "ok",
+     "file": "canon/texts/c35a4aa1e5.txt"
+    },
+    {
+     "id": "c35a4aa1e5-en",
+     "role": "translation",
+     "language": "Italian",
+     "status": "ok",
+     "file": "canon/texts/c35a4aa1e5-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "voltaire-philosophical-dictionary",
+   "author": "Voltaire",
+   "authorShort": "Voltaire",
+   "title": "Philosophical Dictionary, 'Animals'",
+   "originalTitle": "Dictionnaire philosophique",
+   "otherTitles": [],
+   "year": 1764,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": "Q656976",
+   "textUrl": "https://www.gutenberg.org/ebooks/18569",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Voltaire's Philosophical Dictionary, Gutenberg #18569"
+   },
+   "questions": [
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "497dd4e357",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/497dd4e357.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "blackstone-commentaries-laws",
+   "author": "William Blackstone",
+   "authorShort": "Blackstone",
+   "title": "Commentaries on the Laws of England",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1765,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/30802",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "dd56f881d8",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/dd56f881d8.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "thiry-system-nature",
+   "author": "Paul-Henri Thiry, baron d'Holbach",
+   "authorShort": "Thiry",
+   "title": "The System of Nature",
+   "originalTitle": "Système de la nature",
+   "otherTitles": [],
+   "year": 1770,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/8909/8909-h/8909-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: H. D. Robinson translation (1868), Project Gutenberg #8909 and archive.org systemofnature00holb"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "8d9ba0a725",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/8d9ba0a725.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "smith-inquiry-into",
+   "author": "Adam Smith",
+   "authorShort": "Smith",
+   "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1776,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q233562",
+   "textUrl": "https://www.gutenberg.org/ebooks/3300",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "ab0a41fed8",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/ab0a41fed8.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "goethe-triumph-sensibility",
+   "author": "Johann Wolfgang von Goethe",
+   "authorShort": "Goethe",
+   "title": "The Triumph of Sensibility",
+   "originalTitle": "Der Triumph der Empfindsamkeit",
+   "otherTitles": [],
+   "year": 1778,
+   "earlier": false,
+   "language": "German",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.projekt-gutenberg.org/goethe/empfinds/empfinds.html",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q40"
+   ],
+   "texts": [
+    {
+     "id": "3998866354",
+     "role": "main",
+     "language": "German",
+     "status": "partial",
+     "file": "canon/texts/3998866354.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kant-answer-question",
+   "author": "Immanuel Kant",
+   "authorShort": "Kant",
+   "title": "An Answer to the Question: What Is Enlightenment?",
+   "originalTitle": "Beantwortung der Frage: Was ist Aufklärung?",
+   "otherTitles": [],
+   "year": 1784,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://de.wikisource.org/wiki/Beantwortung_der_Frage:_Was_ist_Aufkl%C3%A4rung%3F",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed"
+   },
+   "questions": [
+    "Q21",
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "fba9b0916b",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/fba9b0916b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "reid-essays-intellectual",
+   "author": "Thomas Reid",
+   "authorShort": "Reid",
+   "title": "Essays on the Intellectual Powers of Man",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1785,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/essaysonintellec00reiduoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "d4fd2a22b7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d4fd2a22b7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "reid-essays-active",
+   "author": "Thomas Reid",
+   "authorShort": "Reid",
+   "title": "Essays on the Active Powers of Man",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1788,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/essaysonactivepo00reid",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "47ca6f36a6",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/47ca6f36a6.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bentham-introduction-principles",
+   "author": "Jeremy Bentham",
+   "authorShort": "Bentham",
+   "title": "An Introduction to the Principles of Morals and Legislation",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1789,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/princmoralsleg00bentuoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "7fe12a24c9",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7fe12a24c9.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "blumenbach-essay-generation",
+   "author": "Johann Friedrich Blumenbach",
+   "authorShort": "Blumenbach",
+   "title": "An Essay on Generation",
+   "originalTitle": "Über den Bildungstrieb",
+   "otherTitles": [],
+   "year": 1789,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/b30794079",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "A. Crichton, 1792",
+    "url": "https://archive.org/details/b2144058x"
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "ba527d9007",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/ba527d9007.txt"
+    },
+    {
+     "id": "ba527d9007-en",
+     "role": "translation",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/ba527d9007-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kant-critique-judgement",
+   "author": "Immanuel Kant",
+   "authorShort": "Kant",
+   "title": "Critique of Judgement",
+   "originalTitle": "Kritik der Urteilskraft",
+   "otherTitles": [],
+   "year": 1790,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/48433",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: J. H. Bernard translation (1892; 2nd ed. 1914), Project Gutenberg #48433"
+   },
+   "questions": [
+    "Q08",
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "9d3b1390e3",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/9d3b1390e3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "franklin-autobiography",
+   "author": "Benjamin Franklin",
+   "authorShort": "Franklin",
+   "title": "Autobiography",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1791,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/20203",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "7f2835506d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7f2835506d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wollstonecraft-vindication-rights",
+   "author": "Mary Wollstonecraft",
+   "authorShort": "Wollstonecraft",
+   "title": "A Vindication of the Rights of Woman",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1792,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/3420",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "3837fbaf8f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3837fbaf8f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "godwin-enquiry-concerning",
+   "author": "William Godwin",
+   "authorShort": "Godwin",
+   "title": "Enquiry Concerning Political Justice",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1793,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/enquiryconcernin01godw",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "03cc5ec23c",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/03cc5ec23c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "condorcet-outlines-historical",
+   "author": "Condorcet",
+   "authorShort": "Condorcet",
+   "title": "Outlines of an Historical View of the Progress of the Human Mind",
+   "originalTitle": "Esquisse d'un tableau historique des progrès de l'esprit humain",
+   "otherTitles": [],
+   "year": 1795,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/outlinesofhistor00cond_0",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Anonymous English translation, London: J. Johnson 1795 (Internet Archive)."
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "b1ad0d68e3",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/b1ad0d68e3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "schiller-aesthetic-education",
+   "author": "Friedrich Schiller",
+   "authorShort": "Schiller",
+   "title": "On the Aesthetic Education of Man, in a Series of Letters",
+   "originalTitle": "Über die ästhetische Erziehung des Menschen in einer Reihe von Briefen",
+   "otherTitles": [],
+   "year": 1795,
+   "earlier": false,
+   "language": "German",
+   "kind": "letter",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/6798/6798-h/6798-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Letters upon the Aesthetic Education of Man, in Aesthetical and Philosophical Essays (19th-c. translation), Project Gutenberg."
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "f7551f7d97",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/f7551f7d97.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "condillac-language-calculation",
+   "author": "Étienne Bonnot de Condillac",
+   "authorShort": "Condillac",
+   "title": "The Language of Calculation",
+   "originalTitle": "La Langue des calculs",
+   "otherTitles": [],
+   "year": 1798,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k6532532j",
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kant-anthropology-from",
+   "author": "Immanuel Kant",
+   "authorShort": "Kant",
+   "title": "Anthropology from a Pragmatic Point of View",
+   "originalTitle": "Anthropologie in pragmatischer Hinsicht",
+   "otherTitles": [],
+   "year": 1798,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": "Q574382",
+   "textUrl": "https://korpora.org/Kant/aa07/149.html",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed"
+   },
+   "questions": [
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "451749976f",
+     "role": "main",
+     "language": "German",
+     "status": "partial",
+     "file": "canon/texts/451749976f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "malthus-essay-principle",
+   "author": "Thomas Robert Malthus",
+   "authorShort": "Malthus",
+   "title": "An Essay on the Principle of Population",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1798,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/4239",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "4d8f4d5cbf",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4d8f4d5cbf.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bichat-physiological-researches",
+   "author": "Xavier Bichat",
+   "authorShort": "Bichat",
+   "title": "Physiological Researches upon Life and Death",
+   "originalTitle": "Recherches physiologiques sur la vie et la mort",
+   "otherTitles": [],
+   "year": 1800,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/physiologicalre01watkgoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: Tobias Watkins translation (Philadelphia, 1809)"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [
+    {
+     "id": "c28ccfa33f",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/c28ccfa33f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kant-kant-education",
+   "author": "Immanuel Kant",
+   "authorShort": "Kant",
+   "title": "Kant on Education",
+   "originalTitle": "Über Pädagogik",
+   "otherTitles": [],
+   "year": 1803,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/kantoneducationu00kantuoft",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Annette Churton translation (1899)"
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "8043ed7c2f",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/8043ed7c2f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "muller-elements-statecraft",
+   "author": "Adam Müller",
+   "authorShort": "Müller",
+   "title": "The Elements of Statecraft",
+   "originalTitle": "Die Elemente der Staatskunst",
+   "otherTitles": [],
+   "year": 1809,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.deutschestextarchiv.de/mueller_staatskunst01_1809/37",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No English translation found."
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "217c78900f",
+     "role": "main",
+     "language": "German",
+     "status": "partial",
+     "file": "canon/texts/217c78900f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "owen-new-view",
+   "author": "Robert Owen",
+   "authorShort": "Owen",
+   "title": "A New View of Society",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1813,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://avalon.law.yale.edu/19th_century/ow01.asp",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "c4911d9f1a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/c4911d9f1a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hoffmann-sandman",
+   "author": "E. T. A. Hoffmann",
+   "authorShort": "Hoffmann",
+   "title": "The Sandman",
+   "originalTitle": "Der Sandmann",
+   "otherTitles": [],
+   "year": 1816,
+   "earlier": false,
+   "language": "German",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/31377",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "'The Sand-Man' in Weird Tales, vol. 1, trans. J. T. Bealby (1885), Project Gutenberg #31377."
+   },
+   "questions": [
+    "Q39",
+    "Q40"
+   ],
+   "texts": [
+    {
+     "id": "9eed852aa9",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/9eed852aa9.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "shelley-frankenstein-modern",
+   "author": "Mary Shelley",
+   "authorShort": "Shelley",
+   "title": "Frankenstein; or, The Modern Prometheus",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1818,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q150827",
+   "textUrl": "https://www.gutenberg.org/ebooks/84",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26",
+    "Q28",
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "b9efed770b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b9efed770b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "sismondi-new-principles",
+   "author": "J.-C.-L. Simonde de Sismondi",
+   "authorShort": "Sismondi",
+   "title": "New Principles of Political Economy",
+   "originalTitle": "Nouveaux principes d'économie politique",
+   "otherTitles": [],
+   "year": 1819,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/nouveauxprincipe02sismuoft",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found"
+   },
+   "questions": [
+    "Q17",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "823de56687",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/823de56687.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hegel-elements-philosophy",
+   "author": "G. W. F. Hegel",
+   "authorShort": "Hegel",
+   "title": "Elements of the Philosophy of Right",
+   "originalTitle": "Grundlinien der Philosophie des Rechts",
+   "otherTitles": [],
+   "year": 1821,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "period",
+    "note": "S. W. Dyde, 1896",
+    "url": "https://archive.org/details/cu31924014578979"
+   },
+   "questions": [
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "b837cf756b-en",
+     "role": "translation",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/b837cf756b-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ricardo-principles-political",
+   "author": "David Ricardo",
+   "authorShort": "Ricardo",
+   "title": "On the Principles of Political Economy and Taxation (3rd ed.)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1821,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q1863109",
+   "textUrl": "https://www.gutenberg.org/ebooks/33310",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17"
+   ],
+   "texts": [
+    {
+     "id": "38ce9afffa",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/38ce9afffa.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "saint-simon-new-christianity",
+   "author": "Henri de Saint-Simon",
+   "authorShort": "Saint-Simon",
+   "title": "New Christianity",
+   "originalTitle": "Nouveau Christianisme",
+   "otherTitles": [],
+   "year": 1825,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/nouveauchristian01sainuoft",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Not verified"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "4f6faf0389",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/4f6faf0389.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "carlyle-signs-times",
+   "author": "Thomas Carlyle",
+   "authorShort": "Carlyle",
+   "title": "Signs of the Times",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1829,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://ia801200.us.archive.org/35/items/carlyle-signs-of-the-times-1829/Carlyle%20-%20''Signs%20of%20the%20Times''%201829.pdf",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q14",
+    "Q31",
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "7030f6e3be",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7030f6e3be.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hegel-encyclopaedia-philosophical",
+   "author": "G. W. F. Hegel",
+   "authorShort": "Hegel",
+   "title": "Encyclopaedia of the Philosophical Sciences, Part III (Philosophy of Mind)",
+   "originalTitle": "Enzyklopädie der philosophischen Wissenschaften",
+   "otherTitles": [],
+   "year": 1830,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": "Q919699",
+   "textUrl": "https://www.gutenberg.org/ebooks/39064",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "William Wallace, Hegel's Philosophy of Mind (1894), Gutenberg #39064"
+   },
+   "questions": [
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "509a46bf0d",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/509a46bf0d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "walker-defence-mechanical",
+   "author": "Timothy Walker",
+   "authorShort": "Walker",
+   "title": "Defence of Mechanical Philosophy",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1831,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "babbage-economy-machinery",
+   "author": "Charles Babbage",
+   "authorShort": "Babbage",
+   "title": "On the Economy of Machinery and Manufactures",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1832,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q42211436",
+   "textUrl": "https://www.gutenberg.org/ebooks/4238",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17",
+    "Q24",
+    "Q25",
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "9c6f1a8103",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9c6f1a8103.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hugo-notre-dame",
+   "author": "Victor Hugo",
+   "authorShort": "Hugo",
+   "title": "Notre-Dame de Paris",
+   "originalTitle": "Notre-Dame de Paris",
+   "otherTitles": [],
+   "year": 1832,
+   "earlier": false,
+   "language": "French",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/2610",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation, Gutenberg #2610"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "499bfeb593",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/499bfeb593.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ure-philosophy-manufactures",
+   "author": "Andrew Ure",
+   "authorShort": "Ure",
+   "title": "The Philosophy of Manufactures",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1835,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/philosophymanuf00uregoog",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17",
+    "Q18",
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "81e13ceb16",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/81e13ceb16.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "carlyle-sartor-resartus",
+   "author": "Thomas Carlyle",
+   "authorShort": "Carlyle",
+   "title": "Sartor Resartus",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1836,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/The_Works_of_Thomas_Carlyle/Volume_1/Sartor_Resartus,_Book_I,_Chapter_V",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "a541a6cd61",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a541a6cd61.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "poe-maelzel-s",
+   "author": "Edgar Allan Poe",
+   "authorShort": "Poe",
+   "title": "Maelzel's Chess-Player",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1836,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/Maelzel%27s_Chess-Player",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "e097b968ff",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e097b968ff.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "macaulay-lord-bacon",
+   "author": "Thomas Babington Macaulay",
+   "authorShort": "Macaulay",
+   "title": "Lord Bacon",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1837,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/2333",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "81d5bf24da",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/81d5bf24da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "poe-man-that",
+   "author": "Edgar Allan Poe",
+   "authorShort": "Poe",
+   "title": "The Man That Was Used Up",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1839,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.eapoe.org/works/tales/mnusda.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "6c0afbac96",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6c0afbac96.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "tocqueville-democracy-america",
+   "author": "Alexis de Tocqueville",
+   "authorShort": "Tocqueville",
+   "title": "Democracy in America, vol. 2",
+   "originalTitle": "De la démocratie en Amérique",
+   "otherTitles": [],
+   "year": 1840,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": "Q784882",
+   "textUrl": "https://www.gutenberg.org/ebooks/816",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Henry Reeve translation, Gutenberg #816"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "72539ff9fe",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/72539ff9fe.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "emerson-self-reliance",
+   "author": "Ralph Waldo Emerson",
+   "authorShort": "Emerson",
+   "title": "Self-Reliance",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1841,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/2944",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q24",
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "121b3b864d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/121b3b864d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "lotze-leben-lebenskraft",
+   "author": "Rudolph Hermann Lotze",
+   "authorShort": "Lotze",
+   "title": "Leben. Lebenskraft",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1842,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "menabrea-sketch-analytical",
+   "author": "Luigi Federico Menabrea",
+   "authorShort": "Menabrea",
+   "title": "Sketch of the Analytical Engine Invented by Charles Babbage",
+   "originalTitle": "Notions sur la machine analytique de M. Charles Babbage",
+   "otherTitles": [],
+   "year": 1842,
+   "earlier": false,
+   "language": "French",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/TO01056056",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: Lovelace's 1843 English translation (Scientific Memoirs 3), transcribed at https://psychclassics.yorku.ca/Lovelace/menabrea.htm"
+   },
+   "questions": [
+    "Q01",
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "c8d3ea67da",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/c8d3ea67da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hawthorne-celestial-railroad",
+   "author": "Nathaniel Hawthorne",
+   "authorShort": "Hawthorne",
+   "title": "The Celestial Railroad",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1843,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q17060166",
+   "textUrl": "https://www.gutenberg.org/ebooks/512",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "aff661882e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/aff661882e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "king-sketch-analytical",
+   "author": "Augusta Ada King, Countess of Lovelace",
+   "authorShort": "King",
+   "title": "Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1843,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://psychclassics.yorku.ca/Lovelace/lovelace.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01"
+   ],
+   "texts": [
+    {
+     "id": "bd81e58255",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/bd81e58255.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "mill-system-logic",
+   "author": "John Stuart Mill",
+   "authorShort": "Mill",
+   "title": "A System of Logic, Ratiocinative and Inductive",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1843,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/A_System_of_Logic,_Ratiocinative_and_Inductive/Book_VI",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "5721d6c6a2",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/5721d6c6a2.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bastiat-economic-sophisms",
+   "author": "Frédéric Bastiat",
+   "authorShort": "Bastiat",
+   "title": "Economic Sophisms",
+   "originalTitle": "Sophismes économiques",
+   "otherTitles": [],
+   "year": 1845,
+   "earlier": false,
+   "language": "French",
+   "kind": "essay",
+   "wikidata": "Q19221496",
+   "textUrl": "https://www.gutenberg.org/ebooks/44145",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Patrick James Stirling translation, Gutenberg #44145"
+   },
+   "questions": [
+    "Q17",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "89616175ee",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/89616175ee.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "mill-principles-political",
+   "author": "John Stuart Mill",
+   "authorShort": "Mill",
+   "title": "Principles of Political Economy",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1848,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q5946782",
+   "textUrl": "https://en.wikisource.org/wiki/Principles_of_Political_Economy_(J.S._Mill,_1871),_vol._2/Book_IV,_Chapter_VII",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "2c0a77dbad",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2c0a77dbad.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "thoreau-resistance-civil",
+   "author": "Henry David Thoreau",
+   "authorShort": "Thoreau",
+   "title": "Resistance to Civil Government",
+   "originalTitle": null,
+   "otherTitles": [
+    "Resistance to Civil Government (On the Duty of Civil Disobedience)"
+   ],
+   "year": 1849,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q21",
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "c369c12844",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/c369c12844.txt"
+    },
+    {
+     "id": "8dfdb4d827",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8dfdb4d827.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ruskin-stones-venice",
+   "author": "John Ruskin",
+   "authorShort": "Ruskin",
+   "title": "The Stones of Venice, vol. 2",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1853,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/30755",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "21c36bcf5e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/21c36bcf5e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "dickens-hard-times",
+   "author": "Charles Dickens",
+   "authorShort": "Dickens",
+   "title": "Hard Times",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1854,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/786",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "91985a6c41",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/91985a6c41.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "stafford-et-al-report-organisation",
+   "author": "Stafford Northcote and Charles Trevelyan",
+   "authorShort": "Stafford et al.",
+   "title": "Report on the Organisation of the Permanent Civil Service",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1854,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "thoreau-walden",
+   "author": "Henry David Thoreau",
+   "authorShort": "Thoreau",
+   "title": "Walden",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1854,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": "Q863534",
+   "textUrl": "https://www.gutenberg.org/ebooks/205",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q25",
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "4f120c88d4",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4f120c88d4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "buchner-force-matter",
+   "author": "Ludwig Büchner",
+   "authorShort": "Büchner",
+   "title": "Force and Matter",
+   "originalTitle": "Kraft und Stoff",
+   "otherTitles": [],
+   "year": 1855,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/forcematterorpri00bc",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: English translation of a later edition, New York: Peter Eckler, 1918 (archive.org forcematterorpri00bc); an earlier translation ed. J. F. Collingwood (1864) is catalogued by Wellcome"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "1045f8e3fd",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/1045f8e3fd.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "trollope-three-clerks",
+   "author": "Anthony Trollope",
+   "authorShort": "Trollope",
+   "title": "The Three Clerks",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1857,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/7481",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "568d2638f7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/568d2638f7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "biran-essay-foundations",
+   "author": "Maine de Biran",
+   "authorShort": "Biran",
+   "title": "Essay on the Foundations of Psychology",
+   "originalTitle": "Essai sur les fondements de la psychologie",
+   "otherTitles": [],
+   "year": 1859,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/oeuvresindites01main",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "47b470a54a",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/47b470a54a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "mill-liberty",
+   "author": "John Stuart Mill",
+   "authorShort": "Mill",
+   "title": "On Liberty",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1859,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/34901",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "185cee52f0",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/185cee52f0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "spencer-social-organism",
+   "author": "Herbert Spencer",
+   "authorShort": "Spencer",
+   "title": "The Social Organism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1860,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/progressitslawca00spen",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "82de55e37e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/82de55e37e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "feng-protests-from",
+   "author": "Feng Guifen",
+   "authorShort": "Feng Guifen",
+   "title": "Protests from the Jiaobin Studio",
+   "originalTitle": "校邠廬抗議 (Jiaobinlu kangyi)",
+   "otherTitles": [],
+   "year": 1861,
+   "earlier": false,
+   "language": "Chinese",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed; excerpts appear in modern source readers."
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bouillier-du-principe",
+   "author": "Francisque Bouillier",
+   "authorShort": "Bouillier",
+   "title": "Du principe vital et de l'âme pensante",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1862,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/duprincipevital00bouigoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [
+    {
+     "id": "aac82c883c",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/aac82c883c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "butler-darwin-among",
+   "author": "Samuel Butler (as 'Cellarius')",
+   "authorShort": "Butler",
+   "title": "Darwin among the Machines",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1863,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/3279",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01",
+    "Q13",
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "15d4546666",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/15d4546666.txt"
+    },
+    {
+     "id": "4740ec1f16",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4740ec1f16.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "babbage-passages-from",
+   "author": "Charles Babbage",
+   "authorShort": "Babbage",
+   "title": "Passages from the Life of a Philosopher",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1864,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/57532",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "af533d2bb9",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/af533d2bb9.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "dostoevsky-notes-from",
+   "author": "Fyodor Dostoevsky",
+   "authorShort": "Dostoevsky",
+   "title": "Notes from Underground",
+   "originalTitle": "Записки из подполья",
+   "otherTitles": [],
+   "year": 1864,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/600",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Constance Garnett translation, Gutenberg #600"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "bbbea79bcd",
+     "role": "main",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/bbbea79bcd.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "butler-lucubratio-ebria",
+   "author": "Samuel Butler",
+   "authorShort": "Butler",
+   "title": "Lucubratio Ebria",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1865,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q13"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "marx-capital-volume",
+   "author": "Karl Marx",
+   "authorShort": "Marx",
+   "title": "Capital, Volume I",
+   "originalTitle": "Das Kapital, Band I",
+   "otherTitles": [
+    "Capital, vol. 1"
+   ],
+   "year": 1867,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/capitalcritique00marx",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Moore and Aveling translation, ed. Engels (1887)."
+   },
+   "questions": [
+    "Q13",
+    "Q18",
+    "Q19",
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "1a413ec27f",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/1a413ec27f.txt"
+    },
+    {
+     "id": "06e7fb14eb",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/06e7fb14eb.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "arnold-culture-anarchy",
+   "author": "Matthew Arnold",
+   "authorShort": "Arnold",
+   "title": "Culture and Anarchy",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1869,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": "Q5193480",
+   "textUrl": "https://www.gutenberg.org/ebooks/4212",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "f368f25740",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/f368f25740.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "galton-hereditary-genius",
+   "author": "Francis Galton",
+   "authorShort": "Galton",
+   "title": "Hereditary Genius",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1869,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://galton.org/books/hereditary-genius/text/pdf/genius.pdf",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "64e9a3ae9b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/64e9a3ae9b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "emerson-civilization",
+   "author": "Ralph Waldo Emerson",
+   "authorShort": "Emerson",
+   "title": "Civilization",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/cache/epub/69258/pg69258-images.html",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "84a0eceefe",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/84a0eceefe.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hodgson-theory-practice",
+   "author": "Shadworth H. Hodgson",
+   "authorShort": "Hodgson",
+   "title": "The Theory of Practice: An Ethical Enquiry",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/theoryofpractic01hodg",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "2432079a52",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2432079a52.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "jevons-mechanical-performance",
+   "author": "William Stanley Jevons",
+   "authorShort": "Jevons",
+   "title": "On the Mechanical Performance of Logical Inference",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/philtrans01714956",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01",
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "7384d15788",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7384d15788.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "whitman-passage-india",
+   "author": "Walt Whitman",
+   "authorShort": "Whitman",
+   "title": "Passage to India",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1871,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/tworivuletsinclu00whitrich",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "51b8ca87ab",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/51b8ca87ab.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "butler-erewhon",
+   "author": "Samuel Butler",
+   "authorShort": "Butler",
+   "title": "Erewhon",
+   "originalTitle": null,
+   "otherTitles": [
+    "Erewhon; or, Over the Range"
+   ],
+   "year": 1872,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q1350048",
+   "textUrl": "https://www.gutenberg.org/files/1906/1906-h/1906-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01",
+    "Q06",
+    "Q13",
+    "Q14",
+    "Q25",
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "fa6e593586",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/fa6e593586.txt"
+    },
+    {
+     "id": "5dd0f3239f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/5dd0f3239f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "carpenter-principles-mental",
+   "author": "William B. Carpenter",
+   "authorShort": "Carpenter",
+   "title": "Principles of Mental Physiology",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1874,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/principlesofment00carprich",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "63d305a3ab",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/63d305a3ab.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "clifford-body-mind",
+   "author": "William Kingdon Clifford",
+   "authorShort": "Clifford",
+   "title": "Body and Mind",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1874,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/lecturesessaysby19012clif",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "90c055ae8f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/90c055ae8f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "huxley-hypothesis-that",
+   "author": "Thomas Henry Huxley",
+   "authorShort": "Huxley",
+   "title": "On the Hypothesis that Animals are Automata, and Its History",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1874,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/a588322700huxluoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04",
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "781c2dee90",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/781c2dee90.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "fukuzawa-outline-theory",
+   "author": "Fukuzawa Yukichi",
+   "authorShort": "Fukuzawa Yukichi",
+   "title": "An Outline of a Theory of Civilization",
+   "originalTitle": "文明論之概略 (Bunmeiron no gairyaku)",
+   "otherTitles": [],
+   "year": 1875,
+   "earlier": false,
+   "language": "Japanese",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by David A. Dilworth and G. Cameron Hurst (Sophia University, 1973), not public domain."
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "pitt-rivers-evolution-culture",
+   "author": "Augustus Lane Fox Pitt-Rivers",
+   "authorShort": "Pitt-Rivers",
+   "title": "On the Evolution of Culture",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1875,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/44844",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q13"
+   ],
+   "texts": [
+    {
+     "id": "64a0d04476",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/64a0d04476.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kapp-outlines-philosophy",
+   "author": "Ernst Kapp",
+   "authorShort": "Kapp",
+   "title": "Outlines of a Philosophy of Technology",
+   "originalTitle": "Grundlinien einer Philosophie der Technik",
+   "otherTitles": [
+    "Elements of a Philosophy of Technology"
+   ],
+   "year": 1877,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/grundlinieneine00kappgoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation Elements of a Philosophy of Technology (2018); not public domain."
+   },
+   "questions": [
+    "Q13",
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "0ed8cafc06",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/0ed8cafc06.txt"
+    },
+    {
+     "id": "be2f99bcbb",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/be2f99bcbb.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "morgan-ancient-society",
+   "author": "Lewis Henry Morgan",
+   "authorShort": "Morgan",
+   "title": "Ancient Society",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1877,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q4752923",
+   "textUrl": "https://www.gutenberg.org/ebooks/45950",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "f7243c1217",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/f7243c1217.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bernard-lecons-sur",
+   "author": "Claude Bernard",
+   "authorShort": "Bernard",
+   "title": "Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1878,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/b29339121_0001",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found"
+   },
+   "questions": [
+    "Q07",
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "7b306d0929",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/7b306d0929.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "eliot-impressions-theophrastus",
+   "author": "George Eliot",
+   "authorShort": "Eliot",
+   "title": "Impressions of Theophrastus Such",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/impressionsofthe00elio_3",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q13"
+   ],
+   "texts": [
+    {
+     "id": "6fa6f6286b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6fa6f6286b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "george-progress-poverty",
+   "author": "Henry George",
+   "authorShort": "George",
+   "title": "Progress and Poverty",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/55308",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "3be7359297",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3be7359297.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bois-reymond-seven-world",
+   "author": "Emil du Bois-Reymond",
+   "authorShort": "Bois-Reymond",
+   "title": "The Seven World-Riddles",
+   "originalTitle": "Die sieben Welträthsel",
+   "otherTitles": [],
+   "year": 1880,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/ueberdiegrenzend00dubouoft",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation of this lecture found; the companion 1872 lecture 'Über die Grenzen des Naturerkennens' was translated as 'The Limits of our Knowledge of Nature', Popular Science Monthly 5 (May 1874), on Wikisource"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "26fe85013a",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/26fe85013a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "lafargue-right-be",
+   "author": "Paul Lafargue",
+   "authorShort": "Lafargue",
+   "title": "The Right to Be Lazy",
+   "originalTitle": "Le Droit à la paresse",
+   "otherTitles": [],
+   "year": 1883,
+   "earlier": false,
+   "language": "French",
+   "kind": "essay",
+   "wikidata": "Q585100",
+   "textUrl": "https://www.gutenberg.org/ebooks/52984",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Charles H. Kerr translation, Project Gutenberg #52984 (English)."
+   },
+   "questions": [
+    "Q14",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "0007b322da",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/0007b322da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "muller-india-what",
+   "author": "F. Max Müller",
+   "authorShort": "Müller",
+   "title": "India: What Can It Teach Us?",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1883,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/20847",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "e63772d895",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e63772d895.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ferri-criminal-sociology",
+   "author": "Enrico Ferri",
+   "authorShort": "Ferri",
+   "title": "Criminal Sociology",
+   "originalTitle": "Sociologia criminale",
+   "otherTitles": [],
+   "year": 1884,
+   "earlier": false,
+   "language": "Italian",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/cu31924032584629",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: translated by Joseph I. Kelly and John Lisle (Boston, 1917), archive.org cu31924032584629; partial translation ed. W. D. Morrison (1895/1897)"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "dea926b59a",
+     "role": "main",
+     "language": "Italian",
+     "status": "ok",
+     "file": "canon/texts/dea926b59a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "jhering-jest-earnest",
+   "author": "Rudolf von Jhering",
+   "authorShort": "Jhering",
+   "title": "Jest and Earnest in Jurisprudence",
+   "originalTitle": "Scherz und Ernst in der Jurisprudenz",
+   "otherTitles": [],
+   "year": 1884,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/scherzundernsti01jhergoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "1a98f09a88",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/1a98f09a88.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ferry-speech-chamber",
+   "author": "Jules Ferry",
+   "authorShort": "Ferry",
+   "title": "Speech to the Chamber of Deputies on colonial policy",
+   "originalTitle": "Discours sur la politique coloniale",
+   "otherTitles": [],
+   "year": 1885,
+   "earlier": false,
+   "language": "French",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English excerpts widely reprinted; no public-domain full translation confirmed."
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "d14d877437-orig",
+     "role": "original",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/d14d877437-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "l-isle-adam-tomorrow-s",
+   "author": "Villiers de l'Isle-Adam",
+   "authorShort": "l'Isle-Adam",
+   "title": "Tomorrow's Eve",
+   "originalTitle": "L'Ève future",
+   "otherTitles": [
+    "The Future Eve"
+   ],
+   "year": 1886,
+   "earlier": false,
+   "language": "French",
+   "kind": "fiction",
+   "wikidata": "Q2411636",
+   "textUrl": "https://www.gutenberg.org/ebooks/26681",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found (Robert Martin Adams's 1982 translation is in copyright)"
+   },
+   "questions": [
+    "Q02",
+    "Q29",
+    "Q39",
+    "Q40"
+   ],
+   "texts": [
+    {
+     "id": "a39535e159",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/a39535e159.txt"
+    },
+    {
+     "id": "dbb8169c55",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/dbb8169c55.txt"
+    },
+    {
+     "id": "f2fcb7a839",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/f2fcb7a839.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wilson-study-administration",
+   "author": "Woodrow Wilson",
+   "authorShort": "Wilson",
+   "title": "The Study of Administration",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1887,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/jstor-2139277",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "d87b310b3c",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d87b310b3c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bellamy-looking-backward",
+   "author": "Edward Bellamy",
+   "authorShort": "Bellamy",
+   "title": "Looking Backward, 2000–1887",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1888,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q1305106",
+   "textUrl": "https://www.gutenberg.org/ebooks/624",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "be74b43633",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/be74b43633.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bergson-time-free",
+   "author": "Henri Bergson",
+   "authorShort": "Bergson",
+   "title": "Time and Free Will",
+   "originalTitle": "Essai sur les données immédiates de la conscience",
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/56852",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: F. L. Pogson translation (1910), Project Gutenberg #56852 and archive.org timeandfreewilla00berguoft"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "11fce5e18f",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/11fce5e18f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "carpenter-civilisation-its",
+   "author": "Edward Carpenter",
+   "authorShort": "Carpenter",
+   "title": "Civilisation: Its Cause and Cure",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/44094",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "ba6b18009b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/ba6b18009b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "zhuangzi-zhuangzi-chuang",
+   "author": "Zhuangzi",
+   "authorShort": "Zhuangzi",
+   "title": "Zhuangzi (Chuang Tzu), 'Heaven and Earth'",
+   "originalTitle": "莊子 · 天地",
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": true,
+   "language": "Classical Chinese",
+   "kind": "treatise",
+   "wikidata": "Q1074987",
+   "textUrl": "https://www.gutenberg.org/ebooks/59709",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Herbert A. Giles, Chuang Tzŭ: Mystic, Moralist, and Social Reformer (1889); Gutenberg #59709"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "fea007d28a",
+     "role": "main",
+     "language": "Classical Chinese",
+     "status": "ok",
+     "file": "canon/texts/fea007d28a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "james-principles-psychology",
+   "author": "William James",
+   "authorShort": "James",
+   "title": "The Principles of Psychology",
+   "originalTitle": null,
+   "otherTitles": [
+    "The Principles of Psychology, vol. 1"
+   ],
+   "year": 1890,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q3522328",
+   "textUrl": "https://archive.org/details/principlesofpsyc001jame",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04",
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "2d180e3b32",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2d180e3b32.txt"
+    },
+    {
+     "id": "92ba63e63e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/92ba63e63e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "leibniz-characteristic-art",
+   "author": "Gottfried Wilhelm Leibniz",
+   "authorShort": "Leibniz",
+   "title": "On the Characteristic Art for Perfecting the Sciences Founded on Reason",
+   "originalTitle": "De arte characteristica ad perficiendas scientias ratione nitentes",
+   "otherTitles": [],
+   "year": 1890,
+   "earlier": false,
+   "language": "Latin",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/diephilosophisc00gerhgoog",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "159d871c1a",
+     "role": "main",
+     "language": "Latin",
+     "status": "ok",
+     "file": "canon/texts/159d871c1a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wilde-soul-man",
+   "author": "Oscar Wilde",
+   "authorShort": "Wilde",
+   "title": "The Soul of Man under Socialism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1891,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": "Q1196990",
+   "textUrl": "https://www.gutenberg.org/ebooks/1017",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q14",
+    "Q25"
+   ],
+   "texts": [
+    {
+     "id": "b36cfe7e3a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b36cfe7e3a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kropotkin-conquest-bread",
+   "author": "Peter Kropotkin",
+   "authorShort": "Kropotkin",
+   "title": "The Conquest of Bread",
+   "originalTitle": "La Conquête du pain",
+   "otherTitles": [],
+   "year": 1892,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": "Q3141640",
+   "textUrl": "https://www.gutenberg.org/ebooks/23428",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation, Gutenberg #23428"
+   },
+   "questions": [
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "1e6e3e4331",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/1e6e3e4331.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "salt-animals-rights",
+   "author": "Henry S. Salt",
+   "authorShort": "Salt",
+   "title": "Animals' Rights Considered in Relation to Social Progress",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1892,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/64498",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "cb903e1c1d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/cb903e1c1d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "tolstoy-kingdom-god",
+   "author": "Leo Tolstoy",
+   "authorShort": "Tolstoy",
+   "title": "The Kingdom of God Is Within You",
+   "originalTitle": "Царство Божие внутри вас",
+   "otherTitles": [],
+   "year": 1894,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Constance Garnett translation (1894), Project Gutenberg."
+   },
+   "questions": [
+    "Q21",
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "750f163912",
+     "role": "main",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/750f163912.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "carroll-what-tortoise",
+   "author": "Lewis Carroll",
+   "authorShort": "Carroll",
+   "title": "What the Tortoise Said to Achilles",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1895,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://en.wikisource.org/wiki/What_the_Tortoise_Said_to_Achilles",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "a728ea3968",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a728ea3968.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "roux-collected-papers",
+   "author": "Wilhelm Roux",
+   "authorShort": "Roux",
+   "title": "Collected Papers on the Developmental Mechanics of Organisms",
+   "originalTitle": "Gesammelte Abhandlungen über Entwickelungsmechanik der Organismen",
+   "otherTitles": [],
+   "year": 1895,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/gesammelteabhand01roux",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "b0bbfcbf9c",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/b0bbfcbf9c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "belloc-modern-traveller",
+   "author": "Hilaire Belloc",
+   "authorShort": "Belloc",
+   "title": "The Modern Traveller",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/61521",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "22bec51d68",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/22bec51d68.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kidd-control-tropics",
+   "author": "Benjamin Kidd",
+   "authorShort": "Kidd",
+   "title": "The Control of the Tropics",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/controloftropics00kidduoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "832a456746",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/832a456746.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wells-war-worlds",
+   "author": "H. G. Wells",
+   "authorShort": "Wells",
+   "title": "The War of the Worlds",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/36/36-h/36-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "bee55cf697",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/bee55cf697.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "zhang-exhortation-learning",
+   "author": "Zhang Zhidong",
+   "authorShort": "Zhang Zhidong",
+   "title": "Exhortation to Learning",
+   "originalTitle": "勸學篇 (Quanxue pian)",
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "Chinese",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/chinasonlyhopeap00zhan",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "China's Only Hope: An Appeal, trans. Samuel I. Woodbridge (1900), Internet Archive."
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "e49894e43e",
+     "role": "main",
+     "language": "Chinese",
+     "status": "ok",
+     "file": "canon/texts/e49894e43e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "conference-declaration-concerning",
+   "author": "Plenipotentiaries of the Hague Peace Conference",
+   "authorShort": "Conference",
+   "title": "Declaration concerning Asphyxiating Gases (Hague Declaration IV, 2)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1899,
+   "earlier": false,
+   "language": "French",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://avalon.law.yale.edu/19th_century/dec99-02.asp",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Official English text on Avalon Project"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "2e74b4f31d",
+     "role": "main",
+     "language": "French",
+     "status": "partial",
+     "file": "canon/texts/2e74b4f31d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "geny-method-interpretation",
+   "author": "François Gény",
+   "authorShort": "Gény",
+   "title": "Method of Interpretation and Sources in Private Positive Law",
+   "originalTitle": "Méthode d'interprétation et sources en droit privé positif",
+   "otherTitles": [],
+   "year": 1899,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k3332127r.texteImage",
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by the Louisiana State Law Institute (1963); not public domain."
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "haeckel-riddle-universe",
+   "author": "Ernst Haeckel",
+   "authorShort": "Haeckel",
+   "title": "The Riddle of the Universe",
+   "originalTitle": "Die Welträthsel",
+   "otherTitles": [],
+   "year": 1899,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/42968",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Yes: Joseph McCabe translation (1900), Project Gutenberg #42968"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "6c499736de",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/6c499736de.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "kropotkin-fields-factories",
+   "author": "Peter Kropotkin",
+   "authorShort": "Kropotkin",
+   "title": "Fields, Factories and Workshops",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1899,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q2955918",
+   "textUrl": "https://www.gutenberg.org/ebooks/64353",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q25"
+   ],
+   "texts": [
+    {
+     "id": "fc0260ff3a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/fc0260ff3a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hilbert-mathematical-problems",
+   "author": "David Hilbert",
+   "authorShort": "Hilbert",
+   "title": "Mathematical Problems",
+   "originalTitle": "Mathematische Probleme",
+   "otherTitles": [],
+   "year": 1900,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://de.wikisource.org/wiki/Mathematische_Probleme",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Newson translation, 1902 (Gutenberg #71655)",
+    "url": "https://www.gutenberg.org/cache/epub/71655/pg71655-images.html"
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "9caea3eedb",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/9caea3eedb.txt"
+    },
+    {
+     "id": "9caea3eedb-en",
+     "role": "translation",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/9caea3eedb-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "morgan-regeneration",
+   "author": "Thomas Hunt Morgan",
+   "authorShort": "Morgan",
+   "title": "Regeneration",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1901,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/regeneration00morg",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "17b523e985",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/17b523e985.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "pearson-national-life",
+   "author": "Karl Pearson",
+   "authorShort": "Pearson",
+   "title": "National Life from the Standpoint of Science",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1901,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/nationallifefrom00pearrich",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "a311f34aa5",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a311f34aa5.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hobson-imperialism-study",
+   "author": "J. A. Hobson",
+   "authorShort": "Hobson",
+   "title": "Imperialism: A Study",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1902,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/imperialismastu00goog",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "51c4556801",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/51c4556801.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "yan-letter-editor",
+   "author": "Yan Fu",
+   "authorShort": "Yan Fu",
+   "title": "Letter to the Editor of the Waijiao bao",
+   "originalTitle": "與《外交報》主人書",
+   "otherTitles": [],
+   "year": 1902,
+   "earlier": false,
+   "language": "Chinese",
+   "kind": "letter",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "veblen-theory-business",
+   "author": "Thorstein Veblen",
+   "authorShort": "Veblen",
+   "title": "The Theory of Business Enterprise",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1904,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": "Q7768650",
+   "textUrl": "https://archive.org/details/theorybusinesse04veblgoog",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "4020b94a3d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4020b94a3d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "fedorov-philosophy-common",
+   "author": "Nikolai Fedorov",
+   "authorShort": "Fedorov",
+   "title": "The Philosophy of the Common Task",
+   "originalTitle": "Философия общего дела",
+   "otherTitles": [],
+   "year": 1906,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://rusneb.ru/catalog/000199_000009_003527070/",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation; selected works in What Was Man Created For? (1990)."
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "9320a5d332-orig",
+     "role": "original",
+     "language": "Russian",
+     "status": "partial",
+     "file": "canon/texts/9320a5d332-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "flavius-battle-legal",
+   "author": "Gnaeus Flavius (Hermann Kantorowicz)",
+   "authorShort": "Flavius",
+   "title": "The Battle for Legal Science",
+   "originalTitle": "Der Kampf um die Rechtswissenschaft",
+   "otherTitles": [],
+   "year": 1906,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://sammlungen.ub.uni-frankfurt.de/varia/content/titleinfo/10936094",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "84d922bbd5",
+     "role": "main",
+     "language": "German",
+     "status": "partial",
+     "file": "canon/texts/84d922bbd5.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "adams-education-henry",
+   "author": "Henry Adams",
+   "authorShort": "Adams",
+   "title": "The Education of Henry Adams",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1907,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": "Q7731604",
+   "textUrl": "https://www.gutenberg.org/ebooks/2044",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "0fb788628d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/0fb788628d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bergson-creative-evolution",
+   "author": "Henri Bergson",
+   "authorShort": "Bergson",
+   "title": "Creative Evolution",
+   "originalTitle": "L'Évolution créatrice",
+   "otherTitles": [],
+   "year": 1907,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/26163/26163-h/26163-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Arthur Mitchell translation (1911), Project Gutenberg #26163."
+   },
+   "questions": [
+    "Q07",
+    "Q13",
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "9eed929f2b",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/9eed929f2b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "metchnikoff-prolongation-life",
+   "author": "Élie Metchnikoff",
+   "authorShort": "Metchnikoff",
+   "title": "The Prolongation of Life: Optimistic Studies",
+   "originalTitle": "Essais optimistes",
+   "otherTitles": [],
+   "year": 1907,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/51521",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "P. Chalmers Mitchell English edition (1907), Project Gutenberg #51521."
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "bd31de2548",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/bd31de2548.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bennett-how-live",
+   "author": "Arnold Bennett",
+   "authorShort": "Bennett",
+   "title": "How to Live on 24 Hours a Day",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1908,
+   "earlier": false,
+   "language": "English",
+   "kind": "manual",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/2274",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "c2bd1deb00",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/c2bd1deb00.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "driesch-science-philosophy",
+   "author": "Hans Driesch",
+   "authorShort": "Driesch",
+   "title": "The Science and Philosophy of the Organism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1908,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/44388/44388-h/44388-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07",
+    "Q08",
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "ae4b0028b0",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/ae4b0028b0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "poincare-science-method",
+   "author": "Henri Poincaré",
+   "authorShort": "Poincaré",
+   "title": "Science and Method",
+   "originalTitle": "Science et méthode",
+   "otherTitles": [],
+   "year": 1908,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://fr.wikisource.org/wiki/Science_et_m%C3%A9thode",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Halsted, The Foundations of Science (1913), includes Science and Method",
+    "url": "https://www.gutenberg.org/ebooks/39713"
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "69bbbca9b8",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/69bbbca9b8.txt"
+    },
+    {
+     "id": "69bbbca9b8-en",
+     "role": "translation",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/69bbbca9b8-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "pound-mechanical-jurisprudence",
+   "author": "Roscoe Pound",
+   "authorShort": "Pound",
+   "title": "Mechanical Jurisprudence",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1908,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/jstor-1108954",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "c7595705d7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/c7595705d7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "binet-modern-ideas",
+   "author": "Alfred Binet",
+   "authorShort": "Binet",
+   "title": "Modern Ideas About Children",
+   "originalTitle": "Les idées modernes sur les enfants",
+   "otherTitles": [],
+   "year": 1909,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/lesidesmoderne00bine",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation Modern Ideas About Children (1975); not public domain."
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "fd0466e0a0",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/fd0466e0a0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "forster-machine-stops",
+   "author": "E. M. Forster",
+   "authorShort": "Forster",
+   "title": "The Machine Stops",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1909,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": "Q287448",
+   "textUrl": "https://www.gutenberg.org/ebooks/72890",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q14",
+    "Q25",
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "6c5f96783e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6c5f96783e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "gandhi-hind-swaraj",
+   "author": "M. K. Gandhi",
+   "authorShort": "Gandhi",
+   "title": "Hind Swaraj, or Indian Home Rule",
+   "originalTitle": "Hind Swaraj",
+   "otherTitles": [
+    "Hind Swaraj (Indian Home Rule)",
+    "Hind Swaraj or Indian Home Rule"
+   ],
+   "year": 1909,
+   "earlier": false,
+   "language": "Gujarati",
+   "kind": "treatise",
+   "wikidata": "Q4996905",
+   "textUrl": "https://archive.org/details/hindswarajorindi00ganduoft",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Gandhi's own English translation, Indian Home Rule (1910); 1921 Madras edition on Internet Archive"
+   },
+   "questions": [
+    "Q17",
+    "Q25",
+    "Q32",
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "a8a22bd149",
+     "role": "main",
+     "language": "Gujarati",
+     "status": "ok",
+     "file": "canon/texts/a8a22bd149.txt"
+    },
+    {
+     "id": "49d515252c",
+     "role": "main",
+     "language": "Gujarati",
+     "status": "ok",
+     "file": "canon/texts/49d515252c.txt"
+    },
+    {
+     "id": "5d7e9dc60b",
+     "role": "main",
+     "language": "Gujarati",
+     "status": "ok",
+     "file": "canon/texts/5d7e9dc60b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "henry-et-al-sensory-disturbances",
+   "author": "Henry Head and Gordon Holmes",
+   "authorShort": "Henry et al.",
+   "title": "Sensory Disturbances from Cerebral Lesions",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1911,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://zenodo.org/records/1431638",
+   "text": "partial",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "d64c3e5c49",
+     "role": "main",
+     "language": "English",
+     "status": "partial",
+     "file": "canon/texts/d64c3e5c49.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "taylor-principles-scientific",
+   "author": "Frederick Winslow Taylor",
+   "authorShort": "Taylor",
+   "title": "The Principles of Scientific Management",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1911,
+   "earlier": false,
+   "language": "English",
+   "kind": "manual",
+   "wikidata": "Q267727",
+   "textUrl": "https://www.gutenberg.org/ebooks/6435",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "8c813d6bf5",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8c813d6bf5.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "loeb-mechanistic-conception",
+   "author": "Jacques Loeb",
+   "authorShort": "Loeb",
+   "title": "The Mechanistic Conception of Life",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1912,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/mechanisticconce1912loeb",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07",
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "a5830603da",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a5830603da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "haldane-mechanism-life",
+   "author": "J. S. Haldane",
+   "authorShort": "Haldane",
+   "title": "Mechanism, Life and Personality",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1913,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/mechanismlifeand00halduoft",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07",
+    "Q08",
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "6593bbee13",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6593bbee13.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "munsterberg-psychology-industrial",
+   "author": "Hugo Münsterberg",
+   "authorShort": "Münsterberg",
+   "title": "Psychology and Industrial Efficiency",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1913,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/15154/15154-h/15154-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "3f9111ee7a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3f9111ee7a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "quevedo-essays-automatics",
+   "author": "Leonardo Torres Quevedo",
+   "authorShort": "Quevedo",
+   "title": "Essays on Automatics",
+   "originalTitle": "Ensayos sobre automática: su definición, extensión teórica de sus aplicaciones",
+   "otherTitles": [],
+   "year": 1914,
+   "earlier": false,
+   "language": "Spanish",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "French version published 1915 in the Revue générale des sciences; no public-domain English translation found"
+   },
+   "questions": [
+    "Q02",
+    "Q03"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rilke-dolls-wax",
+   "author": "Rainer Maria Rilke",
+   "authorShort": "Rilke",
+   "title": "Dolls: On the Wax Dolls of Lotte Pritzel",
+   "originalTitle": "Puppen. Zu den Wachs-Puppen von Lotte Pritzel",
+   "otherTitles": [],
+   "year": 1914,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "http://www.zeno.org/Literatur/M/Rilke,+Rainer+Maria/Theoretische+Schriften/[Aufs%C3%A4tze+und+Rezensionen]/Puppen",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q40"
+   ],
+   "texts": [
+    {
+     "id": "e7b04031d1",
+     "role": "main",
+     "language": "German",
+     "status": "partial",
+     "file": "canon/texts/e7b04031d1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wells-world-set",
+   "author": "H. G. Wells",
+   "authorShort": "Wells",
+   "title": "The World Set Free",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1914,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/1059",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26"
+   ],
+   "texts": [
+    {
+     "id": "e4af9fc876",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e4af9fc876.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "veblen-imperial-germany",
+   "author": "Thorstein Veblen",
+   "authorShort": "Veblen",
+   "title": "Imperial Germany and the Industrial Revolution",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1915,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/imperialgermany01veblgoog",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "d469e49247",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d469e49247.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "loeb-organism-as",
+   "author": "Jacques Loeb",
+   "authorShort": "Loeb",
+   "title": "The Organism as a Whole, from a Physicochemical Viewpoint",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1916,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/45962",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "34d0aa84df",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/34d0aa84df.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "terman-measurement-intelligence",
+   "author": "Lewis M. Terman",
+   "authorShort": "Terman",
+   "title": "The Measurement of Intelligence",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1916,
+   "earlier": false,
+   "language": "English",
+   "kind": "manual",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/20662",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "9e56d88294",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9e56d88294.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "lenin-state-revolution",
+   "author": "V. I. Lenin",
+   "authorShort": "Lenin",
+   "title": "The State and Revolution",
+   "originalTitle": "Государство и революция",
+   "otherTitles": [],
+   "year": 1917,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Multiple early English translations; Marxists Internet Archive hosts one."
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "45b21f2b4a-orig",
+     "role": "original",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/45b21f2b4a-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "tagore-nationalism",
+   "author": "Rabindranath Tagore",
+   "authorShort": "Tagore",
+   "title": "Nationalism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1917,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/40766/40766-h/40766-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q32",
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "2da14fc123",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2da14fc123.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "baum-tin-woodman",
+   "author": "L. Frank Baum",
+   "authorShort": "Baum",
+   "title": "The Tin Woodman of Oz",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1918,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/30852/30852-h/30852-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "d52dd8758f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d52dd8758f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "freud-uncanny",
+   "author": "Sigmund Freud",
+   "authorShort": "Freud",
+   "title": "The Uncanny",
+   "originalTitle": "Das Unheimliche",
+   "otherTitles": [],
+   "year": 1919,
+   "earlier": false,
+   "language": "German",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/files/34222/34222-h/34222-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed."
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "565945ab94",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/565945ab94.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "weber-politics-as",
+   "author": "Max Weber",
+   "authorShort": "Weber",
+   "title": "Politics as a Vocation",
+   "originalTitle": "Politik als Beruf",
+   "otherTitles": [],
+   "year": 1919,
+   "earlier": false,
+   "language": "German",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by Gerth and Mills (1946), not public domain."
+   },
+   "questions": [
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "de2c726d82-orig",
+     "role": "original",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/de2c726d82-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "capek-r-u",
+   "author": "Karel Čapek",
+   "authorShort": "Čapek",
+   "title": "R.U.R. (Rossum's Universal Robots)",
+   "originalTitle": "R.U.R. (Rossumovi Univerzální Roboti)",
+   "otherTitles": [],
+   "year": 1920,
+   "earlier": false,
+   "language": "Czech",
+   "kind": "fiction",
+   "wikidata": "Q1164094",
+   "textUrl": "https://www.gutenberg.org/ebooks/59112",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Paul Selver and Nigel Playfair translation (1923), Project Gutenberg #59112; Czech original Gutenberg #13083."
+   },
+   "questions": [
+    "Q14",
+    "Q28",
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "ee43c947e1",
+     "role": "main",
+     "language": "Czech",
+     "status": "ok",
+     "file": "canon/texts/ee43c947e1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "capek-makropulos-affair",
+   "author": "Karel Čapek",
+   "authorShort": "Čapek",
+   "title": "The Makropulos Affair",
+   "originalTitle": "Věc Makropulos",
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "Czech",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation confirmed."
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "darrow-crime-its",
+   "author": "Clarence Darrow",
+   "authorShort": "Darrow",
+   "title": "Crime: Its Cause and Treatment",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/12027",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "2b8812dd71",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2b8812dd71.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "dewey-human-nature",
+   "author": "John Dewey",
+   "authorShort": "Dewey",
+   "title": "Human Nature and Conduct",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/41386",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "108c2c6cbc",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/108c2c6cbc.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "ford-my-life",
+   "author": "Henry Ford",
+   "authorShort": "Ford",
+   "title": "My Life and Work",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": "Q26219916",
+   "textUrl": "https://www.gutenberg.org/ebooks/7213",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "158b329155",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/158b329155.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "lippmann-mental-age",
+   "author": "Walter Lippmann",
+   "authorShort": "Lippmann",
+   "title": "The Mental Age of Americans",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "none",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "capek-krakatit",
+   "author": "Karel Čapek",
+   "authorShort": "Čapek",
+   "title": "Krakatit",
+   "originalTitle": "Krakatit",
+   "otherTitles": [],
+   "year": 1924,
+   "earlier": false,
+   "language": "Czech",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/79127",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Lawrence Hyde, Krakatit (1925); Gutenberg #79127"
+   },
+   "questions": [
+    "Q26"
+   ],
+   "texts": [
+    {
+     "id": "cac058dc6a",
+     "role": "main",
+     "language": "Czech",
+     "status": "ok",
+     "file": "canon/texts/cac058dc6a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "haldane-daedalus-science",
+   "author": "J. B. S. Haldane",
+   "authorShort": "Haldane",
+   "title": "Daedalus, or Science and the Future",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1924,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": "Q5208161",
+   "textUrl": "https://archive.org/details/daedalus_or_science_and_the_future",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26",
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "b08d2660a1",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b08d2660a1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "russell-icarus-future",
+   "author": "Bertrand Russell",
+   "authorShort": "Russell",
+   "title": "Icarus, or the Future of Science",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1924,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/icarusorfutureof00russ",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26"
+   ],
+   "texts": [
+    {
+     "id": "3841de0061",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3841de0061.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "zamyatin-we",
+   "author": "Yevgeny Zamyatin",
+   "authorShort": "Zamyatin",
+   "title": "We",
+   "originalTitle": "Мы",
+   "otherTitles": [],
+   "year": 1924,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/61963",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Gregory Zilboorg translation (1924), Gutenberg #61963"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "88866dd1ee",
+     "role": "main",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/88866dd1ee.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "belyaev-professor-dowell",
+   "author": "Alexander Belyaev",
+   "authorShort": "Belyaev",
+   "title": "Professor Dowell's Head",
+   "originalTitle": "Голова профессора Доуэля",
+   "otherTitles": [],
+   "year": 1925,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://ru.wikisource.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0_%D0%94%D0%BE%D1%83%D1%8D%D0%BB%D1%8F_(%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2)/1925_(%D0%A1%D0%9E)",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation found."
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "a8eb31729e",
+     "role": "main",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/a8eb31729e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "haldane-callinicus-defence",
+   "author": "J. B. S. Haldane",
+   "authorShort": "Haldane",
+   "title": "Callinicus: A Defence of Chemical Warfare",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1925,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/in.ernet.dli.2015.172662",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "3588835f8a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3588835f8a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "eddington-nature-physical",
+   "author": "Arthur Stanley Eddington",
+   "authorShort": "Eddington",
+   "title": "The Nature of the Physical World",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1928,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/natureofphysical00eddi",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "06748e8bd7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/06748e8bd7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "bernal-world-flesh",
+   "author": "J. D. Bernal",
+   "authorShort": "Bernal",
+   "title": "The World, the Flesh and the Devil",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1929,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/in.ernet.dli.2015.171486",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "93f166ac76",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/93f166ac76.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "freud-civilization-its",
+   "author": "Sigmund Freud",
+   "authorShort": "Freud",
+   "title": "Civilization and Its Discontents",
+   "originalTitle": "Das Unbehagen in der Kultur",
+   "otherTitles": [],
+   "year": 1930,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": "https://www.projekt-gutenberg.org/freud/unbehag/chap003.html",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Joan Riviere, 1930 (Gutenberg #78221)",
+    "url": "https://www.gutenberg.org/ebooks/78221"
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "28be620f90",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/28be620f90.txt"
+    },
+    {
+     "id": "28be620f90-en",
+     "role": "translation",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/28be620f90-en.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "jones-jameson-satellite",
+   "author": "Neil R. Jones",
+   "authorShort": "Jones",
+   "title": "The Jameson Satellite",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1931,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/26906",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "2478db7b4b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2478db7b4b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "spengler-man-technics",
+   "author": "Oswald Spengler",
+   "authorShort": "Spengler",
+   "title": "Man and Technics",
+   "originalTitle": "Der Mensch und die Technik",
+   "otherTitles": [],
+   "year": 1931,
+   "earlier": false,
+   "language": "German",
+   "kind": "treatise",
+   "wikidata": "Q1195783",
+   "textUrl": null,
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by C. T. Atkinson (1932), not public domain."
+   },
+   "questions": [
+    "Q32",
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "910d6b93ad-orig",
+     "role": "original",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/910d6b93ad-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "berdyaev-man-machine",
+   "author": "Nikolai Berdyaev",
+   "authorShort": "Berdyaev",
+   "title": "Man and Machine",
+   "originalTitle": "Человек и машина",
+   "otherTitles": [],
+   "year": 1933,
+   "earlier": false,
+   "language": "Russian",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "No public-domain English translation; English translation in Technology and Language (2023)"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "6780a39d3b-orig",
+     "role": "original",
+     "language": "Russian",
+     "status": "ok",
+     "file": "canon/texts/6780a39d3b-orig.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "turing-computable-numbers",
+   "author": "Alan Turing",
+   "authorShort": "Turing",
+   "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1936,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rey-helen-o",
+   "author": "Lester del Rey",
+   "authorShort": "Rey",
+   "title": "Helen O'Loy",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1938,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "rosenblueth-behavior-purpose",
+   "author": "Arturo Rosenblueth, Norbert Wiener and Julian Bigelow",
+   "authorShort": "Rosenblueth",
+   "title": "Behavior, Purpose and Teleology",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1943,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "merleau-ponty-phenomenology-perception",
+   "author": "Maurice Merleau-Ponty",
+   "authorShort": "Merleau-Ponty",
+   "title": "Phenomenology of Perception",
+   "originalTitle": "Phénoménologie de la perception",
+   "otherTitles": [],
+   "year": 1945,
+   "earlier": false,
+   "language": "French",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by Colin Smith (1962), not public domain."
+   },
+   "questions": [
+    "Q37"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "wiener-scientist-rebels",
+   "author": "Norbert Wiener",
+   "authorShort": "Wiener",
+   "title": "A Scientist Rebels",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1947,
+   "earlier": false,
+   "language": "English",
+   "kind": "letter",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "hartree-calculating-instruments",
+   "author": "Douglas R. Hartree",
+   "authorShort": "Hartree",
+   "title": "Calculating Instruments and Machines",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1949,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "jefferson-mind-mechanical",
+   "author": "Geoffrey Jefferson",
+   "authorShort": "Jefferson",
+   "title": "The Mind of Mechanical Man (Lister Oration)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1949,
+   "earlier": false,
+   "language": "English",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q02"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "cesaire-discourse-colonialism",
+   "author": "Aimé Césaire",
+   "authorShort": "Césaire",
+   "title": "Discourse on Colonialism",
+   "originalTitle": "Discours sur le colonialisme",
+   "otherTitles": [],
+   "year": 1950,
+   "earlier": false,
+   "language": "French",
+   "kind": "essay",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "none",
+    "note": "English translation by Joan Pinkham (1972), not public domain."
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "turing-computing-machinery",
+   "author": "Alan M. Turing",
+   "authorShort": "Turing",
+   "title": "Computing Machinery and Intelligence",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1950,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": null,
+   "text": "copyright",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01",
+    "Q02",
+    "Q03"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-09-29",
+   "suggestedBy": "Claude research agents, 29 Sep 2026"
+  }
+ ]
+}

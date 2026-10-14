@@ -1,0 +1,134 @@
+[
+ {"aid": "p57aaf0", "position": "Weakens if machine becomes master: subordination to machinery degrades man physically, morally, intellectually.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "A mechanical condition would therefore be one wherein an individual acts without intelligence or volition, according to certain laws or habits coming to him from others; a mechanical state of society, one wherein the government moves on according to the will of one or more men, without thought, love, or even attention from the mass of the people, content only with their acquiescence."},
+   {"cid": "c3", "match": "related", "quote": "The human labourer becomes the slave of the machine."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "I would seek a higher principle of action altogether; and before setting up new insentient machinery, would provide that the highest _sentient_ machinery, _Man_, should receive due consideration."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pfcd56b", "position": "Does not weaken: mastering typewriters and adding machines trains learning, observation, accuracy.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "You spin by a steam-engine, and some complicated system of reels and pulleys, but the human finger is not spared--the human volition is still wanted."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "If the last principle be admitted, there seems no argument against the claim that some forms of manual training, such as lathe work and forge work, are just the things to develop moral character."},
+   {"cid": "c8", "match": "related", "quote": "The motto of the schools--\"We learn by doing; the working hand makes strong the working brain\"--shows manual training to be the basis of the scheme of development, varied for each grade to suit the intelligence."}
+  ]},
+ {"aid": "p247fb1", "position": "Weakens: machines cause chronic unemployment, which depresses bodies and deteriorates the race.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The machine has called into existence, for its own service, an immense population, ill fed and ill clothed."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "The restless inquiry and invention of the present is rapidly and surely intruding _iron_ muscles, which do not become hungry, or experience the depression of low wages and consequent low fare, into every department of human industry, crowding out and setting adrift thousands of the industrious, to seek new and untried means of subsistence, from which soon again to be driven, by—what many of them have come to look upon as their greatest, most persevering and relentless enemy—machinery."},
+   {"cid": "c4", "match": "related", "quote": "The value of labor and the importance of the mechanic decline with the application of machinery to all industrial processes."},
+   {"cid": "c5", "match": "related", "quote": "The rapid invention and introduction of labor-saving machinery has had a very marked tendency to draw the laboring population from the rural districts, and congregate it at the manufacturing centers."},
+   {"cid": "c6", "match": "related", "quote": "We may, by a diligent study, find out these causes, such as increase of outward knowledge, division of labor, a complexity of outward relations, and a consequent hurried life that leaves no time for thought; but a careful analysis of all these reduces them to one great cause--an undue attention to physical prosperity."},
+   {"cid": "c7", "match": "related", "quote": "It threw wholly out of employment and reduced to absolute destitution thousands upon thousands of skillful, accurate, admirable penmen, who had given the best years of their lives to acquire skill in a profession, or pursuit, which the press almost extirpated."},
+   {"cid": "c8", "match": "same", "quote": "The multitude dislodged by invention is increased by the inevitable multitude arising from irregular demand and supply in fluctuating markets, and thus families by the hundred thousand are driven to the verge of immediate starvation, and this becomes our chronic condition, which must be rectified,--a chronic condition which bears most heavily on woman, and through her debases future generations."}
+  ]},
+ {"aid": "p41623c", "position": "Does not weaken: machines create no powers, only liberate existing ones into new domains.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "We have subjected none of the forces of nature; we have only learned in some few instances to construct our machinery so as to be propelled by them, as did the first man who built a mill, constructed a boat, or spread his sails to catch the breeze."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "It is well, however, never to forget that whatever the seeming may be, the most perfect machine of human invention does not create force."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p99b614", "position": "Does not weaken; reason is an incoherent house/mirror/carriage analogy about capacity being unchanged.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pcc4394", "position": "Depends: machines let the mind drift, but a trained mind keeps control.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "“The primary principle of education is the determination of the pupil to self‐activity—the doing nothing for him which he is able to do for himself.”"},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pd6a1b6", "position": "Weakens: machines are not living, so unreliable, giving no guarantee of the future.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "We have in those things gained no triumph over matter, no control over the forces of nature, which are as independent of our reason and will as ever they were, as the first steamboat explosion will suffice to convince the most skeptical."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p6f2f57", "position": "Does not weaken: machines free cognitive bandwidth, redirecting capacities to higher-order functions.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "But the calculating power alone should seem to be the least human of qualities, and to have the smallest amount of reason in it; since a machine can be made to do the work of three or four calculators, and better than any one of them."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p0fc7d7", "position": "Weakens: delegated skills atrophy through disuse, creating dependency.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "This is the age which ushers in the last period of the nation, a mechanical state of the individual, when thought has so departed that the man is not able to attend even to his own life, and, like a passive machine, the state is impelled and directed in even the least things by one tyranny from without."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p435a16", "position": "Weakens: delegated skills atrophy through disuse; individuals grow fragile and dependent.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "This is the age which ushers in the last period of the nation, a mechanical state of the individual, when thought has so departed that the man is not able to attend even to his own life, and, like a passive machine, the state is impelled and directed in even the least things by one tyranny from without."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pb3fa7f", "position": "Depends: mere machine attendants who stop thinking weaken; machines that demand thought strengthen.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The human labourer becomes the slave of the machine."},
+   {"cid": "c2", "match": "related", "quote": "A mechanical condition would therefore be one wherein an individual acts without intelligence or volition, according to certain laws or habits coming to him from others; a mechanical state of society, one wherein the government moves on according to the will of one or more men, without thought, love, or even attention from the mass of the people, content only with their acquiescence."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p882736", "position": "Depends: some physical skills atrophy, but technology reallocates energy to amplified cognitive capacities.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Our sense organs are thus indefinitely multiplied and extended by such extra-organic sense organs as the microscope, telescope, resonator, telephone, telegraph, thermometer, etc."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

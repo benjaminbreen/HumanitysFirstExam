@@ -1,292 +1,257 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import SourceTextReader from "@/components/SourceTextReader";
+import { FaceToggle } from "@/components/FaceToggle";
+import { PassageView } from "@/components/PassageView";
+import { Quote } from "@/components/Quote";
+import { HeldBack } from "@/components/HeldBack";
+import { ReviewCheck, TextFlag } from "@/components/Row";
 import {
-  classificationSchema,
-  codebook,
-  corpusCoding,
-  data,
-  historicalPassages,
-  historicalSourceTexts,
-  prototypePassages,
+  formatYear,
+  getQuestion,
+  getTheme,
+  getWork,
+  isHeldBack,
+  kindLabel,
+  passagesForWork,
+  quoteFor,
+  stancesForWork,
+  translationLabel,
+  workSorts,
+  works,
 } from "@/lib/data";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return historicalSourceTexts.sources.flatMap((source) => [
-    { id: source.sourceId },
-    ...(source.passageId ? [{ id: source.passageId }] : []),
-  ]);
-}
-
-function getSource(id: string) {
-  return historicalSourceTexts.sources.find(
-    (source) => source.sourceId === id || source.passageId === id,
-  );
-}
-
-const schemaLabels = new Map(
-  [
-    ...classificationSchema.themes.flatMap((theme) => theme.children),
-    ...codebook.flatMap((branch) => branch.leaves),
-    ...classificationSchema.grounds,
-    ...classificationSchema.autonomyEffects,
-    ...classificationSchema.loci,
-    ...classificationSchema.objects,
-    ...classificationSchema.genres,
-    ...classificationSchema.modes,
-    ...classificationSchema.relations,
-  ].map((option) => [option.id, option.label]),
-);
-
-function SchemaLink({ id, suffix }: { id: string; suffix?: string }) {
-  return (
-    <Link
-      href={`/codebook#${id}`}
-      className="rounded-md border border-ink-faint/45 px-2 py-1 font-mono text-[10px] text-ink-soft hover:border-ink-soft hover:text-ink"
-    >
-      {schemaLabels.get(id) ?? id}
-      {suffix}
-    </Link>
-  );
+  return works.map((w) => ({ id: w.id }));
 }
 
 export async function generateMetadata({
   params,
-}: {
-  params: Promise<{ id: string }>;
-}): Promise<Metadata> {
-  const { id } = await params;
-  const source = getSource(id);
-  if (!source) return {};
-  return {
-    title: source.title + " · " + data.meta.title,
-    description: source.author + ", " + source.year + ". Full source text.",
-  };
+}: PageProps<"/sources/[id]">): Promise<Metadata> {
+  const w = getWork((await params).id);
+  return w ? { title: `${w.authorShort}, ${w.title}` } : {};
 }
 
-export default async function SourceDetailPage({
-  params,
+function Section({
+  title,
+  children,
 }: {
-  params: Promise<{ id: string }>;
+  title: string;
+  children: React.ReactNode;
 }) {
-  const { id } = await params;
-  const source = getSource(id);
-  if (!source) notFound();
+  return (
+    <section className="mt-16">
+      <h2 className="mb-6 font-pixel text-[24px] leading-none">
+        <FaceToggle>{title}</FaceToggle>
+      </h2>
+      {children}
+    </section>
+  );
+}
 
-  const passage = historicalPassages.passages.find(
-    (item) => item.sourceId === source.sourceId,
-  );
-  const workingPassages = prototypePassages.passages.filter(
-    (item) => item.sourceId === source.sourceId,
-  );
-  for (const [index, record] of corpusCoding.entries()) {
-    if (
-      record.sourceId !== source.sourceId ||
-      !record.originalText ||
-      !record.locator ||
-      !record.themes ||
-      !record.claims ||
-      !record.grounds ||
-      !record.autonomyEffect ||
-      !record.genre ||
-      !record.modes ||
-      workingPassages.some((item) => item.originalText === record.originalText)
-    ) {
-      continue;
-    }
-    workingPassages.push({
-      id: `corpus-${String(index + 1).padStart(3, "0")}`,
-      sourceId: source.sourceId,
-      author: source.author,
-      title: source.title,
-      year: source.year,
-      language: source.language,
-      locator: record.locator,
-      relatedQuestionNumbers: record.relatedQuestions,
-      sourceUrl: source.sourceUrl,
-      originalText: record.originalText,
-      englishText: null,
-      sourceCheckRequired: false,
-      sourceMatchLevel: "corpus-coding-passage-selected-in-local-text",
-      classification: {
-        status: "working-prototype-classification",
-        themes: record.themes,
-        claims: record.claims,
-        grounds: record.grounds,
-        autonomyEffect: record.autonomyEffect,
-        loci: record.loci ?? [],
-        objects: record.objects ?? [],
-        genre: record.genre,
-        modes: record.modes,
-        rationale: record.rationale ?? "Passage selected in the corpus coding pass.",
-      },
-    });
+const byYear = [...works].sort(workSorts.year);
+const host = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return url;
   }
-  const extent =
-    source.language === "Japanese"
-      ? source.characterCount.toLocaleString() + " characters"
-      : source.wordCount.toLocaleString() + " words";
+};
+
+export default async function SourcePage({
+  params,
+}: PageProps<"/sources/[id]">) {
+  const w = getWork((await params).id);
+  if (!w) notFound();
+  const stances = stancesForWork(w.id);
+  const passages = passagesForWork(w.id);
+  const i = byYear.findIndex((x) => x.id === w.id);
+  const prev = byYear[(i - 1 + byYear.length) % byYear.length];
+  const next = byYear[(i + 1) % byYear.length];
+
+  const record: [string, React.ReactNode][] = [
+    ["Period", w.earlier ? "Earlier work, influential in the period" : null],
+    [
+      "Original title",
+      w.originalTitle && w.originalTitle !== w.title ? (
+        <span className="font-serif italic">{w.originalTitle}</span>
+      ) : null,
+    ],
+    ["Also listed as", w.otherTitles.length ? w.otherTitles.join("; ") : null],
+    ["Language", w.language],
+    ["Form", kindLabel(w.kind)],
+    ["Text", <TextFlag key="t" w={w} />],
+    [
+      "English",
+      <span key="e">
+        {translationLabel[w.translation.kind]}
+        {w.translation.note && (
+          <span className="text-ink-soft"> · {w.translation.note}</span>
+        )}
+      </span>,
+    ],
+    [
+      "Source text",
+      w.textUrl ? (
+        <a href={w.textUrl} className="text-modern hover:underline">
+          {host(w.textUrl)}
+        </a>
+      ) : null,
+    ],
+    [
+      "Wikidata",
+      w.wikidata ? (
+        <a
+          href={`https://www.wikidata.org/wiki/${w.wikidata}`}
+          className="font-mono text-[13px] text-modern hover:underline"
+        >
+          {w.wikidata}
+        </a>
+      ) : null,
+    ],
+    [
+      "Selected",
+      `${w.selectedBy}, ${w.selectedOn}; suggested by ${w.suggestedBy}`,
+    ],
+    [
+      "Status",
+      <span key="s" className="text-provisional">
+        Arguments unverified; quotations chosen by machine, unchecked
+      </span>,
+    ],
+  ];
 
   return (
-    <main className="mx-auto max-w-5xl px-5 py-9 md:py-12">
-      <nav className="font-mono text-xs">
-        <Link href="/sources" className="text-ink-soft hover:text-ink">
-          ← Sources
+    <article>
+      <nav
+        aria-label="Breadcrumb"
+        className="flex items-center gap-2 text-[15px] text-ink-soft"
+      >
+        <Link href="/sources" className="hover:text-ink">
+          Sources
         </Link>
+        <span className="text-ink-faint">/</span>
+        <span>{w.authorShort}</span>
       </nav>
 
-      <header className="mt-8 border-b border-line pb-7">
-        <p className="font-mono text-[10px] uppercase tracking-wider text-period">
-          {source.year} · {source.language}
-          {source.region ? " · " + source.region : ""}
+      <header className="mt-5">
+        <p className="text-[1.2rem] text-ink-soft">
+          {w.author}{" "}
+          <span className="num font-mono text-[15px] text-ink-faint">
+            · {formatYear(w.year)}
+          </span>
         </p>
-        <h1 className="mt-3 max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
-          {source.title}
+        <h1 className="mt-2 max-w-4xl font-serif text-[2.6rem] leading-[1.05] tracking-[-0.02em] italic sm:text-[3.6rem]">
+          {w.title}
         </h1>
-        <p className="mt-2 font-serif text-lg text-ink-soft">{source.author}</p>
-
-        <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 font-mono text-xs">
-          <a href="#text" className="underline decoration-line underline-offset-4">
-            Read text ↓
-          </a>
-          <a
-            href={source.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-ink-soft underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            View source edition ↗
-          </a>
-          <a
-            href={source.textPath}
-            download
-            className="text-ink-soft underline decoration-line underline-offset-4 hover:text-ink"
-          >
-            Download text
-          </a>
-        </div>
       </header>
 
-      <div className="grid gap-8 py-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-12">
-        <div className="min-w-0">
-          {passage && (
-            <details className="mb-9 border-y border-line py-4">
-              <summary className="cursor-pointer font-mono text-xs text-ink-soft hover:text-ink">
-                Passage selected for Humanity&apos;s First Exam
-              </summary>
-              <div className="mt-5">
-                <blockquote className="border-l-2 border-period pl-5 text-lg leading-relaxed">
-                  {passage.originalText}
-                </blockquote>
-                {passage.englishText && (
-                  <div className="mt-5 border-l border-line pl-5">
-                    <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                      Working English translation
-                    </p>
-                    <p className="mt-2 leading-relaxed text-ink-soft">
-                      {passage.englishText}
-                    </p>
-                  </div>
-                )}
-                <p className="mt-5 text-sm leading-relaxed text-ink-soft">
-                  {passage.locator}
-                </p>
-              </div>
-            </details>
-          )}
+      <dl className="mt-10 grid max-w-4xl grid-cols-[8.5rem_1fr] gap-x-6 text-[15px] sm:grid-cols-[10rem_1fr]">
+        {record
+          .filter(([, v]) => v)
+          .map(([k, v]) => (
+            <div key={k} className="contents">
+              <dt className="border-t border-line py-2 text-ink-faint">{k}</dt>
+              <dd className="border-t border-line py-2">{v}</dd>
+            </div>
+          ))}
+      </dl>
 
-          {workingPassages.length > 0 && (
-            <details open className="mb-9 border-y border-line py-4">
-              <summary className="cursor-pointer font-mono text-xs text-ink-soft hover:text-ink">
-                {workingPassages.length} selected {workingPassages.length === 1 ? "passage" : "passages"} and classifications
-              </summary>
-              {workingPassages.map((workingPassage, index) => (
-                <article key={workingPassage.id} className={index === 0 ? "mt-5" : "mt-8 border-t border-line pt-7"}>
-                  <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">Passage {index + 1}</p>
-                  <blockquote className="mt-3 border-l-2 border-period pl-5 text-lg leading-relaxed">
-                    {workingPassage.originalText}
-                  </blockquote>
-                  {workingPassage.englishText && (
-                    <div className="mt-5 border-l border-line pl-5">
-                      <p className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">Working English translation</p>
-                      <p className="mt-2 leading-relaxed text-ink-soft">{workingPassage.englishText}</p>
+      <Section title="Answers">
+        <ul className="max-w-4xl">
+          {stances.map((s) => {
+            const q = getQuestion(s.question);
+            const theme = q && getTheme(q.theme);
+            return (
+              <li
+                key={s.id}
+                className="border-t border-line py-5 first:border-t-0 first:pt-0"
+              >
+                <p className="flex flex-wrap items-baseline gap-x-3">
+                  <span className="num font-mono text-[12px] text-ink-faint">
+                    {s.question}
+                  </span>
+                  {theme && (
+                    <span className="theme-name text-[16px]">
+                      {theme.name}
+                    </span>
+                  )}
+                </p>
+                <Link
+                  href={`/questions/${s.question.toLowerCase()}`}
+                  className="mt-1 block text-[1.2rem] leading-snug font-semibold tracking-[-0.01em] hover:underline hover:underline-offset-4"
+                >
+                  {q?.question}
+                </Link>
+                {isHeldBack(s) ? (
+                  <div className="mt-2">
+                    <HeldBack />
+                  </div>
+                ) : (
+                  <>
+                  <p className="mt-2 text-[15.5px] leading-relaxed">
+                    <span className="font-semibold">{s.sideLabel}.</span>{" "}
+                    {s.sideGloss && (
+                      <span className="text-ink-soft italic">
+                        {s.sideGloss}.{" "}
+                      </span>
+                    )}
+                    {s.argument}
+                  </p>
+                  <ReviewCheck check={s.reviewCheck} />
+                  {quoteFor(s) && (
+                    <div className="mt-3">
+                      <Quote p={quoteFor(s)!} />
                     </div>
                   )}
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {workingPassage.classification.themes.map((theme) => <SchemaLink key={theme} id={theme} />)}
-                    {workingPassage.classification.claims.map((claim) => (
-                      <SchemaLink key={`${claim.claimId}-${claim.relation}`} id={claim.claimId} suffix={` · ${schemaLabels.get(claim.relation) ?? claim.relation}`} />
-                    ))}
-                    {workingPassage.classification.grounds.map((ground) => <SchemaLink key={ground} id={ground} />)}
-                    <SchemaLink id={workingPassage.classification.autonomyEffect} />
-                    {(workingPassage.classification.loci ?? []).map((locus) => <SchemaLink key={locus} id={locus} />)}
-                    {(workingPassage.classification.objects ?? []).map((object) => <SchemaLink key={object} id={object} />)}
-                  </div>
-                  <p className="mt-5 text-sm leading-relaxed text-ink-soft">{workingPassage.classification.rationale}</p>
-                  <p className="mt-3 font-mono text-[10px] text-ink-faint">
-                    {workingPassage.locator}{workingPassage.sourceCheckRequired ? " · source wording still to be checked" : ""}
+                  <p className="mt-2 text-[13px] leading-snug text-ink-faint">
+                    {s.where && <span className="font-mono">{s.where} · </span>}
+                    {s.checked}
                   </p>
-                </article>
-              ))}
-            </details>
-          )}
+                  </>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </Section>
 
-          <section id="text" className="scroll-mt-8">
-            <div className="mb-6 flex items-baseline justify-between gap-4 border-b border-line pb-3">
-              <h2 className="font-display text-2xl font-semibold tracking-tight">
-                Text
-              </h2>
-              <span className="font-mono text-[10px] text-ink-faint">{extent}</span>
-            </div>
-            <SourceTextReader
-              path={source.textPath}
-              title={source.title}
-              language={source.language}
-            />
-          </section>
-        </div>
+      {passages.length > 0 && (
+        <Section title="Passages">
+          {passages.map((p) => (
+            <PassageView key={p.id} p={p} />
+          ))}
+        </Section>
+      )}
 
-        <aside className="border-t border-line pt-5 text-sm leading-relaxed text-ink-soft lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
-          <h2 className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-            Why this source
-          </h2>
-          <p className="mt-2">{source.relevance}</p>
-
-          <dl className="mt-7 space-y-5">
-            <div>
-              <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                Reading copy
-              </dt>
-              <dd className="mt-1">
-                {source.status === "ocr-transcription"
-                  ? "OCR transcription; check uncertain readings against the scan."
-                  : "Repository transcription retained locally for reading and search."}
-              </dd>
-            </div>
-            {passage && (
-              <div>
-                <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                  Passage check
-                </dt>
-                <dd className="mt-1">{passage.source.note}</dd>
-              </div>
-            )}
-            {workingPassages.length > 0 && (
-              <div>
-                <dt className="font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                  Classification
-                </dt>
-                <dd className="mt-1">
-                  Tags connect the passage to the project&apos;s historical concept space.
-                </dd>
-              </div>
-            )}
-          </dl>
-        </aside>
-      </div>
-    </main>
+      <nav className="mt-20 grid grid-cols-2 gap-10 border-t border-rule pt-4">
+        <Link href={`/sources/${prev.id}`} className="group">
+          <span className="label">← Earlier</span>
+          <span className="mt-3 block text-[15px] leading-snug">
+            <span className="num mr-2 font-mono text-[12px] text-ink-faint">
+              {formatYear(prev.year)}
+            </span>
+            {prev.authorShort},{" "}
+            <span className="font-serif italic group-hover:underline group-hover:underline-offset-4">
+              {prev.title}
+            </span>
+          </span>
+        </Link>
+        <Link href={`/sources/${next.id}`} className="group text-right">
+          <span className="label">Later →</span>
+          <span className="mt-3 block text-[15px] leading-snug">
+            <span className="num mr-2 font-mono text-[12px] text-ink-faint">
+              {formatYear(next.year)}
+            </span>
+            {next.authorShort},{" "}
+            <span className="font-serif italic group-hover:underline group-hover:underline-offset-4">
+              {next.title}
+            </span>
+          </span>
+        </Link>
+      </nav>
+    </article>
   );
 }

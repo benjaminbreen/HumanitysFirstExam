@@ -1,0 +1,290 @@
+[
+ {
+  "stance": "q06-mill-system-logic",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "A person feels morally free who feels that his habits or his temptations are not his masters, but he theirs; who, even in yielding to them, knows that he could resist; that were he desirous of altogether throwing them off, there would not be required for that purpose a stronger desire than he knows himself to be capable of feeling. It is of course necessary, to render our consciousness of freedom complete, that we should have succeeded in making our character all we have hitherto attempted to make it; for if we have wished and not attained, we have, to that extent, not power over our own character; we are not free. Or at least, we must feel that our wish, if not strong enough to alter our character, is strong enough to conquer our character when the two are brought into conflict in any particular case of conduct. And hence it is said with truth, that none but a person of confirmed virtue is completely free. The application of so improper a term as Necessity to the doctrine of cause and effect in the matter of human character, seems to me one of the most signal instances in philosophy of the abuse of terms, and its practical consequences one of the most striking examples of the power of language over our associations.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Mill says a person is morally free who feels his habits are not his masters and could be resisted, and calls 'Necessity' an abuse of terms."
+ },
+ {
+  "stance": "q06-butler-erewhon",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "That in that country if a man falls into ill health, or catches any disorder, or fails bodily in any way before he is seventy years old, he is tried before a jury of his countrymen, and if convicted is held up to public scorn and sentenced more or less severely as the case may be. … But if a man forges a cheque, or sets his house on fire, or robs with violence from the person, or does any other such things as are criminal in our own country, he is either taken to a hospital and most carefully tended at the public expense, or if he is in good circumstances, he lets it be known to all his friends that he is suffering from a severe fit of immorality, just as we do when we are ill, and they come and visit him with great solicitude, and inquire with interest how it all came about, what symptoms first showed themselves, and so forth,—questions which he will answer with perfect unreserve; for bad conduct, though considered no less deplorable than illness with ourselves, and as unquestionably indicating something seriously wrong with the individual who misbehaves, is nevertheless held to be the result of either pre-natal or post-natal misfortune.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrator's summary of Erewhonian law: illness is tried and punished, while forgery and violence are treated as misfortunes of birth or upbringing; the cut removes the grading of illnesses into crimes and misdemeanours."
+ },
+ {
+  "stance": "q06-ferri-criminal-sociology",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "From those norms, the fact receives no justification: it still con- tinues to be a fact when juridical science renounces any idea of subjective responsibility, just as it continues to be a fact after the renunciation by criminal science of the rule that evil deserves evil, without any noticeable scientific moral or social upheaval. More recently, it has been thought possible to rest responsi- bility, I would not say upon a theory, but upon an eclectic ex- pedient, by saying that penal justice has an adequate \"positive\" base in what might be called, in accordance with public opinion, \"the practical liberty\" of individuals. Just as the crowd, that is to say, public opinion created by traditional prejudices and mental habits, holds man responsible because in practice he is able to abstain from committing crime and because it always con- siders punishment as retribution for a fault, so, also, criminal science and those who exercise the penal function are powerless to embrace the more logical (if more difficult of popular com- prehension) criterion of social and objective accountability pro- posed by the positivist school.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Ferri says juridical science can renounce subjective responsibility and calls social and objective accountability the more logical criterion; the passage opens mid-argument and 'the fact' refers to the defensive reaction described just before."
+ },
+ {
+  "stance": "q06-darrow-crime-its",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It has been generally assumed that man was created different from all the rest of animal life; that man alone was endowed with a soul and with the power to tell good from evil; that in the beginning man was perfect but yielded to temptation, and since then has been the subject of an everlasting contest between the powers of light and the powers of darkness for the possession of his soul; that man not only knew good from evil, but was endowed with \"free will,\" and had the power to choose between good and evil; and that when he did wrong he deliberately chose to do so out of an abandoned and malignant heart; and that all men alike were endowed with this power and all alike were responsible for their acts. … As a matter of fact, every scientific man knows that the origin of life is quite different from this; that the whole current conception of the individual and his responsibility is a gross error; and that no correct judgments can be based on the old foundation; that no sane treatment of crime can follow this assumption of man's origin and nature; that the result of this foundation is almost infinite injustice and cruelty to a large and constantly growing number of men and women; and that it tends to endless injury and evil to society.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Darrow sets out the inherited idea of free will and personal guilt and then calls it a 'gross error'; the cut removes the example of an old indictment."
+ },
+ {
+  "stance": "q07-bichat-physiological-researches",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "In considering under this head the vital laws, the first view which they o£Fer, is the remarkable difference which distinguishes them from physical lawsr The one constantly varying in their intenseness, energy, and development,^ often pass with rapidity from the lowest degree of prostra- tion to the highest point of exaltation, accumulate and di* minish in the organs alternately, and assume, from the in^ fluence of the slightest causes, a thousand different modi- fications. Sleep, watching, exercise, rest, digestion, hunger, the passions, and the action of surrounding bodies, &c. expose them at every instant to numerous revolutions. The others, on the contrary, fixed, invariable, and constantly the same at all times, are the source of a series of phenomena always uniform. Compare the vital faculty of feeling, to the physical faculty of attracting, you will see that the at- traction is always in proportion to the mass of rough body in which it is observed, while the sensibility changes its proportion incessantly in the same organic part and in the same mass of matter. The invariability of the laws which govern physical phe- nomena, permits us to calculate all the sciences which are the object of them;- while applied to the actions of life mathe- matics can offer no general rules.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bichat's statement that vital powers vary constantly while physical laws are fixed, so the actions of life cannot be calculated like physical phenomena; OCR errors kept."
+ },
+ {
+  "stance": "q07-bouillier-du-principe",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Cette hypothèse règne à l'École de Montpellier, où elle a aujourd'hui M. Lordat pour principal représentant. Telle est aussi, à ce qu'il nous a semblé, sauf certains nuages sur la question de la substantialité de ce principe, sauf quelques réserves, la théorie vitaliste soutenue à l'Académie de médecine par M. Malgaigne. M. Malgaigne a, en effet, cherché à démontrer l'impossibilité de s'en tenir aux pro- priétés vitales répandues dans les tissus organiques et la nécessité d'adopter une force vitale unique , indépendante, douée d'une sorte d'instinct pour com- poser et faire mouvoir l'organisme. Mais, à la diffé- rence de M. Lordat, M. Malgaigne laisse de côté, comme ontologiques et théologiques, plutôt que phy- siologiques et médicales, toutes les questions relatives . à la nature de cette force et à ses rapports, à son alliance avec l'âme immortelle, qui n'a rien à voir, selon lui, dans les fonctions organiques (2). Telle est la doctrine que nous nous proposons surtout de … combattre, non pas tant à cause du crédit qu'elle peut avoir encore dans certaines écoles de médecine que parce que, sous l'influence xie Maine de Biraft et de Jouffroy, elle domine encore aujourd'hui, comme nous l'avons déjà dit, au sein de la philosophie spiri- tualiste. Le vitalisme animiste, le seul vrai, suivant nous, dis- tingue, comme le vitalisme dualiste , le principe vital d'avec les organes; mais au lieu d'un être séparé, il en fait une simple puissance de l'âme pensante.",
+  "translation": "This hypothesis reigns at the School of Montpellier, where today M. Lordat is its principal representative. Such too, as it seemed to us, apart from certain clouds on the question of the substantiality of this principle and apart from some reservations, is the vitalist theory upheld at the Académie de médecine by M. Malgaigne. M. Malgaigne has in fact sought to demonstrate the impossibility of stopping at the vital properties spread through the organic tissues, and the necessity of adopting a single, independent vital force, endowed with a sort of instinct for composing and moving the organism. But, unlike M. Lordat, M. Malgaigne sets aside, as ontological and theological rather than physiological and medical, all questions concerning the nature of this force and its relations, its alliance, with the immortal soul, which according to him has nothing to do with the organic functions (2). Such is the doctrine that we propose above all to … combat, not so much because of the credit it may still have in certain schools of medicine as because, under the influence of Maine de Biran and Jouffroy, it still dominates today, as we have already said, within spiritualist philosophy. Animist vitalism, the only true one in our view, distinguishes, like dualist vitalism, the vital principle from the organs; but instead of a separate being, it makes it a simple power of the thinking soul.",
+  "summaryCheck": "ok",
+  "note": "Bouillier describes the Montpellier vitalism of a separate vital force, says he will combat it, and states that animist vitalism, 'the only true one', makes the vital principle a power of the thinking soul; the cut removes a footnote that interrupts the sentence."
+ },
+ {
+  "stance": "q07-bernard-lecons-sur",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Ici nous serons seulement physiologiste et à ce titre, nous 11e pouvons nous placer ni dans le camp des vita¬ listes, ni dans celui des matérialistes. Nous nous séparons des vitalistes, parce que la force vitale , quel que soit le nom qu’on lui donne, ne saurait rien faire par elle-même, qu’elle ne peut agir qu’en empruntant le ministère des forces générales de la nature et qu'elle est incapable de se manifester en dehors d’elles. Nous nous séparons également des matérialistes; car, bien que les manifestations vitales restent placées direc¬ tement sous rinlluence de conditions physico-chimiques, ces conditions ne sauraient grouper, harmoniser les phé¬ nomènes dans l’ordre et la succession qu’ils affectent spécialement dans les êtres vivants.",
+  "translation": "Here we shall be only a physiologist, and as such we can place ourselves neither in the camp of the vitalists nor in that of the materialists. We separate ourselves from the vitalists, because vital force, whatever name is given to it, can do nothing by itself; it can act only by borrowing the agency of the general forces of nature, and it is incapable of manifesting itself outside them. We separate ourselves equally from the materialists; for although vital manifestations remain placed directly under the influence of physico-chemical conditions, these conditions could not group and harmonize the phenomena in the order and succession that they specially take on in living beings.",
+  "summaryCheck": "ok",
+  "note": "Bernard's explicit statement of both rejections: vital force can act only through general physical forces, and physico-chemical conditions cannot order vital phenomena; OCR errors kept."
+ },
+ {
+  "stance": "q07-bergson-creative-evolution",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "But we have set forth the theoretical reasons which prevent us from likening the living being, a system closed off by nature, to the systems which our science isolates. These reasons have less force, we acknowledge, in the case of a rudimentary organism like the amoeba, which hardly evolves at all. But they acquire more when we consider a complex organism which goes through a regular cycle of transformations. The more duration marks the living being with its imprint, the more obviously the organism differs from a mere mechanism, over which duration glides without penetrating. And the demonstration has most force when it applies to the evolution of life as a whole, from its humblest origins to its highest forms, inasmuch as this evolution constitutes, through the unity and continuity of the animated matter which supports it, a single indivisible history. Thus viewed, the evolutionist hypothesis does not seem so closely akin to the mechanistic conception of life as it is generally supposed to be. Of this mechanistic conception we do not claim, of course, to furnish a mathematical and final refutation. But the refutation which we draw from the consideration of real time, and which is, in our opinion, the only refutation possible, becomes the more rigorous and cogent the more frankly the evolutionist hypothesis is assumed.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bergson argues that the living being, marked by duration, differs from a mechanism and that the mechanistic conception can be refuted; this passage does not name the vital impetus itself."
+ },
+ {
+  "stance": "q07-driesch-science-philosophy",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Can you imagine a very complicated machine, differing in the three dimensions of space, to be divided hundreds and hundreds of times and in spite of that to remain always the same whole ? You may reply that during the period of cell-divisions there is still no machine, that the machine is established only after all the divisions are complete. Good ; but what then constructs this machine in the definitive cells of our systems, say in the eggs ? Another sort of machine perhaps ? That could hardly be said to be of much use. Or that entelechy of which we have spoken ? Then you would recur to our first proof of vitalism and would burden entelechy with a specific performance, that is with the construction of the hypothetic machine which you are postulating in every single egg. But of course you would break the bounds of physics and chemistry even then. … We say it is a mere absurdity to assume that a complicated machine, typically different in the three dimensions of space, could be divided many many times, and in spite of that always be the whole : therefore there cannot exist any sort of machine as the starting-point and basis of development. Let us again apply the name entelechy to that which lies at the very beginning of all individual morphogenesis.",
+  "translation": null,
+  "summaryCheck": "other: the passage gives the second proof (an egg that remains whole through repeated division), not the embryo-fragment experiment the summary describes, though the argument is the same in kind.",
+  "note": "Driesch argues that no machine could be divided many times and remain whole, so development rests on entelechy; this is his second proof, from the egg's cell lineage, and the cut removes a methodological aside."
+ },
+ {
+  "stance": "q07-loeb-mechanistic-conception",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The contents of life from the cradle to the bier are wishes and hopes, efforts and struggles, and unfortunately also dis appointments and suffering. And this inner life should be amenable to a physico-chemical analysis? In spite of the gulf which separates us today from such an aim I believe that it is attainable. As long as a life phenomenon has not yet found a physico-chemical explanation it usually appears inexplicable. If the veil is once lifted we are always surprised that we did not guess from the first what was behind it. That in the case of our inner life a physico-chemical explana tion is not beyond the realm of possibility is proved by the fact that it is already possible for us to explain cases of simple mani festations of animal instinct and will on a physico-chemical basis; namely, the phenomena which I have discussed in former papers under the name of animal tropisms, As the most simple example we may mention the tendency of certain ani mals to fly or creep to the light. We are dealing in this case with the manifestation of an instinct or impulse which the animals cannot resist. It appears as if this blind instinct which these animals must follow, although it may cost them their life, might be explained by the same law of Bunsen and Roscoe, which explains the photochemical effects in inanimate nature.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Loeb states his belief that even inner life is open to physico-chemical analysis and cites tropisms as instinct already explained on that basis."
+ },
+ {
+  "stance": "q07-haldane-mechanism-life",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "In the first lecture I stated as clearly as I could the arguments in favour of the mechanistic theory of life, and the fatal objections which may be urged against vitalism or animism. The second lecture was devoted to criticism of the mechanistic theory. I endeavoured to show that the experimental evidence which has been brought forward in support of this theory will not bear critical examination, and that the popular idea that the progress of physiology is in the direction of confirming or supporting the mechanical conception of life is a complete illusion. I then proceeded to discuss, in the light of biological facts, whether by any possibility the mechanistic theory may not still be correct. The result of this discussion was that there is no such possibility. The physical and chemical conception of the world breaks down absolutely and hopelessly in connection with the phenomena of life, however useful it actually is in connection with inorganic phenomena. It is, therefore, nothing but a working hjrpothesis of limited useful application. … It was then shown that we do actually employ the funda- mental working conception of living organisms as such, and that with the help of this con- ception we can bring order and intelligibi- lity into biological investigation, and we are provided with a working hypothesis which is of the utmost practical value in biological work.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane's own summary: objections to vitalism, the collapse of the mechanistic theory, and the organism as biology's working conception; the cut removes a sentence on the philosophy of physical concepts."
+ },
+ {
+  "stance": "q08-kant-critique-judgement",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "In a watch one part is the instrument for moving the other parts, but the wheel is not the effective cause of the production of the others; no doubt one part is for the sake of the others, but it does not exist by their means. In this case the producing cause of the parts and of their form is not contained in the nature (of the material), but is external to it in a being which can produce effects according to Ideas of a whole possible by means of its causality. Hence a watch wheel does not produce other wheels, still less does one watch produce other watches, utilising (organising) foreign material for that purpose; hence it does not replace of itself parts of which it has been deprived, nor does it make good what is lacking in a first formation by the addition of the missing parts, nor if it has gone out of order does it repair itself--all of which, on the contrary, we may expect from organised nature.--An organised being is then not a mere machine, for that has merely _moving_ power, but it possesses in itself _formative_ power of a self-propagating kind which it communicates to its materials though they have it not of themselves; it organises them, in fact, and this cannot be explained by the mere mechanical faculty of motion.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kant's watch comparison: a watch does not produce, replace or repair its parts, while an organized being has formative power and is not a mere machine."
+ },
+ {
+  "stance": "q08-bernard-lecons-sur",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "None of the three candidates mentions Tiedemann, crystals or Pasteur; they cover vital repair in general, fermentation and cell theory."
+ },
+ {
+  "stance": "q08-morgan-regeneration",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The fundamental question turns upon whether the development of a specific form is the outcome of one or more \" forces,\" or whether it is a phenomenon belonging to an entirely different category from anything known to the chemist and the physicist. If we state that it is the property of each kind of living substance to assume under certain conditions a more or less constant specific form, we only restate the result without referring the process to any better-known group of phenomena. If we attempt to go beyond this, and speculate as to the principles involved, we have very little to guide us. We can, however, state with some assurance that at present we cannot see how any known principles of chemistry or of physics can explain the development of a definite form by the organism or by a piece of the organism. Indeed, we may even go farther and claim that it appears to be a phenomenon entirely beyond the scope of legitimate explanation, just as are many physical and chemical phenomena themselves, even those of the simplest sort. To call this a vitalistic principle is, I think, misleading. We can do nothing more than claim to have discovered something that is present in living things which we cannot explain and perhaps cannot even hope to explain by known physical laws.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Morgan says no known chemical or physical principle explains the development of form by an organism or a piece of one, and that calling this a vitalistic principle is misleading; the machine comparison in the summary does not appear here."
+ },
+ {
+  "stance": "q08-driesch-science-philosophy",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates discuss equifinality of restitution, regeneration systems and the stimulus of restitution, but none states that no machine could survive the removal of parts."
+ },
+ {
+  "stance": "q08-haldane-mechanism-life",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "In these organisms there is constant active main- tenance, constant renewal, constant breaking down and reproduction of the living struc- ture ; and this is of the very essence of our conception of life. Reproduction is not in itself a problem, but an axiom ; for all living structure is active structure ; and it lives in actively maintaining itself and reproducing its structure. all instinctive social activity, the individual organism shows itself to be more than a mere individual : it belongs to a wider organic whole. Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane says the organism constantly maintains and renews its structure and that death is not the wearing out of a machine, 'for the organism ... is no machine'; the passage contains an OCR skip ('all instinctive social activity') kept as found."
+ },
+ {
+  "stance": "q08-loeb-organism-as",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "We thus see that while the stem inhibits the growth of the leaves connected with it, the latter accelerate the growth in the stem. Both facts can probably be explained on the same basis; namely, on the assumption that it is the flow of substances from the leaf to the stem which inhibits the growth of the notches and accelerates the growth of the buds in the stem. On this assumption it would also follow that the leaves send root-forming substances towards the basal and shoot-forming substances towards the apex of the stem. It also seems to follow from recent as yet unpublished experiments by the writer that the root-forming substances are associated or identical with the substances which cause geotropic curvature in the stem. These observations show that the phenomena of correlation or of the influence of the whole over the parts is due to peculiarities of circulation or the flow of sap; and that the isolation prevents the sap from flowing away to other parts of the plant. There is no need for assuming the existence of a mysterious force which directs the piece to grow into a whole.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Loeb explains the whole's control over its parts by the flow of sap carrying formative substances and says no mysterious directing force need be assumed."
+ },
+ {
+  "stance": "q09-descartes-description-human",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "other: the Descartes candidates support only the first half of the summary; the development claim is the editors' paraphrase, not Descartes' text.",
+  "note": "The candidates explain bodily motions mechanically (the clock comparison) but none addresses the formation of the animal from the egg; that claim appears only in the editors' introduction, in their voice."
+ },
+ {
+  "stance": "q09-wolff-theory-generation",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Experimenta fcilicet huius auftoris omnia eo concurrunt, vt confirment generaliffimam Ari- ftotelis veritatem: datur in rerum natura %^is pro* dudrix; praeterea vero nihil determinant- h a r- v^us infolo eo ab ExcelL ludwig &reliqaorum recepta fententia differt, vt principium, vnde ge* neratum generanEi fimik efficitur, id eft^ rationera fufficientem compofitioiiis corporis organici^ in ati- quam impreliionem idealem, vtero a iemine maf culino fadam^ ponatj analogam illij qua^ in cere- brum iada, artifex opera ptoduciti lUis obiedisi impreilionem ipfi excitancibus, finiiiia (vid. Exer- ciL degen* animaLfeft. de Conceptione) ; cum re- liqui in mechanifmum porins corporis orgaiii^ ge- neraiitis iUud principiam determinaas pofuevinc, Primum igirur generationis principium, &Vjaer- quo agente omnia efficiunturj eft illa vis motriXjfe^^»*li^ quara eflenrialem deuominaui, planiis & animali' bus viuis neceflariaj a pluribus, licet nou tamquam prinGipium gcnerationis , dadum iam cognita.",
+  "translation": "The experiments of this author [Needham] all tend to confirm Aristotle's most general truth: there exists in nature a productive force; beyond this they determine nothing. Harvey differs from the opinion received by the most excellent Ludwig and the others only in placing the principle by which the offspring is made like the parent, that is, the sufficient reason of the composition of the organic body, in some ideal impression made on the uterus by the male semen, analogous to that by which, once made on the brain, an artisan produces works similar to the objects that excited that impression (see Exercit. de generatione animalium, section on Conception); whereas the others have placed that determining principle rather in the mechanism of the generating organic body. The first principle of generation, therefore, by whose agency all things are effected, is that force [?: OCR garbled; perhaps 'motive force'] which I have named essential, necessary to living plants and animals, and long since known to many, though not as a principle of generation.",
+  "summaryCheck": "ok",
+  "note": "Wolff contrasts those who place the determining principle of generation in the mechanism of the parent body with his own first principle, the essential force; heavy OCR damage kept."
+ },
+ {
+  "stance": "q09-blumenbach-essay-generation",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Now it is fingular, that fuch monfters are only common in animals which have been domefticated, and that they are never, or at leaft feldom to be heard of in their wild (rate. Can the Author of nature have ordained it, that from amongft the in- volved germs of any one fpecies of animal^, for inftance, fwine, the monfters mould ar- rive at evolution, juft when taken under the care of men, and that the monfters .{hould be produced only by the tame, and not by the wild alfo-? On the other hand, there is nothing jBrt- reafonable in fu'ppoftng-, that after the fub- jc&ion of thefe animals, their whole frame I ai;<2 and oeconomy fuffer a very great change ; that then the Formative Nifus deviates in fome degree from its original laws, and there- fore thefe animals as they degenerate into endlefs varieties, are alfo more fubjected to monftrofity. Such, in my opinion, are the principal obfervations and experiments which ferve to prove the exiitence of the Formative Nifus, and to afcertain fome of its laws ; obfervations which have drawn my convi&ion more and more from the fyftem of involved germs, and confirmed my belief in the very oppofite doc- trine, which I have endeavoured to eftablifh.",
+  "translation": null,
+  "summaryCheck": "other: the passage argues against preformed germs; it does not show the claim that ordinary physical forces cannot explain generation, or that the drive repairs the body.",
+  "note": "Blumenbach argues from monsters in domesticated animals for the Formative Nisus against pre-existing germs and states that the evidence has turned him against the system of involved germs."
+ },
+ {
+  "stance": "q09-kant-critique-judgement",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Only a product of such a kind can be called a _natural purpose_, and this because it is an _organised_ and _self-organising being_. In a watch one part is the instrument for moving the other parts, but the wheel is not the effective cause of the production of the others; no doubt one part is for the sake of the others, but it does not exist by their means. In this case the producing cause of the parts and of their form is not contained in the nature (of the material), but is external to it in a being which can produce effects according to Ideas of a whole possible by means of its causality. Hence a watch wheel does not produce other wheels, still less does one watch produce other watches, utilising (organising) foreign material for that purpose; hence it does not replace of itself parts of which it has been deprived, nor does it make good what is lacking in a first formation by the addition of the missing parts, nor if it has gone out of order does it repair itself--all of which, on the contrary, we may expect from organised nature.--An organised being is then not a mere machine, for that has merely _moving_ power, but it possesses in itself _formative_ power of a self-propagating kind which it communicates to its materials though they have it not of themselves; it organises them, in fact, and this cannot be explained by the mere mechanical faculty of motion.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kant defines the organized being as self-organizing and contrasts it with a watch, which has only moving power; the same watch passage also serves q08."
+ },
+ {
+  "stance": "q09-roux-collected-papers",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Im ziveiten Bande werden specifische Probleme der embryo- nalen Eutwickelung aufgesucht und behandelt. Nach allgemeinen Untersuchungen über das Wesen der ent- wickelungsmechanischen Aufgaben (Nr. 13) und über die zu ihrer Lösung nöthige Methode (Nr. 13, 14 u. 15) wurde, um das Hauptsäch- lichste hervorzuheben, Folgendes geprüft resp. ermittelt: A. Bezüglich der Entwickelung des ganzen Eies: 1. ob äussere ,, gestaltende\" Einwirkungen zur Entwicke- lung des befruchteten thierischen Eies nöthig sind (Nr. 19); 2. ob die „normale\" individuelle Entwickelung von ihrem Beginne an ein bestimmt geordnetes System von Rich- tungen ist (Nr. 16); 3. wann zuerst die Hauptrichtuugen des Embryo • im Ei bestimmt werden (Nr. 20); 4. wodurch dies geschieht (Nr. 20 und 21); 5. welches die Bedeutung der normalen Fm'chmig des Eies in Bezug auf qualitative Materialscheidung ist (Nr. 20 u. 22); (i. wo an der Blastula des Froscheies das Material des Central- nervensystemes gelagert ist, und unter welchen Material- umlagerungen sich die Gastrulation vollzieht (Nr. 20 u. 23) ; … 7. welche Wirkung bestimmt localisirte Defecte am Ei auf die Bildung des Embryo hervorbringen (Nr. IS u. '22); 8. welches der Ort der gestaltenden Kräfte einzelner bestimmter Gebilde ist: ob sie dem gestalteten Gebilde resp. Theile selber innewohnen (Selbstdifferenzirung) , oder ob sie ausserhalb desselben liegen (abh äugige Differen- ziruug), insbesondere, ob die zur Gestaltung einer seit- lichen oder vorderen Hälfte des Embryo nöthigen Kräfte im ganzen Ei oder in der ihrer Lage nach entsprechen- den einen der beiden ersten Furchungszellen sich befinden (Nr. 18, 22 und 26);",
+  "translation": "In the second volume specific problems of embryonic development are sought out and treated. After general investigations into the nature of the tasks of developmental mechanics (No. 13) and into the method needed to solve them (Nos. 13, 14 and 15), the following, to name the chief points, was tested or determined: A. Concerning the development of the whole egg: 1. whether external 'formative' influences are necessary for the development of the fertilized animal egg (No. 19); 2. whether 'normal' individual development is from its beginning a definitely ordered system of directions (No. 16); 3. when the principal directions of the embryo are first determined in the egg (No. 20); 4. by what this happens (Nos. 20 and 21); 5. what the significance of the normal cleavage of the egg is with respect to qualitative separation of material (Nos. 20 and 22); 6. where in the blastula of the frog's egg the material of the central nervous system lies, and under what rearrangements of material gastrulation takes place (Nos. 20 and 23); … 7. what effect definitely localized defects in the egg produce on the formation of the embryo (Nos. 18 and 22); 8. where the formative forces of particular structures are located: whether they reside in the formed structure or part itself (self-differentiation), or whether they lie outside it (dependent differentiation), in particular whether the forces needed to form a lateral or anterior half of the embryo are located in the whole egg or in the one of the first two cleavage cells that corresponds to it in position (Nos. 18, 22 and 26);",
+  "summaryCheck": "other: the passage shows the experimental programme on eggs but does not itself claim that development is the working of physical and chemical causes or of a machine.",
+  "note": "Roux's summary of his experimental programme on the egg, including where the formative forces of each part reside; the cut removes a footnote on orthopaedics."
+ },
+ {
+  "stance": "q09-driesch-science-philosophy",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "The chief result of the first main part of our lectures has been to prove that an autonomy of life phenomena exists at least in some departments of individual mor- phogenesis, and probably in all of them ; the real starting- point of all morphogenesis cannot be regarded as a machine, nor can the real process of differentiation, in all cases where it is based upon systems of the harmonious equi- potential type. There cannot be any sort of machine in the cell from which the individual originates, because this cell, including both its protoplasm and its nucleus, has undergone a long series of divisions, all resulting in equal products, and because a machine cannot be divided and in spite of that remain what it was. There cannot be, on the other hand, any sort of machine as the real foundation of the whole of an harmonious system, including many cells and many nuclei, because the development of this system goes on normally, even if its parts are rearranged or partly removed, and because a machine would never remain what it had been in such cases.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Driesch's conclusion that neither the starting-point of morphogenesis nor a harmonious system can be a machine, including the removal of parts."
+ },
+ {
+  "stance": "q09-loeb-mechanistic-conception",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Biology will certainly retain this idea, but I believe that we must also follow out the other problem: namely, we must either succeed in producing living matter artificially, or we must find the reasons why this is impossible. Although we are not yet able to state how life originated in general, another, more modest problem, has been solved, that is, how the egg is caused by the sperm to develop into a new individual. Every animal originates from an egg and in the majority of animals a new individual can only then develop if a male sex-cell, a spermatozoon, enters into the egg. e question as to how a spermatozoon can cause an egg to evelop into a new individual was twelve years ago still shrouded in that mystery which today surrounds the origin of life in general. But today we are able to state that the problem of the activation of the egg is for the most part reduced to physico-chemical terms.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Loeb states that the activation of the egg by the sperm has been largely reduced to physico-chemical terms; OCR losses ('e question', 'evelop') kept."
+ },
+ {
+  "stance": "q09-haldane-mechanism-life",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "The living body and its physiological environment form an organic whole, the parts of which cannot be under- stood in separation from one another. Our ordinary language as applied to life corresponds with these characteristics. We naturally speak of a living organism as an autonomous active whole, and think of it as such. The idea of its being a mechanism made up of separable parts, and actuated by external causes, is wholly unnatural to us, and becomes more and more unnatural the more we know about organisms. The concept we are using is radically different from any physical concept : for in conceiving what is living we do not separate between matter or structure and its activity. The structure itself is conceived as active — as alive. But the objection may be raised that this is only a loose and inaccurate mode of thinking and expression : for we know that the living substance consists of nothing but matter, though we do not yet know in what exact form the atoms or molecules are combined. This, it must be pointed out clearly, is simply to beg the whole question. It was the com- plete and hopeless failure of the material conception of a living organism that led to our present inquiry.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane says the idea of the organism as a mechanism of separable parts is wholly unnatural and that the material conception of the organism has failed; the passage does not address development from the egg specifically."
+ },
+ {
+  "stance": "q10-pascal-pensees",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "They are scarcely seen; they are felt rather than seen; there is the greatest difficulty in making them felt by those who do not of themselves perceive them. These principles are so fine and so numerous that a very delicate and very clear sense is needed to perceive them, and to judge rightly and justly when they are perceived, without for the most part being able to demonstrate them in order as in mathematics; because the principles are not known to us in the same way, and because it would be an endless matter to undertake it. We must see the matter at once, at one glance, and not by a process of reasoning, at least to a certain degree. And thus it is rare that mathematicians are intuitive, and that men of intuition are mathematicians, because mathematicians wish to treat matters of intuition mathematically, and make themselves ridiculous, wishing to begin with definitions and then with axioms, which is not the way to proceed in this kind of reasoning. Not that the mind does not do so, but it does it tacitly, naturally, and without technical rules; for the expression of it is beyond all men, and only a few can feel it.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Pascal says the principles of intuition are too fine and numerous to be demonstrated in order and must be seen at a glance, without technical rules."
+ },
+ {
+  "stance": "q10-jevons-mechanical-performance",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is rarely indeed that any invention is made without some anticipation being sooner or later discovered ; but up to the present time I am totally unaware of even a single previous attempt to devise or construct a machine which should perform the operations of logical inference f; … 8. The only reason which I can assign for this complete inability of logicians to devise a real logical instrument, is the great imperfection of the doctrines which they enter- tained. Until the present century logic has remained substantially as it was moulded by Akistotle 2200 years ago. Had the science of quantity thus remained stationary since the days of Pythagoras or Euclid, it is certain that we should not have heard of the arithmetical machine of Pascal, or the difference-engine of Babbage. And I venture to look upon the logical machine which I am about to describe as equally a result and indication of a profound reform and extension of logical science accomplished within the present century by a series of English writers, of whom I may specially name Jeremy Bentham, George Bentham, Professor De Morgan, Archbishop Thomson, Sir W. Hamilton, and the late distinguished Fellow of the Eoyal Society, Dr. Boole.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes."
+ },
+ {
+  "stance": "q10-leibniz-characteristic-art",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Sequuntur ipsa elementa veritatis aeter- nae, ubi exponitur modus in omnibus dandi demonstrationes plane rigo- rosas et Hathematicis pares, imo superiores, quia Hathematici muUa sup- ponunt, quae hie poterunt demonstrari. Itaque profertur hie calculus quidam novus et mirificus, qui in omnibus nostris ratiocinationibus locum habet, et qui non minus accurate procedit quam Arithmetica aut Algebra. Quo ad- hibito semper terminari possunt controversiae quantum ex datis eas deter- minari possibile est, manu tan tum ad calamum admota, ut sufficiat duos disputantes omissis verborum concertationibus sibi invicem dicere: calcu- lemus; ita enim perinde ac si duo Arithmetici disputarent de quodam calculi errore, ipsa praescripta methodus etiam ignorantibus vel invitis exi- tum dabit. Ostenditur eDim modus disputandi in forma, conveniens tracta- tioni rerum, a taedio Scholasticorum syllogismorum vacuus, et supra distinc- tiones illas positus, quibus in scholis alter alterum eludit.",
+  "translation": "There follow the very elements of eternal truth, where is set out the way of giving in all matters demonstrations entirely rigorous and equal to those of the mathematicians, indeed superior, because the mathematicians suppose many things that can here be demonstrated. And so here is brought forward a certain new and wonderful calculus, which has a place in all our reasonings and proceeds no less accurately than Arithmetic or Algebra. By applying it controversies can always be ended, so far as it is possible to determine them from the data, merely by putting hand to pen, so that it suffices for two disputants, setting aside contests of words, to say to one another: let us calculate; for thus, just as if two arithmeticians were disputing about some error of calculation, the prescribed method itself will give the outcome even to the ignorant or unwilling. For there is shown a manner of disputing in form, suited to the treatment of things, free of the tedium of scholastic syllogisms, and placed above those distinctions by which in the schools one person eludes another.",
+  "summaryCheck": "ok",
+  "note": "The 'calculemus' passage in Latin; it comes from the 'Initia et specimina scientiae novae generalis' in the same volume, and the candidate does not confirm that it is from the essay named in the title."
+ },
+ {
+  "stance": "q10-carroll-what-tortoise",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "\"You might,\" the candid hero admitted; \"though such obtuseness would certainly be phenomenal. Still, the event is possible . So I must ask you to grant one more Hypothetical.\" \"Very good. I'm quite willing to grant it, as soon as you've written it down. We will call it ( D ) If A and B and C are true, then Z must be true. \"I have !\" Achilles joyfully exclaimed, as he ran the pencil into its sheath. \"And at last we've got to the end of this ideal race-course! Now that you accept A and B and C and D , of course you accept Z .\" \"Do I?\" said the Tortoise innocently. \"Let's make that quite clear. I accept A and B and C and D . Suppose I still refused to accept Z ?\" ​ \"Then Logic would take you by the throat, and force you to do it!\" Achilles triumphantly replied. \"Logic would tell you 'You can't help yourself. Now that you've accepted A and B and C and D , you must accept Z !' So you've no choice, you see.\" \"Whatever Logic is good enough to tell me is worth writing down ,\" said the Tortoise. \"So enter it in your book, please. We will call it ( E ) If A and B and C and D are true, Z must be true. Until I've granted that , of course I needn't grant Z .",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Tortoise accepts each added hypothetical and still declines Z, each time demanding a further premise."
+ },
+ {
+  "stance": "q10-hilbert-mathematical-problems",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is probably this important fact along with other philosophical reasons that gives rise to the conviction (which every mathematician shares, but which no one has as yet supported by a proof) that every definite mathematical problem must necessarily be susceptible of an exact settlement, either in the form of an actual answer to the question asked, or by the proof of the impossibility of its solution and therewith the necessary failure of all attempts. Take any definite unsolved problem, such as the question as to the irrationality of the Euler-Mascheroni constant , or the existence of an infinite number of prime numbers of the form . However unapproachable these problems may seem to us and however helpless we stand before them, we have, nevertheless, the [Pg 9] firm conviction that their solution must follow by a finite number of purely logical processes. … This conviction of the solvability of every mathematical problem is a powerful incentive to the worker. We hear within us the perpetual call: There is the problem. Seek its solution. You can find it by pure reason, for in mathematics there is no ignorabimus .",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hilbert's statement that every definite mathematical problem admits exact settlement and that there is no ignorabimus; the cut removes the perpetual-motion example."
+ },
+ {
+  "stance": "q10-poincare-science-method",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "On the question of fertility, it seems M. Couturat has naïve illusions. Logistic, according to him, lends invention 'stilts and wings,' and on the next page: \"_Ten years ago_, Peano published the first edition of his _Formulaire_.\" How is that, ten years of wings and not to have flown! I have the highest esteem for Peano, who has done very pretty things (for instance his 'space-filling curve,' a phrase now discarded); but after all he has not gone further nor higher nor quicker than the majority of wingless mathematicians, and would have done just as well with his legs. On the contrary I see in logistic only shackles for the inventor. It is no aid to conciseness--far from it, and if twenty-seven equations were necessary to establish that 1 is a number, how many would be needed to prove a real theorem? If we distinguish, with Whitehead, the individual _x_, the class of which the only member is _x_ and which shall be called [iota]_x_, then the class of which the only member is the class of which the only member is _x_ and which shall be called [mu]_x_, do you think these distinctions, useful as they may be, go far to quicken our pace? Logistic forces us to say all that is ordinarily left to be understood; it makes us advance step by step; this is perhaps surer but not quicker. It is not wings you logisticians give us, but leading-strings.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor."
+ },
+ {
+  "stance": "q11-aristotle-nicomachean-ethics",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "What creates the problem is that the equitable is just, but not the legally just but a correction of legal justice. The reason is that all law is universal but about some things it is not possible to make a universal statement which shall be correct. In those cases, then, in which it is necessary to speak universally, but not possible to do so correctly, the law takes the usual case, though it is not ignorant of the possibility of error. And it is none the less correct; for the error is in the law nor in the legislator but in the nature of the thing, since the matter of practical affairs is of this kind from the start. When the law speaks universally, then, and a case arises on it which is not covered by the universal statement, then it is right, where the legislator fails us and has erred by oversimplicity, to correct the omission--to say what the legislator himself would have said had he been present, and would have put into his law if he had known. Hence the equitable is just, and better than one kind of justice--not better than absolute justice but better than the error that arises from the absoluteness of the statement. And this is the nature of the equitable, a correction of law where it is defective owing to its universality.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Aristotle defines the equitable as a correction of law where it fails through universality, saying what the legislator would have said had he been present; the English translation contains the typo 'nor in the legislator'."
+ }
+]

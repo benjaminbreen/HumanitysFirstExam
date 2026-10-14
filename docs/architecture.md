@@ -65,19 +65,19 @@ the relevant pages.
 | `/questions/[slug]` (`/questions` redirects to `/`) | One question: sides with arguments, passages, link to search |
 | `/sources` | All works; filters (`?lang=&form=&century=&text=`) and sort (`?sort=`) |
 | `/sources/[id]` | One work: record, its answer to each question, passages |
-| `/coding` | Blind coding of a 60-stance sample. Sign-in, item list, progress. Not in the nav. Built for the 29 Sep 2026 protocol; to be replaced by the one-page design in `research/coding/PROTOCOL.md` (13 Oct 2026) |
-| `/coding/[item]` | One item: the question, the work, two passages retrieved by the question alone, and the coding form |
-| `/coding/compare` | Agreement between Ben, Nathan and Opus. Opens only when both coders have finished |
-| `/search` | Semantic search over the pilot corpora. Local only: needs `trial/corpus/index/` |
-| `/models` | Planned respondents |
-| `/method` | Stub |
-| `/about` | Authors, funding, repository |
+| `/coding` | Blind passage check (`research/coding/PROTOCOL.md`): sign-in, then all 60 items on one page, each with the question, the work, Claude's quotation, one row of answer buttons and an optional note. Not in the nav |
+| `/coding/compare` | Agreement between Ben, Nathan and Claude, for items with and without a quotation. Opens only when both coders have finished |
+| `/search` | Semantic search. Locally over every corpus in `trial/corpus/index/` (1.8 GB, not deployed); deployed over the canon only, from `search-index/` (written by `build_index.py --deploy`). Needs `OPENAI_API_KEY` to embed queries |
+| `/models` | Respondents grouped by role (`role` in `data/models.json`): core comparison, context, candidates |
+| `/method` | Plain summary of the working plan and the 13 Oct 2026 decisions. Keep in step with `docs/proposals/2026-09-28-benchmark-method.md` |
+| `/about` | The premise, pilot status, authors, funding, repository |
 
-Opus's coding (sides, summaries, quotations, disputes) is blurred site-wide
-until unsealed with a password, so Ben and Nathan can code blind. The
-password is a reminder, not security: the text is in the page. Coding
-entries are saved to `research/coding/entries/<coder>.json` when run
-locally, or to Upstash Redis when `KV_REST_API_URL`/`KV_REST_API_TOKEN` are
+The 60 stances in the passage check are held back from public pages
+(`CHECK_RUNNING` in `src/lib/data.ts`) until both coders finish; every
+other stance is shown. The check itself shows Claude's quotations but not
+its sides. Coding
+entries are saved to `research/coding/entries/check-<coder>.json` when run
+locally, or to Upstash Redis (key `check:<coder>`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN` are
 set; every earlier version of an entry is kept. Passcodes come from
 `CODING_PASSCODE_BEN` and `CODING_PASSCODE_NATHAN` (not needed locally).
 

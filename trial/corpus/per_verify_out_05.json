@@ -1,0 +1,134 @@
+[
+ {"aid": "pe5bae8", "position": "Weakens: unpractised skills atrophy, leaving dependence when machines fail.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p4df8a0", "position": "Weakens: dependence erodes embodied experience and autonomy; machine becomes master.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The human labourer becomes the slave of the machine."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "This is the age which ushers in the last period of the nation, a mechanical state of the individual, when thought has so departed that the man is not able to attend even to his own life, and, like a passive machine, the state is impelled and directed in even the least things by one tyranny from without."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p55637f", "position": "Does not weaken: correct use only sheds useless mental lumber.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "But the calculating power alone should seem to be the least human of qualities, and to have the smallest amount of reason in it; since a machine can be made to do the work of three or four calculators, and better than any one of them."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p50a327", "position": "None: fragment about antagonistic views; no verdict, no reason.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pf96fef", "position": "Does not weaken; gives no reason.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p544e4e", "position": "Weakens: disused skills atrophy, creating dependence if technology fails.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "The question whether our social state is becoming mechanical, losing personal thought and volition, is of great and vital importance, on account of the terrible major premise that lies beneath."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p3f202b", "position": "Does not weaken thought, but users need to think less; inventors think more.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "Invention was an ennobling pursuit, and was, even among those who were not also handworkers, a means of employment which never left dull or idle hours, while to the handworker it meant more, for it offered the most ready means of rising among his fellows, and, where invention received proper protection, of securing a competence for old age or ill health."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "In savage life, invention flags—its exercise is rare; but it is frequent in a highly civilized condition."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p29a340", "position": "Does not weaken: relying on machines frees attention to concentrate on one's work.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "The former causes had a mechanical tendency in that they lessened the mental strength, for all volition must have its foundation in thought; but this has the same tendency, inasmuch as it increases the objects of thought beyond the power of the mind to satisfy the demand."},
+   {"cid": "c2", "match": "related", "quote": "He frittered his faculties upon a hundred trifles, never concentrated them upon a worthy purpose once."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p2d15a7", "position": "Depends on the machine; self-contradictory about automation, time-saving and repetitive work.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "All habitual voluntary acts by repetition become almost automatic, or require no perceptibly distinct impulse of the will."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "pbed523", "position": "Does not weaken overall: offloading mundane tasks frees higher-order reasoning.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "But the calculating power alone should seem to be the least human of qualities, and to have the smallest amount of reason in it; since a machine can be made to do the work of three or four calculators, and better than any one of them."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p211ebc", "position": "Depends: blind reliance weakens; right use (slide rule) spares difficult operations.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "But the calculating power alone should seem to be the least human of qualities, and to have the smallest amount of reason in it; since a machine can be made to do the work of three or four calculators, and better than any one of them."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "p7d0840", "position": "Weakens: less machine work makes a better worker; no reason given.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "In conclusion, it may be said that the separation of labours is a skilful employment of the force of man--that it increases prodigiously the products of society--but it destroys something of the capacity of the individual man."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

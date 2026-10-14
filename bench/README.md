@@ -1,7 +1,7 @@
-# Benchmark v1 — test case: the reckoning question
+# Reckoning pilot (July 2026) — superseded, kept as a record
 
-This folder is the working test case for the benchmark described in
-AGENTS.md ("Benchmark v1"). One question, everything needed to run it.
+This folder is the test case for an earlier benchmark design, now superseded;
+see "Benchmark method" in AGENTS.md. One question, everything needed to run it.
 
 ## The files
 

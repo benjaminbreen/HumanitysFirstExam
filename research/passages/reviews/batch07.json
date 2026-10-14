@@ -1,0 +1,272 @@
+[
+ {
+  "stance": "q30-bacon-novum-organum",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "It will, perhaps, be as well to distinguish three species and degrees of ambition. First, that of men who are anxious to enlarge their own power in their country, which is a vulgar and degenerate kind; next, that of men who strive to enlarge the power and empire of their country over mankind, which is more dignified but not less covetous; but if one were to endeavor to renew and enlarge the power and empire of mankind in general over the universe, such ambition (if it may be so termed) is both more sound and more noble than the other two. Now the empire of man over things is founded on the arts and sciences alone, for nature is only to be commanded by obeying her. … Lastly, let none be alarmed at the objection of the arts and sciences becoming depraved to malevolent or luxurious purposes and the like, for the same can be said of every worldly good; talent, courage, strength, beauty, riches, light itself, and the rest. Only let mankind regain their rights over nature, assigned to them by the gift of God, and obtain that power, whose exercise will be governed by right reason and true religion.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Bacon states that mankind should regain the rights over nature 'assigned to them by the gift of God'; the Fall passage cited in the summary (Book II, Aph. 52) is not among the candidates."
+ },
+ {
+  "stance": "q30-saint-simon-new-christianity",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "11 est une autre unité bien plus importante »à établir; je veux parler de l'unité de but pour «les travaux des chrétiens, pour ceux de toute «l'espèce humaine. C'est un but bien clair, bien «général , bien positif, bien physique, que vous «devez présenter aux hommes pour rendre le «christianisme prépondérant sur le mahomé- «tisme, sur la religion de Foë , sur celle de «Brama, sur toutes les religions enfin, ainsi que » sur toutes les institutions temporelles. »Le but général que vous devez présenter aux » hommes dans leurs travaux, c'est l'améliora- ntion de l'existence morale et physique de la «classe la plus nombreuse, et vous devez pro- «duire une combinaison d'organisation sociale «propre à favoriser davantage cet ordre de tra- » vaux , et à assurer sa prépondérance sur tous «les autres, de quelque importance qu'ils puis- nsent paraître. - «Pour améliorer le plus rapidement possible «l'existence de la classe la plus pauvre, la cir- » constance la plus favorable serait celle où il se «trouverait une grande quantité de travaux à » exécuter , et où ces travaux exigeraient le plus «grand développement de l'intelligence humaine. «Vous pouvez créer cette circonstance ; mainte- » nant que la dimension de notre planète est con- n nue , faites faire par les savants , par les artistes «et les industriels un plan général de travaux à «exécuter pour rendre la possession territoriale «de l'espèce humaine la plus productive pos- «sible et la plus agréable à habiter* sous tous les » rapports.",
+  "translation": "It is another unity, much more important, that must be established; I mean unity of aim for the works of Christians, for those of the whole human species. It is a very clear, very general, very positive, very physical aim that you must present to men in order to make Christianity prevail over Mahometanism, over the religion of Fo [Buddhism], over that of Brahma, over all religions in short, as well as over all temporal institutions. The general aim that you must present to men in their works is the improvement of the moral and physical existence of the most numerous class, and you must produce a combination of social organisation suited to favour this order of works most, and to assure its preponderance over all others, however important they may appear. To improve as rapidly as possible the existence of the poorest class, the most favourable circumstance would be one in which there was a great quantity of works to carry out, and in which these works demanded the greatest development of human intelligence. You can create this circumstance; now that the size of our planet is known, have the scientists, the artists and the industrialists draw up a general plan of works to be carried out to make the territorial possession of the human species as productive as possible and the most agreeable to inhabit in all respects.",
+  "summaryCheck": "ok",
+  "note": "Saint-Simon, addressing the Pope, makes the improvement of the poorest class the one aim of Christians and has scientists, artists and industrialists plan the works to achieve it."
+ },
+ {
+  "stance": "q30-hawthorne-celestial-railroad",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Before our talk on this subject came to a conclusion we were rushing by the place where Christian’s burden fell from his shoulders at the sight of the Cross. This served as a theme for Mr. Smooth-it-away, Mr. Livefor-the-world, Mr. Hide-sin-in-the-heart, Mr. Scaly-conscience, and a knot of gentlemen from the town of Shun-repentance, to descant upon the inestimable advantages resulting from the safety of our baggage. Myself, and all the passengers indeed, joined with great unanimity in this view of the matter; for our burdens were rich in many things esteemed precious throughout the world; and, especially, we each of us possessed a great variety of favorite Habits, which we trusted would not be out of fashion even in the polite circles of the Celestial City. It would have been a sad spectacle to see such an assortment of valuable articles tumbling into the sepulchre. Thus pleasantly conversing on the favorable circumstances of our position as compared with those of past pilgrims and of narrow-minded ones at the present day, we soon found ourselves at the foot of the Hill Difficulty. Through the very heart of this rocky mountain a tunnel has been constructed of most admirable architecture, with a lofty arch and a spacious double track; so that, unless the earth and rocks should chance to crumble down, it will remain an eternal monument of the builder’s skill and enterprise.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The railroad tunnels through the Hill Difficulty and the passengers keep the burdens that Christian lost at the Cross, which is the satire the summary describes; the hell ending is not in the candidates."
+ },
+ {
+  "stance": "q30-whitman-passage-india",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Lo, soul\"! seest thou not God's purpose from the first ? The earth to be spann'd, connected by net-work, The people to become brothers and sisters, The races, neighbors, to marry and be given in mar riage, The oceans to be cross'd, the distant brought near, The lands to be welded together. You engineers ! you architects, machinists, yours ! But in God's name, and for thy sake, O soul.) 7 Passage to India ! Lo, soul, for thee, of tableaus twain, I see, in one, the Suez canal initiated, open'd, I see the procession of steamships, the Empress Euge nie's leading the van ; I mark, from on deck, the strange landscape, the pure sky, the level sand in the distance ; I pass swiftly the picturesque groups, the workmen 8 In one, again, different, (yet thine, all thine, O soul, I see over my own continent the Pacific Railroad, sur mounting every barrier ;",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Whitman directly names the linking of the earth as 'God's purpose from the first' and credits the engineers 'in God's name'."
+ },
+ {
+  "stance": "q30-haldane-daedalus-science",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "But it is most significant that, although he was responsible for the death of Zeus’ son Minos he was neither smitten by a thunderbolt, chained to a rock, nor pursued by furies. Still less did any of the rather numerous visitors to Hades discover him either in Elysium or Tartarus. We can hardly imagine him as a member of the throng of shades who besieged Charon’s ferry like sheep at a gap. He was the first to demonstrate that the scientific worker is not concerned with gods. The unconscious mind of the early Greeks, who focussed in this amazing SCIENCE AND THE FUTURE figure the dim traditions of Minoan science, was presumably aware of this fact. The most monstrous and un¬ natural action in all human legend was unpunished in this world or the next. Even the death of Icarus must have weighed lightly with a man who had already been banished from Athens for the murder of his nephew. But if he escaped the vengeance of the gods he has been exposed to the universal and agelong reprobation of a humanity to whom biological inventions are abhorrent, with one very significant exception. Socrates was proud to claim him as an ancestor. The biological invention then tends to begin as a perversion and end as a ritual supported by unquestioned beliefs and prejudices. Even now surgica/ cleanliness is developing its rites and its dogmas, which, it may be remarked, are accepted most religiously by women.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Haldane presents Daedalus as the first scientist, unpunished by the gods and 'not concerned with gods', and says biological invention begins as a perversion; the Prometheus sentence itself is not in the candidates."
+ },
+ {
+  "stance": "q31-carlyle-signs-times",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "By our skill in Mechanism, it has come to pass, that in the management of external things we excel all other ages; while in whatever respects the pure moral nature, in true dignity of soul and character, we are perhaps inferior to most civilised ages. In fact, if we look deeper, we shall find that this faith in Mechanism has now struck its roots down into man’s most inti- mate, primary sources of conviction; and is thence sending up, over his whole life and activity, innumerable stems, — fruit- bearing and poison-bearing. The truth is, men have lost their belief in the Invisible, and believe, and hope, and work only in the Visible; or, to speak it in other words: This is not a Religious age. Only the material, the immediately practical, not the divine and spiritual, is important to us. The infinite, absolute character of Virtue has passed into a finite, conditional one; it is no longer a worship of the Beautiful and Good; but a calculation of the Profitable. Worship, indeed, in any sense, is not recognised among us, or is mechanically explained into Fear of pain, or Hope of pleasure. Our true Deity is Mechanism. It has subdued external Nature for us, and we think it will do all other things. We are Giants in physical power: in a deeper than metaphorical sense, was are Titans, that strive, by heaping mountain on mountain, to conquer Heaven also.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Carlyle says faith in Mechanism has displaced worship of the Beautiful and Good and that 'Our true Deity is Mechanism.'"
+ },
+ {
+  "stance": "q31-arnold-culture-anarchy",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Faith in machinery is, I said, our besetting danger; often in machinery most absurdly disproportioned to the end which this machinery, if it is to do any good at all, is to serve; but always in machinery, as if it had a value in and for itself. What is freedom but machinery? what is population but machinery? what is coal but machinery? what are railroads but machinery? what is wealth but machinery? what are religious organisations but machinery? Now almost every voice in England is accustomed to speak of these things as if they [17] were precious ends in themselves, and therefore had some of the characters of perfection indisputably joined to them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Arnold states that faith in machinery is England's besetting danger and lists freedom, coal, railroads, wealth and religious organisations as machinery treated as ends."
+ },
+ {
+  "stance": "q31-carpenter-civilisation-its",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "And just as thus the various external forms of government during the Civilisation-period find their justification and interpretation in the ensuing period, so will it be with the mechanical and other products of the present time; they will be taken up, and find their proper place and use in the time to come. They will not be refused; but they will have to be brought into subjection. Our locomotives, machinery, telegraphic and postal systems; our houses, furniture, clothes, books, our fearful and wonderful cookery, strong drinks, teas, tobaccos; our medical and surgical appliances; high-faluting sciences and philosophies, and all other engines hitherto of human bewilderment, have simply to be reduced to abject subjection to the real man. All these appliances, and a thousand others such as we hardly dream of, will come in to perfect his power and increase his freedom; but they will not be the objects of a mere fetish-worship as now. Man will use them, instead of their using him. His real life will lie in a region far beyond them. But in thus for a moment denying and \"mastering\" the products of Civilisation, will he for the first time discover their true value, and reap from them an enjoyment unknown before.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Carpenter says locomotives, telegraphs and other products must be brought into 'abject subjection to the real man' and not be 'objects of a mere fetish-worship as now'."
+ },
+ {
+  "stance": "q31-adams-education-henry",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "To him, the dynamo itself was but an ingenious channel for conveying somewhere the heat latent in a few tons of poor coal hidden in a dirty engine-house carefully kept out of sight; but to Adams the dynamo became a symbol of infinity. As he grew accustomed to the great gallery of machines, he began to feel the forty-foot dynamos as a moral force, much as the early Christians felt the Cross. The planet itself seemed less impressive, in its old-fashioned, deliberate, annual or daily revolution, than this huge wheel, revolving within arm's length at some vertiginous speed, and barely murmuring--scarcely humming an audible warning to stand a hair's-breadth further for respect of power--while it would not wake the baby lying close against its frame. Before the end, one began to pray to it; inherited instinct taught the natural expression of man before silent and infinite force. Among the thousand symbols of ultimate energy the dynamo was not so human as some, but it was the most expressive.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Adams feels the dynamos as a moral force 'much as the early Christians felt the Cross' and says one began to pray to it."
+ },
+ {
+  "stance": "q31-forster-machine-stops",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The second great development was the re-establishment of religion. This, too, had been voiced in the celebrated lecture. No one could mistake the reverent tone in which the peroration had concluded, and it awakened a responsive echo in the heart of each. Those who had long worshipped silently, now began to talk. They described the strange feeling of peace that came over them when they handled the Book of the Machine, the pleasure that it was to repeat certain numerals out of it, however little meaning those numerals conveyed to the outward ear, the ecstasy of touching a button, however unimportant, or of ringing an electric bell, however superfluously. \"The Machine,\" they exclaimed, \"feeds us and clothes us and houses us; through it we speak to one another, through it we see one another, in it we have our being. The Machine is the friend of ideas and the enemy of superstition: the Machine is omnipotent, eternal; blessed is the Machine.\" And before long this allocution was printed on the first page of the Book, and in subsequent editions the ritual swelled into a complicated system of praise and prayer. The word \"religion\" was sedulously avoided, and in theory the Machine was still the creation and the implement of man. But in practice all, save a few retrogrades, worshipped it as divine.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Forster describes the Book of the Machine as scripture and says that in practice all but a few worshipped the Machine as divine."
+ },
+ {
+  "stance": "q31-berdyaev-man-machine",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "И вот трагедия в том, что творение восстает против своего творца, более не повинуется ему. Тайна грехопадения — в восстании твари против Творца. Она повторяется и во всей истории человечества. Прометеевский дух человека не в силах овладеть созданной им техникой, справиться с раскованными, небывалыми энергиями. Мы это видим во всех процессах рационализации в техническую эпоху, когда человек заменяется машиной. Техника заменяет органически-иррациональное организованно-рациональным. Но она порождает новые иррациональные последствия в социальной жизни. Так рационализация промышленности порождает безработицу, величайшее бедствие нашего времени. Труд человека заменяется машиной, это есть положительное завоевание, которое должно было бы уничтожить рабство и нищету человека. Но машина совсем не повинуется тому, что требует от нее человек, она диктует свои законы. Человек сказал машине: ты мне нужна для облегчения моей жизни, для увеличения моей силы, машина же ответила человеку: а ты мне не нужен, я без тебя все буду делать, ты же можешь пропадать. Система Тейлора есть крайняя форма рационализации труда, но она превращает человека в усовершенствованную машину. Машина хочет, чтобы человек принял ее образ и подобие. Но человек есть образ и подобие Бога и не может стать образом и подобием машины, не перестав существовать.",
+  "translation": "And here is the tragedy: the creation rises up against its creator and no longer obeys him. The mystery of the Fall lies in the rebellion of the creature against the Creator. It is repeated in the whole history of mankind. The Promethean spirit of man is unable to master the technics he has created, to cope with the unfettered, unprecedented energies. We see this in all the processes of rationalisation in the technical epoch, when man is replaced by the machine. Technics replaces the organic-irrational with the organised-rational. But it gives rise to new irrational consequences in social life. Thus the rationalisation of industry gives rise to unemployment, the greatest calamity of our time. Human labour is replaced by the machine; this is a positive conquest, which ought to have abolished the slavery and poverty of man. But the machine does not at all obey what man demands of it; it dictates its own laws. Man said to the machine: I need you to ease my life, to increase my strength; but the machine answered man: I do not need you, I will do everything without you, and you may perish. The Taylor system is the extreme form of the rationalisation of labour, but it turns man into a perfected machine. The machine wants man to take on its image and likeness. But man is the image and likeness of God and cannot become the image and likeness of the machine without ceasing to exist.",
+  "summaryCheck": "ok",
+  "note": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist."
+ },
+ {
+  "stance": "q32-babbage-economy-machinery",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "None of the candidates says that the economy of force in transport, or machinery in general, marks a high degree of civilization; they discuss labour displacement, accuracy of tools and the division of labour."
+ },
+ {
+  "stance": "q32-macaulay-lord-bacon",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "All three candidates concern Bacon's character and political career; none contains Macaulay's judgment of Bacon's philosophy by its fruits."
+ },
+ {
+  "stance": "q32-morgan-ancient-society",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It can now be asserted upon convincing evidence that savagery preceded barbarism in all the tribes of mankind, as barbarism is known to have preceded civilization. The history of the human race is one in source, one in experience, and one in progress. It is both a natural and a proper desire to learn, if possible, how all these ages upon ages of past time have been expended by mankind; how savages, advancing by slow, almost imperceptible steps, attained the higher condition of barbarians; how barbarians, by similar progressive advancement, finally attained to civilization; and why other tribes and nations have been left behind in the race of progress—some in civilization, some in barbarism, and others in savagery. It is not too much to expect that ultimately these several questions will be answered. Inventions and discoveries stand in serial relations along the lines of human progress, and register its successive stages; while social and civil institutions, in virtue of their connection with perpetual human wants, have been developed from a few primary germs of thought. They exhibit a similar register of progress. These institutions, inventions and discoveries have embodied and preserved the principal facts now remaining illustrative of this experience. When collated and compared they tend to show the unity of origin of mankind, the similarity of human wants in the same stage of advancement, and the uniformity of the operations of the human mind in similar conditions of society.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Morgan states that inventions and discoveries 'register' the successive stages of progress from savagery through barbarism to civilization."
+ },
+ {
+  "stance": "q32-gandhi-hind-swaraj",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The Gujarati equivalent for civilisation means \" good conduct.\" If this definition be correct, then India, as so many writers have shown, has nothing to learn ftom anybody else, and this is as it should be. We notice that mind is a restless bird ; the more it gets the more it wants, and still remains unsatis- fied. The more we indulge our passions, the more unbridled they become. Our ancestors, therefore, set a limit to our indulgences. They saw that happiness was largely a mental condition. A man is not necessarily happy because he is rich, or unhappy because he is poor. The rich are often s&em to be unhappy, the poor to be happy. Millions will always remain poor. Observing all this, our ancestors dissuaded us from luxuries and pleasures. We have managed with the same kind of plough as it existed thousands of years ago. We have retained the same kind of cottages that we had' in former times, and our indigenous education remains the same as before. We have had no system of life-corroding competition. Each followed his own occupation or trade, and charged a regulation Wage. It was not tha{ we did not know how to invent machinery, but our forefathers knew that, if we set our hearts after such things, we would become slaves and lose our moral fibre.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Gandhi defines civilisation as good conduct and says India's ancestors knew how to invent machinery but refused it because it would make them slaves and destroy their moral fibre."
+ },
+ {
+  "stance": "q32-tagore-nationalism",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "When this organization of politics and commerce, whose other name is the Nation, becomes all-powerful at the cost of the harmony of the higher social life, then it is an evil day for humanity. When a father becomes a gambler and his obligations to his family take the secondary place in his mind, then he is no longer a man, but an automaton led by the power of greed. Then he can do things which, in his normal state of mind, he would be ashamed to do. It is the same thing with society. When it allows itself to be turned into a perfect organization of power, then there are few crimes which it is unable to perpetrate. Because success is the object and justification of a machine, while goodness only is the end and purpose of man. When this engine of organization begins to attain a vast size, and those who are mechanics are made into parts of the machine, then the personal man is eliminated to a phantom, everything becomes a revolution of policy carried out by the human parts of the machine, with no twinge of pity or moral responsibility.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tagore says the Nation as an organization of politics and commerce aims at success, not goodness, and turns men into parts of a machine without moral responsibility."
+ },
+ {
+  "stance": "q32-spengler-man-technics",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "In der Tat aber vermögen weder die Köpfe noch die Hände etwas an. dem Schicksal der Maschinentechnik zu ändern, die sich aus innerer, seelenhafter Notwendigkeit entwickelt hat und nun der Vollendung, dem Ende entgegenreift. Wir stehen heute auf dem Gipfel, dort, wo der fünfte Akt beginnt. Die letzten Entscheidungen fallen. Die Tragödie schließt. [74] Jede hohe Kultur ist eine Tragödie; die Geschichte des Menschen im Ganzen ist tragisch. Der Frevel und Sturz des faustischen Menschen aber ist größer als alles, was Äschylus und Shakespeare je geschaut haben. Die Schöpfung erhebt sich gegen den Schöpfer: Wie einst der Mikrokosmos Mensch gegen die Natur, so empört sich jetzt der Mikrokosmos Maschine gegen den nordischen Menschen. Der Herr der Welt wird zum Sklaven der Maschine. Sie zwingt ihn, uns, und zwar alle ohne Ausnahme, ob wir es wissen und wollen oder nicht, in die Richtung ihrer Bahn. Der gestürzte Sieger wird von dem rasenden Gespann zu Tode geschleift.",
+  "translation": "In fact, however, neither the heads nor the hands can change anything in the fate of machine technics, which has developed out of inner, spiritual necessity and is now ripening toward its completion, toward its end. We stand today at the summit, where the fifth act begins. The last decisions are being made. The tragedy closes. [74] Every high culture is a tragedy; the history of man as a whole is tragic. But the sacrilege and fall of Faustian man is greater than anything Aeschylus and Shakespeare ever beheld. The creation rises against the creator: as once the microcosm man rose against nature, so now the microcosm machine revolts against Nordic man. The lord of the world becomes the slave of the machine. It forces him, us, and all of us without exception, whether we know and will it or not, in the direction of its course. The fallen victor is dragged to death by the racing team.",
+  "summaryCheck": "ok",
+  "note": "Spengler says machine technics has matured toward its end, that 'the fifth act' has begun, and that the lord of the world has become the slave of the machine."
+ },
+ {
+  "stance": "q33-zhang-exhortation-learning",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "To sum up : Chinese learning is moral. West- ern learning is practical. Chinese learning con- … cerns itself with moral conduct. Western learn- * - I ing, with the affairs of the world. What matters *V/ it, then, whether Western learning is mentioned v' i in the Classics or not, if it teaches nothing repug- nant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irre- provable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loy- alty and protection, then let government make J use of foreign machinery and the railway from morning to night, and nothing untoward will ,y befall the disciples of Confucius.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Zhang says Chinese learning concerns moral conduct and Western learning the affairs of the world, so that government may use foreign machinery and railways while the Confucian heart is kept; the ellipsis cuts a translator's footnote that interrupts the sentence."
+ },
+ {
+  "stance": "q33-gandhi-hind-swaraj",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Machinery has begun to desolate Europe. Buibation is now knocking at the English gates. Machinery is the chief symbol of modern civili- sation; it represents a great sin. The workers in the mills of Bombay have becomf slaves. The condition of the women wojkiacr in the mills is shocking. When the^e were nomills^ these women were not starving. If the machinery craze grows in our country, it will become an unhappy land. It may be considered a heresy, but I am bound to say that it were-^ better for us to send money to Manchester and to use flimsy Manchester cloth, ihan to multiply mills in India. By using Manchester cloth, we would only waste our money, but by reproducing Manchester in India, we shall keep our money at the price of our blood, because our very moral being will be sapped, and I call in support of my statement the very mill- hands as witnesses. And those who have amassed wealth out of factories are not likely to be better than other rich men. It would be foliy to assume that an Indian Rockfeller would be better than the American Rockfeller.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Gandhi calls machinery 'the chief symbol of modern civilisation' and says reproducing Manchester in India would sap the people's 'very moral being'."
+ },
+ {
+  "stance": "q33-veblen-imperial-germany",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "It was this dynastic power of the Prussian State, resting on an authentic tradition of personal fealty, unlimited in the last resort, that was the largest single factor of a cultural kind entering into the Imperial era from the German side. It is at least conceivable that in the course of time, the protracted disintegrating impact of the discipline exercised by modern industrial habits would have brought this dynastic State and its coercive organisation to much the same state of decay as that which once overtook its smaller and feebler counterpart in Elizabethan England. But the course of time has not had a chance to run in this Prussian case. Elizabethan England, and its soaring imperialistic aspirations, was exposed to the slow corrosion of peace and isolation, with the comjmon interest converging more and more on the industrial arts and the fortunes of trade; and it took a hundred years and more to displace dynastic statecraft and eliminate imperialist politics — in so far as these ele- ments of the ancient regime can be said to have been lost — and it took another two-hundred years to reach the farthest point along the line of liberal policy and peaceable ideals eventually attained by the English community.",
+  "translation": null,
+  "summaryCheck": "other: Veblen presents the erosion of the dynastic state as 'at least conceivable' and not yet realized, which is weaker than the summary's 'will erode'.",
+  "note": "Veblen says the Prussian dynastic state was the chief cultural element Germany carried into the industrial era and that industrial discipline might in time have brought it to decay, as in Elizabethan England, but time had not had a chance to run."
+ },
+ {
+  "stance": "q33-tagore-nationalism",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The real truth is that science is not man's nature, it is mere knowledge and training. By knowing the laws of the material universe you do not change your deeper humanity. You can borrow knowledge from others, but you cannot borrow temperament. But at the imitative stage of our schooling we cannot distinguish between the essential and the non-essential, between what is transferable and what is not. It is something like the faith of the primitive mind in the magical properties of the accidents of outward forms which accompany some real truth. We are afraid of leaving out something valuable and efficacious by not swallowing the husk with the kernel. But while our greed delights in wholesale appropriation, it is the function of our vital nature to assimilate, which is the only true appropriation for a living organism. Where there is life it is sure to assert itself by its choice of acceptance and refusal according to its constitutional necessity. The living organism does not allow itself to grow into its food, it changes its food into its own body. And only thus can it grow strong and not by mere accumulation, or by giving up its personal identity. Japan has imported her food from the West, but not her vital nature. Japan cannot altogether lose and merge herself in the scientific paraphernalia she has acquired from the West and be turned into a mere borrowed machine. She has her own soul, which must assert itself over all her requirements.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tagore says science is knowledge that can be borrowed without borrowing temperament, and that Japan must assimilate it rather than become 'a mere borrowed machine'."
+ },
+ {
+  "stance": "q33-spengler-man-technics",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Alle »Farbigen« sahen in das Geheimnis unserer Kraft hinein, begriffen es und nützten es aus. Die Japaner wurden binnen 30 Jahren technische Kenner ersten Ranges und bewiesen im Kriege gegen Rußland eine kriegstechnische Überlegenheit, von welcher ihre Lehrmeister lernen konnten. Heute sind allenthalben, in Ostasien, Indien, Südamerika, Südafrika, Industriegebiete entstanden oder in Bildung begriffen, die infolge ihrer niedrigen Löhne eine tödliche Konkurrenz darstellen. Die unersetzlichen Vorrechte der weißen Völker sind verschwendet, verschleudert, verraten worden. Die Gegner haben ihre Vorbilder erreicht, vielleicht mit der Verschmitztheit farbiger Rassen und der überreifen Intelligenz uralter Zivilisationen übertroffen. Wo es Kohle, Erdöl und Wasserkräfte gibt, kann eine [86] neue Waffe gegen das Herz der faustischen Kultur geschmiedet werden. Hier beginnt die Rache der ausgebeuteten Welt gegen ihre Herren. … Für die Farbigen aber – die Russen sind hier immer einbegriffen – ist die faustische Technik kein inneres Bedürfnis. Nur der faustische Mensch denkt, fühlt und lebt in ihrer Form. Sie ist ihm seelisch nötig, nicht ihre wirtschaftlichen Folgen, sondern ihre Siege : navigare necesse est, vivere non est necesse. Für »Farbige« ist sie nur eine [87] Waffe im Kampf gegen die faustische Zivilisation, eine Waffe wie ein Baumast im Walde, den man fortwirft, wenn er seinen Zweck erfüllt hat.",
+  "translation": "All the 'coloured' peoples looked into the secret of our strength, grasped it and exploited it. Within thirty years the Japanese became technical experts of the first rank and in the war against Russia showed a superiority in military technique from which their teachers could learn. Today, everywhere, in East Asia, India, South America, South Africa, industrial regions have arisen or are forming which, because of their low wages, represent a deadly competition. The irreplaceable privileges of the white peoples have been squandered, thrown away, betrayed. The adversaries have caught up with their models, and perhaps, with the cunning of coloured races and the over-ripe intelligence of ancient civilizations, surpassed them. Wherever there is coal, oil and water power, a [86] new weapon can be forged against the heart of Faustian culture. Here begins the revenge of the exploited world against its masters. … For the coloured peoples, however (the Russians are always included here), Faustian technics is no inner need. Only Faustian man thinks, feels and lives in its form. It is spiritually necessary to him, not its economic consequences but its victories: navigare necesse est, vivere non est necesse [to sail is necessary, to live is not necessary]. For the 'coloured' it is only a [87] weapon in the struggle against Faustian civilization, a weapon like a branch in the forest that one throws away when it has served its purpose.",
+  "summaryCheck": "ok",
+  "note": "Spengler says the non-Western peoples learned the secret of Western technics and use it as a mere weapon against Faustian civilization, since it is no inner need for them; the ellipsis cuts a passage on the effects on white labour."
+ },
+ {
+  "stance": "q34-ferry-speech-chamber",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "M. Jules Ferry . Je répète qu'il y a pour les races supérieures un droit, parce qu'il y a un devoir pour elles. Elles ont le devoir de civiliser les races inférieures... ( Marques d'approbation surles mêmes bancs à gauche - Nouvelles interruptions à l'extrême gauche et à droite .) M. Joseph Fabre . C'est excessif ! Vous aboutissez ainsi à l'abdication des principes de 1789 et de 1848... ( Bruit ), à la consécration de la loi de grâce remplaçant la loi de justice. M. Vernhes . Alors les missionnaires ont aussi leur droit ! Ne leur reprochez donc pas d'en user ! ( Bruit .) M. le présiden t. N'interrompez pas, monsieur Vernhes ! M. Jules Ferry . Je dis que les races supérieures... M. Vernhes . Protégez les missionnaires, alors ! ( Très bien ! à droite .) Voix à gauche . N'interrompez donc pas ! M. Jules Ferry . Je dis que les races supérieures ont des devoirs... M. Vernhes . Allons donc ! M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+  "translation": "M. Jules Ferry. I repeat that there is a right for the superior races, because there is a duty for them. They have the duty to civilize the inferior races... (Marks of approval on the same benches on the left. New interruptions on the far left and on the right.) M. Joseph Fabre. That is excessive! You thus arrive at the abdication of the principles of 1789 and 1848... (Noise), at the consecration of the law of grace replacing the law of justice. M. Vernhes. Then the missionaries also have their right! So do not reproach them for using it! (Noise.) The President. Do not interrupt, M. Vernhes! M. Jules Ferry. I say that the superior races... M. Vernhes. Protect the missionaries, then! (Very good! on the right.) Voices on the left. Do not interrupt! M. Jules Ferry. I say that the superior races have duties... M. Vernhes. Come now! M. Jules Ferry. These duties, gentlemen, have often been disregarded in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Very good! very good!) But in our day, I maintain that the European nations acquit themselves with generosity, with grandeur and honesty, of this superior duty of civilization.",
+  "summaryCheck": "ok",
+  "note": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates."
+ },
+ {
+  "stance": "q34-kidd-control-tropics",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "If we have to meet the fact that by force of circumstances the tropics must be developed, and if the evidence is equally emphatic that such a development can only take place under the influence of the white man, we are confronted with a larger issue ^ than any mere question of commercial policy or of national selfishness. The tropics in such circumstances can only be governed as a trust for civilization, and with a full sense of the responsibility which such a trust in- volves. The first principle of success in undertaking such a duty seems to the writer to be a clear recognition of the cardinal fact that in the tropics the white man lives and works only as a diver lives and works under water. Alike in a moral, in an ethical, and in a political sense, the atmosphere he breathes must be that of another region, that which produced him, and to which he belongs. Neither physically, morally, nor politically, can he be acclimatized in the tropics. The people among whom he lives and works are often separated from him by thousands of years of development ; he cannot, therefore, be allowed to administer government from any local and lower standard he may develop. If he has any right there at all, he is there in the name of civilization ; if our civilization has any right there at all, it is because it represents higher ideals of humanity, a higher type of social order.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Kidd states that the tropics must be developed, that this can only happen under the white man, and that they can therefore 'only be governed as a trust for civilization'."
+ },
+ {
+  "stance": "q34-belloc-modern-traveller",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "We did the thing that he projected, The Caravan grew disaffected, And Sin and I consulted; Blood understood the Native mind. He said: “We must be firm but kind.” A Mutiny resulted. I never shall forget the way That Blood upon this awful day Preserved us all from death. He stood upon a little mound, Cast his lethargic eyes around, And said beneath his breath: “Whatever happens we have got The Maxim Gun, and they have not.” [Illustration ** Blood, a stout man, with Maxim Gun.] He marked them in their rude advance, He hushed their rebel cheers; With one extremely vulgar glance He broke the Mutineers. (I have a picture in my book Of how he quelled them with a look.) We shot and hanged a few, and then The rest became devoted men. And here I wish to say a word Upon the way my heart was stirred By those pathetic faces. Surely our simple duty here Is both imperative and clear; While they support us, we should lend Our every effort to defend, And from a higher point of view To give the full direction due To all the native races. And I, throughout the expedition, Insisted upon this position.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Belloc's narrator reports that Blood quelled the mutiny with 'We have got / The Maxim Gun, and they have not', then speaks piously of the duty to direct the native races, which the verse mocks."
+ },
+ {
+  "stance": "q34-wells-war-worlds",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "And we men, the creatures who inhabit this earth, must be to them at least as alien and lowly as are the monkeys and lemurs to us. The intellectual side of man already admits that life is an incessant struggle for existence, and it would seem that this too is the belief of the minds upon Mars. Their world is far gone in its cooling and this world is still crowded with life, but crowded only with what they regard as inferior animals. To carry warfare sunward is, indeed, their only escape from the destruction that, generation after generation, creeps upon them. And before we judge of them too harshly we must remember what ruthless and utter destruction our own species has wrought, not only upon animals, such as the vanished bison and the dodo, but upon its inferior races. The Tasmanians, in spite of their human likeness, were entirely swept out of existence in a war of extermination waged by European immigrants, in the space of fifty years. Are we such apostles of mercy as to complain if the Martians warred in the same spirit?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Wells's narrator compares the Martians' view of humans to human destruction of the bison, the dodo and the Tasmanians and asks whether we can complain if the Martians warred in the same spirit."
+ },
+ {
+  "stance": "q34-pearson-national-life",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "But America is but one case in which we have to mark a masterful human progress following an inter-racial struggle. The Aus- tralian nation is another case of great civil- ization supplanting a lower race unable to work to the full the land and its resources. Further back in history you find the same tale with almost every European nation. Sometimes when the conquering race is not too diverse in civilization and in type of energy there is an amalgamation of races, as when Norman and Anglo-Saxon ultimately blended ; at other times the inferior race is driven out before the superior, as the Celt drove out the Iberian. The struggle means suffering, intense suffering, while it is in progress ; but that struggle and that suffering have been the stages by which the white man has reached his present stage of development, and they account for the fact that he no longer lives in caves and feeds on roots and nuts. This dependence of progress on the survival of the fitter race, terribly black as it ' may seem to some of you, gives the struggle for existence its redeeming features ; it is the fiery crucible out of which comes the finer metal.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Pearson says progress follows inter-racial struggle, with a 'great civilization supplanting a lower race unable to work to the full the land and its resources'."
+ },
+ {
+  "stance": "q34-hobson-imperialism-study",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Thus do the industrial and financial forces of Im- perialism, operating through the party, the press, the church, the school, mould public opinion and public policy by the false ideaUsation of those primitive lusts of struggle, domination, and acquisitiveness which have survived throughout the eras of peaceful industrial order and whose stimulation is needed onoe again for the work of imperial aggression, expansion, and the forceful exploi* tation ci lower raees. For these business politictans biology and sociology weave thin conTsnient theories of a race struggle for the subjugation of the inferior peoples, in order that we, the Anglo-Saxon, may take their lands and Uto upon their labours ; while economics buttresses the aigument by representing our work in oonquering and ruling them as our share in the divisioii of labour among nations, and histoiy devises reasons why the lessons of past empire do not apply to ouis, while social ethics paints the motive of '' Imperialism \" as the desire to bear the '' burden \" of educating and elevating races of *' children.\" Thus are the \" cultured \" or semi-cultured clasoofl indoctrinated with the intellectual and moral grandeur of Imperialism.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hobson says biology and sociology supply 'thin convenient theories of a race struggle' so that financial and industrial interests can take the lands and labour of other peoples."
+ },
+ {
+  "stance": "q35-hobbes-leviathan",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Though nothing can be immortall, which mortals make; yet, if men had the use of reason they pretend to, their Common-wealths might be secured, at least, from perishing by internall diseases. For by the nature of their Institution, they are designed to live, as long as Man-kind, or as the Lawes of Nature, or as Justice it selfe, which gives them life. Therefore when they come to be dissolved, not by externall violence, but intestine disorder, the fault is not in men, as they are the Matter; but as they are the Makers, and orderers of them. For men, as they become at last weary of irregular justling, and hewing one another, and desire with all their hearts, to conforme themselves into one firme and lasting edifice; so for want, both of the art of making fit Laws, to square their actions by, and also of humility, and patience, to suffer the rude and combersome points of their present greatnesse to be taken off, they cannot without the help of a very able Architect, be compiled, into any other than a crasie building, such as hardly lasting out their own time, must assuredly fall upon the heads of their posterity. Amongst the Infirmities therefore of a Common-wealth, I will reckon in the first place, those that arise from an Imperfect Institution, and resemble the diseases of a naturall body, which proceed from a Defectuous Procreation.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hobbes says commonwealths could last as long as mankind if built by reason, but men as makers lack the art and humility to build them without 'a very able Architect'; the summary's point about private conscience is not in this candidate."
+ },
+ {
+  "stance": "q35-schiller-aesthetic-education",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The great point is, therefore, to reconcile these two considerations, to prevent physical society from ceasing for a moment in time, while the moral society is being formed in the idea; in other words, to prevent its existence from being placed in jeopardy for the sake of the moral dignity of man. When the mechanic has to mend a watch he lets the wheels run out; but the living watchworks of the state have to be repaired while they act, and a wheel has to be exchanged for another during its revolutions. Accordingly props must be sought for to support society and keep it going while it is made independent of the natural condition from which it is sought to emancipate it.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Schiller says a mechanic lets a watch run down to repair it, but 'the living watchworks of the state have to be repaired while they act'."
+ }
+]

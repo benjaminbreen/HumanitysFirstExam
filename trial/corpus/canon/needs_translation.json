@@ -1,0 +1,725 @@
+[
+ {
+  "language": "French",
+  "year": 1842,
+  "author": "Luigi Federico Menabrea",
+  "title": "Sketch of the Analytical Engine Invented by Charles Babbage",
+  "status": "ok",
+  "text": "original",
+  "translation": "Yes: Lovelace's 1843 English translation (Scientific Memoirs 3), transcribed at https://ps",
+  "chars": 50424,
+  "questions": [
+   "Q01",
+   "Q03"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1747,
+  "author": "Julien Offray de La Mettrie",
+  "title": "Man a Machine",
+  "status": "ok",
+  "text": "original",
+  "translation": "Yes: Gertrude Carman Bussey translation (Open Court, 1912), Internet Archive manmachine00l",
+  "chars": 414445,
+  "questions": [
+   "Q02",
+   "Q05"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1886,
+  "author": "Villiers de l'Isle-Adam",
+  "title": "Tomorrow's Eve",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found (Robert Martin Adams's 1982 translation is in c",
+  "chars": 565791,
+  "questions": [
+   "Q02"
+  ]
+ },
+ {
+  "language": "Spanish",
+  "year": 1914,
+  "author": "Leonardo Torres Quevedo",
+  "title": "Essays on Automatics",
+  "status": "no-link",
+  "text": null,
+  "translation": "French version published 1915 in the Revue générale des sciences; no public-domain English",
+  "chars": 0,
+  "questions": [
+   "Q02",
+   "Q03"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1859,
+  "author": "Maine de Biran",
+  "title": "Essay on the Foundations of Psychology",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found",
+  "chars": 972116,
+  "questions": [
+   "Q04"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1880,
+  "author": "Emil du Bois-Reymond",
+  "title": "The Seven World-Riddles",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation of this lecture found; the companion 1872 lecture 'Üb",
+  "chars": 195559,
+  "questions": [
+   "Q05"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1842,
+  "author": "Rudolph Hermann Lotze",
+  "title": "Leben. Lebenskraft",
+  "status": "no-link",
+  "text": null,
+  "translation": "No public-domain English translation found",
+  "chars": 0,
+  "questions": [
+   "Q07"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1862,
+  "author": "Francisque Bouillier",
+  "title": "Du principe vital et de l'âme pensante",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found",
+  "chars": 766052,
+  "questions": [
+   "Q07"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1878,
+  "author": "Claude Bernard",
+  "title": "Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found",
+  "chars": 811795,
+  "questions": [
+   "Q07",
+   "Q08"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1664,
+  "author": "René Descartes",
+  "title": "The Description of the Human Body",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed; modern translation in Cottingham et al., P",
+  "chars": 32633,
+  "questions": [
+   "Q09"
+  ]
+ },
+ {
+  "language": "Latin",
+  "year": 1759,
+  "author": "Caspar Friedrich Wolff",
+  "title": "Theory of Generation",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 452283,
+  "questions": [
+   "Q09"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1789,
+  "author": "Johann Friedrich Blumenbach",
+  "title": "An Essay on Generation",
+  "status": "ok",
+  "text": "original",
+  "translation": "An Essay on Generation, trans. A. Crichton, London 1792: https://archive.org/details/b2144",
+  "chars": 103210,
+  "questions": [
+   "Q09"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1895,
+  "author": "Wilhelm Roux",
+  "title": "Collected Papers on the Developmental Mechanics of Organisms",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 2113709,
+  "questions": [
+   "Q09"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1798,
+  "author": "Étienne Bonnot de Condillac",
+  "title": "The Language of Calculation",
+  "status": "failed",
+  "text": null,
+  "translation": "No public-domain English translation found.",
+  "chars": 0,
+  "questions": [
+   "Q10"
+  ]
+ },
+ {
+  "language": "Latin",
+  "year": 1890,
+  "author": "Gottfried Wilhelm Leibniz",
+  "title": "On the Characteristic Art for Perfecting the Sciences Founded on Reason",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 1555201,
+  "questions": [
+   "Q10"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1900,
+  "author": "David Hilbert",
+  "title": "Mathematical Problems",
+  "status": "ok",
+  "text": "original",
+  "translation": "",
+  "chars": 105561,
+  "questions": [
+   "Q10"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1908,
+  "author": "Henri Poincaré",
+  "title": "Science and Method",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translation by Francis Maitland, Science and Method (1914); not checked for a publ",
+  "chars": 297612,
+  "questions": [
+   "Q10"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1748,
+  "author": "Montesquieu",
+  "title": "The Spirit of the Laws",
+  "status": "ok",
+  "text": "original",
+  "translation": "Thomas Nugent's English translation (1750) exists; not checked for a scan.",
+  "chars": 24741,
+  "questions": [
+   "Q11"
+  ]
+ },
+ {
+  "language": "Italian",
+  "year": 1764,
+  "author": "Cesare Beccaria",
+  "title": "On Crimes and Punishments",
+  "status": "ok",
+  "text": "original",
+  "translation": "James Anson Farrer, Crimes and Punishments (1880), Project Gutenberg #58700.",
+  "chars": 173445,
+  "questions": [
+   "Q11"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1884,
+  "author": "Rudolf von Jhering",
+  "title": "Jest and Earnest in Jurisprudence",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 737825,
+  "questions": [
+   "Q11"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1899,
+  "author": "François Gény",
+  "title": "Method of Interpretation and Sources in Private Positive Law",
+  "status": "failed",
+  "text": null,
+  "translation": "English translation by the Louisiana State Law Institute (1963); not public domain.",
+  "chars": 0,
+  "questions": [
+   "Q11"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1906,
+  "author": "Gnaeus Flavius (Hermann Kantorowicz)",
+  "title": "The Battle for Legal Science",
+  "status": "partial",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 186,
+  "questions": [
+   "Q11"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1909,
+  "author": "Alfred Binet",
+  "title": "Modern Ideas About Children",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translation Modern Ideas About Children (1975); not public domain.",
+  "chars": 759058,
+  "questions": [
+   "Q12"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1877,
+  "author": "Ernst Kapp",
+  "title": "Outlines of a Philosophy of Technology",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translation Elements of a Philosophy of Technology (2018); not public domain.",
+  "chars": 579777,
+  "questions": [
+   "Q13"
+  ]
+ },
+ {
+  "language": "Russian",
+  "year": 1906,
+  "author": "Nikolai Fedorov",
+  "title": "The Philosophy of the Common Task",
+  "status": "failed",
+  "text": null,
+  "translation": "No public-domain English translation; selected works in What Was Man Created For? (1990).",
+  "chars": 0,
+  "questions": [
+   "Q15"
+  ]
+ },
+ {
+  "language": "Czech",
+  "year": 1922,
+  "author": "Karel Čapek",
+  "title": "The Makropulos Affair",
+  "status": "no-link",
+  "text": null,
+  "translation": "No public-domain English translation confirmed.",
+  "chars": 0,
+  "questions": [
+   "Q15"
+  ]
+ },
+ {
+  "language": "Russian",
+  "year": 1925,
+  "author": "Alexander Belyaev",
+  "title": "Professor Dowell's Head",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 329490,
+  "questions": [
+   "Q16"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1819,
+  "author": "J.-C.-L. Simonde de Sismondi",
+  "title": "New Principles of Political Economy",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found",
+  "chars": 802044,
+  "questions": [
+   "Q17",
+   "Q19"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1798,
+  "author": "Immanuel Kant",
+  "title": "Anthropology from a Pragmatic Point of View",
+  "status": "partial",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed",
+  "chars": 2813,
+  "questions": [
+   "Q20"
+  ]
+ },
+ {
+  "language": "Spanish",
+  "year": 1553,
+  "author": "Ignatius of Loyola",
+  "title": "Letter on Perfect Obedience (to the Jesuits of Portugal)",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translations exist; none opened",
+  "chars": 28118,
+  "questions": [
+   "Q21"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1784,
+  "author": "Immanuel Kant",
+  "title": "An Answer to the Question: What Is Enlightenment?",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed",
+  "chars": 18236,
+  "questions": [
+   "Q21",
+   "Q36"
+  ]
+ },
+ {
+  "language": "Latin",
+  "year": 1614,
+  "author": "John Napier",
+  "title": "Mirifici Logarithmorum Canonis Descriptio",
+  "status": "ok",
+  "text": "original",
+  "translation": "Edward Wright, A Description of the Admirable Table of Logarithmes (1616)",
+  "chars": 262053,
+  "questions": [
+   "Q24"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1645,
+  "author": "Blaise Pascal",
+  "title": "Avis nécessaire à ceux qui auront curiosité de voir la machine d'arithmétique",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed",
+  "chars": 18836,
+  "questions": [
+   "Q24"
+  ]
+ },
+ {
+  "language": "Latin",
+  "year": 1671,
+  "author": "Gottfried Wilhelm Leibniz",
+  "title": "Description of his calculating machine",
+  "status": "no-link",
+  "text": null,
+  "translation": "",
+  "chars": 0,
+  "questions": [
+   "Q24"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1886,
+  "author": "Auguste Villiers de l'Isle-Adam",
+  "title": "The Future Eve",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation found",
+  "chars": 1121326,
+  "questions": [
+   "Q29"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1825,
+  "author": "Henri de Saint-Simon",
+  "title": "New Christianity",
+  "status": "ok",
+  "text": "original",
+  "translation": "Not verified",
+  "chars": 122096,
+  "questions": [
+   "Q30"
+  ]
+ },
+ {
+  "language": "Russian",
+  "year": 1933,
+  "author": "Nikolai Berdyaev",
+  "title": "Man and Machine",
+  "status": "no-link",
+  "text": null,
+  "translation": "No public-domain English translation; English translation in Technology and Language (2023",
+  "chars": 0,
+  "questions": [
+   "Q31"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1931,
+  "author": "Oswald Spengler",
+  "title": "Man and Technics",
+  "status": "no-link",
+  "text": null,
+  "translation": "C. T. Atkinson (1932); public-domain status not verified",
+  "chars": 0,
+  "questions": [
+   "Q32",
+   "Q33"
+  ]
+ },
+ {
+  "language": "Chinese",
+  "year": 1861,
+  "author": "Feng Guifen",
+  "title": "Protests from the Jiaobin Studio",
+  "status": "no-link",
+  "text": null,
+  "translation": "No public-domain English translation confirmed; excerpts appear in modern source readers.",
+  "chars": 0,
+  "questions": [
+   "Q33"
+  ]
+ },
+ {
+  "language": "Japanese",
+  "year": 1875,
+  "author": "Fukuzawa Yukichi",
+  "title": "An Outline of a Theory of Civilization",
+  "status": "no-link",
+  "text": null,
+  "translation": "English translation by David A. Dilworth and G. Cameron Hurst (Sophia University, 1973), n",
+  "chars": 0,
+  "questions": [
+   "Q33"
+  ]
+ },
+ {
+  "language": "Chinese",
+  "year": 1902,
+  "author": "Yan Fu",
+  "title": "Letter to the Editor of the Waijiao bao",
+  "status": "no-link",
+  "text": null,
+  "translation": "No public-domain English translation found.",
+  "chars": 0,
+  "questions": [
+   "Q33"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1885,
+  "author": "Jules Ferry",
+  "title": "Speech to the Chamber of Deputies on colonial policy",
+  "status": "no-link",
+  "text": null,
+  "translation": "English excerpts widely reprinted; no public-domain full translation confirmed.",
+  "chars": 0,
+  "questions": [
+   "Q34"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1950,
+  "author": "Aimé Césaire",
+  "title": "Discourse on Colonialism",
+  "status": "no-link",
+  "text": null,
+  "translation": "English translation by Joan Pinkham (1972), not public domain.",
+  "chars": 0,
+  "questions": [
+   "Q34"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1809,
+  "author": "Adam Müller",
+  "title": "The Elements of Statecraft",
+  "status": "partial",
+  "text": "original",
+  "translation": "No English translation found.",
+  "chars": 25,
+  "questions": [
+   "Q35"
+  ]
+ },
+ {
+  "language": "Russian",
+  "year": 1917,
+  "author": "V. I. Lenin",
+  "title": "The State and Revolution",
+  "status": "no-link",
+  "text": null,
+  "translation": "Multiple early English translations; Marxists Internet Archive hosts one.",
+  "chars": 0,
+  "questions": [
+   "Q35"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1821,
+  "author": "G. W. F. Hegel",
+  "title": "Elements of the Philosophy of Right",
+  "status": "no-link",
+  "text": null,
+  "translation": "S. W. Dyde translation (1896), public domain.",
+  "chars": 0,
+  "questions": [
+   "Q36"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1919,
+  "author": "Max Weber",
+  "title": "Politics as a Vocation",
+  "status": "no-link",
+  "text": null,
+  "translation": "English translation by Gerth and Mills (1946), not public domain.",
+  "chars": 0,
+  "questions": [
+   "Q36"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1877,
+  "author": "Ernst Kapp",
+  "title": "Elements of a Philosophy of Technology",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translation by Lauren K. Wolfe (University of Minnesota Press, 2018), not public d",
+  "chars": 579777,
+  "questions": [
+   "Q37"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1945,
+  "author": "Maurice Merleau-Ponty",
+  "title": "Phenomenology of Perception",
+  "status": "no-link",
+  "text": null,
+  "translation": "English translation by Colin Smith (1962), not public domain.",
+  "chars": 0,
+  "questions": [
+   "Q37"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1930,
+  "author": "Sigmund Freud",
+  "title": "Civilization and Its Discontents",
+  "status": "ok",
+  "text": "original",
+  "translation": "Joan Riviere translation (1930); public-domain status not confirmed.",
+  "chars": 42655,
+  "questions": [
+   "Q38"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1762,
+  "author": "Jean-Jacques Rousseau",
+  "title": "Pygmalion, lyric scene",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed.",
+  "chars": 23787,
+  "questions": [
+   "Q39"
+  ]
+ },
+ {
+  "language": "French",
+  "year": 1886,
+  "author": "Auguste Villiers de l'Isle-Adam",
+  "title": "Tomorrow's Eve",
+  "status": "ok",
+  "text": "original",
+  "translation": "English translation by Robert Martin Adams (1982), not public domain; an earlier Florence ",
+  "chars": 565791,
+  "questions": [
+   "Q39",
+   "Q40"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1919,
+  "author": "Sigmund Freud",
+  "title": "The Uncanny",
+  "status": "ok",
+  "text": "original",
+  "translation": "No public-domain English translation confirmed.",
+  "chars": 103113,
+  "questions": [
+   "Q39"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1778,
+  "author": "Johann Wolfgang von Goethe",
+  "title": "The Triumph of Sensibility",
+  "status": "partial",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 2806,
+  "questions": [
+   "Q40"
+  ]
+ },
+ {
+  "language": "German",
+  "year": 1914,
+  "author": "Rainer Maria Rilke",
+  "title": "Dolls: On the Wax Dolls of Lotte Pritzel",
+  "status": "partial",
+  "text": "original",
+  "translation": "No public-domain English translation found.",
+  "chars": 18406,
+  "questions": [
+   "Q40"
+  ]
+ }
+]

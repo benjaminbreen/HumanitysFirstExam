@@ -1,0 +1,281 @@
+[
+ {
+  "stance": "q35-muller-elements-statecraft",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "No candidate text was supplied for this work."
+ },
+ {
+  "stance": "q35-carlyle-signs-times",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is no longer the moral, religious, spiritual condition of the people that is our concern, but their physical, practical, economical condition, as regulated by public laws. Thus is the Body-politic more than ever worshipped and tended; but the Soul-politic less than ever. Love of country, in any high or generous sense, in any other than an almost animal sense, or mere habit, has little importance attached to it in such reforms, or in the opposition shown them. Men are to be guided only by their self-interests. Good government is a good balancing of these; and, except a keen eye and appetite for self- interest, requires no virtue in any quarter. To both parties it is emphatically a machine: to the discontented, a ‘taxing-machine; to the contented, a ‘machine for securing property. Its duties and its faults are not those of a father, but of an active parish- constable. Thus it is by the mere condition of the machine, by preserving it untouched, or else by reconstructing it, and oiling it anew, that man’s salvation as a social being is to be insured and indefinitely promoted.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Carlyle says both parties treat government as a machine to be preserved or reconstructed and neglect the moral and spiritual condition of the people."
+ },
+ {
+  "stance": "q35-spencer-social-organism",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "The whole of our industrial organization^ from its main outlines down to its minutest details, has become what it is, not simply witliJiit legislative guidance, but, to a con- suleral)le extent, iu spile of legislative hin- drances. It has arisen under the pressure of human wants and activities. While each citizLU has bee:i pursuing his individual wel- fare, aud none taking thought about division of labor, or, indeed, conscious of the need for it, division of labor has yet been ever be- coming more comiilete. It has been doing this slowly and sdenlly ; scatcely any having obseived it until (piite modern times. By steps so small, that year after year the in- dustrial arrangements have seemed to men just what they were before — by changes ad insensible as tluse through which a seed passes into a tree— society has become tho complex body of mutually -dependent work- ers wiiich we now see.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Spencer says the industrial organization grew without and against legislative guidance, as a seed becomes a tree; the phrase 'constitutions are not made but grow' is not in the candidates."
+ },
+ {
+  "stance": "q35-lenin-state-revolution",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "В Европе 1871 года на континенте ни в одной стране пролетариат не составлял большинства народа. «Народная» революция, втягивающая в движение действительно большинство, могла быть таковою, лишь охватывая и пролетариат и крестьянство. Оба класса и составляли тогда «народ». Оба класса объединены тем, что «бюрократически-военная государственная машина» гнетёт, давит, эксплуатирует их. Разбить эту машину, сломать её — таков действительный интерес «народа», большинства его, рабочих и большинства крестьян, таково «предварительное условие» свободного союза беднейших крестьян с пролетариями, а без такого союза непрочна демократия и невозможно социалистическое преобразование. К такому союзу, как известно, и пробивала себе дорогу Парижская Коммуна, не достигшая цели в силу ряда причин внутреннего и внешнего характера. Следовательно, говоря о «действительно народной революции», Маркс, нисколько не забывая особенностей мелкой буржуазии (о них он говорил много и часто), строжайше учитывал фактическое соотношение классов в большинстве континентальных государств Европы в 1871 году. А с другой стороны, он констатировал, что «разбитие» государственной машины требуется интересами и рабочих и крестьян, объединяет их, ставит перед ними общую задачу устранения «паразита» и замены его чем-либо новым.",
+  "translation": "In Europe in 1871 the proletariat did not form the majority of the people in any country on the continent. A \"people's\" revolution, one that actually drew the majority into the movement, could be such only by embracing both the proletariat and the peasantry. These two classes then made up \"the people\". Both classes are united by the fact that the \"bureaucratic-military state machine\" oppresses, crushes and exploits them. To smash this machine, to break it up: that is the real interest of \"the people\", of its majority, the workers and most of the peasants; that is the \"precondition\" for a free alliance of the poorest peasants with the proletarians, and without such an alliance democracy is unstable and socialist transformation is impossible. As is well known, the Paris Commune was making its way toward such an alliance, though it did not reach its goal for a number of internal and external reasons. Consequently, in speaking of a \"real people's revolution\", Marx, without in the least forgetting the peculiarities of the petty bourgeoisie (he spoke of them much and often), took strict account of the actual balance of classes in most continental states of Europe in 1871. On the other hand, he stated that the \"smashing\" of the state machine is required by the interests of both workers and peasants, unites them, and sets before them the common task of removing the \"parasite\" and replacing it with something new.",
+  "summaryCheck": "ok",
+  "note": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants."
+ },
+ {
+  "stance": "q36-kant-answer-question",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Den Privatgebrauch nenne ich denjenigen, den er in einem gewissen ihm anvertrauten bürgerlichen Posten, oder Amte, von seiner Vernunft machen darf. Nun ist zu manchen Geschäften, die in das Interesse des gemeinen Wesens laufen, ein gewisser Mechanism nothwendig, vermittelst dessen einige Glieder des gemeinen Wesens sich bloß passiv verhalten müssen, um durch eine künstliche Einhelligkeit von der Regierung zu öffentlichen Zwekken gerichtet, oder wenigstens von der Zerstörung dieser Zwekke abgehalten zu werden. Hier ist es nun freilich nicht erlaubt, zu räsonniren; sondern man muß gehorchen. So fern sich aber dieser Theil der Maschine zugleich als Glied eines ganzen gemeinen Wesens, ja sogar der Weltbürgergesellschaft ansieht, mithin in der Qualität eines Gelehrten, der sich an ein Publikum im eigentlichen Verstande durch Schriften wendet; kann er allerdings räsonniren, ohne daß dadurch die Geschäfte leiden, zu denen er zum Theile als passives Glied angesetzt ist. So würde es sehr verderblich sein, wenn ein Offizier, dem von seinen Oberen etwas anbefohlen wird, im Dienste über die Zwekmäßigkeit oder Nützlichkeit dieses Befehls laut vernünfteln wollte; er muß gehorchen. Es kann ihm aber billigermaßen nicht verwehrt werden, als Gelehrter, über die Fehler im Kriegesdienste Anmerkungen zu machen, und diese seinem Publikum zur Beurtheilung vorzulegen.",
+  "translation": "By the private use I mean that which a person may make of his reason in a certain civil post or office entrusted to him. Now for many affairs that concern the interest of the commonwealth a certain mechanism is necessary, by means of which some members of the commonwealth must behave merely passively, so that through an artificial unanimity they may be directed by the government toward public ends, or at least kept from destroying those ends. Here it is certainly not permitted to argue; one must obey. But insofar as this part of the machine regards himself at the same time as a member of a whole commonwealth, indeed of the society of world citizens, and thus in the capacity of a scholar who addresses a public in the proper sense through writings, he can certainly argue without harming the affairs to which he is assigned in part as a passive member. Thus it would be very ruinous if an officer who is given an order by his superiors wanted, while on duty, to reason aloud about the expediency or usefulness of this order; he must obey. But he cannot fairly be forbidden, as a scholar, to make remarks on the errors in military service and to lay them before his public for judgment.",
+  "summaryCheck": "ok",
+  "note": "Kant defines the private use of reason in an office as passive obedience within a mechanism, while the same person may argue freely as a scholar before the public."
+ },
+ {
+  "stance": "q36-hegel-elements-philosophy",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "296. Whether or no integrity of conduct, gentleness, and freedom from passion pass into social custom depends Upon the nature of the direct ethical life and thought. These phases of character maintain the spiritual balance over against the merely mental acquisition of the so-called sciences, dealing with the objects of these spheres of govern- ment, against also the necessary practice of business, and the actual labour of mechanical and other trades. The great- ness of the state is also a controlling element, by virtue of which the importance of family relations and other private ties is diininished, and revenge, hate, and the like passions become inoperative and powerless. In concern for the great interests of a large state, these subjective elements sink out of sight, and there is produced an habitual regard for universal interests and affairs.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Hegel says that in the great interests of a large state private ties and passions become powerless and officials acquire a habitual regard for universal interests."
+ },
+ {
+  "stance": "q36-thoreau-resistance-civil",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The mass of men serve the State thus, not as men mainly, but as machines, with their bodies. They are the standing army, and the militia, jailers, constables, _posse comitatus_, &c. In most cases there is no free exercise whatever of the judgment or of the moral sense; but they put themselves on a level with wood and earth and stones; and wooden men can perhaps be manufactured that will serve the purpose as well. Such command no more respect than men of straw, or a lump of dirt. They have the same sort of worth only as horses and dogs. Yet such as these even are commonly esteemed good citizens. Others, as most legislators, politicians, lawyers, ministers, and office-holders, serve the state chiefly with their heads; and, as they rarely make any moral distinctions, they are as likely to serve the devil, without _intending_ it, as God. A very few, as heroes, patriots, martyrs, reformers in the great sense, and _men_, serve the State with their consciences also, and so necessarily resist it for the most part; and they are commonly treated by it as enemies.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Thoreau's own statement that most men serve the state as machines, with their bodies, with no free exercise of moral judgment."
+ },
+ {
+  "stance": "q36-wilson-study-administration",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Most important to be observed is the truth already so much and so fortunately insisted upon by our civil- service reformers ; namely, that administration lies outside the proper sphere of politics. Administrative questions are not political questions. Although politics sets the tasks for ad- ministration, it should not be suffered to manipulate its offices. This is distinction of high authority ; eminent German writ- ers insist upon it as of course. Bluntschli, 1 for instance, bids us separate administration alike from politics and from law. Poli- tics, he says, is state activity \" in things great and universal,\" while \"administration, on the other hand,\" is \"the activity of the state in individual and small things. Politics is thus the special province of the statesman, administration of the techni- cal official.\"",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Wilson states that administration lies outside the proper sphere of politics and belongs to the technical official; he does not address personal moral judgment directly."
+ },
+ {
+  "stance": "q36-tolstoy-kingdom-god",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "So many instigate, assist, or sanction the commission of every one of these actions that no one who has a hand in them feels himself morally responsible for it. It is the custom among assassins to oblige all the witnesses of a murder to strike the murdered victim, that the responsibility may be divided among as large a number of people as possible. The same principle in different forms is applied under the government organization in the perpetration of the crimes, without which no government organization could exist. Rulers always try to implicate as many citizens as possible in all the crimes committed in their support. Of late this tendency has been expressed in a very obvious manner by the obligation of all citizens to take part in legal processes as jurors, in the army as soldiers, in the local government, or legislative assembly, as electors or members. Just as in a wicker basket all the ends are so hidden away that it is hard to find them, in the state organization the responsibility for the crimes committed is so hidden away that men will commit the most atrocious acts without seeing their responsibility for them.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tolstoy describes how state organization divides responsibility for violence among so many hands that no one feels responsible; the call for each official to refuse is not in this passage."
+ },
+ {
+  "stance": "q36-weber-politics-as",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Der echte Beamte – das ist für die Beurteilung unseres früheren Regimes entscheidend – soll seinem eigentlichen Beruf nach nicht Politik treiben, sondern: „verwalten“, unparteiisch vor allem, – auch für die sogenannten „politischen“ Verwaltungsbeamten gilt das, offiziell wenigstens, soweit nicht die „Staatsräson“, d. h. die Lebensinteressen der herrschenden Ordnung, in Frage stehen. Sine ira et studio , „ohne Zorn und Eingenommenheit“ soll er seines Amtes walten. Er soll also gerade das nicht tun, was der Politiker, der Führer sowohl wie seine Gefolgschaft, immer und notwendig tun muß: kämpfen . Denn Parteinahme, Kampf, Leidenschaft – ira et studium – sind das Element des Politikers. Und vor allem: des politischen Führers . Dessen Handeln steht unter einem ganz anderen, gerade entgegengesetzten Prinzip der Verantwortung , als die des Beamten ist. Ehre des Beamten ist die Fähigkeit, wenn – trotz seiner Vorstellungen – die ihm vorgesetzte Behörde auf einem ihm falsch erscheinenden Befehl beharrt, ihn auf Verantwortung des Befehlenden gewissenhaft und genau so auszuführen, als ob er seiner eigenen Überzeugung entspräche: ohne diese im höchsten Sinn sittliche Disziplin und Selbstverleugnung zerfiele der ganze Apparat. Ehre des politischen Führers, also: des leitenden Staatsmannes, ist dagegen gerade die ausschließliche Eigen verantwortung für das, was er tut, die er nicht ablehnen oder abwälzen kann und darf.",
+  "translation": "The genuine official (this is decisive for judging our former regime) should by his proper vocation not engage in politics but \"administer\", impartially above all; this holds, officially at least, even for the so-called \"political\" administrative officials, so far as \"reason of state\", that is, the vital interests of the ruling order, is not in question. Sine ira et studio, \"without anger and partiality\", he is to conduct his office. He is therefore not to do precisely what the politician, the leader as well as his following, always and necessarily must do: fight. For taking sides, struggle, passion (ira et studium) are the element of the politician, and above all of the political leader. His conduct stands under a quite different, precisely opposite principle of responsibility from that of the official. The honour of the official is his ability, when (despite his objections) the authority above him insists on an order that seems to him wrong, to carry it out on the responsibility of the one who gives the order, conscientiously and exactly as if it matched his own conviction: without this moral discipline and self-denial in the highest sense the whole apparatus would fall apart. The honour of the political leader, that is, of the leading statesman, is on the contrary precisely his exclusive personal responsibility for what he does, which he cannot and may not refuse or shift onto others.",
+  "summaryCheck": "ok",
+  "note": "Weber's statement that the official's honour lies in carrying out an order he thinks wrong as if it were his own conviction, while the leader bears personal responsibility."
+ },
+ {
+  "stance": "q37-marx-capital-volume",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "In handicrafts and manufacture, the workman makes use of a tool, in the factory, the machine makes use of him. There the movements of the instrument of labour proceed from him, here it is the movements of the machine that he must follow. In manu facture the workmen are parts of a living mechanism. In the factory we have a lifeless mechanism independent of the work man, who becomes its mere living appendage. \" The miserable routine of endless drudgery and toil in which the same mechanical process is gone through over and over again, is like the labour of Sisyphus. The burden of labour, like the rock, keeps ever falling back on the worn-out labourer.\" 3 At the same time that factory work exhausts the nervous system to- the uttermost, it does away with the many-sided play of the muscles, and confiscates every atom of freedom, both in bodily and intellectual activity. 8 The lightening of the labour, even, becomes a sort of torture, since the machine does not free the labourer from work, but deprives the work of all interest.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Marx's direct statement that in the factory the machine makes use of the worker, who becomes its living appendage."
+ },
+ {
+  "stance": "q37-butler-erewhon",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "This was the conclusion of the attack which led to the destruction of machinery throughout Erewhon. There was only one serious attempt to answer it. Its author said that machines were to be regarded as a part of man’s own physical nature, being really nothing but extra-corporeal limbs. Man, he said, was a machinate mammal. The lower animals keep all their limbs at home in their own bodies, but many of man’s are loose, and lie about detached, now here and now there, in various parts of the world—some being kept always handy for contingent use, and others being occasionally hundreds of miles away. A machine is merely a supplementary limb; this is the be all and end all of machinery. We do not use our own limbs other than as machines; and a leg is only a much better wooden leg than any one can manufacture.",
+  "translation": null,
+  "summaryCheck": "other: the extra-corporeal-limbs argument is a separate Erewhonian writer's answer to the Book of the Machines; the candidates do not show the Book's author rejecting it as a way of hiding the machines' independence.",
+  "note": "The passage states the opponent's view (machines as extra-corporeal limbs, man a machinate mammal) in the narrator's report."
+ },
+ {
+  "stance": "q37-kapp-outlines-philosophy",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Die Hand hat sich die zu ihrer Unterstützung dienenden, ihre Kraft und Geschicklichkeit erhöhenden \"Werkzeuge gerade so geformt, wie sie dieselben braucht. \"Wegen dieser ihrer Handlichkeit sind sie das Handwerk- zeug. In der Hand, dem auswendigen Gehirn, sind sie deshalb die Culturbegründer, weil sie Theil haben an dem Verhältniss von Hand und Hirn, dessen Bedeutung Eduard Reich kurz und bündig mit dem Ausspruch würdigt: „Das best entwickelte Gehirn und das best entwickelte Greif- werkzeug vereinigen sich in den der wahren Gesittung fähigen Menschenarten, und das gegenseitige Verhältniss der beiden Organe ist die Quelle alles Könnens, alles Wissens und aller Weisheit\" (Der Mensch und die Seele, S. 178.) Von den beiden Seiten des primitiven Werkzeugs, dem Zweck und der Form, besteht jener in der bewusst vom Menschen erstrebten Beseitigung eines momentanen Mangels, oder was dasselbe ist, Herstellung eines Vortheils, diese aber, die Gestaltung des für den Zweck verwendeten' Stoffes, geht unbewusst vor sich. Dieser unbewusste Vor- gang, dass die organischen Gebilde, Thätigkeiten und Be- ziehungen und die mechanischen Vorrichtungen sich wie Vorbild und Nachbild verhalten, und dass der Mechanismus nur als Mittel zur Aufdeckung und zum Verständniss des Organismus verwendet wird, wurde als das eigentliche Wesen der organischen Projection erkannt.",
+  "translation": "The hand has shaped the tools that serve to support it and increase its strength and skill exactly as it needs them. Because of this handiness of theirs they are the hand-tool. In the hand, the external brain, they are therefore the founders of culture, because they share in the relation of hand and brain, whose significance Eduard Reich appraises briefly and pithily with the saying: \"The best-developed brain and the best-developed grasping tool are united in the races of mankind capable of true civilization, and the mutual relation of the two organs is the source of all ability, all knowledge and all wisdom\" (Der Mensch und die Seele, p. 178). Of the two sides of the primitive tool, purpose and form, the former consists in the removal, consciously pursued by man, of a momentary lack, or what is the same, the procuring of an advantage; the latter, the shaping of the material used for the purpose, proceeds unconsciously. This unconscious process, in which organic formations, activities and relations and the mechanical devices stand to each other as model and copy, and in which the mechanism is used only as a means to uncover and understand the organism, was recognized as the proper essence of organ projection.",
+  "summaryCheck": "ok",
+  "note": "Kapp states that the hand shaped tools after itself and that organ and mechanism relate as model and copy, which he calls organ projection."
+ },
+ {
+  "stance": "q37-bergson-creative-evolution",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Thus, if we consider only those typical cases in which the complete triumph of intelligence and of instinct is seen, we find this essential difference between them: _instinct perfected is a faculty of using and even of constructing organized instruments; intelligence perfected is the faculty of making and using unorganized instruments_. … The instrument constructed intelligently, on the contrary, is an imperfect instrument. It costs an effort. It is generally troublesome to handle. But, as it is made of unorganized matter, it can take any form whatsoever, serve any purpose, free the living being from every new difficulty that arises and bestow on it an unlimited number of powers. Whilst it is inferior to the natural instrument for the satisfaction of immediate wants, its advantage over it is the greater, the less urgent the need. Above all, it reacts on the nature of the being that constructs it; for in calling on him to exercise a new function, it confers on him, so to speak, a richer organization, being an artificial organ by which the natural organism is extended.",
+  "translation": null,
+  "summaryCheck": "other: Bergson also calls the made instrument 'an artificial organ by which the natural organism is extended', so the tool's separateness from the body is not absolute in this passage.",
+  "note": "Bergson contrasts instinct's organized instruments, part of the body, with intelligence's unorganized instruments that can take any form."
+ },
+ {
+  "stance": "q37-henry-et-al-sensory-disturbances",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The only candidate is website boilerplate with no text from the work."
+ },
+ {
+  "stance": "q38-rousseau-discourse-origin",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "The body being the only instrument that savage man is acquainted with, he employs it to different uses, of which ours, for want of practice, are incapable; and we may thank our industry for the loss of that strength and agility, which necessity obliges him to acquire. Had he a hatchet, would his hand so easily snap off from an oak so stout a branch? Had he a sling, would it dart a stone to so great a distance? Had he a ladder, would he run so nimbly up a tree? Had he a horse, would he with such swiftness shoot along the plain? Give civilized man but time to gather about him all his machines, and no doubt he will be an overmatch for the savage: but if you have a mind to see a contest still more unequal, place them naked and unarmed one opposite to the other; and you will soon discover the advantage there is in perpetually having all our forces at our disposal, in being constantly prepared against all events, and in always carrying ourselves, as it were, whole and entire about us.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Rousseau's own passage that the body is the savage's only instrument and that hatchet, sling, ladder or horse would cost him his strength and speed."
+ },
+ {
+  "stance": "q38-carlyle-sartor-resartus",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "'But, on the whole,' continues our eloquent Professor, 'Man is a Tool-using Animal ( Handthierendes Thier ). Weak in himself, and of small stature, he stands on a basis, at most for the flattest-soled, of some half-square foot, insecurely enough; has to straddle out his legs, lest the very wind supplant him. Feeblest of bipeds! Three quintals are a crushing load for him; the steer of the meadow tosses him aloft, like a waste rag. Nevertheless he can use Tools, can devise Tools: with these the granite mountain melts into light dust before him; he kneads glowing iron, as if it were soft paste; seas are his smooth highway, winds and fire his unwearying steeds. Nowhere do you find him without Tools: without Tools he is nothing, with Tools he is all.' Here may we not, for a moment, interrupt the stream of Oratory with a remark, that this Definition of the Tool-using Animal appears to us, of all that Animal-sort, considerably the precisest and best?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Teufelsdröckh's 'without Tools he is nothing, with Tools he is all', with the editor's endorsement of the definition."
+ },
+ {
+  "stance": "q38-emerson-self-reliance",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "For every thing that is given something is taken. Society acquires new arts and loses old instincts. What a contrast between the well-clad, reading, writing, thinking American, with a watch, a pencil and a bill of exchange in his pocket, and the naked New Zealander, whose property is a club, a spear, a mat and an undivided twentieth of a shed to sleep under! But compare the health of the two men and you shall see that the white man has lost his aboriginal strength. If the traveller tell us truly, strike the savage with a broad axe and in a day or two the flesh shall unite and heal as if you struck the blow into soft pitch, and the same blow shall send the white to his grave. The civilized man has built a coach, but has lost the use of his feet. He is supported on crutches, but lacks so much support of muscle. He has a fine Geneva watch, but he fails of the skill to tell the hour by the sun. A Greenwich nautical almanac he has, and so being sure of the information when he wants it, the man in the street does not know a star in the sky.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Emerson's passage that society gains arts and loses instincts, including 'The civilized man has built a coach, but has lost the use of his feet.'"
+ },
+ {
+  "stance": "q38-thoreau-walden",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "And when the farmer has got his house, he may not be the richer but the poorer for it, and it be the house that has got him. As I understand it, that was a valid objection urged by Momus against the house which Minerva made, that she “had not made it movable, by which means a bad neighborhood might be avoided;” and it may still be urged, for our houses are such unwieldy property that we are often imprisoned rather than housed in them; and the bad neighborhood to be avoided is our own scurvy selves. I know one or two families, at least, in this town, who, for nearly a generation, have been wishing to sell their houses in the outskirts and move into the village, but have not been able to accomplish it, and only death will set them free.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Thoreau says the farmer's house has got him rather than he the house; the phrase 'tools of their tools' is not in the candidates."
+ },
+ {
+  "stance": "q38-emerson-civilization",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "I admire still more than the saw-mill the skill which, on the sea-shore, makes the tides drive the wheels and grind corn, and which thus engages the assistance of the moon, like a hired hand, to grind, and wind, and pump, and saw, and split stone, and roll iron. Now that is the wisdom of a man, in every instance of his labor, to hitch his wagon to a star, and see his chore done by the gods themselves. That is the way we are strong, by borrowing the might of the elements. The forces of steam, gravity, galvanism, light, magnets, wind, fire, serve us day by day, and cost us nothing. Our astronomy is full of examples of calling in the aid of these magnificent helpers.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Emerson says a man should hitch his wagon to a star and that we are strong by borrowing the might of the elements."
+ },
+ {
+  "stance": "q38-freud-civilization-its",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Long ago he formed an ideal conception of omnipotence and omniscience which he embodied in his gods. Whatever seemed unattainable to his desires—or forbidden to him—he attributed to these gods. One may say, therefore, that these gods were the ideals of his culture. Now he has himself approached very near to realizing this ideal, he has nearly become a god himself. But only, it is true, in the way that ideals are usually realized in the general experience of humanity. Not completely; in some respects not at all, in others only by halves. Man has become a god by means of artificial limbs, so to speak, quite magnificent when equipped with all his accessory organs; but they do not grow on him and they still give him trouble at times. However, he is entitled to console himself with the thought that this evolution will not come to an end in A.D. 1930. Future ages will produce further great advances in this realm of culture, probably inconceivable now, and will increase man’s likeness to a god still more. But with the aim of our study in mind, we will not forget, all the same, that the human being of to-day is not happy with all his likeness to a god.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Freud says man has become a god by means of artificial limbs that do not grow on him and still give trouble, and is not happy with it (this translation says 'artificial limbs', not 'prosthetic God')."
+ },
+ {
+  "stance": "q39-ovid-metamorphoses",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Frankincense, too, was smoking, when, having made his offering, Pygmalion stood before the altar, and timorously said, ‘If ye Gods can grant all things, let my wife be, I pray,’ {and} he did not dare to say ‘this ivory maid,’ {but} ‘like to this {statue} of ivory.’ The golden Venus, as she herself was present at her own festival, understood what that prayer meant; and as an omen of the Divinity being favourable, thrice was the flame kindled up, and it sent up a tapering flame into the air. Soon as he returned, he repaired to the image of his maiden, and, lying along the couch, he gave her kisses. She seems to grow warm. Again he applies his mouth; with his hands, too, he feels her breast. The pressed ivory becomes soft, and losing its hardness, yields to the fingers, and gives way, just as Hymettian wax[41] grows soft in the sun, and being worked with the fingers is turned into many shapes, and becomes pliable by the very handling. While he is amazed, and is rejoicing, {though} with apprehension, and is fearing that he is deceived; the lover again and again touches the object of his desires with his hand. It is a {real} body; the veins throb, when touched with the thumb.",
+  "translation": null,
+  "summaryCheck": "other: the text also says Pygmalion 'does not own it to be ivory', so his love partly denies its artificial nature, though his prayer shows he knows it is ivory.",
+  "note": "The prayer and animation scene: Pygmalion knows the statue is ivory and Venus grants his wish."
+ },
+ {
+  "stance": "q39-rousseau-pygmalion-lyric",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Non, je nU point peidu le sens; non, je n'exlrava^'o,/ i„;mU non, Je ne me ivproche rien. C'est d'un être rivant qui iui semUe; c'est de U figure qu'il àitte ft net yen». En quelque lieu que ce soit, cette ti-'irr rulr^rable... quelque enipiqnile porte, et quelque main ijui l ait laite, elle aura tOOsleitOMlde mon cfpur. Oui, ma seule folie est de discerner la beauté; mon . seul crime est d'j être sensible. U n'} 1 rienlà dont je doive (,ti»i ls frali» (ie feu seinblil Mulir de ret objet pour embra- ser mes sens, et retourner étec mon tfat à Utur source! Hélas ! il rcsie immobile et froid, tandis que jtttib civur, embrase par ses charmes, voudiaU quitter mon corps pour aller échauf- fer le tien. Jé erois dam mon délire pouvelr nMeneer hcn de moi ; je crois pouvoir lui donner ma vie et l'animer de mon Aïoe. .\\h' que Pygmalion meure pi»ur vivre dans Galalhéc ! que di»-je ! o ciel ! si j'étais elle, je ne la verrai- pas, je uo se- rais pds eèlui qui l'aifèle. Non, que ma Galathée vive... et que- je ne sois pu cOe...",
+  "translation": "No, I have not lost my senses; no, I am not raving [?: OCR garbled]; no, I reproach myself for nothing. It is a living being that it resembles [?: 'it is of a living being that resembles it']; it is the figure that it offers to my eyes [?: OCR garbled]. Wherever it may be, this adorable figure [?: OCR garbled], whatever body bears it and whatever hand has made it, it will have all the vows of my heart. Yes, my only madness is to discern beauty; my only crime is to be sensible to it. There is nothing there for which I should [blush? OCR garbled]... [What rays] of fire seem to leave this object to set my senses ablaze and return with my soul to their source! Alas! it stays motionless and cold, while my heart, set ablaze by its charms, would leave my body to go and warm yours. I believe in my delirium that I can [cast myself?] out of myself; I believe I can give it my life and animate it with my soul. Ah, let Pygmalion die to live in Galathée! What am I saying! O heaven! if I were she, I would not see her, I would not be the one who loves her. No, let my Galathée live... and let me not be she...",
+  "summaryCheck": "ok",
+  "note": "Pygmalion says he knows it is marble and his work yet loves the figure; the OCR is badly garbled and the translation marks doubtful readings."
+ },
+ {
+  "stance": "q39-hoffmann-sandman",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "\"After him--after him! What do you stand staring there for? Coppelius--Coppelius--he's stolen my best automaton--at which I've worked for twenty years--staked my life upon it--the clock-work-- speech--movement--mine--your eyes--stolen your eyes--damn him--curse him--after him--fetch me back Olimpia--there are the eyes.\" And now Nathanael saw a pair of bloody eyes lying on the floor staring at him; Spalanzani seized them with his uninjured hand and threw them at him, so that they hit his breast Then madness dug her burning talons into him and swept down into his heart, rending his mind and thoughts to shreds. \"Aha! aha! aha! Fire-wheel--fire-wheel! Spin round, fire-wheel! merrily, merrily! Aha! wooden doll! spin round, pretty wooden doll!\" and he threw himself upon the Professor, clutching him fast by the throat.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The scene where Spalanzani reveals Olimpia as an automaton and Nathanael falls into madness."
+ },
+ {
+  "stance": "q39-l-isle-adam-tomorrow-s",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Si, d'abord, il m'a transporté d'un mouvement de colère, l'admiration m'a vaincu. --Je serais un insensé, vraiment, si je refusais! --QUITTES!--dit Edison, gravement, et en lui tendant les mains, que lord Ewald pressa de même. --Soupez-vous avec moi, _l'un et l'autre, comme la dernière fois?_ continua-t-il en souriant.--Si vous voulez, nous recommencerons la conversation de l'autre soir: vous verrez que les réponses de Hadaly seront... différentes de celles de son modèle. --Non, dit lord Ewald: j'ai hâte d'être le prisonnier de cette énigme sublime.",
+  "translation": "If at first it stirred me to a movement of anger, admiration has overcome me. \"I would be a madman, truly, if I refused!\" \"QUITS!\" said Edison gravely, holding out his hands, which Lord Ewald pressed in turn. \"Will you both dine with me, as last time?\" he went on, smiling. \"If you like, we will begin again the conversation of the other evening: you will see that Hadaly's answers will be... different from those of her model.\" \"No,\" said Lord Ewald, \"I am eager to be the prisoner of this sublime enigma.\"",
+  "summaryCheck": "other: Ewald accepts Hadaly, but in the same scene says he hopes to forget what Edison told him of her mechanism, which qualifies 'told exactly how she is made'.",
+  "note": "Lord Ewald accepts the android after Edison's explanations and says he is eager to be the prisoner of this enigma."
+ },
+ {
+  "stance": "q39-freud-uncanny",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Diese automatische Puppe kann nichts anderes sein als die Materialisation von Nathaniels femininer Einstellung zu seinem Vater in früher Kindheit. Ihre Väter -- Spalanzani und Coppola -- sind ja nur neue Auflagen, Reinkarnationen, von Nathaniels Väterpaar; die sonst unverständliche Angabe des Spalanzani, daß der Optiker dem Nathaniel die Augen gestohlen (s. o.), um sie der Puppe einzusetzen; gewinnt so als Beweis für die Identität von Olimpia und Nathaniel ihre Bedeutung. Olimpia ist sozusagen ein von Nathaniel losgelöster Komplex, der ihm als Person entgegentritt; die Beherrschung durch diesen Komplex findet in der unsinnig zwanghaften Liebe zur Olimpia ihren Ausdruck. Wir haben das Recht, diese Liebe eine narzißtische zu heißen, und verstehen, daß der ihr Verfallene sich dem realen Liebesobjekt entfremdet.",
+  "translation": "This automatic doll can be nothing other than the materialization of Nathaniel's feminine attitude toward his father in early childhood. Her fathers, Spalanzani and Coppola, are only new editions, reincarnations, of Nathaniel's pair of fathers; Spalanzani's otherwise unintelligible statement that the optician stole Nathaniel's eyes (see above) in order to set them in the doll thus gains its meaning as evidence for the identity of Olimpia and Nathaniel. Olimpia is, so to speak, a complex detached from Nathaniel that confronts him as a person; his domination by this complex finds its expression in his senselessly compulsive love for Olimpia. We are entitled to call this love a narcissistic one, and we understand that the man who has fallen prey to it becomes estranged from the real love object.",
+  "summaryCheck": "ok",
+  "note": "Freud calls Nathaniel's love for Olimpia narcissistic and says it estranges him from the real love object."
+ },
+ {
+  "stance": "q40-descartes-discourse-method",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "but if there were machines bearing the image of our bodies, and capable of imitating our actions as far as it is morally possible, there would still remain two most certain tests whereby to know that they were not therefore really men. Of these the first is that they could never use words or other signs arranged in such a manner as is competent to us in order to declare our thoughts to others: for we may easily conceive a machine to be so constructed that it emits vocables, and even that it emits some correspondent to the action upon it of external objects which cause a change in its organs; for example, if touched in a particular place it may demand what we wish to say to it; if in another it may cry out that it is hurt, and such like; but not that it should arrange them variously so as appositely to reply to what is said in its presence, as men of the lowest grade of intellect can do.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Descartes's first test: a machine may emit words on being touched but cannot arrange them to reply to what is said, as the dullest men can."
+ },
+ {
+  "stance": "q40-goethe-triumph-sensibility",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The only candidate is the website's front matter and cast list, with no text stating the position."
+ },
+ {
+  "stance": "q40-hoffmann-sandman",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "All these he read to Olimpia hour after hour without growing tired; but then he had never had such an exemplary listener. She neither embroidered, nor knitted; she did not look out of the window, or feed a bird, or play with a little pet dog or a favourite cat, neither did she twist a piece of paper or anything of that kind round her finger; she did not forcibly convert a yawn into a low affected cough--in short, she sat hour after hour with her eyes bent unchangeably upon her lover's face, without moving or altering her position, and her gaze grew more ardent and more ardent still. And it was only when at last Nathanael rose and kissed her lips or her hand that she said, \"Ach! Ach!\" and then \"Good-night, dear.\" Arrived in his own room, Nathanael would break out with, \"Oh! what a brilliant--what a profound mind! Only you--you alone understand me.\" And his heart trembled with rapture when he reflected upon the wondrous harmony which daily revealed itself between his own and his Olimpia's character; for he fancied that she had expressed in respect to his works and his poetic genius the identical sentiments which he himself cherished deep down in his own heart in respect to the same, and even as if it was his own heart's voice speaking to him. And it must indeed have been so; for Olimpia never uttered any other words than those already mentioned.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Olimpia's only words are 'Ach! Ach!', yet Nathanael says only she understands him; the narrator notes she never uttered other words."
+ },
+ {
+  "stance": "q40-l-isle-adam-tomorrow-s",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "--La déduction est, en effet, spécieuse et profonde, murmura-t-il en souriant, mais je sens que je me trouverais toujours un peu trop _seul_ en compagnie de votre Ève inconsciente. --Moins seul qu'avec son modèle: c'est démontré.--D'ailleurs, milord, ce serait de votre faute, non de la sienne. Il faut se sentir un Dieu tout à fait, que diable! lorsqu'on ose VOULOIR _ce dont il est question ici_. --Puis, ajouta-t-il d'une voix bizarre, vous ne vous rendez pas bien compte, je suppose, de la _nouveauté_ d'impressions que vous éprouverez dès la première causerie, au grand soleil, avec l'andréide-Alicia se promenant auprès de vous et inclinant son ombrelle du côté des rayons, avec tout le _naturel_ de la vivante.",
+  "translation": "\"The deduction is indeed specious and profound,\" he murmured, smiling, \"but I feel that I would always find myself a little too alone in the company of your unconscious Eve.\" \"Less alone than with her model: that has been demonstrated. Besides, my lord, it would be your fault, not hers. One must feel oneself wholly a God, devil take it, when one dares to WILL what is in question here.\" \"Then,\" he added in a strange voice, \"you do not quite realize, I suppose, the novelty of the impressions you will feel from the very first conversation, in broad sunlight, with the android-Alicia walking beside you and tilting her parasol toward the sun, with all the naturalness of the living woman.\"",
+  "summaryCheck": "ok",
+  "note": "Ewald fears being alone with the 'unconscious Eve' and Edison replies he will be less alone than with her model."
+ },
+ {
+  "stance": "q40-rilke-dolls-wax",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "– Dann schwieg sie, nicht aus �berlegenheit, schwieg, weil das ihre st�ndige Ausrede war, weil sie aus einem nichtsnutzigen, v�llig unzurechnungsf�higen Stoffe bestand, – schwieg und kam nicht einmal auf den Gedanken, sich darauf etwas zugute zu tun, ob es ihr gleich zu gro�er Bedeutung verhelfen mu�te in einer Welt, in der das Schicksal, ja Gott selber, vor allem dadurch ber�hmt geworden sind, da� sie uns anschweigen. Zu einer Zeit, wo noch alle bem�ht waren, uns immer rasch und beschwichtigend zu antworten, war sie, die Puppe, die erste, die uns jenes [1068] �berlebensgro�e Schweigen antat, das uns sp�ter immer wieder aus dem Raume anhauchte, wenn wir irgendwo an die Grenze unseres Daseins traten. Ihr gegen�ber, da sie uns anstarrte, erfuhren wir zuerst (oder irr ich mich?) jenes Hohle im Gef�hl, jene Herzpause, in der einer verginge, wenn ihn dann nicht die ganze, sanft weitergehende Natur, wie ein Lebloses, �ber Abgr�nde hin�berh�be. Sind wir nicht wunderliche Gesch�pfe, da� wir uns gehen und anleiten lassen, unsere erste Neigung dort anzulegen, wo sie aussichtslos bleibt? So da� �berall in den Geschmack jener un�berlegtesten Z�rtlichkeit die Bitternis sich verteilte, da� sie vergeblich war? Wer wei�, ob nicht mancher sp�ter drau�en im Leben aus solchen Erinnerungen den Verdacht nimmt, da� er nicht zu lieben sei?",
+  "translation": "Then she was silent, not out of superiority; silent because that was her standing excuse, because she was made of a worthless, wholly unaccountable stuff; silent, and it did not even occur to her to take any credit for it, although it must have lent her great importance in a world in which fate, indeed God himself, have become famous above all by being silent toward us. At a time when everyone was still anxious to answer us quickly and soothingly, she, the doll, was the first to inflict on us that more-than-life-size silence which later breathed on us again and again out of space whenever we came somewhere to the border of our existence. Facing her, as she stared at us, we first experienced (or am I wrong?) that hollowness in feeling, that pause of the heart in which one would perish if the whole of gently continuing nature did not then lift one, like something lifeless, across abysses. Are we not strange creatures, that we let ourselves go and be led to place our first affection where it remains hopeless? So that into the taste of that most unconsidered tenderness there spread everywhere the bitterness that it was in vain? Who knows whether many a person later, out in life, does not take from such memories the suspicion that he cannot be loved?",
+  "summaryCheck": "ok",
+  "note": "Rilke says the doll answered our love with silence because it was made of worthless stuff, and that this may leave some suspecting they cannot be loved."
+ }
+]

@@ -1,0 +1,3917 @@
+[
+ {
+  "id": "c8d3ea67da",
+  "author": "Luigi Federico Menabrea",
+  "title": "Sketch of the Analytical Engine Invented by Charles Babbage",
+  "original_title": "Notions sur la machine analytique de M. Charles Babbage",
+  "year": 1842,
+  "language": "French",
+  "translation": "Yes: Lovelace's 1843 English translation (Scientific Memoirs 3), transcribed at https://psychclassics.yorku.ca/Lovelace/menabrea.htm",
+  "text_url": "https://archive.org/details/TO01056056",
+  "questions": [
+   "Q01",
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 50424,
+  "file": "canon/texts/c8d3ea67da.txt"
+ },
+ {
+  "id": "bd81e58255",
+  "author": "Augusta Ada King, Countess of Lovelace",
+  "title": "Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
+  "original_title": "",
+  "year": 1843,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://psychclassics.yorku.ca/Lovelace/lovelace.htm",
+  "questions": [
+   "Q01"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 128765,
+  "file": "canon/texts/bd81e58255.txt"
+ },
+ {
+  "id": "9e7b330962",
+  "author": "Samuel Butler (signed 'Cellarius')",
+  "title": "Darwin among the Machines",
+  "original_title": "",
+  "year": 1863,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q01"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "7384d15788",
+  "author": "William Stanley Jevons",
+  "title": "On the Mechanical Performance of Logical Inference",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/philtrans01714956",
+  "questions": [
+   "Q01",
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 66710,
+  "file": "canon/texts/7384d15788.txt"
+ },
+ {
+  "id": "fa6e593586",
+  "author": "Samuel Butler",
+  "title": "Erewhon; or, Over the Range",
+  "original_title": "",
+  "year": 1872,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/1906",
+  "questions": [
+   "Q01",
+   "Q06",
+   "Q25"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 490397,
+  "file": "canon/texts/fa6e593586.txt"
+ },
+ {
+  "id": "2d179495a1",
+  "author": "Douglas R. Hartree",
+  "title": "Calculating Instruments and Machines",
+  "original_title": "",
+  "year": 1949,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q01"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "0bd655aaff",
+  "author": "Alan M. Turing",
+  "title": "Computing Machinery and Intelligence",
+  "original_title": "",
+  "year": 1950,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q01",
+   "Q02",
+   "Q03"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "f3ad81d9c1",
+  "author": "René Descartes",
+  "title": "Discourse on the Method",
+  "original_title": "Discours de la méthode",
+  "year": 1637,
+  "language": "French",
+  "translation": "Yes: John Veitch translation, Project Gutenberg #59",
+  "text_url": "https://www.gutenberg.org/files/59/59-h/59-h.htm",
+  "questions": [
+   "Q02",
+   "Q03",
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 150477,
+  "file": "canon/texts/f3ad81d9c1.txt"
+ },
+ {
+  "id": "847de683cc",
+  "author": "Géraud de Cordemoy",
+  "title": "A Philosophicall Discourse Concerning Speech",
+  "original_title": "Discours physique de la parole",
+  "year": 1668,
+  "language": "French",
+  "translation": "Yes: anonymous English translation, London 1668 (Internet Archive: bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668)",
+  "text_url": "https://archive.org/details/bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668",
+  "questions": [
+   "Q02"
+  ],
+  "link_note": "Internet Archive match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 163298,
+  "file": "canon/texts/847de683cc.txt"
+ },
+ {
+  "id": "12adc3d113",
+  "author": "Julien Offray de La Mettrie",
+  "title": "Man a Machine",
+  "original_title": "L'Homme machine",
+  "year": 1747,
+  "language": "French",
+  "translation": "Yes: Gertrude Carman Bussey translation (Open Court, 1912), Internet Archive manmachine00lame",
+  "text_url": "https://archive.org/details/manmachine00lame",
+  "questions": [
+   "Q02",
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 414445,
+  "file": "canon/texts/12adc3d113.txt"
+ },
+ {
+  "id": "f2fcb7a839",
+  "author": "Villiers de l'Isle-Adam",
+  "title": "Tomorrow's Eve",
+  "original_title": "L'Ève future",
+  "year": 1886,
+  "language": "French",
+  "translation": "No public-domain English translation found (Robert Martin Adams's 1982 translation is in copyright)",
+  "text_url": "https://www.gutenberg.org/ebooks/26681",
+  "questions": [
+   "Q02"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 577822,
+  "file": "canon/texts/f2fcb7a839.txt"
+ },
+ {
+  "id": "3c1ff8df64",
+  "author": "Leonardo Torres Quevedo",
+  "title": "Essays on Automatics",
+  "original_title": "Ensayos sobre automática: su definición, extensión teórica de sus aplicaciones",
+  "year": 1914,
+  "language": "Spanish",
+  "translation": "French version published 1915 in the Revue générale des sciences; no public-domain English translation found",
+  "text_url": "",
+  "questions": [
+   "Q02",
+   "Q03"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "1570672f2f",
+  "author": "Geoffrey Jefferson",
+  "title": "The Mind of Mechanical Man (Lister Oration)",
+  "original_title": "",
+  "year": 1949,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q02"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "e097b968ff",
+  "author": "Edgar Allan Poe",
+  "title": "Maelzel's Chess-Player",
+  "original_title": "",
+  "year": 1836,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/Maelzel%27s_Chess-Player",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 54046,
+  "file": "canon/texts/e097b968ff.txt"
+ },
+ {
+  "id": "af533d2bb9",
+  "author": "Charles Babbage",
+  "title": "Passages from the Life of a Philosopher",
+  "original_title": "",
+  "year": 1864,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/57532",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 893213,
+  "file": "canon/texts/af533d2bb9.txt"
+ },
+ {
+  "id": "c2a3e0ac35",
+  "author": "Arturo Rosenblueth, Norbert Wiener and Julian Bigelow",
+  "title": "Behavior, Purpose and Teleology",
+  "original_title": "",
+  "year": 1943,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q03"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "e5d5bf8f2e",
+  "author": "Nicolas Malebranche",
+  "title": "The Search after Truth",
+  "original_title": "De la recherche de la vérité",
+  "year": 1674,
+  "language": "French",
+  "translation": "Yes: Thomas Taylor translation, 'Father Malebranche his Treatise concerning the Search after Truth' (1694; archive.org copy 1700)",
+  "text_url": "https://archive.org/details/fathermalebranch00male",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 2771360,
+  "file": "canon/texts/e5d5bf8f2e.txt"
+ },
+ {
+  "id": "a32729e2f1",
+  "author": "David Hume",
+  "title": "An Enquiry concerning Human Understanding",
+  "original_title": "",
+  "year": 1748,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+  "questions": [
+   "Q04",
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 373253,
+  "file": "canon/texts/a32729e2f1.txt"
+ },
+ {
+  "id": "47b470a54a",
+  "author": "Maine de Biran",
+  "title": "Essay on the Foundations of Psychology",
+  "original_title": "Essai sur les fondements de la psychologie",
+  "year": 1859,
+  "language": "French",
+  "translation": "No public-domain English translation found",
+  "text_url": "https://archive.org/details/oeuvresindites01main",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 972116,
+  "file": "canon/texts/47b470a54a.txt"
+ },
+ {
+  "id": "2432079a52",
+  "author": "Shadworth H. Hodgson",
+  "title": "The Theory of Practice: An Ethical Enquiry",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/theoryofpractic01hodg",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1219237,
+  "file": "canon/texts/2432079a52.txt"
+ },
+ {
+  "id": "781c2dee90",
+  "author": "Thomas Henry Huxley",
+  "title": "On the Hypothesis that Animals are Automata, and Its History",
+  "original_title": "",
+  "year": 1874,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/a588322700huxluoft",
+  "questions": [
+   "Q04",
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 763422,
+  "file": "canon/texts/781c2dee90.txt"
+ },
+ {
+  "id": "90c055ae8f",
+  "author": "William Kingdon Clifford",
+  "title": "Body and Mind",
+  "original_title": "",
+  "year": 1874,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/lecturesessaysby19012clif",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 552668,
+  "file": "canon/texts/90c055ae8f.txt"
+ },
+ {
+  "id": "63d305a3ab",
+  "author": "William B. Carpenter",
+  "title": "Principles of Mental Physiology",
+  "original_title": "",
+  "year": 1874,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/principlesofment00carprich",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1933634,
+  "file": "canon/texts/63d305a3ab.txt"
+ },
+ {
+  "id": "2d180e3b32",
+  "author": "William James",
+  "title": "The Principles of Psychology",
+  "original_title": "",
+  "year": 1890,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/principlesofpsyc001jame",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1950234,
+  "file": "canon/texts/2d180e3b32.txt"
+ },
+ {
+  "id": "8d9ba0a725",
+  "author": "Paul-Henri Thiry, baron d'Holbach",
+  "title": "The System of Nature",
+  "original_title": "Système de la nature",
+  "year": 1770,
+  "language": "French",
+  "translation": "Yes: H. D. Robinson translation (1868), Project Gutenberg #8909 and archive.org systemofnature00holb",
+  "text_url": "https://www.gutenberg.org/files/8909/8909-h/8909-h.htm",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 750321,
+  "file": "canon/texts/8d9ba0a725.txt"
+ },
+ {
+  "id": "1045f8e3fd",
+  "author": "Ludwig Büchner",
+  "title": "Force and Matter",
+  "original_title": "Kraft und Stoff",
+  "year": 1855,
+  "language": "German",
+  "translation": "Yes: English translation of a later edition, New York: Peter Eckler, 1918 (archive.org forcematterorpri00bc); an earlier translation ed. J. F. Collingwood (1864) is catalogued by Wellcome",
+  "text_url": "https://archive.org/details/forcematterorpri00bc",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1005027,
+  "file": "canon/texts/1045f8e3fd.txt"
+ },
+ {
+  "id": "26fe85013a",
+  "author": "Emil du Bois-Reymond",
+  "title": "The Seven World-Riddles",
+  "original_title": "Die sieben Welträthsel",
+  "year": 1880,
+  "language": "German",
+  "translation": "No public-domain English translation of this lecture found; the companion 1872 lecture 'Über die Grenzen des Naturerkennens' was translated as 'The Limits of our Knowledge of Nature', Popular Science Monthly 5 (May 1874), on Wikisource",
+  "text_url": "https://archive.org/details/ueberdiegrenzend00dubouoft",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 195559,
+  "file": "canon/texts/26fe85013a.txt"
+ },
+ {
+  "id": "11fce5e18f",
+  "author": "Henri Bergson",
+  "title": "Time and Free Will",
+  "original_title": "Essai sur les données immédiates de la conscience",
+  "year": 1889,
+  "language": "French",
+  "translation": "Yes: F. L. Pogson translation (1910), Project Gutenberg #56852 and archive.org timeandfreewilla00berguoft",
+  "text_url": "https://www.gutenberg.org/ebooks/56852",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 418509,
+  "file": "canon/texts/11fce5e18f.txt"
+ },
+ {
+  "id": "6c499736de",
+  "author": "Ernst Haeckel",
+  "title": "The Riddle of the Universe",
+  "original_title": "Die Welträthsel",
+  "year": 1899,
+  "language": "German",
+  "translation": "Yes: Joseph McCabe translation (1900), Project Gutenberg #42968",
+  "text_url": "https://www.gutenberg.org/ebooks/42968",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 715403,
+  "file": "canon/texts/6c499736de.txt"
+ },
+ {
+  "id": "06748e8bd7",
+  "author": "Arthur Stanley Eddington",
+  "title": "The Nature of the Physical World",
+  "original_title": "",
+  "year": 1928,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/natureofphysical00eddi",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 773062,
+  "file": "canon/texts/06748e8bd7.txt"
+ },
+ {
+  "id": "47ca6f36a6",
+  "author": "Thomas Reid",
+  "title": "Essays on the Active Powers of Man",
+  "original_title": "",
+  "year": 1788,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/essaysonactivepo00reid",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1010958,
+  "file": "canon/texts/47ca6f36a6.txt"
+ },
+ {
+  "id": "c4911d9f1a",
+  "author": "Robert Owen",
+  "title": "A New View of Society",
+  "original_title": "",
+  "year": 1813,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://avalon.law.yale.edu/19th_century/ow01.asp",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 20347,
+  "file": "canon/texts/c4911d9f1a.txt"
+ },
+ {
+  "id": "5721d6c6a2",
+  "author": "John Stuart Mill",
+  "title": "A System of Logic, Ratiocinative and Inductive",
+  "original_title": "",
+  "year": 1843,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/A_System_of_Logic,_Ratiocinative_and_Inductive/Book_VI",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 289139,
+  "file": "canon/texts/5721d6c6a2.txt"
+ },
+ {
+  "id": "dea926b59a",
+  "author": "Enrico Ferri",
+  "title": "Criminal Sociology",
+  "original_title": "Sociologia criminale",
+  "year": 1884,
+  "language": "Italian",
+  "translation": "Yes: translated by Joseph I. Kelly and John Lisle (Boston, 1917), archive.org cu31924032584629; partial translation ed. W. D. Morrison (1895/1897)",
+  "text_url": "https://archive.org/details/cu31924032584629",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1898776,
+  "file": "canon/texts/dea926b59a.txt"
+ },
+ {
+  "id": "2b8812dd71",
+  "author": "Clarence Darrow",
+  "title": "Crime: Its Cause and Treatment",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/12027",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 413205,
+  "file": "canon/texts/2b8812dd71.txt"
+ },
+ {
+  "id": "c28ccfa33f",
+  "author": "Xavier Bichat",
+  "title": "Physiological Researches upon Life and Death",
+  "original_title": "Recherches physiologiques sur la vie et la mort",
+  "year": 1800,
+  "language": "French",
+  "translation": "Yes: Tobias Watkins translation (Philadelphia, 1809)",
+  "text_url": "https://archive.org/details/physiologicalre01watkgoog",
+  "questions": [
+   "Q07"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 577220,
+  "file": "canon/texts/c28ccfa33f.txt"
+ },
+ {
+  "id": "e482669800",
+  "author": "Rudolph Hermann Lotze",
+  "title": "Leben. Lebenskraft",
+  "original_title": "",
+  "year": 1842,
+  "language": "German",
+  "translation": "No public-domain English translation found",
+  "text_url": "",
+  "questions": [
+   "Q07"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "aac82c883c",
+  "author": "Francisque Bouillier",
+  "title": "Du principe vital et de l'âme pensante",
+  "original_title": "",
+  "year": 1862,
+  "language": "French",
+  "translation": "No public-domain English translation found",
+  "text_url": "https://archive.org/details/duprincipevital00bouigoog",
+  "questions": [
+   "Q07"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 766052,
+  "file": "canon/texts/aac82c883c.txt"
+ },
+ {
+  "id": "7b306d0929",
+  "author": "Claude Bernard",
+  "title": "Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux",
+  "original_title": "",
+  "year": 1878,
+  "language": "French",
+  "translation": "No public-domain English translation found",
+  "text_url": "https://archive.org/details/b29339121_0001",
+  "questions": [
+   "Q07",
+   "Q08"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 811795,
+  "file": "canon/texts/7b306d0929.txt"
+ },
+ {
+  "id": "9eed929f2b",
+  "author": "Henri Bergson",
+  "title": "Creative Evolution",
+  "original_title": "L'Évolution créatrice",
+  "year": 1907,
+  "language": "French",
+  "translation": "Yes: Arthur Mitchell translation (1911), Project Gutenberg #26163",
+  "text_url": "https://www.gutenberg.org/ebooks/26163",
+  "questions": [
+   "Q07",
+   "Q13",
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 868559,
+  "file": "canon/texts/9eed929f2b.txt"
+ },
+ {
+  "id": "ae4b0028b0",
+  "author": "Hans Driesch",
+  "title": "The Science and Philosophy of the Organism",
+  "original_title": "",
+  "year": 1908,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/sciencephilosoph02drie",
+  "questions": [
+   "Q07",
+   "Q08",
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 662198,
+  "file": "canon/texts/ae4b0028b0.txt"
+ },
+ {
+  "id": "a5830603da",
+  "author": "Jacques Loeb",
+  "title": "The Mechanistic Conception of Life",
+  "original_title": "",
+  "year": 1912,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/themechanisticco00loebuoft",
+  "questions": [
+   "Q07",
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 472179,
+  "file": "canon/texts/a5830603da.txt"
+ },
+ {
+  "id": "6593bbee13",
+  "author": "J. S. Haldane",
+  "title": "Mechanism, Life and Personality",
+  "original_title": "",
+  "year": 1913,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/cu31924029046774",
+  "questions": [
+   "Q07",
+   "Q08",
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 162776,
+  "file": "canon/texts/6593bbee13.txt"
+ },
+ {
+  "id": "9d3b1390e3",
+  "author": "Immanuel Kant",
+  "title": "Critique of Judgement",
+  "original_title": "Kritik der Urteilskraft",
+  "year": 1790,
+  "language": "German",
+  "translation": "Yes: J. H. Bernard translation (1892; 2nd ed. 1914), Project Gutenberg #48433",
+  "text_url": "https://www.gutenberg.org/ebooks/48433",
+  "questions": [
+   "Q08",
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 843858,
+  "file": "canon/texts/9d3b1390e3.txt"
+ },
+ {
+  "id": "17b523e985",
+  "author": "Thomas Hunt Morgan",
+  "title": "Regeneration",
+  "original_title": "",
+  "year": 1901,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/regeneration00morg",
+  "questions": [
+   "Q08"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 946968,
+  "file": "canon/texts/17b523e985.txt"
+ },
+ {
+  "id": "34d0aa84df",
+  "author": "Jacques Loeb",
+  "title": "The Organism as a Whole, from a Physicochemical Viewpoint",
+  "original_title": "",
+  "year": 1916,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/45962",
+  "questions": [
+   "Q08"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 609836,
+  "file": "canon/texts/34d0aa84df.txt"
+ },
+ {
+  "id": "c8a3f4de5b",
+  "author": "René Descartes",
+  "title": "The Description of the Human Body",
+  "original_title": "La Description du corps humain",
+  "year": 1664,
+  "language": "French",
+  "translation": "No public-domain English translation confirmed; modern translation in Cottingham et al., Philosophical Writings of Descartes (Cambridge).",
+  "text_url": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Descartes/%C3%89dition_Adam_et_Tannery/La_Description_du_corps_humain",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 32633,
+  "file": "canon/texts/c8a3f4de5b.txt"
+ },
+ {
+  "id": "3a24f69625",
+  "author": "Caspar Friedrich Wolff",
+  "title": "Theory of Generation",
+  "original_title": "Theoria generationis",
+  "year": 1759,
+  "language": "Latin",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://archive.org/details/theoriagenerati00wolfgoog",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 452283,
+  "file": "canon/texts/3a24f69625.txt"
+ },
+ {
+  "id": "ba527d9007",
+  "author": "Johann Friedrich Blumenbach",
+  "title": "An Essay on Generation",
+  "original_title": "Über den Bildungstrieb",
+  "year": 1789,
+  "language": "German",
+  "translation": "An Essay on Generation, trans. A. Crichton, London 1792: https://archive.org/details/b2144058x",
+  "text_url": "https://archive.org/details/b30794079",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 103210,
+  "file": "canon/texts/ba527d9007.txt"
+ },
+ {
+  "id": "b0bbfcbf9c",
+  "author": "Wilhelm Roux",
+  "title": "Collected Papers on the Developmental Mechanics of Organisms",
+  "original_title": "Gesammelte Abhandlungen über Entwickelungsmechanik der Organismen",
+  "year": 1895,
+  "language": "German",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://archive.org/details/gesammelteabhand01roux",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 2113709,
+  "file": "canon/texts/b0bbfcbf9c.txt"
+ },
+ {
+  "id": "32f654ae22",
+  "author": "Blaise Pascal",
+  "title": "Pensées",
+  "original_title": "Pensées",
+  "year": 1670,
+  "language": "French",
+  "translation": "W. F. Trotter translation, Project Gutenberg #18269.",
+  "text_url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 662903,
+  "file": "canon/texts/32f654ae22.txt"
+ },
+ {
+  "id": "66a924268b",
+  "author": "Étienne Bonnot de Condillac",
+  "title": "The Language of Calculation",
+  "original_title": "La Langue des calculs",
+  "year": 1798,
+  "language": "French",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6532532j",
+  "questions": [
+   "Q10"
+  ],
+  "status": "failed",
+  "error": "ValueError: Gallica blocks scripted download; download by hand or find another copy"
+ },
+ {
+  "id": "159d871c1a",
+  "author": "Gottfried Wilhelm Leibniz",
+  "title": "On the Characteristic Art for Perfecting the Sciences Founded on Reason",
+  "original_title": "De arte characteristica ad perficiendas scientias ratione nitentes",
+  "year": 1890,
+  "language": "Latin",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://archive.org/details/diephilosophisc00gerhgoog",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1555201,
+  "file": "canon/texts/159d871c1a.txt"
+ },
+ {
+  "id": "a728ea3968",
+  "author": "Lewis Carroll",
+  "title": "What the Tortoise Said to Achilles",
+  "original_title": "",
+  "year": 1895,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/What_the_Tortoise_Said_to_Achilles",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 8019,
+  "file": "canon/texts/a728ea3968.txt"
+ },
+ {
+  "id": "9caea3eedb",
+  "author": "David Hilbert",
+  "title": "Mathematical Problems",
+  "original_title": "Mathematische Probleme",
+  "year": 1900,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://de.wikisource.org/wiki/Mathematische_Probleme",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 105561,
+  "file": "canon/texts/9caea3eedb.txt"
+ },
+ {
+  "id": "69bbbca9b8",
+  "author": "Henri Poincaré",
+  "title": "Science and Method",
+  "original_title": "Science et méthode",
+  "year": 1908,
+  "language": "French",
+  "translation": "English translation by Francis Maitland, Science and Method (1914); not checked for a public-domain scan.",
+  "text_url": "https://fr.wikisource.org/wiki/Science_et_m%C3%A9thode",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "wikisource (14 pages)",
+  "chars": 297612,
+  "file": "canon/texts/69bbbca9b8.txt"
+ },
+ {
+  "id": "45de7722e8",
+  "author": "Alan Turing",
+  "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+  "original_title": "",
+  "year": 1936,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q10"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "973a3fc26c",
+  "author": "Aristotle",
+  "title": "Nicomachean Ethics",
+  "original_title": "Ἠθικὰ Νικομάχεια",
+  "year": -340,
+  "language": "Greek",
+  "translation": "W. D. Ross translation (1908); several public-domain versions online.",
+  "text_url": "https://sacred-texts.com/cla/ari/nico/nico053.htm",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 20846,
+  "file": "canon/texts/973a3fc26c.txt"
+ },
+ {
+  "id": "86881641f8",
+  "author": "Montesquieu",
+  "title": "The Spirit of the Laws",
+  "original_title": "De l'esprit des lois",
+  "year": 1748,
+  "language": "French",
+  "translation": "Thomas Nugent's English translation (1750) exists; not checked for a scan.",
+  "text_url": "https://fr.wikisource.org/wiki/Esprit_des_lois_(1777)/L11/C6",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 24741,
+  "file": "canon/texts/86881641f8.txt"
+ },
+ {
+  "id": "c35a4aa1e5",
+  "author": "Cesare Beccaria",
+  "title": "On Crimes and Punishments",
+  "original_title": "Dei delitti e delle pene",
+  "year": 1764,
+  "language": "Italian",
+  "translation": "James Anson Farrer, Crimes and Punishments (1880), Project Gutenberg #58700.",
+  "text_url": "https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "wikisource (50 pages)",
+  "chars": 173445,
+  "file": "canon/texts/c35a4aa1e5.txt"
+ },
+ {
+  "id": "dd56f881d8",
+  "author": "William Blackstone",
+  "title": "Commentaries on the Laws of England",
+  "original_title": "",
+  "year": 1765,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/30802",
+  "questions": [
+   "Q11"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1036160,
+  "file": "canon/texts/dd56f881d8.txt"
+ },
+ {
+  "id": "1a98f09a88",
+  "author": "Rudolf von Jhering",
+  "title": "Jest and Earnest in Jurisprudence",
+  "original_title": "Scherz und Ernst in der Jurisprudenz",
+  "year": 1884,
+  "language": "German",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://archive.org/details/scherzundernsti01jhergoog",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 737825,
+  "file": "canon/texts/1a98f09a88.txt"
+ },
+ {
+  "id": "2d727133c0",
+  "author": "François Gény",
+  "title": "Method of Interpretation and Sources in Private Positive Law",
+  "original_title": "Méthode d'interprétation et sources en droit privé positif",
+  "year": 1899,
+  "language": "French",
+  "translation": "English translation by the Louisiana State Law Institute (1963); not public domain.",
+  "text_url": "https://gallica.bnf.fr/ark:/12148/bpt6k3332127r.texteImage",
+  "questions": [
+   "Q11"
+  ],
+  "status": "failed",
+  "error": "ValueError: Gallica blocks scripted download; download by hand or find another copy"
+ },
+ {
+  "id": "84d922bbd5",
+  "author": "Gnaeus Flavius (Hermann Kantorowicz)",
+  "title": "The Battle for Legal Science",
+  "original_title": "Der Kampf um die Rechtswissenschaft",
+  "year": 1906,
+  "language": "German",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://sammlungen.ub.uni-frankfurt.de/varia/content/titleinfo/10936094",
+  "questions": [
+   "Q11"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 186,
+  "file": "canon/texts/84d922bbd5.txt"
+ },
+ {
+  "id": "c7595705d7",
+  "author": "Roscoe Pound",
+  "title": "Mechanical Jurisprudence",
+  "original_title": "",
+  "year": 1908,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/jstor-1108954",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 55245,
+  "file": "canon/texts/c7595705d7.txt"
+ },
+ {
+  "id": "c8063a4224",
+  "author": "Huang Zongxi",
+  "title": "Waiting for the Dawn",
+  "original_title": "明夷待訪錄",
+  "year": 1663,
+  "language": "Chinese",
+  "translation": "No public-domain English translation; W. T. de Bary, Waiting for the Dawn (1993).",
+  "text_url": "https://www.gutenberg.org/ebooks/23855",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 44192,
+  "file": "canon/texts/c8063a4224.txt"
+ },
+ {
+  "id": "a70d2d26cd",
+  "author": "Stafford Northcote and Charles Trevelyan",
+  "title": "Report on the Organisation of the Permanent Civil Service",
+  "original_title": "",
+  "year": 1854,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q12"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "568d2638f7",
+  "author": "Anthony Trollope",
+  "title": "The Three Clerks",
+  "original_title": "",
+  "year": 1857,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/7481",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1218881,
+  "file": "canon/texts/568d2638f7.txt"
+ },
+ {
+  "id": "64e9a3ae9b",
+  "author": "Francis Galton",
+  "title": "Hereditary Genius",
+  "original_title": "",
+  "year": 1869,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://galton.org/books/hereditary-genius/text/pdf/genius.pdf",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 785910,
+  "file": "canon/texts/64e9a3ae9b.txt"
+ },
+ {
+  "id": "fd0466e0a0",
+  "author": "Alfred Binet",
+  "title": "Modern Ideas About Children",
+  "original_title": "Les idées modernes sur les enfants",
+  "year": 1909,
+  "language": "French",
+  "translation": "English translation Modern Ideas About Children (1975); not public domain.",
+  "text_url": "https://archive.org/details/lesidesmoderne00bine",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 759058,
+  "file": "canon/texts/fd0466e0a0.txt"
+ },
+ {
+  "id": "3f9111ee7a",
+  "author": "Hugo Münsterberg",
+  "title": "Psychology and Industrial Efficiency",
+  "original_title": "",
+  "year": 1913,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/files/15154/15154-h/15154-h.htm",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 417621,
+  "file": "canon/texts/3f9111ee7a.txt"
+ },
+ {
+  "id": "9e56d88294",
+  "author": "Lewis M. Terman",
+  "title": "The Measurement of Intelligence",
+  "original_title": "",
+  "year": 1916,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/20662",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 715552,
+  "file": "canon/texts/9e56d88294.txt"
+ },
+ {
+  "id": "92acd48c58",
+  "author": "Walter Lippmann",
+  "title": "The Mental Age of Americans",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q12"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "4740ec1f16",
+  "author": "Samuel Butler (as 'Cellarius')",
+  "title": "Darwin among the Machines",
+  "original_title": "",
+  "year": 1863,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/3279",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 105869,
+  "file": "canon/texts/4740ec1f16.txt"
+ },
+ {
+  "id": "d9779aabc8",
+  "author": "Samuel Butler",
+  "title": "Lucubratio Ebria",
+  "original_title": "",
+  "year": 1865,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q13"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "1a413ec27f",
+  "author": "Karl Marx",
+  "title": "Capital, Volume I",
+  "original_title": "Das Kapital, Band I",
+  "year": 1867,
+  "language": "German",
+  "translation": "Moore and Aveling translation, ed. Engels (1887).",
+  "text_url": "https://archive.org/details/capitalcritique00marx",
+  "questions": [
+   "Q13",
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 647276,
+  "file": "canon/texts/1a413ec27f.txt"
+ },
+ {
+  "id": "5dd0f3239f",
+  "author": "Samuel Butler",
+  "title": "Erewhon",
+  "original_title": "",
+  "year": 1872,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/1906",
+  "questions": [
+   "Q13",
+   "Q14",
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 490397,
+  "file": "canon/texts/5dd0f3239f.txt"
+ },
+ {
+  "id": "64a0d04476",
+  "author": "Augustus Lane Fox Pitt-Rivers",
+  "title": "On the Evolution of Culture",
+  "original_title": "",
+  "year": 1875,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/44844",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 635258,
+  "file": "canon/texts/64a0d04476.txt"
+ },
+ {
+  "id": "be2f99bcbb",
+  "author": "Ernst Kapp",
+  "title": "Outlines of a Philosophy of Technology",
+  "original_title": "Grundlinien einer Philosophie der Technik",
+  "year": 1877,
+  "language": "German",
+  "translation": "English translation Elements of a Philosophy of Technology (2018); not public domain.",
+  "text_url": "https://archive.org/details/grundlinieneine00kappgoog",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 579777,
+  "file": "canon/texts/be2f99bcbb.txt"
+ },
+ {
+  "id": "6fa6f6286b",
+  "author": "George Eliot",
+  "title": "Impressions of Theophrastus Such",
+  "original_title": "",
+  "year": 1879,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/impressionsofthe00elio_3",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 362960,
+  "file": "canon/texts/6fa6f6286b.txt"
+ },
+ {
+  "id": "b12d1c8e62",
+  "author": "Aristotle",
+  "title": "Politics",
+  "original_title": "Πολιτικά",
+  "year": -330,
+  "language": "Greek",
+  "translation": "William Ellis translation, Project Gutenberg #6762.",
+  "text_url": "https://www.gutenberg.org/ebooks/6762",
+  "questions": [
+   "Q14",
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 604310,
+  "file": "canon/texts/b12d1c8e62.txt"
+ },
+ {
+  "id": "7030f6e3be",
+  "author": "Thomas Carlyle",
+  "title": "Signs of the Times",
+  "original_title": "",
+  "year": 1829,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/carlyle-signs-of-the-times-1829",
+  "questions": [
+   "Q14",
+   "Q31",
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 71771,
+  "file": "canon/texts/7030f6e3be.txt"
+ },
+ {
+  "id": "0007b322da",
+  "author": "Paul Lafargue",
+  "title": "The Right to Be Lazy",
+  "original_title": "Le Droit à la paresse",
+  "year": 1883,
+  "language": "French",
+  "translation": "Charles H. Kerr translation, Project Gutenberg #52984 (English).",
+  "text_url": "https://www.gutenberg.org/ebooks/52984",
+  "questions": [
+   "Q14",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 229178,
+  "file": "canon/texts/0007b322da.txt"
+ },
+ {
+  "id": "b36cfe7e3a",
+  "author": "Oscar Wilde",
+  "title": "The Soul of Man under Socialism",
+  "original_title": "",
+  "year": 1891,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/1017",
+  "questions": [
+   "Q14",
+   "Q25"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 103146,
+  "file": "canon/texts/b36cfe7e3a.txt"
+ },
+ {
+  "id": "6c5f96783e",
+  "author": "E. M. Forster",
+  "title": "The Machine Stops",
+  "original_title": "",
+  "year": 1909,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/72890",
+  "questions": [
+   "Q14",
+   "Q25",
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 233509,
+  "file": "canon/texts/6c5f96783e.txt"
+ },
+ {
+  "id": "ee43c947e1",
+  "author": "Karel Čapek",
+  "title": "R.U.R. (Rossum's Universal Robots)",
+  "original_title": "R.U.R. (Rossumovi Univerzální Roboti)",
+  "year": 1920,
+  "language": "Czech",
+  "translation": "Paul Selver and Nigel Playfair translation (1923), Project Gutenberg #59112; Czech original Gutenberg #13083.",
+  "text_url": "https://www.gutenberg.org/ebooks/59112",
+  "questions": [
+   "Q14",
+   "Q28",
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 153165,
+  "file": "canon/texts/ee43c947e1.txt"
+ },
+ {
+  "id": "d1a1fee4e0",
+  "author": "René Descartes",
+  "title": "Discourse on Method",
+  "original_title": "Discours de la méthode",
+  "year": 1637,
+  "language": "French",
+  "translation": "John Veitch translation, Project Gutenberg #59; French original Gutenberg #13846.",
+  "text_url": "https://www.gutenberg.org/ebooks/59",
+  "questions": [
+   "Q15",
+   "Q40"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 150477,
+  "file": "canon/texts/d1a1fee4e0.txt"
+ },
+ {
+  "id": "12e03a174d",
+  "author": "Jonathan Swift",
+  "title": "Gulliver's Travels",
+  "original_title": "",
+  "year": 1726,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/829",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 611781,
+  "file": "canon/texts/12e03a174d.txt"
+ },
+ {
+  "id": "03cc5ec23c",
+  "author": "William Godwin",
+  "title": "Enquiry Concerning Political Justice",
+  "original_title": "",
+  "year": 1793,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/enquiryconcernin01godw",
+  "questions": [
+   "Q15"
+  ],
+  "link_note": "Internet Archive match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 695877,
+  "file": "canon/texts/03cc5ec23c.txt"
+ },
+ {
+  "id": "b1ad0d68e3",
+  "author": "Condorcet",
+  "title": "Outlines of an Historical View of the Progress of the Human Mind",
+  "original_title": "Esquisse d'un tableau historique des progrès de l'esprit humain",
+  "year": 1795,
+  "language": "French",
+  "translation": "Anonymous English translation, London: J. Johnson 1795 (Internet Archive).",
+  "text_url": "https://archive.org/details/outlinesofhistor00cond_0",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 492070,
+  "file": "canon/texts/b1ad0d68e3.txt"
+ },
+ {
+  "id": "4d8f4d5cbf",
+  "author": "Thomas Robert Malthus",
+  "title": "An Essay on the Principle of Population",
+  "original_title": "",
+  "year": 1798,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/4239",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 344315,
+  "file": "canon/texts/4d8f4d5cbf.txt"
+ },
+ {
+  "id": "9320a5d332",
+  "author": "Nikolai Fedorov",
+  "title": "The Philosophy of the Common Task",
+  "original_title": "Философия общего дела",
+  "year": 1906,
+  "language": "Russian",
+  "translation": "No public-domain English translation; selected works in What Was Man Created For? (1990).",
+  "text_url": "https://rusneb.ru/catalog/000199_000009_003527070/",
+  "questions": [
+   "Q15"
+  ],
+  "status": "failed",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "id": "bd31de2548",
+  "author": "Élie Metchnikoff",
+  "title": "The Prolongation of Life: Optimistic Studies",
+  "original_title": "Essais optimistes",
+  "year": 1907,
+  "language": "French",
+  "translation": "P. Chalmers Mitchell English edition (1907), Project Gutenberg #51521.",
+  "text_url": "https://www.gutenberg.org/ebooks/51521",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 628631,
+  "file": "canon/texts/bd31de2548.txt"
+ },
+ {
+  "id": "eca1537116",
+  "author": "Karel Čapek",
+  "title": "The Makropulos Affair",
+  "original_title": "Věc Makropulos",
+  "year": 1922,
+  "language": "Czech",
+  "translation": "No public-domain English translation confirmed.",
+  "text_url": "",
+  "questions": [
+   "Q15"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "49fa3db8bf",
+  "author": "John Locke",
+  "title": "An Essay Concerning Human Understanding",
+  "original_title": "",
+  "year": 1694,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/10615",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 868225,
+  "file": "canon/texts/49fa3db8bf.txt"
+ },
+ {
+  "id": "9e75f96ece",
+  "author": "David Hume",
+  "title": "A Treatise of Human Nature",
+  "original_title": "",
+  "year": 1739,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/4705",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1365417,
+  "file": "canon/texts/9e75f96ece.txt"
+ },
+ {
+  "id": "d4fd2a22b7",
+  "author": "Thomas Reid",
+  "title": "Essays on the Intellectual Powers of Man",
+  "original_title": "",
+  "year": 1785,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/essaysonintellec04reid",
+  "questions": [
+   "Q16"
+  ],
+  "link_note": "Internet Archive match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1329560,
+  "file": "canon/texts/d4fd2a22b7.txt"
+ },
+ {
+  "id": "6c0afbac96",
+  "author": "Edgar Allan Poe",
+  "title": "The Man That Was Used Up",
+  "original_title": "",
+  "year": 1839,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.eapoe.org/works/tales/mnusda.htm",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 24320,
+  "file": "canon/texts/6c0afbac96.txt"
+ },
+ {
+  "id": "d52dd8758f",
+  "author": "L. Frank Baum",
+  "title": "The Tin Woodman of Oz",
+  "original_title": "",
+  "year": 1918,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/files/30852/30852-h/30852-h.htm",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 269262,
+  "file": "canon/texts/d52dd8758f.txt"
+ },
+ {
+  "id": "a8eb31729e",
+  "author": "Alexander Belyaev",
+  "title": "Professor Dowell's Head",
+  "original_title": "Голова профессора Доуэля",
+  "year": 1925,
+  "language": "Russian",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://ru.wikisource.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0_%D0%94%D0%BE%D1%83%D1%8D%D0%BB%D1%8F_(%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2)/1925_(%D0%A1%D0%9E)",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "wikisource (2 pages)",
+  "chars": 329490,
+  "file": "canon/texts/a8eb31729e.txt"
+ },
+ {
+  "id": "93f166ac76",
+  "author": "J. D. Bernal",
+  "title": "The World, the Flesh and the Devil",
+  "original_title": "",
+  "year": 1929,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/in.ernet.dli.2015.171486",
+  "questions": [
+   "Q16"
+  ],
+  "link_note": "Internet Archive match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 145629,
+  "file": "canon/texts/93f166ac76.txt"
+ },
+ {
+  "id": "2478db7b4b",
+  "author": "Neil R. Jones",
+  "title": "The Jameson Satellite",
+  "original_title": "",
+  "year": 1931,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/26906",
+  "questions": [
+   "Q16"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 71895,
+  "file": "canon/texts/2478db7b4b.txt"
+ },
+ {
+  "id": "823de56687",
+  "author": "J.-C.-L. Simonde de Sismondi",
+  "title": "New Principles of Political Economy",
+  "original_title": "Nouveaux principes d'économie politique",
+  "year": 1819,
+  "language": "French",
+  "translation": "No public-domain English translation found",
+  "text_url": "https://archive.org/details/nouveauxprincipe02sismuoft",
+  "questions": [
+   "Q17",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 802044,
+  "file": "canon/texts/823de56687.txt"
+ },
+ {
+  "id": "38ce9afffa",
+  "author": "David Ricardo",
+  "title": "On the Principles of Political Economy and Taxation (3rd ed.)",
+  "original_title": "",
+  "year": 1821,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/33310",
+  "questions": [
+   "Q17"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 714355,
+  "file": "canon/texts/38ce9afffa.txt"
+ },
+ {
+  "id": "9c6f1a8103",
+  "author": "Charles Babbage",
+  "title": "On the Economy of Machinery and Manufactures",
+  "original_title": "",
+  "year": 1832,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/4238",
+  "questions": [
+   "Q17",
+   "Q24",
+   "Q25",
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 645282,
+  "file": "canon/texts/9c6f1a8103.txt"
+ },
+ {
+  "id": "81e13ceb16",
+  "author": "Andrew Ure",
+  "title": "The Philosophy of Manufactures",
+  "original_title": "",
+  "year": 1835,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/philosophymanuf00uregoog",
+  "questions": [
+   "Q17",
+   "Q18",
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 917993,
+  "file": "canon/texts/81e13ceb16.txt"
+ },
+ {
+  "id": "89616175ee",
+  "author": "Frédéric Bastiat",
+  "title": "Economic Sophisms",
+  "original_title": "Sophismes économiques",
+  "year": 1845,
+  "language": "French",
+  "translation": "Patrick James Stirling translation, Gutenberg #44145",
+  "text_url": "https://www.gutenberg.org/ebooks/44145",
+  "questions": [
+   "Q17",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 517617,
+  "file": "canon/texts/89616175ee.txt"
+ },
+ {
+  "id": "2c0a77dbad",
+  "author": "John Stuart Mill",
+  "title": "Principles of Political Economy",
+  "original_title": "",
+  "year": 1848,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/Principles_of_Political_Economy_(J.S._Mill,_1871),_vol._2/Book_IV,_Chapter_VI",
+  "questions": [
+   "Q17",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 13741,
+  "file": "canon/texts/2c0a77dbad.txt"
+ },
+ {
+  "id": "3be7359297",
+  "author": "Henry George",
+  "title": "Progress and Poverty",
+  "original_title": "",
+  "year": 1879,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/55308",
+  "questions": [
+   "Q17",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1073525,
+  "file": "canon/texts/3be7359297.txt"
+ },
+ {
+  "id": "49d515252c",
+  "author": "M. K. Gandhi",
+  "title": "Hind Swaraj (Indian Home Rule)",
+  "original_title": "Hind Swaraj",
+  "year": 1909,
+  "language": "Gujarati",
+  "translation": "Gandhi's own English version, Indian Home Rule (1910); 1919 ed. on Internet Archive",
+  "text_url": "https://www.gutenberg.org/ebooks/40461",
+  "questions": [
+   "Q17"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 189773,
+  "file": "canon/texts/49d515252c.txt"
+ },
+ {
+  "id": "ab0a41fed8",
+  "author": "Adam Smith",
+  "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+  "original_title": "",
+  "year": 1776,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/3300",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 2467652,
+  "file": "canon/texts/ab0a41fed8.txt"
+ },
+ {
+  "id": "72539ff9fe",
+  "author": "Alexis de Tocqueville",
+  "title": "Democracy in America, vol. 2",
+  "original_title": "De la démocratie en Amérique",
+  "year": 1840,
+  "language": "French",
+  "translation": "Henry Reeve translation, Gutenberg #816",
+  "text_url": "https://www.gutenberg.org/ebooks/816",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 866126,
+  "file": "canon/texts/72539ff9fe.txt"
+ },
+ {
+  "id": "21c36bcf5e",
+  "author": "John Ruskin",
+  "title": "The Stones of Venice, vol. 2",
+  "original_title": "",
+  "year": 1853,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/30755",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 888714,
+  "file": "canon/texts/21c36bcf5e.txt"
+ },
+ {
+  "id": "06e7fb14eb",
+  "author": "Karl Marx",
+  "title": "Capital, vol. 1",
+  "original_title": "Das Kapital",
+  "year": 1867,
+  "language": "German",
+  "translation": "Moore and Aveling translation (1887); 1904 printing on Internet Archive",
+  "text_url": "https://archive.org/details/capital00marxuoft",
+  "questions": [
+   "Q18",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 2100079,
+  "file": "canon/texts/06e7fb14eb.txt"
+ },
+ {
+  "id": "4020b94a3d",
+  "author": "Thorstein Veblen",
+  "title": "The Theory of Business Enterprise",
+  "original_title": "",
+  "year": 1904,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/theorybusinesse04veblgoog",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 638792,
+  "file": "canon/texts/4020b94a3d.txt"
+ },
+ {
+  "id": "8c813d6bf5",
+  "author": "Frederick Winslow Taylor",
+  "title": "The Principles of Scientific Management",
+  "original_title": "",
+  "year": 1911,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/6435",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 230945,
+  "file": "canon/texts/8c813d6bf5.txt"
+ },
+ {
+  "id": "158b329155",
+  "author": "Henry Ford",
+  "title": "My Life and Work",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/7213",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 551016,
+  "file": "canon/texts/158b329155.txt"
+ },
+ {
+  "id": "be74b43633",
+  "author": "Edward Bellamy",
+  "title": "Looking Backward, 2000–1887",
+  "original_title": "",
+  "year": 1888,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/624",
+  "questions": [
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 466960,
+  "file": "canon/texts/be74b43633.txt"
+ },
+ {
+  "id": "1e6e3e4331",
+  "author": "Peter Kropotkin",
+  "title": "The Conquest of Bread",
+  "original_title": "La Conquête du pain",
+  "year": 1892,
+  "language": "French",
+  "translation": "English translation, Gutenberg #23428",
+  "text_url": "https://www.gutenberg.org/ebooks/23428",
+  "questions": [
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 459001,
+  "file": "canon/texts/1e6e3e4331.txt"
+ },
+ {
+  "id": "b26c5dc30a",
+  "author": "Jean-Jacques Rousseau",
+  "title": "Emile",
+  "original_title": "Émile, ou De l'éducation",
+  "year": 1762,
+  "language": "French",
+  "translation": "Barbara Foxley translation, Gutenberg #5427",
+  "text_url": "https://www.gutenberg.org/ebooks/5427",
+  "questions": [
+   "Q20",
+   "Q22",
+   "Q24"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1411099,
+  "file": "canon/texts/b26c5dc30a.txt"
+ },
+ {
+  "id": "451749976f",
+  "author": "Immanuel Kant",
+  "title": "Anthropology from a Pragmatic Point of View",
+  "original_title": "Anthropologie in pragmatischer Hinsicht",
+  "year": 1798,
+  "language": "German",
+  "translation": "No public-domain English translation confirmed",
+  "text_url": "https://korpora.org/Kant/aa07/149.html",
+  "questions": [
+   "Q20"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 2813,
+  "file": "canon/texts/451749976f.txt"
+ },
+ {
+  "id": "509a46bf0d",
+  "author": "G. W. F. Hegel",
+  "title": "Encyclopaedia of the Philosophical Sciences, Part III (Philosophy of Mind)",
+  "original_title": "Enzyklopädie der philosophischen Wissenschaften",
+  "year": 1830,
+  "language": "German",
+  "translation": "William Wallace, Hegel's Philosophy of Mind (1894), Gutenberg #39064",
+  "text_url": "https://www.gutenberg.org/ebooks/39064",
+  "questions": [
+   "Q20"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 737729,
+  "file": "canon/texts/509a46bf0d.txt"
+ },
+ {
+  "id": "92ba63e63e",
+  "author": "William James",
+  "title": "The Principles of Psychology, vol. 1",
+  "original_title": "",
+  "year": 1890,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/57628",
+  "questions": [
+   "Q20"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1697427,
+  "file": "canon/texts/92ba63e63e.txt"
+ },
+ {
+  "id": "108c2c6cbc",
+  "author": "John Dewey",
+  "title": "Human Nature and Conduct",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/41386",
+  "questions": [
+   "Q20"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 543054,
+  "file": "canon/texts/108c2c6cbc.txt"
+ },
+ {
+  "id": "1e60b4dd5b",
+  "author": "Ignatius of Loyola",
+  "title": "Letter on Perfect Obedience (to the Jesuits of Portugal)",
+  "original_title": "Carta de la obediencia",
+  "year": 1553,
+  "language": "Spanish",
+  "translation": "English translations exist; none opened",
+  "text_url": "https://archive.org/details/DeObedienciaPerfecta",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 28118,
+  "file": "canon/texts/1e60b4dd5b.txt"
+ },
+ {
+  "id": "fba9b0916b",
+  "author": "Immanuel Kant",
+  "title": "An Answer to the Question: What Is Enlightenment?",
+  "original_title": "Beantwortung der Frage: Was ist Aufklärung?",
+  "year": 1784,
+  "language": "German",
+  "translation": "No public-domain English translation confirmed",
+  "text_url": "https://de.wikisource.org/wiki/Beantwortung_der_Frage:_Was_ist_Aufkl%C3%A4rung%3F",
+  "questions": [
+   "Q21",
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 18236,
+  "file": "canon/texts/fba9b0916b.txt"
+ },
+ {
+  "id": "3837fbaf8f",
+  "author": "Mary Wollstonecraft",
+  "title": "A Vindication of the Rights of Woman",
+  "original_title": "",
+  "year": 1792,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/3420",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 538121,
+  "file": "canon/texts/3837fbaf8f.txt"
+ },
+ {
+  "id": "8043ed7c2f",
+  "author": "Immanuel Kant",
+  "title": "Kant on Education",
+  "original_title": "Über Pädagogik",
+  "year": 1803,
+  "language": "German",
+  "translation": "Annette Churton translation (1899)",
+  "text_url": "https://archive.org/details/kantoneducationu00kantuoft",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 198140,
+  "file": "canon/texts/8043ed7c2f.txt"
+ },
+ {
+  "id": "8dfdb4d827",
+  "author": "Henry David Thoreau",
+  "title": "Resistance to Civil Government (On the Duty of Civil Disobedience)",
+  "original_title": "",
+  "year": 1849,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/71",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 71897,
+  "file": "canon/texts/8dfdb4d827.txt"
+ },
+ {
+  "id": "185cee52f0",
+  "author": "John Stuart Mill",
+  "title": "On Liberty",
+  "original_title": "",
+  "year": 1859,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/34901",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 331055,
+  "file": "canon/texts/185cee52f0.txt"
+ },
+ {
+  "id": "750f163912",
+  "author": "Leo Tolstoy",
+  "title": "The Kingdom of God Is Within You",
+  "original_title": "Царство Божие внутри вас",
+  "year": 1894,
+  "language": "Russian",
+  "translation": "Constance Garnett translation (1894), Gutenberg #43302",
+  "text_url": "https://www.gutenberg.org/ebooks/43302",
+  "questions": [
+   "Q21",
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 753073,
+  "file": "canon/texts/750f163912.txt"
+ },
+ {
+  "id": "7f2835506d",
+  "author": "Benjamin Franklin",
+  "title": "Autobiography",
+  "original_title": "",
+  "year": 1791,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/20203",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 467311,
+  "file": "canon/texts/7f2835506d.txt"
+ },
+ {
+  "id": "91985a6c41",
+  "author": "Charles Dickens",
+  "title": "Hard Times",
+  "original_title": "",
+  "year": 1854,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/786",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 610813,
+  "file": "canon/texts/91985a6c41.txt"
+ },
+ {
+  "id": "bbbea79bcd",
+  "author": "Fyodor Dostoevsky",
+  "title": "Notes from Underground",
+  "original_title": "Записки из подполья",
+  "year": 1864,
+  "language": "Russian",
+  "translation": "Constance Garnett translation, Gutenberg #600",
+  "text_url": "https://www.gutenberg.org/ebooks/600",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 263935,
+  "file": "canon/texts/bbbea79bcd.txt"
+ },
+ {
+  "id": "c2bd1deb00",
+  "author": "Arnold Bennett",
+  "title": "How to Live on 24 Hours a Day",
+  "original_title": "",
+  "year": 1908,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/2274",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 92826,
+  "file": "canon/texts/c2bd1deb00.txt"
+ },
+ {
+  "id": "88866dd1ee",
+  "author": "Yevgeny Zamyatin",
+  "title": "We",
+  "original_title": "Мы",
+  "year": 1924,
+  "language": "Russian",
+  "translation": "Gregory Zilboorg translation (1924), Gutenberg #61963",
+  "text_url": "https://www.gutenberg.org/ebooks/61963",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 388241,
+  "file": "canon/texts/88866dd1ee.txt"
+ },
+ {
+  "id": "7231742a28",
+  "author": "Plato",
+  "title": "Phaedrus",
+  "original_title": "",
+  "year": 0,
+  "language": "Greek",
+  "translation": "Benjamin Jowett translation, Gutenberg #1636",
+  "text_url": "https://www.gutenberg.org/ebooks/1636",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 235258,
+  "file": "canon/texts/7231742a28.txt"
+ },
+ {
+  "id": "92ad4a4c4e",
+  "author": "John Locke",
+  "title": "A New Method of Making Common-Place-Books",
+  "original_title": "",
+  "year": 1706,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/gu_newmethodmaki00lock",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 80644,
+  "file": "canon/texts/92ad4a4c4e.txt"
+ },
+ {
+  "id": "74892e610d",
+  "author": "Isaac Watts",
+  "title": "The Improvement of the Mind",
+  "original_title": "",
+  "year": 1741,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/suppimproveofmin00wattuoft",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 586042,
+  "file": "canon/texts/74892e610d.txt"
+ },
+ {
+  "id": "28158bb671",
+  "author": "Samuel Johnson",
+  "title": "The Idler, No. 74",
+  "original_title": "",
+  "year": 1759,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/12050",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 938076,
+  "file": "canon/texts/28158bb671.txt"
+ },
+ {
+  "id": "499bfeb593",
+  "author": "Victor Hugo",
+  "title": "Notre-Dame de Paris",
+  "original_title": "Notre-Dame de Paris",
+  "year": 1832,
+  "language": "French",
+  "translation": "English translation, Gutenberg #2610",
+  "text_url": "https://www.gutenberg.org/ebooks/2610",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1212887,
+  "file": "canon/texts/499bfeb593.txt"
+ },
+ {
+  "id": "e63772d895",
+  "author": "F. Max Müller",
+  "title": "India: What Can It Teach Us?",
+  "original_title": "",
+  "year": 1883,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/20847",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 549965,
+  "file": "canon/texts/e63772d895.txt"
+ },
+ {
+  "id": "71e9471113",
+  "author": "John Napier",
+  "title": "Mirifici Logarithmorum Canonis Descriptio",
+  "original_title": "",
+  "year": 1614,
+  "language": "Latin",
+  "translation": "Edward Wright, A Description of the Admirable Table of Logarithmes (1616)",
+  "text_url": "https://archive.org/details/bim_early-english-books-1475-1640_mirifici-logarithmorum-c_napier-john_1614_0",
+  "questions": [
+   "Q24"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 262053,
+  "file": "canon/texts/71e9471113.txt"
+ },
+ {
+  "id": "70167f6fc3",
+  "author": "Blaise Pascal",
+  "title": "Avis nécessaire à ceux qui auront curiosité de voir la machine d'arithmétique",
+  "original_title": "",
+  "year": 1645,
+  "language": "French",
+  "translation": "No public-domain English translation confirmed",
+  "text_url": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_D%C3%A9dicatoire_de_la_Machine_Arithm%C3%A9tique_et_Avis_n%C3%A9cessaire/Avis",
+  "questions": [
+   "Q24"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 18836,
+  "file": "canon/texts/70167f6fc3.txt"
+ },
+ {
+  "id": "60d3dd5092",
+  "author": "Gottfried Wilhelm Leibniz",
+  "title": "Description of his calculating machine",
+  "original_title": "",
+  "year": 1671,
+  "language": "Latin",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q24"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "121b3b864d",
+  "author": "Ralph Waldo Emerson",
+  "title": "Self-Reliance",
+  "original_title": "",
+  "year": 1841,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/2944",
+  "questions": [
+   "Q24",
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 438000,
+  "file": "canon/texts/121b3b864d.txt"
+ },
+ {
+  "id": "4f120c88d4",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "original_title": "",
+  "year": 1854,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/205",
+  "questions": [
+   "Q25",
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 664802,
+  "file": "canon/texts/4f120c88d4.txt"
+ },
+ {
+  "id": "fc0260ff3a",
+  "author": "Peter Kropotkin",
+  "title": "Fields, Factories and Workshops",
+  "original_title": "",
+  "year": 1899,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/64353",
+  "questions": [
+   "Q25"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 692621,
+  "file": "canon/texts/fc0260ff3a.txt"
+ },
+ {
+  "id": "a8a22bd149",
+  "author": "M. K. Gandhi",
+  "title": "Hind Swaraj, or Indian Home Rule",
+  "original_title": "Hind Swaraj",
+  "year": 1909,
+  "language": "Gujarati",
+  "translation": "Gandhi's own English translation, Indian Home Rule (1910); 1921 Madras edition on Internet Archive",
+  "text_url": "https://archive.org/details/hindswarajorindi00ganduoft",
+  "questions": [
+   "Q25",
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 213671,
+  "file": "canon/texts/a8a22bd149.txt"
+ },
+ {
+  "id": "b9efed770b",
+  "author": "Mary Shelley",
+  "title": "Frankenstein; or, The Modern Prometheus",
+  "original_title": "",
+  "year": 1818,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/84",
+  "questions": [
+   "Q26",
+   "Q28",
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 446582,
+  "file": "canon/texts/b9efed770b.txt"
+ },
+ {
+  "id": "e4af9fc876",
+  "author": "H. G. Wells",
+  "title": "The World Set Free",
+  "original_title": "",
+  "year": 1914,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/1059",
+  "questions": [
+   "Q26"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 402945,
+  "file": "canon/texts/e4af9fc876.txt"
+ },
+ {
+  "id": "cac058dc6a",
+  "author": "Karel Čapek",
+  "title": "Krakatit",
+  "original_title": "Krakatit",
+  "year": 1924,
+  "language": "Czech",
+  "translation": "Lawrence Hyde, Krakatit (1925); Gutenberg #79127",
+  "text_url": "https://www.gutenberg.org/ebooks/79127",
+  "questions": [
+   "Q26"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 598002,
+  "file": "canon/texts/cac058dc6a.txt"
+ },
+ {
+  "id": "3841de0061",
+  "author": "Bertrand Russell",
+  "title": "Icarus, or the Future of Science",
+  "original_title": "",
+  "year": 1924,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/icarusorfutureof00russ",
+  "questions": [
+   "Q26"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 52608,
+  "file": "canon/texts/3841de0061.txt"
+ },
+ {
+  "id": "b08d2660a1",
+  "author": "J. B. S. Haldane",
+  "title": "Daedalus, or Science and the Future",
+  "original_title": "",
+  "year": 1924,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/daedalus_or_science_and_the_future",
+  "questions": [
+   "Q26",
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 73847,
+  "file": "canon/texts/b08d2660a1.txt"
+ },
+ {
+  "id": "256cfffc17",
+  "author": "Norbert Wiener",
+  "title": "A Scientist Rebels",
+  "original_title": "",
+  "year": 1947,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q26"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "384e8bdf59",
+  "author": "Francis Bacon",
+  "title": "New Atlantis",
+  "original_title": "",
+  "year": 1627,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/2434",
+  "questions": [
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 107592,
+  "file": "canon/texts/384e8bdf59.txt"
+ },
+ {
+  "id": "15d4546666",
+  "author": "Samuel Butler",
+  "title": "Darwin among the Machines",
+  "original_title": "",
+  "year": 1863,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/firstyearincante00butliala",
+  "questions": [
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 520297,
+  "file": "canon/texts/15d4546666.txt"
+ },
+ {
+  "id": "fea007d28a",
+  "author": "Zhuangzi",
+  "title": "Zhuangzi (Chuang Tzu), 'Heaven and Earth'",
+  "original_title": "莊子 · 天地",
+  "year": 1889,
+  "language": "Classical Chinese",
+  "translation": "Herbert A. Giles, Chuang Tzŭ: Mystic, Moralist, and Social Reformer (1889); Gutenberg #59709",
+  "text_url": "https://www.gutenberg.org/ebooks/59709",
+  "questions": [
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 683107,
+  "file": "canon/texts/fea007d28a.txt"
+ },
+ {
+  "id": "2e74b4f31d",
+  "author": "Plenipotentiaries of the Hague Peace Conference",
+  "title": "Declaration concerning Asphyxiating Gases (Hague Declaration IV, 2)",
+  "original_title": "",
+  "year": 1899,
+  "language": "French",
+  "translation": "Official English text on Avalon Project",
+  "text_url": "https://avalon.law.yale.edu/19th_century/dec99-02.asp",
+  "questions": [
+   "Q27"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 3531,
+  "file": "canon/texts/2e74b4f31d.txt"
+ },
+ {
+  "id": "3588835f8a",
+  "author": "J. B. S. Haldane",
+  "title": "Callinicus: A Defence of Chemical Warfare",
+  "original_title": "",
+  "year": 1925,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/in.ernet.dli.2015.172662",
+  "questions": [
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 106128,
+  "file": "canon/texts/3588835f8a.txt"
+ },
+ {
+  "id": "497dd4e357",
+  "author": "Voltaire",
+  "title": "Philosophical Dictionary, 'Animals'",
+  "original_title": "Dictionnaire philosophique",
+  "year": 1764,
+  "language": "French",
+  "translation": "Voltaire's Philosophical Dictionary, Gutenberg #18569",
+  "text_url": "https://www.gutenberg.org/ebooks/18569",
+  "questions": [
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 521924,
+  "file": "canon/texts/497dd4e357.txt"
+ },
+ {
+  "id": "7fe12a24c9",
+  "author": "Jeremy Bentham",
+  "title": "An Introduction to the Principles of Morals and Legislation",
+  "original_title": "",
+  "year": 1789,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/princmoralsleg00bentuoft",
+  "questions": [
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 1171121,
+  "file": "canon/texts/7fe12a24c9.txt"
+ },
+ {
+  "id": "cb903e1c1d",
+  "author": "Henry S. Salt",
+  "title": "Animals' Rights Considered in Relation to Social Progress",
+  "original_title": "",
+  "year": 1892,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/64498",
+  "questions": [
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 219912,
+  "file": "canon/texts/cb903e1c1d.txt"
+ },
+ {
+  "id": "b63075f168",
+  "author": "Thomas Hobbes",
+  "title": "Leviathan",
+  "original_title": "",
+  "year": 1651,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/3207",
+  "questions": [
+   "Q29",
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1254732,
+  "file": "canon/texts/b63075f168.txt"
+ },
+ {
+  "id": "cdc0e82bf4",
+  "author": "Robert Filmer",
+  "title": "Patriarcha: or, the Natural Power of Kings",
+  "original_title": "",
+  "year": 1680,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/bim_early-english-books-1641-1700_patriarcha-or-the-natu_filmer-sir-robert_1680",
+  "questions": [
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 165129,
+  "file": "canon/texts/cdc0e82bf4.txt"
+ },
+ {
+  "id": "4c3bdd91d2",
+  "author": "John Locke",
+  "title": "Second Treatise of Government",
+  "original_title": "",
+  "year": 1689,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/7370",
+  "questions": [
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 338548,
+  "file": "canon/texts/4c3bdd91d2.txt"
+ },
+ {
+  "id": "a39535e159",
+  "author": "Auguste Villiers de l'Isle-Adam",
+  "title": "The Future Eve",
+  "original_title": "L'Ève future",
+  "year": 1886,
+  "language": "French",
+  "translation": "No public-domain English translation found",
+  "text_url": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%88ve_future",
+  "questions": [
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "wikisource (83 pages)",
+  "chars": 1121326,
+  "file": "canon/texts/a39535e159.txt"
+ },
+ {
+  "id": "bac0622689",
+  "author": "Francis Bacon",
+  "title": "Novum Organum",
+  "original_title": "",
+  "year": 1620,
+  "language": "Latin",
+  "translation": "Gutenberg #45988 English translation",
+  "text_url": "https://www.gutenberg.org/ebooks/45988",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 567111,
+  "file": "canon/texts/bac0622689.txt"
+ },
+ {
+  "id": "4f6faf0389",
+  "author": "Henri de Saint-Simon",
+  "title": "New Christianity",
+  "original_title": "Nouveau Christianisme",
+  "year": 1825,
+  "language": "French",
+  "translation": "Not verified",
+  "text_url": "https://archive.org/details/nouveauchristian01sainuoft",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 122096,
+  "file": "canon/texts/4f6faf0389.txt"
+ },
+ {
+  "id": "aff661882e",
+  "author": "Nathaniel Hawthorne",
+  "title": "The Celestial Railroad",
+  "original_title": "",
+  "year": 1843,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/512",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 938104,
+  "file": "canon/texts/aff661882e.txt"
+ },
+ {
+  "id": "51b8ca87ab",
+  "author": "Walt Whitman",
+  "title": "Passage to India",
+  "original_title": "",
+  "year": 1871,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/tworivuletsinclu00whitrich",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 789653,
+  "file": "canon/texts/51b8ca87ab.txt"
+ },
+ {
+  "id": "0f21722a8f",
+  "author": "Timothy Walker",
+  "title": "Defence of Mechanical Philosophy",
+  "original_title": "",
+  "year": 1831,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q31"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "f368f25740",
+  "author": "Matthew Arnold",
+  "title": "Culture and Anarchy",
+  "original_title": "",
+  "year": 1869,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/4212",
+  "questions": [
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 430323,
+  "file": "canon/texts/f368f25740.txt"
+ },
+ {
+  "id": "ba6b18009b",
+  "author": "Edward Carpenter",
+  "title": "Civilisation: Its Cause and Cure",
+  "original_title": "",
+  "year": 1889,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/44094",
+  "questions": [
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 472241,
+  "file": "canon/texts/ba6b18009b.txt"
+ },
+ {
+  "id": "0fb788628d",
+  "author": "Henry Adams",
+  "title": "The Education of Henry Adams",
+  "original_title": "",
+  "year": 1907,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/2044",
+  "questions": [
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1060890,
+  "file": "canon/texts/0fb788628d.txt"
+ },
+ {
+  "id": "6780a39d3b",
+  "author": "Nikolai Berdyaev",
+  "title": "Man and Machine",
+  "original_title": "Человек и машина",
+  "year": 1933,
+  "language": "Russian",
+  "translation": "No public-domain English translation; English translation in Technology and Language (2023)",
+  "text_url": "",
+  "questions": [
+   "Q31"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "81d5bf24da",
+  "author": "Thomas Babington Macaulay",
+  "title": "Lord Bacon",
+  "original_title": "",
+  "year": 1837,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/2333",
+  "questions": [
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1771341,
+  "file": "canon/texts/81d5bf24da.txt"
+ },
+ {
+  "id": "f7243c1217",
+  "author": "Lewis Henry Morgan",
+  "title": "Ancient Society",
+  "original_title": "",
+  "year": 1877,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/45950",
+  "questions": [
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1351406,
+  "file": "canon/texts/f7243c1217.txt"
+ },
+ {
+  "id": "2da14fc123",
+  "author": "Rabindranath Tagore",
+  "title": "Nationalism",
+  "original_title": "",
+  "year": 1917,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/40766",
+  "questions": [
+   "Q32",
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 176093,
+  "file": "canon/texts/2da14fc123.txt"
+ },
+ {
+  "id": "910d6b93ad",
+  "author": "Oswald Spengler",
+  "title": "Man and Technics",
+  "original_title": "Der Mensch und die Technik",
+  "year": 1931,
+  "language": "German",
+  "translation": "C. T. Atkinson (1932); public-domain status not verified",
+  "text_url": "",
+  "questions": [
+   "Q32",
+   "Q33"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "0f94ed1398",
+  "author": "Feng Guifen",
+  "title": "Protests from the Jiaobin Studio",
+  "original_title": "校邠廬抗議 (Jiaobinlu kangyi)",
+  "year": 1861,
+  "language": "Chinese",
+  "translation": "No public-domain English translation confirmed; excerpts appear in modern source readers.",
+  "text_url": "",
+  "questions": [
+   "Q33"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "48ef1b6098",
+  "author": "Fukuzawa Yukichi",
+  "title": "An Outline of a Theory of Civilization",
+  "original_title": "文明論之概略 (Bunmeiron no gairyaku)",
+  "year": 1875,
+  "language": "Japanese",
+  "translation": "English translation by David A. Dilworth and G. Cameron Hurst (Sophia University, 1973), not public domain.",
+  "text_url": "",
+  "questions": [
+   "Q33"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "e49894e43e",
+  "author": "Zhang Zhidong",
+  "title": "Exhortation to Learning",
+  "original_title": "勸學篇 (Quanxue pian)",
+  "year": 1898,
+  "language": "Chinese",
+  "translation": "China's Only Hope: An Appeal, trans. Samuel I. Woodbridge (1900), Internet Archive.",
+  "text_url": "https://archive.org/details/chinasonlyhopeap00zhan",
+  "questions": [
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 198348,
+  "file": "canon/texts/e49894e43e.txt"
+ },
+ {
+  "id": "0b37db0b03",
+  "author": "Yan Fu",
+  "title": "Letter to the Editor of the Waijiao bao",
+  "original_title": "與《外交報》主人書",
+  "year": 1902,
+  "language": "Chinese",
+  "translation": "No public-domain English translation found.",
+  "text_url": "",
+  "questions": [
+   "Q33"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "5d7e9dc60b",
+  "author": "M. K. Gandhi",
+  "title": "Hind Swaraj or Indian Home Rule",
+  "original_title": "હિંદ સ્વરાજ",
+  "year": 1909,
+  "language": "Gujarati",
+  "translation": "Gandhi's own English translation, Indian Home Rule (1910).",
+  "text_url": "https://www.gutenberg.org/ebooks/40461",
+  "questions": [
+   "Q33"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 189773,
+  "file": "canon/texts/5d7e9dc60b.txt"
+ },
+ {
+  "id": "d469e49247",
+  "author": "Thorstein Veblen",
+  "title": "Imperial Germany and the Industrial Revolution",
+  "original_title": "",
+  "year": 1915,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/imperialgermany01veblgoog",
+  "questions": [
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 650237,
+  "file": "canon/texts/d469e49247.txt"
+ },
+ {
+  "id": "d14d877437",
+  "author": "Jules Ferry",
+  "title": "Speech to the Chamber of Deputies on colonial policy",
+  "original_title": "Discours sur la politique coloniale",
+  "year": 1885,
+  "language": "French",
+  "translation": "English excerpts widely reprinted; no public-domain full translation confirmed.",
+  "text_url": "",
+  "questions": [
+   "Q34"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "832a456746",
+  "author": "Benjamin Kidd",
+  "title": "The Control of the Tropics",
+  "original_title": "",
+  "year": 1898,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/controloftropics00kidduoft",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 162568,
+  "file": "canon/texts/832a456746.txt"
+ },
+ {
+  "id": "22bec51d68",
+  "author": "Hilaire Belloc",
+  "title": "The Modern Traveller",
+  "original_title": "",
+  "year": 1898,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/ebooks/61521",
+  "questions": [
+   "Q34"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 73922,
+  "file": "canon/texts/22bec51d68.txt"
+ },
+ {
+  "id": "bee55cf697",
+  "author": "H. G. Wells",
+  "title": "The War of the Worlds",
+  "original_title": "",
+  "year": 1898,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/files/36/36-h/36-h.htm",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 363440,
+  "file": "canon/texts/bee55cf697.txt"
+ },
+ {
+  "id": "a311f34aa5",
+  "author": "Karl Pearson",
+  "title": "National Life from the Standpoint of Science",
+  "original_title": "",
+  "year": 1901,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/nationallifefrom00pearrich",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 150214,
+  "file": "canon/texts/a311f34aa5.txt"
+ },
+ {
+  "id": "51c4556801",
+  "author": "J. A. Hobson",
+  "title": "Imperialism: A Study",
+  "original_title": "",
+  "year": 1902,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/imperialismastu00goog",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 748706,
+  "file": "canon/texts/51c4556801.txt"
+ },
+ {
+  "id": "e2186b93e4",
+  "author": "Aimé Césaire",
+  "title": "Discourse on Colonialism",
+  "original_title": "Discours sur le colonialisme",
+  "year": 1950,
+  "language": "French",
+  "translation": "English translation by Joan Pinkham (1972), not public domain.",
+  "text_url": "",
+  "questions": [
+   "Q34"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "f7551f7d97",
+  "author": "Friedrich Schiller",
+  "title": "On the Aesthetic Education of Man, in a Series of Letters",
+  "original_title": "Über die ästhetische Erziehung des Menschen in einer Reihe von Briefen",
+  "year": 1795,
+  "language": "German",
+  "translation": "Letters upon the Aesthetic Education of Man, in Aesthetical and Philosophical Essays (19th-c. translation), Project Gutenberg.",
+  "text_url": "https://www.gutenberg.org/files/6798/6798-h/6798-h.htm",
+  "questions": [
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 868806,
+  "file": "canon/texts/f7551f7d97.txt"
+ },
+ {
+  "id": "217c78900f",
+  "author": "Adam Müller",
+  "title": "The Elements of Statecraft",
+  "original_title": "Die Elemente der Staatskunst",
+  "year": 1809,
+  "language": "German",
+  "translation": "No English translation found.",
+  "text_url": "https://www.deutschestextarchiv.de/mueller_staatskunst01_1809/37",
+  "questions": [
+   "Q35"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 25,
+  "file": "canon/texts/217c78900f.txt"
+ },
+ {
+  "id": "82de55e37e",
+  "author": "Herbert Spencer",
+  "title": "The Social Organism",
+  "original_title": "",
+  "year": 1860,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/progressitslawca00spen",
+  "questions": [
+   "Q35"
+  ],
+  "link_note": "Internet Archive match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 376552,
+  "file": "canon/texts/82de55e37e.txt"
+ },
+ {
+  "id": "45b21f2b4a",
+  "author": "V. I. Lenin",
+  "title": "The State and Revolution",
+  "original_title": "Государство и революция",
+  "year": 1917,
+  "language": "Russian",
+  "translation": "Multiple early English translations; Marxists Internet Archive hosts one.",
+  "text_url": "",
+  "questions": [
+   "Q35"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "b837cf756b",
+  "author": "G. W. F. Hegel",
+  "title": "Elements of the Philosophy of Right",
+  "original_title": "Grundlinien der Philosophie des Rechts",
+  "year": 1821,
+  "language": "German",
+  "translation": "S. W. Dyde translation (1896), public domain.",
+  "text_url": "",
+  "questions": [
+   "Q36"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "c369c12844",
+  "author": "Henry David Thoreau",
+  "title": "Resistance to Civil Government",
+  "original_title": "",
+  "year": 1849,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+  "questions": [
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 51712,
+  "file": "canon/texts/c369c12844.txt"
+ },
+ {
+  "id": "d87b310b3c",
+  "author": "Woodrow Wilson",
+  "title": "The Study of Administration",
+  "original_title": "",
+  "year": 1887,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/jstor-2139277",
+  "questions": [
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 59208,
+  "file": "canon/texts/d87b310b3c.txt"
+ },
+ {
+  "id": "de2c726d82",
+  "author": "Max Weber",
+  "title": "Politics as a Vocation",
+  "original_title": "Politik als Beruf",
+  "year": 1919,
+  "language": "German",
+  "translation": "English translation by Gerth and Mills (1946), not public domain.",
+  "text_url": "",
+  "questions": [
+   "Q36"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "0ed8cafc06",
+  "author": "Ernst Kapp",
+  "title": "Elements of a Philosophy of Technology",
+  "original_title": "Grundlinien einer Philosophie der Technik",
+  "year": 1877,
+  "language": "German",
+  "translation": "English translation by Lauren K. Wolfe (University of Minnesota Press, 2018), not public domain.",
+  "text_url": "https://archive.org/details/grundlinieneine00kappgoog",
+  "questions": [
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 579777,
+  "file": "canon/texts/0ed8cafc06.txt"
+ },
+ {
+  "id": "d64c3e5c49",
+  "author": "Henry Head and Gordon Holmes",
+  "title": "Sensory Disturbances from Cerebral Lesions",
+  "original_title": "",
+  "year": 1911,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://zenodo.org/records/1431638",
+  "questions": [
+   "Q37"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 1998,
+  "file": "canon/texts/d64c3e5c49.txt"
+ },
+ {
+  "id": "b76f02428d",
+  "author": "Maurice Merleau-Ponty",
+  "title": "Phenomenology of Perception",
+  "original_title": "Phénoménologie de la perception",
+  "year": 1945,
+  "language": "French",
+  "translation": "English translation by Colin Smith (1962), not public domain.",
+  "text_url": "",
+  "questions": [
+   "Q37"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "0099cf9f03",
+  "author": "Jean-Jacques Rousseau",
+  "title": "Discourse on the Origin of Inequality",
+  "original_title": "Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+  "year": 1755,
+  "language": "French",
+  "translation": "18th-century English translations exist; Marxists Internet Archive and constitution.org host one.",
+  "text_url": "https://www.gutenberg.org/ebooks/11136",
+  "questions": [
+   "Q38"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 176371,
+  "file": "canon/texts/0099cf9f03.txt"
+ },
+ {
+  "id": "a541a6cd61",
+  "author": "Thomas Carlyle",
+  "title": "Sartor Resartus",
+  "original_title": "",
+  "year": 1836,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://en.wikisource.org/wiki/The_Works_of_Thomas_Carlyle/Volume_1/Sartor_Resartus,_Book_I,_Chapter_V",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 12582,
+  "file": "canon/texts/a541a6cd61.txt"
+ },
+ {
+  "id": "84a0eceefe",
+  "author": "Ralph Waldo Emerson",
+  "title": "Civilization",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://www.gutenberg.org/cache/epub/69258/pg69258-images.html",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 396787,
+  "file": "canon/texts/84a0eceefe.txt"
+ },
+ {
+  "id": "28be620f90",
+  "author": "Sigmund Freud",
+  "title": "Civilization and Its Discontents",
+  "original_title": "Das Unbehagen in der Kultur",
+  "year": 1930,
+  "language": "German",
+  "translation": "Joan Riviere translation (1930); public-domain status not confirmed.",
+  "text_url": "https://www.projekt-gutenberg.org/freud/unbehag/chap003.html",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 42655,
+  "file": "canon/texts/28be620f90.txt"
+ },
+ {
+  "id": "5f0ad818da",
+  "author": "Ovid",
+  "title": "Metamorphoses",
+  "original_title": "Metamorphoses",
+  "year": 8,
+  "language": "Latin",
+  "translation": "Many public-domain English translations.",
+  "text_url": "https://www.gutenberg.org/ebooks/26073",
+  "questions": [
+   "Q39"
+  ],
+  "link_note": "Gutenberg match found by catalog search (Claude)",
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 847391,
+  "file": "canon/texts/5f0ad818da.txt"
+ },
+ {
+  "id": "b89ffbd7cc",
+  "author": "Jean-Jacques Rousseau",
+  "title": "Pygmalion, lyric scene",
+  "original_title": "Pygmalion, scène lyrique",
+  "year": 1762,
+  "language": "French",
+  "translation": "No public-domain English translation confirmed.",
+  "text_url": "https://archive.org/details/bub_gb_0NTBdFDv3EYC",
+  "questions": [
+   "Q39"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 23787,
+  "file": "canon/texts/b89ffbd7cc.txt"
+ },
+ {
+  "id": "9eed852aa9",
+  "author": "E. T. A. Hoffmann",
+  "title": "The Sandman",
+  "original_title": "Der Sandmann",
+  "year": 1816,
+  "language": "German",
+  "translation": "'The Sand-Man' in Weird Tales, vol. 1, trans. J. T. Bealby (1885), Project Gutenberg #31377.",
+  "text_url": "https://www.gutenberg.org/ebooks/31377",
+  "questions": [
+   "Q39",
+   "Q40"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 678670,
+  "file": "canon/texts/9eed852aa9.txt"
+ },
+ {
+  "id": "dbb8169c55",
+  "author": "Auguste Villiers de l'Isle-Adam",
+  "title": "Tomorrow's Eve",
+  "original_title": "L'Ève future",
+  "year": 1886,
+  "language": "French",
+  "translation": "English translation by Robert Martin Adams (1982), not public domain; an earlier Florence Crewe-Jones translation (1926-28) status not confirmed.",
+  "text_url": "https://www.gutenberg.org/ebooks/26681",
+  "questions": [
+   "Q39",
+   "Q40"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 577822,
+  "file": "canon/texts/dbb8169c55.txt"
+ },
+ {
+  "id": "565945ab94",
+  "author": "Sigmund Freud",
+  "title": "The Uncanny",
+  "original_title": "Das Unheimliche",
+  "year": 1919,
+  "language": "German",
+  "translation": "No public-domain English translation confirmed.",
+  "text_url": "https://www.gutenberg.org/files/34222/34222-h/34222-h.htm",
+  "questions": [
+   "Q39"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 104901,
+  "file": "canon/texts/565945ab94.txt"
+ },
+ {
+  "id": "1e204f033b",
+  "author": "Lester del Rey",
+  "title": "Helen O'Loy",
+  "original_title": "",
+  "year": 1938,
+  "language": "English",
+  "translation": "",
+  "text_url": "",
+  "questions": [
+   "Q39"
+  ],
+  "status": "no-link"
+ },
+ {
+  "id": "3998866354",
+  "author": "Johann Wolfgang von Goethe",
+  "title": "The Triumph of Sensibility",
+  "original_title": "Der Triumph der Empfindsamkeit",
+  "year": 1778,
+  "language": "German",
+  "translation": "No public-domain English translation found.",
+  "text_url": "https://www.projekt-gutenberg.org/goethe/empfinds/empfinds.html",
+  "questions": [
+   "Q40"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 2806,
+  "file": "canon/texts/3998866354.txt"
+ },
+ {
+  "id": "e7b04031d1",
+  "author": "Rainer Maria Rilke",
+  "title": "Dolls: On the Wax Dolls of Lotte Pritzel",
+  "original_title": "Puppen. Zu den Wachs-Puppen von Lotte Pritzel",
+  "year": 1914,
+  "language": "German",
+  "translation": "No public-domain English translation found.",
+  "text_url": "http://www.zeno.org/Literatur/M/Rilke,+Rainer+Maria/Theoretische+Schriften/[Aufs%C3%A4tze+und+Rezensionen]/Puppen",
+  "questions": [
+   "Q40"
+  ],
+  "status": "partial",
+  "method": "html-page",
+  "chars": 18437,
+  "file": "canon/texts/e7b04031d1.txt"
+ },
+ {
+  "id": "12adc3d113-en",
+  "role": "translation",
+  "of": "12adc3d113",
+  "author": "Julien Offray de La Mettrie",
+  "title": "Man a Machine",
+  "text_url": "https://www.gutenberg.org/ebooks/52090",
+  "link_note": "Gutenberg #52090 (Open Court, 1912)",
+  "questions": [
+   "Q02",
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 359501,
+  "file": "canon/texts/12adc3d113-en.txt"
+ },
+ {
+  "id": "86881641f8-en",
+  "role": "translation",
+  "of": "86881641f8",
+  "author": "Montesquieu",
+  "title": "The Spirit of the Laws",
+  "text_url": "https://archive.org/details/spiritoflaws01nugguoft",
+  "link_note": "Nugent translation, vol. 1",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 900756,
+  "file": "canon/texts/86881641f8-en.txt"
+ },
+ {
+  "id": "c35a4aa1e5-en",
+  "role": "translation",
+  "of": "c35a4aa1e5",
+  "author": "Cesare Beccaria",
+  "title": "On Crimes and Punishments",
+  "text_url": "https://archive.org/details/essayoncrimespun1775becc",
+  "link_note": "English translation, 1775",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 306969,
+  "file": "canon/texts/c35a4aa1e5-en.txt"
+ },
+ {
+  "id": "71e9471113-en",
+  "role": "translation",
+  "of": "71e9471113",
+  "author": "John Napier",
+  "title": "Mirifici Logarithmorum Canonis Descriptio",
+  "text_url": "https://archive.org/details/bim_early-english-books-1475-1640_a-description-of-the-adm_napier-john_1616",
+  "link_note": "Edward Wright, 1616",
+  "questions": [
+   "Q24"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 319807,
+  "file": "canon/texts/71e9471113-en.txt"
+ },
+ {
+  "id": "ba527d9007-en",
+  "role": "translation",
+  "of": "ba527d9007",
+  "author": "Johann Friedrich Blumenbach",
+  "title": "An Essay on Generation",
+  "text_url": "https://archive.org/details/b2144058x",
+  "link_note": "A. Crichton, 1792",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 94947,
+  "file": "canon/texts/ba527d9007-en.txt"
+ },
+ {
+  "id": "b837cf756b-en",
+  "role": "translation",
+  "of": "b837cf756b",
+  "author": "G. W. F. Hegel",
+  "title": "Elements of the Philosophy of Right",
+  "text_url": "https://archive.org/details/cu31924014578979",
+  "link_note": "S. W. Dyde, 1896",
+  "questions": [
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 796216,
+  "file": "canon/texts/b837cf756b-en.txt"
+ },
+ {
+  "id": "69bbbca9b8-en",
+  "role": "translation",
+  "of": "69bbbca9b8",
+  "author": "Henri Poincaré",
+  "title": "Science and Method",
+  "text_url": "https://www.gutenberg.org/ebooks/39713",
+  "link_note": "Halsted, The Foundations of Science (1913), includes Science and Method",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 1204469,
+  "file": "canon/texts/69bbbca9b8-en.txt"
+ },
+ {
+  "id": "1e60b4dd5b-en",
+  "role": "translation",
+  "of": "1e60b4dd5b",
+  "author": "Ignatius of Loyola",
+  "title": "Letter on Perfect Obedience (to the Jesuits of Portugal)",
+  "text_url": "https://archive.org/details/LettersAndInstructionsOfStIgnatius",
+  "link_note": "Letters and Instructions (1914)",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 190783,
+  "file": "canon/texts/1e60b4dd5b-en.txt"
+ },
+ {
+  "id": "28be620f90-en",
+  "role": "translation",
+  "of": "28be620f90",
+  "author": "Sigmund Freud",
+  "title": "Civilization and Its Discontents",
+  "text_url": "https://www.gutenberg.org/ebooks/78221",
+  "link_note": "Joan Riviere, 1930 (Gutenberg #78221)",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "gutenberg-txt",
+  "chars": 207371,
+  "file": "canon/texts/28be620f90-en.txt"
+ },
+ {
+  "id": "45b21f2b4a-orig",
+  "role": "original",
+  "of": "45b21f2b4a",
+  "author": "V. I. Lenin",
+  "title": "The State and Revolution",
+  "text_url": "https://ru.wikisource.org/wiki/Государство_и_революция_(Ленин)",
+  "link_note": "Russian Wikisource",
+  "questions": [
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "wikisource (9 pages)",
+  "chars": 229477,
+  "file": "canon/texts/45b21f2b4a-orig.txt"
+ },
+ {
+  "id": "de2c726d82-orig",
+  "role": "original",
+  "of": "de2c726d82",
+  "author": "Max Weber",
+  "title": "Politics as a Vocation",
+  "text_url": "https://de.wikisource.org/wiki/Politik_als_Beruf",
+  "link_note": "German Wikisource",
+  "questions": [
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 140860,
+  "file": "canon/texts/de2c726d82-orig.txt"
+ },
+ {
+  "id": "9320a5d332-orig",
+  "role": "original",
+  "of": "9320a5d332",
+  "author": "Nikolai Fedorov",
+  "title": "The Philosophy of the Common Task",
+  "text_url": "https://ru.wikisource.org/wiki/Философия_общего_дела_(Федоров)",
+  "link_note": "Russian Wikisource; one Wikisource page (a section of the work), not the full text",
+  "questions": [
+   "Q15"
+  ],
+  "status": "partial",
+  "method": "wikisource (1 pages)",
+  "chars": 39482,
+  "file": "canon/texts/9320a5d332-orig.txt"
+ },
+ {
+  "id": "d14d877437-orig",
+  "role": "original",
+  "of": "d14d877437",
+  "author": "Jules Ferry",
+  "title": "Speech to the Chamber of Deputies on colonial policy",
+  "text_url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/jules-ferry-28-juillet-1885",
+  "link_note": "Assemblée nationale, grands discours",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 16134,
+  "file": "canon/texts/d14d877437-orig.txt"
+ },
+ {
+  "id": "9caea3eedb-en",
+  "role": "translation",
+  "of": "9caea3eedb",
+  "author": "David Hilbert",
+  "title": "Mathematical Problems",
+  "text_url": "https://www.gutenberg.org/cache/epub/71655/pg71655-images.html",
+  "link_note": "Newson translation, 1902 (Gutenberg #71655)",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "html-page",
+  "chars": 98185,
+  "file": "canon/texts/9caea3eedb-en.txt"
+ },
+ {
+  "id": "6780a39d3b-orig",
+  "role": "original",
+  "of": "6780a39d3b",
+  "author": "Nikolai Berdyaev",
+  "title": "Man and Machine",
+  "text_url": "https://ru.wikisource.org/wiki/Человек_и_машина_(проблема_социологии_и_метафизики_техники)_(Бердяев)",
+  "link_note": "Public domain in country of origin; US copyright may persist. Used for passage extraction only; full text not released.",
+  "questions": [
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "wikisource (1 pages)",
+  "chars": 54337,
+  "file": "canon/texts/6780a39d3b-orig.txt"
+ },
+ {
+  "id": "910d6b93ad-orig",
+  "role": "original",
+  "of": "910d6b93ad",
+  "author": "Oswald Spengler",
+  "title": "Man and Technics",
+  "text_url": "http://www.zeno.org/Philosophie/M/Spengler,+Oswald/Der+Mensch+und+die+Technik.+Beitrag+zu+einer+Philosophie+des+Lebens",
+  "link_note": "Public domain in country of origin; US copyright may persist. Used for passage extraction only; full text not released.",
+  "questions": [
+   "Q32",
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "zeno (18 sections)",
+  "chars": 105430,
+  "file": "canon/texts/910d6b93ad-orig.txt"
+ }
+]

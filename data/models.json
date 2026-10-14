@@ -1,0 +1,98 @@
+{
+  "version": "0.2",
+  "date": "2026-10-13",
+  "models": [
+    {
+      "id": "talkie-1930-13b",
+      "name": "Talkie 1930 13B base",
+      "maker": "Talkie",
+      "kind": "historical",
+      "cutoff": "1930",
+      "params": "13B",
+      "access": "Weights",
+      "status": "piloted",
+      "role": "core",
+      "note": "Run in the DEPENDENCE pilot, September 2026."
+    },
+    {
+      "id": "talkie-web-13b",
+      "name": "Talkie web 13B base",
+      "maker": "Talkie",
+      "kind": "base",
+      "cutoff": null,
+      "params": "13B",
+      "access": "Weights",
+      "status": "planned",
+      "role": "core",
+      "note": "Same architecture and training compute as Talkie 1930, trained on modern web text. Downloaded; not yet run."
+    },
+    {
+      "id": "qwen-3-5-9b-instruct",
+      "name": "Qwen3.5 9B",
+      "maker": "Alibaba",
+      "kind": "instruct",
+      "cutoff": null,
+      "params": "9B",
+      "access": "Weights (8-bit MLX)",
+      "status": "piloted",
+      "role": "context",
+      "note": "Run in the DEPENDENCE pilot, September 2026."
+    },
+    {
+      "id": "ranke-4b",
+      "name": "Ranke-4B",
+      "maker": "Göttlich, Loibner, Jiang, Voth",
+      "kind": "historical",
+      "cutoff": "1913–1946",
+      "params": "4B",
+      "access": "Weights",
+      "status": "candidate",
+      "role": "candidate"
+    },
+    {
+      "id": "olmo-3-7b",
+      "name": "OLMo 3 7B",
+      "maker": "AI2",
+      "kind": "base",
+      "cutoff": null,
+      "params": "7B",
+      "access": "Weights",
+      "status": "candidate",
+      "role": "candidate"
+    },
+    {
+      "id": "olmo-3-32b",
+      "name": "OLMo 3 32B",
+      "maker": "AI2",
+      "kind": "base",
+      "cutoff": null,
+      "params": "32B",
+      "access": "Weights",
+      "status": "candidate",
+      "role": "candidate"
+    },
+    {
+      "id": "qwen-3-5-9b-base",
+      "name": "Qwen3.5 9B Base",
+      "maker": "Alibaba",
+      "kind": "base",
+      "cutoff": null,
+      "params": "9B",
+      "access": "Weights",
+      "status": "candidate",
+      "role": "candidate"
+    },
+    {
+      "id": "qwen-3-7-plus",
+      "name": "Qwen 3.7 Plus",
+      "maker": "Alibaba",
+      "kind": "deployed",
+      "cutoff": null,
+      "params": "—",
+      "access": "OpenRouter",
+      "status": "piloted",
+      "role": "candidate",
+      "note": "Run in the July 2026 pilot, now superseded."
+    }
+  ]
+}

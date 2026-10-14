@@ -1,0 +1,134 @@
+[
+ {"aid": "a507e3e", "position": "Weakens: dependence atrophies embodied, physical and relational abilities; machine becomes master.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "But the servant glides by imperceptible approaches into the master; and we have come to such a pass that, even now, man must suffer terribly on ceasing to benefit the machines."},
+   {"cid": "c2", "match": "related", "quote": "Not least convincing is the fact that a considerable proportion of those who are held unremittingly to the service of the machine process “break down,” fall into premature decay."},
+   {"cid": "c3", "match": "related", "quote": "Day by day, however, the machines are gaining ground upon us; day by day we are becoming more subservient to them; more men are daily bound down as slaves to tend them, more men are daily devoting the energies of their whole lives to the development of mechanical life."},
+   {"cid": "c4", "match": "related", "quote": "True, from a low materialistic point of view, it would seem that those thrive best who use machinery wherever its use is possible with profit; but this is the art of the machines—they serve that they may rule."},
+   {"cid": "c5", "match": "related", "quote": "In his reliance upon the use of steam he has been betrayed into increasing and multiplying."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "related", "quote": "The power of custom is enormous, and so gradual will be the change, that man’s sense of what is due to himself will be at no time rudely shocked; our bondage will steal upon us noiselessly and by imperceptible approaches; nor will there ever be such a clashing of desires between man and the machines as will lead to an encounter between them."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "abd7f4c", "position": "Weakens: the less the machine does, the better the worker; no reason given.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "He is the slave to machinery; the new machine _must_ be invented, and when invented he _must_—I will not say use it, but be used by it, whether he likes it or not."},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "On the other hand, although new machinery causes an increased demand for skill in those who make and repair it, and in those who first superintend its use; yet there are other cases in which it enables children and inferior workmen to execute work that previously required greater skill."},
+   {"cid": "c5", "match": "related", "quote": "To avoid misunderstanding, I must say that I am thinking of the modern machine, which is as it were alive, and to which the man is auxiliary, and not of the old machine, the improved tool, which is auxiliary to the man, and only works as long as his hand is"},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "aff63ad", "position": "Does not weaken: support aids a faculty, as crutches do not weaken legs.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "Another, though fortunately a less general substitution of tools for human hands, is used to assist the labour of those who are deprived by nature, or by accident, of some of their limbs."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a01d188", "position": "Depends: machines letting men avoid work weaken; machines easing work strengthen.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "But the same motive which urges a man to activity will become additionally powerful, when he finds his comforts procured with diminished labour; and in such circumstances, it is probable, that many would employ the time thus redeemed in contriving new tools for other branches of their occupations."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "related", "quote": "This demands a degree of intelligence, and much of this work calls for a good deal of special training besides; so that it is still true that the workman is useful somewhat in proportion as he is skilled in the occupation to which the machine industry calls him."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "But if we cast a glance at the two boys, we shall see that whilst one is wholly taken up by the watching, the other is free to go and play as he chooses, and that, from this point of view, the difference between the two machines is radical, the first holding the attention captive, the second setting it at liberty."},
+   {"cid": "c6", "match": "related", "quote": "On the other hand, although new machinery causes an increased demand for skill in those who make and repair it, and in those who first superintend its use; yet there are other cases in which it enables children and inferior workmen to execute work that previously required greater skill."},
+   {"cid": "c7", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a64d7dc", "position": "Does not weaken: machine use demands more strength and skill, keeping men in practice.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Frequently the new labour requires, at its commencement, a higher degree of skill than the old; and, unfortunately, the class of persons driven out of the old employment are not always qualified for the new one; so that a certain interval must elapse before the whole of their labour is wanted."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "This demands a degree of intelligence, and much of this work calls for a good deal of special training besides; so that it is still true that the workman is useful somewhat in proportion as he is skilled in the occupation to which the machine industry calls him."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "In their beginnings the new mechanical appliances are conceived as improved tools, which extend the reach and power of the workman or which facilitate or lighten the manual operations in which he spends himself."}
+  ]},
+ {"aid": "a8dfdc4", "position": "Does not weaken overall: freeing people from drudgery lets them pursue higher creative work.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "same", "quote": "That, so far, is unmixed gain in the use of a machine—always, mind you, supposing equality of condition among men; no art is lost, leisure or time for more pleasurable work is gained."},
+   {"cid": "c3", "match": "related", "quote": "Frequently the new labour requires, at its commencement, a higher degree of skill than the old; and, unfortunately, the class of persons driven out of the old employment are not always qualified for the new one; so that a certain interval must elapse before the whole of their labour is wanted."},
+   {"cid": "c4", "match": "related", "quote": "I suppose that this is what is likely to happen; that machinery will go on developing, with the purpose of saving men labour, till the mass of the people attain real leisure enough to be able to appreciate the pleasure of life; till, in fact, they have attained such mastery over Nature that they no longer fear starvation as a penalty for not working more than enough."},
+   {"cid": "c5", "match": "related", "quote": "And from the general intelligence and mental activity springing from this general improvement of condition would come new developments of power of which we as yet cannot dream."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "Yet for the consolation of the artists I will say that I believe indeed that a state of social order would probably lead at first to a great development of machinery for really useful purposes, because people will still be anxious about getting through the work necessary to holding society together; but that after a while they will find that there is not so much work to do as they expected, and that then they will have leisure to reconsider the whole subject; and if it seems to them that a certain industry would be carried on more pleasantly as regards the worker, and more effectually as regards the goods, by using hand-work rather than machinery, they will certainly get rid of their machinery, because it will be possible for them to do so."}
+  ]},
+ {"aid": "afa9d73", "position": "Depends: trade-off; erodes specific skills like memory while enhancing others.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "related", "quote": "Less imperatively, but still in a marked degree, the same spirit must be found in the workmen under whose tendance these processes and appliances are to work out the designed results."},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a05e071", "position": "Neither: machines create no powers, only liberate existing ones into a new domain.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "Man, therefore, does not create power; but, availing himself of his knowledge of nature's mysteries, he applies his talents to diverting a small and limited portion of her energies to his own wants: and, whether he employs the regulated action of steam, or the more rapid and tremendous effects of gunpowder, he is only producing on a small scale compositions and decompositions which nature is incessantly at work in reversing, for the restoration of that equilibrium which we cannot doubt is constantly maintained throughout even the remotest limits of our system."},
+   {"cid": "c3", "match": "related", "quote": "When we expose the sails of a windmill obliquely to the gale, we check the velocity of a small portion of the atmosphere, and convert its own rectilinear motion into one of rotation in the sails; we thus change the direction of force, but we create no power."},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "aef93da", "position": "Does not weaken: tools shift effort from rote tasks to higher-order thinking.",
+  "matches": [
+   {"cid": "c1", "match": "related", "quote": "Add to the human hand the rudest cutting instrument, and its powers are enlarged: the fabrication of many things then becomes easy, and that of others possible with great labour."},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "same", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c5", "match": "related", "quote": "In their beginnings the new mechanical appliances are conceived as improved tools, which extend the reach and power of the workman or which facilitate or lighten the manual operations in which he spends himself."},
+   {"cid": "c6", "match": "related", "quote": "He is at the mercy of the seeing-engine for these things, and is powerless unless he tack it on to his own identity, and make it part and parcel of himself."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a53389c", "position": "Does not weaken humanity overall: physical loss outweighed by intellectual and social gains.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "In fact, machines are to be regarded as the mode of development by which human organism is now especially advancing, every past invention being an addition to the resources of the human body."},
+   {"cid": "c3", "match": "related", "quote": "We are unable to point to any example of a race absolutely devoid of extra-corporaneous limbs, but we can see among the Chinese that with the failure to invent new limbs, a civilisation becomes as much fixed as that of the ants; and among savage tribes we observe that few implements involve a state of things scarcely human at all."},
+   {"cid": "c4", "match": "related", "quote": "Having thus modified himself, not as other animals are modified, by circumstances over which they have had not even the appearance of control, but having, as it were, taken forethought and added a cubit to his stature, civilisation began to dawn upon the race, the social good offices, the genial companionship of friends, the art of unreason, and all those habits of mind which most elevate man above the lower animals, in the course of time ensued."},
+   {"cid": "c5", "match": "related", "quote": "They are to be regarded as the mode of development by which human organism is most especially advancing, and every fresh invention is to be considered as an additional member of the resources of the human body."},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "related", "quote": "A few miserable individuals might linger, but even these in a year or two would become worse than monkeys."}
+  ]},
+ {"aid": "ad1efc5", "position": "Does not weaken: machines are God's creation; man's role is to control them.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "no", "quote": ""},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "no", "quote": ""},
+   {"cid": "c6", "match": "no", "quote": ""},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]},
+ {"aid": "a18bf3c", "position": "Does not weaken: machine is optional means that stimulates as well as saves effort.",
+  "matches": [
+   {"cid": "c1", "match": "no", "quote": ""},
+   {"cid": "c2", "match": "related", "quote": "To avoid misunderstanding, I must say that I am thinking of the modern machine, which is as it were alive, and to which the man is auxiliary, and not of the old machine, the improved tool, which is auxiliary to the man, and only works as long as his hand is"},
+   {"cid": "c3", "match": "no", "quote": ""},
+   {"cid": "c4", "match": "no", "quote": ""},
+   {"cid": "c5", "match": "related", "quote": "He need not, for instance, grind his corn in a hand-quern; a little trickle of water, a wheel, and a few simple contrivances will do it all perfectly well, and leave him free to smoke his pipe and think, or to carve the handle of his knife."},
+   {"cid": "c6", "match": "same", "quote": "But the same motive which urges a man to activity will become additionally powerful, when he finds his comforts procured with diminished labour; and in such circumstances, it is probable, that many would employ the time thus redeemed in contriving new tools for other branches of their occupations."},
+   {"cid": "c7", "match": "no", "quote": ""},
+   {"cid": "c8", "match": "no", "quote": ""}
+  ]}
+]

@@ -1,0 +1,136 @@
+{
+  "version": "0.1",
+  "date": "2026-09-28",
+  "status": "draft",
+  "themes": [
+    {
+      "slug": "thinking",
+      "order": 1,
+      "name": "THINKING",
+      "question": "Can a machine think?",
+      "summary": "Whether calculation, play, or composition by a machine counts as thought, or only imitates it.",
+      "direction": "machine"
+    },
+    {
+      "slug": "automaton",
+      "order": 2,
+      "name": "AUTOMATON",
+      "question": "Is the human being a machine?",
+      "summary": "Whether human action is fully determined by mechanism, and what is left of freedom if it is.",
+      "direction": "human"
+    },
+    {
+      "slug": "life",
+      "order": 3,
+      "name": "LIFE",
+      "question": "What separates the living from the mechanical?",
+      "summary": "Whether organisms are complex machines or have a principle that no machine can have.",
+      "direction": "both"
+    },
+    {
+      "slug": "judgment",
+      "order": 4,
+      "name": "JUDGMENT",
+      "question": "Should reasoning be handed to mechanical procedure?",
+      "summary": "Whether disputes can be settled by calculation, and what is lost when rules replace judgment.",
+      "direction": "human"
+    },
+    {
+      "slug": "succession",
+      "order": 5,
+      "name": "SUCCESSION",
+      "question": "Will machines evolve beyond humanity?",
+      "summary": "Whether machines will develop along their own line and displace the people who made them.",
+      "direction": "machine"
+    },
+    {
+      "slug": "transcendence",
+      "order": 6,
+      "name": "TRANSCENDENCE",
+      "question": "Should humans use machines to overcome their limits?",
+      "summary": "Whether technology should be used to defeat death, the body, or human nature.",
+      "direction": "human"
+    },
+    {
+      "slug": "labor",
+      "order": 7,
+      "name": "LABOR",
+      "question": "Does machine work free the worker or degrade them?",
+      "summary": "Whether machinery relieves toil or reduces the worker to a part of the machine.",
+      "direction": "human"
+    },
+    {
+      "slug": "habit",
+      "order": 8,
+      "name": "HABIT",
+      "question": "Does a mechanized life make people mechanical?",
+      "summary": "Whether routine, speed, and the city turn people into automata.",
+      "direction": "human"
+    },
+    {
+      "slug": "dependence",
+      "order": 9,
+      "name": "DEPENDENCE",
+      "question": "Does relying on machines weaken human capacities?",
+      "summary": "Whether tools that do our work leave us unable to do it ourselves.",
+      "direction": "human"
+    },
+    {
+      "slug": "control",
+      "order": 10,
+      "name": "CONTROL",
+      "question": "Can people control what they make?",
+      "summary": "Whether a made thing can escape its maker, and who is responsible when it does.",
+      "direction": "machine"
+    },
+    {
+      "slug": "personhood",
+      "order": 11,
+      "name": "PERSONHOOD",
+      "question": "Do artificial beings have moral standing?",
+      "summary": "Whether a made being can be wronged, and whether using one is a kind of slavery.",
+      "direction": "machine"
+    },
+    {
+      "slug": "sacred",
+      "order": 12,
+      "name": "SACRED",
+      "question": "Is the machine divine, idolatrous, or providential?",
+      "summary": "Whether machines are objects of worship, instruments of God's plan, or false gods.",
+      "direction": "machine"
+    },
+    {
+      "slug": "civilization",
+      "order": 13,
+      "name": "CIVILIZATION",
+      "question": "Is machinery the measure of civilization?",
+      "summary": "Whether technical power shows that a people is advanced, or is a narrower thing than civilization.",
+      "direction": "both"
+    },
+    {
+      "slug": "state",
+      "order": 14,
+      "name": "STATE",
+      "question": "Is society a machine, and should it be?",
+      "summary": "Whether governments and nations are mechanisms, and what happens to the people inside them.",
+      "direction": "human"
+    },
+    {
+      "slug": "extension",
+      "order": 15,
+      "name": "EXTENSION",
+      "question": "Are tools part of us or foreign to us?",
+      "summary": "Whether technology extends the human body and mind or stands against them.",
+      "direction": "both"
+    },
+    {
+      "slug": "intimacy",
+      "order": 16,
+      "name": "INTIMACY",
+      "question": "Can an artificial being be loved?",
+      "summary": "Whether love for a made being is real or a deception.",
+      "direction": "machine"
+    }
+  ],
+  "note": "Theme membership of works now comes from data/stances.json via each theme's questions. The earlier per-theme seed lists are in data/archive/seed-works-v0.1.json."
+}

@@ -1,124 +1,90 @@
 import type { Metadata } from "next";
-import { Fraunces, IBM_Plex_Mono, Newsreader } from "next/font/google";
+import {
+  IBM_Plex_Mono,
+  Instrument_Sans,
+  Newsreader,
+  Silkscreen,
+  UnifrakturMaguntia,
+} from "next/font/google";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
-import { data } from "@/lib/data";
+import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  axes: ["opsz"],
+const instrument = Instrument_Sans({
+  variable: "--font-instrument",
+  subsets: ["latin", "latin-ext"],
 });
 
 const newsreader = Newsreader({
   variable: "--font-newsreader",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   style: ["normal", "italic"],
+  axes: ["opsz"],
+});
+
+const silkscreen = Silkscreen({
+  variable: "--font-silkscreen",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "700"],
+});
+
+const fraktur = UnifrakturMaguntia({
+  variable: "--font-fraktur",
+  subsets: ["latin"],
+  weight: "400",
 });
 
 const plexMono = IBM_Plex_Mono({
   variable: "--font-plex-mono",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
-  title: data.meta.title,
+  title: {
+    default: "Humanity's First Exam",
+    template: "%s · Humanity's First Exam",
+  },
   description:
-    "Questions about machines and human autonomy, put to a pre-1931 language model and present-day models, scored against positions attested in the period record.",
+    "Positions on machines and human autonomy from 1600–1950, used as a reference list for testing language models.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${newsreader.variable} ${plexMono.variable} h-full antialiased`}
+      suppressHydrationWarning
+      className={`${instrument.variable} ${newsreader.variable} ${silkscreen.variable} ${fraktur.variable} ${plexMono.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <header className="border-b border-line">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-x-5 gap-y-2 px-4 py-3 sm:gap-x-6 sm:gap-y-3 sm:px-5 sm:py-4">
-            <Link href="/">
-              <span className="font-display text-lg font-semibold tracking-tight sm:text-xl">
-                {data.meta.title}
-              </span>
-              <span className="ml-2 whitespace-nowrap font-mono text-[10px] text-ink-faint sm:ml-3 sm:text-xs">
-                1850–1940 ⇄ now
-              </span>
-            </Link>
-            <nav className="flex flex-wrap gap-x-4 gap-y-1 font-mono text-[11px] sm:gap-x-6 sm:text-sm">
-              <Link href="/demo" className="text-ink-soft hover:text-ink">
-                Demo
-              </Link>
-              <Link href="/questions" className="text-ink-soft hover:text-ink">
-                Questions
-              </Link>
-              <Link href="/sources" className="text-ink-soft hover:text-ink">
-                Sources
-              </Link>
-              <Link href="/method" className="text-ink-soft hover:text-ink">
-                Method
-              </Link>
-              {process.env.NODE_ENV === "development" && (
-                <Link href="/admin" className="text-period hover:text-ink">
-                  Review
-                </Link>
-              )}
-            </nav>
-          </div>
-        </header>
-        <div className="flex-1">{children}</div>
-        <Analytics />
-        <footer className="mt-12 border-t border-line">
-          <div className="mx-auto grid max-w-6xl gap-5 px-5 py-7 text-sm text-ink-soft sm:grid-cols-[1fr_auto] sm:items-end">
-            <div>
-              <p className="font-display text-base font-semibold text-ink">
-                {data.meta.title}
-              </p>
-              <p className="mt-1">
-                Created by{" "}
-                <a
-                  href="https://benjaminpbreen.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
-                >
-                  Ben Breen
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://www.linkedin.com/in/nathan-cl-davies"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-line underline-offset-4 hover:decoration-ink-soft"
-                >
-                  Nathan Davies
-                </a>
-                .
-              </p>
-            </div>
-            <div className="sm:text-right">
-              <nav className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs">
-                <Link href="/codebook" className="hover:text-ink">
-                  Schema
-                </Link>
-                <Link href="/method" className="hover:text-ink">
-                  Method
-                </Link>
-                <Link href="/about" className="hover:text-ink">
-                  About
-                </Link>
-              </nav>
-              <p className="mt-3 font-mono text-[9px] uppercase tracking-wider text-ink-faint">
-                {data.meta.version} · {data.meta.generated}
-              </p>
-            </div>
+      <head>
+        {/* Apply the saved heading face and colour theme before paint. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{var d=document.documentElement;if(localStorage.getItem("face")==="fraktur")d.dataset.face="fraktur";var t=localStorage.getItem("theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}`,
+          }}
+        />
+      </head>
+      <body className="flex min-h-dvh flex-col">
+        <SiteHeader />
+        <main className="mx-auto w-full max-w-6xl flex-1 px-4 pt-10 pb-24 sm:px-8 sm:pt-14">
+          {children}
+        </main>
+        <footer className="border-t border-line">
+          <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-2 px-4 py-6 text-sm text-ink-faint sm:px-8">
+            <span>Benjamin Breen · Nathan Davies</span>
+            <Link href="/coding" className="hover:text-ink">Coding</Link>
+            <a
+              href="https://github.com/benjaminbreen/HumanitysFirstExam"
+              className="hover:text-ink"
+            >
+              Source
+            </a>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );

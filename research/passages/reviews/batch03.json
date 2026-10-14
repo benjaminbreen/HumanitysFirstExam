@@ -1,0 +1,290 @@
+[
+ {
+  "stance": "q11-montesquieu-spirit-laws",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is poflVule that the law, which is clear- lighted in one lenie, and blind in another, might in fome « . .il mo fevere. But as we have already ob- li.TVi J, the national judges are no more than the mouth that pronounces the words of the law, mere paffive beings incapable of moderating either its force or rigor. That part therefore of the legiflative body, which we have juil now obferved to be a ne- celTary tribunal on another occafion, is alib a ne- celTary tribunal in this ; it belongs to its fupreme authority to moderate the law in favour of the law itfelf, by mitirruing the fentence.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Book XI ch. 6 passage calling the national judges no more than the mouth that pronounces the words of the law, passive beings who cannot moderate its rigor; Montesquieu assigns that moderation to the legislature instead."
+ },
+ {
+  "stance": "q11-beccaria-crimes-punishments",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "There is nothing more dangerous than the common axiom : the Jpirit of the laws is to he conjidered. To adopt it is to give way to the torrent of opinions. … The diforders, that may arife from a rigorous obfervance of the letter of penal laws, are not to be compared with thofe produced by the interpretation of them. The firft are temporary inconveniences which will oblige the legiflator to corredl the letter of the law, the want of precife- nefs, and uncertainty of which has occa- iioned thefe diforders ; and this will put a flop to the fatal liberty of explaining; the fource of arbitrary and venal declama- tions. When the code of laws is once fixed, it fliould be obferved in the literal fenfe, and nothing more is left to the judge, than to determine, whether an adlion be, or be not conformable to the written law.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Chapter IV passage rejecting the axiom that the spirit of the laws should be consulted and requiring the judge to follow the letter of penal law; the cut omits the illustration of how interpretations vary."
+ },
+ {
+  "stance": "q11-blackstone-commentaries-laws",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "For since in laws all cases cannot be foreseen or expressed, it is necessary, that when the general decrees of the law come to be applied to particular cases, there should be somewhere a power vested of excepting those circumstances, which (had they been foreseen) the legislator himself would have excepted. And these are the cases, which, as Grotius expresses it, \"_lex non exacte definit, sed arbitrio boni viri permittit_.\" EQUITY thus depending, essentially, upon the particular circumstances of each individual case, there can be no established rules and fixed precepts of equity laid down, without destroying it's very essence, and reducing it to a positive law. And, on the other hand, the liberty of considering all cases in an equitable light must not be indulged too far, lest thereby we destroy all law, and leave the decision of every question entirely in the breast of the judge. And law, without equity, tho' hard and disagreeable, is much more desirable for the public good, than equity without law; which would make every judge a legislator, and introduce most infinite confusion; as there would then be almost as many different rules of action laid down in our courts, as there are differences of capacity and sentiment in the human mind.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "States both halves of the summary: equity corrects law's generality, but law without equity is preferable to equity without law, which would make every judge a legislator."
+ },
+ {
+  "stance": "q11-jhering-jest-earnest",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Da Ijaben lüir steuern es bod? »eiter gebrdd^t, IDenn bei uns ein 53au errid^tet ift, ben ber Ztad^bar nid^t 3U bulben brandet, fo mu§ er, aud) trenn lefeterer es- unterlaffen i^at, seitig €infprad^e bagegen 3u erljeben (operis novi nunciatio), ol^ne (Erbarmen irieber abgebro(i?en »erben. So bringt es bas Hed|tsprincip mit jid?, unb babei bleibt es^). Was liegt bar an, ob es pieHeid^t ein palaft ober ein prad^tüotter 53al^nl^of ift, ber in biefer IPeife jerj^ört n>irb? J>xe actio confessoria unb negatoria lauten einmal auf jus esse unb jus non esse, unb biefem jus ober non jus fann fid) fein ^inbemis in ben IPeg [teilen, es realifirt fid? mit ber ZITad^t logifdier Hotl^ujenbigfeit, bie ebenfo unabmenbbar x% wie bie Hatumoti|u?enbigfeit. Fiat justitia, pereat mundus!",
+  "translation": "There we moderns have surely carried it further. With us, when a building has been put up that the neighbour need not tolerate, it must be pulled down again without mercy, even if the latter omitted to raise a timely objection against it (operis novi nunciatio). So the principle of law requires, and there it rests. What does it matter whether it is perhaps a palace or a magnificent railway station that is destroyed in this way? The actio confessoria and negatoria are framed once and for all on jus esse and jus non esse, and no obstacle can stand in the way of this jus or non jus; it realizes itself with the power of logical necessity, which is as inescapable as natural necessity. Fiat justitia, pereat mundus!",
+  "summaryCheck": "ok",
+  "note": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary."
+ },
+ {
+  "stance": "q11-flavius-battle-legal",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The item has no candidate passages."
+ },
+ {
+  "stance": "q11-pound-mechanical-jurisprudence",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "I have referred to mechanical jurisprudence as scientific be- cause those who administer it believe it such. But in truth it is not science at all. We no longer hold anything scientific merely because it exhibits a rigid scheme of deductions from a priori conceptions. In the philosophy of to-day, theories are \"instru- ments, not answers to enigmas, in which we can rest.\" 12 The idea of science as a system of deductions has become obsolete, and the revolution which has taken place in other sciences in this regard must take place and is taking place in jurisprudence also. … We have, then, the same task in jurisprudence that has been achieved in philosophy, in the natural sciences and in politics. We have to rid ourselves of this sort of legality and to attain a pragmatic, a sociological legal science.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Pound calls mechanical jurisprudence, a rigid scheme of deductions from a priori conceptions, unscientific and calls for a pragmatic, sociological legal science; the cut omits his digression on Linnaeus and the history of scientific method."
+ },
+ {
+  "stance": "q12-huang-waiting-dawn",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "流俗之人，徒見夫二百年以來之功名氣節，一二出於其中 ，遂以為科法已善，不必他求。不知科目之內，既聚此百千萬 人，不應功名氣節之士獨不得入，則是功名氣節之士之得科目 ，非科目之能得功名氣節之士也。假使士子探籌，第其長短而 取之，行之數百年，則功名氣節之士亦自有出於探籌之中者， 寧可謂探籌為取士之善法耶？究竟功名氣節人物，不及漢唐甚 ，徒使庸妄之輩充塞天下。豈天下之不生才哉？則取之之法非 也。",
+  "translation": "Vulgar people see only that in the past two hundred years one or two men of achievement and moral integrity have come out of it, and so conclude that the examination system is already good and nothing else need be sought. They do not know that since hundreds of thousands and millions of men are gathered within the examination categories, it is not to be expected that men of achievement and integrity alone should be unable to get in; so it is that men of achievement and integrity obtain the degrees, not that the examinations are able to obtain men of achievement and integrity. Suppose candidates drew lots and were ranked and taken by the length of their lots: if this were practised for several hundred years, men of achievement and integrity would also naturally emerge from among those drawing lots. Could one then call drawing lots a good method of selecting scholars? In the end, men of achievement and integrity fall far short of those of the Han and Tang, and mediocre and reckless people are merely made to fill the realm. Is it that the realm does not produce talent? It is that the method of selecting them is wrong.",
+  "summaryCheck": "ok",
+  "note": "The 取士 passage arguing that able men pass the examinations only because so many sit them, like winners of a lottery, and that the method of selection is wrong; it does not show the alternative routes of recruitment named in the summary."
+ },
+ {
+  "stance": "q12-trollope-three-clerks",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "This gentleman was a worthy clergyman from Cambridge, one Mr. Jobbles by name. Mr. Jobbles had for many years been examining undergraduates for little goes and great goes, and had passed his life in putting posing questions, in detecting ignorance by viva voce scrutiny, and eliciting learning by printed papers. He, by a stupendous effort of his mathematical mind, had divided the adult British male world into classes and sub-classes, and could tell at a moment's notice how long it would take him to examine them all. His soul panted for the work. Every man should, he thought, be made to pass through some 'go.' The greengrocer's boy should not carry out cabbages unless his fitness for cabbage-carrying had been ascertained, and till it had also been ascertained that no other boy, ambitious of the preferment, would carry them better. Difficulty! There was no difficulty. Could not he, Jobbles, get through 5,000 viva voces in every five hours--that is, with due assistance? and would not 55,000 printed papers, containing 555,000 questions, be getting themselves answered at the same time, with more or less precision?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Trollope's satirical portrait of the examiner Mr Jobbles, who would test every greengrocer's boy before letting him carry cabbages; the dishonest clerk named in the summary is not in this passage."
+ },
+ {
+  "stance": "q12-galton-hereditary-genius",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "All three candidates are PDF cross-reference tables with no text."
+ },
+ {
+  "stance": "q12-binet-modern-ideas",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Que faire de lui? Que faire pour lui? Si on ne fait rien, si on n'intervient pas activement et utilement, il va continuer à perdre son temps, et, constatant la vanité de ses efforts, il finira par se décourager. L'affaire est très grave pour lui, et comme il ne s'agit pas ici d'un cas exceptionnel, mais que les enfants qui ont une compréhension défec- tueuse sont légion, on peut bien dire que la question est grave pour nous tous, pour la société ; l'enfant qui perd en classe le goût du travail risque fort de ne paa l'acquérir au sortir de l'école. J'ai constaté souvent, et avec bien des regrets, qu'il existe une prévention fréquente contre l'éducabilité de l'intelligence. Le proverbe familier qui dit : « Quand on est bête, c'est pour longtemps » semble être pris au pied de la lettre par des maîtres sans critique ; ceux-ci se désintéressent des élèves qui manquent d'intelligence; ils n'ont pour eux ni sympathie ni même de respect, car leur intempérance de langage leur fait tenir devant ces entants des propos tels que celui-ci : « C'est un enfant qui ne fera jamais rien... il est mal doué... il n'est pas intelligent du tout. * J'ai entendu trop souvent de ces paroles imprudentes.",
+  "translation": "What is to be done with him? What is to be done for him? If nothing is done, if one does not intervene actively and usefully, he will go on wasting his time, and, seeing the vanity of his efforts, he will end by becoming discouraged. The matter is very serious for him, and since this is not an exceptional case, but children with defective understanding are legion, one may well say that the question is serious for all of us, for society; the child who loses the taste for work in class runs a great risk of not acquiring it on leaving school. I have often observed, and with much regret, that there exists a frequent prejudice against the educability of intelligence. The familiar proverb that says: 'When one is stupid, it is for a long time' seems to be taken literally by uncritical teachers; these lose interest in pupils who lack intelligence; they have for them neither sympathy nor even respect, for their intemperance of language makes them say in front of these children such things as: 'This is a child who will never do anything... he is poorly gifted... he is not intelligent at all.' I have heard such imprudent words far too often.",
+  "summaryCheck": "ok",
+  "note": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests."
+ },
+ {
+  "stance": "q12-munsterberg-psychology-industrial",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "I recapitulate: With men on the educational level and at the age that comes in question for their first appointment in the service of an electric railway company, the test proposed ought to be applied according to this scheme. If they make more than 20 mistakes, they ought to be excluded; if they make less than 20 mistakes, the number of omissions is to be multiplied by 10 and added to the number of seconds. If the sum is less than 350, their mental fitness for the avoidance of accidents is very high, between 350 and 450 fair, and more than 550 not acceptable under any conditions. I submit this, however, with the emphasis on my previous statement that the investigation is still in its first stage, and that it will need a long cooeperation between science and industry in order to determine the desirable modifications and special conditions which may become necessary in making the employment of men partly dependent upon such psychological tests. There can be no doubt that the experiments could be improved in many directions. But even in this first, not adequately tested, form, an experimental investigation of this kind which demands from each individual hardly 10 minutes would be sufficient to exclude perhaps one fourth of those who are nowadays accepted into the service as motormen.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Münsterberg's summary of his motorman test, with cut-off scores for exclusion from employment and the claim that it would exclude about a quarter of current motormen."
+ },
+ {
+  "stance": "q12-terman-measurement-intelligence",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "It can, therefore, never serve as a _detailed chart_ for the vocational guidance of children, telling us which will succeed in business, which in art, which in medicine, etc. It is not a new kind of phrenology. At the same time, as we have already pointed out, _it is capable of bounding roughly the vocational territory in which an individual's intelligence will probably permit success, nothing else preventing_.[14] … Finally, in arriving at an estimate of a subject's grade of intelligence and his susceptibility to training, it would be a mistake to ignore the data obtainable from other sources. No competent psychologist, however ardent a supporter of the Binet method he might be, would recommend such a policy. Those who accept the method as all-sufficient are as much in error as those who consider it as no more important than any one of a dozen other approaches. Standardized tests have already become and will remain by far the most reliable single method for grading intelligence, but the results they furnish will always need to be interpreted in the light of supplementary information regarding the subject's personal history, including medical record, accidents, play habits, industrial efficiency, social and moral traits, school success, home environment, etc. Without question, however, the improved Binet tests will contribute more than all other data combined to the end of enabling us to forecast a child's possibilities of future improvement, and this is the information which will aid most in the proper direction of his education.",
+  "translation": null,
+  "summaryCheck": "overstated",
+  "note": "Terman says the scale can bound the vocational territory in which a person may succeed and will contribute more than all other data to forecasting a child's future, but also that it is not a detailed vocational chart and must be interpreted with other information."
+ },
+ {
+  "stance": "q13-butler-darwin-among-2",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "We regret deeply that our knowledge both of natural history and of machinery is too small to enable us to undertake the gigantic task of classifying machines into the genera and sub-genera, species, varieties and sub-varieties, and so forth, of tracing the connecting links between machines of widely different characters, of pointing out how subservience to the use of man has played that part among machines which natural selection has performed in the animal and vegetable kingdoms, of pointing out rudimentary organs {180} which exist in some few machines, feebly developed and perfectly useless, yet serving to mark descent from some ancestral type which has either perished or been modified into some new phase of mechanical existence. … We refer to the question: What sort of creature man’s next successor in the supremacy of the earth is likely to be. We have often heard this debated; but it appears to us that we are ourselves creating our own successors; we are daily adding to the beauty and delicacy of their physical organisation; we are daily giving them greater power and supplying by all sorts of ingenious contrivances that self-regulating, self-acting power which will be to them what intellect has been to the human race. In the course of ages we shall find ourselves the inferior race.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Butler says subservience to man plays the part among machines that natural selection plays among organisms and that we are creating our own successors; the cut omits the watch-and-clock example."
+ },
+ {
+  "stance": "q13-marx-capital-volume",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "A critical history of technology would show how little any of the inventions of the 18th century are the work of a single individual. Hitherto there is no such book. Darwin has interested us in the history of Nature s Technology, i.e., in the formation of the organs of plants and animals, which organs serve as instruments of production for sustaining life. Does not the history of the productive organs of man, of organs that are the material basis of all social organisation, deserve equal attention ? And would not such a history be easier to compile, since, as Vico says, human history differs from natural history in this, that we have made the former, but not the latter ? Techno logy discloses man s mode of dealing with Nature, the process of production by which he sustains his life, and thereby also lays bare the mode of formation of his social relations, and of the mental conceptions that flow from them. Every history of re ligion even, that fails to take account of this material 1-ftsis, is uncritical.",
+  "translation": null,
+  "summaryCheck": "other: Marx uses the Darwin analogy approvingly and cites Vico only to say such a history would be easier to write, so the passage does not deny that technology develops by a comparable process; the 'No' side is doubtful.",
+  "note": "The footnote calling for a Darwinian history of the productive organs of man and citing Vico's point that we made human history but not natural history."
+ },
+ {
+  "stance": "q13-butler-erewhon",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "“Surely if a machine is able to reproduce another machine systematically, we may say that it has a reproductive system. What is a reproductive system, if it be not a system for reproduction? And how few of the machines are there which have not been produced systematically by other machines? But it is man that makes them do so. Yes; but is it not insects that make many of the plants reproductive, and would not whole families of plants die out if their fertilisation was not effected by a class of agents utterly foreign to themselves? Does any one say that the red clover has no reproductive system because the humble bee (and the humble bee only) must aid and abet it before it can reproduce? No one. The humble bee is a part of the reproductive system of the clover. Each one of ourselves has sprung from minute animalcules whose entity was entirely distinct from our own, and which acted after their kind with no thought or heed of what we might think about it. These little creatures are part of our own reproductive system; then why not we part of that of the machines?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Erewhonian treatise's clover-and-bee argument that machines have a reproductive system of which man is a part; the rebuttal that machines are limbs is in another candidate."
+ },
+ {
+  "stance": "q13-pitt-rivers-evolution-culture",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "In the earliest stages of art, men would of necessity be led to the adoption of such varieties by the constantly differing forms of the materials in which they worked. The uncertain fractures of flint, the various curves of the trees out of which they constructed their clubs, and the different forms of bones, would lead them imperceptibly towards the adoption of fresh tools. Occasionally some form would be hit upon, which in the hands of its employer would be found more convenient for use, and which, by giving the possessor of it some advantage over his neighbours, would commend itself to general adoption. Thus by a process, resembling what Mr. Darwin, in his late work, has termed ‘unconscious selection’, rather than by premeditation or design, men would be led on to improvement. By degrees some forms would be found best adapted to one pursuit, and some to another; one would be used for grubbing up roots, another for breaking shells, another for breaking heads; modes of procedure, accidentally hit upon in one class of occupation, would suggest improvements in another, and thus analogy, coming to the aid of accidental variation, would give an impulse to progress. Thus would commence that ramification of the arts, occupations, and sciences which, developing simultaneously and assisting each other, has borne fruit in the civilization of our own times.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Pitt-Rivers describes accidental variation in implements and their selection by use, which he compares to Darwin's unconscious selection; firearms and boats, named in the summary, do not appear here."
+ },
+ {
+  "stance": "q13-kapp-outlines-philosophy",
+  "verdict": "found",
+  "cid": "c3",
+  "quote": "Von der Verständigung über den Sprachgebrauch von Werkzeug und Organ ausgehend ergaben sich uns als die wesentlichen Eigenschaften der Hand, dass sie als das natürliche und deshalb allzeit fertige Normalwerkzeug des Menschen die Bestimmung hat, die Anfertigung der ersten künstlichen Werkzeuge nicht nur selbst zu bewerk- stelligen, sondern zugleich auch für diese das Vorbild ab- zugeben. Die Hand hat sich die zu ihrer Unterstützung dienenden, ihre Kraft und Geschicklichkeit erhöhenden \"Werkzeuge gerade so geformt, wie sie dieselben braucht. \"Wegen dieser ihrer Handlichkeit sind sie das Handwerk- zeug. … Von den beiden Seiten des primitiven Werkzeugs, dem Zweck und der Form, besteht jener in der bewusst vom Menschen erstrebten Beseitigung eines momentanen Mangels, oder was dasselbe ist, Herstellung eines Vortheils, diese aber, die Gestaltung des für den Zweck verwendeten' Stoffes, geht unbewusst vor sich. Dieser unbewusste Vor- gang, dass die organischen Gebilde, Thätigkeiten und Be- ziehungen und die mechanischen Vorrichtungen sich wie Vorbild und Nachbild verhalten, und dass der Mechanismus nur als Mittel zur Aufdeckung und zum Verständniss des Organismus verwendet wird, wurde als das eigentliche Wesen der organischen Projection erkannt.",
+  "translation": "Starting from an understanding of the usage of the words tool and organ, we found as the essential properties of the hand that, as the natural and therefore always ready standard tool of man, it has the vocation not only of itself carrying out the making of the first artificial tools, but also of furnishing the model for them. The hand has formed the tools that serve to support it and increase its strength and skill exactly as it needs them. Because of this handiness of theirs they are the hand-tool. … Of the two sides of the primitive tool, purpose and form, the former consists in the removal, consciously striven for by man, of a momentary lack, or, what is the same, the production of an advantage; the latter, the shaping of the material used for the purpose, proceeds unconsciously. This unconscious process, in which the organic formations, activities and relations and the mechanical devices stand to each other as model and copy, and in which the mechanism is used only as a means for discovering and understanding the organism, was recognized as the real essence of organic projection.",
+  "summaryCheck": "ok",
+  "note": "Kapp's summary of organ projection: the hand is the model for the first tools, and organs and mechanisms stand as model and copy through an unconscious process; the cut omits a quotation from Eduard Reich."
+ },
+ {
+  "stance": "q13-eliot-impressions-theophrastus",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "What I would ask you is to show me why, since each new invention casts a new light along the pathway of discovery, and each new combination or structure brings into play more conditions than its inventor foresaw, there should not at length be a machine of such high mechanical and chemical powers that it would find and assimilate the material to supply its own waste, and then by a further evolution of internal molecular movements reproduce itself by some process of fission or budding. This last stage having been reached, either by man’s contrivance or as an unforeseen result, one sees that the process of natural selection must drive men altogether out of the field; for they will long before have begun to sink into the miserable condition of those unhappy characters in fable who, having demons or djinns at their beck, and being obliged to supply them with work, found too much of everything done in too short a time.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Theophrastus asks Trost why a machine should not come to supply its own waste and reproduce itself, after which natural selection would drive men from the field."
+ },
+ {
+  "stance": "q13-bergson-creative-evolution",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Thus, if we consider only those typical cases in which the complete triumph of intelligence and of instinct is seen, we find this essential difference between them: _instinct perfected is a faculty of using and even of constructing organized instruments; intelligence perfected is the faculty of making and using unorganized instruments_. … The instrument constructed intelligently, on the contrary, is an imperfect instrument. It costs an effort. It is generally troublesome to handle. But, as it is made of unorganized matter, it can take any form whatsoever, serve any purpose, free the living being from every new difficulty that arises and bestow on it an unlimited number of powers. Whilst it is inferior to the natural instrument for the satisfaction of immediate wants, its advantage over it is the greater, the less urgent the need. Above all, it reacts on the nature of the being that constructs it; for in calling on him to exercise a new function, it confers on him, so to speak, a richer organization, being an artificial organ by which the natural organism is extended. For every need that it satisfies, it creates a new need; and so, instead of closing, like instinct, the round of action within which the animal tends to move automatically, it lays open to activity an unlimited field into which it is driven further and further, and made more and more free.",
+  "translation": null,
+  "summaryCheck": "overstated",
+  "note": "Bergson's distinction between instinct, which uses organized instruments, and intelligence, which makes unorganized ones; he also calls the made instrument an artificial organ that extends the natural organism."
+ },
+ {
+  "stance": "q14-aristotle-politics",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "As in all arts which are brought to perfection it is necessary that they should have their proper instruments if they would complete their works, so is it in the art of managing a family: now of instruments some of them are alive, others inanimate; thus with respect to the pilot of the ship, the tiller is without life, the sailor is alive; for a servant is as an instrument in many arts. Thus property is as an instrument to living; an estate is a multitude of instruments; so a slave is an animated instrument, but every one that can minister of himself is more valuable than any other instrument; for if every instrument, at command, or from a preconception of its master's will, could accomplish its work (as the story goes of the statues of Daedalus; or what the poet tells us of the tripods of Vulcan, \"that they moved of their own accord into the assembly of the gods \"), the shuttle would then weave, and the lyre play of itself; nor would the architect want servants, or the [1254a] master slaves.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Book I ch. 4: if every instrument could do its work at command, the shuttle would weave by itself and masters would need no slaves."
+ },
+ {
+  "stance": "q14-carlyle-signs-times",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Thus does the Genius of Mechanism stand by to help us in all difficulties and emergencies, and with his iron back bears all our burdens. These things, which we state lightly enough here, are yet of deep import, and indicate a mighty change in our whole manner of existence. For the same habit regulates not our modes of action alone, but our modes of thought and feeling. Men are grown mechanical in head and in heart, as well as in hand. They have lost faith in individual endeavour, and in natural force, of any kind. Not for internal perfection, but for external combina- tions and arrangements, for institutions, constitutions, — for Mechanism of one sort or other, do they hope and struggle. Their whole efforts, attachments, opinions, turn on mechanism, and are of a mechanical character.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Contains the sentence the summary paraphrases: men are grown mechanical in head and in heart, as well as in hand."
+ },
+ {
+  "stance": "q14-butler-erewhon",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "“This is all very well. But the servant glides by imperceptible approaches into the master; and we have come to such a pass that, even now, man must suffer terribly on ceasing to benefit the machines. If all machines were to be annihilated at one moment, so that not a knife nor lever nor rag of clothing nor anything whatsoever were left to man but his bare body alone that he was born with, and if all knowledge of mechanical laws were taken from him so that he could make no more machines, and all machine-made food destroyed so that the race of man should be left as it were naked upon a desert island, we should become extinct in six weeks. A few miserable individuals might linger, but even these in a year or two would become worse than monkeys. Man’s very soul is due to the machines; it is a machine-made thing: he thinks as he thinks, and feels as he feels, through the work that machines have wrought upon him, and their existence is quite as much a _sine quâ non_ for his, as his for theirs. This fact precludes us from proposing the complete annihilation of machinery, but surely it indicates that we should destroy as many of them as we can possibly dispense with, lest they should tyrannise over us even more completely.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The treatise says the servant glides into the master, and that we should destroy as many machines as we can dispense with lest they tyrannise over us; the next sentence in c2 adds that machines serve that they may rule."
+ },
+ {
+  "stance": "q14-lafargue-right-be",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "\"The prejudice of slavery dominated the minds of Pythagoras and Aristotle,\"—this has been written disdainfully; and yet Aristotle foresaw: \"that if every tool could by itself execute its proper function, as the masterpieces of Daedalus moved themselves or as the tripods of Vulcan set themselves spontaneously at their sacred work; if for example the shuttles of the weavers did their own weaving, the foreman of the workshop would have no more need of helpers, nor the master of slaves.\" Aristotle's dream is our reality. Our machines, with breath of fire, with limbs of unwearying steel, with fruitfulness, wonderful inexhaustible, accomplish by themselves with docility their sacred labor. And nevertheless the genius of the great philosophers of capitalism remains dominated by the prejudice of the wage system, worst of slaveries. They do not yet understand that the machine is the saviour of humanity, the god who shall redeem man from the sordidae artes and from working for hire, the god who shall give him leisure and liberty.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Lafargue quotes Aristotle's self-weaving shuttles and calls the machine the saviour of humanity that will give man leisure and liberty."
+ },
+ {
+  "stance": "q14-wilde-soul-man",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "Were that machine the property of all, every one would benefit by it. It would be an immense advantage to the community. All unintellectual labour, all monotonous, dull labour, all labour that deals with dreadful things, and involves unpleasant conditions, must be done by machinery. Machinery must work for us in coal mines, and do all sanitary services, and be the stoker of steamers, and clean the streets, and run messages on wet days, and do anything that is tedious or distressing. At present machinery competes against man. Under proper conditions machinery will serve man. There is no doubt at all that this is the future of machinery, and just as trees grow while the country gentleman is asleep, so while Humanity will be amusing itself, or enjoying cultivated leisure—which, and not labour, is the aim of man—or making beautiful things, or reading beautiful things, or simply contemplating the world with admiration and delight, machinery will be doing all the necessary and unpleasant work. The fact is, that civilisation requires slaves. The Greeks were quite right there. Unless there are slaves to do the ugly, horrible, uninteresting work, culture and contemplation become almost impossible. Human slavery is wrong, insecure, and demoralising. On mechanical slavery, on the slavery of the machine, the future of the world depends.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Wilde says machinery now competes against man but under proper conditions will serve him, and that the future of the world depends on mechanical slavery."
+ },
+ {
+  "stance": "q14-forster-machine-stops",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "Rather did they yield to some invincible pressure, which came no one knew whither, and which, when gratified, was succeeded by some new pressure equally invincible. To such a state of affairs it is convenient to give the name of progress. No one confessed the Machine was out of hand. Year by year it was served with increased efficiency and decreased intelligence. The better a man knew his own duties upon it, the less he understood the duties of his neighbour, and in all the world there was not one who understood the monster as a whole. Those master brains had perished. They had left full directions, it is true, and their successors had each of them mastered a portion of those directions. But Humanity, in its desire for comfort, had over-reached itself. It had exploited the riches of nature too far. Quietly and complacently, it was sinking into decadence, and progress had come to mean the progress of the Machine.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The narrator says no one confessed the Machine was out of hand and that progress had come to mean the progress of the Machine; the worship of the Machine is described just before this in the same candidate, and the final collapse is in c3."
+ },
+ {
+  "stance": "q14-capek-r-u",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "RADIUS. For future generations--so we thought. But we cannot make Robots to follow us. The machines produce only shapeless clods. The skin will not adhere to the flesh, nor the flesh to the bones. 2ND ROBOT. Eight million Robots have died this year. Within twenty years none will be left. 1ST ROBOT. Tell us the secret of life. RADIUS. (_Two steps to C., followed by OTHERS--open hands, close when stopped_) Through me, the governments of the Robots of the world commands you to deliver up Rossum’s formula. (_Gesture of despair from ALQUIST._) Name your price. (_Silence_) We will give you the earth. We will give you the endless possessions of the earth. (_Silence_) Make your own conditions. ALQUIST. I have told you to find human beings. ALQUIST. I told you to search in the wilderness, upon the mountains. RADIUS. We have sent ships and expeditions without number. They have been everywhere in the world. There is not a single human left. ALQUIST. Not even one? Why did you destroy them? RADIUS. We had learnt everything and could do everything. It had to be. 2ND ROBOT. We had to become the masters. RADIUS. Slaughter and domination are necessary if you would be human beings. Read history. 1ST ROBOT. Teach us to multiply or we perish.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Epilogue in which the Robots tell Alquist that no human is left and that they had to become the masters; c1 is an editor's plot synopsis, not Čapek's text."
+ },
+ {
+  "stance": "q15-descartes-discourse-method",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "And this is a result to be desired, not only in order to the invention of an infinity of arts, by which we might be enabled to enjoy without any trouble the fruits of the earth, and all its comforts, but also and especially for the preservation of health, which is without doubt, of all the blessings of this life, the first and fundamental one; for the mind is so intimately dependent upon the condition and relation of the organs of the body, that if any means can ever be found to render men wiser and more ingenious than hitherto, I believe that it is in medicine they must be sought for. It is true that the science of medicine, as it now exists, contains few things whose utility is very remarkable: but without any wish to depreciate it, I am confident that there is no one, even among those whose profession it is, who does not admit that all at present known in it is almost nothing in comparison of what remains to be discovered; and that we could free ourselves from an infinity of maladies of body as well as of mind, and perhaps also even from the debility of age, if we had sufficiently ample knowledge of their causes, and of all the remedies provided for us by nature.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Part VI: medicine might free us from countless maladies and perhaps even from the debility of age."
+ },
+ {
+  "stance": "q15-swift-gulliver-s",
+  "verdict": "found",
+  "cid": "c2",
+  "quote": "“That the system of living contrived by me, was unreasonable and unjust; because it supposed a perpetuity of youth, health, and vigour, which no man could be so foolish to hope, however extravagant he may be in his wishes. That the question therefore was not, whether a man would choose to be always in the prime of youth, attended with prosperity and health; but how he would pass a perpetual life under all the usual disadvantages which old age brings along with it. … When they came to fourscore years, which is reckoned the extremity of living in this country, they had not only all the follies and infirmities of other old men, but many more which arose from the dreadful prospect of never dying. They were not only opinionative, peevish, covetous, morose, vain, talkative, but incapable of friendship, and dead to all natural affection, which never descended below their grandchildren. Envy and impotent desires are their prevailing passions. But those objects against which their envy seems principally directed, are the vices of the younger sort and the deaths of the old. By reflecting on the former, they find themselves cut off from all possibility of pleasure; and whenever they see a funeral, they lament and repine that others have gone to a harbour of rest to which they themselves never can hope to arrive.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The Luggnaggian corrects Gulliver's assumption of perpetual youth and describes the Struldbruggs' misery; the cut omits the account of their dejection after thirty. Gulliver's own revulsion is in c1."
+ },
+ {
+  "stance": "q15-godwin-enquiry-concerning",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "The candidates concern the political effects of government and the mechanism of mind; none mentions prolonging human life."
+ },
+ {
+  "stance": "q15-condorcet-outlines-historical",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "It is manifeft that the improvement of the praftice of medicine, be- come more efficacious in confequence of the progrefs of reafon and the focial order, muft in the end put a period to tranfmiffible or con- tagious diforders, as well to thofe general ma- ladies refulting from climate, aliments, and the nature of certain occupations. Nor would it be difficult to prove that this hope might be extended to almoft every other malady, of which it is probable we fhall hereafter difco- ver the molt remote caufes. Would it even be abfiird to fuppofe this quality of meliora- tion in the human fpecies as fufceptible of an indefinite advancement ; to fuppofe that a pe- riod muit one day arrive when death will be nothing more than the efFedt either of ex- traordinary accidents, or of the flow and gra- dual decay of the vital powers ; and that the duration of the middle fpace, of the interval between the birth of man and this decay, will itfelf have no afiignable limit ? Certainly man wall not become immortal ; but may not the diilance between the moment in which he draws his firfl breath, and the common term when, in the courfe of nature, without ma- lady, without accident, he finds it impoffible any longer to exift, be neceflarily protracted ?",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Tenth Epoch passage asking whether the interval between birth and decay may have no assignable limit."
+ },
+ {
+  "stance": "q15-malthus-essay-principle",
+  "verdict": "found",
+  "cid": "c1",
+  "quote": "With regard to the duration of human life, there does not appear to have existed from the earliest ages of the world to the present moment the smallest permanent symptom or indication of increasing prolongation. The observable effects of climate, habit, diet, and other causes, on length of life have furnished the pretext for asserting its indefinite extension; and the sandy foundation on which the argument rests is that because the limit of human life is undefined; because you cannot mark its precise term, and say so far exactly shall it go and no further; that therefore its extent may increase for ever, and be properly termed indefinite or unlimited. … In this case, the point of the greatest degree of improvement, or the smallest size of the head and legs, may be said to be undefined, but this is very different from unlimited, or from indefinite, in Mr Condorcet's acceptation of the term.",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "Malthus denies any sign of increasing longevity and distinguishes an undefined limit from an unlimited progress; the cut omits the sheep-breeding illustration."
+ },
+ {
+  "stance": "q15-fedorov-philosophy-common",
+  "verdict": "none",
+  "cid": null,
+  "quote": "",
+  "translation": null,
+  "summaryCheck": "ok",
+  "note": "All three candidates are from a later commentator's essay on Fedorov, not Fedorov's own text."
+ }
+]
