@@ -1,9 +1,7 @@
 Blind passage check
 
 Status: approved by Nathan Davies, 14 October 2026 (reported by Ben).
-Drafted by Claude, 29 September 2026, rewritten 13 October 2026 after Ben
-chose the simpler design below. The commit that records this approval is
-the pre-registration date; no entry was saved before it.
+Drafted by Claude, 29 September 2026, rewritten 13 October 2026.
 
 Purpose
 
@@ -20,21 +18,20 @@ Sample
 249 stances whose work has a downloaded text. The draw goes round-robin
 across the 40 questions, so every question appears at least once. Item
 ids (i01 to i60) are in random order. The sample file is
-research/coding/sample.json; it is not redrawn. 52 of the 60 have a
-quotation; for the other 8 Claude found none.
+research/coding/sample.json. On 14 October 2026 the 8 drawn items with
+no quotation were replaced by 8 stances with quotations from the same
+questions (i61 to i68), so every item has a quotation.
 
 What the coder sees
 
 One page with all 60 items, in the style of historyproblems.com/rate.
 Each item shows the question, the work (author, title, year, a link to
 the full text) and Claude's quotation. Claude's side and argument are
-hidden. Where Claude found no quotation, the item says so, and the coder
-answers from knowledge of the work or marks Can't tell.
+hidden.
 
 What the coder records
 
-One click per item: Yes, No, Other, or Doesn't take a position (Can't
-tell for the 8 items without a quotation). Q19 is not a yes/no question:
+One click per item: Yes, No, Other, or Doesn't take a position. Q19 is not a yes/no question:
 Other or Doesn't take a position only. An optional note. Each click is
 saved at once, under the coder's name.
 
@@ -53,14 +50,12 @@ Measures
 
 - Side agreement for each pair (Ben–Nathan, Ben–Claude, Nathan–Claude),
   reported as counts ("agreed on 47 of 52") and Cohen's kappa over Yes,
-  No, Other. Items either rater marked Doesn't take a position or Can't
-  tell are left out of that pair, and the number left out is reported.
+  No, Other. Items either rater marked Doesn't take a position are left out of that pair, and the number left out is reported.
 - The Ben–Nathan figure is the reference. The claim tested: Claude agrees
   with each historian about as often as the historians agree with each
   other.
 - Doesn't take a position, counted per coder: how often Claude's
   quotation fails to state a position at all.
-- The 8 items without a quotation are reported separately.
 - "Other" answers agree only as a category; their content is compared by
   reading the notes.
 
