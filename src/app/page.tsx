@@ -14,10 +14,10 @@ export default async function Home({ searchParams }: PageProps<"/">) {
   const sorted = [...themes].sort(themeSorts[sort].compare);
 
   return (
-    <>
-      <div className="mb-16 grid gap-x-16 gap-y-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start">
-        <div className="max-w-[38rem]">
-          <p className="text-[1.15rem] leading-relaxed">
+    <div className="flex flex-col">
+      <div className="contents lg:mb-16 lg:grid gap-x-16 gap-y-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start">
+        <div className="mb-12 max-w-[38rem] lg:mb-0">
+          <p className="text-[1.05rem] leading-relaxed sm:text-[1.15rem]">
             When you ask a language model questions about human autonomy, how
             many of the positions that actual humans have historically taken do
             its answers cover? In part because of the incentivization of the
@@ -44,7 +44,9 @@ export default async function Home({ searchParams }: PageProps<"/">) {
             </Link>
           </p>
         </div>
-        <Status />
+        <div className="order-last mt-16 lg:order-none lg:mt-0">
+          <Status />
+        </div>
       </div>
 
       <div className="mb-6 flex flex-wrap items-end justify-between gap-x-10 gap-y-4">
@@ -59,6 +61,6 @@ export default async function Home({ searchParams }: PageProps<"/">) {
       ) : (
         <ThemeCards themes={sorted} />
       )}
-    </>
+    </div>
   );
 }

@@ -39,8 +39,8 @@ function TextToggle({
           aria-current={o.value === current ? "true" : undefined}
           className={
             o.value === current
-              ? "text-ink underline decoration-1 underline-offset-4"
-              : "text-ink-faint hover:text-ink"
+              ? "-my-2 py-2 text-ink underline decoration-1 underline-offset-4"
+              : "-my-2 py-2 text-ink-faint hover:text-ink"
           }
         >
           {o.label}

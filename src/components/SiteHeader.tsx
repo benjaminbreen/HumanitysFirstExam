@@ -30,7 +30,7 @@ export function SiteHeader() {
         >
           <Wordmark />
         </Link>
-        <nav className="-mb-px flex flex-1 flex-wrap gap-x-6 text-[15px]">
+        <nav className="-mb-px flex min-w-0 flex-1 basis-full gap-x-2 overflow-x-auto whitespace-nowrap text-[13px] [scrollbar-width:none] min-[400px]:gap-x-4 min-[400px]:text-[14px] sm:basis-auto sm:gap-x-6 sm:text-[15px]">
           {nav.map(({ href, label }) => {
             const active = isActive(pathname, href);
             return (
@@ -48,7 +48,7 @@ export function SiteHeader() {
               </Link>
             );
           })}
-          <span className="ml-auto">
+          <span className="ml-auto pl-1">
             <ThemeToggle />
           </span>
         </nav>
