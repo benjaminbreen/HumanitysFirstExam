@@ -6,7 +6,7 @@ import { heldBackForQuestion, questionStats, questionsForTheme, sidesForQuestion
 // One row per question, grouped by theme. The theme name appears on the
 // first row of its group only.
 const cols =
-  "grid grid-cols-[2.5rem_1fr_1rem] items-baseline gap-x-4 sm:grid-cols-[2.5rem_1fr_8rem_3rem_1rem] lg:grid-cols-[2.5rem_9.5rem_1fr_11.5rem_8rem_3rem_1rem]";
+  "grid grid-cols-[2.5rem_1fr_1rem] items-baseline gap-x-4 sm:grid-cols-[2.5rem_1fr_8rem_3rem_1rem] lg:grid-cols-[2.5rem_9.5rem_1fr_14rem_7rem_3rem_1rem]";
 
 function Tally({ id }: { id: string }) {
   const sides = sidesForQuestion(id);
@@ -15,7 +15,7 @@ function Tally({ id }: { id: string }) {
   return (
     <span className="num font-mono text-[12px] whitespace-nowrap text-ink-soft">
       {n("yes")} yes · {n("no")} no{other > 0 && ` · ${other} other`}
-      {heldBackForQuestion(id) > 0 && ` · ${heldBackForQuestion(id)} hidden for review`}
+      {heldBackForQuestion(id) > 0 && ` · ${heldBackForQuestion(id)} held`}
     </span>
   );
 }
