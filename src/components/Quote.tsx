@@ -4,7 +4,7 @@ import type { Passage } from "@/lib/data";
 const codes: Record<string, string> = { Russian: "ru", German: "de", French: "fr", Latin: "la", Italian: "it", Spanish: "es", Czech: "cs", Greek: "grc", Chinese: "zh", Japanese: "ja" };
 
 // A stance's quotation. Non-English quotations show the original beside a
-// machine translation.
+// machine translation. OCR-corrected quotations show the corrected text.
 export function Quote({ p }: { p: Passage }) {
   return (
     <div className="mt-2">
@@ -13,7 +13,7 @@ export function Quote({ p }: { p: Passage }) {
           lang={codes[p.language] ?? "en"}
           className={`border-l-2 border-period pl-4 font-serif text-[1.04rem] leading-[1.6] ${p.translation ? "text-ink-soft" : ""}`}
         >
-          {p.original}
+          {p.corrected ?? p.original}
         </blockquote>
         {p.translation && (
           <p className="order-first border-l-2 border-line pl-4 font-serif text-[1.04rem] leading-[1.6] lg:order-none">
@@ -21,9 +21,10 @@ export function Quote({ p }: { p: Passage }) {
           </p>
         )}
       </div>
-      {p.translation && (
-        <p className="mt-1.5 pl-4">
-          <Flag tone="warn">machine translation</Flag>
+      {(p.translation || p.correction) && (
+        <p className="mt-1.5 flex gap-x-4 pl-4">
+          {p.correction && <Flag tone="warn">{p.correction.startsWith("hand") ? "OCR corrected by hand" : "OCR corrected"}</Flag>}
+          {p.translation && <Flag tone="warn">machine translation</Flag>}
         </p>
       )}
     </div>

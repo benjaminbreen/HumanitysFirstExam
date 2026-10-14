@@ -84,6 +84,8 @@ export type Passage = {
   selection: string;
   stance?: string;
   summaryCheck?: string;
+  corrected?: string; // OCR-corrected text; "original" stays verbatim
+  correction?: string; // how: "mechanical (…)" or "hand (…)"
 };
 
 export type Model = {

@@ -1,0 +1,370 @@
+[
+ {
+  "stance": "q35-spencer-social-organism",
+  "item": "i03",
+  "method": "hand (Claude, from context)",
+  "date": "2026-10-14",
+  "corrected": "The whole of our industrial organization, from its main outlines down to its minutest details, has become what it is, not simply without legislative guidance, but, to a considerable extent, in spite of legislative hindrances. It has arisen under the pressure of human wants and activities. While each citizen has been pursuing his individual welfare, and none taking thought about division of labor, or, indeed, conscious of the need for it, division of labor has yet been ever becoming more complete. It has been doing this slowly and silently ; scarcely any having observed it until quite modern times. By steps so small, that year after year the industrial arrangements have seemed to men just what they were before — by changes as insensible as those through which a seed passes into a tree— society has become the complex body of mutually-dependent workers which we now see.",
+  "changes": "Line-break hyphens joined and misread letters corrected from context (e.g. \"witliJiit\" to \"without\", \"aud\" to \"and\", \"ad insensible\" to \"as insensible\"). No page image was consulted."
+ },
+ {
+  "stance": "q19-marx-capital-volume",
+  "item": "i10",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Machinery produces relative surplus-value ; not only by directly depreciating the value of labour-power, and by in directly cheapening the same through cheapening the com modities that enter into its reproduction, but also, when it is first introduced sporadically into an industry, by converting the labour employed by the owner of that machinery, into labour of a higher degree and greater efficacy, by raising the social value of the article produced above its individual value, and thus enabling the capitalist to replace the value of a day s labour-power by a smaller portion of the value of a day s pro duct. During this transition period, when the use of machinery is a sort of monopoly, the profits are therefore exceptional, and the capitalist endeavours to exploit thoroughly \" the sunny time of this his first love,\" by prolonging the working day as much as possible. The magnitude of the profit whets his appetite for more profit.",
+  "changes": [
+   [
+    "surplus- value",
+    "surplus-value"
+   ]
+  ]
+ },
+ {
+  "stance": "q07-bouillier-du-principe",
+  "item": "i11",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Cette hypothèse règne à l'École de Montpellier, où elle a aujourd'hui M. Lordat pour principal représentant. Telle est aussi, à ce qu'il nous a semblé, sauf certains nuages sur la question de la substantialité de ce principe, sauf quelques réserves, la théorie vitaliste soutenue à l'Académie de médecine par M. Malgaigne. M. Malgaigne a, en effet, cherché à démontrer l'impossibilité de s'en tenir aux propriétés vitales répandues dans les tissus organiques et la nécessité d'adopter une force vitale unique , indépendante, douée d'une sorte d'instinct pour composer et faire mouvoir l'organisme. Mais, à la différence de M. Lordat, M. Malgaigne laisse de côté, comme ontologiques et théologiques, plutôt que physiologiques et médicales, toutes les questions relatives . à la nature de cette force et à ses rapports, à son alliance avec l'âme immortelle, qui n'a rien à voir, selon lui, dans les fonctions organiques (2). Telle est la doctrine que nous nous proposons surtout de … combattre, non pas tant à cause du crédit qu'elle peut avoir encore dans certaines écoles de médecine que parce que, sous l'influence xie Maine de Biraft et de Jouffroy, elle domine encore aujourd'hui, comme nous l'avons déjà dit, au sein de la philosophie spiritualiste. Le vitalisme animiste, le seul vrai, suivant nous, distingue, comme le vitalisme dualiste , le principe vital d'avec les organes; mais au lieu d'un être séparé, il en fait une simple puissance de l'âme pensante.",
+  "changes": [
+   [
+    "pro- priétés",
+    "propriétés"
+   ],
+   [
+    "com- poser",
+    "composer"
+   ],
+   [
+    "diffé- rence",
+    "différence"
+   ],
+   [
+    "phy- siologiques",
+    "physiologiques"
+   ],
+   [
+    "spiri- tualiste",
+    "spiritualiste"
+   ],
+   [
+    "dis- tingue",
+    "distingue"
+   ]
+  ]
+ },
+ {
+  "stance": "q10-jevons-mechanical-performance",
+  "item": "i16",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "It is rarely indeed that any invention is made without some anticipation being sooner or later discovered ; but up to the present time I am totally unaware of even a single previous attempt to devise or construct a machine which should perform the operations of logical inference f; … 8. The only reason which I can assign for this complete inability of logicians to devise a real logical instrument, is the great imperfection of the doctrines which they entertained. Until the present century logic has remained substantially as it was moulded by Akistotle 2200 years ago. Had the science of quantity thus remained stationary since the days of Pythagoras or Euclid, it is certain that we should not have heard of the arithmetical machine of Pascal, or the difference-engine of Babbage. And I venture to look upon the logical machine which I am about to describe as equally a result and indication of a profound reform and extension of logical science accomplished within the present century by a series of English writers, of whom I may specially name Jeremy Bentham, George Bentham, Professor De Morgan, Archbishop Thomson, Sir W. Hamilton, and the late distinguished Fellow of the Eoyal Society, Dr. Boole.",
+  "changes": [
+   [
+    "enter- tained",
+    "entertained"
+   ]
+  ]
+ },
+ {
+  "stance": "q03-menabrea-sketch-analytical",
+  "item": "i18",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Examinons encore quelques-unes des difficultés que la machine doit surmonter pour que son assimilation à l’analyse soit plus complète. Il y a certaines fonctions qui doivent changer de nature lorsqu’elles passent par zéro ou l'infini, ou dont les valeurs ne sauraient être admises au delà de ces limites. Lorsque ces cas se présentent, la machine au moyen d’une sonnerie peut avertir que le passage par zéro ou l'infini a lieu , et alors elle s’arrête , jusqu’à ce que le gardien l'ait remise en action pour telle autre opération qu’on voudra lui ordonner, Si cette opération est prévue, la machine, au lieu de sonner, se disposera de manière à présenter les nouveaux cartons relatifs à l'opération qui doit succéder au passage par zéro et l'infini: Ces nouveaux cartons peuvent faire suité aux premiers et n’entrer en jeu que lorsque les deux'cireonstances indiquées précédemment auront lieu.",
+  "changes": [
+   [
+    "assimi- lation",
+    "assimilation"
+   ],
+   [
+    "car- tons",
+    "cartons"
+   ],
+   [
+    "pre- miers",
+    "premiers"
+   ],
+   [
+    "in- diquées",
+    "indiquées"
+   ]
+  ]
+ },
+ {
+  "stance": "q05-eddington-nature-physical",
+  "item": "i21",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "There can be no fully deterministic control of inorganic phenomena unless the determinism governs mind itself. Conversely if we wish to emancipate mind we must to some extent emancipate the material world also. There appears to be no longer any obstacle to this emancipation. Let us look more closely into the problem of how the mind gets a grip on material atoms so that movements of the body and limbs can be controlled by its volition. I think we may now feel quite satisfied that the volition is genuine. The materialist view was that the motions which appear to be caused by our volition are really reflex actions controlled by the material processes in the brain, the act of will being an inessential side phenomenon occurring simultaneously with the physical phenomena. But this assumes that the result of applying physical laws to the brain is fully determinate. It is meaningless to say that the behaviour of a conscious brain is precisely the same as that of a mechanical brain if the behaviour of a mechanical brain is left undetermined. If the laws of physics are not strictly causal the most that can be said is that the behaviour of the conscious brain is one of the possible behaviours of a mechanical brain. Precisely so; and the decision between the possible behaviours is what we call volition.",
+  "changes": [
+   [
+    "emanci- pation",
+    "emancipation"
+   ],
+   [
+    "pheno- menon",
+    "phenomenon"
+   ],
+   [
+    "apply- ing",
+    "applying"
+   ],
+   [
+    "undeter- mined",
+    "undetermined"
+   ]
+  ]
+ },
+ {
+  "stance": "q13-kapp-outlines-philosophy",
+  "item": "i25",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Von der Verständigung über den Sprachgebrauch von Werkzeug und Organ ausgehend ergaben sich uns als die wesentlichen Eigenschaften der Hand, dass sie als das natürliche und deshalb allzeit fertige Normalwerkzeug des Menschen die Bestimmung hat, die Anfertigung der ersten künstlichen Werkzeuge nicht nur selbst zu bewerkstelligen, sondern zugleich auch für diese das Vorbild abzugeben. Die Hand hat sich die zu ihrer Unterstützung dienenden, ihre Kraft und Geschicklichkeit erhöhenden \"Werkzeuge gerade so geformt, wie sie dieselben braucht. \"Wegen dieser ihrer Handlichkeit sind sie das Handwerkzeug. … Von den beiden Seiten des primitiven Werkzeugs, dem Zweck und der Form, besteht jener in der bewusst vom Menschen erstrebten Beseitigung eines momentanen Mangels, oder was dasselbe ist, Herstellung eines Vortheils, diese aber, die Gestaltung des für den Zweck verwendeten' Stoffes, geht unbewusst vor sich. Dieser unbewusste Vorgang, dass die organischen Gebilde, Thätigkeiten und Beziehungen und die mechanischen Vorrichtungen sich wie Vorbild und Nachbild verhalten, und dass der Mechanismus nur als Mittel zur Aufdeckung und zum Verständniss des Organismus verwendet wird, wurde als das eigentliche Wesen der organischen Projection erkannt.",
+  "changes": [
+   [
+    "bewerk- stelligen",
+    "bewerkstelligen"
+   ],
+   [
+    "ab- zugeben",
+    "abzugeben"
+   ],
+   [
+    "Handwerk- zeug",
+    "Handwerkzeug"
+   ],
+   [
+    "Vor- gang",
+    "Vorgang"
+   ],
+   [
+    "Be- ziehungen",
+    "Beziehungen"
+   ]
+  ]
+ },
+ {
+  "stance": "q17-sismondi-new-principles",
+  "item": "i66",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Partout où cette calamité a été éprouvée, partout OÙ le travail a été vainement offert par ceux qui n'ont que leur travail pour vivre , et qui périssent de misère, au milieu de subsistances surabondantes qu'ils ne peuvent acheter, ce sont nos lois , ce sont nos institutions qui ont causé cette disproportion. Par un zèle imprudent, nos gouvernemens ont troublé l'équilibre qu'avait établi la nature. L'instruction religieuse, la législation, l'organisation sociale ont tendu à faire naître une population que n'appelaient point les besoins de la société, en même temps que les législateurs , se proposant pour but l'accroissement des richesses , non du bonheur de l'homme , s'étudiaient à économiser sur la quantité de travail humain nécessaire pour accomplir l'ouvrage demandé. Au moment même où la consommation était tellement limitée, que tous les marchés étaient encombrés, on voyait les gouvernemens chercher avec une égale ardeur à multiplier les naissances, et à diminuer dans tous les arts le nombre de bras dont on avait besoin. C'est alors que la proportion entre les divers progrès relatifs de la société a été rompue , et que la souffrance est devenue universelle.",
+  "changes": [
+   [
+    "péris- sent",
+    "périssent"
+   ],
+   [
+    "sura- bondantes",
+    "surabondantes"
+   ],
+   [
+    "gou- vernemens",
+    "gouvernemens"
+   ],
+   [
+    "ri- chesses",
+    "richesses"
+   ],
+   [
+    "étu- diaient",
+    "étudiaient"
+   ],
+   [
+    "de- mandé",
+    "demandé"
+   ],
+   [
+    "rela- tifs",
+    "relatifs"
+   ],
+   [
+    "souf- france",
+    "souffrance"
+   ]
+  ]
+ },
+ {
+  "stance": "q11-pound-mechanical-jurisprudence",
+  "item": "i29",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "I have referred to mechanical jurisprudence as scientific because those who administer it believe it such. But in truth it is not science at all. We no longer hold anything scientific merely because it exhibits a rigid scheme of deductions from a priori conceptions. In the philosophy of to-day, theories are \"instruments, not answers to enigmas, in which we can rest.\" 12 The idea of science as a system of deductions has become obsolete, and the revolution which has taken place in other sciences in this regard must take place and is taking place in jurisprudence also. … We have, then, the same task in jurisprudence that has been achieved in philosophy, in the natural sciences and in politics. We have to rid ourselves of this sort of legality and to attain a pragmatic, a sociological legal science.",
+  "changes": [
+   [
+    "be- cause",
+    "because"
+   ],
+   [
+    "instru- ments",
+    "instruments"
+   ]
+  ]
+ },
+ {
+  "stance": "q09-driesch-science-philosophy",
+  "item": "i31",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "The chief result of the first main part of our lectures has been to prove that an autonomy of life phenomena exists at least in some departments of individual morphogenesis, and probably in all of them ; the real starting-point of all morphogenesis cannot be regarded as a machine, nor can the real process of differentiation, in all cases where it is based upon systems of the harmonious equipotential type. There cannot be any sort of machine in the cell from which the individual originates, because this cell, including both its protoplasm and its nucleus, has undergone a long series of divisions, all resulting in equal products, and because a machine cannot be divided and in spite of that remain what it was. There cannot be, on the other hand, any sort of machine as the real foundation of the whole of an harmonious system, including many cells and many nuclei, because the development of this system goes on normally, even if its parts are rearranged or partly removed, and because a machine would never remain what it had been in such cases.",
+  "changes": [
+   [
+    "mor- phogenesis",
+    "morphogenesis"
+   ],
+   [
+    "starting- point",
+    "starting-point"
+   ],
+   [
+    "equi- potential",
+    "equipotential"
+   ]
+  ]
+ },
+ {
+  "stance": "q33-zhang-exhortation-learning",
+  "item": "i32",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "To sum up : Chinese learning is moral. Western learning is practical. Chinese learning con- … cerns itself with moral conduct. Western learn- * - I ing, with the affairs of the world. What matters *V/ it, then, whether Western learning is mentioned v' i in the Classics or not, if it teaches nothing repugnant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irreprovable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loyalty and protection, then let government make J use of foreign machinery and the railway from morning to night, and nothing untoward will ,y befall the disciples of Confucius.",
+  "changes": [
+   [
+    "West- ern",
+    "Western"
+   ],
+   [
+    "repug- nant",
+    "repugnant"
+   ],
+   [
+    "irre- provable",
+    "irreprovable"
+   ],
+   [
+    "loy- alty",
+    "loyalty"
+   ]
+  ]
+ },
+ {
+  "stance": "q08-haldane-mechanism-life",
+  "item": "i67",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "In these organisms there is constant active maintenance, constant renewal, constant breaking down and reproduction of the living structure ; and this is of the very essence of our conception of life. Reproduction is not in itself a problem, but an axiom ; for all living structure is active structure ; and it lives in actively maintaining itself and reproducing its structure. all instinctive social activity, the individual organism shows itself to be more than a mere individual : it belongs to a wider organic whole. Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+  "changes": [
+   [
+    "main- tenance",
+    "maintenance"
+   ],
+   [
+    "struc- ture",
+    "structure"
+   ]
+  ]
+ },
+ {
+  "stance": "q15-condorcet-outlines-historical",
+  "item": "i36",
+  "method": "hand (Claude, from context)",
+  "date": "2026-10-14",
+  "corrected": "It is manifest that the improvement of the practice of medicine, become more efficacious in consequence of the progress of reason and the social order, must in the end put a period to transmissible or contagious disorders, as well to those general maladies resulting from climate, aliments, and the nature of certain occupations. Nor would it be difficult to prove that this hope might be extended to almost every other malady, of which it is probable we shall hereafter discover the most remote causes. Would it even be absurd to suppose this quality of melioration in the human species as susceptible of an indefinite advancement ; to suppose that a period must one day arrive when death will be nothing more than the effect either of extraordinary accidents, or of the slow and gradual decay of the vital powers ; and that the duration of the middle space, of the interval between the birth of man and this decay, will itself have no assignable limit ? Certainly man will not become immortal ; but may not the distance between the moment in which he draws his first breath, and the common term when, in the course of nature, without malady, without accident, he finds it impossible any longer to exist, be necessarily protracted ?",
+  "changes": "Line-break hyphens joined; long s modernised to s throughout (e.g. \"fuppofe\" to \"suppose\", \"flow\" to \"slow\"); misread letters corrected from context (\"molt\" to \"most\", \"efFedt\" to \"effect\", \"wall\" to \"will\"). No page image was consulted."
+ },
+ {
+  "stance": "q12-binet-modern-ideas",
+  "item": "i38",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Que faire de lui? Que faire pour lui? Si on ne fait rien, si on n'intervient pas activement et utilement, il va continuer à perdre son temps, et, constatant la vanité de ses efforts, il finira par se décourager. L'affaire est très grave pour lui, et comme il ne s'agit pas ici d'un cas exceptionnel, mais que les enfants qui ont une compréhension défectueuse sont légion, on peut bien dire que la question est grave pour nous tous, pour la société ; l'enfant qui perd en classe le goût du travail risque fort de ne paa l'acquérir au sortir de l'école. J'ai constaté souvent, et avec bien des regrets, qu'il existe une prévention fréquente contre l'éducabilité de l'intelligence. Le proverbe familier qui dit : « Quand on est bête, c'est pour longtemps » semble être pris au pied de la lettre par des maîtres sans critique ; ceux-ci se désintéressent des élèves qui manquent d'intelligence; ils n'ont pour eux ni sympathie ni même de respect, car leur intempérance de langage leur fait tenir devant ces entants des propos tels que celui-ci : « C'est un enfant qui ne fera jamais rien... il est mal doué... il n'est pas intelligent du tout. * J'ai entendu trop souvent de ces paroles imprudentes.",
+  "changes": [
+   [
+    "défec- tueuse",
+    "défectueuse"
+   ]
+  ]
+ },
+ {
+  "stance": "q27-haldane-callinicus-defence",
+  "item": "i68",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "Chemical warfare had been so far foreseen by statesmen that in 1907 the signatories of the Hague Conference agreed to renounce the use of projectiles the sole object of which was the diffusion of asphyxiating or harmful gases. They were thus debarred from using lachrymatory gas, the most humane weapon ever invented ; but permitted to discharge gas from cylinders on the ground, an exceedingly cruel practice. This regulation was well meant, but the path to August, 1914, was paved with good intentions. In 1914 none of the great powers had made any preparation for poison-gas warfare, and it was not till April 22nd, 1915, more than eight months after the beginning of the war, that the Germans began its use.",
+  "changes": [
+   [
+    "lachry- matory",
+    "lachrymatory"
+   ],
+   [
+    "dis- charge",
+    "discharge"
+   ]
+  ]
+ },
+ {
+  "stance": "q05-la-mettrie-man-machine",
+  "item": "i43",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "In fact, if what thinks in my brain is not a part of this organ and therefore of the whole body, why does my blood boil, and the fever of my mind pass into my veins, when lying quietly in bed, I am forming the plan of some work or carrying on an abstract calculation? … In short, if the nerve-tension which causes pain occasions also the fever by which the distracted mind loses its will-power, and if, conversely, the mind too much excited, disturbs the body (and kindles that inner fire which killed Bayle while he was still so young) ; if an agitation rouses my desire and my ardent wish for what, a moment ago, I cared nothing about, and if in their turn certain brain impressions excite the same longing and the same desires, then why should we regard as double what is manifestly one being? In vain you fall back on the power of the will, since for one order that the will gives, it bows a hundred times to the yoke.^^",
+  "changes": [
+   [
+    "form- ing",
+    "forming"
+   ],
+   [
+    "ab- stract",
+    "abstract"
+   ],
+   [
+    "nerve- tension",
+    "nerve-tension"
+   ],
+   [
+    "dis- turbs",
+    "disturbs"
+   ]
+  ]
+ },
+ {
+  "stance": "q34-pearson-national-life",
+  "item": "i46",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "But America is but one case in which we have to mark a masterful human progress following an inter-racial struggle. The Australian nation is another case of great civilization supplanting a lower race unable to work to the full the land and its resources. Further back in history you find the same tale with almost every European nation. Sometimes when the conquering race is not too diverse in civilization and in type of energy there is an amalgamation of races, as when Norman and Anglo-Saxon ultimately blended ; at other times the inferior race is driven out before the superior, as the Celt drove out the Iberian. The struggle means suffering, intense suffering, while it is in progress ; but that struggle and that suffering have been the stages by which the white man has reached his present stage of development, and they account for the fact that he no longer lives in caves and feeds on roots and nuts. This dependence of progress on the survival of the fitter race, terribly black as it ' may seem to some of you, gives the struggle for existence its redeeming features ; it is the fiery crucible out of which comes the finer metal.",
+  "changes": [
+   [
+    "Aus- tralian",
+    "Australian"
+   ],
+   [
+    "civil- ization",
+    "civilization"
+   ]
+  ]
+ },
+ {
+  "stance": "q27-ure-philosophy-manufactures",
+  "item": "i58",
+  "method": "mechanical (research/coding/ocr_fix.py)",
+  "date": "2026-10-14",
+  "corrected": "The introduction of new machines into any manufacture, with the effect of superseding hand labour, is tempered by the system of patents, which maintains them for a certain time at a monopoly price, and thereby obstructs their rapid multiplication. Did we admit the principles on which the use of particular self-acting mechanisms is objected to by workmen, we should not be able, in any case, to define the limits of their application. Had parliament acted on such principles sixty years ago, none of our manufactures could have attained to their present state of profitable employment to either masters or men. The immediate causes of their vast augmentation may be ascribed, under the blessing of Providence, to the general spirit of industry and enterprize among a free and an enlightened people, left to the unrestrained exercise of their talents in the employment of a vast capital, pushing to the utmost the principle of the analysis of labour, summoning to their service all the resources of scientific research and mechanical ingenuity ;",
+  "changes": [
+   [
+    "manufac- ture",
+    "manufacture"
+   ],
+   [
+    "prin- ciples",
+    "principles"
+   ],
+   [
+    "employ- ment",
+    "employment"
+   ]
+  ]
+ }
+]

@@ -57,6 +57,7 @@ with Ben.
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
 | Order of work: blind check of 60 passages, then a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026 |
 | The blind passage check protocol (`research/coding/PROTOCOL.md`) is approved. | Nathan (via Ben), 14 Oct 2026 |
+| Amend the passage check before Nathan codes: rejoin line-break hyphens and restore long s mechanically, hand-correct i03 and i36. Ben re-checks items he already coded. | Ben, 14 Oct 2026 |
 
 ## House rules
 

@@ -22,6 +22,19 @@ research/coding/sample.json. On 14 October 2026 the 8 drawn items with
 no quotation were replaced by 8 stances with quotations from the same
 questions (i61 to i68), so every item has a quotation.
 
+Amendment, 14 October 2026 (Ben; Nathan had not started coding). OCR
+errors made some quotations hard to read, so the quotations shown are
+corrected before Nathan codes. Two fixes are mechanical, applied by
+research/coding/ocr_fix.py: line-break hyphens are rejoined, and long s
+read as f is restored to s in English text. Two quotations with heavy
+damage, i03 and i36, were corrected by hand by Claude from context,
+without page images. 18 of the 60 quotations changed; each is labeled
+on the page. The verbatim OCR text is kept in data/passages.json as
+"original", and the corrections are in
+research/passages/ocr-corrections.json. Ben re-checks any of the 18
+items he coded before the change; his earlier answers are kept as
+revisions.
+
 What the coder sees
 
 One page with all 60 items, in the style of historyproblems.com/rate.

@@ -265,6 +265,15 @@ def main():
     if rejected:
         print(len(rejected), "quotes not found verbatim, dropped:", ", ".join(rejected[:10]))
 
+    # OCR corrections (research/coding/ocr_fix.py and hand corrections). The
+    # verbatim text stays in "original"; pages show "corrected" when present.
+    corr_file = PASS / "ocr-corrections.json"
+    for c in json.loads(corr_file.read_text()) if corr_file.exists() else []:
+        p = next((x for x in passages if x.get("stance") == c["stance"]), None)
+        if p:
+            p["corrected"] = c["corrected"]
+            p["correction"] = c["method"]
+
     meta = {"version": "0.1", "date": TODAY}
     (DATA / "questions.json").write_text(json.dumps({**meta, "status": "candidate questions (drafted 29 Sep 2026)", "questions": qs}, ensure_ascii=False, indent=1))
     (DATA / "works.json").write_text(json.dumps({**meta, "works": sorted(works, key=lambda w: (w["year"] or 0, w["id"]))}, ensure_ascii=False, indent=1))
