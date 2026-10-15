@@ -42,8 +42,8 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
         <p>
           Where the passages come from: we searched the full texts of the 204 works on our{" "}
           <Link href="/sources" className="text-modern hover:underline">source list</Link> for passages about this
-          question. Claude read the 45 closest matches and kept the ones that discuss the question, whatever answer
-          they give. The text is copied exactly from the source, with scanning errors fixed.
+          question. Claude read the 45 closest matches, plus the quotations it had already found for this question, and
+          kept the ones that discuss the question, whatever answer they give. The text is copied exactly from the source, with scanning errors fixed.
         </p>
         <p>
           Claude has written its own list of positions from the same passages. You see it only after you tick “I have

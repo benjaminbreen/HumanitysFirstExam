@@ -23,8 +23,8 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
       <ol className="mb-10 max-w-3xl list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-ink-soft">
         <li>
           <span className="text-ink">Find passages.</span> We search the full texts of the 204 works on our source
-          list for passages about the question. Claude reads the 45 closest matches and keeps the 15 to 21 that
-          discuss it, whatever answer they give, with no more than two from any one work. Every passage is checked
+          list for passages about the question. Claude reads the 45 closest matches, plus the quotations it had
+          already found for the question, and keeps the 15 to 21 that discuss it, whatever answer they give, with no more than two from any one work. Every passage is checked
           word for word against the source text.
         </li>
         <li>
