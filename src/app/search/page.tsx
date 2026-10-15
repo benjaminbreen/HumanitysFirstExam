@@ -76,7 +76,7 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
           {result && (
             <section className="mt-6">
               <p className="num font-mono text-[12.5px] text-ink-soft">
-                {result.hits.length} closest of {result.scanned.toLocaleString()} {entity ? "entity matches" : "passages"} · {result.ms} ms ·
+                {result.hits.length} closest of {result.scanned.toLocaleString()} {entity ? "entity matches" : "passages"} · {result.ms} ms ·{" "}
                 {entity || q.split(/\s+and\s+/i).length === 2 ? "combined relevance score" : "similarity is cosine, 0–1"} · bold
                 marks the two or three sentences closest in meaning
               </p>
