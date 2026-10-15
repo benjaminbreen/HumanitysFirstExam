@@ -1,0 +1,202 @@
+[
+ {
+  "item": "i41",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Appendix I of Salt's book, answering Ritchie: sentient beings, men and animals alike, should be exempt from avoidable suffering, in degree. The author's own view; supports Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i68",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Haldane, in his own voice, calls tear gas the most humane weapon and the 1907 Hague ban misguided. The surrounding text opposes pacifist efforts to check chemical warfare; supports No.",
+  "context_read": true
+ },
+ {
+  "item": "i43",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "La Mettrie's own argument for the 'material unity of man'; the next lines say the will acts only by permission of bodily conditions. Supports Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i44",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Poe argues a pure machine could not play chess because moves are indeterminate, and concludes the Automaton is 'regulated by mind'. Supports No.",
+  "context_read": true
+ },
+ {
+  "item": "i45",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Marx's own analysis: the operative's skill vanishes before the science embodied in machinery. Supports Diminishes. The shown text keeps line-break splits ('automa ton', 'separa tion') that should be rejoined.",
+  "context_read": true
+ },
+ {
+  "item": "i46",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Pearson, in his own voice, praises the displacement of 'inferior' races as the price of progress. Supports Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i47",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Freud: tools perfect man's organs and make him a 'god by means of artificial limbs', though they do not grow on him and have not made him happy. Supports a qualified Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i48",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Narrator's account: humans serve a Machine none understands, and progress has come to mean the Machine's progress. Supports Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i49",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Pitt-Rivers compares the variation and selection of tool forms to Darwin's 'unconscious selection'. Supports Yes.",
+  "context_read": true
+ },
+ {
+  "item": "i50",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "The shown quote ends with mankind regaining 'rights over nature, assigned to them by the gift of God', under true religion, so it supports Yes. The Fall passage the argument cites is elsewhere (bac0622689, near 'For man, by the fall, lost') and could be added.",
+  "context_read": true
+ },
+ {
+  "item": "i51",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": "6780a39d3b-orig: В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XIX века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви. [The file reads 'XXI века', an OCR or typing error for XIX; needs translation.]",
+  "note": "The file header confirms Berdyaev, 'Chelovek i mashina', Put' no. 38 (1933). The quote frames technics as a creature rebelling against its creator, but idolatry is stated most directly in the essay's opening, which calls faith in technics modern man's only strong faith and his last love.",
+  "context_read": true
+ },
+ {
+  "item": "i52",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Freud reads Nathaniel's compulsive love for Olimpia as narcissistic, a complex of his own met as a person. That fits the gloss 'self-love', but the passage does not address love that continues after the artifice is known.",
+  "context_read": true
+ },
+ {
+  "item": "i53",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "no",
+  "verdict": "replace",
+  "better_passage": null,
+  "note": "The context does draw the instinct/intelligence distinction, but the quote ends by calling the made tool 'an artificial organ by which the natural organism is extended', which argues against side No. Bergson does not take the claimed side clearly.",
+  "context_read": true
+ },
+ {
+  "item": "i54",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Lovelace's own Note G: the Engine 'has no pretensions whatever to originate anything'. Supports No.",
+  "context_read": true
+ },
+ {
+  "item": "i55",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "The text is clean despite the noise flag. Huang argues the single-route examination fails to select capable men and proposes multiple routes. Supports No; it concerns written examinations rather than numerical measures as such.",
+  "context_read": true
+ },
+ {
+  "item": "i56",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Kropotkin, in his own voice: machines are the collective work of humanity, and no one may claim them. Supports the side.",
+  "context_read": true
+ },
+ {
+  "item": "i57",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Marx: in the factory the worker becomes the machine's 'living appendage', matching the gloss that the relation reverses. Supports No.",
+  "context_read": true
+ },
+ {
+  "item": "i58",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Ure, in his own voice: admitting workmen's objections to self-acting machines would leave no limit to restriction, and unrestrained enterprise built manufactures. Supports No.",
+  "context_read": true
+ },
+ {
+  "item": "i59",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Hawthorne's ironic narrator praises the railway while the passengers keep their sinful 'Habits' as baggage. The satire against mechanical progress as spiritual progress is legible, but the passage does not reach the ending (the line to hell).",
+  "context_read": true
+ },
+ {
+  "item": "i60",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Dewey, in his own voice: habit is an ability whose value depends on whether it is enslaved to old ruts or available for new emergencies. Supports the conditional side.",
+  "context_read": true
+ }
+]

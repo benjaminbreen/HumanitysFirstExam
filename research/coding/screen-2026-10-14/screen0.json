@@ -1,0 +1,214 @@
+[
+ {
+  "item": "i01",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "In context James argues against the automatists and goes on to argue that consciousness is a selecting agency that helps an unstable brain. The quote states the claim directly.",
+  "context_read": true
+ },
+ {
+  "item": "i02",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "In context Arnold sets culture against England's mechanical civilisation and then attacks faith in coal and railroads. Page marker [17] is a minor defect.",
+  "context_read": true
+ },
+ {
+  "item": "i03",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "The source is a Spencer collection that includes The Social Organism. The surrounding text says societies are 'not artificially put together', growth rather than manufacture, and that even law grows out of popular character.",
+  "context_read": true
+ },
+ {
+  "item": "i61",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Socrates tells the Theuth tale and then endorses it, saying writing is inferior to knowledge in the soul.",
+  "context_read": true
+ },
+ {
+  "item": "i05",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Edison says the speech is written by poets and philosophers, so Hadaly 'replaces an intelligence by Intelligence'. He presents this as a virtue, so the No reading rests on the reader's inference.",
+  "context_read": true
+ },
+ {
+  "item": "i06",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Locke sections 18-21 place the self in consciousness, not substance, and the finger case is his own example. Artificial organs are only implied.",
+  "context_read": true
+ },
+ {
+  "item": "i62",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Haldane says Daedalus 'demonstrate[d] that the scientific worker is not concerned with gods' but notes the 'agelong reprobation' of humanity. Line-break hyphens need rejoining.",
+  "context_read": true
+ },
+ {
+  "item": "i08",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Descartes's first test is read in context. The second test and the parrot passage that follow reinforce it.",
+  "context_read": true
+ },
+ {
+  "item": "i09",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": {
+   "id": "69bbbca9b8-en",
+   "text": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence. ... Here it is not at all the case; the logicians _have applied_ their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\""
+  },
+  "note": "The chosen passage is about whether logistic aids invention. The passage just after argues that rules followed blindly gave contradictory results, which bears on whether a fixed procedure can settle a dispute.",
+  "context_read": true
+ },
+ {
+  "item": "i10",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Marx, Capital ch. 15, on relative surplus-value and the capitalist's exceptional profits from machinery. OCR word splits are minor.",
+  "context_read": true
+ },
+ {
+  "item": "i11",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Bouillier describes Montpellier vitalism as the doctrine he means to combat, then states animist vitalism as 'the only true one'. The ellipsis spans a footnote.",
+  "context_read": true
+ },
+ {
+  "item": "i63",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "no",
+  "verdict": "replace",
+  "better_passage": null,
+  "note": "Margin notes are interleaved. In context Kant argues that absolute obedience prepares the child to obey laws 'even though he may not like them', and that duties should be prescribed before the child sees the reason. That reads toward Yes, not the claimed No.",
+  "context_read": true
+ },
+ {
+  "item": "i13",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": {
+   "id": "ee43c947e1",
+   "text": "ALQUIST. Not even one? Why did you destroy them? RADIUS. We had learnt everything and could do everything. It had to be. 2ND ROBOT. We had to become the masters. RADIUS. Slaughter and domination are necessary if you would be human beings. Read history."
+  },
+  "note": "The chosen lines show the robots' plight more than their dominance. The lines that follow state why they destroyed humanity. The play ends with Primus and Helena, which complicates 'necessarily'.",
+  "context_read": true
+ },
+ {
+  "item": "i14",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "In context Tolstoy argues that the state's division of responsibility lets everyone from soldier to Tsar disclaim it. This supports the claim.",
+  "context_read": true
+ },
+ {
+  "item": "i64",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "This is Belyaev's novel; the author's name is missing only from the header. The head is shown conscious and recognisably Dowell. Identity is implied by the scene, not argued.",
+  "context_read": true
+ },
+ {
+  "item": "i16",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": {
+   "id": "7384d15788",
+   "text": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduction which can be embodied in a machine acting by simple and uniform movements."
+  },
+  "note": "The chosen passage is about the lack of prior machines and Aristotle and has OCR errors. The nearby sentence states that deduction can be embodied in a machine.",
+  "context_read": true
+ },
+ {
+  "item": "i17",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "In the preface Morgan says inventions and discoveries 'register' the stages of progress toward civilization. Machinery is not named.",
+  "context_read": true
+ },
+ {
+  "item": "i18",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "This is Menabrea's French memoir on the Analytical Engine; the context is card operations. The machine stops at zero or infinity unless the case was foreseen on cards. Minor OCR errors ('suité', 'cireonstances').",
+  "context_read": true
+ },
+ {
+  "item": "i19",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "In context Franklin reports that faults diminished, but says Order gave him most trouble and he 'found myself incorrigible with respect to Order'. Coders should see that tension, so keep as is.",
+  "context_read": true
+ },
+ {
+  "item": "i20",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "no",
+  "verdict": "fix",
+  "better_passage": {
+   "id": "e4af9fc876",
+   "text": "He was oppressed, he was indeed scared, by his sense of the immense consequences of his discovery. He had a vague idea that night that he ought not to publish his results, that they were premature, that some secret association of wise men should take care of his work and hand it on from generation to generation until the world was riper for its practical application."
+  },
+  "note": "In context the chosen passage ends with Holsten disclaiming the consequences ('It is not for me to reach out to consequences I cannot foresee'), which is the opposite side. The earlier passage shows the scruple claimed.",
+  "context_read": true
+ }
+]

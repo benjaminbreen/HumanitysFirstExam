@@ -1,0 +1,202 @@
+[
+ {
+  "item": "i21",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Eddington, Nature of the Physical World, 'Volition' section; context continues that volition is 'something outside causality'. Author's own view.",
+  "context_read": true
+ },
+ {
+  "item": "i22",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Bennett, How to Live on 24 Hours a Day, ch. XII 'Dangers to avoid'; context confirms the qualified position (respect the programme, do not worship it).",
+  "context_read": true
+ },
+ {
+  "item": "i65",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Darrow, Crime: Its Cause and Treatment, ch. III; the first half states the old view he rejects and the spliced second half his own rejection. Context continues with heredity determining the 'machine'.",
+  "context_read": true
+ },
+ {
+  "item": "i24",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Descartes, Discourse on Method part V, his own voice. It argues machines cannot converse, which bears on companionship only indirectly; coders can judge.",
+  "context_read": true
+ },
+ {
+  "item": "i25",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "no",
+  "verdict": "replace",
+  "better_passage": null,
+  "note": "Context is Kapp's summary of organ projection (tools unconsciously copy organs). It takes no position on whether machines undergo evolution, and could as easily be read the other way. OCR debris in surrounding text.",
+  "context_read": true
+ },
+ {
+  "item": "i66",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": "ce n'est point le perfectionne- ment des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouis- sances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures [...] C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a aug- menté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire. (823de56687)",
+  "note": "Quote is from Sismondi, Nouveaux principes, VII.4, on overpopulation caused by laws; machinery appears only as 'économiser sur la quantité de travail'. Chapter VII.7 states the claimed argument directly.",
+  "context_read": true
+ },
+ {
+  "item": "i27",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Gandhi, Hind Swaraj ch. XIX 'Machinery'; the Editor is Gandhi's voice and context goes on to urge handlooms and doing without machine goods.",
+  "context_read": true
+ },
+ {
+  "item": "i28",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquittent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation. (d14d877437-orig)",
+  "note": "Assemblée nationale transcription of Ferry's 28 July 1885 speech (abridged). The quote is mostly interruptions, and the source contains no coaling-station or technology passage, so the argument's technology link is not in the text. Use Ferry's uninterrupted statement of the civilizing duty; the argument should drop the coaling stations.",
+  "context_read": true
+ },
+ {
+  "item": "i29",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Pound, 'Mechanical Jurisprudence' (1908). Context, including the wills example and Erle's 'strong decisions', shows rules defeating their ends; the question is addressed, though the quote is abstract.",
+  "context_read": true
+ },
+ {
+  "item": "i30",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Smith, Wealth of Nations V.i.f; context confirms. It concerns division of labour, not machinery as such; coders should be aware of the gap.",
+  "context_read": true
+ },
+ {
+  "item": "i31",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Driesch, Science and Philosophy of the Organism, conclusions of Part I; context rejects 'Entwickelungsmechanik' outright.",
+  "context_read": true
+ },
+ {
+  "item": "i32",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "fix",
+  "better_passage": "To sum up : Chinese learning is moral. Western learning is practical. Chinese learning concerns itself with moral conduct. Western learning, with the affairs of the world. What matters it, then, whether Western learning is mentioned in the Classics or not, if it teaches nothing repugnant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irreprovable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loyalty and protection, then let government make use of foreign machinery and the railway from morning to night, and nothing untoward will befall the disciples of Confucius. (e49894e43e, OCR debris removed)",
+  "note": "Zhang Zhidong, China's Only Hope (Woodbridge translation); context confirms the ti-yong position. Margin debris ('*V/', 'v' i', 'J', ',y') and a translator's footnote break the shown quote; show the hand-cleaned text below (debris removed, words unchanged).",
+  "context_read": true
+ },
+ {
+  "item": "i33",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Mill, On Liberty ch. III; context continues with the ape-like faculty of imitation and 'Human nature is not a machine'.",
+  "context_read": true
+ },
+ {
+  "item": "i34",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": "Cannot you see, cannot all your lecturers see, that it is we who are dying, and that down here the only thing that really lives is the Machine? We created the Machine, to do our will, but we cannot make it do our will now. It has robbed us of the sense of space and of the sense of touch, it has blurred every human relation and narrowed down love to a carnal act, it has paralysed our bodies and our wills, and now it compels us to worship it. (6c5f96783e)",
+  "note": "Forster, The Machine Stops; the shown passage depicts panic and silence, not lost capacity. Kuno's speech states the claim directly.",
+  "context_read": true
+ },
+ {
+  "item": "i67",
+  "readable": "partly",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "fix",
+  "better_passage": "In these organisms there is constant active main- tenance, constant renewal, constant breaking down and reproduction of the living struc- ture ; and this is of the very essence of our conception of life. [...] Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception. (6593bbee13)",
+  "note": "Haldane, Mechanism, Life and Personality, lecture 3. The quote silently drops 'In normal reproduction and death, and in' across a page break, leaving a broken sentence.",
+  "context_read": true
+ },
+ {
+  "item": "i36",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "yes",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Condorcet, Outlines (1795 translation), Tenth Epoch; context continues 'Certainly man will not become immortal' but life's span may have no assignable limit. Long-s OCR needs the mechanical fix already planned.",
+  "context_read": true
+ },
+ {
+  "item": "i37",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Villiers, L'Ève future, Book VI; context shows Edison offering Hadaly and Ewald accepting her as a 'présent' and 'esclave'. Ownership is enacted, not argued; coders can judge.",
+  "context_read": true
+ },
+ {
+  "item": "i38",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "fix",
+  "better_passage": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve le voilà qui échoue. On ne peut pas douter de la jus- tesse de cette dernière raison. Nous en sommes péné très à ce point que nous jugeons chimérique et absurd* de mesurer une intelligence d'enfant d'après un trè^ petit nombre d'épreuves. (fd0466e0a0)",
+  "note": "Binet, Les idées modernes sur les enfants, ch. V; the shown passage is on educability, not measurement. The preceding page states that measuring a child's intelligence from a few tests is absurd.",
+  "context_read": true
+ },
+ {
+  "item": "i39",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "partly",
+  "verdict": "keep",
+  "better_passage": null,
+  "note": "Frankenstein vol. II ch. 2; the creature's claim, which Victor rejects in the next lines. Victor's later acknowledgement of a creator's duties is not in this quote, but the item labels it the creature's view.",
+  "context_read": true
+ },
+ {
+  "item": "i40",
+  "readable": "yes",
+  "right_source": "yes",
+  "supports_side": "no_position",
+  "verdict": "replace",
+  "better_passage": null,
+  "note": "Babbage, Economy of Machinery §§243-245, on de Prony's division of mental labour. The text is about who can compute, not whether calculating devices weaken ability; the claimed side does not answer the question.",
+  "context_read": true
+ }
+]

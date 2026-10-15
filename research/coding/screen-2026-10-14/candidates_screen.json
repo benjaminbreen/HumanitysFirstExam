@@ -1,0 +1,13 @@
+{
+ "i63": {"chosen": "q21-wollstonecraft-vindication-rights", "cleaned_quote": null, "tried": [
+  {"stance": "q21-kant-answer-question", "pass": false, "note": "Quote defends obedience in office alongside free public reasoning; it does not say obedience trains people out of judgment. Claimed Yes not stated."},
+  {"stance": "q21-wollstonecraft-vindication-rights", "pass": true, "note": "Verified in text (soldiers 'blindly submit to authority'; same applied to women; 'end to blind obedience'). Context: standing armies are 'well disciplined machines'."}]},
+ "i25": {"chosen": "q13-butler-erewhon", "cleaned_quote": null, "tried": [
+  {"stance": "q13-marx-capital-volume", "pass": false, "note": "Quote calls for a history of technology like Darwin's; it does not deny that machines evolve. OCR damage ('1-ftsis', 'Techno logy')."},
+  {"stance": "q13-butler-erewhon", "pass": true, "note": "Found verbatim in both files; states the Yes case (bee/clover analogy) inside the Book of the Machines."}]},
+ "i40": {"chosen": "q24-rousseau-emile", "cleaned_quote": null, "tried": [
+  {"stance": "q24-pascal-avis-necessaire", "pass": false, "note": "Quote says the machine relieves memory and labour; it does not address whether reckoning skill weakens. Claimed No not stated."},
+  {"stance": "q24-rousseau-emile", "pass": true, "note": "Verbatim in text. States instruments make senses coarser; closing sentence qualifies that making them is gain. Instruments are measuring tools, not calculators."}]},
+ "i53": {"chosen": "q37-butler-erewhon", "cleaned_quote": null, "tried": [
+  {"stance": "q37-butler-erewhon", "pass": true, "note": "Verbatim at line ~6547. Framed as the one serious answer to the attack that led to destroying machines, so both sides are present in context; the quote itself states only the Yes side."}]}
+}
