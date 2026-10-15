@@ -27,6 +27,8 @@ export type Hit = {
   work?: string;
   text: string;
   match?: string;
+  // Character range of the sentences closest to the query.
+  closest?: [number, number];
 };
 
 type Loaded = {
@@ -74,21 +76,52 @@ function load(info: CorpusInfo): Loaded {
   return loaded;
 }
 
+async function embedMany(input: string[]): Promise<Float32Array[]> {
+  const res = await fetch("https://api.openai.com/v1/embeddings", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
+    body: JSON.stringify({ model: "text-embedding-3-small", input }),
+  });
+  if (!res.ok) throw new Error(`Embedding request failed (${res.status})`);
+  return ((await res.json()).data as { embedding: number[] }[]).map((d) => Float32Array.from(d.embedding));
+}
+
 // One 1536-dim embedding per query; shorter corpora use its first `dims`
 // values renormalized, which is how text-embedding-3 shortening works.
 async function embed(q: string): Promise<Float32Array> {
   cache.__hfeQ ??= new Map();
   const c = cache.__hfeQ.get(q);
   if (c) return c;
-  const res = await fetch("https://api.openai.com/v1/embeddings", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
-    body: JSON.stringify({ model: "text-embedding-3-small", input: q }),
-  });
-  if (!res.ok) throw new Error(`Embedding request failed (${res.status})`);
-  const v = Float32Array.from((await res.json()).data[0].embedding as number[]);
+  const [v] = await embedMany([q]);
   cache.__hfeQ.set(q, v);
   return v;
+}
+
+// Marks, in each hit, the run of two or three neighbouring sentences whose
+// embedding is closest to the query. A run must be shorter than the passage.
+// All runs go in one batched request. Embeddings are unit length, so the dot
+// product is the cosine.
+async function markClosest(q: string, hits: Hit[]) {
+  const segmenter = new Intl.Segmenter("en", { granularity: "sentence" });
+  const runs = hits.map((h) => {
+    const s = [...segmenter.segment(h.text)].map((x) => [x.index, x.index + x.segment.trimEnd().length]);
+    return [2, 3].flatMap((len) => len < s.length
+      ? s.slice(0, s.length - len + 1).map((_, i) => [s[i][0], s[i + len - 1][1]] as [number, number])
+      : []);
+  });
+  const texts = hits.flatMap((h, i) => runs[i].map(([a, b]) => h.text.slice(a, b)));
+  if (!texts.length) return;
+  const [query, ...vectors] = await embedMany([q, ...texts]);
+  let n = 0;
+  hits.forEach((h, i) => {
+    let best = -Infinity;
+    for (const run of runs[i]) {
+      const v = vectors[n++];
+      let s = 0;
+      for (let j = 0; j < v.length; j++) s += v[j] * query[j];
+      if (s > best) [best, h.closest] = [s, run];
+    }
+  });
 }
 
 function forDims(full: Float32Array, dims: number) {
@@ -207,7 +240,9 @@ export async function search(opts: {
       }
     }
     hits.sort((a, b) => b.score - a.score);
-    return { hits: hits.slice(0, k), scanned, ms: Date.now() - t0 };
+    const shown = hits.slice(0, k);
+    await markClosest(quoted.topic, shown).catch(() => {});
+    return { hits: shown, scanned, ms: Date.now() - t0 };
   }
   const pair = facets(opts.q);
   const embeddings = await Promise.all([opts.q, ...(pair ?? [])].map(embed));
@@ -254,5 +289,6 @@ export async function search(opts: {
       match: pair ? named ? "Name appears in passage or source" : "Semantic connection to both terms" : undefined,
     };
   }).sort((a, b) => b.score - a.score).slice(0, k);
+  await markClosest(opts.q, hits).catch(() => {});
   return { hits, scanned, ms: Date.now() - t0 };
 }

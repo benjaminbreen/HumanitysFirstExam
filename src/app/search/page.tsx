@@ -77,7 +77,8 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
             <section className="mt-6">
               <p className="num font-mono text-[12.5px] text-ink-soft">
                 {result.hits.length} closest of {result.scanned.toLocaleString()} {entity ? "entity matches" : "passages"} · {result.ms} ms ·
-                {entity || q.split(/\s+and\s+/i).length === 2 ? "combined relevance score" : "similarity is cosine, 0–1"}
+                {entity || q.split(/\s+and\s+/i).length === 2 ? "combined relevance score" : "similarity is cosine, 0–1"} · bold
+                marks the two or three sentences closest in meaning
               </p>
               {entity && result.hits.length === 0 && <p className="mt-4 text-ink-soft">No passages in the selected corpora match {entity.entity}.</p>}
               <ol className="mt-4">
@@ -100,7 +101,17 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
                       <p className="mt-1 text-xs text-ink-faint">{label[h.corpus]}</p>
                       {h.match && <p className="mt-1 text-xs text-ink-faint">{h.match}</p>}
                     </div>
-                    <p className="font-serif text-[1.02rem] leading-relaxed">{h.text}</p>
+                    <p className="font-serif text-[1.02rem] leading-relaxed">
+                      {h.closest ? (
+                        <>
+                          {h.text.slice(0, h.closest[0])}
+                          <strong className="font-semibold">{h.text.slice(...h.closest)}</strong>
+                          {h.text.slice(h.closest[1])}
+                        </>
+                      ) : (
+                        h.text
+                      )}
+                    </p>
                   </li>
                 ))}
               </ol>
