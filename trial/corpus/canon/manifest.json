@@ -142,15 +142,16 @@
   "year": 1668,
   "language": "French",
   "translation": "Yes: anonymous English translation, London 1668 (Internet Archive: bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668)",
-  "text_url": "https://archive.org/details/bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668",
+  "text_url": "https://archive.org/details/bub_gb_CdaH5QENRFIC",
   "questions": [
    "Q02"
   ],
   "link_note": "Internet Archive match found by catalog search (Claude)",
   "status": "ok",
   "method": "ia-djvu-txt",
-  "chars": 163298,
-  "file": "canon/texts/847de683cc.txt"
+  "chars": 149182,
+  "file": "canon/texts/847de683cc.txt",
+  "audit_note": "French original from the 1704 Oeuvres; long s reads as f. 14 Oct 2026."
  },
  {
   "id": "12adc3d113",
@@ -807,14 +808,15 @@
   "year": 1759,
   "language": "Latin",
   "translation": "No public-domain English translation found.",
-  "text_url": "https://archive.org/details/theoriagenerati00wolfgoog",
+  "text_url": "https://archive.org/details/b30506256",
   "questions": [
    "Q09"
   ],
   "status": "ok",
   "method": "ia-djvu-txt",
-  "chars": 452283,
-  "file": "canon/texts/3a24f69625.txt"
+  "chars": 453265,
+  "file": "canon/texts/3a24f69625.txt",
+  "audit_note": "Best scan found (Wellcome copy of the 1774 second edition; no 1759 text found). Long s reads as f, which lowers the Latin function-word score. Readable. 14 Oct 2026."
  },
  {
   "id": "ba527d9007",
@@ -895,8 +897,8 @@
    "Q10"
   ],
   "status": "ok",
-  "method": "ia-djvu-txt",
-  "chars": 1555201,
+  "method": "ia-djvu-txt (extract)",
+  "chars": 11914,
   "file": "canon/texts/159d871c1a.txt"
  },
  {
@@ -1041,14 +1043,15 @@
   "year": 1884,
   "language": "German",
   "translation": "No public-domain English translation found.",
-  "text_url": "https://archive.org/details/scherzundernsti01jhergoog",
+  "text_url": "https://archive.org/details/bub_gb_-jcPAAAAYAAJ",
   "questions": [
    "Q11"
   ],
   "status": "ok",
   "method": "ia-djvu-txt",
-  "chars": 737825,
-  "file": "canon/texts/1a98f09a88.txt"
+  "chars": 812523,
+  "file": "canon/texts/1a98f09a88.txt",
+  "audit_note": "Best scan found (1885 edition, Google scan). Fraktur OCR: long s reads as f and letters are swapped. Readable; no transcription on Wikisource, DTA, Zeno or Projekt Gutenberg. 14 Oct 2026."
  },
  {
   "id": "2d727133c0",
@@ -1073,13 +1076,13 @@
   "year": 1906,
   "language": "German",
   "translation": "No public-domain English translation found.",
-  "text_url": "https://sammlungen.ub.uni-frankfurt.de/varia/content/titleinfo/10936094",
+  "text_url": "https://archive.org/details/bub_gb_ovoqAAAAYAAJ",
   "questions": [
    "Q11"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 186,
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 86858,
   "file": "canon/texts/84d922bbd5.txt"
  },
  {
@@ -1155,13 +1158,13 @@
   "year": 1869,
   "language": "English",
   "translation": "",
-  "text_url": "https://galton.org/books/hereditary-genius/text/pdf/genius.pdf",
+  "text_url": "https://archive.org/details/b21364059",
   "questions": [
    "Q12"
   ],
   "status": "ok",
-  "method": "html-page",
-  "chars": 785910,
+  "method": "ia-djvu-txt",
+  "chars": 744965,
   "file": "canon/texts/64e9a3ae9b.txt"
  },
  {
@@ -1457,7 +1460,8 @@
   "status": "ok",
   "method": "gutenberg-txt",
   "chars": 153165,
-  "file": "canon/texts/ee43c947e1.txt"
+  "file": "canon/texts/ee43c947e1.txt",
+  "audit_note": "Clean Gutenberg text; the noise score comes from underscore italics and speaker names. 14 Oct 2026."
  },
  {
   "id": "d1a1fee4e0",
@@ -2059,13 +2063,13 @@
   "year": 1798,
   "language": "German",
   "translation": "No public-domain English translation confirmed",
-  "text_url": "https://korpora.org/Kant/aa07/149.html",
+  "text_url": "https://korpora.org/Kant/aa07/117.html",
   "questions": [
    "Q20"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 2813,
+  "status": "ok",
+  "method": "korpora-aa",
+  "chars": 444619,
   "file": "canon/texts/451749976f.txt"
  },
  {
@@ -2435,14 +2439,15 @@
   "year": 1614,
   "language": "Latin",
   "translation": "Edward Wright, A Description of the Admirable Table of Logarithmes (1616)",
-  "text_url": "https://archive.org/details/bim_early-english-books-1475-1640_mirifici-logarithmorum-c_napier-john_1614_0",
+  "text_url": "https://archive.org/details/mirificilogarit00napi",
   "questions": [
    "Q24"
   ],
   "status": "ok",
   "method": "ia-djvu-txt",
-  "chars": 262053,
-  "file": "canon/texts/71e9471113.txt"
+  "chars": 263779,
+  "file": "canon/texts/71e9471113.txt",
+  "audit_note": "Best scan found (Dibner Library copy of 1614). The noise is mostly the logarithm tables; the prose reads. 14 Oct 2026."
  },
  {
   "id": "70167f6fc3",
@@ -2707,14 +2712,15 @@
   "year": 1899,
   "language": "French",
   "translation": "Official English text on Avalon Project",
-  "text_url": "https://avalon.law.yale.edu/19th_century/dec99-02.asp",
+  "text_url": "https://de.wikisource.org/wiki/Erklärung,_betreffend_das_Verbot_der_Verwendung_von_Geschossen_mit_erstickenden_oder_giftigen_Gasen",
   "questions": [
    "Q27"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 3531,
-  "file": "canon/texts/2e74b4f31d.txt"
+  "status": "ok",
+  "method": "wikisource (French column of the bilingual Reichsgesetzblatt 1901 printing)",
+  "chars": 3745,
+  "file": "canon/texts/2e74b4f31d.txt",
+  "audit_note": "Complete French text of a short declaration; the length flag is expected. 14 Oct 2026."
  },
  {
   "id": "3588835f8a",
@@ -3300,13 +3306,13 @@
   "year": 1809,
   "language": "German",
   "translation": "No English translation found.",
-  "text_url": "https://www.deutschestextarchiv.de/mueller_staatskunst01_1809/37",
+  "text_url": "https://www.deutschestextarchiv.de/book/show/mueller_staatskunst01_1809",
   "questions": [
    "Q35"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 25,
+  "status": "ok",
+  "method": "dta-txt",
+  "chars": 813714,
   "file": "canon/texts/217c78900f.txt"
  },
  {
@@ -3428,13 +3434,13 @@
   "year": 1911,
   "language": "English",
   "translation": "",
-  "text_url": "https://zenodo.org/records/1431638",
+  "text_url": "https://archive.org/details/studiesinneurolo02headuoft",
   "questions": [
    "Q37"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 1998,
+  "status": "ok",
+  "method": "ia-djvu-txt",
+  "chars": 350867,
   "file": "canon/texts/d64c3e5c49.txt"
  },
  {
@@ -3546,13 +3552,13 @@
   "year": 1762,
   "language": "French",
   "translation": "No public-domain English translation confirmed.",
-  "text_url": "https://archive.org/details/bub_gb_0NTBdFDv3EYC",
+  "text_url": "https://fr.wikisource.org/wiki/Pygmalion_(Rousseau)",
   "questions": [
    "Q39"
   ],
   "status": "ok",
-  "method": "ia-djvu-txt",
-  "chars": 23787,
+  "method": "wikisource",
+  "chars": 12490,
   "file": "canon/texts/b89ffbd7cc.txt"
  },
  {
@@ -3630,13 +3636,13 @@
   "year": 1778,
   "language": "German",
   "translation": "No public-domain English translation found.",
-  "text_url": "https://www.projekt-gutenberg.org/goethe/empfinds/empfinds.html",
+  "text_url": "https://projekt-gutenberg.org/authors/johann-wolfgang-von-goethe/books/der-triumph-der-empfindsamkeit/chapter/1",
   "questions": [
    "Q40"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 2806,
+  "status": "ok",
+  "method": "projekt-gutenberg (7 chapter pages)",
+  "chars": 76285,
   "file": "canon/texts/3998866354.txt"
  },
  {
@@ -3651,9 +3657,9 @@
   "questions": [
    "Q40"
   ],
-  "status": "partial",
-  "method": "html-page",
-  "chars": 18437,
+  "status": "ok",
+  "method": "zeno",
+  "chars": 15871,
   "file": "canon/texts/e7b04031d1.txt"
  },
  {
@@ -3719,7 +3725,8 @@
   "status": "ok",
   "method": "ia-djvu-txt",
   "chars": 319807,
-  "file": "canon/texts/71e9471113-en.txt"
+  "file": "canon/texts/71e9471113-en.txt",
+  "audit_note": "EEBO OCR of Wright's 1616 translation; no transcription found. Right work, prose readable with errors. 14 Oct 2026."
  },
  {
   "id": "ba527d9007-en",
@@ -3815,7 +3822,8 @@
   "status": "ok",
   "method": "wikisource (9 pages)",
   "chars": 229477,
-  "file": "canon/texts/45b21f2b4a-orig.txt"
+  "file": "canon/texts/45b21f2b4a-orig.txt",
+  "audit_note": "Clean Russian Wikisource text; earlier flag came from a missing language field. 14 Oct 2026."
  },
  {
   "id": "de2c726d82-orig",

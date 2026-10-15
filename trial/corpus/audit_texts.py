@@ -126,7 +126,8 @@ def audit_text(w, text):
         flags.append(f"heavy OCR noise ({nz:.0%} of tokens)")
     elif nz > 0.05:
         flags.append(f"OCR noise ({nz:.0%} of tokens)")
-    if func is not None and func < 0.2 and (guess == lang or not lang):
+    floor = 0.12 if (lang or guess) == "Russian" else 0.2  # Russian has no articles
+    if func is not None and func < floor and (guess == lang or not lang):
         flags.append(f"few {lang} function words ({func:.0%}); likely garbled")
     if not author:
         flags.append(f"author surname '{surname}' not in text")
@@ -159,7 +160,10 @@ def main():
     manifest = json.loads((CANON / "manifest.json").read_text())
     rows = []
     texts = {}
+    lang_of = {w["id"]: w.get("language") for w in manifest}
     for w in manifest:
+        if w.get("role") == "original" and not w.get("language"):
+            w = {**w, "language": lang_of.get(w.get("of"))}
         if w.get("status") not in ("ok", "partial") or not w.get("file"):
             rows.append({"id": w["id"], "author": w["author"], "title": w["title"],
                          "language": w.get("language"), "verdict": "missing",
@@ -172,6 +176,8 @@ def main():
             r["flags"].append("download marked partial")
             if r["verdict"] == "ok":
                 r["verdict"] = "check"
+        if w.get("audit_note"):
+            r["note"] = w["audit_note"]  # a reader's verdict on the flags, from the manifest
         rows.append(r)
     (CANON / "audit.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False))
     print(Counter(r["verdict"] for r in rows))

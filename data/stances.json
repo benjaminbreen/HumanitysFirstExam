@@ -1244,7 +1244,8 @@
    "confidence": "medium",
    "checked": "Chapter title confirmed in galton.org text and Macmillan's article PDF. galton.org is not a listed repository.",
    "status": "unverified",
-   "reviewNote": "All three candidates are PDF cross-reference tables with no text."
+   "reviewNote": "All three candidates are PDF cross-reference tables with no text.",
+   "passage": "q12-galton-hereditary-genius"
   },
   {
    "id": "q12-binet-modern-ideas",
@@ -2496,7 +2497,8 @@
    "confidence": "medium",
    "checked": "Confirmed via MacTutor and Wikidata; Internet Archive scan of 1614 ed. listed.",
    "status": "unverified",
-   "reviewNote": "All three candidates are OCR of Napier's tables and rules of use; none contains the preface or any statement about sparing calculators tedium and error."
+   "reviewNote": "All three candidates are OCR of Napier's tables and rules of use; none contains the preface or any statement about sparing calculators tedium and error.",
+   "passage": "q24-napier-mirifici-logarithmorum"
   },
   {
    "id": "q24-pascal-avis-necessaire",
@@ -3798,7 +3800,8 @@
    "confidence": "high",
    "checked": "Brain 34 (1911): 102-254, Oxford Academic record and Zenodo record; feather quotation from Wikipedia 'Body schema' and Vallar 2025 review.",
    "status": "unverified",
-   "reviewNote": "The only candidate is website boilerplate with no text from the work."
+   "reviewNote": "The only candidate is website boilerplate with no text from the work.",
+   "passage": "q37-henry-et-al-sensory-disturbances"
   },
   {
    "id": "q37-merleau-ponty-phenomenology-perception",
@@ -4020,7 +4023,8 @@
    "confidence": "high",
    "checked": "German Wikipedia entry (premiered Weimar, 30 January 1778); Projekt Gutenberg-DE text page.",
    "status": "unverified",
-   "reviewNote": "The only candidate is the website's front matter and cast list, with no text stating the position."
+   "reviewNote": "The only candidate is the website's front matter and cast list, with no text stating the position.",
+   "passage": "q40-goethe-triumph-sensibility"
   },
   {
    "id": "q40-hoffmann-sandman",

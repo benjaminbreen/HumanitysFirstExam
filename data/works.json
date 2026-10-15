@@ -319,18 +319,18 @@
    ],
    "texts": [
     {
-     "id": "f3ad81d9c1",
-     "role": "main",
-     "language": "French",
-     "status": "ok",
-     "file": "canon/texts/f3ad81d9c1.txt"
-    },
-    {
      "id": "d1a1fee4e0",
      "role": "main",
      "language": "French",
      "status": "ok",
      "file": "canon/texts/d1a1fee4e0.txt"
+    },
+    {
+     "id": "f3ad81d9c1",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/f3ad81d9c1.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -1311,7 +1311,7 @@
    "kind": "fiction",
    "wikidata": null,
    "textUrl": "https://www.projekt-gutenberg.org/goethe/empfinds/empfinds.html",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "No public-domain English translation found."
@@ -1324,7 +1324,7 @@
      "id": "3998866354",
      "role": "main",
      "language": "German",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/3998866354.txt"
     }
    ],
@@ -1749,7 +1749,7 @@
    "kind": "treatise",
    "wikidata": "Q574382",
    "textUrl": "https://korpora.org/Kant/aa07/149.html",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "No public-domain English translation confirmed"
@@ -1762,7 +1762,7 @@
      "id": "451749976f",
      "role": "main",
      "language": "German",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/451749976f.txt"
     }
    ],
@@ -1884,7 +1884,7 @@
    "kind": "treatise",
    "wikidata": null,
    "textUrl": "https://www.deutschestextarchiv.de/mueller_staatskunst01_1809/37",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "No English translation found."
@@ -1897,7 +1897,7 @@
      "id": "217c78900f",
      "role": "main",
      "language": "German",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/217c78900f.txt"
     }
    ],
@@ -3192,18 +3192,18 @@
    ],
    "texts": [
     {
-     "id": "4740ec1f16",
-     "role": "main",
-     "language": "English",
-     "status": "ok",
-     "file": "canon/texts/4740ec1f16.txt"
-    },
-    {
      "id": "15d4546666",
      "role": "main",
      "language": "English",
      "status": "ok",
      "file": "canon/texts/15d4546666.txt"
+    },
+    {
+     "id": "4740ec1f16",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4740ec1f16.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -3330,18 +3330,18 @@
    ],
    "texts": [
     {
-     "id": "06e7fb14eb",
-     "role": "main",
-     "language": "German",
-     "status": "ok",
-     "file": "canon/texts/06e7fb14eb.txt"
-    },
-    {
      "id": "1a413ec27f",
      "role": "main",
      "language": "German",
      "status": "ok",
      "file": "canon/texts/1a413ec27f.txt"
+    },
+    {
+     "id": "06e7fb14eb",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/06e7fb14eb.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -3779,18 +3779,18 @@
    ],
    "texts": [
     {
-     "id": "be2f99bcbb",
-     "role": "main",
-     "language": "German",
-     "status": "ok",
-     "file": "canon/texts/be2f99bcbb.txt"
-    },
-    {
      "id": "0ed8cafc06",
      "role": "main",
      "language": "German",
      "status": "ok",
      "file": "canon/texts/0ed8cafc06.txt"
+    },
+    {
+     "id": "be2f99bcbb",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/be2f99bcbb.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -4164,11 +4164,11 @@
    ],
    "texts": [
     {
-     "id": "a39535e159",
+     "id": "dbb8169c55",
      "role": "main",
      "language": "French",
      "status": "ok",
-     "file": "canon/texts/a39535e159.txt"
+     "file": "canon/texts/dbb8169c55.txt"
     },
     {
      "id": "f2fcb7a839",
@@ -4178,11 +4178,11 @@
      "file": "canon/texts/f2fcb7a839.txt"
     },
     {
-     "id": "dbb8169c55",
+     "id": "a39535e159",
      "role": "main",
      "language": "French",
      "status": "ok",
-     "file": "canon/texts/dbb8169c55.txt"
+     "file": "canon/texts/a39535e159.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -4381,18 +4381,18 @@
    ],
    "texts": [
     {
-     "id": "2d180e3b32",
-     "role": "main",
-     "language": "English",
-     "status": "ok",
-     "file": "canon/texts/2d180e3b32.txt"
-    },
-    {
      "id": "92ba63e63e",
      "role": "main",
      "language": "English",
      "status": "ok",
      "file": "canon/texts/92ba63e63e.txt"
+    },
+    {
+     "id": "2d180e3b32",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2d180e3b32.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -4782,7 +4782,7 @@
    "kind": "other",
    "wikidata": null,
    "textUrl": "https://avalon.law.yale.edu/19th_century/dec99-02.asp",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "Official English text on Avalon Project"
@@ -4795,7 +4795,7 @@
      "id": "2e74b4f31d",
      "role": "main",
      "language": "French",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/2e74b4f31d.txt"
     }
    ],
@@ -5143,7 +5143,7 @@
    "kind": "essay",
    "wikidata": null,
    "textUrl": "https://sammlungen.ub.uni-frankfurt.de/varia/content/titleinfo/10936094",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "No public-domain English translation found."
@@ -5156,7 +5156,7 @@
      "id": "84d922bbd5",
      "role": "main",
      "language": "German",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/84d922bbd5.txt"
     }
    ],
@@ -5515,18 +5515,18 @@
      "file": "canon/texts/a8a22bd149.txt"
     },
     {
-     "id": "49d515252c",
-     "role": "main",
-     "language": "Gujarati",
-     "status": "ok",
-     "file": "canon/texts/49d515252c.txt"
-    },
-    {
      "id": "5d7e9dc60b",
      "role": "main",
      "language": "Gujarati",
      "status": "ok",
      "file": "canon/texts/5d7e9dc60b.txt"
+    },
+    {
+     "id": "49d515252c",
+     "role": "main",
+     "language": "Gujarati",
+     "status": "ok",
+     "file": "canon/texts/49d515252c.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -5546,7 +5546,7 @@
    "kind": "periodical",
    "wikidata": null,
    "textUrl": "https://zenodo.org/records/1431638",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "english"
    },
@@ -5558,7 +5558,7 @@
      "id": "d64c3e5c49",
      "role": "main",
      "language": "English",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/d64c3e5c49.txt"
     }
    ],
@@ -5741,7 +5741,7 @@
    "kind": "essay",
    "wikidata": null,
    "textUrl": "http://www.zeno.org/Literatur/M/Rilke,+Rainer+Maria/Theoretische+Schriften/[Aufs%C3%A4tze+und+Rezensionen]/Puppen",
-   "text": "partial",
+   "text": "full",
    "translation": {
     "kind": "none",
     "note": "No public-domain English translation found."
@@ -5754,7 +5754,7 @@
      "id": "e7b04031d1",
      "role": "main",
      "language": "German",
-     "status": "partial",
+     "status": "ok",
      "file": "canon/texts/e7b04031d1.txt"
     }
    ],

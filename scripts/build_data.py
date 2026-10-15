@@ -271,12 +271,39 @@ def main():
     replaced = set()
     for r in json.loads(repl_file.read_text()) if repl_file.exists() else []:
         p = next((x for x in passages if x.get("stance") == r["stance"]), None)
+        st = next((s for s in stances if s["id"] == r["stance"]), None)
+        if r.get("keep"):
+            # Read in context and kept as chosen.
+            if p:
+                p["status"] = p["status"].replace("selected by machine, unchecked", "selected by machine, kept after reading screen, 14 Oct 2026")
+            continue
+        if r.get("flag"):
+            # No passage in the text states the claimed position: drop the quotation, flag the stance.
+            if p:
+                passages.remove(p)
+            if st:
+                st["reviewCheck"], st["reviewNote"] = r["flag"], r.get("reason", "")
+                st.pop("passage", None)
+            replaced.add(r["stance"])
+            continue
+        if not p and st and r["stance"] in cands_by:
+            # Stance had no quotation (bad source text); add one from the replacement text.
+            c = cands_by[r["stance"]]
+            p = {"id": r["stance"], "work": c["work"], "questions": [c["question"]], "stance": r["stance"],
+                 "language": c["language"] if r.get("translation") else "English", "terms": [], "notes": r.get("reason", ""),
+                 "relevance": {}, "summaryCheck": "", "selection": "chosen by a Claude subagent from the replaced source text"}
+            hay0 = norm((ROOT / "trial/corpus/canon/texts" / (r["file"] + ".txt")).read_text(errors="replace"))
+            if all(norm(x) in hay0 for x in re.split(r"\s*(?:…|\.\.\.|\[\.\.\.\])\s*", r["original"]) if x.strip()):
+                passages.append(p)
+                st["passage"] = r["stance"]
         hay = norm((ROOT / "trial/corpus/canon/texts" / (r["file"] + ".txt")).read_text(errors="replace"))
         segs = [norm(x) for x in re.split(r"\s*(?:…|\.\.\.|\[\.\.\.\])\s*", r["original"]) if x.strip()]
         if not p or not all(x in hay for x in segs):
             print("replacement not found verbatim, skipped:", r["stance"])
             continue
-        p.update(original=r["original"], translation=r.get("translation"), status="replaced after reading screen, 14 Oct 2026")
+        p.update(original=r["original"], translation=r.get("translation"), status=r.get("status", "replaced after reading screen, 14 Oct 2026"))
+        if r.get("translation"):
+            p["translationBy"] = "Claude subagent (Opus 5.5), 14 Oct 2026"
         p.pop("corrected", None)
         if r.get("corrected"):
             p["corrected"], p["correction"] = r["corrected"], "Claude, from the source text"

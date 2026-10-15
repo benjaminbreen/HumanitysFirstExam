@@ -128,19 +128,18 @@
   "year": 1668,
   "language": "French",
   "method": "ia-djvu-txt",
-  "text_url": "https://archive.org/details/bim_early-english-books-1641-1700_a-philosophicall-discour_cordemoy-geraud-de_1668",
-  "chars": 163298,
-  "lang_guess": "English",
-  "func": 0.005,
-  "noise": 0.049,
+  "text_url": "https://archive.org/details/bub_gb_CdaH5QENRFIC",
+  "chars": 149182,
+  "lang_guess": "French",
+  "func": 0.286,
+  "noise": 0.022,
   "author_found": false,
-  "title_score": 0.33,
+  "title_score": 1.0,
   "flags": [
-   "English translation of a French work",
-   "author surname 'cordemoy' not in text",
-   "title words mostly absent from opening (33%)"
+   "author surname 'cordemoy' not in text"
   ],
-  "verdict": "check"
+  "verdict": "check",
+  "note": "French original from the 1704 Oeuvres; long s reads as f. 14 Oct 2026."
  },
  {
   "id": "12adc3d113",
@@ -798,18 +797,19 @@
   "year": 1759,
   "language": "Latin",
   "method": "ia-djvu-txt",
-  "text_url": "https://archive.org/details/theoriagenerati00wolfgoog",
-  "chars": 452283,
+  "text_url": "https://archive.org/details/b30506256",
+  "chars": 453265,
   "lang_guess": "Latin",
-  "func": 0.083,
-  "noise": 0.173,
+  "func": 0.105,
+  "noise": 0.057,
   "author_found": true,
   "title_score": 1.0,
   "flags": [
-   "heavy OCR noise (17% of tokens)",
-   "few Latin function words (8%); likely garbled"
+   "OCR noise (6% of tokens)",
+   "few Latin function words (10%); likely garbled"
   ],
-  "verdict": "bad"
+  "verdict": "bad",
+  "note": "Best scan found (Wellcome copy of the 1774 second edition; no 1759 text found). Long s reads as f, which lowers the Latin function-word score. Readable. 14 Oct 2026."
  },
  {
   "id": "ba527d9007",
@@ -881,19 +881,16 @@
   "title": "On the Characteristic Art for Perfecting the Sciences Founded on Reason",
   "year": 1890,
   "language": "Latin",
-  "method": "ia-djvu-txt",
+  "method": "ia-djvu-txt (extract)",
   "text_url": "https://archive.org/details/diephilosophisc00gerhgoog",
-  "chars": 1555201,
-  "lang_guess": "French",
-  "func": 0.116,
-  "noise": 0.113,
-  "author_found": false,
-  "title_score": 0.67,
-  "flags": [
-   "heavy OCR noise (11% of tokens)",
-   "author surname 'leibniz' not in text"
-  ],
-  "verdict": "bad"
+  "chars": 11914,
+  "lang_guess": "Latin",
+  "func": 0.2,
+  "noise": 0.004,
+  "author_found": true,
+  "title_score": 1.0,
+  "flags": [],
+  "verdict": "ok"
  },
  {
   "id": "a728ea3968",
@@ -1037,19 +1034,19 @@
   "year": 1884,
   "language": "German",
   "method": "ia-djvu-txt",
-  "text_url": "https://archive.org/details/scherzundernsti01jhergoog",
-  "chars": 737825,
+  "text_url": "https://archive.org/details/bub_gb_-jcPAAAAYAAJ",
+  "chars": 812523,
   "lang_guess": "German",
-  "func": 0.093,
-  "noise": 0.318,
+  "func": 0.097,
+  "noise": 0.166,
   "author_found": true,
-  "title_score": 0.0,
+  "title_score": 1.0,
   "flags": [
-   "heavy OCR noise (32% of tokens)",
-   "few German function words (9%); likely garbled",
-   "title words mostly absent from opening (0%)"
+   "heavy OCR noise (17% of tokens)",
+   "few German function words (10%); likely garbled"
   ],
-  "verdict": "bad"
+  "verdict": "bad",
+  "note": "Best scan found (1885 edition, Google scan). Fraktur OCR: long s reads as f and letters are swapped. Readable; no transcription on Wikisource, DTA, Zeno or Projekt Gutenberg. 14 Oct 2026."
  },
  {
   "id": "2d727133c0",
@@ -1068,22 +1065,18 @@
   "title": "The Battle for Legal Science",
   "year": 1906,
   "language": "German",
-  "method": "html-page",
-  "text_url": "https://sammlungen.ub.uni-frankfurt.de/varia/content/titleinfo/10936094",
-  "chars": 186,
-  "lang_guess": "English",
-  "func": 0.0,
-  "noise": 0.042,
+  "method": "ia-djvu-txt",
+  "text_url": "https://archive.org/details/bub_gb_ovoqAAAAYAAJ",
+  "chars": 86858,
+  "lang_guess": "German",
+  "func": 0.281,
+  "noise": 0.026,
   "author_found": false,
-  "title_score": 0.0,
+  "title_score": 1.0,
   "flags": [
-   "English translation of a German work",
-   "author surname 'kantorowicz)' not in text",
-   "title words mostly absent from opening (0%)",
-   "very short (186 chars)",
-   "download marked partial"
+   "author surname 'kantorowicz)' not in text"
   ],
-  "verdict": "bad"
+  "verdict": "check"
  },
  {
   "id": "c7595705d7",
@@ -1155,20 +1148,16 @@
   "title": "Hereditary Genius",
   "year": 1869,
   "language": "English",
-  "method": "html-page",
-  "text_url": "https://galton.org/books/hereditary-genius/text/pdf/genius.pdf",
-  "chars": 784004,
-  "lang_guess": "Italian",
-  "func": 0.013,
-  "noise": 0.764,
-  "author_found": false,
-  "title_score": 0.0,
-  "flags": [
-   "heavy OCR noise (76% of tokens)",
-   "author surname 'galton' not in text",
-   "title words mostly absent from opening (0%)"
-  ],
-  "verdict": "bad"
+  "method": "ia-djvu-txt",
+  "text_url": "https://archive.org/details/b21364059",
+  "chars": 744965,
+  "lang_guess": "English",
+  "func": 0.354,
+  "noise": 0.01,
+  "author_found": true,
+  "title_score": 1.0,
+  "flags": [],
+  "verdict": "ok"
  },
  {
   "id": "fd0466e0a0",
@@ -1457,7 +1446,8 @@
    "OCR noise (8% of tokens)",
    "title words mostly absent from opening (0%)"
   ],
-  "verdict": "check"
+  "verdict": "check",
+  "note": "Clean Gutenberg text; the noise score comes from underscore italics and speaker names. 14 Oct 2026."
  },
  {
   "id": "d1a1fee4e0",
@@ -2054,19 +2044,18 @@
   "title": "Anthropology from a Pragmatic Point of View",
   "year": 1798,
   "language": "German",
-  "method": "html-page",
-  "text_url": "https://korpora.org/Kant/aa07/149.html",
-  "chars": 2813,
+  "method": "korpora-aa",
+  "text_url": "https://korpora.org/Kant/aa07/117.html",
+  "chars": 444619,
   "lang_guess": "German",
-  "func": 0.282,
-  "noise": 0.0,
-  "author_found": true,
-  "title_score": 0.67,
+  "func": 0.298,
+  "noise": 0.001,
+  "author_found": false,
+  "title_score": 1.0,
   "flags": [
-   "very short (2813 chars)",
-   "download marked partial"
+   "author surname 'kant' not in text"
   ],
-  "verdict": "bad"
+  "verdict": "check"
  },
  {
   "id": "509a46bf0d",
@@ -2453,19 +2442,19 @@
   "year": 1614,
   "language": "Latin",
   "method": "ia-djvu-txt",
-  "text_url": "https://archive.org/details/bim_early-english-books-1475-1640_mirifici-logarithmorum-c_napier-john_1614_0",
-  "chars": 262053,
+  "text_url": "https://archive.org/details/mirificilogarit00napi",
+  "chars": 263779,
   "lang_guess": "Latin",
-  "func": 0.074,
-  "noise": 0.16,
-  "author_found": false,
-  "title_score": 1.0,
+  "func": 0.079,
+  "noise": 0.114,
+  "author_found": true,
+  "title_score": 0.75,
   "flags": [
-   "heavy OCR noise (16% of tokens)",
-   "few Latin function words (7%); likely garbled",
-   "author surname 'napier' not in text"
+   "heavy OCR noise (11% of tokens)",
+   "few Latin function words (8%); likely garbled"
   ],
-  "verdict": "bad"
+  "verdict": "bad",
+  "note": "Best scan found (Dibner Library copy of 1614). The noise is mostly the logarithm tables; the prose reads. 14 Oct 2026."
  },
  {
   "id": "70167f6fc3",
@@ -2716,20 +2705,20 @@
   "title": "Declaration concerning Asphyxiating Gases (Hague Declaration IV, 2)",
   "year": 1899,
   "language": "French",
-  "method": "html-page",
-  "text_url": "https://avalon.law.yale.edu/19th_century/dec99-02.asp",
-  "chars": 3497,
-  "lang_guess": "English",
-  "func": 0.008,
-  "noise": 0.011,
+  "method": "wikisource (French column of the bilingual Reichsgesetzblatt 1901 printing)",
+  "text_url": "https://de.wikisource.org/wiki/Erklärung,_betreffend_das_Verbot_der_Verwendung_von_Geschossen_mit_erstickenden_oder_giftigen_Gasen",
+  "chars": 3745,
+  "lang_guess": "French",
+  "func": 0.253,
+  "noise": 0.004,
   "author_found": true,
-  "title_score": 1.0,
+  "title_score": 0.4,
   "flags": [
-   "English translation of a French work",
-   "very short (3497 chars)",
-   "download marked partial"
+   "title words mostly absent from opening (40%)",
+   "very short (3745 chars)"
   ],
-  "verdict": "bad"
+  "verdict": "bad",
+  "note": "Complete French text of a short declaration; the length flag is expected. 14 Oct 2026."
  },
  {
   "id": "3588835f8a",
@@ -3297,22 +3286,18 @@
   "title": "The Elements of Statecraft",
   "year": 1809,
   "language": "German",
-  "method": "html-page",
-  "text_url": "https://www.deutschestextarchiv.de/mueller_staatskunst01_1809/37",
-  "chars": 25,
-  "lang_guess": "English",
-  "func": 0.0,
-  "noise": 0.333,
-  "author_found": false,
-  "title_score": 0.0,
+  "method": "dta-txt",
+  "text_url": "https://www.deutschestextarchiv.de/book/show/mueller_staatskunst01_1809",
+  "chars": 813714,
+  "lang_guess": "German",
+  "func": 0.289,
+  "noise": 0.084,
+  "author_found": true,
+  "title_score": 1.0,
   "flags": [
-   "heavy OCR noise (33% of tokens)",
-   "author surname 'muller' not in text",
-   "title words mostly absent from opening (0%)",
-   "very short (25 chars)",
-   "download marked partial"
+   "OCR noise (8% of tokens)"
   ],
-  "verdict": "bad"
+  "verdict": "check"
  },
  {
   "id": "82de55e37e",
@@ -3421,21 +3406,16 @@
   "title": "Sensory Disturbances from Cerebral Lesions",
   "year": 1911,
   "language": "English",
-  "method": "html-page",
-  "text_url": "https://zenodo.org/records/1431638",
-  "chars": 1998,
+  "method": "ia-djvu-txt",
+  "text_url": "https://archive.org/details/studiesinneurolo02headuoft",
+  "chars": 350867,
   "lang_guess": "English",
-  "func": 0.144,
-  "noise": 0.111,
+  "func": 0.375,
+  "noise": 0.028,
   "author_found": true,
   "title_score": 1.0,
-  "flags": [
-   "heavy OCR noise (11% of tokens)",
-   "few English function words (14%); likely garbled",
-   "very short (1998 chars)",
-   "download marked partial"
-  ],
-  "verdict": "bad"
+  "flags": [],
+  "verdict": "ok"
  },
  {
   "id": "b76f02428d",
@@ -3544,18 +3524,18 @@
   "title": "Pygmalion, lyric scene",
   "year": 1762,
   "language": "French",
-  "method": "ia-djvu-txt",
-  "text_url": "https://archive.org/details/bub_gb_0NTBdFDv3EYC",
-  "chars": 23787,
+  "method": "wikisource",
+  "text_url": "https://fr.wikisource.org/wiki/Pygmalion_(Rousseau)",
+  "chars": 12490,
   "lang_guess": "French",
-  "func": 0.204,
-  "noise": 0.178,
-  "author_found": true,
-  "title_score": 0.67,
+  "func": 0.261,
+  "noise": 0.005,
+  "author_found": false,
+  "title_score": 1.0,
   "flags": [
-   "heavy OCR noise (18% of tokens)"
+   "author surname 'rousseau' not in text"
   ],
-  "verdict": "bad"
+  "verdict": "check"
  },
  {
   "id": "9eed852aa9",
@@ -3628,20 +3608,18 @@
   "title": "The Triumph of Sensibility",
   "year": 1778,
   "language": "German",
-  "method": "html-page",
-  "text_url": "https://www.projekt-gutenberg.org/goethe/empfinds/empfinds.html",
-  "chars": 2806,
+  "method": "projekt-gutenberg (7 chapter pages)",
+  "text_url": "https://projekt-gutenberg.org/authors/johann-wolfgang-von-goethe/books/der-triumph-der-empfindsamkeit/chapter/1",
+  "chars": 76285,
   "lang_guess": "German",
-  "func": 0.182,
-  "noise": 0.003,
-  "author_found": true,
+  "func": 0.253,
+  "noise": 0.0,
+  "author_found": false,
   "title_score": 1.0,
   "flags": [
-   "few German function words (18%); likely garbled",
-   "very short (2806 chars)",
-   "download marked partial"
+   "author surname 'goethe' not in text"
   ],
-  "verdict": "bad"
+  "verdict": "check"
  },
  {
   "id": "e7b04031d1",
@@ -3649,17 +3627,16 @@
   "title": "Dolls: On the Wax Dolls of Lotte Pritzel",
   "year": 1914,
   "language": "German",
-  "method": "html-page",
+  "method": "zeno",
   "text_url": "http://www.zeno.org/Literatur/M/Rilke,+Rainer+Maria/Theoretische+Schriften/[Aufs%C3%A4tze+und+Rezensionen]/Puppen",
-  "chars": 18406,
+  "chars": 15871,
   "lang_guess": "German",
-  "func": 0.282,
-  "noise": 0.098,
-  "author_found": true,
+  "func": 0.265,
+  "noise": 0.002,
+  "author_found": false,
   "title_score": 1.0,
   "flags": [
-   "OCR noise (10% of tokens)",
-   "download marked partial"
+   "author surname 'rilke' not in text"
   ],
   "verdict": "check"
  },
@@ -3737,7 +3714,8 @@
    "author surname 'napier' not in text",
    "title words mostly absent from opening (25%)"
   ],
-  "verdict": "bad"
+  "verdict": "bad",
+  "note": "EEBO OCR of Wright's 1616 translation; no transcription found. Right work, prose readable with errors. 14 Oct 2026."
  },
  {
   "id": "ba527d9007-en",
@@ -3829,7 +3807,7 @@
   "author": "V. I. Lenin",
   "title": "The State and Revolution",
   "year": null,
-  "language": "",
+  "language": "Russian",
   "method": "wikisource (9 pages)",
   "text_url": "https://ru.wikisource.org/wiki/Государство_и_революция_(Ленин)",
   "chars": 229477,
@@ -3839,18 +3817,18 @@
   "author_found": false,
   "title_score": 0.0,
   "flags": [
-   "few  function words (19%); likely garbled",
    "author surname 'lenin' not in text",
    "title words mostly absent from opening (0%)"
   ],
-  "verdict": "bad"
+  "verdict": "check",
+  "note": "Clean Russian Wikisource text; earlier flag came from a missing language field. 14 Oct 2026."
  },
  {
   "id": "de2c726d82-orig",
   "author": "Max Weber",
   "title": "Politics as a Vocation",
   "year": null,
-  "language": "",
+  "language": "German",
   "method": "wikisource (1 pages)",
   "text_url": "https://de.wikisource.org/wiki/Politik_als_Beruf",
   "chars": 140860,
@@ -3869,7 +3847,7 @@
   "author": "Nikolai Fedorov",
   "title": "The Philosophy of the Common Task",
   "year": null,
-  "language": "",
+  "language": "Russian",
   "method": "wikisource (1 pages)",
   "text_url": "https://ru.wikisource.org/wiki/Философия_общего_дела_(Федоров)",
   "chars": 39482,
@@ -3890,7 +3868,7 @@
   "author": "Jules Ferry",
   "title": "Speech to the Chamber of Deputies on colonial policy",
   "year": null,
-  "language": "",
+  "language": "French",
   "method": "html-page",
   "text_url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/jules-ferry-28-juillet-1885",
   "chars": 16134,
@@ -3926,7 +3904,7 @@
   "author": "Nikolai Berdyaev",
   "title": "Man and Machine",
   "year": null,
-  "language": "",
+  "language": "Russian",
   "method": "wikisource (1 pages)",
   "text_url": "https://ru.wikisource.org/wiki/Человек_и_машина_(проблема_социологии_и_метафизики_техники)_(Бердяев)",
   "chars": 54337,
@@ -3945,7 +3923,7 @@
   "author": "Oswald Spengler",
   "title": "Man and Technics",
   "year": null,
-  "language": "",
+  "language": "German",
   "method": "zeno (18 sections)",
   "text_url": "http://www.zeno.org/Philosophie/M/Spengler,+Oswald/Der+Mensch+und+die+Technik.+Beitrag+zu+einer+Philosophie+des+Lebens",
   "chars": 105308,
