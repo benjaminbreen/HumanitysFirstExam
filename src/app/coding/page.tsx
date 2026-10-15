@@ -13,6 +13,18 @@ const stanceById = new Map(stances.map((s) => [s.id, s]));
 const labels: Record<Side, string> = { yes: "Yes", no: "No", other: "Other", none: "No position", cannot: "Can’t tell" };
 
 export default async function CodingPage({ searchParams }: PageProps<"/coding">) {
+  return (
+    <>
+      <p className="mb-8 max-w-3xl border-l-2 border-rule pl-3 text-[15px]">
+        This yes/no check is no longer in use. The current task is the{" "}
+        <Link href="/keys" className="text-modern hover:underline">position keys</Link>.
+      </p>
+      <OldCheck searchParams={searchParams} />
+    </>
+  );
+}
+
+async function OldCheck({ searchParams }: { searchParams: PageProps<"/coding">["searchParams"] }) {
   const coder = await currentCoder();
   const error = (await searchParams).error;
 
