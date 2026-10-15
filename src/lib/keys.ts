@@ -25,7 +25,14 @@ export type Pool = { question: string; text: string; passages: PoolPassage[] };
 export const pools = poolsFile as Pool[];
 export const getPool = (q: string) => pools.find((p) => p.question === q);
 
-export type Category = { id: string; claim: string; reason: string; passages: string[] };
+export type Direction = "yes" | "no" | "other";
+// Either/or questions get their own words for the two directions.
+const POLES: Record<string, [string, string]> = { Q18: ["Develops", "Diminishes"] };
+export const directionLabels = (q: string): Record<Direction, string> => {
+  const [y, n] = POLES[q] ?? ["Yes", "No"];
+  return { yes: y, no: n, other: "Other" };
+};
+export type Category = { id: string; claim: string; reason: string; direction?: Direction | null; passages: string[] };
 export type Sorting = {
   categories: Category[];
   off: string[]; // passages that do not address the question
@@ -89,6 +96,7 @@ export async function saveSorting(coder: Coder, q: string, s: Sorting) {
       id: String(c.id).slice(0, 20),
       claim: String(c.claim ?? "").slice(0, 600),
       reason: String(c.reason ?? "").slice(0, 1200),
+      direction: (["yes", "no", "other"] as const).find((d) => d === c.direction) ?? null,
       passages: clean(c.passages ?? []),
     })),
     off: clean(s.off ?? []),

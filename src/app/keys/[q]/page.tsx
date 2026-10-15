@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageTitle } from "@/components/PageTitle";
 import { coders, currentCoder, storage } from "@/lib/coding";
-import { getPool, sortingFor } from "@/lib/keys";
+import { directionLabels, getPool, sortingFor } from "@/lib/keys";
 import { SignIn } from "../SignIn";
 import { Board } from "./Board";
 
@@ -43,7 +43,7 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
           what the passages imply about our question, in our words. The <em>argument in the text</em> is the grounds
           the passages themselves give for it: what the text argues, not why the author held the view or the context
           they wrote in. If two passages imply a similar answer by different arguments, make them separate positions.
-          Then add each passage to the positions it supports. A passage can support more than one.
+          Mark each position’s direction ({Object.values(directionLabels(q)).join(", ")}), so the key can be browsed at that level. Then add each passage to the positions it supports. A passage can support more than one.
         </p>
         <p>
           Where the passages come from: we searched the full texts of the 204 works on our{" "}
@@ -56,7 +56,7 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
           finished this question” at the bottom. Your work saves automatically.
         </p>
       </div>
-      <Board q={q} passages={pool.passages} initial={sorting} />
+      <Board q={q} passages={pool.passages} initial={sorting} labels={directionLabels(q)} />
     </>
   );
 }

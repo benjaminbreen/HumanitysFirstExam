@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { PageTitle } from "@/components/PageTitle";
 import { currentCoder } from "@/lib/coding";
-import { claudeKeys, getPool, pairRows, reconciliationFor, sortingFor, splitPassages, type Category, type PoolPassage } from "@/lib/keys";
+import { claudeKeys, directionLabels, getPool, pairRows, reconciliationFor, sortingFor, splitPassages, type Category, type PoolPassage } from "@/lib/keys";
 import { Decide } from "./Decide";
 
 export const metadata: Metadata = { title: "Compare positions", robots: { index: false } };
@@ -67,8 +67,8 @@ export default async function ComparePage({ params }: PageProps<"/keys/[q]/compa
         </div>
         {rows.map((r) => (
           <div key={r.id} className="grid gap-x-6 gap-y-3 border-b border-line py-5 md:grid-cols-[1fr_1fr_14rem]">
-            <Position c={r.mine} tag={r.mine ? myLetter.get(r.mine.id)! : ""} byId={byId} shared={r.shared} who="You" />
-            <Position c={r.claude} tag={r.claude ? clNum.get(r.claude.id)! : ""} byId={byId} shared={r.shared} who="Claude" />
+            <Position c={r.mine} tag={r.mine ? myLetter.get(r.mine.id)! : ""} byId={byId} shared={r.shared} who="You" labels={directionLabels(q)} />
+            <Position c={r.claude} tag={r.claude ? clNum.get(r.claude.id)! : ""} byId={byId} shared={r.shared} who="Claude" labels={directionLabels(q)} />
             <Decide q={q} row={r.id} both={Boolean(r.mine && r.claude)} initial={rec[r.id]} />
           </div>
         ))}
@@ -109,7 +109,7 @@ export default async function ComparePage({ params }: PageProps<"/keys/[q]/compa
 
 const list = (xs: string[]) => (xs.length ? xs.map(num).join(", ") : "none");
 
-function Position({ c, tag, byId, shared, who }: { c: Category | null; tag: string; byId: Map<string, PoolPassage>; shared: string[]; who: string }) {
+function Position({ c, tag, byId, shared, who, labels }: { c: Category | null; tag: string; byId: Map<string, PoolPassage>; shared: string[]; who: string; labels: Record<string, string> }) {
   if (!c) return <p className="text-[14px] text-ink-faint md:pt-1">{who}: no matching position.</p>;
   return (
     <div>
@@ -117,6 +117,7 @@ function Position({ c, tag, byId, shared, who }: { c: Category | null; tag: stri
         <span className="mr-2 font-mono text-[13px] font-semibold">{tag}</span>
         {c.claim || <span className="text-ink-faint">(no answer written)</span>}
       </p>
+      {c.direction && <p className="mt-1 font-mono text-[12px] text-ink-faint">Direction: {labels[c.direction]}</p>}
       {c.reason && <p className="mt-1 text-[14px] leading-snug text-ink-soft">{c.reason}</p>}
       <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[13px]">
         {c.passages.map((pid) => (

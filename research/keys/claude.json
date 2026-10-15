@@ -8,7 +8,8 @@
     "passages": [
      "p08",
      "p09"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k2",
@@ -17,7 +18,8 @@
     "passages": [
      "p06",
      "p07"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k3",
@@ -26,7 +28,8 @@
     "passages": [
      "p01",
      "p02"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k4",
@@ -34,7 +37,8 @@
     "reason": "Machines obey human consciousness, need human skill to build and feed them, and deliver reports that only humans decipher.",
     "passages": [
      "p13"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k5",
@@ -45,7 +49,8 @@
      "p04",
      "p05",
      "p12"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k6",
@@ -54,7 +59,8 @@
     "passages": [
      "p10",
      "p14"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k7",
@@ -62,7 +68,8 @@
     "reason": "Patterns appear beyond our will and knowledge, constructed by unconscious action of the brain rather than reproduced from earlier impressions.",
     "passages": [
      "p11"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k8",
@@ -70,7 +77,8 @@
     "reason": "The new ideas and feelings an invention releases are out of all proportion to the invention, so the cause releases rather than produces its effect.",
     "passages": [
      "p15"
-    ]
+    ],
+    "direction": "yes"
    }
   ],
   "off": [],
@@ -84,7 +92,8 @@
     "reason": "A machine's parts move one another but do not produce one another, so a watch cannot replace lost parts or mend itself; an organism organizes its materials and restores what it lacks, which mere moving power cannot explain.",
     "passages": [
      "p03"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k2",
@@ -93,7 +102,8 @@
     "passages": [
      "p18",
      "p09"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k3",
@@ -102,7 +112,8 @@
     "passages": [
      "p16",
      "p15"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k4",
@@ -112,7 +123,8 @@
      "p10",
      "p14",
      "p15"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k5",
@@ -122,7 +134,8 @@
      "p17",
      "p19",
      "p04"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k6",
@@ -130,7 +143,8 @@
     "reason": "Divisibility by regeneration is only a matter of degree, organisms are in principle divisible into elementary organisms, and machines show the same mutual conditioning of whole and parts.",
     "passages": [
      "p12"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k7",
@@ -141,7 +155,8 @@
      "p02",
      "p20",
      "p21"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k8",
@@ -150,7 +165,8 @@
     "passages": [
      "p08",
      "p11"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k9",
@@ -158,7 +174,8 @@
     "reason": "A machine under repair is the object of labour rather than its instrument, and some wear, like that which no doctor can cure, leads to its death.",
     "passages": [
      "p07"
-    ]
+    ],
+    "direction": "yes"
    }
   ],
   "off": [
@@ -180,7 +197,8 @@
      "p07",
      "p14",
      "p21"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k2",
@@ -190,7 +208,8 @@
      "p07",
      "p09",
      "p04"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k3",
@@ -199,7 +218,8 @@
     "passages": [
      "p03",
      "p04"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k4",
@@ -208,7 +228,8 @@
     "passages": [
      "p03",
      "p11"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k5",
@@ -216,7 +237,8 @@
     "reason": "The machine removes the strain of unremitting dexterity, leaves leisure for thought, is quickly learned, and moving between machines lets the worker consider the whole combination of labour.",
     "passages": [
      "p05"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k6",
@@ -226,7 +248,8 @@
      "p02",
      "p16",
      "p14"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k7",
@@ -236,7 +259,8 @@
      "p10",
      "p15",
      "p08"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k8",
@@ -246,7 +270,8 @@
      "p08",
      "p10",
      "p21"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k9",
@@ -254,7 +279,8 @@
     "reason": "Habituation to the machine process sharpens thinking suited to that process and weakens older forms of intelligence; the difference is one of kind and direction.",
     "passages": [
      "p17"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k10",
@@ -263,7 +289,8 @@
     "passages": [
      "p18",
      "p19"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k11",
@@ -271,7 +298,8 @@
     "reason": "Most minds do not find repetition terrifying and want jobs that require no thought; sympathy for them projects the restlessness of creative minds.",
     "passages": [
      "p20"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k12",
@@ -280,7 +308,8 @@
     "passages": [
      "p21",
      "p16"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k13",
@@ -288,7 +317,8 @@
     "reason": "Monotonous and unpleasant labour belongs to machines; its harms come from private ownership, not from the machine.",
     "passages": [
      "p13"
-    ]
+    ],
+    "direction": "yes"
    }
   ],
   "off": [
@@ -304,7 +334,8 @@
     "reason": "Memory weakens when it is not used; trusting external marks replaces remembering from within, giving reminders rather than knowledge.",
     "passages": [
      "p01"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k2",
@@ -313,7 +344,8 @@
     "passages": [
      "p12",
      "p17"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k3",
@@ -321,7 +353,8 @@
     "reason": "Writing makes memory partly dispensable, yet a tablet lets one recover everything exactly and without effort, taking the place of the most extensive memory.",
     "passages": [
      "p09"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k4",
@@ -329,7 +362,8 @@
     "reason": "Tools such as the pocket-book are extra-corporeal limbs that man adds to himself as he develops.",
     "passages": [
      "p13"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k5",
@@ -339,7 +373,8 @@
      "p02",
      "p06",
      "p14"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k6",
@@ -347,7 +382,8 @@
     "reason": "Writing distracts the thoughts and the hand has no closer link to memory than the eye; what is read twice is remembered better than what is transcribed.",
     "passages": [
      "p07"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k7",
@@ -357,7 +393,8 @@
      "p08",
      "p15",
      "p05"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k8",
@@ -366,7 +403,8 @@
     "passages": [
      "p16",
      "p17"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k9",
@@ -374,7 +412,8 @@
     "reason": "Laws were put into verse so people could retain them by singing and reciting.",
     "passages": [
      "p03"
-    ]
+    ],
+    "direction": "other"
    }
   ],
   "off": [
@@ -394,7 +433,8 @@
     "passages": [
      "p01",
      "p02"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k2",
@@ -404,7 +444,8 @@
      "p01",
      "p07",
      "p20"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k3",
@@ -413,7 +454,8 @@
     "passages": [
      "p11",
      "p12"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k4",
@@ -421,7 +463,8 @@
     "reason": "The religious aim is the improvement of the poorest class, and a general plan of works to make the earth productive best serves it and makes Christianity prevail.",
     "passages": [
      "p03"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k5",
@@ -429,7 +472,8 @@
     "reason": "Unlike animals, mankind has added generation after generation to a single edifice whose progress has never ceased, always in fulfilment of one design.",
     "passages": [
      "p13"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k6",
@@ -437,7 +481,8 @@
     "reason": "If the mind's discoveries reduced labour and welfare, the Creator would have given man faculties that destroy each other, which is unthinkable; the facts also show more labour where there are more inventions.",
     "passages": [
      "p09"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k7",
@@ -446,7 +491,8 @@
     "passages": [
      "p07",
      "p02"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k8",
@@ -454,7 +500,8 @@
     "reason": "The consequences of an invention are out of proportion to it: its new ideas and feelings enlarge our horizon, as though the grip of intelligence on matter mainly releases something matter holds back.",
     "passages": [
      "p14"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k9",
@@ -462,7 +509,8 @@
     "reason": "Divine truth is fixed in scripture and cannot progress; no invention from the compass to vaccination affects any theological question.",
     "passages": [
      "p06"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k10",
@@ -472,7 +520,8 @@
      "p05",
      "p19",
      "p08"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k11",
@@ -482,7 +531,8 @@
      "p18",
      "p15",
      "p17"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k12",
@@ -491,7 +541,8 @@
     "passages": [
      "p21",
      "p20"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k13",
@@ -499,7 +550,8 @@
     "reason": "The inventor's passion has nothing to do with its consequences; it is his personal life-drive.",
     "passages": [
      "p19"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k14",
@@ -507,7 +559,8 @@
     "reason": "Even the irreligious imagine a superhuman event perfecting the world, and these aspirations, remote from the physical world, built material civilization.",
     "passages": [
      "p16"
-    ]
+    ],
+    "direction": "other"
    }
   ],
   "off": [
@@ -527,7 +580,8 @@
      "p06",
      "p07",
      "p08"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k2",
@@ -537,7 +591,8 @@
      "p03",
      "p13",
      "p18"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k3",
@@ -545,7 +600,8 @@
     "reason": "Passion cannot get outside a personal illusion and women themselves are partly artificial, so replacing one illusion with another loses nothing.",
     "passages": [
      "p14"
-    ]
+    ],
+    "direction": "yes"
    },
    {
     "id": "k4",
@@ -555,7 +611,8 @@
      "p01",
      "p04",
      "p05"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k5",
@@ -564,7 +621,8 @@
     "passages": [
      "p02",
      "p10"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k6",
@@ -573,7 +631,8 @@
     "passages": [
      "p15",
      "p16"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k7",
@@ -581,7 +640,8 @@
     "reason": "The doll is a detached part of the lover's own psyche confronting him as a person, so the love is compulsive and self-directed.",
     "passages": [
      "p19"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k8",
@@ -589,7 +649,8 @@
     "reason": "Seeing the doll's eyes torn out and the automaton carried off drives the lover into madness.",
     "passages": [
      "p09"
-    ]
+    ],
+    "direction": "no"
    },
    {
     "id": "k9",
@@ -598,7 +659,8 @@
     "passages": [
      "p11",
      "p21"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k10",
@@ -606,7 +668,8 @@
     "reason": "A creature that hates its own deformity may hate it more in its mate, and the mate may prefer human beauty.",
     "passages": [
      "p12"
-    ]
+    ],
+    "direction": "other"
    },
    {
     "id": "k11",
@@ -614,7 +677,8 @@
     "reason": "A tin body contains no heart, and without a heart no one can love.",
     "passages": [
      "p17"
-    ]
+    ],
+    "direction": "other"
    }
   ],
   "off": [

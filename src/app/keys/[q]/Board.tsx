@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import type { Category, PoolPassage, Sorting } from "@/lib/keys";
+import type { Category, Direction, PoolPassage, Sorting } from "@/lib/keys";
 import { saveSortingAction } from "../actions";
 
 // The reader's working surface: passages on the left, the positions they
@@ -13,7 +13,7 @@ const letter = (i: number) => (i < 26 ? String.fromCharCode(65 + i) : String.fro
 const num = (id: string) => String(Number(id.replace(/\D/g, "")));
 const newId = () => "c" + Math.random().toString(36).slice(2, 8);
 
-export function Board({ q, passages, initial }: { q: string; passages: PoolPassage[]; initial: Sorting }) {
+export function Board({ q, passages, initial, labels }: { q: string; passages: PoolPassage[]; initial: Sorting; labels: Record<Direction, string> }) {
   const [s, setS] = useState<Sorting>(initial);
   const [status, setStatus] = useState<"saved" | "saving" | "error" | "idle">(initial.savedAt ? "saved" : "idle");
   const [savedAt, setSavedAt] = useState(initial.savedAt);
@@ -74,6 +74,12 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
     update((x) => {
       const c = x.categories.find((c) => c.id === id);
       if (c) c[field] = v;
+      return x;
+    });
+  const setDirection = (id: string, d: Direction) =>
+    update((x) => {
+      const c = x.categories.find((c) => c.id === id);
+      if (c) c.direction = c.direction === d ? null : d;
       return x;
     });
   const del = (c: Category) => {
@@ -243,6 +249,19 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
                 </span>
               </div>
               <Field label="Implied answer" value={c.claim} autoFocus={focus === c.id} placeholder="What these passages imply about our question, in our words" onChange={(v) => edit(c.id, "claim", v)} />
+              <div className="mt-2 flex items-center gap-2">
+                <span className="font-mono text-[11px] tracking-wider text-ink-faint uppercase">Direction</span>
+                {(["yes", "no", "other"] as const).map((d) => (
+                  <button
+                    key={d}
+                    onClick={() => setDirection(c.id, d)}
+                    aria-pressed={c.direction === d}
+                    className={`border px-2 py-0.5 font-mono text-[12px] ${c.direction === d ? "border-ink bg-ink text-bg" : "border-line hover:border-ink"}`}
+                  >
+                    {labels[d]}
+                  </button>
+                ))}
+              </div>
               <Field label="Argument in the text" value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
