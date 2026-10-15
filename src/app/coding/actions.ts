@@ -7,8 +7,10 @@ import { SIDES, checkPasscode, cookieValue, currentCoder, getItem, isCoder, save
 
 export async function signIn(formData: FormData) {
   const coder = formData.get("coder");
+  const next = String(formData.get("next") ?? "");
+  const back = next.startsWith("/keys") ? next : "/coding";
   if (!isCoder(coder) || !checkPasscode(coder, String(formData.get("passcode") ?? ""))) {
-    redirect("/coding?error=1");
+    redirect(`${back}?error=1`);
   }
   (await cookies()).set("coder", cookieValue(coder), {
     httpOnly: true,
@@ -17,7 +19,7 @@ export async function signIn(formData: FormData) {
     maxAge: 60 * 60 * 24 * 90,
     path: "/",
   });
-  redirect("/coding");
+  redirect(back);
 }
 
 export async function signOut() {

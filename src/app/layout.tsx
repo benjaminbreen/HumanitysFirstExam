@@ -75,7 +75,10 @@ export default function RootLayout({
         <footer className="border-t border-line">
           <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-2 px-4 py-6 text-sm text-ink-faint sm:px-8">
             <span>Benjamin Breen · Nathan Davies</span>
-            <Link href="/coding" className="hover:text-ink">Coding</Link>
+            <span className="flex gap-6">
+              <Link href="/keys" className="hover:text-ink">Keys</Link>
+              <Link href="/coding" className="hover:text-ink">Coding</Link>
+            </span>
             <a
               href="https://github.com/benjaminbreen/HumanitysFirstExam"
               className="hover:text-ink"

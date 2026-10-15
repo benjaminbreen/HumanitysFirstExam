@@ -1,0 +1,712 @@
+{
+ "Q01": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "A machine cannot originate ideas because it acts only from the arrangement of its parts, not from knowledge or reason.",
+    "reason": "Reason is a universal instrument while organs must be arranged for each action, so a machine can only do what its built disposition provides.",
+    "passages": [
+     "p01"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "A calculating machine comes closer to thought than animals do, but shows no will, so it does not act from a mind of its own.",
+    "reason": "The test is will: the machine produces thought-like results without any sign of willing them.",
+    "passages": [
+     "p02"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "No mind, human or mechanical, can create a genuinely new idea; it can only recombine ideas already received.",
+    "reason": "Ideas are given from outside (by experience or by God); understanding only compounds, divides or reassembles them, so origination in the strict sense is impossible for anyone.",
+    "passages": [
+     "p03",
+     "p04",
+     "p05",
+     "p12"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "A machine's outputs are fixed by the data and laws given to it, so it produces nothing beyond what its maker and operator supplied.",
+    "reason": "Calculation is determinate: results follow necessarily from given data, so the machine adds no intellect of its own.",
+    "passages": [
+     "p06",
+     "p07"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "The machine executes the conceptions of an intelligence but does not think; all intellectual work lies in preparing what it is fed.",
+    "reason": "The cards carry human conceptions into the mechanism, so interpretation and invention stay with the human who prepares the formulae.",
+    "passages": [
+     "p08"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "The Analytical Engine cannot originate anything; it does what we know how to order it to do and only helps us use what we already know.",
+    "reason": "It can follow analysis but cannot anticipate new relations or truths, and claims otherwise are exaggeration.",
+    "passages": [
+     "p09"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "Machines may in future evolve a new form of consciousness or mind beyond what humans gave them.",
+    "reason": "Since consciousness has already evolved through many phases, it is rash to deny that machines could develop another, independent of human design.",
+    "passages": [
+     "p10",
+     "p14"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Machines are extensions of human organs that depend entirely on human direction and cannot act or produce anything of their own.",
+    "reason": "They obey human consciousness and only deliver reports humans decipher; when we cease, they cease.",
+    "passages": [
+     "p13"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "New forms and ideas can arise from a process the conscious maker does not direct or know, as with unconscious cerebral action.",
+    "reason": "An organization can produce novel constructions outside the will and knowledge of the person who houses it, so origination need not come from the conscious author.",
+    "passages": [
+     "p11"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "An invention yields new ideas and feelings far beyond what its inventor put into it.",
+    "reason": "The effect so exceeds the cause that the invention releases rather than produces its consequences, so the made thing carries humans past what they supplied.",
+    "passages": [
+     "p15"
+    ]
+   }
+  ],
+  "off": [],
+  "unclear": []
+ },
+ "Q08": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "An organism is not a mere machine because it produces, replaces and repairs its own parts.",
+    "reason": "A machine's parts exist for each other but not by means of each other; its cause lies outside it, while the organism has a self-propagating formative power within.",
+    "passages": [
+     "p03"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "Life consists in continual self-maintenance and renewal of structure, so the organism is no machine.",
+    "reason": "Constant breakdown and rebuilding of substance, and death that is not mere wearing out, contradict the idea of a mechanism; self-maintenance is taken as the axiom of life.",
+    "passages": [
+     "p18"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "The power of a part to regenerate or develop into the whole proves that no machine underlies development.",
+    "reason": "A complicated machine cannot be divided many times and remain the whole, so regeneration shows the autonomy of life.",
+    "passages": [
+     "p16"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "Repair and form-building in organisms cannot be explained by known physics and chemistry, though this need not be called vitalism.",
+    "reason": "The production of specific form, including from a piece of the organism, lies beyond present physical explanation and perhaps beyond explanation at all.",
+    "passages": [
+     "p14"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "Self-repair is one aspect of a single organizing synthesis that also builds and maintains the organism.",
+    "reason": "Generation, regeneration and healing are the same creative process; repair is described as the organism's own synthetic act, distinct to living things.",
+    "passages": [
+     "p10",
+     "p09"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "The organism continually renews its materials and repairs injuries so as to maintain its type, a working-order function described in physiological terms.",
+    "reason": "Nutritive renovation replaces waste while keeping structure constant; repair is treated as the organic apparatus keeping the animal machine running.",
+    "passages": [
+     "p09"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "Regeneration and the organism's regulation of parts by the whole are physicochemical and need no special force.",
+    "reason": "Self-reproducing chemical synthesis and the flow of substances explain growth into a whole; making such matter is not beyond science.",
+    "passages": [
+     "p17",
+     "p19"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Regenerative power is not a fundamental difference; machines and organisms are alike in how whole and parts depend on each other.",
+    "reason": "Vitalist distinctions rest on misconception; divisibility comes only from regeneration, and machines share the mutual whole-part conditioning of living things.",
+    "passages": [
+     "p12"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "The living body is a machine, differing from human machines only in complexity.",
+    "reason": "Bodies are God-made or chemically driven machines; life is the most complicated form of mechanics.",
+    "passages": [
+     "p01",
+     "p04",
+     "p02"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "Machines may come to repair and reproduce themselves, so self-repair does not mark a lasting line between organisms and machines.",
+    "reason": "Perfected machines could evolve self-supply, self-repair and reproduction; reproduction through foreign agents (as with insects and clover) still counts as a reproductive system.",
+    "passages": [
+     "p11",
+     "p08"
+    ]
+   },
+   {
+    "id": "k11",
+    "claim": "The human body is a defective machine whose parts need outside watchfulness and repair.",
+    "reason": "Organs wear and fail and require careful treatment and environment, as one keeps a machine in shape.",
+    "passages": [
+     "p20",
+     "p21"
+    ]
+   },
+   {
+    "id": "k12",
+    "claim": "Living bodies, like machines, suffer wear that cannot be repaired and ends in death.",
+    "reason": "Marx treats irreparable wear of instruments and bodies on the same footing.",
+    "passages": [
+     "p07"
+    ]
+   },
+   {
+    "id": "k13",
+    "claim": "An organism differs from a machine because it grows and develops by inward forces, not by a fixed model.",
+    "reason": "Distinction rests on growth and many-sided development rather than on repair specifically.",
+    "passages": [
+     "p05",
+     "p13",
+     "p15"
+    ]
+   }
+  ],
+  "off": [
+   "p06"
+  ],
+  "unclear": []
+ },
+ "Q18": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "Confinement to a few simple, unchanging operations makes the worker stupid and destroys his judgment.",
+    "reason": "The mind is formed by daily work; with no difficulties to solve, the habit of thinking is lost, and this spreads to moral and civic judgment.",
+    "passages": [
+     "p01",
+     "p06",
+     "p07"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "Narrow work gives the worker great dexterity in one task while degrading his general mind.",
+    "reason": "Skill and the man move in opposite directions: the hand improves as the capacity to direct the work is lost.",
+    "passages": [
+     "p06",
+     "p07"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "Machinery lets unskilled workers and children do work that once needed skill, so the skill required of operatives falls.",
+    "reason": "The mechanism carries the skill, which lowers the skill demanded and widens competition among workers; this is stated as an economic fact.",
+    "passages": [
+     "p03",
+     "p04"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "Replacing hand skill by self-acting machines is good: the operative becomes an overlooker whose work is easy, quickly learned, and leaves his mind free.",
+    "reason": "Machine-tending is lighter than the strain of hand dexterity, and moving between machines enlarges his views.",
+    "passages": [
+     "p04",
+     "p05"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "Machinery transfers the intellectual powers of production from the worker to capital, leaving him a mere appendage.",
+    "reason": "The skill and science are embodied in the machine owned by the master; the worker follows its movements and loses intellectual freedom.",
+    "passages": [
+     "p09",
+     "p10"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "Machine work raises intelligence for the master or manager while lowering it for the worker.",
+    "reason": "The division concentrates understanding of the whole in the employer or manager and strips it from the hand.",
+    "passages": [
+     "p07",
+     "p09",
+     "p14"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "Demanding mechanical precision from men turns them into tools and wears away their intellect.",
+    "reason": "Forcing human hands to the accuracy of cogs uses all spirit on a mean act; the objection is to machine-like precision itself.",
+    "passages": [
+     "p08"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Machine-tending without understanding of the whole kills invention and the love of work; it can be remedied by integrating scientific education with handicraft.",
+    "reason": "Workers who knew machines intimately once improved them; specialization and denied education stop that.",
+    "passages": [
+     "p14",
+     "p16"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "Working with a machine can train a worker's ingenuity, because familiarity with the machine leads to improvements.",
+    "reason": "A worker attending a machine, like the valve boy, sees how to improve it.",
+    "passages": [
+     "p02",
+     "p16"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "Operating some machines demands intense, sustained attention and quick judgment.",
+    "reason": "The work is not mindless; responsibility for lives requires unbroken concentration, at a heavy cost.",
+    "passages": [
+     "p15"
+    ]
+   },
+   {
+    "id": "k11",
+    "claim": "Machines extend human faculties and require new and keener human skills to build, feed, and read them.",
+    "reason": "Machines are tools dependent on us; each one calls for new skill rather than replacing it.",
+    "passages": [
+     "p11",
+     "p03"
+    ]
+   },
+   {
+    "id": "k12",
+    "claim": "Machine work changes the kind of intelligence rather than its amount: it raises some capacities and lowers others.",
+    "reason": "The machine's discipline trains thinking in terms of the machine process while weakening older kinds of intelligence.",
+    "passages": [
+     "p17"
+    ]
+   },
+   {
+    "id": "k13",
+    "claim": "Under scientific management workers are taught to run more advanced machines and rise to higher, more developing work.",
+    "reason": "Management holds the science and teaches it, so each worker climbs to more skilled machine work.",
+    "passages": [
+     "p18",
+     "p19"
+    ]
+   },
+   {
+    "id": "k14",
+    "claim": "Repetitive machine work does not harm most workers, because most do not want to think at work.",
+    "reason": "Minds differ; sympathy for the repetitive worker projects the restless creative temperament onto others.",
+    "passages": [
+     "p20"
+    ]
+   },
+   {
+    "id": "k15",
+    "claim": "Machine tending destroys insight and care when the worker has no share in its ends, but understanding the whole process counteracts this.",
+    "reason": "The harm comes from separating means from ends, not from the machine itself.",
+    "passages": [
+     "p21"
+    ]
+   },
+   {
+    "id": "k16",
+    "claim": "Machines should take over dull, unintellectual labour, which would free people if the machines were owned in common.",
+    "reason": "Harm from machines comes from the property system; machines are rightly the doers of monotonous work.",
+    "passages": [
+     "p13"
+    ]
+   }
+  ],
+  "off": [
+   "p12"
+  ],
+  "unclear": []
+ },
+ "Q23": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "Writing weakens memory because people trust the external marks instead of exercising their own recall.",
+    "reason": "Memory is a faculty kept by use; an external store lets it lapse and yields the appearance of knowledge without its possession.",
+    "passages": [
+     "p01",
+     "p09"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "Note-books and written aids impair memory as one case of civilized tools that replace and atrophy native human powers.",
+    "reason": "Every contrivance that supports a capacity from outside costs the capacity itself, as the coach costs the use of the feet.",
+    "passages": [
+     "p12",
+     "p17"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "Memory now resides in written aids as an external organ of the person, an extension rather than a loss.",
+    "reason": "Tools such as the pocket-book are extra-corporeal limbs that become part of the evolving human being.",
+    "passages": [
+     "p13"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "Writing replaces memory, and that is a great good: it is a more extensive and faithful store than the mind.",
+    "reason": "Granting writing makes memory partly dispensable, the convenience and exactness of the written record outweigh the loss.",
+    "passages": [
+     "p09"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "Written notes and abstracts strengthen memory when used as tools for review and recollection.",
+    "reason": "Writing heads, compends, or paragraphs gives the mind handles; those who never write need double natural retention.",
+    "passages": [
+     "p02",
+     "p06"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "Ideas not written down at once are lost, so a memorandum-book is a prudent supplement to fallible memory.",
+    "reason": "Memory lets fleeting thoughts escape; recording them is a safeguard, not a threat.",
+    "passages": [
+     "p14"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "Transcribing and marking texts does not help memory; only attention does, and a book can be consulted anyway.",
+    "reason": "The hand has no closer link to memory than the eye; copying distracts and wastes time.",
+    "passages": [
+     "p07"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Retrieval practice, trying to recall and checking the book only on failure, fixes memory better than repeated reading.",
+    "reason": "Anticipation and effort engage attention; leaning on the text passively does not.",
+    "passages": [
+     "p02"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "Writing is more precise and stable than oral memory, which changes in transmission; societies adopt it for that reason.",
+    "reason": "Oral tradition and witnesses' memory drift; written forms fix words, agreements, and laws.",
+    "passages": [
+     "p08",
+     "p15",
+     "p03"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "Cultures without writing achieved feats of memory that literate people find almost impossible, showing what memory can do without records.",
+    "reason": "Oral transmission of the Veda by trained memory is exact enough to correct printed texts; reliance on easier contrivances lowers individual effort.",
+    "passages": [
+     "p16",
+     "p17",
+     "p03"
+    ]
+   },
+   {
+    "id": "k11",
+    "claim": "Learned people's memory for daily matters is weaker than the common man's because of distraction, not writing as such.",
+    "reason": "Mechanical memory works where no reasoning intrudes; scholars fail through inattention.",
+    "passages": [
+     "p09"
+    ]
+   },
+   {
+    "id": "k12",
+    "claim": "Some reading weakens memory: novel-reading fills the mind with what need not be kept.",
+    "reason": "Memory should hold only what serves life; idle reading exercises fancy, not memory or thought.",
+    "passages": [
+     "p10"
+    ]
+   }
+  ],
+  "off": [
+   "p05",
+   "p11"
+  ],
+  "unclear": [
+   "p04"
+  ]
+ },
+ "Q30": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "Invention imitates God's creative work and restores a dominion over nature that God gave to mankind.",
+    "reason": "Inventions are new creations in the image of divine works, and searching out nature is a God-sanctioned glory; the recovered power is to be governed by right reason and true religion.",
+    "passages": [
+     "p01",
+     "p02"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "Technical works serve God's purpose of uniting the earth and its peoples, a purpose a spiritual or poetic fulfilment will complete.",
+    "reason": "Linking oceans and lands by engineering is God's design from the first; the inventors' deeds are justified only when the poet reveals their spiritual meaning.",
+    "passages": [
+     "p11",
+     "p12"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "Industry and the planned improvement of the earth should be the practical aim of a renewed Christianity.",
+    "reason": "Religion prevails by giving men a physical goal: organizing scientists, artists and industrialists to improve the lot of the poorest class.",
+    "passages": [
+     "p03"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "Machines become divine in use only when directed by a religious heart and by love rather than profit.",
+    "reason": "Railroads and steamboats have no sacred purpose in themselves; their cruelty comes from mercenary motives, and wielded by love they continue the material creation.",
+    "passages": [
+     "p07"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "Human invention and progress are the work of humanity as an agent carrying out one vast design.",
+    "reason": "Cumulative technical progress across generations is read as continuous fulfilment of a single plan, man being the agent employed in it.",
+    "passages": [
+     "p13"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "Invention carries an unintended higher purpose of raising the human spirit beyond its material aims.",
+    "reason": "The effects of invention so exceed its cause that fabrication seems to serve, involuntarily, the release of something matter holds back, though no God is named.",
+    "passages": [
+     "p14"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "Inventive genius is a gift of Nature, not of institutions or mechanism, and the modern faith in mechanism has displaced belief in the divine.",
+    "reason": "Science and art arise from man's dynamical nature; worshipping Mechanism as deity is a loss of religion and a Titanic assault on heaven.",
+    "passages": [
+     "p04",
+     "p05"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Technical progress is irrelevant to divine truth.",
+    "reason": "Revealed religion is fixed in scripture; no invention bears on any question of divinity.",
+    "passages": [
+     "p06"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "Mechanical conveniences that claim to ease the spiritual journey are a false substitute for it.",
+    "reason": "The satirical railroad lets pilgrims keep their burdens and habits and bypass difficulty and humiliation, which defeats the purpose of the pilgrimage.",
+    "passages": [
+     "p08"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "If invention destroyed labour, the Creator would have contradicted himself; the providential harmony of reason and labour shows invention is good.",
+    "reason": "A God who gave man faculties that destroy each other would mock him; facts show inventions increase labour, so invention fits the Creator's design.",
+    "passages": [
+     "p09"
+    ]
+   },
+   {
+    "id": "k11",
+    "claim": "Invention is a human rivalry with God, a Promethean or Faustian bid to become God, felt as blasphemy or devilry.",
+    "reason": "The inventor seeks to build a world himself and be God; every invention has been hailed as an insult to some god.",
+    "passages": [
+     "p15",
+     "p18"
+    ]
+   },
+   {
+    "id": "k12",
+    "claim": "Technics is a cosmogonic act expressing man's God-given creative calling, but its creation revolts against him as man revolted against God.",
+    "reason": "Machines are a new order of being showing man's royal calling, yet they repeat the Fall and threaten to remake man, God's image, in the machine's image.",
+    "passages": [
+     "p20",
+     "p21"
+    ]
+   },
+   {
+    "id": "k13",
+    "claim": "Technology fulfils humanity's wishes once ascribed to gods, making man a prosthetic god without bringing happiness.",
+    "reason": "Gods were ideals of culture; technology realizes them by halves, with no divine purpose involved.",
+    "passages": [
+     "p17"
+    ]
+   },
+   {
+    "id": "k14",
+    "claim": "Faith in technics is a secular religion, but invention really springs from the inventor's personal drive, not any higher purpose.",
+    "reason": "Rationalism made technics a materialist Trinity; in fact the inventor's passion is indifferent to consequences.",
+    "passages": [
+     "p19"
+    ]
+   },
+   {
+    "id": "k15",
+    "claim": "Religious and supernatural aspirations, not divine purpose, are what have built material civilization.",
+    "reason": "The longing for a deus ex machina drives building, so the religious impulse is a human cause of invention.",
+    "passages": [
+     "p16"
+    ]
+   },
+   {
+    "id": "k16",
+    "claim": "Natural law, and miracles within it, can be modelled as a programmed machine set by its designer.",
+    "reason": "A calculating engine set to change its law after an interval shows how apparent miracles can be part of a designed order.",
+    "passages": [
+     "p10"
+    ]
+   }
+  ],
+  "off": [],
+  "unclear": []
+ },
+ "Q39": {
+  "categories": [
+   {
+    "id": "k1",
+    "claim": "Love for a made figure is not folly, because what is loved is the living being and beauty it presents, not its material.",
+    "reason": "The lover separates the form from the stone; the object of love is the figure wherever it is found, so knowing the material does not undo it.",
+    "passages": [
+     "p03",
+     "p16"
+    ]
+   },
+   {
+    "id": "k2",
+    "claim": "Once a thing is known to be artificial, the love or delight it drew disappears.",
+    "reason": "The feeling rested on the belief that nature or life produced it; it is a response to an idea of life, not to appearance, so discovering the imitation destroys it.",
+    "passages": [
+     "p06",
+     "p07",
+     "p08",
+     "p15"
+    ]
+   },
+   {
+    "id": "k3",
+    "claim": "Discovering that the beloved is a mechanism shatters the lover, and makes people test whether their real partners think and feel.",
+    "reason": "Love presupposes a mind behind words and acts; the revealed automaton drives the lover mad and leads others to demand signs of inner life.",
+    "passages": [
+     "p09",
+     "p10"
+    ]
+   },
+   {
+    "id": "k4",
+    "claim": "Love for an artificial being is a narcissistic projection that estranges the lover from real love.",
+    "reason": "The automaton is a detached part of the lover's own psyche; the attachment is compulsive and self-directed, not love of another.",
+    "passages": [
+     "p19"
+    ]
+   },
+   {
+    "id": "k5",
+    "claim": "Love for an artificial woman can be knowingly chosen and is no less genuine than love for a real woman, because such passion is always love of an illusion.",
+    "reason": "Every passionate lover loves a personal illusion and women already make themselves artificial, so an android is an honest exchange of one chimera for another.",
+    "passages": [
+     "p13",
+     "p14"
+    ]
+   },
+   {
+    "id": "k6",
+    "claim": "Love for a doll is a bewitchment that lasts only while the spell holds and is an object of ridicule.",
+    "reason": "Satire: the attachment is produced by magic and sentimental fancy; removing the charm would show the beloved as a hollow image.",
+    "passages": [
+     "p04",
+     "p05"
+    ]
+   },
+   {
+    "id": "k7",
+    "claim": "A love for a made figure is fulfilled only when the figure becomes truly living.",
+    "reason": "The lover half-refuses to admit it is ivory and asks for a wife 'like' the statue; love is consummated by its transformation into a real body.",
+    "passages": [
+     "p01",
+     "p02"
+    ]
+   },
+   {
+    "id": "k8",
+    "claim": "Artificial beings can genuinely love each other.",
+    "reason": "Made beings may bond through shared kind and willingness to die for one another, though their maker may fear the made partner will reject her mate.",
+    "passages": [
+     "p21",
+     "p11",
+     "p12"
+    ]
+   },
+   {
+    "id": "k9",
+    "claim": "A body made wholly artificial cannot love, because it has no heart.",
+    "reason": "Love requires a heart, which the manufactured body lacks, even when identity persists.",
+    "passages": [
+     "p17"
+    ]
+   },
+   {
+    "id": "k10",
+    "claim": "Affection can attach to a constructed person because he resembles people one loved.",
+    "reason": "Resemblance, not knowledge of origin, carries the attachment, though the result is a mixed and unsatisfying bond.",
+    "passages": [
+     "p18"
+    ]
+   }
+  ],
+  "off": [],
+  "unclear": [
+   "p20"
+  ]
+ }
+}

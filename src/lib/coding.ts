@@ -42,7 +42,7 @@ const DIR = path.join(process.cwd(), "research", "coding", "entries");
 
 export const storage = redisUrl && redisToken ? "redis" : process.env.VERCEL ? "none" : "file";
 
-async function redis(cmd: string[]) {
+export async function redis(cmd: string[]) {
   const r = await fetch(redisUrl!, {
     method: "POST",
     headers: { Authorization: `Bearer ${redisToken}` },
