@@ -15,30 +15,32 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
     <>
       <PageTitle title="Position keys">
         <p>
-          A position key lists the distinct answers period writers gave to a question. Model answers are later
-          scored against it. These pages build the keys for the six pilot questions. This is a prototype.
+          A position key is the list of different answers that writers between 1600 and 1950 gave to one of our
+          questions. Later, each model answer is matched against this list. These pages build the lists for the six
+          pilot questions. This is a prototype.
         </p>
       </PageTitle>
       <ol className="mb-10 max-w-3xl list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-ink-soft">
         <li>
-          <span className="text-ink">Pool.</span> Every chunk of the accepted canon’s texts is ranked by similarity to
-          the question. Claude agents read the top 45 in context and keep the 15–21 that address the question,
-          whatever answer they give, at most two per work. Excerpts are checked verbatim against the source files.
+          <span className="text-ink">Find passages.</span> We search the full texts of the 204 works on our source
+          list for passages about the question. Claude reads the 45 closest matches and keeps the 15 to 21 that
+          discuss it, whatever answer they give, with no more than two from any one work. Every passage is checked
+          word for word against the source text.
         </li>
         <li>
-          <span className="text-ink">Independent reading.</span> A historian reads the pool and writes each distinct
-          answer as a position: a claim, the reason that sets it apart, and the passages that support it. Claude
-          does the same task separately, without seeing the historian’s work.
+          <span className="text-ink">Read and list the answers.</span> A historian reads the passages and writes down
+          each different answer as a position: the claim, the reason, and the passages that support it. Claude does
+          the same, separately. Neither sees the other’s list.
         </li>
         <li>
-          <span className="text-ink">Comparison.</span> When the historian finishes, the two lists are shown side by
-          side. Shared passages suggest pairings; the historian decides for each pair whether the claims and reasons
-          are the same argument, and which positions enter the key.
+          <span className="text-ink">Compare.</span> When the historian is finished, the two lists appear side by
+          side. For each pair of positions, the historian decides whether they are the same argument, and which
+          positions go into the key.
         </li>
         <li>
-          <span className="text-ink">Freeze.</span> The reconciled key is fixed before any model answer is read.
-          Claude then codes the model answers against it, and the historians code a blind sample to check Claude’s
-          coding.
+          <span className="text-ink">Fix the key.</span> The key is fixed before anyone reads the models’ answers.
+          Claude then matches every model answer against the key, and the historians check a sample of Claude’s
+          matches without seeing them first.
         </li>
       </ol>
     </>

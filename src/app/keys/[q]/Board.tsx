@@ -259,7 +259,7 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
           <div key={b} {...dropProps(b)} className={`mt-4 border p-3 ${over === b ? "border-ink bg-surface" : "border-line"}`}>
             <p className="text-[13.5px] font-medium">{label(b)}</p>
             <p className="text-[12.5px] text-ink-faint">
-              {b === "off" ? "Does not address this question, or answers a neighbouring one. Say which in a position, or leave it here." : "Can't tell what it holds."}
+              {b === "off" ? "The passage is not about this question, or it is about a different question." : "You can’t tell what answer it gives."}
             </p>
             <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
               {s[b].map((pid) => chip(pid, b))}
@@ -277,7 +277,7 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
             />
             <span>
               I have finished this question.
-              <span className="block text-[13px] text-ink-faint">Opens the comparison with Claude’s positions. You can keep editing.</span>
+              <span className="block text-[13px] text-ink-faint">Shows you Claude’s list. You can still make changes.</span>
             </span>
           </label>
           {s.done && status !== "saving" && (

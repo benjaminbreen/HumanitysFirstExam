@@ -48,9 +48,9 @@ export default async function ComparePage({ params }: PageProps<"/keys/[q]/compa
       </PageTitle>
       <div className="-mt-6 mb-8 max-w-3xl space-y-2 text-[15px] leading-relaxed text-ink-soft">
         <p>
-          Your positions (lettered) beside Claude’s (numbered), written separately from the same {pool.passages.length}{" "}
-          passages. Rows are paired where the two share passages; that is only a suggestion. Decide for each row
-          whether the claims and reasons are the same argument.
+          Your positions have letters. Claude’s have numbers. Claude wrote its list from the same{" "}
+          {pool.passages.length} passages without seeing yours. Two positions share a row when they cite some of the
+          same passages. That is only a guess that they match. For each row, decide whether they are the same argument.
         </p>
         <p className="num font-mono text-[13px]">
           You: {mine.categories.length} positions. Claude: {claude.categories.length}. Decided: {decided} of {rows.length}.
@@ -78,8 +78,8 @@ export default async function ComparePage({ params }: PageProps<"/keys/[q]/compa
         <section className="mt-12 max-w-3xl">
           <h2 className="label mb-3 border-b border-rule pb-2">Same passage, different arguments</h2>
           <p className="mb-3 text-[14.5px] text-ink-soft">
-            Passages you and Claude both used, under positions the rows above do not pair. Either one of you read a
-            second argument in the passage, or two rows should be paired.
+            You and Claude both used these passages, but for positions that are not in the same row. Either one of you
+            found a second argument in the passage, or two rows above are really the same position.
           </p>
           <ul className="space-y-1 text-[14.5px]">
             {split.map((pid) => (

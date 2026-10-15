@@ -34,15 +34,20 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
       {head}
       <div className="-mt-6 mb-10 max-w-3xl space-y-2 text-[15px] leading-relaxed text-ink-soft">
         <p>
-          Read all {pool.passages.length} passages first. Then write each distinct answer you find as a position: the
-          claim, and the reason that sets it apart. Split two positions when they reach the same conclusion by
-          different reasoning. Add every passage that supports a position; a passage can support more than one.
+          Read all {pool.passages.length} passages. Then add a position for each different answer you find. A position
+          has two parts: the claim (what the writer says the answer is) and the reason (why they say it). If two
+          writers reach the same answer for different reasons, give them separate positions. Then add each passage to
+          the positions it supports. A passage can support more than one.
         </p>
         <p>
-          Passages were chosen by Claude agents from the{" "}
-          <Link href="/sources" className="text-modern hover:underline">accepted canon</Link> for addressing the question, without regard to which
-          answer they give. Excerpts are verbatim with OCR damage repaired. Claude’s positions stay hidden until you
-          mark the question finished. Changes save as you go.
+          Where the passages come from: we searched the full texts of the 204 works on our{" "}
+          <Link href="/sources" className="text-modern hover:underline">source list</Link> for passages about this
+          question. Claude read the 45 closest matches and kept the ones that discuss the question, whatever answer
+          they give. The text is copied exactly from the source, with scanning errors fixed.
+        </p>
+        <p>
+          Claude has written its own list of positions from the same passages. You see it only after you tick “I have
+          finished this question” at the bottom. Your work saves automatically.
         </p>
       </div>
       <Board q={q} passages={pool.passages} initial={sorting} />
