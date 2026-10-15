@@ -12,10 +12,12 @@ function Tally({ id }: { id: string }) {
   const sides = sidesForQuestion(id);
   const n = (k: string) => sides.find((s) => s.key === k)?.stances.length ?? 0;
   const other = sides.filter((s) => s.key !== "yes" && s.key !== "no").reduce((a, s) => a + s.stances.length, 0);
+  const held = heldBackForQuestion(id);
+  if (held && !sides.length) return <span className="font-mono text-[12px] text-ink-faint">Hidden: key in progress</span>;
   return (
     <span className="num font-mono text-[12px] whitespace-nowrap text-ink-soft">
       {n("yes")} yes · {n("no")} no{other > 0 && ` · ${other} other`}
-      {heldBackForQuestion(id) > 0 && ` · ${heldBackForQuestion(id)} held`}
+      {held > 0 && ` · ${held} held`}
     </span>
   );
 }

@@ -3,7 +3,6 @@ import questionsFile from "@data/questions.json";
 import worksFile from "@data/works.json";
 import stancesFile from "@data/stances.json";
 import passagesFile from "@data/passages.json";
-import checkSample from "../../research/coding/sample.json";
 import modelsFile from "@data/models.json";
 
 // ---------- Types ----------
@@ -125,10 +124,11 @@ export const questionsForTheme = (slug: string) => questions.filter((q) => q.the
 export const themeOf = (q: Question) => getTheme(q.theme);
 export const stancesForQuestion = (id: string) => stances.filter((s) => s.question === id);
 
-// The 60 stances in the retired blind passage check (research/coding/PROTOCOL.md)
-// were held back from public pages while it ran.
-export const CHECK_RUNNING = false;
-const heldBack = new Set(CHECK_RUNNING ? checkSample.items.map((i) => i.stance) : []);
+// Claude's answers for the six pilot questions are hidden from public pages
+// while Ben and Nathan build those questions' position keys (/keys), so the
+// earlier answers do not shape their reading.
+export const KEY_PILOT = ["Q01", "Q08", "Q18", "Q23", "Q30", "Q39"];
+const heldBack = new Set(stances.filter((s) => KEY_PILOT.includes(s.question)).map((s) => s.id));
 export const isHeldBack = (s: Stance) => heldBack.has(s.id);
 export const heldBackForQuestion = (id: string) => stancesForQuestion(id).filter(isHeldBack).length;
 export const stancesForWork = (id: string) => stances.filter((s) => s.work === id);
