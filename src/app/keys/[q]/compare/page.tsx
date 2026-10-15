@@ -50,7 +50,7 @@ export default async function ComparePage({ params }: PageProps<"/keys/[q]/compa
         <p>
           Your positions have letters. Claude’s have numbers. Claude wrote its list from the same{" "}
           {pool.passages.length} passages without seeing yours. Two positions share a row when they cite some of the
-          same passages. That is only a guess that they match. For each row, decide whether they are the same argument.
+          same passages. That is only a guess that they match. For each row, decide whether they are the same position: the same implied answer by the same argument.
         </p>
         <p className="num font-mono text-[13px]">
           You: {mine.categories.length} positions. Claude: {claude.categories.length}. Decided: {decided} of {rows.length}.
@@ -115,7 +115,7 @@ function Position({ c, tag, byId, shared, who }: { c: Category | null; tag: stri
     <div>
       <p className="text-[15px] leading-snug">
         <span className="mr-2 font-mono text-[13px] font-semibold">{tag}</span>
-        {c.claim || <span className="text-ink-faint">(no claim)</span>}
+        {c.claim || <span className="text-ink-faint">(no answer written)</span>}
       </p>
       {c.reason && <p className="mt-1 text-[14px] leading-snug text-ink-soft">{c.reason}</p>}
       <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[13px]">

@@ -28,8 +28,9 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
           word for word against the source text.
         </li>
         <li>
-          <span className="text-ink">Read and list the answers.</span> A historian reads the passages and writes down
-          each different answer as a position: the claim, the reason, and the passages that support it. Claude does
+          <span className="text-ink">Read and list the answers.</span> A historian reads the passages and works out
+          what each implies about our question (the writers were not answering it). Each distinct line becomes a
+          position: the implied answer, the argument the text gives for it, and the passages that support it. Claude does
           the same, separately. Neither sees the other’s list.
         </li>
         <li>

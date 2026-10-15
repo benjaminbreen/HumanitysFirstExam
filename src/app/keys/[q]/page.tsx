@@ -34,10 +34,16 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
       {head}
       <div className="-mt-6 mb-10 max-w-3xl space-y-2 text-[15px] leading-relaxed text-ink-soft">
         <p>
-          Read all {pool.passages.length} passages. Then add a position for each different answer you find. A position
-          has two parts: the claim (what the writer says the answer is) and the reason (why they say it). If two
-          writers reach the same answer for different reasons, give them separate positions. Then add each passage to
-          the positions it supports. A passage can support more than one.
+          Read all {pool.passages.length} passages. None of these writers was answering our question. Your job is to
+          work out what each passage implies about it, and group passages that imply the same thing for the same
+          reason.
+        </p>
+        <p>
+          Add a position for each distinct line you find. A position has two parts. The <em>implied answer</em> is
+          what the passages imply about our question, in our words. The <em>argument in the text</em> is the grounds
+          the passages themselves give for it: what the text argues, not why the author held the view or the context
+          they wrote in. If two passages imply a similar answer by different arguments, make them separate positions.
+          Then add each passage to the positions it supports. A passage can support more than one.
         </p>
         <p>
           Where the passages come from: we searched the full texts of the 204 works on our{" "}

@@ -204,7 +204,7 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
                         <option value="">Add to…</option>
                         {s.categories.map((c, i) => (
                           <option key={c.id} value={c.id} disabled={c.passages.includes(p.id)}>
-                            {letter(i)}. {c.claim ? trim(c.claim, 48) : "(no claim yet)"}
+                            {letter(i)}. {c.claim ? trim(c.claim, 48) : "(no answer written yet)"}
                           </option>
                         ))}
                         <option value="new">New position…</option>
@@ -242,8 +242,8 @@ export function Board({ q, passages, initial }: { q: string; passages: PoolPassa
                   <button onClick={() => del(c)} className="hover:text-period">Delete</button>
                 </span>
               </div>
-              <Field label="Claim" value={c.claim} autoFocus={focus === c.id} placeholder="What the writer holds about the question" onChange={(v) => edit(c.id, "claim", v)} />
-              <Field label="Reason" value={c.reason} placeholder="Why: the reasoning that sets this position apart" onChange={(v) => edit(c.id, "reason", v)} />
+              <Field label="Implied answer" value={c.claim} autoFocus={focus === c.id} placeholder="What these passages imply about our question, in our words" onChange={(v) => edit(c.id, "claim", v)} />
+              <Field label="Argument in the text" value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
                 {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drop passages here</li>}
