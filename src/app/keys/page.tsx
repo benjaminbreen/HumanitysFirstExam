@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageTitle } from "@/components/PageTitle";
 import { coders, currentCoder, storage, type Coder } from "@/lib/coding";
 import { pools, sortingsFor } from "@/lib/keys";
-import { signOut } from "../coding/actions";
+import { signOut } from "./auth";
 import { SignIn } from "./SignIn";
 
 export const metadata: Metadata = { title: "Position keys", robots: { index: false } };

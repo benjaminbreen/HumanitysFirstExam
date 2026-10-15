@@ -1,5 +1,5 @@
 import { coders, needsPasscode, type Coder } from "@/lib/coding";
-import { signIn } from "../coding/actions";
+import { signIn } from "./auth";
 
 export function SignIn({ next, error }: { next: string; error?: boolean }) {
   return (

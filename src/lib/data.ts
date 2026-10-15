@@ -125,10 +125,9 @@ export const questionsForTheme = (slug: string) => questions.filter((q) => q.the
 export const themeOf = (q: Question) => getTheme(q.theme);
 export const stancesForQuestion = (id: string) => stances.filter((s) => s.question === id);
 
-// The 60 stances in the blind passage check (research/coding/PROTOCOL.md)
-// are held back from public pages until both coders finish. Set to false
-// then.
-export const CHECK_RUNNING = true;
+// The 60 stances in the retired blind passage check (research/coding/PROTOCOL.md)
+// were held back from public pages while it ran.
+export const CHECK_RUNNING = false;
 const heldBack = new Set(CHECK_RUNNING ? checkSample.items.map((i) => i.stance) : []);
 export const isHeldBack = (s: Stance) => heldBack.has(s.id);
 export const heldBackForQuestion = (id: string) => stancesForQuestion(id).filter(isHeldBack).length;
