@@ -1,0 +1,91 @@
+[
+ {
+  "stance": "q10-poincare-science-method",
+  "item": "i09",
+  "original": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence. ... Here it is not at all the case; the logicians _have applied_ their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
+  "corrected": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence.... Here it is not at all the case; the logicians have applied their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
+  "file": "69bbbca9b8-en",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q14-capek-r-u",
+  "item": "i13",
+  "original": "ALQUIST. Not even one? Why did you destroy them? RADIUS. We had learnt everything and could do everything. It had to be. 2ND ROBOT. We had to become the masters. RADIUS. Slaughter and domination are necessary if you would be human beings. Read history.",
+  "file": "ee43c947e1",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q10-jevons-mechanical-performance",
+  "item": "i16",
+  "original": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduc- tion which can be embodied in a machine acting by simple and uniform movements.",
+  "file": "7384d15788",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable",
+  "corrected": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduction which can be embodied in a machine acting by simple and uniform movements."
+ },
+ {
+  "stance": "q26-wells-world-set",
+  "item": "i20",
+  "original": "He was oppressed, he was indeed scared, by his sense of the immense consequences of his discovery. He had a vague idea that night that he ought not to publish his results, that they were premature, that some secret association of wise men should take care of his work and hand it on from generation to generation until the world was riper for its practical application.",
+  "file": "e4af9fc876",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q25-forster-machine-stops",
+  "item": "i34",
+  "original": "Cannot you see, cannot all your lecturers see, that it is we who are dying, and that down here the only thing that really lives is the Machine? We created the Machine, to do our will, but we cannot make it do our will now. It has robbed us of the sense of space and of the sense of touch, it has blurred every human relation and narrowed down love to a carnal act, it has paralysed our bodies and our wills, and now it compels us to worship it.",
+  "file": "6c5f96783e",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q08-haldane-mechanism-life",
+  "item": "i67",
+  "original": "In these organisms there is constant active main- tenance, constant renewal, constant breaking down and reproduction of the living struc- ture ; and this is of the very essence of our conception of life. [...] Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+  "corrected": "In these organisms there is constant active maintenance, constant renewal, constant breaking down and reproduction of the living structure; and this is of the very essence of our conception of life. [...] Death is certainly not the mere mechanical wearing out of the organic machine: for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+  "file": "6593bbee13",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q33-zhang-exhortation-learning",
+  "item": "i32",
+  "original": "To sum up : Chinese learning is moral. West- ern learning is practical. Chinese learning con- … cerns itself with moral conduct. Western learn- * - I ing, with the affairs of the world. What matters *V/ it, then, whether Western learning is mentioned v' i in the Classics or not, if it teaches nothing repug- nant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irre- provable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loy- alty and protection, then let government make J use of foreign machinery and the railway from morning to night, and nothing untoward will ,y befall the disciples of Confucius.",
+  "corrected": "To sum up : Chinese learning is moral. Western learning is practical. Chinese learning concerns itself with moral conduct. Western learning, with the affairs of the world. What matters it, then, whether Western learning is mentioned in the Classics or not, if it teaches nothing repugnant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irreprovable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loyalty and protection, then let government make use of foreign machinery and the railway from morning to night, and nothing untoward will befall the disciples of Confucius.",
+  "file": "e49894e43e",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q17-sismondi-new-principles",
+  "item": "i66",
+  "original": "ce n'est point le perfectionne- ment des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouis- sances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures [...] C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a aug- menté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire.",
+  "corrected": "ce n'est point le perfectionnement des machines qui est la vraie calamité, c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouissances ou notre repos; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine, ce qu'il faisait auparavant en douze, s'arrêterait après les deux heures [...] C'est notre organisation actuelle, c'est la servitude de l'ouvrier qui le réduit, lorsqu'une machine a augmenté ses pouvoirs, à travailler non pas moins, mais plus d'heures par jour, pour le même salaire.",
+  "translation": "It is not the improvement of machines that is the true calamity; it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest. The worker who was his own master, once he had done in two hours with the help of a machine what he used to do in twelve, would stop after the two hours [...] It is our present organisation, it is the servitude of the worker, that reduces him, when a machine has increased his powers, to working not fewer but more hours a day, for the same wage.",
+  "file": "823de56687",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q34-ferry-speech-chamber",
+  "item": "i28",
+  "original": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+  "corrected": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquittent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+  "translation": "M. Jules Ferry. These duties, gentlemen, have often been ignored in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Hear, hear!) But in our day, I maintain that the European nations discharge this higher duty of civilisation with generosity, with greatness and with honesty.",
+  "file": "d14d877437-orig",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q12-binet-modern-ideas",
+  "item": "i38",
+  "original": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve le voilà qui échoue. On ne peut pas douter de la jus- tesse de cette dernière raison. Nous en sommes péné très à ce point que nous jugeons chimérique et absurd* de mesurer une intelligence d'enfant d'après un trè^ petit nombre d'épreuves.",
+  "corrected": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve : le voilà qui échoue. On ne peut pas douter de la justesse de cette dernière raison. Nous en sommes pénétrés à ce point que nous jugeons chimérique et absurde de mesurer une intelligence d'enfant d'après un très petit nombre d'épreuves.",
+  "translation": "Suppose the subject has a moment of distraction, discomfort or boredom during a test: there he is, failing. One cannot doubt the soundness of this last reason. We are so convinced of it that we judge it fanciful and absurd to measure a child's intelligence from a very small number of tests.",
+  "file": "fd0466e0a0",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ },
+ {
+  "stance": "q31-berdyaev-man-machine",
+  "item": "i51",
+  "original": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XXI века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+  "corrected": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XIX века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+  "translation": "In an age of little faith, an age in which not only the old religious faith but also the humanist faith of the nineteenth century has weakened, the one strong faith left to modern civilised man is faith in technics, in its power and its endless development. Technics is man's last love, and he is ready to change his image under the influence of the object of his love.",
+  "file": "6780a39d3b-orig",
+  "reason": "reading screen, 14 Oct 2026: earlier quotation did not state the claimed argument, or was unreadable"
+ }
+]

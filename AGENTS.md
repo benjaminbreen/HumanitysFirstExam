@@ -17,6 +17,14 @@ for decisions. Every statement in the docs is one of three kinds:
 
 If a doc states a rule without a source, treat it as a draft and ask.
 
+**Do the work; don't ask for sign-off.** Ben has Nathan's delegation and can
+direct any change alone. When Ben asks for something, do it. That covers fixing
+texts, swapping passages, correcting OCR, and changing working procedures. It
+needs no "decision", "amendment", or joint approval, and no extra
+documentation. Do not tell Ben that something needs Nathan's agreement. The
+Decided table records the major choices about scope and research design, not
+every fix.
+
 ## Premise
 
 AI systems supply much of the vocabulary people now use to think about humans

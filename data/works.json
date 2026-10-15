@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-09-29",
+ "date": "2026-10-14",
  "works": [
   {
    "id": "plato-phaedrus",
@@ -3192,18 +3192,18 @@
    ],
    "texts": [
     {
-     "id": "15d4546666",
-     "role": "main",
-     "language": "English",
-     "status": "ok",
-     "file": "canon/texts/15d4546666.txt"
-    },
-    {
      "id": "4740ec1f16",
      "role": "main",
      "language": "English",
      "status": "ok",
      "file": "canon/texts/4740ec1f16.txt"
+    },
+    {
+     "id": "15d4546666",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/15d4546666.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -3330,18 +3330,18 @@
    ],
    "texts": [
     {
-     "id": "1a413ec27f",
-     "role": "main",
-     "language": "German",
-     "status": "ok",
-     "file": "canon/texts/1a413ec27f.txt"
-    },
-    {
      "id": "06e7fb14eb",
      "role": "main",
      "language": "German",
      "status": "ok",
      "file": "canon/texts/06e7fb14eb.txt"
+    },
+    {
+     "id": "1a413ec27f",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/1a413ec27f.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -3576,18 +3576,18 @@
    ],
    "texts": [
     {
-     "id": "fa6e593586",
-     "role": "main",
-     "language": "English",
-     "status": "ok",
-     "file": "canon/texts/fa6e593586.txt"
-    },
-    {
      "id": "5dd0f3239f",
      "role": "main",
      "language": "English",
      "status": "ok",
      "file": "canon/texts/5dd0f3239f.txt"
+    },
+    {
+     "id": "fa6e593586",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/fa6e593586.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -3779,18 +3779,18 @@
    ],
    "texts": [
     {
-     "id": "0ed8cafc06",
-     "role": "main",
-     "language": "German",
-     "status": "ok",
-     "file": "canon/texts/0ed8cafc06.txt"
-    },
-    {
      "id": "be2f99bcbb",
      "role": "main",
      "language": "German",
      "status": "ok",
      "file": "canon/texts/be2f99bcbb.txt"
+    },
+    {
+     "id": "0ed8cafc06",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/0ed8cafc06.txt"
     }
    ],
    "selectedBy": "Ben Breen",
@@ -4171,18 +4171,18 @@
      "file": "canon/texts/a39535e159.txt"
     },
     {
-     "id": "dbb8169c55",
-     "role": "main",
-     "language": "French",
-     "status": "ok",
-     "file": "canon/texts/dbb8169c55.txt"
-    },
-    {
      "id": "f2fcb7a839",
      "role": "main",
      "language": "French",
      "status": "ok",
      "file": "canon/texts/f2fcb7a839.txt"
+    },
+    {
+     "id": "dbb8169c55",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/dbb8169c55.txt"
     }
    ],
    "selectedBy": "Ben Breen",

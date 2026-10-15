@@ -265,12 +265,29 @@ def main():
     if rejected:
         print(len(rejected), "quotes not found verbatim, dropped:", ", ".join(rejected[:10]))
 
+    # Quotations replaced after a reading screen (research/passages/replacements.json).
+    # Each segment must appear verbatim in the named text file.
+    repl_file = PASS / "replacements.json"
+    replaced = set()
+    for r in json.loads(repl_file.read_text()) if repl_file.exists() else []:
+        p = next((x for x in passages if x.get("stance") == r["stance"]), None)
+        hay = norm((ROOT / "trial/corpus/canon/texts" / (r["file"] + ".txt")).read_text(errors="replace"))
+        segs = [norm(x) for x in re.split(r"\s*(?:…|\.\.\.|\[\.\.\.\])\s*", r["original"]) if x.strip()]
+        if not p or not all(x in hay for x in segs):
+            print("replacement not found verbatim, skipped:", r["stance"])
+            continue
+        p.update(original=r["original"], translation=r.get("translation"), status="replaced after reading screen, 14 Oct 2026")
+        p.pop("corrected", None)
+        if r.get("corrected"):
+            p["corrected"], p["correction"] = r["corrected"], "Claude, from the source text"
+        replaced.add(r["stance"])
+
     # OCR corrections (research/coding/ocr_fix.py and hand corrections). The
     # verbatim text stays in "original"; pages show "corrected" when present.
     corr_file = PASS / "ocr-corrections.json"
     for c in json.loads(corr_file.read_text()) if corr_file.exists() else []:
         p = next((x for x in passages if x.get("stance") == c["stance"]), None)
-        if p:
+        if p and c["stance"] not in replaced:
             p["corrected"] = c["corrected"]
             p["correction"] = c["method"]
 

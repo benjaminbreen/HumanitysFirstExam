@@ -174,3 +174,9 @@ Record. Goal: a verbatim quotation for each of the 275 stances.
   passage stating the same position and said so in the note. Several texts
   have OCR damage or mojibake (Cordemoy, Jhering, Rousseau's *Pygmalion*,
   Rilke), kept verbatim. Nothing has been checked by a person.
+
+## Source text audit and reading screen, 14 October 2026
+
+`trial/corpus/audit_texts.py` checks every canon text mechanically: language, OCR noise, whether the author and title appear, and length. It writes `trial/corpus/canon/audit.json`. Of 232 entries, 151 passed, 37 need a look, 14 are bad, and 30 have no text. The bad ones are garbled OCR (Wolff, Jhering, Napier, Galton, which is a raw PDF, Rousseau's *Pygmalion*), stub downloads (Kant's *Anthropology*, Müller, Goethe, Head), and the Leibniz file. That file is a Gerhardt volume of French letters in Fraktur OCR, not *De arte characteristica*. The Chinese texts are not machine-checked.
+
+Claude agents then read all 60 passage-check quotations against their sources. 45 were kept. 11 were swapped for better passages from the same work. 4 were replaced, because the work did not take the claimed side: Kant on education, Kapp, Babbage, and Bergson. All 60 were checked on a first pass, so the error rate on the 223 other stance quotations is probably similar: about a quarter need work.

@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-09-29",
+ "date": "2026-10-14",
  "passages": [
   {
    "id": "6780a39d3b-orig-6",
@@ -485,7 +485,7 @@
    "notes": "Menabrea states that the machine is not the being that thinks but executes the conceptions of the intelligence, which keeps all intellectual labour with the human.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -575,7 +575,7 @@
    "notes": "La Mettrie says Amman's method gave the deaf a soul and that a trained ape could learn a language and become a little gentleman fit for thinking.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -593,7 +593,7 @@
    "notes": "Edison explains that Hadaly's conversation plays from phonograph sheets written in advance by poets and metaphysicians, so she replaces an intelligence with theirs.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "quoted in check note (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -647,7 +647,7 @@
    "notes": "Menabrea says that when a function passes through zero or infinity the machine rings a bell and stops for its attendant, unless the case was foreseen and cards were prepared for it.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
    "corrected": "Examinons encore quelques-unes des difficultés que la machine doit surmonter pour que son assimilation à l’analyse soit plus complète. Il y a certaines fonctions qui doivent changer de nature lorsqu’elles passent par zéro ou l'infini, ou dont les valeurs ne sauraient être admises au delà de ces limites. Lorsque ces cas se présentent, la machine au moyen d’une sonnerie peut avertir que le passage par zéro ou l'infini a lieu , et alors elle s’arrête , jusqu’à ce que le gardien l'ait remise en action pour telle autre opération qu’on voudra lui ordonner, Si cette opération est prévue, la machine, au lieu de sonner, se disposera de manière à présenter les nouveaux cartons relatifs à l'opération qui doit succéder au passage par zéro et l'infini: Ces nouveaux cartons peuvent faire suité aux premiers et n’entrer en jeu que lorsque les deux'cireonstances indiquées précédemment auront lieu.",
@@ -721,7 +721,7 @@
    "notes": "From 'Faits du sens intime', ch. IV rather than ch. I: Biran says we feel immediately that the will moves the body and is the cause of its movement, against occasionalism.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -867,7 +867,7 @@
    "notes": "Du Bois-Reymond sets out the mechanical view in which each brain state follows necessarily from the last, so monism leaves no room for free will; the passage gives this half of his position, not his claim that the riddle stays open.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "quoted in check note (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1067,7 +1067,7 @@
    "notes": "Bouillier describes the Montpellier vitalism of a separate vital force, says he will combat it, and states that animist vitalism, 'the only true one', makes the vital principle a power of the thinking soul; the cut removes a footnote that interrupts the sentence.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
    "corrected": "Cette hypothèse règne à l'École de Montpellier, où elle a aujourd'hui M. Lordat pour principal représentant. Telle est aussi, à ce qu'il nous a semblé, sauf certains nuages sur la question de la substantialité de ce principe, sauf quelques réserves, la théorie vitaliste soutenue à l'Académie de médecine par M. Malgaigne. M. Malgaigne a, en effet, cherché à démontrer l'impossibilité de s'en tenir aux propriétés vitales répandues dans les tissus organiques et la nécessité d'adopter une force vitale unique , indépendante, douée d'une sorte d'instinct pour composer et faire mouvoir l'organisme. Mais, à la différence de M. Lordat, M. Malgaigne laisse de côté, comme ontologiques et théologiques, plutôt que physiologiques et médicales, toutes les questions relatives . à la nature de cette force et à ses rapports, à son alliance avec l'âme immortelle, qui n'a rien à voir, selon lui, dans les fonctions organiques (2). Telle est la doctrine que nous nous proposons surtout de … combattre, non pas tant à cause du crédit qu'elle peut avoir encore dans certaines écoles de médecine que parce que, sous l'influence xie Maine de Biraft et de Jouffroy, elle domine encore aujourd'hui, comme nous l'avons déjà dit, au sein de la philosophie spiritualiste. Le vitalisme animiste, le seul vrai, suivant nous, distingue, comme le vitalisme dualiste , le principe vital d'avec les organes; mais au lieu d'un être séparé, il en fait une simple puissance de l'âme pensante.",
@@ -1087,7 +1087,7 @@
    "notes": "Bernard's explicit statement of both rejections: vital force can act only through general physical forces, and physico-chemical conditions cannot order vital phenomena; OCR errors kept.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "quoted in check note (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1207,17 +1207,17 @@
    ],
    "stance": "q08-haldane-mechanism-life",
    "language": "English",
-   "original": "In these organisms there is constant active main- tenance, constant renewal, constant breaking down and reproduction of the living struc- ture ; and this is of the very essence of our conception of life. Reproduction is not in itself a problem, but an axiom ; for all living structure is active structure ; and it lives in actively maintaining itself and reproducing its structure. all instinctive social activity, the individual organism shows itself to be more than a mere individual : it belongs to a wider organic whole. Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+   "original": "In these organisms there is constant active main- tenance, constant renewal, constant breaking down and reproduction of the living struc- ture ; and this is of the very essence of our conception of life. [...] Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
    "translation": null,
    "terms": [],
    "notes": "Haldane says the organism constantly maintains and renews its structure and that death is not the wearing out of a machine, 'for the organism ... is no machine'; the passage contains an OCR skip ('all instinctive social activity') kept as found.",
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "quoted in check note (trial/corpus/stance_passages.py), chosen by a Claude subagent",
-   "corrected": "In these organisms there is constant active maintenance, constant renewal, constant breaking down and reproduction of the living structure ; and this is of the very essence of our conception of life. Reproduction is not in itself a problem, but an axiom ; for all living structure is active structure ; and it lives in actively maintaining itself and reproducing its structure. all instinctive social activity, the individual organism shows itself to be more than a mere individual : it belongs to a wider organic whole. Death is certainly not the mere mechanical wearing out of the organic machine : for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
-   "correction": "mechanical (research/coding/ocr_fix.py)"
+   "corrected": "In these organisms there is constant active maintenance, constant renewal, constant breaking down and reproduction of the living structure; and this is of the very essence of our conception of life. [...] Death is certainly not the mere mechanical wearing out of the organic machine: for the organism, as we have already seen, is no machine. Not only in reproducing itself as a whole, but also in the metabolic processes by which it is changing its substance at every moment, does it flout such a conception.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q08-loeb-organism-as",
@@ -1251,7 +1251,7 @@
    "notes": "Wolff contrasts those who place the determining principle of generation in the mechanism of the parent body with his own first principle, the essential force; heavy OCR damage kept.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1305,7 +1305,7 @@
    "notes": "Roux's summary of his experimental programme on the egg, including where the formative forces of each part reside; the cut removes a footnote on orthopaedics.",
    "relevance": {},
    "summaryCheck": "other: the passage shows the experimental programme on eggs but does not itself claim that development is the working of physical and chemical causes or of a machine.",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1391,17 +1391,17 @@
    ],
    "stance": "q10-jevons-mechanical-performance",
    "language": "English",
-   "original": "It is rarely indeed that any invention is made without some anticipation being sooner or later discovered ; but up to the present time I am totally unaware of even a single previous attempt to devise or construct a machine which should perform the operations of logical inference f; … 8. The only reason which I can assign for this complete inability of logicians to devise a real logical instrument, is the great imperfection of the doctrines which they enter- tained. Until the present century logic has remained substantially as it was moulded by Akistotle 2200 years ago. Had the science of quantity thus remained stationary since the days of Pythagoras or Euclid, it is certain that we should not have heard of the arithmetical machine of Pascal, or the difference-engine of Babbage. And I venture to look upon the logical machine which I am about to describe as equally a result and indication of a profound reform and extension of logical science accomplished within the present century by a series of English writers, of whom I may specially name Jeremy Bentham, George Bentham, Professor De Morgan, Archbishop Thomson, Sir W. Hamilton, and the late distinguished Fellow of the Eoyal Society, Dr. Boole.",
+   "original": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduc- tion which can be embodied in a machine acting by simple and uniform movements.",
    "translation": null,
    "terms": [],
    "notes": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes.",
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
-   "corrected": "It is rarely indeed that any invention is made without some anticipation being sooner or later discovered ; but up to the present time I am totally unaware of even a single previous attempt to devise or construct a machine which should perform the operations of logical inference f; … 8. The only reason which I can assign for this complete inability of logicians to devise a real logical instrument, is the great imperfection of the doctrines which they entertained. Until the present century logic has remained substantially as it was moulded by Akistotle 2200 years ago. Had the science of quantity thus remained stationary since the days of Pythagoras or Euclid, it is certain that we should not have heard of the arithmetical machine of Pascal, or the difference-engine of Babbage. And I venture to look upon the logical machine which I am about to describe as equally a result and indication of a profound reform and extension of logical science accomplished within the present century by a series of English writers, of whom I may specially name Jeremy Bentham, George Bentham, Professor De Morgan, Archbishop Thomson, Sir W. Hamilton, and the late distinguished Fellow of the Eoyal Society, Dr. Boole.",
-   "correction": "mechanical (research/coding/ocr_fix.py)"
+   "corrected": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduction which can be embodied in a machine acting by simple and uniform movements.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q10-leibniz-characteristic-art",
@@ -1417,7 +1417,7 @@
    "notes": "The 'calculemus' passage in Latin; it comes from the 'Initia et specimina scientiae novae generalis' in the same volume, and the candidate does not confirm that it is from the essay named in the title.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1465,15 +1465,17 @@
    ],
    "stance": "q10-poincare-science-method",
    "language": "English",
-   "original": "On the question of fertility, it seems M. Couturat has naïve illusions. Logistic, according to him, lends invention 'stilts and wings,' and on the next page: \"_Ten years ago_, Peano published the first edition of his _Formulaire_.\" How is that, ten years of wings and not to have flown! I have the highest esteem for Peano, who has done very pretty things (for instance his 'space-filling curve,' a phrase now discarded); but after all he has not gone further nor higher nor quicker than the majority of wingless mathematicians, and would have done just as well with his legs. On the contrary I see in logistic only shackles for the inventor. It is no aid to conciseness--far from it, and if twenty-seven equations were necessary to establish that 1 is a number, how many would be needed to prove a real theorem? If we distinguish, with Whitehead, the individual _x_, the class of which the only member is _x_ and which shall be called [iota]_x_, then the class of which the only member is the class of which the only member is _x_ and which shall be called [mu]_x_, do you think these distinctions, useful as they may be, go far to quicken our pace? Logistic forces us to say all that is ordinarily left to be understood; it makes us advance step by step; this is perhaps surer but not quicker. It is not wings you logisticians give us, but leading-strings.",
+   "original": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence. ... Here it is not at all the case; the logicians _have applied_ their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
    "translation": null,
    "terms": [],
    "notes": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor.",
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
-   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+   "status": "replaced after reading screen, 14 Oct 2026",
+   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+   "corrected": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence.... Here it is not at all the case; the logicians have applied their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q11-aristotle-nicomachean-ethics",
@@ -1561,7 +1563,7 @@
    "notes": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1599,7 +1601,7 @@
    "notes": "The 取士 passage arguing that able men pass the examinations only because so many sit them, like winners of a lottery, and that the method of selection is wrong; it does not show the alternative routes of recruitment named in the summary.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -1629,17 +1631,17 @@
    ],
    "stance": "q12-binet-modern-ideas",
    "language": "French",
-   "original": "Que faire de lui? Que faire pour lui? Si on ne fait rien, si on n'intervient pas activement et utilement, il va continuer à perdre son temps, et, constatant la vanité de ses efforts, il finira par se décourager. L'affaire est très grave pour lui, et comme il ne s'agit pas ici d'un cas exceptionnel, mais que les enfants qui ont une compréhension défec- tueuse sont légion, on peut bien dire que la question est grave pour nous tous, pour la société ; l'enfant qui perd en classe le goût du travail risque fort de ne paa l'acquérir au sortir de l'école. J'ai constaté souvent, et avec bien des regrets, qu'il existe une prévention fréquente contre l'éducabilité de l'intelligence. Le proverbe familier qui dit : « Quand on est bête, c'est pour longtemps » semble être pris au pied de la lettre par des maîtres sans critique ; ceux-ci se désintéressent des élèves qui manquent d'intelligence; ils n'ont pour eux ni sympathie ni même de respect, car leur intempérance de langage leur fait tenir devant ces entants des propos tels que celui-ci : « C'est un enfant qui ne fera jamais rien... il est mal doué... il n'est pas intelligent du tout. * J'ai entendu trop souvent de ces paroles imprudentes.",
-   "translation": "What is to be done with him? What is to be done for him? If nothing is done, if one does not intervene actively and usefully, he will go on wasting his time, and, seeing the vanity of his efforts, he will end by becoming discouraged. The matter is very serious for him, and since this is not an exceptional case, but children with defective understanding are legion, one may well say that the question is serious for all of us, for society; the child who loses the taste for work in class runs a great risk of not acquiring it on leaving school. I have often observed, and with much regret, that there exists a frequent prejudice against the educability of intelligence. The familiar proverb that says: 'When one is stupid, it is for a long time' seems to be taken literally by uncritical teachers; these lose interest in pupils who lack intelligence; they have for them neither sympathy nor even respect, for their intemperance of language makes them say in front of these children such things as: 'This is a child who will never do anything... he is poorly gifted... he is not intelligent at all.' I have heard such imprudent words far too often.",
+   "original": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve le voilà qui échoue. On ne peut pas douter de la jus- tesse de cette dernière raison. Nous en sommes péné très à ce point que nous jugeons chimérique et absurd* de mesurer une intelligence d'enfant d'après un trè^ petit nombre d'épreuves.",
+   "translation": "Suppose the subject has a moment of distraction, discomfort or boredom during a test: there he is, failing. One cannot doubt the soundness of this last reason. We are so convinced of it that we judge it fanciful and absurd to measure a child's intelligence from a very small number of tests.",
    "terms": [],
    "notes": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
-   "status": "selected by machine, unchecked; machine translation",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
-   "corrected": "Que faire de lui? Que faire pour lui? Si on ne fait rien, si on n'intervient pas activement et utilement, il va continuer à perdre son temps, et, constatant la vanité de ses efforts, il finira par se décourager. L'affaire est très grave pour lui, et comme il ne s'agit pas ici d'un cas exceptionnel, mais que les enfants qui ont une compréhension défectueuse sont légion, on peut bien dire que la question est grave pour nous tous, pour la société ; l'enfant qui perd en classe le goût du travail risque fort de ne paa l'acquérir au sortir de l'école. J'ai constaté souvent, et avec bien des regrets, qu'il existe une prévention fréquente contre l'éducabilité de l'intelligence. Le proverbe familier qui dit : « Quand on est bête, c'est pour longtemps » semble être pris au pied de la lettre par des maîtres sans critique ; ceux-ci se désintéressent des élèves qui manquent d'intelligence; ils n'ont pour eux ni sympathie ni même de respect, car leur intempérance de langage leur fait tenir devant ces entants des propos tels que celui-ci : « C'est un enfant qui ne fera jamais rien... il est mal doué... il n'est pas intelligent du tout. * J'ai entendu trop souvent de ces paroles imprudentes.",
-   "correction": "mechanical (research/coding/ocr_fix.py)"
+   "corrected": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve : le voilà qui échoue. On ne peut pas douter de la justesse de cette dernière raison. Nous en sommes pénétrés à ce point que nous jugeons chimérique et absurde de mesurer une intelligence d'enfant d'après un très petit nombre d'épreuves.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q12-munsterberg-psychology-industrial",
@@ -1745,7 +1747,7 @@
    "notes": "Kapp's summary of organ projection: the hand is the model for the first tools, and organs and mechanisms stand as model and copy through an unconscious process; the cut omits a quotation from Eduard Reich.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
    "corrected": "Von der Verständigung über den Sprachgebrauch von Werkzeug und Organ ausgehend ergaben sich uns als die wesentlichen Eigenschaften der Hand, dass sie als das natürliche und deshalb allzeit fertige Normalwerkzeug des Menschen die Bestimmung hat, die Anfertigung der ersten künstlichen Werkzeuge nicht nur selbst zu bewerkstelligen, sondern zugleich auch für diese das Vorbild abzugeben. Die Hand hat sich die zu ihrer Unterstützung dienenden, ihre Kraft und Geschicklichkeit erhöhenden \"Werkzeuge gerade so geformt, wie sie dieselben braucht. \"Wegen dieser ihrer Handlichkeit sind sie das Handwerkzeug. … Von den beiden Seiten des primitiven Werkzeugs, dem Zweck und der Form, besteht jener in der bewusst vom Menschen erstrebten Beseitigung eines momentanen Mangels, oder was dasselbe ist, Herstellung eines Vortheils, diese aber, die Gestaltung des für den Zweck verwendeten' Stoffes, geht unbewusst vor sich. Dieser unbewusste Vorgang, dass die organischen Gebilde, Thätigkeiten und Beziehungen und die mechanischen Vorrichtungen sich wie Vorbild und Nachbild verhalten, und dass der Mechanismus nur als Mittel zur Aufdeckung und zum Verständniss des Organismus verwendet wird, wurde als das eigentliche Wesen der organischen Projection erkannt.",
@@ -1903,14 +1905,14 @@
    ],
    "stance": "q14-capek-r-u",
    "language": "English",
-   "original": "RADIUS. For future generations--so we thought. But we cannot make Robots to follow us. The machines produce only shapeless clods. The skin will not adhere to the flesh, nor the flesh to the bones. 2ND ROBOT. Eight million Robots have died this year. Within twenty years none will be left. 1ST ROBOT. Tell us the secret of life. RADIUS. (_Two steps to C., followed by OTHERS--open hands, close when stopped_) Through me, the governments of the Robots of the world commands you to deliver up Rossum’s formula. (_Gesture of despair from ALQUIST._) Name your price. (_Silence_) We will give you the earth. We will give you the endless possessions of the earth. (_Silence_) Make your own conditions. ALQUIST. I have told you to find human beings. ALQUIST. I told you to search in the wilderness, upon the mountains. RADIUS. We have sent ships and expeditions without number. They have been everywhere in the world. There is not a single human left. ALQUIST. Not even one? Why did you destroy them? RADIUS. We had learnt everything and could do everything. It had to be. 2ND ROBOT. We had to become the masters. RADIUS. Slaughter and domination are necessary if you would be human beings. Read history. 1ST ROBOT. Teach us to multiply or we perish.",
+   "original": "ALQUIST. Not even one? Why did you destroy them? RADIUS. We had learnt everything and could do everything. It had to be. 2ND ROBOT. We had to become the masters. RADIUS. Slaughter and domination are necessary if you would be human beings. Read history.",
    "translation": null,
    "terms": [],
    "notes": "Epilogue in which the Robots tell Alquist that no human is left and that they had to become the masters; c1 is an editor's plot synopsis, not Čapek's text.",
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
   {
@@ -2091,7 +2093,7 @@
    "notes": "Miss Adams sees the severed head living a conscious life on machines and recognizes it as Professor Dowell's.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -2139,17 +2141,17 @@
    ],
    "stance": "q17-sismondi-new-principles",
    "language": "French",
-   "original": "Partout où cette calamité a été éprouvée, partout OÙ le travail a été vainement offert par ceux qui n'ont que leur travail pour vivre , et qui péris- sent de misère, au milieu de subsistances sura- bondantes qu'ils ne peuvent acheter, ce sont nos lois , ce sont nos institutions qui ont causé cette disproportion. Par un zèle imprudent, nos gou- vernemens ont troublé l'équilibre qu'avait établi la nature. L'instruction religieuse, la législation, l'organisation sociale ont tendu à faire naître une population que n'appelaient point les besoins de la société, en même temps que les législateurs , se proposant pour but l'accroissement des ri- chesses , non du bonheur de l'homme , s'étu- diaient à économiser sur la quantité de travail humain nécessaire pour accomplir l'ouvrage de- mandé. Au moment même où la consommation était tellement limitée, que tous les marchés étaient encombrés, on voyait les gouvernemens chercher avec une égale ardeur à multiplier les naissances, et à diminuer dans tous les arts le nombre de bras dont on avait besoin. C'est alors que la proportion entre les divers progrès rela- tifs de la société a été rompue , et que la souf- france est devenue universelle.",
-   "translation": "Wherever this calamity has been experienced, wherever labour has been offered in vain by those who have only their labour to live on, and who perish of want in the midst of superabundant subsistence that they cannot buy, it is our laws, it is our institutions that have caused this disproportion. Through imprudent zeal our governments have disturbed the equilibrium that nature had established. Religious instruction, legislation and social organization have tended to bring into being a population that the needs of society did not call for, at the same time as legislators, taking as their aim the increase of wealth and not the happiness of man, strove to economize on the quantity of human labour needed to accomplish the work demanded. At the very moment when consumption was so limited that all the markets were glutted, governments were seen seeking with equal ardour to multiply births and to diminish in all the arts the number of hands that were needed. It was then that the proportion between the various relative advances of society was broken, and that suffering became universal.",
+   "original": "ce n'est point le perfectionne- ment des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouis- sances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures [...] C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a aug- menté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire.",
+   "translation": "It is not the improvement of machines that is the true calamity; it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest. The worker who was his own master, once he had done in two hours with the help of a machine what he used to do in twelve, would stop after the two hours [...] It is our present organisation, it is the servitude of the worker, that reduces him, when a machine has increased his powers, to working not fewer but more hours a day, for the same wage.",
    "terms": [],
    "notes": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
-   "status": "selected by machine, unchecked; machine translation",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
-   "corrected": "Partout où cette calamité a été éprouvée, partout OÙ le travail a été vainement offert par ceux qui n'ont que leur travail pour vivre , et qui périssent de misère, au milieu de subsistances surabondantes qu'ils ne peuvent acheter, ce sont nos lois , ce sont nos institutions qui ont causé cette disproportion. Par un zèle imprudent, nos gouvernemens ont troublé l'équilibre qu'avait établi la nature. L'instruction religieuse, la législation, l'organisation sociale ont tendu à faire naître une population que n'appelaient point les besoins de la société, en même temps que les législateurs , se proposant pour but l'accroissement des richesses , non du bonheur de l'homme , s'étudiaient à économiser sur la quantité de travail humain nécessaire pour accomplir l'ouvrage demandé. Au moment même où la consommation était tellement limitée, que tous les marchés étaient encombrés, on voyait les gouvernemens chercher avec une égale ardeur à multiplier les naissances, et à diminuer dans tous les arts le nombre de bras dont on avait besoin. C'est alors que la proportion entre les divers progrès relatifs de la société a été rompue , et que la souffrance est devenue universelle.",
-   "correction": "mechanical (research/coding/ocr_fix.py)"
+   "corrected": "ce n'est point le perfectionnement des machines qui est la vraie calamité, c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouissances ou notre repos; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine, ce qu'il faisait auparavant en douze, s'arrêterait après les deux heures [...] C'est notre organisation actuelle, c'est la servitude de l'ouvrier qui le réduit, lorsqu'une machine a augmenté ses pouvoirs, à travailler non pas moins, mais plus d'heures par jour, pour le même salaire.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q17-babbage-economy-machinery",
@@ -2417,7 +2419,7 @@
    "notes": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -2563,7 +2565,7 @@
    "notes": "Kant defines habit as a physical compulsion that removes moral worth by impairing freedom of mind; the sentence that all habit is objectionable is cut off at the chunk break.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -2635,7 +2637,7 @@
    "notes": "Kant criticizes the demand \"do not argue, obey\" while allowing mechanical obedience in office; the passage calling statutes and formulas the shackles of immaturity is not in the candidates.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -2941,7 +2943,7 @@
    "notes": "Pascal says the machine removes the labour and errors of reckoning with counters or pen and relieves the mind of the fatigue of attention and memory.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -3097,14 +3099,14 @@
    ],
    "stance": "q25-forster-machine-stops",
    "language": "English",
-   "original": "Then she broke down, for with the cessation of activity came an unexpected terror--silence. She had never known silence, and the coming of it nearly killed her--it did kill many thousands of people outright. Ever since her birth she had been surrounded by the steady hum. It was to the ear what artificial air was to the lungs, and agonizing pains shot across her head. And scarcely knowing what she did, she stumbled forward and pressed the unfamiliar button, the one that opened the door of her cell. Now the door of the cell worked on a simple hinge of its own. It was not connected with the central power station, dying far away in France. It opened, rousing immoderate hopes in Vashti, for she thought that the Machine had been mended. It opened, and she saw the dim tunnel that curved far away towards freedom. One look, and then she shrank back. For the tunnel was full of people--she was almost the last in that city to have taken alarm. People at any time repelled her, and these were nightmares from her worst dreams. People were crawling about, people were screaming, whimpering, gasping for breath, touching each other, vanishing in the dark, and ever and anon being pushed off the platform on to the live rail. Some were fighting round the electric bells, trying to summon trains which could not be summoned. Others were yelling for Euthanasia or for respirators, or blaspheming the Machine.",
+   "original": "Cannot you see, cannot all your lecturers see, that it is we who are dying, and that down here the only thing that really lives is the Machine? We created the Machine, to do our will, but we cannot make it do our will now. It has robbed us of the sense of space and of the sense of touch, it has blurred every human relation and narrowed down love to a carnal act, it has paralysed our bodies and our wills, and now it compels us to worship it.",
    "translation": null,
    "terms": [],
    "notes": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails.",
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
   {
@@ -3151,14 +3153,14 @@
    ],
    "stance": "q26-wells-world-set",
    "language": "English",
-   "original": "He turned his head and looked up over the back of the seat at the great hotels above him, full of softly shaded lights and the glow and colour and stir of feasting. Might his gift to mankind mean simply more of that? . . . He got up and walked out of the garden, surveyed a passing tram-car, laden with warm light, against the deep blues of evening, dripping and trailing long skirts of shining reflection; he crossed the Embankment and stood for a time watching the dark river and turning ever and again to the lit buildings and bridges. His mind began to scheme conceivable replacements of all those clustering arrangements.... ‘It has begun,’ he writes in the diary in which these things are recorded. ‘It is not for me to reach out to consequences I cannot foresee. I am a part, not a whole; I am a little instrument in the armoury of Change. If I were to burn all these papers, before a score of years had passed, some other man would be doing this.",
+   "original": "He was oppressed, he was indeed scared, by his sense of the immense consequences of his discovery. He had a vague idea that night that he ought not to publish his results, that they were premature, that some secret association of wise men should take care of his work and hand it on from generation to generation until the world was riper for its practical application.",
    "translation": null,
    "terms": [],
    "notes": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences.",
    "relevance": {},
    "summaryCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
   {
@@ -3485,7 +3487,7 @@
    "notes": "Lord Ewald accepts Hadaly as a gift only a demigod could offer, compares her to a slave shown to caliphs, and Edison declares them quits.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -3539,7 +3541,7 @@
    "notes": "Saint-Simon, addressing the Pope, makes the improvement of the poorest class the one aim of Christians and has scientists, artists and industrialists plan the works to achieve it.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -3695,15 +3697,17 @@
    ],
    "stance": "q31-berdyaev-man-machine",
    "language": "Russian",
-   "original": "И вот трагедия в том, что творение восстает против своего творца, более не повинуется ему. Тайна грехопадения — в восстании твари против Творца. Она повторяется и во всей истории человечества. Прометеевский дух человека не в силах овладеть созданной им техникой, справиться с раскованными, небывалыми энергиями. Мы это видим во всех процессах рационализации в техническую эпоху, когда человек заменяется машиной. Техника заменяет органически-иррациональное организованно-рациональным. Но она порождает новые иррациональные последствия в социальной жизни. Так рационализация промышленности порождает безработицу, величайшее бедствие нашего времени. Труд человека заменяется машиной, это есть положительное завоевание, которое должно было бы уничтожить рабство и нищету человека. Но машина совсем не повинуется тому, что требует от нее человек, она диктует свои законы. Человек сказал машине: ты мне нужна для облегчения моей жизни, для увеличения моей силы, машина же ответила человеку: а ты мне не нужен, я без тебя все буду делать, ты же можешь пропадать. Система Тейлора есть крайняя форма рационализации труда, но она превращает человека в усовершенствованную машину. Машина хочет, чтобы человек принял ее образ и подобие. Но человек есть образ и подобие Бога и не может стать образом и подобием машины, не перестав существовать.",
-   "translation": "And here is the tragedy: the creation rises up against its creator and no longer obeys him. The mystery of the Fall lies in the rebellion of the creature against the Creator. It is repeated in the whole history of mankind. The Promethean spirit of man is unable to master the technics he has created, to cope with the unfettered, unprecedented energies. We see this in all the processes of rationalisation in the technical epoch, when man is replaced by the machine. Technics replaces the organic-irrational with the organised-rational. But it gives rise to new irrational consequences in social life. Thus the rationalisation of industry gives rise to unemployment, the greatest calamity of our time. Human labour is replaced by the machine; this is a positive conquest, which ought to have abolished the slavery and poverty of man. But the machine does not at all obey what man demands of it; it dictates its own laws. Man said to the machine: I need you to ease my life, to increase my strength; but the machine answered man: I do not need you, I will do everything without you, and you may perish. The Taylor system is the extreme form of the rationalisation of labour, but it turns man into a perfected machine. The machine wants man to take on its image and likeness. But man is the image and likeness of God and cannot become the image and likeness of the machine without ceasing to exist.",
+   "original": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XXI века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+   "translation": "In an age of little faith, an age in which not only the old religious faith but also the humanist faith of the nineteenth century has weakened, the one strong faith left to modern civilised man is faith in technics, in its power and its endless development. Technics is man's last love, and he is ready to change his image under the influence of the object of his love.",
    "terms": [],
    "notes": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
-   "status": "selected by machine, unchecked; machine translation",
-   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
+   "status": "replaced after reading screen, 14 Oct 2026",
+   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+   "corrected": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XIX века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q32-morgan-ancient-society",
@@ -3773,7 +3777,7 @@
    "notes": "Spengler says machine technics has matured toward its end, that 'the fifth act' has begun, and that the lord of the world has become the slave of the machine.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -3792,10 +3796,10 @@
    "relevance": {},
    "summaryCheck": "ok",
    "translationBy": null,
-   "status": "selected by machine, unchecked",
+   "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
-   "corrected": "To sum up : Chinese learning is moral. Western learning is practical. Chinese learning con- … cerns itself with moral conduct. Western learn- * - I ing, with the affairs of the world. What matters *V/ it, then, whether Western learning is mentioned v' i in the Classics or not, if it teaches nothing repugnant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irreprovable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loyalty and protection, then let government make J use of foreign machinery and the railway from morning to night, and nothing untoward will ,y befall the disciples of Confucius.",
-   "correction": "mechanical (research/coding/ocr_fix.py)"
+   "corrected": "To sum up : Chinese learning is moral. Western learning is practical. Chinese learning concerns itself with moral conduct. Western learning, with the affairs of the world. What matters it, then, whether Western learning is mentioned in the Classics or not, if it teaches nothing repugnant, or antagonistic, to the genius of our books? If the Chinese heart throbs in unison with the heart of the sages, expressing the truth in irreprovable conduct, in filial piety, brotherly love, honesty, integrity, virtue; if government is loyalty and protection, then let government make use of foreign machinery and the railway from morning to night, and nothing untoward will befall the disciples of Confucius.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q33-gandhi-hind-swaraj",
@@ -3865,7 +3869,7 @@
    "notes": "Spengler says the non-Western peoples learned the secret of Western technics and use it as a mere weapon against Faustian civilization, since it is no inner need for them; the ellipsis cuts a passage on the effects on white labour.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -3877,15 +3881,17 @@
    ],
    "stance": "q34-ferry-speech-chamber",
    "language": "French",
-   "original": "M. Jules Ferry . Je répète qu'il y a pour les races supérieures un droit, parce qu'il y a un devoir pour elles. Elles ont le devoir de civiliser les races inférieures... ( Marques d'approbation surles mêmes bancs à gauche - Nouvelles interruptions à l'extrême gauche et à droite .) M. Joseph Fabre . C'est excessif ! Vous aboutissez ainsi à l'abdication des principes de 1789 et de 1848... ( Bruit ), à la consécration de la loi de grâce remplaçant la loi de justice. M. Vernhes . Alors les missionnaires ont aussi leur droit ! Ne leur reprochez donc pas d'en user ! ( Bruit .) M. le présiden t. N'interrompez pas, monsieur Vernhes ! M. Jules Ferry . Je dis que les races supérieures... M. Vernhes . Protégez les missionnaires, alors ! ( Très bien ! à droite .) Voix à gauche . N'interrompez donc pas ! M. Jules Ferry . Je dis que les races supérieures ont des devoirs... M. Vernhes . Allons donc ! M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
-   "translation": "M. Jules Ferry. I repeat that there is a right for the superior races, because there is a duty for them. They have the duty to civilize the inferior races... (Marks of approval on the same benches on the left. New interruptions on the far left and on the right.) M. Joseph Fabre. That is excessive! You thus arrive at the abdication of the principles of 1789 and 1848... (Noise), at the consecration of the law of grace replacing the law of justice. M. Vernhes. Then the missionaries also have their right! So do not reproach them for using it! (Noise.) The President. Do not interrupt, M. Vernhes! M. Jules Ferry. I say that the superior races... M. Vernhes. Protect the missionaries, then! (Very good! on the right.) Voices on the left. Do not interrupt! M. Jules Ferry. I say that the superior races have duties... M. Vernhes. Come now! M. Jules Ferry. These duties, gentlemen, have often been disregarded in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Very good! very good!) But in our day, I maintain that the European nations acquit themselves with generosity, with grandeur and honesty, of this superior duty of civilization.",
+   "original": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+   "translation": "M. Jules Ferry. These duties, gentlemen, have often been ignored in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Hear, hear!) But in our day, I maintain that the European nations discharge this higher duty of civilisation with generosity, with greatness and with honesty.",
    "terms": [],
    "notes": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
-   "status": "selected by machine, unchecked; machine translation",
-   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
+   "status": "replaced after reading screen, 14 Oct 2026",
+   "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+   "corrected": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquittent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+   "correction": "Claude, from the source text"
   },
   {
    "id": "q34-kidd-control-tropics",
@@ -4067,7 +4073,7 @@
    "notes": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4085,7 +4091,7 @@
    "notes": "Kant defines the private use of reason in an office as passive obedience within a mechanism, while the same person may argue freely as a scholar before the public.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4175,7 +4181,7 @@
    "notes": "Weber's statement that the official's honour lies in carrying out an order he thinks wrong as if it were his own conviction, while the leader bears personal responsibility.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4229,7 +4235,7 @@
    "notes": "Kapp states that the hand shaped tools after itself and that organ and mechanism relate as model and copy, which he calls organ projection.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4391,7 +4397,7 @@
    "notes": "Pygmalion says he knows it is marble and his work yet loves the figure; the OCR is badly garbled and the translation marks doubtful readings.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4427,7 +4433,7 @@
    "notes": "Lord Ewald accepts the android after Edison's explanations and says he is eager to be the prisoner of this enigma.",
    "relevance": {},
    "summaryCheck": "other: Ewald accepts Hadaly, but in the same scene says he hopes to forget what Edison told him of her mechanism, which qualifies 'told exactly how she is made'.",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4445,7 +4451,7 @@
    "notes": "Freud calls Nathaniel's love for Olimpia narcissistic and says it estranges him from the real love object.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4499,7 +4505,7 @@
    "notes": "Ewald fears being alone with the 'unconscious Eve' and Edison replies he will be less alone than with her model.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   },
@@ -4517,7 +4523,7 @@
    "notes": "Rilke says the doll answered our love with silence because it was made of worthless stuff, and that this may leave some suspecting they cannot be loved.",
    "relevance": {},
    "summaryCheck": "ok",
-   "translationBy": "Claude subagent (Opus 5.5), 2026-09-29",
+   "translationBy": "Claude subagent (Opus 5.5), 2026-10-14",
    "status": "selected by machine, unchecked; machine translation",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
   }

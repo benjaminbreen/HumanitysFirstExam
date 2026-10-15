@@ -35,6 +35,13 @@ research/passages/ocr-corrections.json. Ben re-checks any of the 18
 items he coded before the change; his earlier answers are kept as
 revisions.
 
+Reading screen, 14 October 2026. Claude agents read every quotation in
+its source context. 11 quotations were swapped for clearer passages from
+the same work (research/passages/replacements.json; verbatim text kept,
+cleaned text shown). 4 items whose work did not take the claimed side
+were replaced by other stances on the same question (i69 to i72). Ben
+re-codes any of these 15 he had already coded.
+
 What the coder sees
 
 One page with all 60 items, in the style of historyproblems.com/rate.
