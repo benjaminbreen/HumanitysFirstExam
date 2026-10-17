@@ -104,9 +104,10 @@ export default function MethodPage() {
             is used only if it agrees with each of them about as often as they agree with each other.
           </p>
           <p>
-            The list of positions for each pilot question is built from 15 to 21 passages. Each historian sorts
-            them into positions without seeing Claude’s list, then compares the two lists and decides what goes
-            into the key.
+            The list of positions for each pilot question is built from 15 to 21 passages. Ben, Nathan and Claude
+            each sort the passages into positions separately, and we measure how often each pair agrees. Ben and
+            Nathan then make the final list together. If Claude agrees with each of them about as often as they
+            agree with each other, Claude sorts the remaining questions.
           </p>
         </Section>
 

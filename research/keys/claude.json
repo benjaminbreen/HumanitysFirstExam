@@ -121,8 +121,7 @@
     "reason": "Regeneration and healing are the same synthetic act that forms the organism in the egg; the production of specific form by a whole organism or a piece of it is beyond known physical principles.",
     "passages": [
      "p10",
-     "p14",
-     "p15"
+     "p14"
     ],
     "direction": "yes"
    },
@@ -194,9 +193,7 @@
     "passages": [
      "p01",
      "p06",
-     "p07",
-     "p14",
-     "p21"
+     "p14"
     ],
     "direction": "no"
    },
@@ -216,8 +213,7 @@
     "claim": "Machinery reduces the skill needed to operate it, so less skilled workers and children can do the work.",
     "reason": "The machine supplies what hand skill used to supply, turning skilled artisans into overlookers; this opens work to the unskilled and increases competition among workers.",
     "passages": [
-     "p03",
-     "p04"
+     "p03"
     ],
     "direction": "no"
    },
@@ -226,7 +222,6 @@
     "claim": "Machinery raises the demand for skill among those who build, repair, improve and superintend it.",
     "reason": "Each new machine needs human skill to construct it, devices to feed it, and keener faculties to read and regulate it.",
     "passages": [
-     "p03",
      "p11"
     ],
     "direction": "yes"
@@ -246,8 +241,7 @@
     "reason": "Knowledge of a machine in its running, gained by standing by it, let workers such as the valve boy invent improvements; modern machines need scientific education the workers are refused.",
     "passages": [
      "p02",
-     "p16",
-     "p14"
+     "p16"
     ],
     "direction": "other"
    },
@@ -257,8 +251,7 @@
     "reason": "The operative must follow the machine's movements and keep the same strain of attention for hours, which wears out the nerves while denying freedom of bodily and intellectual activity.",
     "passages": [
      "p10",
-     "p15",
-     "p08"
+     "p15"
     ],
     "direction": "no"
    },
@@ -267,9 +260,7 @@
     "claim": "Making the worker into a precise instrument destroys his intellectual and creative capacity.",
     "reason": "Demanding tool-like precision from men forces all their spirit into the mean act and unhumanizes them; the machine uses the worker as its appendage and drains work of interest.",
     "passages": [
-     "p08",
-     "p10",
-     "p21"
+     "p08"
     ],
     "direction": "other"
    },
@@ -306,8 +297,7 @@
     "claim": "Whether the worker's mind is diminished depends on his understanding of and care for the whole process.",
     "reason": "If the worker sees the whole process his part serves and cares for it, the mechanizing effect is counteracted; a mere tender has no insight.",
     "passages": [
-     "p21",
-     "p16"
+     "p21"
     ],
     "direction": "other"
    },
@@ -342,8 +332,7 @@
     "claim": "Yes: notebooks and stored information weaken memory, as one case of tools that make the user lose the faculty they replace.",
     "reason": "Each convenience (coach, watch, almanac, notebook) removes the need to use a bodily or mental skill, and the unused skill is lost.",
     "passages": [
-     "p12",
-     "p17"
+     "p12"
     ],
     "direction": "yes"
    },
@@ -431,7 +420,6 @@
     "claim": "Invention carries out a divine purpose by restoring the dominion over nature that God gave to mankind.",
     "reason": "Power over nature is a right assigned by God's gift, and searching out what God concealed is a king's glory; abuse is no objection, since every worldly good can be abused.",
     "passages": [
-     "p01",
      "p02"
     ],
     "direction": "yes"
@@ -442,7 +430,6 @@
     "reason": "Inventions are new creations in imitation of divine works; machines are a new kind of being called into existence through man, which shows his creative and royal calling.",
     "passages": [
      "p01",
-     "p07",
      "p20"
     ],
     "direction": "yes"
@@ -489,8 +476,7 @@
     "claim": "Invention serves a divine purpose only when directed by religion or love; directed by gain it does not.",
     "reason": "The cruel aspect of mills and railways comes from the mercenary ends they obey; wielded by love, science and its works become continuations of creation. Power over nature should be governed by right reason and true religion.",
     "passages": [
-     "p07",
-     "p02"
+     "p07"
     ],
     "direction": "other"
    },
@@ -518,7 +504,6 @@
     "reason": "Men have lost belief in the Invisible and made Mechanism their deity; rationalism made technics a materialist religion with its own Trinity; the railway to the Celestial City lets pilgrims keep their sins and skip the Cross.",
     "passages": [
      "p05",
-     "p19",
      "p08"
     ],
     "direction": "no"
@@ -539,8 +524,7 @@
     "claim": "Technology repeats the Fall: the creature revolts against its creator and threatens man's divine image.",
     "reason": "Machines dictate their own laws, replace men and turn them into machines; man is the image of God and cannot become the image of the machine without ceasing to exist.",
     "passages": [
-     "p21",
-     "p20"
+     "p21"
     ],
     "direction": "no"
    },

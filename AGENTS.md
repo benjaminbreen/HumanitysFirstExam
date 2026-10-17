@@ -65,7 +65,7 @@ with Ben.
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
 | Order of work: a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026; amended 14 Oct 2026 |
 | The 60-item yes/no passage check is retired. Its protocol (`research/coding/PROTOCOL.md`, approved by Nathan via Ben on 14 Oct) is kept as a record. `/coding` redirects to `/keys`. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
-| Position keys for the pilot questions are built on `/keys`: Claude screens a pool of 15–21 canon passages per question; Ben and Nathan each sort the pool into positions (claim, reason, Yes/No/Other, passages) without seeing Claude's; Claude does the same separately; each historian then compares their list with Claude's and decides what enters the key. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
+| Position keys for the pilot questions follow `research/keys/PROCEDURE.md`: Ben, Nathan and Claude each sort a pool of 15–21 passages into positions separately (at most 15 positions, each with Yes/No/Other; one place per passage). Agreement between each pair is measured; Claude passes if it agrees with each historian about as often as they agree with each other, and then sorts the other questions. Ben and Nathan make the final list the site shows, without Claude's list, then add Claude-only positions both accept. | Ben, 17 Oct 2026 |
 
 ## House rules
 
@@ -116,7 +116,7 @@ Not decided. Leave these open in copy.
 - `docs/pilots.md`: every pilot and corpus built so far, as records.
 - `docs/proposals/`: agent drafts for Ben and Nathan to mark up.
   `2026-09-28-benchmark-method.md` is the working plan.
-- `research/keys/`: passage pools (`pools.json`), Claude's positions (`claude.json`); historians' sortings are in Redis or `research/keys/entries/`. Pages: `/keys`.
+- `research/keys/PROCEDURE.md`: how the position keys are built and how Claude's sorting is tested. Passage pools in `pools.json`, Claude's lists in `claude.json`. Pages: `/keys`.
 - `research/coding/PROTOCOL.md`: the retired 60-item passage check, kept as a record.
 
 # This is NOT the Next.js you know

@@ -45,3 +45,4 @@ next-env.d.ts
 /src/app/api/admin/
 /src/components/admin/
 /data-local/review/
+research/keys/entries/

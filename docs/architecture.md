@@ -66,8 +66,9 @@ the relevant pages.
 | `/sources` | All works; filters (`?lang=&form=&century=&text=`) and sort (`?sort=`) |
 | `/sources/[id]` | One work: record, its answer to each question, passages |
 | `/keys` | Position keys for the six pilot questions: sign-in, then each historian's progress per question. Not in the nav |
-| `/keys/[q]` | One question's pool of passages (`research/keys/pools.json`). The signed-in historian sorts them into positions: claim, reason, Yes/No/Other, supporting passages; or marks a passage off-topic or unclear |
-| `/keys/[q]/compare` | Opens when that historian marks the question finished: their positions beside Claude's (`research/keys/claude.json`), paired by shared passages, with a decision per pair (same, distinct, merge, keep, drop) |
+| `/keys/[q]` | One question's pool of passages (`research/keys/pools.json`). The signed-in historian sorts them into at most 15 positions (implied answer, argument, Yes/No/Other), one place per passage. Locks when Ben and Nathan have both finished |
+| `/keys/[q]/agreement` | Opens when both have finished: agreement for each pair of Ben, Nathan and Claude (`research/keys/claude.json`), each passage's place in the three lists, and the three lists. `/keys/[q]/compare` redirects here |
+| `/keys/[q]/final` | The final list, edited by Ben and Nathan together; freezes when both agree to the same version (`research/keys/PROCEDURE.md`) |
 | `/coding` | Redirects to `/keys`. The 60-item passage check it held is retired |
 | `/search` | Semantic search. Locally over every corpus in `trial/corpus/index/` (1.8 GB, not deployed); deployed over the canon only, from `search-index/` (written by `build_index.py --deploy`). Needs `OPENAI_API_KEY` to embed queries |
 | `/models` | Respondents grouped by role (`role` in `data/models.json`): core comparison, context, candidates |
@@ -75,9 +76,9 @@ the relevant pages.
 | `/about` | The premise, pilot status, authors, funding, repository |
 
 Claude's stances for the six pilot questions are hidden from public pages
-while their keys are built (`src/lib/data.ts`). Sortings and decisions
-are saved to `research/keys/entries/<coder>.json` when run locally, or to
-Upstash Redis (key `keys:<coder>`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN`
+while their keys are built (`src/lib/data.ts`). Sortings and final lists
+are saved to `research/keys/entries/` when run locally, or to
+Upstash Redis (keys `keys:ben`, `keys:nathan`, `keys:final`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN`
 are set. Passcodes come from `CODING_PASSCODE_BEN` and
 `CODING_PASSCODE_NATHAN` (not needed locally).
 

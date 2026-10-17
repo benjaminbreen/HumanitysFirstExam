@@ -1,4 +1,4 @@
-**Retired 14 October 2026.** This check was replaced by the position keys (`/keys`, `src/lib/keys.ts`, `research/keys/`) before Nathan coded it. Kept as a record; do not run it.
+**Retired 14 October 2026.** This check was replaced by the position keys (`research/keys/PROCEDURE.md`, `/keys`) before Nathan coded it. Kept as a record; do not run it.
 
 Blind passage check
 

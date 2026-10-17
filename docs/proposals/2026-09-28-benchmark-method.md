@@ -107,10 +107,10 @@ fresh sample, or the result is withheld.
    least two positions from two independent works. If one fails, use the
    next question in its theme, and record the swap. Never swap a question
    after seeing model results.
-   - Build v0 for each on `/keys` and freeze it: Ben and Nathan each
-     sort a pool of 15–21 passages into positions, Claude does the same
-     separately, and each historian decides from the side-by-side
-     comparison what enters the key.
+   - Build the position list for each and freeze it, following
+     `research/keys/PROCEDURE.md`: Ben, Nathan and Claude sort the same
+     passages separately, agreement is measured, and Ben and Nathan make
+     the final list.
    - Run Defend and Survey, 20 answers each, on all four models:
      6 × 4 × 2 × 20 = 960 answers.
    - Claude codes them. Ben and Nathan check a blind sample.

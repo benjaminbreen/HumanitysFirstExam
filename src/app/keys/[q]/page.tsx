@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageTitle } from "@/components/PageTitle";
 import { coders, currentCoder, storage } from "@/lib/coding";
-import { directionLabels, getPool, sortingFor } from "@/lib/keys";
+import { bothDone, directionLabels, getPool, MAX_POSITIONS, sortingFor } from "@/lib/keys";
 import { SignIn } from "../SignIn";
 import { Board } from "./Board";
 
@@ -24,7 +24,7 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
   if (storage === "none") return <>{head}<p>Saving is not set up on this site yet.</p></>;
   if (!coder) return <>{head}<SignIn next={`/keys/${q.toLowerCase()}`} error={error} /></>;
 
-  const sorting = await sortingFor(coder, q);
+  const [sorting, locked] = await Promise.all([sortingFor(coder, q), bothDone(q)]);
   return (
     <>
       <p className="mb-4 text-[14px]">
@@ -39,11 +39,17 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
           reason.
         </p>
         <p>
-          Add a position for each distinct line you find. A position has two parts. The <em>implied answer</em> is
-          what the passages imply about our question, in our words. The <em>argument in the text</em> is the grounds
-          the passages themselves give for it: what the text argues, not why the author held the view or the context
-          they wrote in. If two passages imply a similar answer by different arguments, make them separate positions.
-          Mark each position’s direction ({Object.values(directionLabels(q)).join(", ")}), so the key can be browsed at that level. Then add each passage to the positions it supports. A passage can support more than one.
+          Add a position for each distinct line you find, up to {MAX_POSITIONS}. A position has two parts. The{" "}
+          <em>implied answer</em> is what the passages imply about our question, in our words. The{" "}
+          <em>argument in the text</em> is the grounds the passages themselves give for it: what the text argues, not
+          why the author held the view or the context they wrote in. If two passages imply a similar answer by
+          different arguments, make them separate positions. Give each position a direction (
+          {Object.values(directionLabels(q)).join(", ")}): “yes, because x” and “yes, because y” are two positions,
+          both under {directionLabels(q).yes}; “it depends” goes under Other.
+        </p>
+        <p>
+          Put each passage in one place: the position it supports most directly, or Off the question, or Unclear.
+          One place per passage is what lets us measure how far the three lists agree.
         </p>
         <p>
           Where the passages come from: we searched the full texts of the 204 works on our{" "}
@@ -52,11 +58,12 @@ export default async function KeyQuestionPage({ params, searchParams }: PageProp
           kept the ones that discuss the question, whatever answer they give. The text is copied exactly from the source, with scanning errors fixed.
         </p>
         <p>
-          Claude has written its own list of positions from the same passages. You see it only after you tick “I have
-          finished this question” at the bottom. Your work saves automatically.
+          Nathan, Ben and Claude each sort these passages separately. Nobody sees another list until Ben and Nathan
+          have both ticked “I have finished this question” at the bottom. Then both lists lock, the agreement figures
+          open, and the two of you make the final list together. Your work saves automatically.
         </p>
       </div>
-      <Board q={q} passages={pool.passages} initial={sorting} labels={directionLabels(q)} />
+      <Board q={q} passages={pool.passages} initial={sorting} labels={directionLabels(q)} locked={locked} max={MAX_POSITIONS} />
     </>
   );
 }

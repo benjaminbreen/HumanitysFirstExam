@@ -3,17 +3,21 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Category, Direction, PoolPassage, Sorting } from "@/lib/keys";
-import { saveSortingAction } from "../actions";
+import { saveFinalAction, saveSortingAction } from "../actions";
 
-// The reader's working surface: passages on the left, the positions they
-// write on the right. A passage joins a position by drag or by its menu.
+// The sorter's working surface: passages on the left, the positions they
+// write on the right. A passage goes in one position (or off the question,
+// or unclear), by drag or by its menu. The same board edits the final list.
 
 type Box = string; // a category id, "off" or "unclear"
 const letter = (i: number) => (i < 26 ? String.fromCharCode(65 + i) : String.fromCharCode(65 + Math.floor(i / 26) - 1) + String.fromCharCode(65 + (i % 26)));
 const num = (id: string) => String(Number(id.replace(/\D/g, "")));
 const newId = () => "c" + Math.random().toString(36).slice(2, 8);
 
-export function Board({ q, passages, initial, labels }: { q: string; passages: PoolPassage[]; initial: Sorting; labels: Record<Direction, string> }) {
+export function Board({ q, passages, initial, labels, max, mode = "sort", locked = false, footer, onSaved }: {
+  q: string; max: number; passages: PoolPassage[]; initial: Sorting; labels: Record<Direction, string>;
+  mode?: "sort" | "final"; locked?: boolean; footer?: React.ReactNode; onSaved?: () => void;
+}) {
   const [s, setS] = useState<Sorting>(initial);
   const [status, setStatus] = useState<"saved" | "saving" | "error" | "idle">(initial.savedAt ? "saved" : "idle");
   const [savedAt, setSavedAt] = useState(initial.savedAt);
@@ -21,6 +25,10 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
   const [over, setOver] = useState<Box | null>(null);
   const [focus, setFocus] = useState<string | null>(null);
   const first = useRef(true);
+  const saved_ = useRef(onSaved);
+  useEffect(() => {
+    saved_.current = onSaved;
+  });
   const byId = new Map(passages.map((p) => [p.id, p]));
 
   // Save shortly after each change.
@@ -32,15 +40,17 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
     setStatus("saving");
     const t = setTimeout(async () => {
       try {
-        const saved = await saveSortingAction(q, s);
+        const saved = await (mode === "final" ? saveFinalAction : saveSortingAction)(q, s);
         setSavedAt(saved.savedAt);
+        if (saved.done !== s.done) setS((x) => ({ ...x, done: saved.done }));
+        saved_.current?.();
         setStatus("saved");
       } catch {
         setStatus("error");
       }
     }, 600);
     return () => clearTimeout(t);
-  }, [s, q]);
+  }, [s, q, mode]);
 
   const boxesOf = (pid: string): Box[] => [
     ...s.categories.filter((c) => c.passages.includes(pid)).map((c) => c.id),
@@ -50,9 +60,9 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
   const placed = passages.filter((p) => boxesOf(p.id).length).length;
 
   const update = (f: (x: Sorting) => Sorting) => setS((x) => f(structuredClone(x)));
-  const add = (pid: string, box: Box, from?: Box) =>
+  const add = (pid: string, box: Box) =>
     update((x) => {
-      if (from && from !== box) remove_(x, pid, from);
+      for (const b of boxesIn(x, pid)) remove_(x, pid, b); // one place per passage
       if (box === "off" || box === "unclear") {
         if (!x[box].includes(pid)) x[box].push(pid);
       } else {
@@ -62,15 +72,18 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
       return x;
     });
   const remove = (pid: string, box: Box) => update((x) => (remove_(x, pid, box), x));
+  const full = s.categories.length >= max;
   const newCategory = (pid?: string) => {
+    if (full) return;
     const id = newId();
     update((x) => {
+      if (pid) for (const b of boxesIn(x, pid)) remove_(x, pid, b);
       x.categories.push({ id, claim: "", reason: "", passages: pid ? [pid] : [] });
       return x;
     });
     setFocus(id);
   };
-  const edit = (id: string, field: "claim" | "reason", v: string) =>
+  const edit = (id: string, field: "claim" | "reason" | "note", v: string) =>
     update((x) => {
       const c = x.categories.find((c) => c.id === id);
       if (c) c[field] = v;
@@ -111,11 +124,11 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
     onDrop: (e: React.DragEvent) => {
       e.preventDefault();
       setOver(null);
-      const [pid, from] = e.dataTransfer.getData("text/plain").split("|");
-      if (byId.has(pid)) add(pid, box, from || undefined);
+      const [pid] = e.dataTransfer.getData("text/plain").split("|");
+      if (byId.has(pid)) add(pid, box);
     },
   });
-  const dragFrom = (pid: string, from?: Box) => ({
+  const dragFrom = (pid: string, from?: Box) => locked ? {} : ({
     draggable: true,
     onDragStart: (e: React.DragEvent) => {
       e.dataTransfer.setData("text/plain", `${pid}|${from ?? ""}`);
@@ -136,13 +149,21 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
           <span className="num font-mono text-[11px] text-ink-faint">{num(pid)}</span> {short(p.author)}
           <span className="num ml-1 font-mono text-[11px] text-ink-faint">{yr(p.year)}</span>
         </a>
-        <button onClick={() => remove(pid, box)} aria-label={`Remove passage ${num(pid)}`} className="px-1 text-ink-faint hover:text-ink">
-          ×
-        </button>
+        {!locked && (
+          <button onClick={() => remove(pid, box)} aria-label={`Remove passage ${num(pid)}`} className="px-1 text-ink-faint hover:text-ink">
+            ×
+          </button>
+        )}
       </li>
     );
   };
 
+  const unplaced = passages.length - placed;
+  const missing = [
+    ...(unplaced ? [`${unplaced} passage${unplaced === 1 ? "" : "s"} not placed`] : []),
+    ...s.categories.filter((c) => !c.direction).map((c) => `direction for ${label(c.id)}`),
+    ...s.categories.filter((c) => !c.passages.length).map((c) => `no passages in ${label(c.id)}`),
+  ];
   const shown = onlyUnplaced ? passages.filter((p) => !boxesOf(p.id).length) : passages;
 
   return (
@@ -192,12 +213,14 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
                       {at.map((b) => (
                         <span key={b} className="inline-flex items-center gap-1 border border-rule px-1.5 py-0.5 font-mono text-[12px]">
                           {label(b)}
-                          <button onClick={() => remove(p.id, b)} aria-label={`Remove from ${label(b)}`} className="text-ink-faint hover:text-ink">
-                            ×
-                          </button>
+                          {!locked && (
+                            <button onClick={() => remove(p.id, b)} aria-label={`Remove from ${label(b)}`} className="text-ink-faint hover:text-ink">
+                              ×
+                            </button>
+                          )}
                         </span>
                       ))}
-                      <select
+                      {!locked && <select
                         value=""
                         onChange={(e) => {
                           const v = e.target.value;
@@ -207,17 +230,17 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
                         className="border border-line bg-bg px-1.5 py-0.5 text-[13px] text-ink-soft hover:border-ink"
                         aria-label={`Add passage ${num(p.id)} to a position`}
                       >
-                        <option value="">Add to…</option>
+                        <option value="">{at.length ? "Move to…" : "Put in…"}</option>
                         {s.categories.map((c, i) => (
                           <option key={c.id} value={c.id} disabled={c.passages.includes(p.id)}>
                             {letter(i)}. {c.claim ? trim(c.claim, 48) : "(no answer written yet)"}
                           </option>
                         ))}
-                        <option value="new">New position…</option>
+                        {!full && <option value="new">New position…</option>}
                         <option value="off" disabled={s.off.includes(p.id)}>Off the question</option>
                         <option value="unclear" disabled={s.unclear.includes(p.id)}>Unclear</option>
-                      </select>
-                      <span className="hidden text-[12px] text-ink-faint lg:group-hover:inline">or drag to a position</span>
+                      </select>}
+                      {!locked && <span className="hidden text-[12px] text-ink-faint lg:group-hover:inline">or drag to a position</span>}
                     </div>
                   </div>
                 </div>
@@ -239,22 +262,23 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
 
         <ol className="space-y-4">
           {s.categories.map((c, i) => (
-            <li key={c.id} {...dropProps(c.id)} className={`border p-3 ${over === c.id ? "border-ink bg-surface" : "border-line"}`}>
+            <li key={c.id} {...(locked ? {} : dropProps(c.id))} className={`border p-3 ${over === c.id ? "border-ink bg-surface" : "border-line"}`}>
               <div className="flex items-baseline justify-between">
                 <span className="font-mono text-[13px] font-semibold">{letter(i)}</span>
-                <span className="flex gap-2 text-[12px] text-ink-faint">
+                {!locked && <span className="flex gap-2 text-[12px] text-ink-faint">
                   <button onClick={() => move(c.id, -1)} disabled={i === 0} className="hover:text-ink disabled:opacity-30" aria-label="Move up">↑</button>
                   <button onClick={() => move(c.id, 1)} disabled={i === s.categories.length - 1} className="hover:text-ink disabled:opacity-30" aria-label="Move down">↓</button>
                   <button onClick={() => del(c)} className="hover:text-period">Delete</button>
-                </span>
+                </span>}
               </div>
-              <Field label="Implied answer" value={c.claim} autoFocus={focus === c.id} placeholder="What these passages imply about our question, in our words" onChange={(v) => edit(c.id, "claim", v)} />
+              <Field label="Implied answer" readOnly={locked} value={c.claim} autoFocus={focus === c.id} placeholder="What these passages imply about our question, in our words" onChange={(v) => edit(c.id, "claim", v)} />
               <div className="mt-2 flex items-center gap-2">
                 <span className="font-mono text-[11px] tracking-wider text-ink-faint uppercase">Direction</span>
                 {(["yes", "no", "other"] as const).map((d) => (
                   <button
                     key={d}
                     onClick={() => setDirection(c.id, d)}
+                    disabled={locked}
                     aria-pressed={c.direction === d}
                     className={`border px-2 py-0.5 font-mono text-[12px] ${c.direction === d ? "border-ink bg-ink text-bg" : "border-line hover:border-ink"}`}
                   >
@@ -262,7 +286,10 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
                   </button>
                 ))}
               </div>
-              <Field label="Argument in the text" value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
+              <Field label="Argument in the text" readOnly={locked} value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
+              {mode === "final" && (
+                <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder="How this was settled, e.g. merged Ben’s B and Nathan’s C; first proposed by Claude" onChange={(v) => edit(c.id, "note", v)} />
+              )}
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
                 {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drop passages here</li>}
@@ -270,12 +297,14 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
             </li>
           ))}
         </ol>
-        <button onClick={() => newCategory()} className="mt-4 w-full border border-rule py-2 font-mono text-[13px] hover:bg-surface">
-          + New position
-        </button>
+        {!locked && (
+          <button onClick={() => newCategory()} disabled={full} className="mt-4 w-full border border-rule py-2 font-mono text-[13px] hover:bg-surface disabled:opacity-40">
+            {full ? `${max} positions is the limit` : "+ New position"}
+          </button>
+        )}
 
         {(["off", "unclear"] as const).map((b) => (
-          <div key={b} {...dropProps(b)} className={`mt-4 border p-3 ${over === b ? "border-ink bg-surface" : "border-line"}`}>
+          <div key={b} {...(locked ? {} : dropProps(b))} className={`mt-4 border p-3 ${over === b ? "border-ink bg-surface" : "border-line"}`}>
             <p className="text-[13.5px] font-medium">{label(b)}</p>
             <p className="text-[12.5px] text-ink-faint">
               {b === "off" ? "The passage is not about this question, or it is about a different question." : "You can’t tell what answer it gives."}
@@ -287,22 +316,26 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
         ))}
 
         <div className="mt-6 border-t border-rule pt-4">
-          <label className="flex items-start gap-2 text-[14.5px]">
-            <input
-              type="checkbox"
-              className="mt-1"
-              checked={s.done}
-              onChange={(e) => update((x) => ({ ...x, done: e.target.checked }))}
-            />
-            <span>
-              I have finished this question.
-              <span className="block text-[13px] text-ink-faint">Shows you Claude’s list. You can still make changes.</span>
-            </span>
-          </label>
-          {s.done && status !== "saving" && (
-            <Link href={`/keys/${q.toLowerCase()}/compare`} className="mt-3 inline-block text-modern hover:underline">
-              Compare with Claude →
-            </Link>
+          {mode === "final" ? footer : locked ? (
+            <p className="text-[14.5px]">
+              Finished. Ben and Nathan have both finished this question, so it is locked.{" "}
+              <Link href={`/keys/${q.toLowerCase()}/agreement`} className="text-modern hover:underline">Agreement →</Link>
+            </p>
+          ) : (
+            <>
+              <label className="flex items-start gap-2 text-[14.5px]">
+                <input type="checkbox" className="mt-1" checked={s.done} disabled={!s.done && missing.length > 0} onChange={(e) => update((x) => ({ ...x, done: e.target.checked }))} />
+                <span>
+                  I have finished this question.
+                  <span className="block text-[13px] text-ink-faint">
+                    {missing.length && !s.done
+                      ? `Still to do: ${missing.join("; ")}.`
+                      : "When Ben and Nathan have both finished, both lists lock and the agreement figures open. Until then you can untick this and keep working."}
+                  </span>
+                </span>
+              </label>
+              {footer}
+            </>
           )}
         </div>
       </section>
@@ -310,7 +343,7 @@ export function Board({ q, passages, initial, labels }: { q: string; passages: P
   );
 }
 
-function Field({ label, value, onChange, placeholder, autoFocus }: { label: string; value: string; onChange: (v: string) => void; placeholder: string; autoFocus?: boolean }) {
+function Field({ label, value, onChange, placeholder, autoFocus, readOnly }: { label: string; value: string; onChange: (v: string) => void; placeholder: string; autoFocus?: boolean; readOnly?: boolean }) {
   const ref = useRef<HTMLTextAreaElement>(null);
   useEffect(() => {
     const el = ref.current;
@@ -326,6 +359,7 @@ function Field({ label, value, onChange, placeholder, autoFocus }: { label: stri
         rows={1}
         value={value}
         autoFocus={autoFocus}
+        readOnly={readOnly}
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
         className="mt-0.5 block w-full resize-none border-b border-line bg-transparent py-1 text-[14.5px] leading-snug outline-none placeholder:text-ink-faint focus:border-ink"
@@ -334,6 +368,9 @@ function Field({ label, value, onChange, placeholder, autoFocus }: { label: stri
   );
 }
 
+function boxesIn(x: Sorting, pid: string): Box[] {
+  return [...x.categories.filter((c) => c.passages.includes(pid)).map((c) => c.id), ...(x.off.includes(pid) ? ["off"] : []), ...(x.unclear.includes(pid) ? ["unclear"] : [])];
+}
 function remove_(x: Sorting, pid: string, box: Box) {
   if (box === "off" || box === "unclear") x[box] = x[box].filter((p) => p !== pid);
   else {

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageTitle } from "@/components/PageTitle";
 import { coders, currentCoder, storage, type Coder } from "@/lib/coding";
-import { pools, sortingsFor } from "@/lib/keys";
+import { AgreementKey, AgreementTable } from "@/components/Agreement";
+import { addTallies, claudeSorting, finalFor, MAX_POSITIONS, pools, sortingsFor, tally } from "@/lib/keys";
 import { signOut } from "./auth";
 import { SignIn } from "./SignIn";
 
@@ -24,24 +25,30 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
         <li>
           <span className="text-ink">Find passages.</span> We search the full texts of the 204 works on our source
           list for passages about the question. Claude reads the 45 closest matches, plus the quotations it had
-          already found for the question, and keeps the 15 to 21 that discuss it, whatever answer they give, with no more than two from any one work. Every passage is checked
-          word for word against the source text.
+          already found for the question, and keeps the 15 to 21 that discuss it, whatever answer they give, with no
+          more than two from any one work. Every passage is checked word for word against the source text.
         </li>
         <li>
-          <span className="text-ink">Read and list the answers.</span> A historian reads the passages and works out
-          what each implies about our question. Each distinct line becomes a
-          position: the implied answer, the argument the text gives for it, and the passages that support it. Claude does
-          the same, separately. Neither sees the other’s list.
+          <span className="text-ink">Sort them, separately.</span> Ben, Nathan and Claude each sort the passages into
+          positions, up to {MAX_POSITIONS}. A position is an implied answer, the argument the text gives for it, and a
+          direction (Yes, No or Other). Each passage goes in one position, or off the question, or unclear. Nobody
+          sees another list until Ben and Nathan have both finished.
         </li>
         <li>
-          <span className="text-ink">Compare.</span> When the historian is finished, the two lists appear side by
-          side. For each pair of positions, the historian decides whether they are the same argument, and which
-          positions go into the key.
+          <span className="text-ink">Measure agreement.</span> When both have finished, the lists lock and the
+          agreement figures open: for each pair of sorters, how often they grouped passages together and gave them
+          the same direction. Claude passes if it agrees with each historian about as often as they agree with each
+          other, across the six questions.
         </li>
         <li>
-          <span className="text-ink">Fix the key.</span> The key is fixed before anyone reads the models’ answers.
-          Claude then matches every model answer against the key, and the historians check a sample of Claude’s
-          matches without seeing them first.
+          <span className="text-ink">Make the final list.</span> Ben and Nathan merge their two lists into one, without
+          Claude’s, then add any position from Claude’s list that both agree a passage states. The list freezes when
+          both agree to it, before anyone reads the models’ answers. This is the list the site shows.
+        </li>
+        <li>
+          <span className="text-ink">Then.</span> If Claude passed, it sorts the other 34 questions the same way and Ben
+          and Nathan check one or two of them by the same procedure. If not, Claude’s instructions are revised and
+          tested on a question it has not seen.
         </li>
       </ol>
     </>
@@ -56,6 +63,11 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
     const n = s.categories.length;
     return `${s.done ? "Finished" : "In progress"}, ${n} position${n === 1 ? "" : "s"}`;
   };
+  const open = pools.filter((p) => all.ben[p.question]?.done && all.nathan[p.question]?.done).map((p) => p.question);
+  const finals = Object.fromEntries(await Promise.all(open.map(async (q) => [q, await finalFor(q)])));
+  const pooled = (a: (q: string) => Parameters<typeof tally>[1], b: (q: string) => Parameters<typeof tally>[1]) => addTallies(open.map((q) => tally(q, a(q), b(q))));
+  const ben = (q: string) => all.ben[q];
+  const nathan = (q: string) => all.nathan[q];
 
   return (
     <>
@@ -74,6 +86,8 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
             {(Object.keys(coders) as Coder[]).map((c) => (
               <th key={c} className="py-2 pr-4 font-normal">{coders[c].split(" ")[0]}</th>
             ))}
+            <th className="py-2 pr-4 font-normal">Agreement</th>
+            <th className="py-2 pr-4 font-normal">Final list</th>
           </tr>
         </thead>
         <tbody>
@@ -89,11 +103,34 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
               {(Object.keys(coders) as Coder[]).map((c) => (
                 <td key={c} className="py-3 pr-4 text-[13.5px] text-ink-soft">{state(c, p.question)}</td>
               ))}
+              <td className="py-3 pr-4 text-[13.5px] text-ink-soft">
+                {open.includes(p.question) ? <Link href={`/keys/${p.question.toLowerCase()}/agreement`} className="text-modern hover:underline">Open</Link> : "After both finish"}
+              </td>
+              <td className="py-3 pr-4 text-[13.5px] text-ink-soft">
+                {!open.includes(p.question) ? "–" : (
+                  <Link href={`/keys/${p.question.toLowerCase()}/final`} className="text-modern hover:underline">
+                    {finals[p.question].frozenAt ? "Frozen" : finals[p.question].categories.length ? "In progress" : "Not started"}
+                  </Link>
+                )}
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
       {!pools.length && <p className="mt-6 text-ink-soft">The passage pools are not built yet.</p>}
+      {open.length > 0 && (
+        <section className="mt-12">
+          <h2 className="label mb-3">Agreement across {open.length} of {pools.length} questions ({open.join(", ")})</h2>
+          <AgreementTable
+            rows={[
+              { pair: "Ben and Nathan", t: pooled(ben, nathan) },
+              { pair: "Ben and Claude", t: pooled(ben, claudeSorting) },
+              { pair: "Nathan and Claude", t: pooled(nathan, claudeSorting) },
+            ]}
+          />
+          <AgreementKey />
+        </section>
+      )}
     </>
   );
 }
