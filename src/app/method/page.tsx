@@ -104,8 +104,9 @@ export default function MethodPage() {
             is used only if it agrees with each of them about as often as they agree with each other.
           </p>
           <p>
-            The passages are checked the same way. Before the pilot, both historians check a sample of 60 of
-            the quotations Claude selected; those 60 are hidden on this site until the check ends.
+            The list of positions for each pilot question is built from 15 to 21 passages. Each historian sorts
+            them into positions without seeing Claude’s list, then compares the two lists and decides what goes
+            into the key.
           </p>
         </Section>
 

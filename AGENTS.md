@@ -63,9 +63,9 @@ with Ben.
 | The position key starts from the canon (v0, frozen before model answers are read). Arguments found in model answers are added (v1) only when a period source states them. Results are reported against both. | Ben, 13 Oct 2026 |
 | The core model comparison is Talkie 1930 13B base against Talkie web 13B base. Qwen and one deployed frontier model run for context and the site. | Ben, 13 Oct 2026 |
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
-| Order of work: blind check of 60 passages, then a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026 |
-| The blind passage check protocol (`research/coding/PROTOCOL.md`) is approved. | Nathan (via Ben), 14 Oct 2026 |
-| Amend the passage check before Nathan codes: rejoin line-break hyphens and restore long s mechanically, hand-correct i03 and i36. Ben re-checks items he already coded. | Ben, 14 Oct 2026 |
+| Order of work: a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026; amended 14 Oct 2026 |
+| The 60-item yes/no passage check is retired. Its protocol (`research/coding/PROTOCOL.md`, approved by Nathan via Ben on 14 Oct) is kept as a record. `/coding` redirects to `/keys`. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
+| Position keys for the pilot questions are built on `/keys`: Claude screens a pool of 15–21 canon passages per question; Ben and Nathan each sort the pool into positions (claim, reason, Yes/No/Other, passages) without seeing Claude's; Claude does the same separately; each historian then compares their list with Claude's and decides what enters the key. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
 
 ## House rules
 
@@ -116,7 +116,8 @@ Not decided. Leave these open in copy.
 - `docs/pilots.md`: every pilot and corpus built so far, as records.
 - `docs/proposals/`: agent drafts for Ben and Nathan to mark up.
   `2026-09-28-benchmark-method.md` is the working plan.
-- `research/coding/PROTOCOL.md`: the blind passage check.
+- `research/keys/`: passage pools (`pools.json`), Claude's positions (`claude.json`); historians' sortings are in Redis or `research/keys/entries/`. Pages: `/keys`.
+- `research/coding/PROTOCOL.md`: the retired 60-item passage check, kept as a record.
 
 # This is NOT the Next.js you know
 

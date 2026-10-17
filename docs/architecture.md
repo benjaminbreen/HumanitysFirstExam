@@ -65,21 +65,21 @@ the relevant pages.
 | `/questions/[slug]` (`/questions` redirects to `/`) | One question: sides with arguments, passages, link to search |
 | `/sources` | All works; filters (`?lang=&form=&century=&text=`) and sort (`?sort=`) |
 | `/sources/[id]` | One work: record, its answer to each question, passages |
-| `/coding` | Blind passage check (`research/coding/PROTOCOL.md`): sign-in, then all 60 items on one page, each with the question, the work, Claude's quotation, one row of answer buttons and an optional note. Not in the nav |
-| `/coding/compare` | Agreement between Ben, Nathan and Claude, for items with and without a quotation. Opens only when both coders have finished |
+| `/keys` | Position keys for the six pilot questions: sign-in, then each historian's progress per question. Not in the nav |
+| `/keys/[q]` | One question's pool of passages (`research/keys/pools.json`). The signed-in historian sorts them into positions: claim, reason, Yes/No/Other, supporting passages; or marks a passage off-topic or unclear |
+| `/keys/[q]/compare` | Opens when that historian marks the question finished: their positions beside Claude's (`research/keys/claude.json`), paired by shared passages, with a decision per pair (same, distinct, merge, keep, drop) |
+| `/coding` | Redirects to `/keys`. The 60-item passage check it held is retired |
 | `/search` | Semantic search. Locally over every corpus in `trial/corpus/index/` (1.8 GB, not deployed); deployed over the canon only, from `search-index/` (written by `build_index.py --deploy`). Needs `OPENAI_API_KEY` to embed queries |
 | `/models` | Respondents grouped by role (`role` in `data/models.json`): core comparison, context, candidates |
 | `/method` | Plain summary of the working plan and the 13 Oct 2026 decisions. Keep in step with `docs/proposals/2026-09-28-benchmark-method.md` |
 | `/about` | The premise, pilot status, authors, funding, repository |
 
-The 60 stances in the passage check are held back from public pages
-(`CHECK_RUNNING` in `src/lib/data.ts`) until both coders finish; every
-other stance is shown. The check itself shows Claude's quotations but not
-its sides. Coding
-entries are saved to `research/coding/entries/check-<coder>.json` when run
-locally, or to Upstash Redis (key `check:<coder>`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN` are
-set; every earlier version of an entry is kept. Passcodes come from
-`CODING_PASSCODE_BEN` and `CODING_PASSCODE_NATHAN` (not needed locally).
+Claude's stances for the six pilot questions are hidden from public pages
+while their keys are built (`src/lib/data.ts`). Sortings and decisions
+are saved to `research/keys/entries/<coder>.json` when run locally, or to
+Upstash Redis (key `keys:<coder>`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN`
+are set. Passcodes come from `CODING_PASSCODE_BEN` and
+`CODING_PASSCODE_NATHAN` (not needed locally).
 
 View, sort, model and search parameters live in the URL and are rendered on
 the server, so pages can be linked. List rows expand with native `<details>`.

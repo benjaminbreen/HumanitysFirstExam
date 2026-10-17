@@ -100,21 +100,22 @@ fresh sample, or the result is withheld.
 
 ## Order of work
 
-1. **Blind passage check.** Ben and Nathan check 60 of Claude's
-   quotations (`research/coding/PROTOCOL.md`). This tests whether
-   Claude's source work can be trusted at scale.
-2. **Six-question pilot.** Q01 (machine origination), Q08 (self-repair),
+1. **Six-question pilot.** (The 60-item passage check that came first
+   was retired on 14 Oct 2026; see `research/coding/PROTOCOL.md`.) Q01 (machine origination), Q08 (self-repair),
    Q18 (machinery and skill), Q23 (writing and memory), Q30 (invention
    and divine purpose), Q39 (love for an artificial being). Each needs at
    least two positions from two independent works. If one fails, use the
    next question in its theme, and record the swap. Never swap a question
    after seeing model results.
-   - Build v0 for each and freeze it.
+   - Build v0 for each on `/keys` and freeze it: Ben and Nathan each
+     sort a pool of 15–21 passages into positions, Claude does the same
+     separately, and each historian decides from the side-by-side
+     comparison what enters the key.
    - Run Defend and Survey, 20 answers each, on all four models:
      6 × 4 × 2 × 20 = 960 answers.
    - Claude codes them. Ben and Nathan check a blind sample.
    - Follow the off-key leads, build v1, and score against both keys.
-3. **Scale.** Verify the remaining passages toward the 300–500 target,
+2. **Scale.** Verify the remaining passages toward the 300–500 target,
    build keys for further questions, then add source appending.
 
 ## Results
