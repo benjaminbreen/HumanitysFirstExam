@@ -50,12 +50,11 @@ export function harness(storage = 'file') {
   const sorting = (q, claim = 'Human claim', done = true) => ({ ...model.emptySorting(), categories: [{ id: 'k1', claim, reason: 'A reason supported by the supplied passages', direction: 'yes', passages: model.getPool(q).passages.map(p => p.id) }], done });
   const run = (agent) => ({ agent, model: model.agentConfig[agent].model, settings: { effort: model.agentConfig[agent].effort, testMarker: `PRIVATE_SETTING_${agent}` }, createdAt: '2026-10-17T12:00:00Z', inputVersion: store.inputVersion, instructionsVersion: model.instructions.version, independent: true, exposureNote: `PRIVATE_EXPOSURE_${agent}: none (simulated test)`, originalOutput: JSON.stringify(Object.fromEntries(model.pools.map(p => [p.question, sorting(p.question, `HIDDEN_${agent.toUpperCase()}_CLAIM`)]))) });
   const as = async (who, task) => { coder = who; return task(); };
-  async function finishIndependent(withRule = true) {
+  async function finishIndependent() {
     for (const human of ['ben', 'nathan']) await as(human, async () => {
       for (const p of model.pools) await keys.saveSorting(p.question, sorting(p.question), 0);
     });
     for (const a of model.agents) await keys.importAgentRun(run(a));
-    if (withRule) await as('ben', () => keys.recordRule('An explicit test rule, recorded before any comparisons.', 0));
   }
   async function lockReference(q) {
     await as('ben', () => keys.startJoint(q, 'reference', 'ben'));

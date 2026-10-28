@@ -19,7 +19,7 @@ function version(actual: number, expected: number) {
   if (!Number.isSafeInteger(expected) || expected < 0 || actual !== expected) throw new Error("This version has changed. Reload before saving or agreeing.");
 }
 function requireHumans(s: Study) {
-  if (!humansOpen(s)) throw new Error("All four must finish sorting and Ben must write the pass mark first");
+  if (!humansOpen(s)) throw new Error("All four must finish sorting first");
 }
 function requireAgents(s: Study) {
   if (!agentsOpen(s)) throw new Error("Agent results stay hidden until both historians lock all six human references");
@@ -48,7 +48,7 @@ export async function dashboard() {
     final: revealed ? (s.finals[p.question]?.frozenAt ? "Frozen" : s.finals[p.question]?.started ? "In progress" : "Not started") : null,
     reviews: revealed ? agents.map((a) => ({ agent: a, locked: reviewLocked(s.reviews[p.question]?.[a]) })) : null,
   }));
-  return { coder, status, rule: s.rule, independentLocked: Boolean(s.independentLockedAt), human, revealed,
+  return { coder, status, independentLocked: Boolean(s.independentLockedAt), human, revealed,
     agentReceived: Object.fromEntries(agents.map((a) => [a, Boolean(s.runs[a])])) as Record<Agent, boolean>,
     referencesLocked: human ? pools.filter((p) => jointLocked(p.question, s.references[p.question])).length : 0,
     decisions: revealed ? s.decisions : {}, canDecide: revealed && allReviewsLocked(s),
@@ -69,15 +69,6 @@ export async function saveSorting(q: string, value: Sorting, expected: number) {
     const next = { ...tidy, savedAt: now, version: expected + 1 };
     s.sortings[coder][q] = next;
     return next;
-  });
-}
-export async function recordRule(text: string, expected: number) {
-  if ((await reader()) !== "ben") throw new Error("Only Ben writes the pass mark");
-  if (typeof text !== "string" || !text.trim() || text.length > 6000) throw new Error("Write the pass mark");
-  await updateStudy((s, now) => {
-    if (s.humanOpenedAt) throw new Error("The pass mark can’t change after the scores open");
-    version(s.rule?.version ?? 0, expected);
-    s.rule = { text: text.trim(), version: expected + 1, recordedAt: now };
   });
 }
 export async function comparison(q?: string) {
@@ -213,7 +204,7 @@ export async function approveReview(q: string, a: Agent, expected: number, yes: 
 }
 export async function recordDecision(a: Agent, outcome: string, reason: string) {
   if ((await reader()) !== "ben") throw new Error("Ben records the further-use decisions");
-  if (!agents.includes(a) || !["use", "revise", "inconclusive"].includes(outcome) || typeof reason !== "string" || !reason.trim() || reason.length > 6000) throw new Error("Choose an outcome and explain how the pass mark applies");
+  if (!agents.includes(a) || !["use", "revise", "inconclusive"].includes(outcome) || typeof reason !== "string" || !reason.trim() || reason.length > 6000) throw new Error("Choose an outcome and give the reason");
   await updateStudy((s, now) => {
     requireAgents(s);
     if (!allReviewsLocked(s)) throw new Error("Both historians must agree all definition reviews first");

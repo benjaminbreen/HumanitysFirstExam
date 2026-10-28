@@ -105,8 +105,7 @@ export default function MethodPage() {
           <p>
             The pilot keys use 116 supplied passages across six questions. Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) each
             create positions and sort the passages independently under the same instructions. Direction and
-            argument grouping are measured separately. After all independent lists lock and the evaluation rule
-            is recorded, only the human comparison opens. Ben and Nathan make and lock all six human reference
+            argument grouping are measured separately. After all independent lists lock, only the human comparison opens. Ben and Nathan make and lock all six human reference
             lists before seeing any agent results. They then assess each agent’s category meanings against the
             references and preserve those references before making the final keys. Further use is decided
             separately for each agent, with historian checks.
@@ -140,7 +139,6 @@ export default function MethodPage() {
             <li>The rules for admitting newspapers and magazines.</li>
             <li>Which deployed frontier model to add, and which other modern base models.</li>
             <li>How close the agreement must be before Claude’s coding is used.</li>
-            <li>The acceptable shortfall from human agreement and treatment of category errors before either sorting agent is used on further questions.</li>
           </ul>
         </Section>
       </div>

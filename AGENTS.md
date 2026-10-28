@@ -36,8 +36,8 @@ instructions are for the coordinator, not part of the sorting prompt.
 sorting; two agreement measures; a human-only reference; review of each agent's category meanings;
 then the final key. All four receive the same written sorting instructions.
 Only the Ben–Nathan comparison is revealed before all six human-only references
-lock; all agent results stay hidden until then. Choose the evaluation rule
-before revealing any comparisons, then apply it after the review. This file
+lock; all agent results stay hidden until then. Further use of an agent is
+decided after the review, with no threshold set in advance (Ben, 28 Oct 2026). This file
 records the decision; PROCEDURE.md gives the
 steps. The working plan links to it. Older protocols and the current app
 are not alternative authorities. The app implements the study-wide gates;
@@ -85,7 +85,8 @@ with Ben.
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
 | Order of work: a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026; amended 14 Oct 2026 |
 | The 60-item yes/no passage check is retired. Its protocol (`research/coding/PROTOCOL.md`, approved by Nathan via Ben on 14 Oct) is kept as a record. `/coding` redirects to `/keys`. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
-| Position-key validation follows `research/keys/PROCEDURE.md`: Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) independently create positions and sort the same six passage pools under the same written instructions (at most 15 positions, each with an answer, reason and direction; one place per passage). All independent sortings lock before comparisons are revealed. Only Ben–Nathan results are shown before all six human-only references lock; all agent results stay hidden until then. Direction and argument grouping are measured separately. The historians then assess each agent's recovered, missed and unsupported positions and supported discoveries. Preserve the human references before adding jointly accepted agent-only positions to the final v0 keys. Each agent is assessed separately; choose the evaluation rule before any comparisons are revealed and apply it after review. Further use requires historian checks. | Ben, methodology discussion and request to fix the final plan in writing, 17 Oct 2026; ordering and shared instructions clarified after Ben supplied Opus's review that day; replaces the earlier three-sorter procedure; Ben selected Opus 5.5 and GPT-6.1 Sol, both at Medium, later on 17 Oct 2026 |
+| Steering experiments (pushing neurons or directions inside a model) may use both base and chat-tuned open-weight models, such as Talkie 1930 13B base and its chat model. The aim is an exploratory platform for interpreting how models, frontier models included, represent these questions. Closed models such as Opus 5.5 can only be asked, not steered. | Ben, 28 Oct 2026 |
+| Position-key validation follows `research/keys/PROCEDURE.md`: Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) independently create positions and sort the same six passage pools under the same written instructions (at most 15 positions, each with an answer, reason and direction; one place per passage). All independent sortings lock before comparisons are revealed. Only Ben–Nathan results are shown before all six human-only references lock; all agent results stay hidden until then. Direction and argument grouping are measured separately. The historians then assess each agent's recovered, missed and unsupported positions and supported discoveries. Preserve the human references before adding jointly accepted agent-only positions to the final v0 keys. Each agent is assessed separately; further use is decided after review, with no advance threshold (Ben, 28 Oct 2026). Further use requires historian checks. | Ben, methodology discussion and request to fix the final plan in writing, 17 Oct 2026; ordering and shared instructions clarified after Ben supplied Opus's review that day; replaces the earlier three-sorter procedure; Ben selected Opus 5.5 and GPT-6.1 Sol, both at Medium, later on 17 Oct 2026 |
 
 ## House rules
 
@@ -122,11 +123,8 @@ Not decided. Leave these open in copy.
   it. Additions to the canon beyond the 204 accepted works.
 - **The modern baseline**: what counts as the present-day default.
 - **Base models**: likelihood scoring; modern base models beyond Talkie web.
-- **Judging thresholds**: the acceptable shortfall from human agreement and
-  treatment of definition errors before extending either sorting agent's use
-  (PROCEDURE.md, "Before revealing results"). No numerical threshold has been
-  agreed. The threshold
-  for later coding of benchmark answers is also open; it is a separate test.
+- **Judging thresholds**: the threshold for later coding of benchmark answers
+  (a separate test from key validation).
 - **Taxonomy**: the theme list, and whether the axes Claude proposed
   (direction, grounds) stay.
 - Whether Talkie's sensitivity to persona prompts is a property of the model

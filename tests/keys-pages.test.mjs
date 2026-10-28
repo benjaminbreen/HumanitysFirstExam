@@ -44,7 +44,6 @@ test('rendered HTML and RSC payloads enforce the study-wide reveal gate', { time
       assert.equal(receipt.status, 200);
       assert.deepEqual(await receipt.json(), { recorded: true });
     }
-    await h.as('ben', () => h.keys.recordRule('The predeclared test rule.', 0));
     for (const route of ['/keys', '/keys/q01', '/keys/q01/agreement', '/keys/q01/reference', '/keys/q01/review', '/keys/q01/final', '/keys/q01/compare']) {
       assert.doesNotMatch(await get(route), hidden, route);
       assert.doesNotMatch(await get(route, true), hidden, route + ' RSC');

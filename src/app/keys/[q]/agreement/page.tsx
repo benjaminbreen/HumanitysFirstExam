@@ -13,7 +13,7 @@ export default async function AgreementPage({ params }: PageProps<"/keys/[q]/agr
   if (!(await currentCoder())) redirect(`/keys/${q.toLowerCase()}`);
   const d = await dashboard();
   const head = <PageTitle title={`${q}: agreement`}><p>{pool.text}</p></PageTitle>;
-  if (!d.human) return <>{head}<p>This opens when all four have finished sorting and Ben has written the pass mark. <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
+  if (!d.human) return <>{head}<p>This opens when all four have finished sorting. <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
   // No agent records are returned by this server accessor until every human reference locks.
   const c = await comparison(q), labels = directionLabels(q);
   const lists: { who: string; tag: string; s: Sorting }[] = [{ who: "Ben", tag: "B", s: c.ben[q] }, { who: "Nathan", tag: "N", s: c.nathan[q] }];

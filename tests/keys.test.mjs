@@ -44,19 +44,14 @@ test('completion rejects missing arguments, duplicate assignments and unknown ID
     assert.throws(() => h.model.validateSorting('Q01', s), /only once/);
   } finally { h.cleanup(); }
 });
-for (const storage of ['file', 'redis']) test(`${storage}: all-six gates, rule locking and no agent data before all human references lock`, async () => {
+for (const storage of ['file', 'redis']) test(`${storage}: all-six gates, no agent data before all human references lock`, async () => {
   const h = harness(storage);
   try {
     await h.as(null, () => assert.rejects(h.keys.dashboard(), /Sign in/));
     await h.as('ben', () => assert.rejects(h.keys.comparison('Q01'), /All four must finish/));
-    await h.finishIndependent(false);
+    await h.finishIndependent();
     let d = await h.as('ben', () => h.keys.dashboard());
-    assert.equal(d.independentLocked, true); assert.equal(d.human, false); assert.equal(d.revealed, false);
-    await assert.rejects(h.keys.comparison('Q01'), /write the pass mark/);
-    await h.as('nathan', () => assert.rejects(h.keys.recordRule('Rule', 0), /Only Ben/));
-    await h.as('ben', () => h.keys.recordRule('The predeclared evaluation rule.', 0));
-    assert.equal((await h.keys.dashboard()).human, true);
-    await assert.rejects(h.keys.recordRule('Changed after scores open', 1), /can’t change/);
+    assert.equal(d.independentLocked, true); assert.equal(d.human, true); assert.equal(d.revealed, false);
     await assert.rejects(h.keys.saveSorting('Q01', h.sorting('Q01'), 1), /locked/);
     await assert.rejects(h.keys.importAgentRun(h.run('opus')), /already recorded/);
     assert.equal((await h.keys.comparison('Q01')).runs, null);

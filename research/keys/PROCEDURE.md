@@ -7,9 +7,9 @@ earlier three-sorter version of this file and the retired 60-item passage
 check. Earlier protocols are records, not alternative instructions.
 
 The procedure is fixed, with the ordering and shared instructions clarified
-after Ben supplied Opus's review on 17 October 2026. The numerical threshold
-for extending an agent's use is still open; see "Before revealing results"
-below. The `/keys` app implements these stages; storage and run-import details
+after Ben supplied Opus's review on 17 October 2026. On 28 October 2026 Ben
+dropped the advance evaluation rule: further use is decided after the review
+(step 5). The `/keys` app implements these stages; storage and run-import details
 are in [architecture](../../docs/architecture.md). This document remains the
 authority for the method.
 
@@ -39,20 +39,6 @@ The pools came from embedding search over available canon texts, followed by
 Claude's screening of the best 45 matches per question and existing quotations.
 That selection process limits the experiment. Copy checking against a source
 file establishes wording, not the correctness of a historical interpretation.
-
-## Before revealing results: choose the evaluation rule
-
-Choosing a rule and applying it happen at different times. First decide what
-will count as close enough to human agreement, and how errors in category
-definitions will affect further use. Later, apply that rule to the results.
-This prevents choosing a convenient standard after seeing how an agent did.
-
-Ben records the rule on `/keys` before **any comparison is revealed in step 2**.
-The app saves that rule for the study and fixes it when comparisons open.
-The acceptable shortfall and treatment of definition errors have not yet been
-agreed. Independent sorting in step 1 can proceed while that choice is open.
-Do not declare a pass or automatically delegate the other questions without
-the recorded rule. An inconclusive result is allowed.
 
 ## 1. Make four independent lists
 
@@ -102,7 +88,7 @@ work blind. The known exposure record is below.
 
 ## 2. Compare only the two human sortings
 
-Once all independent sortings are locked and the evaluation rule is recorded,
+Once all independent sortings are locked,
 show Ben and Nathan their own lists and the Ben–Nathan comparison. Keep
 **all agent results hidden**, including scores, directions, groupings and
 category text, until the human references in step 3 are locked. Agent
@@ -202,8 +188,9 @@ excuse unsupported interpretations. Matching poor human agreement does not
 establish good performance. Report the comparisons and errors whatever the
 practical decision about further use.
 
-Apply the evaluation rule recorded before results were revealed. This is when
-the rule is used, not when it is chosen.
+Ben and Nathan then decide, for each agent, whether to use it on further
+questions. No threshold was set in advance; report the decision as a judgment
+made after seeing the results.
 
 After preserving the human-only reference and completing the review, Ben and
 Nathan add any agent-only position they both agree a passage supports. Note
@@ -243,7 +230,7 @@ the old draft. The existing draft is development work, not the formal Opus
 Medium run. Both selected configurations need fresh documented runs.
 
 The app stores the independent human lists, both original agent runs and their
-provenance, the evaluation rule, human-only references, definition reviews,
+provenance, human-only references, definition reviews,
 further-use decisions and final keys separately within a versioned study.
 Earlier human entries load as unfinished drafts; earlier final approvals do
 not carry over. Both historians approve the same saved version of a reference,

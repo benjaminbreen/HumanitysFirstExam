@@ -68,9 +68,9 @@ the relevant pages.
 | `/questions/[slug]` (`/questions` redirects to `/`) | One question: sides with arguments, passages, link to search |
 | `/sources` | All works; filters (`?lang=&form=&century=&text=`) and sort (`?sort=`) |
 | `/sources/[id]` | One work: record, its answer to each question, passages |
-| `/keys` | Four-sorter progress, Ben's recorded evaluation rule, allowed pooled comparisons, and further-use decisions. Before human references lock, no agent content or scores are returned |
+| `/keys` | Four-sorter progress, allowed pooled comparisons, and further-use decisions. Before human references lock, no agent content or scores are returned |
 | `/keys/[q]` | Shared written instructions and the signed-in historian's independent sorting. Earlier entries load as unfinished drafts. All independent lists lock together when all four sorters finish all six questions |
-| `/keys/[q]/agreement` | Opens after all independent lists lock and the rule is recorded. Only Ben and Nathan are returned until all six human references lock; then the four historian–agent comparisons and agent lists are returned. `/compare` redirects here |
+| `/keys/[q]/agreement` | Opens after all independent lists lock. Only Ben and Nathan are returned until all six human references lock; then the four historian–agent comparisons and agent lists are returned. `/compare` redirects here |
 | `/keys/[q]/reference` | Human-only reference, started from either historian's independent list. Both approve the same content version. Frozen references are preserved separately from final keys |
 | `/keys/[q]/review` | Opens only after both historians lock all six references. Versioned definition judgments, matching position IDs, notes and recovered/missed/unsupported/discovery/unresolved counts for each agent; both historians approve the same review |
 | `/keys/[q]/final` | Starts from the saved human reference after that question's two reviews lock and both further-use decisions are recorded. Both historians approve the same final version |
@@ -147,10 +147,9 @@ requires that token, not a historian cookie. Existing runs cannot be replaced.
 The app does not call model APIs or generate runs automatically. Original drafts
 and failed outputs remain research records; do not relabel them as new runs.
 
-Ben records the evaluation rule on `/keys`; it becomes immutable when human
-comparisons open. The app does not invent a threshold or compute a pass. After
-all definition reviews have both approvals, Ben records how the saved rule
-applies to each agent. Each decision may be use with historian checks, revise
+There is no advance threshold and the app computes no pass. After all
+definition reviews have both approvals, Ben records a further-use decision and
+reason for each agent. Each decision may be use with historian checks, revise
 and retest on fresh questions, or inconclusive.
 
 Verification: `npm run test:keys` exercises the gates, metrics, migration,

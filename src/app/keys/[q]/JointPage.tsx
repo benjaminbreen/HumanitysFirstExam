@@ -15,7 +15,7 @@ export async function JointPage({ q, kind, error }: { q: string; kind: JointKind
   const title = kind === "reference" ? "joint list" : "final position key";
   const open = d.human && (kind === "reference" || (d.revealed && agents.every((a) => d.decisions[a]) && status.reviews?.every((r) => r.locked)));
   const head = <PageTitle title={`${q}: ${title}`}><p>{pool.text}</p></PageTitle>;
-  if (!open) return <>{head}<p>{kind === "reference" ? "This opens when all four have finished sorting and Ben has written the pass mark." : "This opens after the agent checks for this question are agreed and Ben has applied the pass mark."} <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
+  if (!open) return <>{head}<p>{kind === "reference" ? "This opens when all four have finished sorting." : "This opens after the agent checks for this question are agreed and Ben has recorded whether to use each agent further."} <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
   const doc = await jointFor(q, kind);
   return <>
     <p className="mb-4 text-[14px]"><Link href={`/keys/${q.toLowerCase()}/${kind === "reference" ? "agreement" : "review"}`} className="text-modern hover:underline">← {kind === "reference" ? "Ben vs Nathan" : "Agent check"}</Link></p>

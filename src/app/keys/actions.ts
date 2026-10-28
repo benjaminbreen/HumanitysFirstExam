@@ -1,7 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { approveJoint, approveReview, getPool, recordDecision, recordRule, saveJoint, saveReview, saveSorting, startJoint, type Agent, type DefinitionReview, type JointKind, type Sorting } from "@/lib/keys";
+import { approveJoint, approveReview, getPool, recordDecision, saveJoint, saveReview, saveSorting, startJoint, type Agent, type DefinitionReview, type JointKind, type Sorting } from "@/lib/keys";
 
 const qFrom = (f: FormData) => {
   const q = String(f.get("q") ?? "");
@@ -34,9 +34,6 @@ export async function startJointAction(form: FormData) {
   const from = form.get("from");
   if (from !== "ben" && from !== "nathan") throw new Error("Choose a historian");
   await formResult(`/keys/${q.toLowerCase()}/${kind}`, () => startJoint(q, kind, from));
-}
-export async function recordRuleAction(form: FormData) {
-  await formResult("/keys", () => recordRule(String(form.get("rule") ?? ""), Number(form.get("version"))));
 }
 function reviewFrom(form: FormData): DefinitionReview {
   const review: DefinitionReview = { reference: {}, categories: {}, notes: String(form.get("notes") ?? ""), version: 0, agreed: {}, frozenAt: null, savedAt: "" };

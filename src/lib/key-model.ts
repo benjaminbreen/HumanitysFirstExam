@@ -85,14 +85,14 @@ export function allIndependentDone(s: Study) {
 }
 export const jointLocked = (q: string, f?: JointList) => Boolean(f?.frozenAt && complete(q, f) && f.agreed.ben?.version === f.version && f.agreed.nathan?.version === f.version);
 export const allReferencesLocked = (s: Study) => pools.every((p) => jointLocked(p.question, s.references[p.question]));
-export const humansOpen = (s: Study) => Boolean(s.humanOpenedAt && s.independentLockedAt && s.rule?.text.trim() && allIndependentDone(s));
+export const humansOpen = (s: Study) => Boolean(s.humanOpenedAt && s.independentLockedAt && allIndependentDone(s));
 export const agentsOpen = (s: Study) => humansOpen(s) && Boolean(s.agentsRevealedAt) && allReferencesLocked(s);
 export const reviewLocked = (r?: DefinitionReview) => Boolean(r?.frozenAt && r.agreed.ben?.version === r.version && r.agreed.nathan?.version === r.version);
 export const reviewsLocked = (s: Study, q: string) => agents.every((a) => reviewLocked(s.reviews[q]?.[a]));
 export const allReviewsLocked = (s: Study) => pools.every((p) => reviewsLocked(s, p.question));
 export function advance(s: Study, now: string) {
   if (allIndependentDone(s)) s.independentLockedAt ??= now;
-  if (s.independentLockedAt && s.rule?.text.trim()) s.humanOpenedAt ??= now;
+  if (s.independentLockedAt) s.humanOpenedAt ??= now;
   if (humansOpen(s) && allReferencesLocked(s)) s.agentsRevealedAt ??= now;
 }
 export function reviewCounts(q: string, reference: JointList, run: AgentRun, r: DefinitionReview) {
