@@ -19,7 +19,7 @@ function version(actual: number, expected: number) {
   if (!Number.isSafeInteger(expected) || expected < 0 || actual !== expected) throw new Error("This version has changed. Reload before saving or agreeing.");
 }
 function requireHumans(s: Study) {
-  if (!humansOpen(s)) throw new Error("Finish all six independent sortings for all four sorters and record the evaluation rule first");
+  if (!humansOpen(s)) throw new Error("All four must finish sorting and Ben must write the pass mark first");
 }
 function requireAgents(s: Study) {
   if (!agentsOpen(s)) throw new Error("Agent results stay hidden until both historians lock all six human references");
@@ -72,10 +72,10 @@ export async function saveSorting(q: string, value: Sorting, expected: number) {
   });
 }
 export async function recordRule(text: string, expected: number) {
-  if ((await reader()) !== "ben") throw new Error("Ben records the evaluation rule");
-  if (typeof text !== "string" || !text.trim() || text.length > 6000) throw new Error("Write the acceptable shortfall and how definition errors affect further use");
+  if ((await reader()) !== "ben") throw new Error("Only Ben writes the pass mark");
+  if (typeof text !== "string" || !text.trim() || text.length > 6000) throw new Error("Write the pass mark");
   await updateStudy((s, now) => {
-    if (s.humanOpenedAt) throw new Error("The evaluation rule is fixed because comparisons have opened");
+    if (s.humanOpenedAt) throw new Error("The pass mark can’t change after the scores open");
     version(s.rule?.version ?? 0, expected);
     s.rule = { text: text.trim(), version: expected + 1, recordedAt: now };
   });
@@ -213,7 +213,7 @@ export async function approveReview(q: string, a: Agent, expected: number, yes: 
 }
 export async function recordDecision(a: Agent, outcome: string, reason: string) {
   if ((await reader()) !== "ben") throw new Error("Ben records the further-use decisions");
-  if (!agents.includes(a) || !["use", "revise", "inconclusive"].includes(outcome) || typeof reason !== "string" || !reason.trim() || reason.length > 6000) throw new Error("Choose an outcome and explain how the evaluation rule applies");
+  if (!agents.includes(a) || !["use", "revise", "inconclusive"].includes(outcome) || typeof reason !== "string" || !reason.trim() || reason.length > 6000) throw new Error("Choose an outcome and explain how the pass mark applies");
   await updateStudy((s, now) => {
     requireAgents(s);
     if (!allReviewsLocked(s)) throw new Error("Both historians must agree all definition reviews first");

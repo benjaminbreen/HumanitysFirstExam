@@ -12,7 +12,7 @@ export function JointEditor({ q, kind, passages, initial, labels, me, max }: {
   const router = useRouter();
   const [doc, setDoc] = useState(initial), [saving, setSaving] = useState(false), [busy, setBusy] = useState(false), [error, setError] = useState("");
   const other = me === "ben" ? "nathan" : "ben";
-  const label = kind === "reference" ? "human reference" : "final position key";
+  const label = kind === "reference" ? "joint list" : "final position key";
   const footer = doc.frozenAt ? <p className="text-[14.5px]">{kind === "reference" ? "Locked" : "Frozen"}, agreed by both historians. Version {doc.version}.</p> : <div className="space-y-2 text-[14.5px]">
     <label className="flex items-start gap-2"><input type="checkbox" className="mt-1" checked={Boolean(doc.agreed[me])} disabled={saving || busy || !complete(q, doc)} onChange={async (e) => {
       setBusy(true); setError("");

@@ -13,7 +13,7 @@ export default async function AgreementPage({ params }: PageProps<"/keys/[q]/agr
   if (!(await currentCoder())) redirect(`/keys/${q.toLowerCase()}`);
   const d = await dashboard();
   const head = <PageTitle title={`${q}: agreement`}><p>{pool.text}</p></PageTitle>;
-  if (!d.human) return <>{head}<p>Comparisons open after all four sorters finish all six questions and Ben records the evaluation rule. <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
+  if (!d.human) return <>{head}<p>This opens when all four have finished sorting and Ben has written the pass mark. <Link href="/keys" className="text-modern hover:underline">See progress</Link>.</p></>;
   // No agent records are returned by this server accessor until every human reference locks.
   const c = await comparison(q), labels = directionLabels(q);
   const lists: { who: string; tag: string; s: Sorting }[] = [{ who: "Ben", tag: "B", s: c.ben[q] }, { who: "Nathan", tag: "N", s: c.nathan[q] }];
@@ -30,7 +30,7 @@ export default async function AgreementPage({ params }: PageProps<"/keys/[q]/agr
   return <>
     <p className="mb-4 text-[14px]"><Link href="/keys" className="text-modern hover:underline">← All questions</Link></p>{head}
     <section className="-mt-6 mb-10"><AgreementTable rows={rows} /><AgreementKey />
-      <p className="mt-3 text-[14.5px]">{d.revealed ? <Link href={`/keys/${q.toLowerCase()}/review`} className="text-modern hover:underline">Review agent category meanings →</Link> : <>Only the human comparison is shown. <Link href={`/keys/${q.toLowerCase()}/reference`} className="text-modern hover:underline">Make the human reference →</Link></>}</p>
+      <p className="mt-3 text-[14.5px]">{d.revealed ? <Link href={`/keys/${q.toLowerCase()}/review`} className="text-modern hover:underline">Check the agents →</Link> : <>The agents’ results stay hidden for now. <Link href={`/keys/${q.toLowerCase()}/reference`} className="text-modern hover:underline">Make the joint list →</Link></>}</p>
     </section>
     <section className="mb-10 overflow-x-auto"><h2 className="label mb-3">Each passage</h2><table className="w-full text-left text-[14px]"><thead><tr className="label border-b border-rule"><th className="py-2 pr-4 font-normal">Passage</th>{lists.map((l) => <th key={l.tag} className="py-2 pr-4 font-normal">{l.who}</th>)}</tr></thead><tbody>
       {pool.passages.map((p) => <tr key={p.id} className="border-b border-line"><td className="py-2 pr-4"><Link href={`/keys/${q.toLowerCase()}#${p.id}`} className="hover:underline">{p.id} {p.author}</Link></td>{lists.map((l) => <td key={l.tag} className="py-2 pr-4 font-mono text-[12px]">{at(l.s, l.tag, p.id)}</td>)}</tr>)}

@@ -48,15 +48,15 @@ for (const storage of ['file', 'redis']) test(`${storage}: all-six gates, rule l
   const h = harness(storage);
   try {
     await h.as(null, () => assert.rejects(h.keys.dashboard(), /Sign in/));
-    await h.as('ben', () => assert.rejects(h.keys.comparison('Q01'), /Finish all six/));
+    await h.as('ben', () => assert.rejects(h.keys.comparison('Q01'), /All four must finish/));
     await h.finishIndependent(false);
     let d = await h.as('ben', () => h.keys.dashboard());
     assert.equal(d.independentLocked, true); assert.equal(d.human, false); assert.equal(d.revealed, false);
-    await assert.rejects(h.keys.comparison('Q01'), /record the evaluation rule/);
-    await h.as('nathan', () => assert.rejects(h.keys.recordRule('Rule', 0), /Ben records/));
+    await assert.rejects(h.keys.comparison('Q01'), /write the pass mark/);
+    await h.as('nathan', () => assert.rejects(h.keys.recordRule('Rule', 0), /Only Ben/));
     await h.as('ben', () => h.keys.recordRule('The predeclared evaluation rule.', 0));
     assert.equal((await h.keys.dashboard()).human, true);
-    await assert.rejects(h.keys.recordRule('Changed after scores open', 1), /fixed/);
+    await assert.rejects(h.keys.recordRule('Changed after scores open', 1), /can’t change/);
     await assert.rejects(h.keys.saveSorting('Q01', h.sorting('Q01'), 1), /locked/);
     await assert.rejects(h.keys.importAgentRun(h.run('opus')), /already recorded/);
     assert.equal((await h.keys.comparison('Q01')).runs, null);

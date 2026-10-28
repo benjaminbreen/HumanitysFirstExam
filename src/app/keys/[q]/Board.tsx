@@ -318,7 +318,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   </button>
                 ))}
               </div>
-              <Field label="Argument in the text" readOnly={locked} value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
+              <Field label="Argument in the text" readOnly={locked} value={c.reason} placeholder="The reason the passages give" onChange={(v) => edit(c.id, "reason", v)} />
               {mode !== "sort" && (
                 <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder={mode === "reference" ? "How you settled the difference between your lists" : "How this was settled; name Opus or Sol for agent-only additions"} onChange={(v) => edit(c.id, "note", v)} />
               )}
@@ -363,7 +363,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   <span className="block text-[13px] text-ink-faint">
                     {missing.length && !s.done
                       ? `Still to do: ${missing.join("; ")}.`
-                      : "Your list is marked finished. You may keep editing until all four sorters finish all six questions and the independent lists lock."}
+                      : "Marked finished. You can keep editing until all four have finished."}
                   </span>
                 </span>
               </label>

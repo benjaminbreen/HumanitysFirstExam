@@ -49,7 +49,7 @@ test('rendered HTML and RSC payloads enforce the study-wide reveal gate', { time
       assert.doesNotMatch(await get(route), hidden, route);
       assert.doesNotMatch(await get(route, true), hidden, route + ' RSC');
     }
-    assert.match(await get('/keys/q01/agreement'), /Only the human comparison is shown/);
+    assert.match(await get('/keys/q01/agreement'), /The agents’ results stay hidden for now/);
     for (const p of h.model.pools.slice(0, 5)) await h.lockReference(p.question);
     assert.doesNotMatch(await get('/keys/q01/agreement'), hidden);
     assert.doesNotMatch(await get('/keys/q01/review', true), hidden);
