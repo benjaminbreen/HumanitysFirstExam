@@ -10,10 +10,10 @@ import { harness } from './helpers/key-harness.mjs';
 test('rendered HTML and RSC payloads enforce the study-wide reveal gate', { timeout: 60000 }, async () => {
   const h = harness();
   const port = 4387, base = `http://127.0.0.1:${port}`;
-  const cookie = 'coder=ben.' + createHash('sha256').update('ben||keys-page-test').digest('hex').slice(0, 32);
+  const cookie = 'coder=ben.' + createHash('sha256').update('ben|saudade1|keys-page-test').digest('hex').slice(0, 32);
   const server = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--port', String(port), '--hostname', '127.0.0.1'], {
     cwd: process.cwd(), stdio: ['ignore', 'pipe', 'pipe'],
-    env: { ...process.env, KV_REST_API_URL: '', KV_REST_API_TOKEN: '', UPSTASH_REDIS_REST_URL: '', UPSTASH_REDIS_REST_TOKEN: '', VERCEL: '', KEYS_DATA_DIR: path.join(h.temp, 'research/keys/entries'), CODING_PASSCODE_BEN: '', CODING_PASSCODE_NATHAN: '', CODING_SECRET: 'keys-page-test', KEYS_IMPORT_TOKEN: 'keys-import-test' },
+    env: { ...process.env, KV_REST_API_URL: '', KV_REST_API_TOKEN: '', UPSTASH_REDIS_REST_URL: '', UPSTASH_REDIS_REST_TOKEN: '', VERCEL: '', KEYS_DATA_DIR: path.join(h.temp, 'research/keys/entries'), CODING_SECRET: 'keys-page-test', KEYS_IMPORT_TOKEN: 'keys-import-test' },
   });
   let logs = '';
   server.stdout.on('data', b => { logs += b; }); server.stderr.on('data', b => { logs += b; });

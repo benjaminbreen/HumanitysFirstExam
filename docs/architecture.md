@@ -115,8 +115,8 @@ both approvals. Independent lists, human references, agent originals, definition
 reviews, decisions and final keys remain separate records.
 
 Storage uses the existing Redis REST credentials, or local files when running
-locally. Sign-in still uses `CODING_PASSCODE_BEN`, `CODING_PASSCODE_NATHAN` and
-`CODING_SECRET` (passcodes are optional locally).
+locally. Sign-in uses two fixed passcodes in `src/lib/coding.ts`
+(Ben's choice, 28 Oct 2026) and `CODING_SECRET` for the cookie.
 
 To prepare inputs and prompts, run `node scripts/prepare-key-sorting.mjs --write`.
 It writes `research/keys/entries/independent-run-input.json`,

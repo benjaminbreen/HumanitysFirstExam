@@ -97,15 +97,15 @@ export async function saveEntry(coder: Coder, item: string, change: Partial<Answ
 const pick = (e: Answer): Answer => ({ side: e.side, note: e.note });
 
 // ---------- sign-in ----------
-// Passcodes come from CODING_PASSCODE_BEN / CODING_PASSCODE_NATHAN. Running
-// locally without them, no passcode is asked for.
+// Fixed passcodes, chosen by Ben on 28 Oct 2026. Nothing private sits behind them.
 
-const passcode = (c: Coder) => process.env[`CODING_PASSCODE_${c.toUpperCase()}`] ?? "";
-export const needsPasscode = storage !== "file" || Boolean(passcode("ben") || passcode("nathan"));
+const PASSCODES: Record<Coder, string> = { ben: "saudade1", nathan: "saudade2" };
+const passcode = (c: Coder) => PASSCODES[c];
+export const needsPasscode = true;
 const sign = (c: Coder) =>
   createHash("sha256").update(`${c}|${passcode(c)}|${process.env.CODING_SECRET ?? "hfe"}`).digest("hex").slice(0, 32);
 
-export const checkPasscode = (c: Coder, given: string) => !needsPasscode || (passcode(c) !== "" && given === passcode(c));
+export const checkPasscode = (c: Coder, given: string) => given.trim() === passcode(c);
 export const cookieValue = (c: Coder) => `${c}.${sign(c)}`;
 
 export async function currentCoder(): Promise<Coder | null> {
