@@ -291,6 +291,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
             {status === "saving" ? "Saving…" : status === "error" ? "Not saved. Check your connection." : savedAt ? `Saved ${time(savedAt)}` : ""}
           </span>
         </div>
+        <p className="mb-4 text-[14px] text-ink-soft">A position is one answer to the question plus one reason for it. Make one for each answer-and-reason you find, then drag each passage to the position it argues for.</p>
 
         <ol className="space-y-4">
           {s.categories.map((c, i) => (
@@ -303,9 +304,9 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   <button onClick={() => del(c)} className="hover:text-period">Delete</button>
                 </span>}
               </div>
-              <Field label="Implied answer" readOnly={locked} value={c.claim} autoFocus={focus === c.id} placeholder="What these passages imply about our question, in our words" onChange={(v) => edit(c.id, "claim", v)} />
+              <Field label="Answer" readOnly={locked} value={c.claim} autoFocus={focus === c.id} placeholder="How these passages answer the question, in a sentence" onChange={(v) => edit(c.id, "claim", v)} />
               <div className="mt-2 flex items-center gap-2">
-                <span className="font-mono text-[11px] tracking-wider text-ink-faint uppercase">Direction</span>
+                <span className="font-mono text-[11px] tracking-wider text-ink-faint uppercase">In short</span>
                 {(["yes", "no", "other"] as const).map((d) => (
                   <button
                     key={d}
@@ -318,13 +319,13 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   </button>
                 ))}
               </div>
-              <Field label="Argument in the text" readOnly={locked} value={c.reason} placeholder="The reason the passages give" onChange={(v) => edit(c.id, "reason", v)} />
+              <Field label="Because" readOnly={locked} value={c.reason} placeholder="The reason the passages give for that answer" onChange={(v) => edit(c.id, "reason", v)} />
               {mode !== "sort" && (
                 <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder={mode === "reference" ? "How you settled the difference between your lists" : "How this was settled; name Opus or Sol for agent-only additions"} onChange={(v) => edit(c.id, "note", v)} />
               )}
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
-                {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drop passages here</li>}
+                {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drag the passages that make this argument here</li>}
               </ul>
             </li>
           ))}
@@ -391,7 +392,7 @@ function Field({ label, value, onChange, placeholder, autoFocus, readOnly }: { l
         ref={ref}
         rows={1}
         value={value}
-        maxLength={label === "Implied answer" ? 600 : 1200}
+        maxLength={label === "Answer" ? 600 : 1200}
         autoFocus={autoFocus}
         readOnly={readOnly}
         placeholder={placeholder}
