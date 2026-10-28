@@ -1,7 +1,9 @@
 # Reckoning pilot (July 2026) — superseded, kept as a record
 
 This folder is the test case for an earlier benchmark design, now superseded;
-see "Benchmark method" in AGENTS.md. One question, everything needed to run it.
+see [the working plan](../docs/proposals/2026-09-28-benchmark-method.md) and
+[the current position-key procedure](../research/keys/PROCEDURE.md).
+The instructions below describe the old pilot; do not use them for new runs.
 
 ## The files
 

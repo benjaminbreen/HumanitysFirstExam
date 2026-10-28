@@ -1,6 +1,11 @@
 # Multilingual long-tail discovery, 1850–1940
 
-## Decision
+**Agent proposal and exploratory record, not an adopted corpus rule.** The
+current plan builds position keys from the accepted canon, following
+[PROCEDURE.md](keys/PROCEDURE.md) and [the working plan](../docs/proposals/2026-09-28-benchmark-method.md).
+The proposed control-set rule and codebook below do not replace that plan.
+
+## Proposal in this record
 
 The familiar works should remain in the project, but only as a **control set**. Butler, Wells, Taylor, Capek, and the other canonical authors tell us whether the retrieval method can recover known material. They must not define the historical sample.
 

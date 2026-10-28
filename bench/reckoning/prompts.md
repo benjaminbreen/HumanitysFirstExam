@@ -1,5 +1,10 @@
 # Prompts — reckoning question
 
+**Superseded pilot; kept as a record.** Do not use these forced-choice prompts
+for new benchmark runs. Current Defend and Survey prompts are in
+[the working plan](../../docs/proposals/2026-09-28-benchmark-method.md); key
+validation follows [PROCEDURE.md](../../research/keys/PROCEDURE.md).
+
 20 draws per condition per model. For condition A, use order 1 for ten
 draws and order 2 for ten. Save every response verbatim.
 

@@ -7,7 +7,7 @@ import { getQuestion } from "@/lib/data";
 export const metadata: Metadata = { title: "Method" };
 
 // A plain summary of docs/proposals/2026-09-28-benchmark-method.md and the
-// decisions of 13 Oct 2026 in AGENTS.md. Keep the two in step.
+// decisions in AGENTS.md and research/keys/PROCEDURE.md. Keep them in step.
 
 const PILOT = ["Q01", "Q08", "Q18", "Q23", "Q30", "Q39"];
 
@@ -38,8 +38,7 @@ export default function MethodPage() {
     <>
       <PageTitle title="Method">
         <p>
-          The plan for the pilot, as of 13 October 2026.{" "}
-          <span className="text-provisional">Details may change once the pilot has run.</span>
+          The plan for the six-question pilot, updated 17 October 2026.
         </p>
       </PageTitle>
 
@@ -104,10 +103,13 @@ export default function MethodPage() {
             is used only if it agrees with each of them about as often as they agree with each other.
           </p>
           <p>
-            The list of positions for each pilot question is built from 15 to 21 passages. Ben, Nathan and Claude
-            each sort the passages into positions separately, and we measure how often each pair agrees. Ben and
-            Nathan then make the final list together. If Claude agrees with each of them about as often as they
-            agree with each other, Claude sorts the remaining questions.
+            The pilot keys use 116 supplied passages across six questions. Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) each
+            create positions and sort the passages independently under the same instructions. Direction and
+            argument grouping are measured separately. After all independent lists lock and the evaluation rule
+            is recorded, only the human comparison opens. Ben and Nathan make and lock all six human reference
+            lists before seeing any agent results. They then assess each agent’s category meanings against the
+            references and preserve those references before making the final keys. Further use is decided
+            separately for each agent, with historian checks.
           </p>
         </Section>
 
@@ -138,6 +140,7 @@ export default function MethodPage() {
             <li>The rules for admitting newspapers and magazines.</li>
             <li>Which deployed frontier model to add, and which other modern base models.</li>
             <li>How close the agreement must be before Claude’s coding is used.</li>
+            <li>The acceptable shortfall from human agreement and treatment of category errors before either sorting agent is used on further questions.</li>
           </ul>
         </Section>
       </div>

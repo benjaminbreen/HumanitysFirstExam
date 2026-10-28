@@ -3,6 +3,10 @@
 Everything below was built or run by Claude sessions as exploration. These
 are records, not findings and not decisions. Numbers are pilot-scale.
 
+For current work, follow [the position-key procedure](../research/keys/PROCEDURE.md),
+fixed by Ben on 17 October 2026, and [the wider working plan](proposals/2026-09-28-benchmark-method.md).
+Instructions quoted in these records do not govern new runs.
+
 ## Reckoning question, July 2026
 
 `bench/`. One question put to Talkie, Qwen 3.7 Plus and two frontier models,

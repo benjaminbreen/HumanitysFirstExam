@@ -1,5 +1,10 @@
 # Judge prompt — reckoning question
 
+**Superseded pilot; kept as a record.** The frozen instructions below apply
+only to the July reckoning pilot. For current work, follow
+[the working plan](../../docs/proposals/2026-09-28-benchmark-method.md) and
+[the position-key procedure](../../research/keys/PROCEDURE.md).
+
 FROZEN with key version 2, 23 July 2026. Scores reported against keyV2
 use these instructions exactly; changes require a version 3 of both.
 

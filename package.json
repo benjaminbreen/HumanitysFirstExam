@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test:keys": "node --test tests/keys.test.mjs",
     "sources:build": "node scripts/build-historical-source-texts.mjs",
     "passages:prepare-pilot": "node scripts/prepare-passage-pilot.mjs",
     "passages:retrieve-pilot": "node scripts/run-passage-pilot.mjs --allow-paid-api --retrieve-only",

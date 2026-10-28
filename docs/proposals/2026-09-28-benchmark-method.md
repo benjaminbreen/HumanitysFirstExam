@@ -1,14 +1,14 @@
 # Benchmark method: the working plan
 
-Drafted by Claude. Rewritten on 13 October 2026, after Ben accepted the
-simplified plan below. The decisions Ben made are recorded in AGENTS.md
-under "Decided". Everything else here is a draft. Nathan has not yet
-reviewed it.
+Drafted by Claude; updated 17 October 2026 at Ben's request. Decisions are
+recorded in [AGENTS.md](../../AGENTS.md). Details beyond those decisions remain
+agent proposals; this update does not claim Nathan has reviewed them.
 
-The 449-line version of 29 September 2026 is replaced by this one. Cut from
-it: per-lead time budgets, the 72-lead cap, the four-week schedule, the
-"object of the emotion" field, and running all 40 questions before the
-six-question pilot works.
+**For making and validating position keys, follow
+[the current procedure](../../research/keys/PROCEDURE.md).** Ben fixed that
+four-sorter plan on 17 October 2026. It replaces the three-sorter plan and the
+retired 60-item passage check. This document gives the wider benchmark plan;
+older drafts and pilot records do not override the procedure.
 
 ## What the benchmark measures
 
@@ -58,11 +58,30 @@ truncation, refusals) are kept and flagged, never replaced.
 
 ## The position key
 
-**v0.** Built from the accepted canon before anyone reads a model answer,
+**v0.** Built from the accepted canon before anyone reads a benchmark answer,
 then frozen. Each position has a claim, the reason that defines it, and at
 least one verified passage. One clear passage is enough to show a
 position was held. Split two positions when merging them would lose a
 difference in reasoning; merge differences of wording.
+
+For the six pilot questions, Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol
+(Medium) independently create positions and sort the same passages under the
+same written instructions.
+All six independent sortings for all four sorters lock before comparisons
+are revealed. Direction agreement and argument-grouping agreement are separate
+measures. Only Ben–Nathan results are shown first. Ben and Nathan then save
+all six joint human-only references before seeing any agent scores, groupings
+or category text. Agent comparisons are revealed only after those references
+are locked.
+Together they assess each agent's recovered, missed and unsupported positions,
+and supported discoveries. They preserve the human reference before adding
+jointly accepted agent-only positions to the final key. Exact definitions,
+examples and the order of work are in the procedure, not in older protocols.
+
+The practical rule for extending an agent's use must be specified before
+results are viewed. Its threshold remains open. Agreement alone does not
+establish that the category definitions are accurate. The two sorting agents
+are not additional benchmark respondents and do not change the 960-answer plan.
 
 **v1.** Read the model answers and pull out arguments not in v0. Search
 the canon and the popular corpora for each. Add it only when a period
@@ -84,6 +103,10 @@ Qwen3.5 9B and one deployed frontier model are run for context and for
 the public site. Pin versions, providers and settings, and record them.
 
 ## Coding the answers
+
+This is a later, separate test of matching benchmark answers to an existing
+key. The four-sorter experiment above tests making the key. Success on one
+task does not validate the other.
 
 Claude reads each answer and records:
 
@@ -108,15 +131,17 @@ fresh sample, or the result is withheld.
    next question in its theme, and record the swap. Never swap a question
    after seeing model results.
    - Build the position list for each and freeze it, following
-     `research/keys/PROCEDURE.md`: Ben, Nathan and Claude sort the same
-     passages separately, agreement is measured, and Ben and Nathan make
-     the final list.
+     [the current procedure](../../research/keys/PROCEDURE.md): two humans
+     and two agents sort independently; sorting and category meanings are
+     evaluated separately; Ben and Nathan preserve their human reference
+     and then make the final key.
    - Run Defend and Survey, 20 answers each, on all four models:
      6 × 4 × 2 × 20 = 960 answers.
    - Claude codes them. Ben and Nathan check a blind sample.
    - Follow the off-key leads, build v1, and score against both keys.
 2. **Scale.** Verify the remaining passages toward the 300–500 target,
-   build keys for further questions, then add source appending.
+   build keys for further questions with historian checks and any agent
+   assistance justified by the pilot, then add source appending.
 
 ## Results
 

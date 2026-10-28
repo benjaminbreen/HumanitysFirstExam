@@ -2,68 +2,29 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageTitle } from "@/components/PageTitle";
+import { KeyInstructions } from "@/components/KeyInstructions";
 import { coders, currentCoder, storage } from "@/lib/coding";
-import { bothDone, directionLabels, getPool, MAX_POSITIONS, sortingFor } from "@/lib/keys";
+import { directionLabels, getPool, MAX_POSITIONS, sortingFor } from "@/lib/keys";
 import { SignIn } from "../SignIn";
 import { Board } from "./Board";
 
-export const metadata: Metadata = { title: "Position key", robots: { index: false } };
-
+export const metadata: Metadata = { title: "Independent sorting", robots: { index: false } };
 export default async function KeyQuestionPage({ params, searchParams }: PageProps<"/keys/[q]">) {
-  const q = (await params).q.toUpperCase();
-  const pool = getPool(q);
+  const q = (await params).q.toUpperCase(), pool = getPool(q);
   if (!pool) notFound();
-  const coder = await currentCoder();
-  const error = Boolean((await searchParams).error);
-
-  const head = (
-    <PageTitle title={q}>
-      <p className="text-ink">{pool.text}</p>
-    </PageTitle>
-  );
-  if (storage === "none") return <>{head}<p>Saving is not set up on this site yet.</p></>;
+  const coder = await currentCoder(), error = Boolean((await searchParams).error);
+  const head = <PageTitle title={`${q}: independent sorting`}><p className="text-ink">{pool.text}</p></PageTitle>;
+  if (storage === "none") return <>{head}<p>Saving is not configured.</p></>;
   if (!coder) return <>{head}<SignIn next={`/keys/${q.toLowerCase()}`} error={error} /></>;
-
-  const [sorting, locked] = await Promise.all([sortingFor(coder, q), bothDone(q)]);
-  return (
-    <>
-      <p className="mb-4 text-[14px]">
-        <Link href="/keys" className="text-modern hover:underline">← All questions</Link>
-        <span className="ml-4 text-ink-faint">{coders[coder]}</span>
-      </p>
-      {head}
-      <div className="-mt-6 mb-10 max-w-3xl space-y-2 text-[15px] leading-relaxed text-ink-soft">
-        <p>
-          Read all {pool.passages.length} passages. None of these writers was answering our question. Your job is to
-          work out what each passage implies about it, and group passages that imply the same thing for the same
-          reason.
-        </p>
-        <p>
-          Add a position for each distinct line you find, up to {MAX_POSITIONS}. A position has two parts. The{" "}
-          <em>implied answer</em> is what the passages imply about our question, in our words. The{" "}
-          <em>argument in the text</em> is the grounds the passages themselves give for it: what the text argues, not
-          why the author held the view or the context they wrote in. If two passages imply a similar answer by
-          different arguments, make them separate positions. Give each position a direction (
-          {Object.values(directionLabels(q)).join(", ")}): “yes, because x” and “yes, because y” are two positions,
-          both under {directionLabels(q).yes}; “it depends” goes under Other.
-        </p>
-        <p>
-          Put each passage in one place: the position it supports most directly, or Off the question, or Unclear.
-          One place per passage is what lets us measure how far the three lists agree.
-        </p>
-        <p>
-          Where the passages come from: we searched the full texts of the 204 works on our{" "}
-          <Link href="/sources" className="text-modern hover:underline">source list</Link> for passages about this
-          question. Claude read the 45 closest matches, plus the quotations it had already found for this question, and
-          kept the ones that discuss the question, whatever answer they give. The text is copied exactly from the source, with scanning errors fixed.
-        </p>
-        <p>
-          Nathan, Ben and Claude each sort these passages separately. Nobody sees another list until Ben and Nathan
-          have both ticked “I have finished this question” at the bottom. Then both lists lock, the agreement figures
-          open, and the two of you make the final list together. Your work saves automatically.
-        </p>
-      </div>
-      <Board q={q} passages={pool.passages} initial={sorting} labels={directionLabels(q)} locked={locked} max={MAX_POSITIONS} />
-    </>
-  );
+  const { sorting, locked } = await sortingFor(q);
+  return <>
+    <p className="mb-4 text-[14px]"><Link href="/keys" className="text-modern hover:underline">← All questions</Link><span className="ml-4 text-ink-faint">{coders[coder]}</span></p>
+    {head}
+    <div className="-mt-6 mb-10 max-w-3xl space-y-3">
+      <KeyInstructions />
+      <p className="text-[14px] text-ink-soft">These instructions are shared by both historians and both agents. Work saves automatically. All independent sortings lock together after all four sorters finish all six questions. Agent results remain hidden until both historians lock all six human reference lists.</p>
+      {sorting.savedAt && sorting.version === 0 && <p className="text-[14px] text-provisional">Your earlier entries were preserved as a draft. Review them under the shared instructions before marking this question finished.</p>}
+    </div>
+    <Board q={q} passages={pool.passages} initial={sorting} labels={directionLabels(q)} locked={locked} max={MAX_POSITIONS} />
+  </>;
 }

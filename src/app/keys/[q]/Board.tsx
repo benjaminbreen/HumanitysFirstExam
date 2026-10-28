@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Category, Direction, PoolPassage, Sorting } from "@/lib/keys";
-import { saveFinalAction, saveSortingAction } from "../actions";
+import { saveJointAction, saveSortingAction } from "../actions";
 
 // The sorter's working surface: passages on the left, the positions they
 // write on the right. A passage goes in one position (or off the question,
@@ -14,9 +14,9 @@ const letter = (i: number) => (i < 26 ? String.fromCharCode(65 + i) : String.fro
 const num = (id: string) => String(Number(id.replace(/\D/g, "")));
 const newId = () => "c" + Math.random().toString(36).slice(2, 8);
 
-export function Board({ q, passages, initial, labels, max, mode = "sort", locked = false, footer, onSaved }: {
+export function Board({ q, passages, initial, labels, max, mode = "sort", locked = false, footer, onSaved, onSavingChange }: {
   q: string; max: number; passages: PoolPassage[]; initial: Sorting; labels: Record<Direction, string>;
-  mode?: "sort" | "final"; locked?: boolean; footer?: React.ReactNode; onSaved?: () => void;
+  mode?: "sort" | "reference" | "final"; locked?: boolean; footer?: React.ReactNode; onSaved?: (s: Sorting) => void; onSavingChange?: (saving: boolean) => void;
 }) {
   const [s, setS] = useState<Sorting>(initial);
   const [status, setStatus] = useState<"saved" | "saving" | "error" | "idle">(initial.savedAt ? "saved" : "idle");
@@ -25,32 +25,59 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
   const [over, setOver] = useState<Box | null>(null);
   const [focus, setFocus] = useState<string | null>(null);
   const first = useRef(true);
-  const saved_ = useRef(onSaved);
-  useEffect(() => {
-    saved_.current = onSaved;
-  });
+  const callbacks = useRef({ onSaved, onSavingChange });
+  const latest = useRef(initial), sequence = useRef(0), persisted = useRef(0), version = useRef(initial.version), running = useRef(false);
+  const flush = useRef<() => Promise<void>>(async () => {});
+  const [saveError, setSaveError] = useState("");
+  useEffect(() => { callbacks.current = { onSaved, onSavingChange }; });
   const byId = new Map(passages.map((p) => [p.id, p]));
 
-  // Save shortly after each change.
+  // Serialize saves so an older response cannot overwrite newer local edits.
+  // The server also checks the version against other tabs and the other historian.
   useEffect(() => {
-    if (first.current) {
-      first.current = false;
-      return;
-    }
+    if (first.current) { first.current = false; return; }
+    latest.current = s;
+    sequence.current++;
+    callbacks.current.onSavingChange?.(true);
     setStatus("saving");
-    const t = setTimeout(async () => {
+    const save = async () => {
+      if (running.current) return;
+      running.current = true;
       try {
-        const saved = await (mode === "final" ? saveFinalAction : saveSortingAction)(q, s);
-        setSavedAt(saved.savedAt);
-        if (saved.done !== s.done) setS((x) => ({ ...x, done: saved.done }));
-        saved_.current?.();
+        while (persisted.current < sequence.current) {
+          const seq = sequence.current, snapshot = latest.current;
+          const saved = mode === "sort"
+            ? await saveSortingAction(q, snapshot, version.current)
+            : await saveJointAction(q, mode, snapshot, version.current);
+          version.current = saved.version;
+          persisted.current = seq;
+          setSavedAt(saved.savedAt);
+          callbacks.current.onSaved?.(saved);
+        }
+        setSaveError("");
         setStatus("saved");
-      } catch {
+        callbacks.current.onSavingChange?.(false);
+      } catch (e) {
         setStatus("error");
-      }
-    }, 600);
-    return () => clearTimeout(t);
+        setSaveError(e instanceof Error ? e.message : "Could not save. Reload and try again.");
+      } finally { running.current = false; }
+    };
+    flush.current = save;
+    const timer = setTimeout(save, 600);
+    return () => clearTimeout(timer);
   }, [s, q, mode]);
+
+  useEffect(() => {
+    const beforeUnload = (event: BeforeUnloadEvent) => {
+      if (persisted.current < sequence.current) { event.preventDefault(); event.returnValue = ""; }
+    };
+    window.addEventListener("beforeunload", beforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", beforeUnload);
+      // A client-side navigation must not discard a pending debounce.
+      void flush.current();
+    };
+  }, []);
 
   const boxesOf = (pid: string): Box[] => [
     ...s.categories.filter((c) => c.passages.includes(pid)).map((c) => c.id),
@@ -59,7 +86,10 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
   ];
   const placed = passages.filter((p) => boxesOf(p.id).length).length;
 
-  const update = (f: (x: Sorting) => Sorting) => setS((x) => f(structuredClone(x)));
+  const update = (f: (x: Sorting) => Sorting) => {
+    callbacks.current.onSavingChange?.(true);
+    setS((x) => f(structuredClone(x)));
+  };
   const add = (pid: string, box: Box) =>
     update((x) => {
       for (const b of boxesIn(x, pid)) remove_(x, pid, b); // one place per passage
@@ -161,6 +191,8 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
   const unplaced = passages.length - placed;
   const missing = [
     ...(unplaced ? [`${unplaced} passage${unplaced === 1 ? "" : "s"} not placed`] : []),
+    ...s.categories.filter((c) => !c.claim.trim()).map((c) => `answer for ${label(c.id)}`),
+    ...s.categories.filter((c) => !c.reason.trim()).map((c) => `argument for ${label(c.id)}`),
     ...s.categories.filter((c) => !c.direction).map((c) => `direction for ${label(c.id)}`),
     ...s.categories.filter((c) => !c.passages.length).map((c) => `no passages in ${label(c.id)}`),
   ];
@@ -287,8 +319,8 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                 ))}
               </div>
               <Field label="Argument in the text" readOnly={locked} value={c.reason} placeholder="The grounds the passages themselves give (not the author’s motives or context)" onChange={(v) => edit(c.id, "reason", v)} />
-              {mode === "final" && (
-                <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder="How this was settled, e.g. merged Ben’s B and Nathan’s C; first proposed by Claude" onChange={(v) => edit(c.id, "note", v)} />
+              {mode !== "sort" && (
+                <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder={mode === "reference" ? "How you settled the difference between your lists" : "How this was settled; name Opus or Sol for agent-only additions"} onChange={(v) => edit(c.id, "note", v)} />
               )}
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
@@ -315,10 +347,11 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
           </div>
         ))}
 
+        {saveError && <p role="alert" className="mt-3 text-[14px] text-period">{saveError} <button onClick={() => setS((x) => ({ ...x }))} className="underline">Retry save</button></p>}
         <div className="mt-6 border-t border-rule pt-4">
-          {mode === "final" ? footer : locked ? (
+          {mode !== "sort" ? footer : locked ? (
             <p className="text-[14.5px]">
-              Finished. Ben and Nathan have both finished this question, so it is locked.{" "}
+              All independent sortings are locked.{" "}
               <Link href={`/keys/${q.toLowerCase()}/agreement`} className="text-modern hover:underline">Agreement →</Link>
             </p>
           ) : (
@@ -330,7 +363,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   <span className="block text-[13px] text-ink-faint">
                     {missing.length && !s.done
                       ? `Still to do: ${missing.join("; ")}.`
-                      : "When Ben and Nathan have both finished, both lists lock and the agreement figures open. Until then you can untick this and keep working."}
+                      : "Your list is marked finished. You may keep editing until all four sorters finish all six questions and the independent lists lock."}
                   </span>
                 </span>
               </label>
@@ -358,6 +391,7 @@ function Field({ label, value, onChange, placeholder, autoFocus, readOnly }: { l
         ref={ref}
         rows={1}
         value={value}
+        maxLength={label === "Implied answer" ? 600 : 1200}
         autoFocus={autoFocus}
         readOnly={readOnly}
         placeholder={placeholder}

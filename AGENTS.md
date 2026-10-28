@@ -25,6 +25,26 @@ documentation. Do not tell Ben that something needs Nathan's agreement. The
 Decided table records the major choices about scope and research design, not
 every fix.
 
+**Independent sorting runs:** read only the supplied task prompt and passage
+inputs. Do not load the study procedure, researcher discussions, repository
+history or prior categories into a sorting run. The methodology and provenance
+instructions are for the coordinator, not part of the sorting prompt.
+
+**Current position-key method:** for development or coordination, read
+`research/keys/PROCEDURE.md` before working on keys or `/keys`. Ben fixed the four-sorter procedure on 17 Oct
+2026: two historians, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium); independent
+sorting; two agreement measures; a human-only reference; review of each agent's category meanings;
+then the final key. All four receive the same written sorting instructions.
+Only the Ben–Nathan comparison is revealed before all six human-only references
+lock; all agent results stay hidden until then. Choose the evaluation rule
+before revealing any comparisons, then apply it after the review. This file
+records the decision; PROCEDURE.md gives the
+steps. The working plan links to it. Older protocols and the current app
+are not alternative authorities. The app implements the study-wide gates;
+`docs/architecture.md` records its storage, run-import and verification details. Do not resume the retired passage check or the
+earlier three-sorter method. Keep later changes in the existing procedure
+and record Ben's or Nathan's instruction; do not create competing plans.
+
 ## Premise
 
 AI systems supply much of the vocabulary people now use to think about humans
@@ -65,7 +85,7 @@ with Ben.
 | Claude codes model answers; Ben and Nathan code a blind sample of the same answers to check it. | Ben, 13 Oct 2026 |
 | Order of work: a six-question pilot (Q01, Q08, Q18, Q23, Q30, Q39), then scale. Source appending waits until after the pilot. | Ben, 13 Oct 2026; amended 14 Oct 2026 |
 | The 60-item yes/no passage check is retired. Its protocol (`research/coding/PROTOCOL.md`, approved by Nathan via Ben on 14 Oct) is kept as a record. `/coding` redirects to `/keys`. | Ben, 14 Oct 2026; confirmed 17 Oct 2026 |
-| Position keys for the pilot questions follow `research/keys/PROCEDURE.md`: Ben, Nathan and Claude each sort a pool of 15–21 passages into positions separately (at most 15 positions, each with Yes/No/Other; one place per passage). Agreement between each pair is measured; Claude passes if it agrees with each historian about as often as they agree with each other, and then sorts the other questions. Ben and Nathan make the final list the site shows, without Claude's list, then add Claude-only positions both accept. | Ben, 17 Oct 2026 |
+| Position-key validation follows `research/keys/PROCEDURE.md`: Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) independently create positions and sort the same six passage pools under the same written instructions (at most 15 positions, each with an answer, reason and direction; one place per passage). All independent sortings lock before comparisons are revealed. Only Ben–Nathan results are shown before all six human-only references lock; all agent results stay hidden until then. Direction and argument grouping are measured separately. The historians then assess each agent's recovered, missed and unsupported positions and supported discoveries. Preserve the human references before adding jointly accepted agent-only positions to the final v0 keys. Each agent is assessed separately; choose the evaluation rule before any comparisons are revealed and apply it after review. Further use requires historian checks. | Ben, methodology discussion and request to fix the final plan in writing, 17 Oct 2026; ordering and shared instructions clarified after Ben supplied Opus's review that day; replaces the earlier three-sorter procedure; Ben selected Opus 5.5 and GPT-6.1 Sol, both at Medium, later on 17 Oct 2026 |
 
 ## House rules
 
@@ -102,8 +122,11 @@ Not decided. Leave these open in copy.
   it. Additions to the canon beyond the 204 accepted works.
 - **The modern baseline**: what counts as the present-day default.
 - **Base models**: likelihood scoring; modern base models beyond Talkie web.
-- **Judging thresholds**: how close Claude's agreement with the coders must
-  be before its coding is used.
+- **Judging thresholds**: the acceptable shortfall from human agreement and
+  treatment of definition errors before extending either sorting agent's use
+  (PROCEDURE.md, "Before revealing results"). No numerical threshold has been
+  agreed. The threshold
+  for later coding of benchmark answers is also open; it is a separate test.
 - **Taxonomy**: the theme list, and whether the axes Claude proposed
   (direction, grounds) stay.
 - Whether Talkie's sensitivity to persona prompts is a property of the model
@@ -116,7 +139,7 @@ Not decided. Leave these open in copy.
 - `docs/pilots.md`: every pilot and corpus built so far, as records.
 - `docs/proposals/`: agent drafts for Ben and Nathan to mark up.
   `2026-09-28-benchmark-method.md` is the working plan.
-- `research/keys/PROCEDURE.md`: how the position keys are built and how Claude's sorting is tested. Passage pools in `pools.json`, Claude's lists in `claude.json`. Pages: `/keys`.
+- `research/keys/PROCEDURE.md`: authoritative four-sorter procedure, fixed 17 Oct 2026. Passage pools in `pools.json`; `claude.json` is a preparatory draft, not a documented final-protocol run. Pages: `/keys` (implementation and run-import details in architecture).
 - `research/coding/PROTOCOL.md`: the retired 60-item passage check, kept as a record.
 
 # This is NOT the Next.js you know

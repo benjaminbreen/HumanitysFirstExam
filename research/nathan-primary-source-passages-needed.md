@@ -1,5 +1,10 @@
 # Primary-source passages still needed for Nathan's question bank
 
+**Earlier agent checklist for the 100-question prototype; not the current
+question bank or coding procedure.** Current key validation uses the six pilot
+questions in [PROCEDURE.md](keys/PROCEDURE.md). The wider plan is in
+[the working plan](../docs/proposals/2026-09-28-benchmark-method.md).
+
 ## What this list is for
 
 Nathan's 100 questions are a useful retrieval syllabus: they tell us which disputes the historical bank must be able to document. They are not, by themselves, evidence that every premise or phrasing was present before 1931.

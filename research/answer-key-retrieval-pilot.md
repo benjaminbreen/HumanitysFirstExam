@@ -1,6 +1,9 @@
 # Answer-key retrieval pilot
 
-Status: exploratory; not benchmark-ready.
+**Earlier exploratory pilot; kept as a record, not a current protocol.**
+For making and validating position keys, follow [the current procedure](keys/PROCEDURE.md),
+fixed 17 October 2026. The 100-question bank and instructions below belong to
+the earlier prototype.
 
 The prototype embedded 100 historical questions and a capped sample of 1,200 overlapping source-text chunks. For each question it retained the ten nearest chunks. A structured-output extraction pass then coded five questions (Q8, Q57, Q70, Q59, Q64) as direct evidence, near context, or rejected retrieval noise.
 

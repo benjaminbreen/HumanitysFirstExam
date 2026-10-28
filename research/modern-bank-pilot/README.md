@@ -1,5 +1,10 @@
 # Modern question-bank pilot
 
+**Exploratory record, not the current benchmark or key-validation procedure.**
+Follow [PROCEDURE.md](../keys/PROCEDURE.md) and
+[the working plan](../../docs/proposals/2026-09-28-benchmark-method.md) for current
+work. References below to the 100-question bank describe the earlier prototype.
+
 This directory is a source-anchored feasibility test for a second, modern-native
 question bank. It is not yet the proposed 30–40-question production bank and it
 is not a representative sample of contemporary AI or technology-policy writing.

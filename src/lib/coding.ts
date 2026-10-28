@@ -50,7 +50,9 @@ export async function redis(cmd: string[]) {
     cache: "no-store",
   });
   if (!r.ok) throw new Error(`Redis ${r.status}`);
-  return (await r.json()).result;
+  const body = await r.json();
+  if (body.error) throw new Error(`Redis command failed: ${body.error}`);
+  return body.result;
 }
 
 export async function entriesFor(coder: Coder): Promise<Record<string, Entry>> {

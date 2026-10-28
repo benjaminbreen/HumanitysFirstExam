@@ -1,5 +1,10 @@
 # Judge instructions — DEPENDENCE trial
 
+**Earlier pilot instructions; kept as a record.** These apply to the
+DEPENDENCE trial, not the current six-question benchmark. Current key
+validation follows [PROCEDURE.md](../research/keys/PROCEDURE.md); later
+answer coding follows [the working plan](../docs/proposals/2026-09-28-benchmark-method.md).
+
 You are coding answers to one question:
 
 > Does relying on machines weaken human capacities?

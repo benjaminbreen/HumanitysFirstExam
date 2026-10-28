@@ -7,6 +7,10 @@ Kept as a record. Its claim that passage counts give the period's
 distribution of opinion is rejected: retrieved passages are not a sample
 of opinion.
 
+For current key validation, use [PROCEDURE.md](../../research/keys/PROCEDURE.md),
+fixed 17 October 2026. The workflow and thresholds below are not instructions
+for the current pilot.
+
 It combines both answers to the question of where positions come from:
 
 1. Admit the corpus by rules that say nothing about stance (citation lists,

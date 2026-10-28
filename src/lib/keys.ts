@@ -1,219 +1,224 @@
 import "server-only";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-import path from "node:path";
-import claudeFile from "../../research/keys/claude.json";
-import poolsFile from "../../research/keys/pools.json";
-import { redis, storage, type Coder } from "@/lib/coding";
+import { currentCoder, type Coder } from "@/lib/coding";
+import { inputVersion, readStudy, updateStudy } from "./key-store";
+import {
+  agentConfig, agents, agentNames, agentsOpen, allIndependentDone, allReferencesLocked, allReviewsLocked,
+  complete, content, emptyJoint, emptyReview, emptySorting, getPool, humansOpen, instructions,
+  jointLocked, pools, reviewCounts, reviewLocked, reviewsLocked, validateSorting,
+  type Agent, type AgentRun, type DefinitionReview, type JointKind, type Sorting, type Study,
+} from "./key-model";
+export * from "./key-model";
+export { inputVersion } from "./key-store";
 
-// Building the position keys for the pilot questions. Ben, Nathan and Claude
-// each sort a question's pool of passages into positions (implied answer,
-// argument, direction), separately. When both historians finish, agreement
-// between each pair is measured, and Ben and Nathan merge their two lists
-// into the final list that the site shows. See research/keys/PROCEDURE.md.
-
-export type PoolPassage = {
-  id: string; // "p01"…, stable within a question
-  work: string;
-  author: string;
-  title: string;
-  year: number | null;
-  language: string;
-  display: string; // OCR-cleaned excerpt shown to readers
-  text: string; // verbatim excerpt from the source file
-  translation: string | null;
-};
-export type Pool = { question: string; text: string; passages: PoolPassage[] };
-export const pools = poolsFile as Pool[];
-export const getPool = (q: string) => pools.find((p) => p.question === q);
-
-export type Direction = "yes" | "no" | "other";
-// Either/or questions get their own words for the two directions.
-const POLES: Record<string, [string, string]> = { Q18: ["Develops", "Diminishes"] };
-export const directionLabels = (q: string): Record<Direction, string> => {
-  const [y, n] = POLES[q] ?? ["Yes", "No"];
-  return { yes: y, no: n, other: "Other" };
-};
-export type Category = { id: string; claim: string; reason: string; direction?: Direction | null; passages: string[]; note?: string };
-export type Sorting = {
-  categories: Category[];
-  off: string[]; // passages that do not address the question
-  unclear: string[];
-  done: boolean;
-  savedAt: string;
-};
-export const emptySorting = (): Sorting => ({ categories: [], off: [], unclear: [], done: false, savedAt: "" });
-
-// Each sorter places every passage in exactly one position, or off the
-// question, or unclear. At most MAX_POSITIONS positions per question.
-export const MAX_POSITIONS = 15;
-export type Final = Sorting & { agreed: Partial<Record<Coder, string>>; frozenAt: string | null };
-
-const DIR = path.join(process.cwd(), "research", "keys", "entries");
-
-async function readAll(coder: Coder | "final"): Promise<Record<string, string>> {
-  if (storage === "redis") {
-    const flat: string[] = (await redis(["HGETALL", `keys:${coder}`])) ?? [];
-    const out: Record<string, string> = {};
-    for (let i = 0; i < flat.length; i += 2) out[flat[i]] = flat[i + 1];
-    return out;
-  }
-  if (storage === "none") return {};
-  try {
-    const raw = JSON.parse(await readFile(path.join(DIR, `${coder}.json`), "utf8"));
-    return Object.fromEntries(Object.entries(raw).map(([k, v]) => [k, JSON.stringify(v)]));
-  } catch {
-    return {};
+async function reader() {
+  const coder = await currentCoder();
+  if (!coder) throw new Error("Sign in to use the position keys");
+  return coder;
+}
+function version(actual: number, expected: number) {
+  if (!Number.isSafeInteger(expected) || expected < 0 || actual !== expected) throw new Error("This version has changed. Reload before saving or agreeing.");
+}
+function requireHumans(s: Study) {
+  if (!humansOpen(s)) throw new Error("Finish all six independent sortings for all four sorters and record the evaluation rule first");
+}
+function requireAgents(s: Study) {
+  if (!agentsOpen(s)) throw new Error("Agent results stay hidden until both historians lock all six human references");
+}
+function question(q: string) { if (!getPool(q)) throw new Error("Unknown question"); }
+function requireJoint(s: Study, q: string, kind: JointKind) {
+  if (kind !== "reference" && kind !== "final") throw new Error("Unknown list");
+  requireHumans(s);
+  if (kind === "final") {
+    requireAgents(s);
+    if (!reviewsLocked(s, q) || agents.some((a) => !s.decisions[a])) throw new Error("Agree both definition reviews and record both further-use decisions before making the final key");
   }
 }
+const jointMap = (s: Study, kind: JointKind) => kind === "reference" ? s.references : s.finals;
 
-async function write(coder: Coder | "final", field: string, value: unknown) {
-  if (storage === "none") throw new Error("No storage configured");
-  if (storage === "redis") {
-    await redis(["HSET", `keys:${coder}`, field, JSON.stringify(value)]);
-    return;
-  }
-  const all = Object.fromEntries(Object.entries(await readAll(coder)).map(([k, v]) => [k, JSON.parse(v)]));
-  all[field] = value;
-  await mkdir(DIR, { recursive: true });
-  await writeFile(path.join(DIR, `${coder}.json`), JSON.stringify(all, null, 1) + "\n");
-}
-
-export async function sortingsFor(coder: Coder): Promise<Record<string, Sorting>> {
-  const all = await readAll(coder);
-  return Object.fromEntries(
-    Object.entries(all)
-      .filter(([k]) => !k.includes(":"))
-      .map(([k, v]) => [k, JSON.parse(v) as Sorting]),
-  );
-}
-
-export async function sortingFor(coder: Coder, q: string): Promise<Sorting> {
-  return (await sortingsFor(coder))[q] ?? emptySorting();
-}
-
-export function tidySorting(q: string, s: Sorting): Sorting {
-  const ids = new Set(getPool(q)?.passages.map((p) => p.id));
-  const seen = new Set<string>();
-  // A passage goes in one place only: the first one listed wins.
-  const once = (xs: string[]) => [...new Set((xs ?? []).filter((x) => ids.has(x) && !seen.has(x)))].map((x) => (seen.add(x), x));
-  return {
-    categories: (s.categories ?? []).slice(0, MAX_POSITIONS).map((c) => ({
-      id: String(c.id).slice(0, 20),
-      claim: String(c.claim ?? "").slice(0, 600),
-      reason: String(c.reason ?? "").slice(0, 1200),
-      direction: (["yes", "no", "other"] as const).find((d) => d === c.direction) ?? null,
-      passages: once(c.passages),
-      ...(c.note ? { note: String(c.note).slice(0, 1200) } : {}),
-    })),
-    off: once(s.off),
-    unclear: once(s.unclear),
-    done: Boolean(s.done),
-    savedAt: new Date().toISOString(),
+// Return only the current reader's categories before human comparisons open.
+// Agent metadata/content and the other historian's category counts are absent.
+export async function dashboard() {
+  const coder = await reader(), s = await readStudy();
+  const human = humansOpen(s), revealed = agentsOpen(s);
+  const status = pools.map((p) => ({
+    question: p.question,
+    mine: s.sortings[coder][p.question] ?? emptySorting(),
+    benDone: Boolean(s.sortings.ben[p.question]?.done), nathanDone: Boolean(s.sortings.nathan[p.question]?.done),
+    reference: human ? (s.references[p.question]?.frozenAt ? "Locked" : s.references[p.question]?.started ? "In progress" : "Not started") : null,
+    final: revealed ? (s.finals[p.question]?.frozenAt ? "Frozen" : s.finals[p.question]?.started ? "In progress" : "Not started") : null,
+    reviews: revealed ? agents.map((a) => ({ agent: a, locked: reviewLocked(s.reviews[p.question]?.[a]) })) : null,
+  }));
+  return { coder, status, rule: s.rule, independentLocked: Boolean(s.independentLockedAt), human, revealed,
+    agentReceived: Object.fromEntries(agents.map((a) => [a, Boolean(s.runs[a])])) as Record<Agent, boolean>,
+    referencesLocked: human ? pools.filter((p) => jointLocked(p.question, s.references[p.question])).length : 0,
+    decisions: revealed ? s.decisions : {}, canDecide: revealed && allReviewsLocked(s),
   };
 }
-
-// Finished means every passage placed and every position given a direction.
-export function complete(q: string, s: Sorting) {
-  const placed = new Set([...s.categories.flatMap((c) => c.passages), ...s.off, ...s.unclear]);
-  return (getPool(q)?.passages ?? []).every((p) => placed.has(p.id)) && s.categories.every((c) => c.direction && c.passages.length);
+export async function sortingFor(q: string) {
+  question(q);
+  const coder = await reader(), s = await readStudy();
+  return { sorting: s.sortings[coder][q] ?? emptySorting(), locked: Boolean(s.independentLockedAt) };
+}
+export async function saveSorting(q: string, value: Sorting, expected: number) {
+  question(q);
+  const coder = await reader(), tidy = validateSorting(q, value);
+  if (tidy.done && !complete(q, tidy)) throw new Error("Place every passage and write an answer, reason and direction for every position first");
+  return updateStudy((s, now) => {
+    if (s.independentLockedAt) throw new Error("All independent sortings are locked");
+    version(s.sortings[coder][q]?.version ?? 0, expected);
+    const next = { ...tidy, savedAt: now, version: expected + 1 };
+    s.sortings[coder][q] = next;
+    return next;
+  });
+}
+export async function recordRule(text: string, expected: number) {
+  if ((await reader()) !== "ben") throw new Error("Ben records the evaluation rule");
+  if (typeof text !== "string" || !text.trim() || text.length > 6000) throw new Error("Write the acceptable shortfall and how definition errors affect further use");
+  await updateStudy((s, now) => {
+    if (s.humanOpenedAt) throw new Error("The evaluation rule is fixed because comparisons have opened");
+    version(s.rule?.version ?? 0, expected);
+    s.rule = { text: text.trim(), version: expected + 1, recordedAt: now };
+  });
+}
+export async function comparison(q?: string) {
+  await reader();
+  if (q) question(q);
+  const s = await readStudy();
+  requireHumans(s);
+  return { ben: s.sortings.ben, nathan: s.sortings.nathan, runs: agentsOpen(s) ? s.runs : null };
+}
+export async function jointFor(q: string, kind: JointKind) {
+  await reader(); question(q);
+  const s = await readStudy(); requireJoint(s, q, kind);
+  return jointMap(s, kind)[q] ?? emptyJoint();
+}
+export async function startJoint(q: string, kind: JointKind, from: Coder) {
+  await reader(); question(q);
+  if (!["ben", "nathan"].includes(from)) throw new Error("Choose a historian's list");
+  await updateStudy((s, now) => {
+    requireJoint(s, q, kind);
+    const target = jointMap(s, kind);
+    if (target[q]?.started) throw new Error("This list has already been started. Reload it.");
+    const source = kind === "reference" ? s.sortings[from][q] : s.references[q];
+    target[q] = { ...emptyJoint(), ...structuredClone(source), started: true, done: false, agreed: {}, frozenAt: null, savedAt: now, version: 1 };
+  });
+}
+export async function saveJoint(q: string, kind: JointKind, value: Sorting, expected: number) {
+  await reader(); question(q);
+  const tidy = validateSorting(q, value);
+  return updateStudy((s, now) => {
+    requireJoint(s, q, kind);
+    const old = jointMap(s, kind)[q] ?? emptyJoint();
+    version(old.version, expected);
+    if (!old.started || old.frozenAt) throw new Error("This list has not been started or is already locked");
+    if (content(old) === content(tidy)) return old;
+    const next = { ...tidy, started: true, agreed: {}, frozenAt: null, savedAt: now, version: expected + 1, done: false };
+    jointMap(s, kind)[q] = next;
+    return next;
+  });
+}
+export async function approveJoint(q: string, kind: JointKind, expected: number, yes: boolean) {
+  const coder = await reader(); question(q);
+  return updateStudy((s, now) => {
+    requireJoint(s, q, kind);
+    const f = jointMap(s, kind)[q];
+    if (!f?.started) throw new Error("Start the list first");
+    version(f.version, expected);
+    if (f.frozenAt) throw new Error("This list is already locked");
+    if (yes && !complete(q, f)) throw new Error("Complete the positions and placements first");
+    if (yes) f.agreed[coder] = { at: now, version: expected }; else delete f.agreed[coder];
+    if (f.agreed.ben?.version === expected && f.agreed.nathan?.version === expected) f.frozenAt = now;
+    return f;
+  });
 }
 
-export async function saveSorting(coder: Coder, q: string, s: Sorting) {
-  if (await bothDone(q)) throw new Error("Locked: both historians have finished this question");
-  const tidy = tidySorting(q, s);
-  if (tidy.done && !complete(q, tidy)) tidy.done = false;
-  await write(coder, q, tidy);
-  return tidy;
+// This is the only ingestion path for independent runs. It is called by the
+// token-authenticated import endpoint, never by a historian-facing upload form.
+export async function importAgentRun(value: unknown) {
+  if (!value || typeof value !== "object") throw new Error("Invalid run");
+  const r = value as AgentRun;
+  if (!agents.includes(r.agent) || r.inputVersion !== inputVersion || r.instructionsVersion !== instructions.version || r.independent !== true ||
+    typeof r.model !== "string" || !r.model.trim() || r.model.length > 200 || !r.settings || Array.isArray(r.settings) || typeof r.settings !== "object" ||
+    typeof r.createdAt !== "string" || !Number.isFinite(Date.parse(r.createdAt)) || typeof r.exposureNote !== "string" || !r.exposureNote.trim() || r.exposureNote.length > 3000 ||
+    typeof r.originalOutput !== "string" || r.originalOutput.length > 500000) throw new Error("Provide the current inputs, exact model, settings, date and independent-run provenance");
+  if (r.model !== agentConfig[r.agent].model || r.settings.effort !== agentConfig[r.agent].effort) {
+    throw new Error(`This study requires ${agentConfig[r.agent].model} at medium effort. Preserve outputs from other configurations as separate records.`);
+  }
+  let raw;
+  try { raw = JSON.parse(r.originalOutput); } catch { throw new Error("originalOutput must contain the exact JSON response, without markdown fences"); }
+  if (!raw || typeof raw !== "object" || Object.keys(raw).length !== pools.length) throw new Error("The original output must contain exactly the six question sortings");
+  const sortings: Record<string, Sorting> = {};
+  for (const p of pools) {
+    const sorting = validateSorting(p.question, raw[p.question]);
+    if (!complete(p.question, sorting)) throw new Error(`The original ${p.question} sorting is incomplete or invalid; preserve it and obtain a qualifying run`);
+    sortings[p.question] = { ...sorting, done: true, version: 1, savedAt: r.createdAt };
+  }
+  await updateStudy((s, now) => {
+    if (s.runs[r.agent] || s.independentLockedAt) throw new Error("This agent run is already recorded or independent sorting has locked. Original runs cannot be replaced.");
+    s.runs[r.agent] = { agent: r.agent, model: r.model.trim(), settings: r.settings, createdAt: r.createdAt, inputVersion, instructionsVersion: instructions.version, independent: true, exposureNote: r.exposureNote, originalOutput: r.originalOutput, sortings, receivedAt: now };
+  });
 }
-
-// Once Ben and Nathan have both finished a question, their sortings are
-// locked and the agreement figures and the final list open.
-export async function bothDone(q: string) {
-  const [b, n] = await Promise.all([sortingFor("ben", q), sortingFor("nathan", q)]);
-  return b.done && n.done;
+export async function reviewFor(q: string) {
+  await reader(); question(q);
+  const s = await readStudy(); requireAgents(s);
+  return { reference: s.references[q], runs: s.runs as Record<Agent, AgentRun>, reviews: s.reviews[q] ?? {}, decisions: s.decisions };
 }
-
-// ---------- the final list ----------
-// Ben and Nathan merge their lists into one, which readers of the site see.
-// It is frozen when both have agreed to the current version.
-
-export const emptyFinal = (): Final => ({ ...emptySorting(), agreed: {}, frozenAt: null });
-
-export async function finalFor(q: string): Promise<Final> {
-  const v = (await readAll("final"))[q];
-  return v ? { ...emptyFinal(), ...JSON.parse(v) } : emptyFinal();
+function validateReview(q: string, a: Agent, value: DefinitionReview, s: Study) {
+  const f = s.references[q], run = s.runs[a]!;
+  const result = emptyReview();
+  const catIds = new Set(run.sortings[q].categories.map((c) => c.id));
+  const note = (x: unknown) => { if (typeof x !== "string" || x.length > 3000) throw new Error("Review notes must be text under 3000 characters"); return x.trim(); };
+  for (const c of run.sortings[q].categories) {
+    const j = value.categories?.[c.id];
+    if (!j || !["supported", "unsupported", "discovery", "unresolved"].includes(j.status)) throw new Error("Judge every agent position or mark it unresolved");
+    result.categories[c.id] = { status: j.status, note: note(j.note) };
+    if (j.status !== "unresolved" && !result.categories[c.id].note) throw new Error("Explain each resolved judgment in its note");
+  }
+  for (const c of f.categories) {
+    const j = value.reference?.[c.id];
+    if (!j || !["recovered", "missed", "unresolved"].includes(j.status) || !Array.isArray(j.matches) || new Set(j.matches).size !== j.matches.length || j.matches.some((id) => !catIds.has(id))) throw new Error("Judge every reference position and use valid agent position IDs");
+    if ((j.status === "recovered") !== Boolean(j.matches.length)) throw new Error("Recovered positions need matching IDs; missed or unresolved positions must have none");
+    if (j.matches.some((id) => result.categories[id].status !== "supported")) throw new Error("A recovered position must match supported agent positions, not discoveries or unsupported positions");
+    result.reference[c.id] = { status: j.status, matches: j.matches, note: note(j.note) };
+    if (j.status !== "unresolved" && !result.reference[c.id].note) throw new Error("Explain each resolved judgment in its note");
+  }
+  result.notes = note(value.notes);
+  return result;
 }
-
-export async function saveFinal(q: string, s: Sorting) {
-  const old = await finalFor(q);
-  if (old.frozenAt) throw new Error("The final list is frozen");
-  const tidy = tidySorting(q, s);
-  const same = JSON.stringify([tidy.categories, tidy.off, tidy.unclear]) === JSON.stringify([old.categories, old.off, old.unclear]);
-  const next: Final = { ...tidy, done: false, agreed: same ? old.agreed : {}, frozenAt: null };
-  await write("final", q, next);
-  return next;
+export async function saveReview(q: string, a: Agent, value: DefinitionReview, expected: number) {
+  await reader(); question(q); if (!agents.includes(a)) throw new Error("Unknown agent");
+  await updateStudy((s, now) => {
+    requireAgents(s);
+    const old = s.reviews[q]?.[a] ?? emptyReview(); version(old.version, expected);
+    if (old.frozenAt) throw new Error("This review is already locked");
+    const next = validateReview(q, a, value, s);
+    s.reviews[q] ??= {};
+    s.reviews[q][a] = { ...next, savedAt: now, version: expected + 1 };
+  });
 }
-
-export async function agreeFinal(coder: Coder, q: string, yes: boolean) {
-  const f = await finalFor(q);
-  if (f.frozenAt) return f;
-  const agreed = { ...f.agreed };
-  if (yes) agreed[coder] = new Date().toISOString();
-  else delete agreed[coder];
-  const frozenAt = complete(q, f) && agreed.ben && agreed.nathan ? new Date().toISOString() : null;
-  const next = { ...f, agreed, frozenAt };
-  await write("final", q, next);
-  return next;
+export async function approveReview(q: string, a: Agent, expected: number, yes: boolean, submitted: DefinitionReview) {
+  const coder = await reader(); question(q); if (!agents.includes(a)) throw new Error("Unknown agent");
+  await updateStudy((s, now) => {
+    requireAgents(s);
+    const r = s.reviews[q]?.[a];
+    if (!r) throw new Error("Save the review first");
+    version(r.version, expected);
+    if (r.frozenAt) throw new Error("The review is already locked");
+    const normalized = validateReview(q, a, submitted, s);
+    const previous = validateReview(q, a, r, s);
+    if (JSON.stringify(normalized) !== JSON.stringify(previous)) throw new Error("Save your review changes before agreeing");
+    if (yes) r.agreed[coder] = { at: now, version: expected }; else delete r.agreed[coder];
+    if (r.agreed.ben?.version === expected && r.agreed.nathan?.version === expected) r.frozenAt = now;
+  });
 }
-
-// ---------- Claude's draft ----------
-// Written separately from the same pool (research/keys/claude.json) and shown
-// only once both historians have finished the question.
-
-export const claudeKeys = claudeFile as Record<string, { categories: Category[]; off: string[]; unclear: string[] }>;
-export const claudeSorting = (q: string): Sorting => ({ ...emptySorting(), ...claudeKeys[q], done: Boolean(claudeKeys[q]) });
-
-// ---------- agreement ----------
-// Two measures for a pair of sorters, over passages both placed (unclear
-// passages are left out). Grouping: of the pairs of passages that either
-// sorter put in the same position, how many both did. Direction: how often
-// both gave a passage the same direction (off the question counts as one),
-// with Cohen's kappa.
-
-const where = (s: Sorting, pid: string) => {
-  const c = s.categories.find((c) => c.passages.includes(pid));
-  if (c) return { box: c.id, dir: c.direction ?? "none" };
-  if (s.off.includes(pid)) return { box: "off", dir: "off" };
-  return null; // unclear or not placed
-};
-
-export type Tally = { together: number; either: number; same: number; n: number; left: number; dirs: [string, string][] };
-
-export function tally(q: string, a: Sorting, b: Sorting): Tally {
-  const ids = (getPool(q)?.passages ?? []).map((p) => p.id);
-  const both = ids.filter((p) => where(a, p) && where(b, p));
-  let together = 0, either = 0;
-  for (let i = 0; i < both.length; i++)
-    for (let j = i + 1; j < both.length; j++) {
-      const x = where(a, both[i])!.box === where(a, both[j])!.box;
-      const y = where(b, both[i])!.box === where(b, both[j])!.box;
-      if (x && y) together++;
-      if (x || y) either++;
-    }
-  const dirs = both.map((p) => [where(a, p)!.dir, where(b, p)!.dir] as [string, string]);
-  return { together, either, same: dirs.filter(([x, y]) => x === y).length, n: both.length, left: ids.length - both.length, dirs };
+export async function recordDecision(a: Agent, outcome: string, reason: string) {
+  if ((await reader()) !== "ben") throw new Error("Ben records the further-use decisions");
+  if (!agents.includes(a) || !["use", "revise", "inconclusive"].includes(outcome) || typeof reason !== "string" || !reason.trim() || reason.length > 6000) throw new Error("Choose an outcome and explain how the evaluation rule applies");
+  await updateStudy((s, now) => {
+    requireAgents(s);
+    if (!allReviewsLocked(s)) throw new Error("Both historians must agree all definition reviews first");
+    if (s.decisions[a]) throw new Error("This decision is already recorded");
+    s.decisions[a] = { outcome: outcome as "use" | "revise" | "inconclusive", reason: reason.trim(), recordedAt: now };
+  });
 }
-
-export function addTallies(ts: Tally[]): Tally {
-  return ts.reduce((s, t) => ({ together: s.together + t.together, either: s.either + t.either, same: s.same + t.same, n: s.n + t.n, left: s.left + t.left, dirs: [...s.dirs, ...t.dirs] }), { together: 0, either: 0, same: 0, n: 0, left: 0, dirs: [] });
-}
-
-export function kappa(dirs: [string, string][]) {
-  const n = dirs.length;
-  if (!n) return null;
-  const po = dirs.filter(([x, y]) => x === y).length / n;
-  const cats = new Set(dirs.flat());
-  let pe = 0;
-  for (const c of cats) pe += (dirs.filter(([x]) => x === c).length / n) * (dirs.filter(([, y]) => y === c).length / n);
-  return pe === 1 ? null : (po - pe) / (1 - pe);
-}
+export { agentNames, allIndependentDone, allReferencesLocked, reviewCounts };

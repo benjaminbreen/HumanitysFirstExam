@@ -8,10 +8,19 @@ Cosmos Institute's grants on AI and human autonomy.
 
 ## Status
 
-The first draft of the theme list (16 themes) and a seed list of 89 works are
-done. One pipeline pilot has run (DEPENDENCE, Qwen and Talkie, in `trial/`);
-its counts are not findings. The benchmark method is not decided.
-The earlier prototype site is preserved on the `prototype` branch.
+The working canon contains 204 distinct works. The theme list and 40 questions
+remain candidates. Earlier pipeline pilots are records, not findings; the
+prototype site is preserved on the `prototype` branch.
+
+The current position-key procedure was fixed by Ben on 17 October 2026:
+Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) sort passages for six
+questions independently; the historians then assess the sortings and category meanings and make the
+final keys. Read [the procedure](research/keys/PROCEDURE.md) for the agreed
+steps and the remaining open threshold. This is the authoritative writeup for
+key validation. The `/keys` app enforces the study-wide reveal order; see
+[architecture](docs/architecture.md) for preparing and importing independent
+agent runs. The broader benchmark plan is in
+[the working plan](docs/proposals/2026-09-28-benchmark-method.md).
 
 ## Data
 

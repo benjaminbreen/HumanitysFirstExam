@@ -1,8 +1,11 @@
 # Architecture
 
-What exists in the code and data. It describes; it does not decide. The method
-is in AGENTS.md and the working plan; the claim and coding records below
-are the DEPENDENCE pilot's, not the current design.
+What exists in the code and data. It describes; it does not decide. The current
+position-key method is [PROCEDURE.md](../research/keys/PROCEDURE.md), fixed by
+Ben on 17 October 2026. The wider benchmark plan is in
+[the working plan](proposals/2026-09-28-benchmark-method.md); decisions are in
+AGENTS.md. The `/keys` app implements the four-sorter workflow below. The
+claim and coding records below are the DEPENDENCE pilot's, not the current design.
 
 The site and the dataset share one set of files. The site reads them, and the
 Hugging Face release publishes them. Nothing in `data/` is site-specific.
@@ -65,22 +68,95 @@ the relevant pages.
 | `/questions/[slug]` (`/questions` redirects to `/`) | One question: sides with arguments, passages, link to search |
 | `/sources` | All works; filters (`?lang=&form=&century=&text=`) and sort (`?sort=`) |
 | `/sources/[id]` | One work: record, its answer to each question, passages |
-| `/keys` | Position keys for the six pilot questions: sign-in, then each historian's progress per question. Not in the nav |
-| `/keys/[q]` | One question's pool of passages (`research/keys/pools.json`). The signed-in historian sorts them into at most 15 positions (implied answer, argument, Yes/No/Other), one place per passage. Locks when Ben and Nathan have both finished |
-| `/keys/[q]/agreement` | Opens when both have finished: agreement for each pair of Ben, Nathan and Claude (`research/keys/claude.json`), each passage's place in the three lists, and the three lists. `/keys/[q]/compare` redirects here |
-| `/keys/[q]/final` | The final list, edited by Ben and Nathan together; freezes when both agree to the same version (`research/keys/PROCEDURE.md`) |
+| `/keys` | Four-sorter progress, Ben's recorded evaluation rule, allowed pooled comparisons, and further-use decisions. Before human references lock, no agent content or scores are returned |
+| `/keys/[q]` | Shared written instructions and the signed-in historian's independent sorting. Earlier entries load as unfinished drafts. All independent lists lock together when all four sorters finish all six questions |
+| `/keys/[q]/agreement` | Opens after all independent lists lock and the rule is recorded. Only Ben and Nathan are returned until all six human references lock; then the four historian–agent comparisons and agent lists are returned. `/compare` redirects here |
+| `/keys/[q]/reference` | Human-only reference, started from either historian's independent list. Both approve the same content version. Frozen references are preserved separately from final keys |
+| `/keys/[q]/review` | Opens only after both historians lock all six references. Versioned definition judgments, matching position IDs, notes and recovered/missed/unsupported/discovery/unresolved counts for each agent; both historians approve the same review |
+| `/keys/[q]/final` | Starts from the saved human reference after that question's two reviews lock and both further-use decisions are recorded. Both historians approve the same final version |
+| `/api/keys/agents` | POST-only independent-run ingestion, authorized by `KEYS_IMPORT_TOKEN`. Returns receipt or validation errors, never run contents; no historian-facing upload form |
 | `/coding` | Redirects to `/keys`. The 60-item passage check it held is retired |
 | `/search` | Semantic search. Locally over every corpus in `trial/corpus/index/` (1.8 GB, not deployed); deployed over the canon only, from `search-index/` (written by `build_index.py --deploy`). Needs `OPENAI_API_KEY` to embed queries |
 | `/models` | Respondents grouped by role (`role` in `data/models.json`): core comparison, context, candidates |
-| `/method` | Plain summary of the working plan and the 13 Oct 2026 decisions. Keep in step with `docs/proposals/2026-09-28-benchmark-method.md` |
+| `/method` | Public summary of the wider plan and four-sorter key validation, including the remaining open thresholds |
 | `/about` | The premise, pilot status, authors, funding, repository |
 
-Claude's stances for the six pilot questions are hidden from public pages
-while their keys are built (`src/lib/data.ts`). Sortings and final lists
-are saved to `research/keys/entries/` when run locally, or to
-Upstash Redis (keys `keys:ben`, `keys:nathan`, `keys:final`) when `KV_REST_API_URL`/`KV_REST_API_TOKEN`
-are set. Passcodes come from `CODING_PASSCODE_BEN` and
-`CODING_PASSCODE_NATHAN` (not needed locally).
+Claude's earlier stances for the six pilot questions remain hidden from public
+pages (`src/lib/data.ts`). The new workflow does not import the preparatory
+`claude.json` as a qualifying run, or reuse old final-list approvals.
+
+`src/lib/key-model.ts` defines the shared types, validation, gates and agreement
+calculations. `research/keys/instructions.json` is the exact shared instruction
+text, quoted in PROCEDURE.md and displayed to historians.
+`research/keys/agents.json` defines the two configurations: `opus` is
+`claude-opus-5-5` at Medium; `sol` is `gpt-6.1-sol` at Medium. UI names and
+import checks use this configuration. The preparation script supplies the
+instructions unchanged to agents. An input hash covers those instructions,
+all six pools and the agent configurations. A changed input hash requires a
+new study, not an edit to existing results. A stored study from the earlier Astra configuration is
+preserved and rejected, never relabeled as Sol.
+
+`src/lib/key-store.ts` saves one versioned study at Redis key `keys:study:v2`,
+or locally at `research/keys/entries/study-v2.json` (ignored by Git). The prior
+Redis `keys:ben`, `keys:nathan`, `keys:final` and local files are untouched.
+Earlier human entries migrate as unfinished drafts. Local `KEYS_DATA_DIR` can
+point tests to a separate directory. Redis compare-and-set uses Lua; local
+writes use a filesystem lock and atomic rename. Earlier study revisions are
+retained in `keys:study:v2:history` or the local `history/` directory.
+
+`src/lib/keys.ts` authenticates historian access and guards every read and
+mutation. The dashboard returns only the reader's own categories before human
+comparisons open. Before all six references have both version-bound approvals,
+the comparison accessor returns `runs: null`, and the definition-review accessor
+rejects access. Pages never pass hidden runs into client components or rendered
+HTML. Completion requires written answers and reasons, directions, and exactly
+one placement per passage. Concurrent edits reject stale versions; edits clear
+both approvals. Independent lists, human references, agent originals, definition
+reviews, decisions and final keys remain separate records.
+
+Storage uses the existing Redis REST credentials, or local files when running
+locally. Sign-in still uses `CODING_PASSCODE_BEN`, `CODING_PASSCODE_NATHAN` and
+`CODING_SECRET` (passcodes are optional locally).
+
+To prepare inputs and prompts, run `node scripts/prepare-key-sorting.mjs --write`.
+It writes `research/keys/entries/independent-run-input.json`,
+which is a coordinator record, not the sorting input. It also writes
+`sorting-input.json` (questions and passages only), identical `run-opus-prompt.txt`
+and `run-sol-prompt.txt` (the short shared task suitable for the appendix), and
+separate `run-opus-setup.txt` and `run-sol-setup.txt` for local file access,
+JSON formatting and saving without revealing results. The sorting sessions read
+only their task prompt and `sorting-input.json`, not this architecture document,
+PROCEDURE.md, the coordinator packet or prior outputs. A previous different
+coordinator packet is archived in that ignored directory. Without `--write`,
+the script emits the coordinator JSON to stdout. It includes instructions,
+passages, output format, input hash, configurations and envelope templates.
+The coordinator selects the actual model and Medium effort, preserves the
+session and prompt, and wraps the original response in its import envelope.
+Originals and envelopes are saved under `entries/runs/opus/` and
+`entries/runs/sol/`, without printing category content.
+Record the exact model identifier, `settings.effort: "medium"`, other available
+settings, date, exposure note, full prompt and unedited JSON response. The import
+rejects Astra, other models, missing effort and any effort other than Medium.
+All six question sortings must be valid; duplicate placements or missing definitions are rejected without silently repairing the output.
+
+A coordinator imports each envelope with
+`node scripts/import-key-agent-run.mjs <run-envelope.json>`. Set
+`KEYS_APP_URL` to the app origin (default `http://localhost:3000`) and set the
+same `KEYS_IMPORT_TOKEN` in the server and importing environment. Importing
+requires that token, not a historian cookie. Existing runs cannot be replaced.
+The app does not call model APIs or generate runs automatically. Original drafts
+and failed outputs remain research records; do not relabel them as new runs.
+
+Ben records the evaluation rule on `/keys`; it becomes immutable when human
+comparisons open. The app does not invent a threshold or compute a pass. After
+all definition reviews have both approvals, Ben records how the saved rule
+applies to each agent. Each decision may be use with historian checks, revise
+and retest on fresh questions, or inconclusive.
+
+Verification: `npm run test:keys` exercises the gates, metrics, migration,
+version checks and preservation of references. After a production build,
+`node --test tests/keys-pages.test.mjs` starts an isolated local app and checks
+HTML and React Server Component payloads before and after the reveal boundary.
 
 View, sort, model and search parameters live in the URL and are rendered on
 the server, so pages can be linked. List rows expand with native `<details>`.

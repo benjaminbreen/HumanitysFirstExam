@@ -1,7 +1,10 @@
 # Q33 answer-key prototype: coding instructions
 
-Status: draft for human review. These rules have not yet been tested by two
-independent coders.
+**Superseded agent draft; kept as a record. Do not use for current coding.**
+The current position-key method is [PROCEDURE.md](../keys/PROCEDURE.md), fixed
+17 October 2026. Later benchmark-answer coding follows
+[the working plan](../../docs/proposals/2026-09-28-benchmark-method.md).
+The instructions and terminology below belong to the earlier Q33 prototype.
 
 ## Units
 

@@ -1,4 +1,7 @@
-**Retired 14 October 2026.** This check was replaced by the position keys (`research/keys/PROCEDURE.md`, `/keys`) before Nathan coded it. Kept as a record; do not run it.
+**Retired 14 October 2026. Kept as a record; do not run it.** This check was
+replaced before Nathan coded it. Current key validation follows the
+[four-sorter procedure](../keys/PROCEDURE.md), fixed 17 October 2026.
+The old approval and instructions below apply only to this retired check.
 
 Blind passage check
 
