@@ -126,7 +126,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
       return x;
     });
   const del = (c: Category) => {
-    if ((c.claim || c.reason || c.passages.length) && !confirm("Delete this position? Its passages become unplaced.")) return;
+    if ((c.claim || c.reason || c.passages.length) && !confirm("Delete this pile? Its passages become unplaced.")) return;
     update((x) => ({ ...x, categories: x.categories.filter((y) => y.id !== c.id) }));
   };
   const move = (id: string, d: -1 | 1) =>
@@ -260,7 +260,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                           else if (v) add(p.id, v);
                         }}
                         className="border border-line bg-bg px-1.5 py-0.5 text-[13px] text-ink-soft hover:border-ink"
-                        aria-label={`Add passage ${num(p.id)} to a position`}
+                        aria-label={`Add passage ${num(p.id)} to a pile`}
                       >
                         <option value="">{at.length ? "Move to…" : "Put in…"}</option>
                         {s.categories.map((c, i) => (
@@ -268,11 +268,11 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                             {letter(i)}. {c.claim ? trim(c.claim, 48) : "(no answer written yet)"}
                           </option>
                         ))}
-                        {!full && <option value="new">New position…</option>}
+                        {!full && <option value="new">New pile…</option>}
                         <option value="off" disabled={s.off.includes(p.id)}>Off the question</option>
                         <option value="unclear" disabled={s.unclear.includes(p.id)}>Unclear</option>
                       </select>}
-                      {!locked && <span className="hidden text-[12px] text-ink-faint lg:group-hover:inline">or drag to a position</span>}
+                      {!locked && <span className="hidden text-[12px] text-ink-faint lg:group-hover:inline">or drag to a pile</span>}
                     </div>
                   </div>
                 </div>
@@ -284,14 +284,14 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
       </section>
 
       {/* Positions */}
-      <section aria-label="Positions" className="lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:self-start lg:overflow-y-auto lg:pr-1">
+      <section aria-label="Piles" className="lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:self-start lg:overflow-y-auto lg:pr-1">
         <div className="mb-3 flex items-baseline justify-between border-b border-rule pb-2">
-          <h2 className="label">Positions</h2>
+          <h2 className="label">Piles</h2>
           <span className="font-mono text-[12px] text-ink-faint" aria-live="polite">
             {status === "saving" ? "Saving…" : status === "error" ? "Not saved. Check your connection." : savedAt ? `Saved ${time(savedAt)}` : ""}
           </span>
         </div>
-        <p className="mb-4 text-[14px] text-ink-soft">A position is one answer to the question plus one reason for it. Make one for each answer-and-reason you find, then drag each passage to the position it argues for.</p>
+        <p className="mb-4 text-[14px] text-ink-soft"><strong className="text-ink">Sort the passages into piles.</strong> Put passages that make the same argument in the same pile. For each pile, sum up the argument in two parts: what it concludes, and why.</p>
 
         <ol className="space-y-4">
           {s.categories.map((c, i) => (
@@ -304,7 +304,7 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   <button onClick={() => del(c)} className="hover:text-period">Delete</button>
                 </span>}
               </div>
-              <Field label="Answer" readOnly={locked} value={c.claim} autoFocus={focus === c.id} placeholder="How these passages answer the question, in a sentence" onChange={(v) => edit(c.id, "claim", v)} />
+              <Field label="Concludes" readOnly={locked} value={c.claim} autoFocus={focus === c.id} placeholder="For example: machines weaken the will" onChange={(v) => edit(c.id, "claim", v)} />
               <div className="mt-2 flex items-center gap-2">
                 <span className="font-mono text-[11px] tracking-wider text-ink-faint uppercase">In short</span>
                 {(["yes", "no", "other"] as const).map((d) => (
@@ -319,20 +319,20 @@ export function Board({ q, passages, initial, labels, max, mode = "sort", locked
                   </button>
                 ))}
               </div>
-              <Field label="Because" readOnly={locked} value={c.reason} placeholder="The reason the passages give for that answer" onChange={(v) => edit(c.id, "reason", v)} />
+              <Field label="Because" readOnly={locked} value={c.reason} placeholder="For example: repeating one motion all day leaves no room for judgment" onChange={(v) => edit(c.id, "reason", v)} />
               {mode !== "sort" && (
                 <Field label="Note" readOnly={locked} value={c.note ?? ""} placeholder={mode === "reference" ? "How you settled the difference between your lists" : "How this was settled; name Opus or Sol for agent-only additions"} onChange={(v) => edit(c.id, "note", v)} />
               )}
               <ul className="mt-2 flex min-h-9 flex-wrap gap-1.5 border border-dashed border-line p-1.5">
                 {c.passages.map((pid) => chip(pid, c.id))}
-                {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drag the passages that make this argument here</li>}
+                {!c.passages.length && <li className="self-center px-1 text-[12.5px] text-ink-faint">Drag passages here</li>}
               </ul>
             </li>
           ))}
         </ol>
         {!locked && (
           <button onClick={() => newCategory()} disabled={full} className="mt-4 w-full border border-rule py-2 font-mono text-[13px] hover:bg-surface disabled:opacity-40">
-            {full ? `${max} positions is the limit` : "+ New position"}
+            {full ? `${max} piles is the limit` : "+ New pile"}
           </button>
         )}
 
@@ -392,7 +392,7 @@ function Field({ label, value, onChange, placeholder, autoFocus, readOnly }: { l
         ref={ref}
         rows={1}
         value={value}
-        maxLength={label === "Answer" ? 600 : 1200}
+        maxLength={label === "Concludes" ? 600 : 1200}
         autoFocus={autoFocus}
         readOnly={readOnly}
         placeholder={placeholder}
