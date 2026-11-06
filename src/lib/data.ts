@@ -85,6 +85,8 @@ export type Passage = {
   summaryCheck?: string;
   corrected?: string; // OCR-corrected text; "original" stays verbatim
   correction?: string; // how: "mechanical (…)" or "hand (…)"
+  selectionStatus?: "reserve";
+  reserveReason?: string;
 };
 
 export type Model = {
@@ -132,15 +134,19 @@ const heldBack = new Set(stances.filter((s) => KEY_PILOT.includes(s.question)).m
 export const isHeldBack = (s: Stance) => heldBack.has(s.id);
 export const heldBackForQuestion = (id: string) => stancesForQuestion(id).filter(isHeldBack).length;
 export const stancesForWork = (id: string) => stances.filter((s) => s.work === id);
-export const passagesForWork = (id: string) => passages.filter((p) => !p.stance && p.work === id);
+export const passagesForWork = (id: string) => passages.filter((p) => !p.stance && p.selectionStatus !== "reserve" && p.work === id);
 // Passages not tied to one stance (the passage-translation test).
-export const passagesForQuestion = (id: string) => passages.filter((p) => !p.stance && p.questions.includes(id));
+export const passagesForQuestion = (id: string) => passages.filter((p) => !p.stance && p.selectionStatus !== "reserve" && p.questions.includes(id));
 const passageById = new Map(passages.map((p) => [p.id, p]));
 export const quoteFor = (s: Stance) => (s.passage ? passageById.get(s.passage) : undefined);
 
 export function worksForQuestion(id: string): Work[] {
-  return stancesForQuestion(id)
-    .map((s) => workById.get(s.work))
+  const ids = new Set([
+    ...stancesForQuestion(id).map((s) => s.work),
+    ...passagesForQuestion(id).flatMap((p) => p.work ? [p.work] : []),
+  ]);
+  return [...ids]
+    .map((work) => workById.get(work))
     .filter((w): w is Work => Boolean(w));
 }
 

@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-10-14",
+ "date": "2026-10-28",
  "stances": [
   {
    "id": "q01-menabrea-sketch-analytical",
@@ -167,11 +167,13 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "reasonable conversation could be built in without the machine reasoning",
-   "argument": "Answers Descartes by imagining a switchboard machine with a stored reply for every possible question; it could discuss any subject, but its maker would have done the thinking in advance.",
-   "where": null,
+   "argument": "Torres argues that appropriate replies need not involve the automaton’s own reasoning: the constructor could prearrange them. The restored paragraph compares the practical difficulty with constructing a lifelike animal. This is a theoretical construction, not a report of a built conversational machine.",
+   "where": "Revista de la Real Academia de Ciencias 12 (1914), p.398",
    "confidence": "medium",
-   "checked": "Read the passage as quoted in Manuel Garrido, 'El autómata con discernimiento de Torres Quevedo', Límite 17 (2003) (Dialnet PDF), which gives the original venue as Revista de la Real Academia de Ciencias Exactas, Físicas y Naturales XII, 391–419. Did not open the original.",
-   "status": "unverified"
+   "checked": "Original and English checked against printed page by Codex on 28 Oct 2026; no independent historian review. Restored the omitted qualification in both languages; checked conmutadores (switches), electroimán (electromagnet), and de omni re scibile (everything knowable). No substantive translation error found.",
+   "status": "unverified",
+   "passage": "q02-quevedo-essays-automatics",
+   "reviewNote": "Torres argues that appropriate replies need not involve the automaton’s own reasoning: the constructor could prearrange them. The restored paragraph compares the practical difficulty with constructing a lifelike animal. This is a theoretical construction, not a report of a built conversational machine."
   },
   {
    "id": "q02-jefferson-mind-mechanical",
@@ -266,11 +268,13 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "an automaton can weigh circumstances and choose its action",
-   "argument": "The main object of automatics is automata with 'discernment' that take in impressions, weigh the circumstances and adapt their conduct as living beings do.",
-   "where": null,
+   "argument": "Torres rejects the mental/manual distinction and proposes automata whose actions are determined by circumstances under rules fixed at construction. Arbitrariamente means rules freely specified by the constructor, not random conduct. This passage does not establish learning beyond anticipated cases.",
+   "where": "Revista de la Real Academia de Ciencias 12 (1914), p.394",
    "confidence": "medium",
-   "checked": "Read the passage as quoted in Manuel Garrido, 'El autómata con discernimiento de Torres Quevedo' (Dialnet PDF): 'que los autómatas tengan discernimiento ... adaptando su conducta a las circunstancias'. Did not open the original.",
-   "status": "unverified"
+   "checked": "Original and English checked against printed page by Codex on 28 Oct 2026; no independent historian review. Checked pese (weighs/assesses), arbitrariamente (freely specified, not random), and sin ninguna incertidumbre (without uncertainty). Changed paper to note for esta nota; otherwise retained the translation.",
+   "status": "unverified",
+   "passage": "q03-quevedo-essays-automatics",
+   "reviewNote": "Torres rejects the mental/manual distinction and proposes automata whose actions are determined by circumstances under rules fixed at construction. Arbitrariamente means rules freely specified by the constructor, not random conduct. This passage does not establish learning beyond anticipated cases."
   },
   {
    "id": "q03-rosenblueth-behavior-purpose",
@@ -292,11 +296,14 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "a learning machine can meet situations its programmer did not foresee",
-   "argument": "Proposes building a child machine that learns by reward and punishment, whose later behavior its teacher cannot fully predict.",
-   "where": null,
+   "argument": "Turing distinguishes a trained machine from a computation whose internal state the operator aims to follow. The omitted continuation allows some prediction of its behaviour; opacity alone does not establish judgment. Brief extract: the full pp.458–459 discussion should be reviewed before making a sorting pool.",
+   "where": "Mind 59 (1950), section 7, p.458; paragraph continues on p.459",
    "confidence": "medium",
-   "checked": "Web search: Mind 59 (1950), 433–460; summaries confirm the learning-machine proposal. Section number not checked.",
-   "status": "unverified"
+   "checked": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+   "status": "unverified",
+   "passage": "q03-turing-learning-teacher",
+   "reviewNote": "Turing distinguishes a trained machine from a computation whose internal state the operator aims to follow. The omitted continuation allows some prediction of its behaviour; opacity alone does not establish judgment. Brief extract: the full pp.458–459 discussion should be reviewed before making a sorting pool.",
+   "reviewCheck": "Brief quotation checked against the original scan; full passage and inherited draft category need review."
   },
   {
    "id": "q04-malebranche-search-after",
@@ -871,13 +878,13 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "development needs a formative drive",
-   "argument": "Argues that generation depends on a specific formative drive (Bildungstrieb) in organized matter that shapes and repairs the body, which neither preformed germs nor ordinary physical forces explain.",
+   "argument": "Blumenbach denies pre-existing organized germs and defines formative nisus as a distinctive force of generation, growth, nutrition and reproduction.",
    "where": null,
    "confidence": "high",
    "checked": "German 1789 Göttingen edition and 1792 English translation both listed on Internet Archive (search results; Wellcome Collection record).",
    "status": "unverified",
-   "reviewCheck": "other: the passage argues against preformed germs; it does not show the claim that ordinary physical forces cannot explain generation, or that the drive repairs the body.",
-   "reviewNote": "Blumenbach argues from monsters in domesticated animals for the Formative Nisus against pre-existing germs and states that the evidence has turned him against the system of involved germs.",
+   "reviewCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
+   "reviewNote": "Blumenbach denies pre-existing organized germs and defines formative nisus as a distinctive force of generation, growth, nutrition and reproduction.",
    "passage": "q09-blumenbach-essay-generation"
   },
   {
@@ -991,12 +998,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "inference can be mechanized",
-   "argument": "Describes a 'logical piano' that derives the conclusions from given premises mechanically, arguing that deductive inference can be carried out by a machine.",
+   "argument": "Jevons contrasts the incompleteness of the ancient syllogism with deduction founded on fundamental laws of thought that can be embodied in uniform mechanical movements.",
    "where": null,
    "confidence": "high",
    "checked": "Philosophical Transactions of the Royal Society 160 (1870), pp. 497-518; JSTOR 109068; Internet Archive copy listed.",
    "status": "unverified",
-   "reviewNote": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes.",
+   "reviewNote": "Jevons contrasts the incompleteness of the ancient syllogism with deduction founded on fundamental laws of thought that can be embodied in uniform mechanical movements.",
    "passage": "q10-jevons-mechanical-performance"
   },
   {
@@ -1051,12 +1058,12 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "logic alone does not settle mathematics",
-   "argument": "Attacks the logicists (Russell, Couturat) for claiming that mathematics reduces to formal logic, arguing that invention and intuition cannot be replaced by rules of deduction.",
+   "argument": "Poincaré argues that blind adherence to rules would require infallibility, whereas logicians have encountered contradictions and are revising their rules.",
    "where": "Book II, 'Les logiques nouvelles' and 'Les derniers efforts des logisticiens'",
    "confidence": "medium",
    "checked": "Chapter titles confirmed in search results (Wikisource, CNRS Images des mathématiques). Book number from memory of structure; chapter titles verified.",
    "status": "unverified",
-   "reviewNote": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor.",
+   "reviewNote": "Poincaré argues that blind adherence to rules would require infallibility, whereas logicians have encountered contradictions and are revising their rules.",
    "passage": "q10-poincare-science-method"
   },
   {
@@ -1139,12 +1146,12 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "results matter more than logic",
-   "argument": "Satirizes conceptual jurisprudence as a heaven of pure legal concepts cut off from the practical results they produce in real cases.",
+   "argument": "In the satire, the heaven of theoretical concepts is separated from the practitioners’ afterlife: practitioners could neither breathe nor see in the theorists’ world. This excerpt does not give a particular unjust judicial decision.",
    "where": "Part III, 'Im juristischen Begriffshimmel'",
    "confidence": "medium",
    "checked": "Internet Archive and HathiTrust records listed; section 'Im juristischen Begriffshimmel' confirmed. Part number from memory.",
    "status": "unverified",
-   "reviewNote": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary.",
+   "reviewNote": "In the satire, the heaven of theoretical concepts is separated from the practitioners’ afterlife: practitioners could neither breathe nor see in the theorists’ world. This excerpt does not give a particular unjust judicial decision.",
    "passage": "q11-jhering-jest-earnest"
   },
   {
@@ -1254,12 +1261,12 @@
    "side": "qualified",
    "sideLabel": "Qualified",
    "sideGloss": "measure but do not fix",
-   "argument": "Presents his measuring scale for intelligence but argues that intelligence can be trained and that a single test result should not fix a child's future.",
+   "argument": "Binet argues that distraction, discomfort or boredom can cause failure on a test, making measurement of a child’s intelligence from very few tests absurd. This is a qualification of testing, not a rejection of all tests.",
    "where": null,
    "confidence": "medium",
    "checked": "Paris: Flammarion 1909; Gallica and Internet Archive records in search results. Argument summary from general knowledge of the book; no chapter confirmed.",
    "status": "unverified",
-   "reviewNote": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests.",
+   "reviewNote": "Binet argues that distraction, discomfort or boredom can cause failure on a test, making measurement of a child’s intelligence from very few tests absurd. This is a qualification of testing, not a rejection of all tests.",
    "passage": "q12-binet-modern-ideas"
   },
   {
@@ -1284,13 +1291,13 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "tests determine fitness",
-   "argument": "Presents the Stanford-Binet scale and argues that intelligence tests should guide school placement and vocational fitness.",
+   "argument": "Terman anticipates occupational intelligence-quotient thresholds and recommends psychologists to screen applicants, while denying that available tests can unerringly select a precise occupation for each person.",
    "where": null,
    "confidence": "high",
    "checked": "Houghton Mifflin 1916; Gutenberg #20662.",
    "status": "unverified",
-   "reviewCheck": "overstated",
-   "reviewNote": "Terman says the scale can bound the vocational territory in which a person may succeed and will contribute more than all other data to forecasting a child's future, but also that it is not a detailed vocational chart and must be interpreted with other information.",
+   "reviewCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
+   "reviewNote": "Terman anticipates occupational intelligence-quotient thresholds and recommends psychologists to screen applicants, while denying that available tests can unerringly select a precise occupation for each person.",
    "passage": "q12-terman-measurement-intelligence"
   },
   {
@@ -1624,12 +1631,12 @@
    "side": "qualified",
    "sideLabel": "Qualified",
    "sideGloss": "lengthen, not endless",
-   "argument": "Argues that ageing is caused by intestinal poisoning that science can combat, so life can be lengthened to a full natural span ending in a natural wish for death.",
+   "argument": "Metchnikoff defines orthobiosis as prolonged active, healthy old age followed by satiety of life and a wish for death, expressly distinguishing this ideal from simple prolongation.",
    "where": null,
    "confidence": "medium",
    "checked": "English edition 1907, Putnam; Gutenberg #51521. French title Essais optimistes (1907) from memory, not verified. Argument summary from general knowledge.",
    "status": "unverified",
-   "reviewNote": "Metchnikoff's own voice arguing that prolonging life is useful because it would preserve intelligence and capacity for work; the intestinal-poisoning cause and the instinct for death are not in this passage, and c3 is the translator's introduction, not Metchnikoff.",
+   "reviewNote": "Metchnikoff defines orthobiosis as prolonged active, healthy old age followed by satiety of life and a wish for death, expressly distinguishing this ideal from simple prolongation.",
    "passage": "q15-metchnikoff-prolongation-life"
   },
   {
@@ -1682,12 +1689,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "bodily parts are not the person",
-   "argument": "Holds that a person is indivisible, so an amputated limb was never part of the person and losing it leaves the same person.",
+   "argument": "Reid argues that amputation does not divide the person: the enduring self is indivisible even though its thoughts, actions and feelings change.",
    "where": "Essay III, chapter 4, 'Of Identity'",
    "confidence": "high",
    "checked": "Passage 'a part of a person is a manifest absurdity' confirmed (ummoss.org text); Internet Archive copy listed.",
    "status": "unverified",
-   "reviewNote": "Reid distinguishes the organs of perception from the being that perceives, comparing the eye to a telescope as natural and artificial organs; the amputated-limb and indivisibility argument in the summary is not in these candidates.",
+   "reviewNote": "Reid argues that amputation does not divide the person: the enduring self is indivisible even though its thoughts, actions and feelings change.",
    "passage": "q16-reid-essays-intellectual"
   },
   {
@@ -1771,12 +1778,12 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "under present arrangements",
-   "argument": "Population made superfluous by machines suffers; the calamity is not the machine but the unjust division of its product.",
+   "argument": "Sismondi locates the calamity in unjust distribution, not improved machinery. A self-employed worker could take the productivity gain as leisure, whereas a dependent worker may work longer for the same wage.",
    "where": "Livre VII, Chapitre VII: De la population rendue superflue par l'invention des machines",
    "confidence": "high",
    "checked": "Opened Internet Archive text of 2nd ed. (1827) vol. 2; confirmed Livre VII, Chapitre VII title and passage.",
    "status": "unverified",
-   "reviewNote": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates.",
+   "reviewNote": "Sismondi locates the calamity in unjust distribution, not improved machinery. A self-employed worker could take the productivity gain as leisure, whereas a dependent worker may work longer for the same wage.",
    "passage": "q17-sismondi-new-principles"
   },
   {
@@ -1815,12 +1822,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "machinery improves workers' lives",
-   "argument": "Factory machinery makes work light and leaves operatives better fed and paid than other labouring classes; he describes child piecers at work as cheerful.",
+   "argument": "Ure reports seeing cheerful child workers in factories and claims that, with adequate food and clothing, they would thrive there better than in unhealthy homes. These are Ure’s claims, not independently established facts about factory conditions.",
    "where": "Book III, Chapter I: Condition of our Factory Operatives, as to Personal Comforts",
    "confidence": "high",
    "checked": "Opened Internet Archive djvu text; confirmed contents and Book III ch. I title and the 'lively elves' passage.",
    "status": "unverified",
-   "reviewNote": "Ure claims improvements in machinery raise operatives' earnings and wages throughout the trade; his description of cheerful child piecers is in c1.",
+   "reviewNote": "Ure reports seeing cheerful child workers in factories and claims that, with adequate food and clothing, they would thrive there better than in unhealthy homes. These are Ure’s claims, not independently established facts about factory conditions.",
    "passage": "q17-ure-philosophy-manufactures"
   },
   {
@@ -2012,12 +2019,12 @@
    "side": "the-worker-as-shorter-hours",
    "sideLabel": "The worker, as shorter hours",
    "sideGloss": "",
-   "argument": "The more a machine lets us produce, the more rest or enjoyment we should get; a self-employed worker would stop after two hours, and the present division of the product is unjust.",
+   "argument": "Sismondi argues that greater output per unit of labor ought to increase enjoyment or rest; his self-employed worker stops after two hours, while the dependent worker does not receive the benefit.",
    "where": "Livre VII, Chapitre VII",
    "confidence": "high",
    "checked": "Opened Internet Archive text of 2nd ed. (1827) vol. 2; confirmed passage in Livre VII, Chapitre VII.",
    "status": "unverified",
-   "reviewNote": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1.",
+   "reviewNote": "Sismondi argues that greater output per unit of labor ought to increase enjoyment or rest; his self-employed worker stops after two hours, while the dependent worker does not receive the benefit.",
    "passage": "q19-sismondi-new-principles"
   },
   {
@@ -2176,12 +2183,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "habit frees attention",
-   "argument": "The more daily details are handed over to automatic habit, the more the higher powers of mind are freed for their proper work.",
+   "argument": "James recommends making useful actions habitual so that automatic performance of daily details releases higher mental powers for their own work.",
    "where": "Chapter IV: Habit",
    "confidence": "high",
    "checked": "Downloaded Gutenberg #57628; confirmed Chapter IV 'Habit' and the passage.",
    "status": "unverified",
-   "reviewNote": "James argues that without habit economizing effort man would be in a sorry plight, and quotes Maudsley with approval that without it a lifetime could be spent on one or two deeds; the sentence about freeing the higher powers of mind is not in the candidates.",
+   "reviewNote": "James recommends making useful actions habitual so that automatic performance of daily details releases higher mental powers for their own work.",
    "passage": "q20-james-principles-psychology"
   },
   {
@@ -2656,12 +2663,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "total reliance leaves people helpless",
-   "argument": "Imagines a humanity that lives entirely inside a Machine that supplies all needs; when it fails, people cannot survive, having lost the knowledge and bodily capacity to act for themselves.",
+   "argument": "Kuno says the Machine has robbed people of spatial and tactile capacities, weakened relationships, paralyzed bodies and wills, and compelled worship. This is his speech, not the later narrated collapse.",
    "where": null,
    "confidence": "high",
    "checked": "Gutenberg #72890 (The Eternal Moment and Other Stories, 1928), story text searched; first published Oxford and Cambridge Review 1909.",
    "status": "unverified",
-   "reviewNote": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails.",
+   "reviewNote": "Kuno says the Machine has robbed people of spatial and tactile capacities, weakened relationships, paralyzed bodies and wills, and compelled worship. This is his speech, not the later narrated collapse.",
    "passage": "q25-forster-machine-stops"
   },
   {
@@ -2701,13 +2708,13 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "the discoverer feels answerable for later uses",
-   "argument": "The physicist Holsten, frightened by the consequences of his discovery of atomic energy, feels he ought not to publish and that wise men should hold it until the world is ready.",
+   "argument": "The narrator describes Holsten’s fear of his discovery’s consequences and his thought that publication might be premature. His later disclaimer of unforeseeable consequences is a separate passage.",
    "where": "Chapter the First",
    "confidence": "high",
    "checked": "Gutenberg #1059; Holsten passage found in Chapter the First.",
    "status": "unverified",
-   "reviewCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
-   "reviewNote": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences.",
+   "reviewCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
+   "reviewNote": "The narrator describes Holsten’s fear of his discovery’s consequences and his thought that publication might be premature. His later disclaimer of unforeseeable consequences is a separate passage.",
    "passage": "q26-wells-world-set"
   },
   {
@@ -2717,12 +2724,13 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "the inventor cannot shed the burden of what his invention does",
-   "argument": "A chemist who invents a catastrophic explosive is pursued by those who want to use it, witnesses an explosion he did not intend, and at the end is told to give up great things and do small things that help people.",
-   "where": null,
+   "argument": "In the final chapter, the old man whom Prokop recognizes as God urges him to abandon destructive work and start again with useful energy. This makes responsibility an obligation to redirect invention; it is not a legal rule about every unintended harm. Quoted from Lawrence Hyde’s 1925 English translation of the 1924 Czech novel.",
+   "where": "Chapter LIV, concluding dialogue; Lawrence Hyde translation (1925)",
    "confidence": "medium",
-   "checked": "Gutenberg #79127 (Hyde translation) searched; ending read. Also IA 'krakatit0000cape' (1925).",
+   "checked": "Checked against a local transcription; page images not newly checked",
    "status": "unverified",
-   "reviewNote": "The candidates show Prokop's delirium, his new laboratory, and a rhapsodic speech about releasing energy; none contains the closing advice to give up great things or any statement of the inventor's responsibility."
+   "reviewNote": "In the final chapter, the old man whom Prokop recognizes as God urges him to abandon destructive work and start again with useful energy. This makes responsibility an obligation to redirect invention; it is not a legal rule about every unintended harm. Quoted from Lawrence Hyde’s 1925 English translation of the 1924 Czech novel.",
+   "passage": "q26-capek-krakatit"
   },
   {
    "id": "q26-russell-icarus-future",
@@ -2761,11 +2769,14 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "scientists are responsible for foreseeable misuse",
-   "argument": "Refuses to share his wartime guided-missile research, arguing after Hiroshima that supplying scientific information is not an innocent act and that the scientist must answer for its use.",
-   "where": null,
+   "argument": "Wiener responds to a request for wartime research on controlled missiles. He treats disclosure as a moral choice because of foreseeable civilian harm. This supports responsibility for dissemination, not unlimited liability for every unforeseeable use. Brief extract; review the full paragraph before preparing a sorting pool.",
+   "where": "The Atlantic Monthly 179, no.1 (January 1947), p.46, right column, penultimate paragraph",
    "confidence": "medium",
-   "checked": "Web search: Atlantic Monthly, January 1947; Wikipedia 'Norbert Wiener' and other secondary pages quote the letter. Full text not opened.",
-   "status": "unverified"
+   "checked": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+   "status": "unverified",
+   "passage": "q26-wiener-scientist-rebels",
+   "reviewNote": "Wiener responds to a request for wartime research on controlled missiles. He treats disclosure as a moral choice because of foreseeable civilian harm. This supports responsibility for dissemination, not unlimited liability for every unforeseeable use. Brief extract; review the full paragraph before preparing a sorting pool.",
+   "reviewCheck": "Brief quotation checked against the original scan; full passage and inherited draft category need review."
   },
   {
    "id": "q27-bacon-new-atlantis",
@@ -2980,12 +2991,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "begetting gives dominion",
-   "argument": "Argues Adam and the patriarchs held absolute power of life and death over their families by natural right of fatherhood.",
+   "argument": "Filmer treats patriarchal dominion as sovereign power, explicitly invoking life-and-death judgment, war and treaty making. The argument concerns paternal rule, not directly the manufacture of an intelligent being.",
    "where": "Chapter I",
    "confidence": "high",
    "checked": "Internet Archive 1680 edition text; passage read before 'CHAP. II'.",
    "status": "unverified",
-   "reviewNote": "Filmer grounds kingly jurisdiction in the natural fatherhood of the first progenitors, whose right descends to their heirs; the candidates do not mention a power of life and death.",
+   "reviewNote": "Filmer treats patriarchal dominion as sovereign power, explicitly invoking life-and-death judgment, war and treaty making. The argument concerns paternal rule, not directly the manufacture of an intelligent being.",
    "passage": "q29-filmer-patriarcha-natural"
   },
   {
@@ -3233,12 +3244,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "technology usurps man's spiritual place",
-   "argument": "Argues modern civilisation puts tools in the place of their users and that, without a spiritual reorientation, technology will destroy man as a person.",
+   "argument": "Berdyaev describes faith in technics as the remaining strong faith of modern civilized humanity, whose attachment to it may change humanity’s own image.",
    "where": null,
    "confidence": "medium",
    "checked": "Web search: published in the émigré journal Put' (Paris), 1933; soctech.spbstu.ru English translation page.",
    "status": "unverified",
-   "reviewNote": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist.",
+   "reviewNote": "Berdyaev describes faith in technics as the remaining strong faith of modern civilized humanity, whose attachment to it may change humanity’s own image.",
    "passage": "q31-berdyaev-man-machine"
   },
   {
@@ -3451,12 +3462,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "superior (industrial) nations have a right and duty to rule",
-   "argument": "The superior races have a right over the inferior races because they have a duty to civilize them; coaling stations are needed because a modern warship cannot cross the seas without them.",
+   "argument": "Ferry asserts that contemporary European nations generously discharge a superior race’s civilizing duty, contrasting this with earlier Spanish enslavement. The excerpt does not state the technological premise or the explicit right-because-duty formula.",
    "where": null,
    "confidence": "high",
    "checked": "Wikipedia 'Jules Ferry' and Scribd copy date the speech 28 July 1885; the Latin Library excerpt (dated there to 28 March 1884) contains the 'superior races have a right because they have a duty' and coal-supply passages. The date discrepancy needs checking against the Journal officiel.",
    "status": "unverified",
-   "reviewNote": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates.",
+   "reviewNote": "Ferry asserts that contemporary European nations generously discharge a superior race’s civilizing duty, contrasting this with earlier Spanish enslavement. The excerpt does not state the technological premise or the explicit right-because-duty formula.",
    "passage": "q34-ferry-speech-chamber"
   },
   {
@@ -3554,12 +3565,12 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "for subjects; the artifice belongs to the sovereign",
-   "argument": "The commonwealth is an artificial man made by human art and could last as long as mankind if built by reason; but subjects who judge its laws by private conscience are a disease that dissolves it.",
+   "argument": "Hobbes criticizes private conscience as a competing judge of good and evil where civil law has determined the matter, arguing that competing private judgments would divide the commonwealth.",
    "where": "Introduction; Chapter XXIX, Of those things that Weaken, or tend to the Dissolution of a Common-wealth",
    "confidence": "high",
    "checked": "Wikisource Introduction page; Project Gutenberg text; chapter 29 title and opening confirmed via earlymoderntexts and Saylor copy.",
    "status": "unverified",
-   "reviewNote": "Hobbes says commonwealths could last as long as mankind if built by reason, but men as makers lack the art and humility to build them without 'a very able Architect'; the summary's point about private conscience is not in this candidate.",
+   "reviewNote": "Hobbes criticizes private conscience as a competing judge of good and evil where civil law has determined the matter, arguing that competing private judgments would divide the commonwealth.",
    "passage": "q35-hobbes-leviathan"
   },
   {
@@ -3628,12 +3639,12 @@
    "side": "yes",
    "sideLabel": "Yes",
    "sideGloss": "the machine must be broken and rebuilt",
-   "argument": "The state is a machine of class rule; the working class cannot simply take over the ready-made state machinery but must smash it and build a new one.",
+   "argument": "Lenin interprets Marx as requiring the working class to smash ready-made state machinery rather than merely take possession of it.",
    "where": null,
    "confidence": "high",
    "checked": "Marxists Internet Archive chapter pages (chapter 6 and section 'What Is To Replace the Smashed State Machine?'); Liberation School study guide. Written Aug-Sept 1917, published 1918.",
    "status": "unverified",
-   "reviewNote": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants.",
+   "reviewNote": "Lenin interprets Marx as requiring the working class to smash ready-made state machinery rather than merely take possession of it.",
    "passage": "q35-lenin-state-revolution"
   },
   {
@@ -3868,12 +3879,12 @@
    "side": "no",
    "sideLabel": "No",
    "sideGloss": "",
-   "argument": "'Men have become the tools of their tools': the farmer and the householder serve the equipment that was meant to serve them.",
+   "argument": "Thoreau contrasts a mobile, self-providing life with settled dependence and says that people have become the tools of their tools. The passage addresses dependence more directly than attribution of technical capability.",
    "where": "Economy",
    "confidence": "high",
    "checked": "Quote Investigator and Digital Thoreau text of 'Economy'.",
    "status": "unverified",
-   "reviewNote": "Thoreau says the farmer's house has got him rather than he the house; the phrase 'tools of their tools' is not in the candidates.",
+   "reviewNote": "Thoreau contrasts a mobile, self-providing life with settled dependence and says that people have become the tools of their tools. The passage addresses dependence more directly than attribution of technical capability.",
    "passage": "q38-thoreau-walden"
   },
   {

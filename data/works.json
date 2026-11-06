@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-10-14",
+ "date": "2026-10-28",
  "works": [
   {
    "id": "plato-phaedrus",
@@ -5713,11 +5713,11 @@
    "language": "Spanish",
    "kind": "periodical",
    "wikidata": null,
-   "textUrl": null,
-   "text": "none",
+   "textUrl": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+   "text": "full",
    "translation": {
     "kind": "none",
-    "note": "French version published 1915 in the Revue générale des sciences; no public-domain English translation found"
+    "note": "Two excerpts translated by Codex from the Spanish 1914 original, 28 Oct 2026; independent review pending."
    },
    "questions": [
     "Q02",
@@ -5726,7 +5726,8 @@
    "texts": [],
    "selectedBy": "Ben Breen",
    "selectedOn": "2026-09-29",
-   "suggestedBy": "Claude research agents, 29 Sep 2026"
+   "suggestedBy": "Claude research agents, 29 Sep 2026",
+   "sourceFile": "research/passages/sources/torres-four-question-review.txt"
   },
   {
    "id": "rilke-dolls-wax",
@@ -6264,8 +6265,8 @@
    "textUrl": "https://www.gutenberg.org/ebooks/79127",
    "text": "full",
    "translation": {
-    "kind": "none",
-    "note": "Lawrence Hyde, Krakatit (1925); Gutenberg #79127"
+    "kind": "period",
+    "note": "Local Gutenberg #79127 is Lawrence Hyde’s English translation, Macmillan, 1925. Original Czech publication 1924."
    },
    "questions": [
     "Q26"
@@ -6273,8 +6274,8 @@
    "texts": [
     {
      "id": "cac058dc6a",
-     "role": "main",
-     "language": "Czech",
+     "role": "translation",
+     "language": "English",
      "status": "ok",
      "file": "canon/texts/cac058dc6a.txt"
     }
@@ -6889,6 +6890,534 @@
    "selectedBy": "Ben Breen",
    "selectedOn": "2026-09-29",
    "suggestedBy": "Claude research agents, 29 Sep 2026"
+  },
+  {
+   "id": "peirce-logical-machines",
+   "author": "Charles S. Peirce",
+   "authorShort": "Peirce",
+   "title": "Logical Machines",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1887,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/sim_american-journal-of-psychology_1887-11_1_1",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q01"
+   ],
+   "texts": [
+    {
+     "id": "coverage-peirce-1887",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-peirce-1887.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q187520"
+  },
+  {
+   "id": "maudsley-pathology-mind",
+   "author": "Henry Maudsley",
+   "authorShort": "Maudsley",
+   "title": "The Pathology of Mind",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/39002086171304.med.yale.edu",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "coverage-maudsley-1879",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-maudsley-1879.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q2436868"
+  },
+  {
+   "id": "hartness-human-factor",
+   "author": "James Hartness",
+   "authorShort": "Hartness",
+   "title": "The Human Factor in Works Management",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1912,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/humanfactorinwo02hartgoog",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "coverage-hartness-1912",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-hartness-1912.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q885037"
+  },
+  {
+   "id": "rosenkranz-pedagogics",
+   "author": "Karl Rosenkranz",
+   "authorShort": "Rosenkranz",
+   "title": "Pedagogics as a System, §99 (Anna C. Brackett translation)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1872,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/30661",
+   "text": "partial",
+   "translation": {
+    "kind": "period",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "coverage-rosenkranz-1873",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-rosenkranz-1873.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q62315"
+  },
+  {
+   "id": "kingsley-true-words",
+   "author": "Charles Kingsley",
+   "authorShort": "Kingsley",
+   "title": "True Words for Brave Men, “Earthly and Heavenly Wisdom; or, Stoop to Conquer”",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1884,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://www.gutenberg.org/ebooks/20138",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "coverage-kingsley-1884",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-kingsley-1884.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q353238"
+  },
+  {
+   "id": "hall-youth",
+   "author": "G. Stanley Hall",
+   "authorShort": "Hall",
+   "title": "Youth: Its Education, Regimen, and Hygiene",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1907,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/youthitseducatio00halluoft",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "coverage-hall-1907",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-hall-1907.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q309675"
+  },
+  {
+   "id": "baker-kirkes-physiology",
+   "author": "W. Morrant Baker",
+   "authorShort": "Baker",
+   "title": "Kirkes’ Hand-book of Physiology (ninth edition)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/b21514045",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "coverage-baker-1879",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-baker-1879.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q8015826"
+  },
+  {
+   "id": "meltzer-factors-safety",
+   "author": "S. J. Meltzer",
+   "authorShort": "Meltzer",
+   "title": "The Factors of Safety in Animal Structure and Animal Economy",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1907,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/sim_science_1907-03-29_25",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "coverage-meltzer-1907",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-meltzer-1907.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q4290040"
+  },
+  {
+   "id": "watts-psychological-industry",
+   "author": "Frank Watts",
+   "authorShort": "Watts",
+   "title": "An Introduction to the Psychological Problems of Industry",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1921,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/introductiontops00wattrich",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "coverage-frank-watts-1921",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-frank-watts-1921.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": null
+  },
+  {
+   "id": "north-life-francis-north",
+   "author": "Roger North",
+   "authorShort": "North",
+   "title": "The Life of the Right Honourable Francis North (1826 edition)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1826,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/livesrighthonfr01nortgoog",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "coverage-north-1826",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-north-1826.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q354440"
+  },
+  {
+   "id": "southey-colloquies",
+   "author": "Robert Southey",
+   "authorShort": "Southey",
+   "title": "Sir Thomas More; or, Colloquies on the Progress and Prospects of Society",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1829,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/sirthomasmoreor01soutgoog",
+   "text": "partial",
+   "translation": {
+    "kind": "none",
+    "note": "Consulted edition; bibliographic and verification details in research/keys/coverage-check.json."
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "coverage-southey-1829",
+     "role": "excerpt",
+     "language": "English",
+     "status": "partial",
+     "file": "../../research/keys/sources/coverage-southey-1829.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (pilot pool addition)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "status": "pilot source; work Wikidata match not established",
+   "authorWikidata": "Q216838"
+  },
+  {
+   "id": "schiller-simple-sentimental",
+   "author": "Friedrich Schiller",
+   "authorShort": "Schiller",
+   "title": "On Simple and Sentimental Poetry",
+   "originalTitle": "Über naive und sentimentalische Dichtung",
+   "otherTitles": [
+    "On Naïve and Sentimental Poetry"
+   ],
+   "year": 1795,
+   "earlier": false,
+   "language": "German",
+   "kind": "letter",
+   "wikidata": "Q331183",
+   "textUrl": "https://www.gutenberg.org/files/6798/6798-h/6798-h.htm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": "Letters upon the Aesthetic Education of Man, in Aesthetical and Philosophical Essays (19th-c. translation), Project Gutenberg."
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "f7551f7d97",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/f7551f7d97.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen (attribution correction)",
+   "selectedOn": "2026-10-28",
+   "suggestedBy": "Codex source heading check",
+   "status": "pilot source; corrected attribution",
+   "authorWikidata": "Q22670"
+  },
+  {
+   "id": "fitch-lectures-teaching",
+   "author": "Joshua Girling Fitch",
+   "authorShort": "Fitch",
+   "title": "Lectures on Teaching",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1883,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "authorWikidata": "Q6289844",
+   "identifierStatus": "Author matched; work identifier not established and left null.",
+   "textUrl": "https://archive.org/details/lecturesonteachi00fitcrich",
+   "text": "full",
+   "translation": {
+    "kind": "english",
+    "note": "English original"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [],
+   "sourceFile": "research/passages/sources/fitch-four-question-review.txt",
+   "selectedBy": "Codex, authorized follow-up for review",
+   "selectedOn": "2026-10-28",
+   "status": "Additional review source; not silently added to the 204-work accepted canon",
+   "editionNote": "1883 New Edition; lectures delivered 1880; first-publication date not reverified here"
+  },
+  {
+   "id": "smith-teaching-arithmetic",
+   "author": "David Eugene Smith",
+   "authorShort": "Smith",
+   "title": "The Teaching of Arithmetic",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1909,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "authorWikidata": "Q1174369",
+   "identifierStatus": "Author matched; work identifier not established and left null.",
+   "textUrl": "https://archive.org/details/cu31924031784485",
+   "text": "full",
+   "translation": {
+    "kind": "english",
+    "note": "English original"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [],
+   "sourceFile": "research/passages/sources/smith-four-question-review.txt",
+   "selectedBy": "Codex, authorized follow-up for review",
+   "selectedOn": "2026-10-28",
+   "status": "Additional review source; not silently added to the 204-work accepted canon",
+   "editionNote": "Third edition, 1909; title page and p.27 checked"
+  },
+  {
+   "id": "fujisawa-mathematics-japan",
+   "author": "Rikitarō Fujisawa",
+   "authorShort": "Fujisawa",
+   "title": "Summary Report on the Teaching of Mathematics in Japan",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1912,
+   "earlier": false,
+   "language": "English",
+   "kind": "treatise",
+   "wikidata": null,
+   "authorWikidata": "Q21015011",
+   "identifierStatus": "Author matched; work identifier not established and left null.",
+   "textUrl": "https://archive.org/details/summaryreportont00fujirich",
+   "text": "full",
+   "translation": {
+    "kind": "english",
+    "note": "English original"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [],
+   "sourceFile": "research/passages/sources/q24-fujisawa-soroban.txt",
+   "selectedBy": "Codex, authorized follow-up for review",
+   "selectedOn": "2026-10-28",
+   "status": "Additional review source; not silently added to the 204-work accepted canon",
+   "editionNote": "Tokio, 1912; English original report, not a modern translation.",
+   "identifierSources": [
+    "https://www.wikidata.org/wiki/Q21015011",
+    "https://ge.nii.ac.jp/ncid/BA25702952"
+   ]
   }
  ]
 }

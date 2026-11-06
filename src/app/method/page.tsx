@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaceToggle } from "@/components/FaceToggle";
 import { PageTitle } from "@/components/PageTitle";
 import { getQuestion } from "@/lib/data";
+import { pools } from "@/lib/key-model";
 
 export const metadata: Metadata = { title: "Method" };
 
@@ -103,7 +104,7 @@ export default function MethodPage() {
             is used only if it agrees with each of them about as often as they agree with each other.
           </p>
           <p>
-            The pilot keys use 116 supplied passages across six questions. Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) each
+            The pilot keys use {pools.reduce((n, pool) => n + pool.passages.length, 0)} supplied passages across six questions. Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) each
             create positions and sort the passages independently under the same instructions. Direction and
             argument grouping are measured separately. After all independent lists lock, only the human comparison opens. Ben and Nathan make and lock all six human reference
             lists before seeing any agent results. They then assess each agent’s category meanings against the

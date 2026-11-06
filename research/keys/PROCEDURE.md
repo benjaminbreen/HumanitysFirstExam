@@ -30,13 +30,18 @@ record. The agents are evaluated separately against the historians. Agreement
 between the agents does not decide what a passage means.
 
 The six questions are Q01, Q08, Q18, Q23, Q30 and Q39. Their pools contain
-15–21 passages each, 116 altogether, in `pools.json`. This is a six-question
+16–21 passages each, 117 altogether, in `pools.json`. This is a six-question
 pilot. Adding an agent or counting passage pairs does not enlarge that sample.
 
 The experiment tests categorization of these passages. It does not test whether
 the passage search found every historical position or how common a position was.
 The pools came from embedding search over available canon texts, followed by
 Claude's screening of the best 45 matches per question and existing quotations.
+Before sorting began, Ben requested a bounded review of the expanded corpus,
+approved semantic search, and authorized eleven replacements and one addition
+on 28 October 2026. Displaced excerpts remain in the wider passage collection.
+The search and source checks are recorded in `coverage-check.json`; those
+coordinator notes are not part of the independent sorting inputs.
 That selection process limits the experiment. Copy checking against a source
 file establishes wording, not the correctness of a historical interpretation.
 

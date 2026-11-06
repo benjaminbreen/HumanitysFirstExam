@@ -67,7 +67,7 @@ for (const storage of ['file', 'redis']) test(`${storage}: all-six gates, no age
     await assert.rejects(h.keys.saveJoint('Q01', 'reference', h.sorting('Q01'), 1), /locked/);
     await assert.rejects(h.keys.startJoint('Q01', 'final', 'ben'), /definition reviews/);
     if (storage === 'redis') assert.ok(h.history.length > 5);
-    else assert.ok(fs.readdirSync(path.join(h.temp, 'research/keys/entries/history')).length > 5);
+    else assert.ok(fs.readdirSync(path.join(h.temp, 'research/keys/entries/history/passages-20261028')).length > 5);
   } finally { h.cleanup(); }
 });
 test('compare-and-set prevents lost edits and approvals of an unseen version', async () => {
@@ -126,16 +126,32 @@ test('reviews require saved joint judgments, keep unresolved separate, and final
     assert.equal(counts.missed, 0); assert.equal(counts.unresolved, 1); assert.equal(counts.agentUnresolved, 1);
   } finally { h.cleanup(); }
 });
-test('legacy human entries migrate as unfinished drafts; old final approvals and Claude drafts are not imported', async () => {
+test('revised passage study does not reuse legacy drafts whose passage IDs have changed', async () => {
   const h = harness();
   try {
     const dir = path.join(h.temp, 'research/keys/entries'); fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'ben.json'), JSON.stringify({ Q01: h.sorting('Q01') }));
     fs.writeFileSync(path.join(dir, 'final.json'), JSON.stringify({ Q01: { ...h.sorting('Q01'), frozenAt: 'old' } }));
     const d = await h.keys.dashboard();
-    assert.equal(d.status[0].mine.categories[0].claim, 'Human claim'); assert.equal(d.status[0].mine.done, false);
+    assert.deepEqual(d.status[0].mine.categories, []); assert.equal(d.status[0].mine.done, false);
     assert.equal(d.agentReceived.opus, false); assert.equal(d.human, false);
     const state = await h.store.readStudy(); assert.deepEqual(state.references, {}); assert.deepEqual(state.finals, {});
+  } finally { h.cleanup(); }
+});
+for (const storage of ['file', 'redis']) test(`${storage}: revised pools preserve the previous study and start with empty assignments`, async () => {
+  const h = harness(storage);
+  try {
+    const old = JSON.stringify({ schema: 2, inputVersion: 'previous-pools', sortings: { ben: { Q01: h.sorting('Q01') } } });
+    const dir = path.join(h.temp, 'research/keys/entries');
+    const oldFile = path.join(dir, 'study-v2.json');
+    if (storage === 'redis') h.data.set('keys:study:v2', old);
+    else { fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(oldFile, old); }
+    const fresh = await h.store.readStudy();
+    assert.deepEqual(fresh.sortings.ben.Q01.categories, []);
+    assert.deepEqual(fresh.runs, {});
+    await h.keys.saveSorting('Q01', h.sorting('Q01', 'New pool assignment', false), 0);
+    assert.equal((await h.store.readStudy()).sortings.ben.Q01.categories[0].claim, 'New pool assignment');
+    assert.equal(storage === 'redis' ? h.data.get('keys:study:v2') : fs.readFileSync(oldFile, 'utf8'), old);
   } finally { h.cleanup(); }
 });
 test('agent import rejects wrong provenance and repeated assignments without altering the original', async () => {
@@ -179,7 +195,7 @@ test('studies from the earlier configuration are preserved, not relabeled or sil
     state.inputVersion = createHash('sha256').update(JSON.stringify({ instructions: h.model.instructions, pools: h.model.pools })).digest('hex');
     state.runs.astra = { model: 'gpt-6-astra' };
     const dir = path.join(h.temp, 'research/keys/entries'); fs.mkdirSync(dir, { recursive: true });
-    const file = path.join(dir, 'study-v2.json'), original = JSON.stringify(state);
+    const file = path.join(dir, 'study-v2-passages-20261028.json'), original = JSON.stringify(state);
     fs.writeFileSync(file, original);
     await assert.rejects(h.store.readStudy(), /different inputs or agent settings/);
     assert.equal(fs.readFileSync(file, 'utf8'), original);

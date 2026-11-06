@@ -14,7 +14,7 @@ export default async function KeysPage({ searchParams }: PageProps<"/keys">) {
   const coder = await currentCoder(), query = await searchParams;
   const error = typeof query.error === "string" ? query.error : "";
   const intro = <>
-    <PageTitle title="Position keys"><p>A pilot on six questions and 116 passages.</p></PageTitle>
+    <PageTitle title="Position keys"><p>A pilot on six questions and {pools.reduce((n, pool) => n + pool.passages.length, 0)} passages.</p></PageTitle>
     <ol className="mb-8 max-w-3xl list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-ink-soft">
       <li>Ben, Nathan, Opus 5.5 (Medium) and GPT-6.1 Sol (Medium) each sort the passages for all six questions, without seeing each other’s work.</li>
       <li>Ben and Nathan compare their two lists and agree one list per question.</li>

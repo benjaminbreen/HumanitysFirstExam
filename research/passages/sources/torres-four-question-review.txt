@@ -1,0 +1,1111 @@
+— 391 —
+XIX. —Ensayos sobre Automática.—Su definición.
+Extensión teórica tle sus aplicaciones.
+POR LEONARDO TORRES Y QUEVEDO
+I. La denominación de autómata se aplica á menudo á
+una máquina que imita la apariencia y los movimientos de
+un hombre ó de un animal. Se trata, generalmente, en este
+caso de una máquina que lleva en sí misma la fuente ,de
+energía que la hace marchar (un resorte, por ejemplo) y que
+ejecuta ciertos actos, siempre los mismos, sin recibir ningu-
+na influencia exterior.
+Hay otra clase de autómatas que ofrecen un interés mu-
+cho más considerable: los que imitan, no los gestos, sino las
+acciones del hombre, y algunas veces pueden reemplazarle.
+El torpedo automóvil, que- sabe maniobrar para llegar al
+término de su carrera; la balanza que pesa las piezas de
+moneda para elegir las que tienen el peso legal, y mil
+aparatos más, muy conocidos, pueden servir como ejemplo
+de autómatas de esta última especie.
+Se hallan otros mucho más interesantes en las fábricas.
+El progreso industrial se realiza principalmente sustituyen-
+do al trabajo del hombre el trabajo de la máquina; poco á
+poco llegan á hacerse mecánicamente la mayor parte de las
+operaciones primitivamente ejecutadas por obreros, y se dice
+que una fabricación ha llegado á ser automática cuando
+puede ser completamente ejecutada por medio de máquinas.
+Convendrá, antes de pasar adelante, para precisar bien el
+objeto de esta nota, dividir los autómatas en dos grupos, se-
+gún que las circunstancias que regulan su acción actúen de
+un modo continuo, ó que, por el contrario, lo hagan brusca-
+mente, por intermitencias.
+
+— 392 —
+Podemos tornar como ejemplo del primer grupo el torpe-
+do automóvil. El timón, horizontal, destinado á mantenerle á
+una profundidad aproximadamente invariable, es gobernado
+por la acción de un depósito de aire comprimido, que hace
+equilibrio á la presión del agua, y por un péndulo: las va-
+riaciones de altura producen el desplazamiento de una pared
+que separa el depásito de aire del agua que le rodea; las
+variaciones de inclinación producen el movimiento, con rela-
+ción al torpedo, del péndulo, que permanece vertical; el
+timón horizontal está unido al péndulo y á la pared del de-
+pósito por medio de mecanismos que le hacen tomar en cada
+momento la posición conveniente para que el torpedo vuelva
+á la profundidad que se desea.
+Se trata, pues, de establecer entre tres móviles: el péndulo,
+la pared y el timón, enlaces mecánicos invariables. Este es
+un problema de la misma especie que todos los estudiados
+en la Cinemática aplicada á la construcción de máquinas.
+Su estudio no presenta aquí un interés especial.
+En los autómatas del segundo grupo, el automatismo no
+se obtiene por medio de enlaces mecánicos invariables;
+se trata, por el contrario, de alterar bruscamente estos en-
+laces cuando las circunstancias lo exigen; será necesario
+que el autómata—por medio de una maniobra generalmente
+muy rápida—embrague ó desembrague una polea, abra ó
+cierre una válvula, etc. Se requiere, en definitiva, que el
+autómata intervenga en un momento dado para alterar
+bruscamente la marcha de las máquinas i las cuales puede
+decirse que serán gobernadas por él.
+Se encuentran en las descripciones de máquinas ejemplos
+muy numerosos de estas intervenciones bruscas; pero es
+evidente que el estudio de esta forma de la automatización
+no pertenece á la Cinemática. Así es que nunca se ha estu-
+diado sistemáticamente, que yo sepa.
+Esa deficiencia debería corregirse agregando á la teoría
+de las máquinas una sección especial: la Automática, que
+
+- 
+393 -
+examinara los procedimientos que pueden aplicarse á la
+construcción de autómatas dotados de una vida de relación
+más ó menos complicada (*).
+Los autómatas deberán tener sentidos: termómetros, brú-
+julas, dinamómetros, manómetros 
+aparatos sensibles á
+las circunstancias que deben influir en su marcha.
+La impresión recibida por cada uno de estos aparatos se
+traduce, generalmente, por un movimiento, por ejemplo, el
+desplazamiento de una aguja sobre un limbo graduado.
+Los autómatas deberán tener miembros: las máquinas ó
+los aparatos capaces de ejecutar las operaciones que les sean
+encomendadas. La orden de ejecutar una operación será
+trasmitida al aparato encargado de realizarla por procedi-
+mientos muy sencillos, aunque se trate de operaciones com-
+plicadas; esto se ve, por ejemplo, en algunos relojes, en los
+cuales una pieza que se dispara permite que se ponga en
+marcha un mecanismo, el cual actúa sobre muñecos que eje-
+cutan diversos movimientos.
+Los autómatas deberán tener la energía suficiente: los acu-
+muladores, las corrientes de agua, los depósitos de aire com-
+primido que han de suministrársela á las máquinas destina-
+das á ejecutar las operaciones necesarias.
+Además, se necesita -y éste es el principal objeto de la
+Automática—que los autómatas tengan discernimiento, que
+puedan en cada momento, teniendo en cuenta las impresiones
+que reciben, y también, á veces, las que han recibido anterior-
+mente, ordenar la operación deseada. Es necesario que los
+autómatas imiten á los seres vivos, ejecutando sus actos con
+arreglo á las impresiones que reciban y adaptando su con-
+ducta á las circunstancias.
+La construcción de aparatos que hagan las veces de los
+(*) El estudio teórico y experimental de estos procedimientos es
+el fin principal del Laboratorio de Automática, de cuyos trabajos me
+propongo dar cuenta en notas sucesivas que formarán la continua-
+ción de estos ensayos.
+
+— 394 —
+sentidos no presenta, en teoría, dificultad alguna. Todos los
+dias se inventan aparatos nuevos destinados á medir y re-
+gistrar las variaciones de los elementos que intervienen en
+el mundo físico; las que no pueden ser medidas hoy lo serán
+mañana, ó, por lo menos—y creo expresar con esto una opi-
+nión generalmente admitida— no hay razón alguna para
+afirmar que no ocurrirá así.
+La misma observación se puede hacer respecto de las
+máquinas que hayan de ejecutar el trabajo encomendado al
+autómata A buen seguro que nadie marcará límites al pro-
+greso de la Mecánica; nadie se negará á admitir que se
+pueda inventar una máquina que realice una determinada
+operación.
+No ocurre lo mismo cuando se trata de si será posible
+construir un autómata que, para determinar sus actos, pese
+las circunstancias que le rodean. Se piensa, generalmente,
+que sólo en algunos casos muy sencillos puede conseguir-
+se esto; se cree que es posible automatizar las operaciones
+mecánicas, puramente manuales de un obrero, y que, por
+el contrario, las operaciones que exigen la intervención de
+las facultades mentales nunca se podrán ejecutar mecáni-
+camente.
+Está distinción carece de valor, pues, exceptuando el
+caso de los movimientos reflejos, de los cuales no hemos
+de ocuparnos aquí, en todas las acciones humanas inter-
+vienen las facultades mentales.
+Intentaré demostrar en esta nota — desde un punto de
+vista puramente teórico — que siempre es posible construir
+un autómata cuyos actos, todos, dependan de ciertas cir-
+cunstancias más ó menos numerosas, obedeciendo á reglas
+que se pueden imponer arbitrariamente en el momento de la
+construcción.
+Evidentemente, estas reglas deberán ser tales que basten
+para determinar en cualquier momento, sin ninguna incerti-
+dumbre, la conducta del autómata.
+
+— 395 —
+El problema podría resolverse de mil modos diferentes;
+pero — para hacerme comprender más fácilmente - en vez
+de limitarme á abstracciones puras, indicaré un método
+electro mecánico que puede dar, en mi opinión, la solución
+general del problema.
+Los esquemas que acompañan á esta nota no tienen, de
+ningún modo, la pretensión de representar soluciones prác
+ticas; para nada hemos de preocuparnos de las dificultades,
+ó imposibilidades más bien, que ofrecería su ejecución; se
+han trazado para que resulten más claras las explicaciones
+teóricas, y únicamente desde este punto de vista podrán ser
+útiles.
+II. El principio del método electromecánico que voy á
+exponer es sumamente sencillo.
+Hace un momento hemos admitido que la variación de
+cada una de las circunstancias que intervisnen en la direc-
+ción del autómata sea representada por cierto desplazamien-
+to; podemos suponer que la pieza que se mueve sea un
+conmutador: En lugar de un índice que recorre una escala
+graduada, tendremos entonces una escobilla que barre una
+línea deplots y entra sucesivamente en contacto con cada uno
+de ellos.
+Si hay n conmutadores, y si designamos por Pv P2, Ps....-
+Pn el número de plots conjugados con cada uno de ellos, t\
+número de las posiciones del sistema será Plx 
+P%x
+P 3 x 
+xPn.
+A cada una de estas posiciones corresponderá, según
+acabamos de ver, cierta operación cuya realización debe ser
+provocada por algún medio muy sencillo. Puesto que se
+trata de una máquina electro mecánica, lo más sencillo será
+hacer que el movimiento de una armadura, al ser atraída por
+su electroimán, dé lugar á que se dispare el mecanismo en-
+cargado de ejecutar la operación de que se trata. Deberá
+haber un electroimán para cada posición del sistema, y para
+realizar la automatización, bastará establecer las conexiones
+
+— 396 —
+eléctricas de tal modo que cada electroimán entre en activi-
+dad en el momento en que se produzca la posición corres-
+pondiente de los conmutadores.
+En el caso más sencillo — cuando la marcha del autómata
+dependa de un solo elemento - , la solución es la indicada
+esquemáticamente en la fig. 1.a.
+Las variaciones de este elemento se representan por los
+movimientos del conmutador Ai, que, al girar, entra sucesi-
+vamente en contacto con cada uno de los plots A, B, C, D.
+Actualmente la corriente pasa por el electroimán E; la ope-
+ración provocada por éste (al atraer á su armadura, como
+queda dicho más arriba) será la que se realice si el mani-
+pulador k cierra el circuito en este momento. Por lo demás,
+este manipulador puede ser accionado automáticamente
+cuando se produzca cierta circunstancia prevista al cons-
+truir el autómata, por ejemplo, al dar una hora determi-
+nada.
+Se tropezaría á veces con dificultades para llevar á cabo
+la ejecución de este aparato; pero su posibilidad teórica (de
+la que únicamente nos ocupamos) no presenta la menor
+duda.
+Y no es menos evidente en el caso más general, cuando
+hay que considerar varios conmutadores en lugar de uno
+solo.
+En el esquema (fig. 2.a) hay tres conmutadores: M, N, P.
+El segundo arrastra en su movimiento, por medio de la
+barra T, otro conmutador: N'.
+El tercero arrastra los cinco conmutadores F, P", P",
+P]\ 
+Pv.
+M puede tomar las dos posiciones A y B.
+N las tres E, F y G.
+P las cuatro /?, 5, 7, U.
+El sistema admite en total veinticuatro posiciones diferen-
+tes, y á cada posición corresponde un electroimán que entra
+en actividad en cuanto se establece el contacto.
+
+— 397 —
+Se puede aumentar cuanto se quiera el número de con-
+mutadores y el número de plots conjugados con cada uno
+de ellos. Dicho de otro modo, puede aumentarse indefinida-
+mente el número de casos particulares que el autómata ten-
+drá que considerar para regular sus actos; se puede cotnpli
+car cuanto se quiera su vida de relación.
+Y esto sin la menor dificultad teórica. No hay ninguna
+diferencia esencial entre la máquina más sencilla y el autó-
+mata más complicado; una y otro se reducen á un sistema
+material sometido á leyes físicas, que se derivan de su com-
+posición; pero cuando estas leyes son complicadas, cuando
+es necesario un razonamiento importante para deducir de
+estas leyes las maniobras correspondientes, la máquina que
+las ejecutase parecería que razonaba por sí misma, y esto es
+lo que generalmente extravía el juicio de las personas que
+se ocupan de esta cuestión.
+Recordaré, á modo de ejemplo, las ideas de Descartes
+sobre este punto (Discours sur la Methode, 5eme partie).
+Admite sin dificultad que se pueda considerar el cuerpo
+de un animal «como una máquina que, habiendo sido hecha
+por la mano de Dios, está incomparablemente mejor ordena-
+da y lleva en sí movimientos más admirables que ninguna
+de las que pueden ser inventadas por los hombres».
+Añade que «si hubiese máquinas tales que tuviesen los ór-
+ganos y la forma exterior de un mono ó de cualquier otro ani-
+mal sin razón, no tendríamos ningún medio de reconocer
+que no eran en todo de la misma naturaleza que dichos
+animales».
+Pero Descartes niega, aun á la infinita potencia divina, la
+facultad de construir autómatas capaces de imitar las accio-
+nes humanas que son guiadas por la razón. Juzga metafísi-
+camente imposible, por ejemplo, que un autómata pueda
+emplear palabras ni otros signos «para responder al sentido
+de todo lo que se diga en su presencia, como los hombres
+más atontados pueden hacerlo».
+
+— 398 —
+Admite fácilmente que el autómata pueda hablar, pero no
+concibe que pueda hablar razonablemente.
+Imaginemos una máquina análoga á la representada por el
+esquema (fig. 2.a), pero en la cual, en vez de tres conmutado-
+res, haya miles ó millones, si hace falta; y que, en vez de tres
+ó cuatro posiciones diferentes, cada conmutador tenga una
+posición correspondiente á cada uno de los signos de la es-
+critura (letras, cifras, signos de ortografía, etc.).
+Se comprende perfectamente que se puede, valiéndose de
+estos conmutadores, escribir una frase cualquiera, y hasta un
+discurso más ó menos largo; esto dependerá del número de
+conmutadores de que se disponga.
+A cada discurso corresponderá una posición del sistema,
+y, por consiguiente, un electroimán.
+Podemos suponer que éste dispare un fonógrafo sobre el
+cual se halle inscrita la respuesta á la pregunta que ha pro-
+vocado su movimiento, y de este modo tendremos un autó-
+matacapaz de discutir de omni re scibile.
+Ciertamente, el estudio preliminar de todas las preguntas
+posibles, la redacción de la respuesta á cada una de ellas, y,
+finalmente, la construcción de una máquina semejante, no se-
+ria una cosa muy llana; pero no sería mucho más difícil que
+la construcción de un mono, ó de otro animal bastante bien
+imitado para que pudiera ser clasificado por los naturalistas
+entre las especies vivas.
+No hay entre los dos casos la diferencia que veía Descar-
+tes. Pensó sin duda que el autómata, para responder razona-
+blemente, tendría necesidad de hacer él mismo un razona-
+miento, mientras que en este caso, como en todos los otros,
+sería su constructor quien pensara por él de antemano.
+III. Creo haber mostrado, con todo lo que precede, que
+se puede concebir fácilmente para un autómata la posibilidad
+teórica de determinar su acción en un momento dado, pesan-
+do todas las circunstancias que debe tomar en consideración
+para realizar el trabajo que se le ha encomendado.
+
+— 399 -
+Se puede concebir igualmente un autómata que obre con
+ana finalidad; un autómata que realice una serie de actos
+tendiendo á conseguir un objeto determinado.
+El asunto es demasiado complicado para que me sea po-
+sible tratarle de un modo abstracto; correría el riesgo de no
+expresarme claramente. Será mejor, por lo pronto, estudiar la
+aplicación del método á un caso particular.
+El ejettiplo que he de escoger, para ilustrar mis explicacio-
+nes, está bien indicado: las máquinas analíticas. Los demás
+que pudieran elegirse presentarian grandes dificultades de
+exposición, debidas principalmente á la necesidad de repre-
+sentar (aunque fuera sólo esquemáticamente) los sentidos y
+los miembros del autómata: los aparatos destinados á poner-
+le en relación con el medio ambiente, y los operadores que
+deberían ejecutar operaciones más ó menos complicadas.
+Estos inconvenientes no existen en las máquinas de cal-
+cular. Cada valor de los que deben intervenir en los cálculos,
+sean los datos, sean los resultados provisionales de las ope-
+raciones sucesivas, será representado en nuestros esquemas
+por el desplazamiento de un móvil, como en las figs. 1.a y 2.a.
+Calcular un valor será, pues, para el autómata, desplazar
+el móvil correspondiente para llevarle á la posición necesa-
+ria, y esta eperación — repetida cuantas veces sea necesa-
+rio — es la única que el autómata tiene que ejecutar.
+Además, creo que estas máquinas nos ofrecerán el caso
+más general que se pueda examinar, y todas las conclusio-
+nes que se obtengan de su estudio teórico serán fácilmente
+generalizadas por el lector.
+Una máquina analítica, tal como la entiendo aquí, debe
+ejecutar unos cálculos cualesquiera, por cumplicados que
+sean, sin auxilio de nadie.
+Se le dará una fórmula y uno ó varios sistemas de valo-
+res particulares de las variables independientes, y ella de-
+berá calcular é inscribir todos los valores de las funciones
+explícitas ó implícitas definidas por la fórmula. Deberá se-
+
+— 400 —
+guir una marcha análoga á la de un calculista: ejecutará
+necesariamente una á una las operaciones indicadas, toman-
+do los resultados de unas como factores ó argumentos de
+'as siguientes, hasta llegar á obtener los resultados defini-
+tivos.
+Antes de entrar en la descripción del conjunto, describiré
+los aparatos destinados á ejecutar cada una de las operacio-
+nes elementales que el autómata ha de llevar á cabo para
+realizar sus cálculos en debida forma:
+a) Anotar un valor particular desplazando el móvil co-
+rrespondiente.
+La regla A (fig. 3.a) puede deslizar entre el tope B y el re-
+sorte B', que ejerce una presión moderada y, además, es
+guiada por uno de los dos rodillos Q, Q'.
+Lleva dos plots P, P' conjugados con siete escobi-
+llas, r\, r'3 r'3 
+r'7, y una escobilla R conjugada con los
+siete plots ríy r.¿ 
+r7.
+Los dos rodillos están constantemente girando en el sen-
+tido indicado por las flechas; pero- su separación es algo
+mayor que el ancho de la regla M, por cuya razón ésta no es
+arrastrada; la retiene el roce del tope B y el resorte B'.
+Supongamos que hacemos positiva (*) la escobilla r'¡.
+Si esta escobilla está en contacto con el plot P, se esta-
+blecerá un circuito que pasa por el electroimán E (**), el
+(*j Diremos que un conductor es positivo cuando está en comu-
+nicación directa con el polo positivo del manantial de electricidad.
+(**) Supondremos en estos dibujos: 1.°, que las líneas rojas—tales
+como la a—indican que las dos piezas en las cuales se terminan es-
+tán constantemente en comunicación eléctrica, pero no representan
+un conductor de forma invariable; por ejemplo, la línea a significa
+que el alambre arrollado en el electroimán E está en contacto, nunca
+interrumpido, con el plot P por medio de una escobilla, de un hilo
+flexible ó por cualquier otro medio que no estorbe en nada el movi-
+miento de la regla A; 2.°, que los círculos con dos diámetros perpen-
+diculares representan plots que están siempre metálicamente unidos
+al polo positivo de la pila; por consiguiente, forman un solo conduc-
+tor unido á dicho polo positivo; 3.°, que los dos círculos que hay en
+
+- 
+401 
+-
+cual atraerá á la regla A, que vendrá á apoyarse sobre el ro-
+dillo Q; el rozamiento que se produce entonces en el punto
+de tangencia es suficiente para arrastrar á la regla hasta el
+momento en que la escobilla r'¡ caiga sobre el espacio que
+separa los dos plots y corte la corriente, dejando de este
+modo inactivo el electroimán E.
+Si la escobilla r'¡ estuviese en contacto con el plot P',
+todo pasaría de un modo análogo; el electroimán E' sería el
+que recibiese.la corriente, y la regla A, arrastrada por el ro-
+dillo Q', marcharía hacia arriba, hasta que la escobilla r'¡ vi-
+niera á colocarse entre los dos plots P, P'.
+Si la escobilla r'¡ se encontrase ya en esta posición en el
+momento en que se hace positiva, la regla A no se mo-
+vería.
+En todos los casos, por el hecho de haber puesto en con-
+tacto con el plot positivo la escobilla /,- habremos llevado
+la regla á esta posición, y, por medio de la escobilla monta-
+da en la parte superior de la regla A, habremos establecido
+el contacto entre el conductor R y el plot r¡. Diremos enton-
+ces que hemos anotado en este aparato el valor R¡.
+b) 
+Ejecutar una de las cuatro operaciones aritméticas:
+sumar, restar, multiplicar ó dividir.
+Desde el punto de vista de la construcción no hay dife-
+rencia alguna esencial entre estas cuatro operaciones; he re-
+presentado, para fijar las ideas, en el esquema 4 el aparato
+que ejecuta la multiplicación.
+las figuras 3.a y 7.a con una w en su interior, representan plots uni-
+dos ordinariamente al polo negativo; estos plots comunican entre si,
+formando un conductor único, que llamaremos w, el cual se halla uni-
+do metálicamente, de un modo invariable, á los plots negativos de
+todos los electroimanes que figuran en los esquemas, menos el E' (fi-
+gura 7.a). También se halla unido dicho conductor w al polo negativo
+de la pila por el contacto de la armadura h (fig. 7.a) del electro-
+imán E' contra su tope. Cuando este electroimán atrae á su armadu
+ra, interrumpe dicho contacto é impide que funcionen todos los demás
+electroimanes.
+RKV. ACAD. DE CIENCIAS.— XII.—Enero 1914. 
+26
+
+— 402 
+-
+Los factores están representados por las reglas X, X", y
+el producto, por el haz m.
+Cada una de las reglas puede maniobrarse, haciendo po-
+sitiva una de las escobillas conjugadas con ellas, por medio
+de un dispositivo análogo al que acabamos de describir; pero,
+para simplificar el dibujo, se han suprimido los topes, los
+electroimanes y los rodillos.
+La regla X' arrastra en su movimiento un tablero T con
+varios plots, y la regla X" lleva una escobilla, siempre activa,
+cuya extremidad se apoya sobre uno de los plots, dependien-
+do cuál sea éste de la posición de X' y de X".
+Poniendo activos—simultánea ó sucesivamente—una es-
+cobilla del grupo rrí y otra del grupo tn", se moverán, como
+queda explicado, las reglas X y X" de tal modo que vengan
+á representar los valores particulares que se desee de los
+factores. Se ven representados en el dibujo los valores 4 por
+la regla X y 3 por la regla X".
+Con estas maniobras se conducirá la extremidad de la es-
+cobilla H á hacer contacto con un plot determinado, y, por
+consiguiente, con uno de los conductores del grupo m.
+El aparato está construido de tal modo, que el valor re-
+presentado por este conductor sea el producto de las dos
+cantidades anotadas en las reglas X', X".
+Basta, pues, inscribir los factores para poner en contacto el
+conductor M con el conductor del haz m que corresponde
+al producto.
+La construcción es fácilmente comprensible. La tabla Tes,
+en suma, el nomograma de la multiplicación, en el cual las
+curvas están materializadas por los conductores que reúnen
+los plots correspondientes á todos los productos iguales
+entre sí.
+Actualmente tenemos escrita, por decirlo asi, en el apara-
+to la operación 4 x 3 = 12.
+Es suficiente cambiar la tabla T y sus conexiones con las
+escobillas M para que el aparato ejecute una cualquiera
+
+— 403 —
+de las otras operaciones aritméticas. Se debe observar,
+sin embargo, que en la multiplicación y en la suma pue-
+de representarse indiferentemente una ú otra de las can-
+tidades dadas en cualquiera de las reglas X, X", mien-
+tras que en las otras dos operaciones no ocurre lo mismo,
+porque no se trata entonces de calcular funciones simé-
+tricas.
+En la división se obtienen dos resultados: cociente y resto;
+si se desea obtener ambos con el mismo aparato, se puede
+hacer que la regla X' lleve dos tablas y la X" dos escobillas;
+pero éste es un detalle sin importancia ninguna por el mo-
+mento.
+En todos los aritmómetros, lo mismo que en el de la mul-
+tiplicación, bastará inscribir los dos argumentos de la opera-
+ción para que la escobilla establezca contacto entre M y el
+conductor del haz m que corresponda al resultado de la ope-
+ción.
+c) 
+Comparar dos cantidades (fig. 5.a).
+Las dos reglas X', X" se manejan como queda dicho, por
+medio de las escobillas conjugadas con ellas.
+Una de ellas, X, lleva una escobilla H, y la otra, X", tres
+plots: P, 'P', P". Cuando los valores representados por las
+dos reglas son iguales, como en el caso actual, el extremo
+de la escobilla hace contacto sobre el plot P; cuando no
+existe dicha igualdad, la escobilla H hace contacto sobre el
+plot P', si la cantidad de la izquierda es mayor, y con el plot
+P" en caso contrario.
+d) 
+Impresión de los valores dados ó calculados.
+Puede ejecutarse con una máquina de escribir; cada tecla
+correspondería á un valor diferente, y en vez de empujarla
+con el dedo, sería accionada por un electroimán. Habría»
+pues, tantos electroimanes como teclas.
+Todos estos aparatos pueden ser utilizados por un calcu-
+lador, y el esquema 6 muestra una disposición que facilitaría
+su empleo con este objeto.
+
+— 404 
+-
+Los aparatos que acaban de ser descritos están represen-
+tados por símbolos muy sencillos (*).
+Para comprender su marcha en un caso particular, exami-
+naremos lo que va á ocurrir, suponiendo que el manipula-
+dor c acaba de llegar á la posición dibujada de puntos.
+Ha hecho positivo el conductor R y también — según lo
+que acabamos de ver (fig. 3.a) — uno de los conductores de\
+haz r (y por consiguiente del haz H), el que corresponda al
+valor anotado en este momento en el aparato R.
+Supondremos que el conductor activo es el que ha sido
+representado por una línea de trazos. Una rama de este con-
+ductor penetra en el aparato destinado á la multiplicación,
+pero no puede llegar—como se ve en la fig. 4.a—mas que á
+un plot aislado ó á la escobilla H, y por ahí al conductor ac-
+tualmente aislado M (fig. 6.a). Otro tanto puede decirse del
+aparato destinado á la suma; pero las que van á parar á m"
+y á e se hallan en contacto: una, con uno de los conductores
+del aritmómetro, y la otra, con uno de los de la máquina de
+escribir. El primero (véase la fig. 4.a) hará funcionar el valor
+anotado en el aparato R; es decir, que este mismo valor será
+el representado por la regla X" cuando, una vez la operación
+terminada permanezca en su nueva posición.
+El conductor que penetra en la máquina de escribir hará
+que este valor se imprima al mismo tiempo.
+El resultado de la operación ha sido, pues:
+1.° Inscribir como factor,, per el cambio de posición de
+la regla X", el valor que estaba anotado en R.
+2° 
+Imprimir este mismo valor.
+(*) Puede verse un aritmómetro para la suma, otro para la multi-
+plicación, un aparato inscriptor y la máquina de escribir. Supon-
+dremos que estos aparatos, análogos á los descritos más arriba, se
+hallan encerrados en cajas (representadas por los rectángulos del
+dibujo) que no permiten ver de cada uno de ellos mas que los haces
+de factores (a', a", m', m", r'), los del resultado (a, m, r) y el conduc-
+tor (A, M, R) destinado á poner activo en el momento que se desee
+el resultado anotado en el aparato.
+
+Si ahora se desea multiplicar este valor por un número
+conocido será necesario:
+1.° 
+Mover las correderas p" y e hacia la izquierda para
+incomunicar las escobillas que se apoyan sobre ellas.
+2.° Poner activo, por medio del conmutador c, el con-
+ductor m correspondiente al valor dado.
+3.° Mover ¡J.' hacia la derecha para establecer las comu-
+nicaciones en esta corredera.
+Un razonamiento semejante en todo al que acabamos de
+hacer demostrará que en estas condiciones se obtiene como
+resultado de la operación ejecutada por la máquina la ins-
+cripción sobre la regla X (fig. 4.a) del valor representado por
+el conductor r puesto activo.
+Supongamos aún, que después que se ha realizado esta
+operación, movemos las correderas e y a' hacia la derecha, y
+la tri hacia la izquierda, y que ponemos activo el conduc-
+tor M.
+Al mismo tiempo que éste pondremos activo- teniendo en
+cuenta lo dicho al describir el aritmómetro (fig. 4.a)—uno de
+los conductores del haz m, el que corresponde al producto de
+las cantidades inscritas en las reglas X' y X", y, por las razo-
+nes ya explicadas, este producto se encontrará anotado en
+el inscriptor R y en la regla X' del aritmómetro destinado á
+las sumas. Puede continuarse así indefinidamente para cal-
+cular una fórmula más ó menos complicada.
+La operación ejecutada por el autómata, en el fondo, es
+siempre la misma: inscribir en uno ó varios aparatos (*) una
+operación siempre la misma. Esta cantidad puede determi-
+narse arbitrariamente, ó bien tomarse de uno de los aparatos
+elementales donde ha sido anotada como consecuencia de las
+operaciones anteriores.
+El gobierno de esta máquina es muy sencillo; se com-
+(*) La máquina de escribir es un aparato en el cual las cantida-
+des se imprimen en vez de ser representadas por el desplazamiento
+de un móvil.
+
+— 406 
+-
+prende que la tarea del calculista que la utilizase se reduci-
+ría á oprimir de tiempo en tiempo ciertas teclas, y que este
+trabajo puede automatizarse por un procedimiento análogo
+al usado para la escritura musical de los pianos mecánicos.
+IV. El esquema fig. 7.a, representa un autómata dispues-
+to para calcular el valor de la fórmula a = ax (y — z)2 sin
+el auxilio de nadie.
+Se le dará el valor del parámetro a y varios sistemas de
+valores particulares de las tres variables. El autómata debe
+ejecutar todos los cálculos, imprimir los resultados y adver-
+tir que la operación ha concluido.
+Su economía general es fácil de comprender.
+En la parte superior se ven todos los operadores necesa-
+rios en este caso particutar:
+Dos aritmómetros, uno para la resta y otro para la mul-
+tiplicación, que son las únicas operaciones indicadas por la
+fórmula.
+Un comparador, que determinará en cada caso cual de
+las dos variables, y ó z, es la mayor, para inscribirlas, cada
+una en su lugar, en el aparato que ha de hacerla resta.
+Una máquina de escribir.
+Dos inscriptores, cuya utilidad veremos pronto.
+Y un aparato L, cuyo objeto se explicará más adelante.
+Algo más abajo hay una fila de correderas análogas á las
+ya vistas en la fig. 6.a Todas las que hemos de tener en
+cuenta ahora están dispuestas del mismo modo (fig. 8.a):
+cuando funciona el electroimán, atrae á la corredera y esta-
+blece las comunicaciones entre las escobillas; cuando la
+corriente del electroimán cesa, el resorte antagonista corta
+las comunicaciones.
+En la fig. 7.a se han suprimido los resortes y los elec-
+troimanes, y se ha dejado solamente las correderas y los
+conductores s', s", m', m", destinados á activar los electro-
+imanes que atraen á estas correderas. Su funcionamiento e£
+sencillo: cada vez que se pone activo uno de esos con-
+
+— 407 
+-
+ductores, e ó r', por ejemplo, se restablecen las conexiones
+de la corredera correspondiente (el de la máquina de escri-
+bir ó el del inscriptor R).
+La marcha de esta máquina es dirigida por el tambor T
+(figura 7.a), conjugado con un grupo de escobillas. Este tam-
+bor es análogo al de un organillo; lleva varios plots, que
+vienen á hacer contacto con las escobillas á medida que el
+tambor gira en el sentido de la flecha. La distribución de
+estos plots viene determinada en el aparato por la fórmula
+que ha de calcular,, lo mismo que en el organillo por la
+pieza que ha de tocar.
+En el esquema fig. 7.a esta distribución aparece visible,
+porque se ha representado el desarrollo de la superficie del
+tambor. Esta superficie está dividida en 16 zonas horizon-
+tales numeradas. Cuando el tambor gira en el sentido indi-
+cado por la flecha, todas estas zonas pasan, una tras otra,
+por debajo de las escobillas; claro está que la primera zona
+se presenta inmediatamente en contacto después de la de-
+cimosexta, puesto que las lineas a b y a' b' representan, en
+realidad, una misma generatriz del cilindro. El tambor está
+divido en tres secciones (t, t', t"), separadas en la figura por
+bandas negras verticales. Todos los plots de cada sección
+están unidos metálicamente entre sí y aislados de los corres-
+pondientes á otras secciones. Además, hay contacto metáli-
+co permanente entre la sección t y el plot T, y lo mismo
+entre t y -' y entre t" y T".
+Se ve también en el esquema la placa rectangular P, de
+longitud indefinida, conjugada con las escobillas v. Se escri-
+ben en esta placa, por medio de los plots que se hallan
+distribuidos sobre ella, los valores particulares de las varia-
+bles x, y, z. Cada valor particular será inscrito sobre una
+banda horizontal. Sobre la primera (y así está indicado en la
+figura), el valor de xx\ sobre la segunda, y¿ sobre la tercera,
+zv y sobre las bandas cuarta, quinta y sexta, el segundo
+sistema de valores particulares dados: x2)y2, 
+zv y así suce-
+
+— 408 —
+sivamente. Se supone en el dibujo que en este caso parti-
+cular el cálculo ha de hacerse para cuatro sistemas de va-
+lores.
+Además del grupo de escobillas destinadas á la represen-
+tación de las variables, se ve una escobilla, n, cuyo objeto
+es indicar el fin de la operación.
+Esta placa P tiende á marchar en el sentido de la flecha
+(arrastrada, por ejemplo, á rozamiento suave por una pieza
+que está marchando mientras el autómata funciona), pero
+no se lo permite el trinquete Q. Todos los plots que lleva
+comunican con el conductor V.
+Antes de empezar la operación se debe poner también en
+comunicación la escobilla a con el conductor que representa
+el valor del parámetro a; lo cual se indica en el esquema su-
+poniendo que se ha clavado una clavija sobre el plot corres-
+pondiente á este valor.
+Ahora ya nos será fácil seguir la marcha del autómata.
+Consideraremos sucesivamente varios intervalos de tiempo
+que correspondan cada uno al paso de una de las zonas
+horizontales del tambor T bajo la línea formada por las
+extremidades de las escobillas.
+He indicado en la tabla, que se ve á la izquierda de la
+figura principal, cuáles son las escobillas que durante cada
+intervalo se encuentran en contacto con los plots de las tres
+secciones t, t', t"; esta tabla no es mas que la traducción de
+lo que igualmente puede leerse en el desarrollo del tambor.
+Las explicaciones dadas en la descripción del esquema
+anterior bastan para comprender lo que va á pasar en cada
+intervalo.
+I. Se hacen positivas las escobillas V, m', e. La esco-
+billa V, por su parte, pone positivos á todos los plots de la
+placa P, y, por consiguiente, á la escobilla del haz v que
+corresponde al valor particular xx.
+Las escobillas m' y e establecen (fig. 8.a) las comunicacio-
+nes de las correderas correspondientes, y, por lo tanto, el
+
+— 409 
+-
+valor xu al mismo tiempo que se imprime en la máquina, es
+representado como factor en el aritmómetro.
+II. La escobilla cp, que se hace positiva momentánea-
+mente, hace funcionar al electroimán E. Este atrae á su
+armadura y permite que la placa P avance un paso. Avanza
+lentamente, para que no pueda correrse más de un paso,
+mientras E permanece activo.
+III. La escobilla a pone activo el conductor que represen-
+ta el parámetro designado por la letra a, y la escobilla m"
+hace que este valor sea inscrito como segundo factor en el
+aritmómetro. Hemos anotado, pues, en este aritmómetro el
+producto a xx.
+IV. La escobilla V vuelve á ponerse positiva; pero como
+la placa P ha avanzado un paso, es el conductor correspon-
+diente al valor de y1 el que se pone positivo ahora.
+Este valor, según indica la figura, será anotado en Rv será
+impreso por la máquina de escribir, y al mismo tiempo será
+representado como primer término de comparación en el
+aparato C.
+V. La placa P avanza un paso.
+VI. El valor de zx es anotado en /?,, impreso por la má-
+quina, y representado como segundo término de compara-
+ción en el aparato C.
+VII. La escobilla <p hace que la placa P avance un paso
+más. La acción de la escobilla K es más interesante.
+Pone activo:
+El conductor 6, si yx = zx;
+y, si y, > zx
+í, si y, <zx
+Primer caso: y = z. Puesto que y, = zu no es necesario
+llevar los cálculos más adelante; puede escribirse a = 0; y
+esto es lo que hace el autómata poniendo activo el conduc-
+tor 6 que va á pasar á la máquina á escribir y que corres-
+ponde precisamente al valor 0. Además, hace funcionar al
+electroimán E, que corta el contacto en h. Cuando esto ocu-
+
+— 410 —
+rre, ninguno de los aparatos puede seguir funcionando por-
+que está cortada la corriente de la pila. La incomunicación
+durará mientras dure el contacto entre la escobilla K y el
+plot que se extiende sin interrupción basta la decimoquinta
+banda inclusive; el tambor T continuará su marcha; pero el
+autómata no ejecutará operación alguna.
+Segundo caso: yt > zx. 
+El conductor y hace positivos
+los plots de la sección f, y la marcha de la operación conti-
+núa como sigue:
+VIII. Las escobillas activas Rt y s' hacen que el valor
+anotado en Rx (el valor y) sea transportado á la regla X del
+aparato destinado á la resta.
+IX. El valor de zt se inscribe en la regla X" del mismo
+aparato. El valor anotado en éste como resultado de la ope-
+ración será, pues, y1 — zx.
+Tercer caso: y < zx. 
+El conductor 8 hace activos los plots
+de la sección t", y como se ve en la tabla y en la figura, se
+altera, con relación al caso anterior, el orden en el cual se
+hacen positivos los conductores s' y s", lo cual da lugar á que
+se inscriba zt en la regla X" é yx en la regla X. El valor ins-
+crito en el aparato será z1 — yx. En realidad, ahora yx — zx
+es una cantidad negativa; pero el autómata no necesita ocu-
+parse de los signos en este caso particular!, porque el cua-
+drado de la diferencia, que es el que interviene en los cálcu-
+los, es siempre positivo.
+A partir de este momento, la marcha de los cálculos es
+la misma en los dos últimos casos.
+X. El autómata, para continuar el cálculo, debe elevar
+al cuadrado la cantidad yx — zt (positiva ó negativa). Esto
+le es muy fácil utilizando el aritmómetro de la multiplica-
+ción; pero al realizar esta nueva operación, el valor del pro-
+ducto axlt que estaba inscrito, va á desaparecer; y como este
+valor debe figurar ulteriormente en los cálculos, es necesa-
+rio anotarlo antes de borrarlo, y así lo hace el autómata en
+el intervalo actual: inscribe el valor axx en el aparato Rx.
+
+- 
+411 
+-
+Borra al mismo tiempo el valor yt; pero éste ya no se ne-
+cesita.
+XI. La diferencia yx — zx se inscribe al mismo tiempo en
+las dos reglas m', m" del aparato M.
+XII. El valor (yx — z^)2 es inscrito en R%.
+XIII. El producto ax1 es inscrito como primer factor en
+el aparato Ai.
+XIV. El valor {y^—z^f es inscrito como segundo factor.
+XV. El valor a es impreso por la máquina, y la operación
+concluye para el primer sistema de valores particulares
+dados.
+XVI. Es preciso que la máquina de escribir deje un espa-
+cio en blanco entre el primer sistema de valores y el se-
+gundo que va á ser impreso inmediatamente. Con este obje-
+to hay que hacer positivo el conductor B, y esto en los tres
+casos que hemos considerado; esta es la razón por la cual
+el plot que entra en contacto con la escobilla K no se prolon-
+ga mas que hasta la banda decimosexta; de modo que al fin
+del intervalo decimoquinto, el electroimán E' suelta su ar-
+madura, el contacto se restablece y la máquina de escribir
+funciona en cuanto la escobilla B se activa, aunque estemos
+en el caso de y1 = zv .
+Pero el lambor T no se para, sino que continúa girando.
+Como más arriba hemos visto, el fin del período décimo-
+sexto coincide con el principio del período primero; los mis-
+mos cálculos van á empezar de nuevo pero, como la placa
+P ha avanzado tres pasos durante la primera vuelta del
+tambor T, los valores xu yu zí serán respectivamente susti-
+tuidos por x2, y2, 22. El autómata calculará un segundo
+valor de a, y del mismo modo todos los otros consecutiva-
+mente.
+Se ve en la placa P, á continuación de todos los plots que
+corresponden á los valores particulares de las variables x,
+y, z, un plot que entra en contacto con la escobilla TC, cuyo
+objeto es señalar el fin de los cálculos y parar el autómata.
+
+- 
+412 —
+Esta maniobra se comprende fácilmente: después que el úl-
+timo valor de a ha sido calculado, el tambor empieza una
+nueva vuelta, hace positiva la escobilla V, y, por consiguien-
+te, la escobilla 77; ésta produce una corriente que atraviesa
+el aparato L, en el cual, por efecto de esta corriente, se dis-
+para un mecanismo que desembraga el tambor T, corta la
+comunicación de la pila con el autómata, y, en fin, hace lo
+necesario para suspender la operación, y al mismo tiempo,
+si se desea, lo anuncia, haciendo sonar un timbre ó utilizan-
+do cualquier otra señal convenida.
+V. Este ejemplo es suficiente para hacernos ver la ge-
+neralidad del método. El autómata toma cada valor que ne-
+cesita, sea en la placa P, cuando figura entre los datos,
+sea en uno de los aparatos, en el cual se halla inscrita
+como resultado de una operación anterior. Ejecuta una por
+una todas las operaciones indicadas en la fórmula que se
+trata de calcular, y escribe todos los resultados que conviene
+conservar.
+El autómata procede en todo como un ser inteligente que
+sigue ciertas reglas, y me interesa hacer observar especial-
+mente que procede como un ser inteligente en el momento
+en que hay que escoger un camino en cada caso particular;
+antes de hacer la sustracción indicada en la fórmula, com-
+para las dos cantidades que deben ser restadas una de otra;
+si son iguales, escribe para a el valor cero y espera sin hacer
+nada que el tambor T haya concluido la vuelta; si las dos
+cantidades no son iguales, las operaciones se continúan;
+pero pueden seguir dos caminos diferentes; la diferencia
+sólo consiste en que el orden de inscripción de las variables
+y, z varía de un caso á otro, porque es preciso inscribir la
+mayor de las dos en la regla X' y la menor en la X".
+Es verdad que se ha considerado un caso muy sencillo;
+pero el método es completamente general.
+En otros casos, las reglas impuestas al autómata para de-
+terminar el camino que debe seguir serán mucho más com-
+
+- 
+413 —
+plicadas; para tomar una decisión deberá conocer muchos
+valores, dados ó calculados en las operaciones anteriores;
+deberá saber si cierto hecho ha ocurrido, y quizá el número
+de veces que ha ocurrido, ó bien, si cierta cantidad que
+figura en los cálculos es real ó imaginaria, etc. Pero cada
+una de estas circunstancias, ó de otras que pueden tener in-
+fluencia en sus decisiones, se escribirán una por una, durante
+la marcha de las operaciones, en un aparato análogo al que
+ha sido descrito al empezar (fig. 2.a).
+Le bastará al autómata, para decidir el camino que debe
+seguir, hacer positivo el conmutador M en el momento desea-
+do. Este camino quizá llegue á otros puntos de bifurcación,
+y en cada uno de ellos el autómata hará su elección aplican-
+do el mismo procedimiento.
+He insistido sobre este punto por ser de una importancia
+capital para definir la extensión de la Automática.
+Se afirma generalmente que un autómata jamás puede
+proceder por tanteos, y convenía demostrar que esta afir-
+mación está mal fundada, por lo menos cuando se conocen
+con precisión las reglas que es necesario seguir en los tan-
+teos, y ése es el único caso que nos interesa.
+VI. Es evidentemente imposible de realizar el esque-
+ma fig 7.a en condiciones de utilidad práctica; pero esta
+dificultad proviene exclusivamente del gran número de va-
+lores particulares que pueden tomar las variables que inter-
+vienen en los cálculos. La automatización, propiamente di-
+cha, se obtendría sin inconveniente; depende de la disposi-
+ción del tambor T y de las escobillas conjugadas con él; en
+el tambor es donde se ha escrito por medio de plots la fór-
+mula que hay que calcular, y el tambor y las escobillas po-
+drían muy bien construirse.
+Si aquel número fuese muy limitado — quince, veinte, y
+hasta ciento, por ejemplo—, el esquema se podría construir,
+poco más ó menos, según queda descrito.
+Puede salvarse la dificultad (se ha salvado en todos los
+
+— 414 —
+aritmómetros conocidos) aplicando el principio de la nume-
+ración decimal.
+Un número de varias cifras se trata en las operaciones
+aritméticas usuales, no como una cantidad sencilla, sino
+como una cantidad compleja; como una suma de varias
+cantidades, cada una de las cuales es igual al producto de
+un número de una sola cifra por una potencia entera
+de diez.
+La operación más sencilla, una suma, una multiplicación,
+se transforma de este modo en una serie de operaciones
+parciales; pero esta complicación ha sido absolutamente ne-
+cesaria para hacer posibles los cálculos numéricos, por el
+hecho de que en cada una de las operaciones elementales
+no es necesario tomar en cuenta mas que números inferio-
+res á diez.
+Cada aritmómetro utilizado por el autómata para sus cál-
+culos no será ya un aparato elemental, sino una máquina
+complicada del género del autómata (fig. 7.a).
+El autómata, en el momento deseado, le dará los dos va-
+lores particulares que deben figurar como factores ó argu-
+mentos, é iniciará la operación. Una vez que ésta se termine
+y se inscriba el resultado, el autómata recibirá noticia de ello
+por un conductor análogo al T. (fig. 7.a) y continuará sus
+cálculos.
+No sería de este lugar entrar en detalles sobre el modo de
+realizar las operaciones; pero son análogas á aquellas cuya
+descripción queda esbozada, y espero que se admitirá su
+posibilidad (*).
+Por este medio salvaremos la primera dificultad: haremos
+posibles las operaciones elementales.
+(*) Se podría de este modo, según lo que se ha dicho al em-
+pezar, construir un autómata que manipulase un aritmómetro or-
+dinario. Deberla entonces ordenar á tiempo la operación necesa-
+ria: hacer que diera una vuelta el manubrio, correr el totalizador, et-
+cétera, etc.
+
+— 415 —
+De todos modos los números muy grandes son tan em-
+barazosos en los cálculos mecánicos como en los usua-
+les (*). En éstos se evitan ordinariamente los inconvenien-
+tes que resultan representando cada cantidad por un número
+pequeño de cifras significativas (seis ú ocho, á lo más salvo,
+en casos excepcionales) é indicando con una coma y con
+ceros, si hace falta, el orden de magnitud de las unidades
+representadas por cada cifra.
+También á veces, para no escribir muchos ceros, se escri-
+ben las cantidades en esta forma: n x 10m.
+Podríamos simplificar mucho esta notación estableciendo
+arbitrariamente tres íeglas muy sencillas:
+1.a n tendrá siempre el mismo número de cifras (seis,
+por ejemplo).
+2.a La primera cifra de n será del orden de las décimas,
+la segunda, del de las centésimas, etc.
+3.a Se escribirá cada cantidad en esta forma: n; m.
+Así, en vez de 2.435,27 y de 0,00000341862 se escribirá,
+respectivamente, 243527; 4 y 341862; — 5.
+No he señalado límite al valor del exponente; pero es
+evidente que en todos los cálculos usuales será menor de
+ciento; de modo que en este sistema se escribirán todas las
+cantidades que intervienen en los cálculos sólo con ocho
+cifras.
+Puede aplicarse esto á los aritmómetros, de los cuales nos
+estamos ocupando, y reducir suficientemente de este modo
+el número de las operaciones elementales.
+Las reglas para la coordinación de todas éstas serán, por
+el contrario, más complicadas; pero no hay ningún inconve-
+niente en formularlas primero é inscribirlas después en el
+tambor del aritmómetro.
+(*j Babbage preveía cincuenta ruedas para representar cada va-
+riable, y todavía serían pocas, de no recurrir á los medios que indi
+caré en seguida ó á otros análogos,
+
+— 416 -
+Creo es posible llegar por este camino á soluciones práti-
+cas; pero no pretendo aquí demostrar esta afirmación. Esto
+exigiría desarrollos impropios de la presente nota. He
+querido solamente señalar el camino que me parece más
+practicable para conseguir dicho objeto.
+VII. Sólo diré algunas palabras sobre las ventajas del
+sistema electromecánico que he tratado de aplicar en mis
+estudios y en mis experiencias.
+Generalmente, se preconizan para estos aparatos las solu-
+ciones exclusivamente mecánicas, y hasta se recomienda
+limitarse, en cuanto sea posible, á los mecanismos rígidos,
+suprimiendo los resortes. En suma: se desea tener una con-
+fianza absoluta en la buena marcha de la máquina; se desea
+que mientras la máquina no se rompa, los resultados de sus
+cálculos sean seguramente exactos.
+Pero es evidente que este resultado no se obtendrá por
+medios electromecánicos; un contacto puede fallar, y el re-
+sultado de la operación resultará entonces generalmente fal-
+seado.
+Así es que empecé, como todo el mundo, pensando en las
+soluciones mecánicas; pero las dificultades me parecieron
+absolutamente invencibles.
+El gran número de mecanismos que hay que tener en
+cuenta, las múltiples conexiones que hay que estableceren-
+tre ellos, la necesidad de dispositivos que permitan alterar
+á cada momento estas conexiones, la dificultad de combi-
+narlo todo sin que los mecanismos se estorben unos á otros
+y sin que los rozamientos impidan la buena marcha de la
+máquina, y muchas mas dificultades prácticas que podría
+citar, hacen el problema casi inabordable.
+Fue necesario el genio mecánico de Babbage para afron-
+tarle, y, sin embargo, aunque durante largos años de ímpro-
+bo trabajo le dedicó por entero su gran inteligencia, aunque
+gastó á manos llenas en estos estudios su dinero y el de su
+país, no obtuvo ningún resultado satisfactorio.
+
+- 
+417 —
+Babbage tenía, cuando emprendió el proyecto de máqui-
+na analítica, una preparación teórica y práctica completa-
+mente excepcional: era un matemático distinguido; había
+trabajado, además, diez años e:i la construcción de la má-
+quina de diferencias, y, según el informe de Mr. Mérrifield
+á la Asociación Británica, estos trabajos son una maravilla
+de mecánica. Además, todos los hombres de ciencia que han
+juzgado la obra de Babbage se han asombrado de la inge-
+niosidad y de la fecundidad que ha demostrado en su in-
+vención.
+Babbage tuvo á su disposición un taller, instalado por el
+Gobierno inglés, para la construcción de la máquina, y un
+laboratorio que montó en su casa, á sus expensas, para los
+estudios y los ensayos. Gastó muy cerca de un millón de
+francos: 500.000 de su fortuna personal y 425.000 que le
+suministró el Gobierno.
+Elaboró un sistema de notaciones mecánicas, sistema que
+representa un trabajo enorme, para que pudieran entenderse
+sus dibujos.
+Estudió un gran número de soluciones; hizo, en suma, de
+esta obra la obra de su vida y trabajó sin descanso en ella
+durante treinta años.
+Pero á pesar de sus grandes méritos, indiscutibles é indis-
+cutidos; á pesar de su inteligencia, su entusiasmo y su cons-
+tancia, fracasó. Sus dibujos y sus modelos se conservan en
+el museo de Keusington; pero es de temer que jamás sean
+útiles para nadie.
+Babbage pensaba escribir un libro: «Historia de la má-
+quina analítica», pero la muerte le sorprendió sin que hu-
+biera podido realizar este proyecto, y su mismo hijo, que fue
+su colaborador, dec'ara que no conoce sus trabajos con todos
+sus detalles.
+Quizá otro triunfe donde fracasó Babbage; pero la cosa
+no parece fácil, y será temerario, á mi juicio, seguir sus
+pasos mientras no poseamos principios mecánicos nuevos
+REV. ACAD. OK CIENCIAS.—XII.— Enero, 1914. 
+27
+
+— 418 -
+que nos den la esperanza de vencer las dificultades del ca-
+mino. No estoy en ese caso.
+Las dificultades de una solución puramente mecánica me
+parecen invencibles, por lo menos, con los medios de que
+podría disponer. Mejor dicho: mientras en mis estudios so-
+bre las máquinas de calcular no he pensado mas que en
+soluciones mecánicas, he participado de la opinión general;
+no creía posible resolver el problema de los cálculos mecá-
+nicos, con toda la generalidad que lleva en sí, tal como aquí
+lo he examinado.
+El estudio del telekino fue el que me encaminó en esta
+nueva dirección.
+El telekino es, en suma, un autómata que ejecuta las ór-
+denes que le son enviadas por medio de la telegrafía sin
+hilos. Además, para interpretar las órdenes y obrar en cada
+momento en la forma que se desea, debe tener en conside-
+ración varias circunstancias. Su vida de relación es, pues,
+bastante complicada.
+Durante la construcción de los diversos modelos del
+telekino que ensayé, tuve ocasión de apreciar prácticamente
+la gran facilidad que dan para estas construcciones los
+aparatos electromecánicos, y pensé que se les podría aplicar
+con éxito á las máquinas de calcular.
+La inseguridad que se les atribuye se combate eficazmen-
+te á menudo. Se ven muchas máquinas electromecánicas
+que marchan largo tiempo sin sufrir ninguna alteración. Las
+grandes redes telegráficas ó telefónicas funcionan, en gene-
+ral, con mucha regularidad, y las interrupciones ó los errores
+que todo el mundo tiene ocasión de observar, casi siempre
+pueden ser imputados al viento ó la lluvia, que producen
+averias en las líneas.
+Creo que con una construcción muy esmerada se llegará
+á obtener una seguridad suficiente.
+Es verdad que no será absoluta, ni siquiera tan grande
+como la que se podría obtener empleando aparatos exclusi-
+
+\
+11
+III
+IV
+V
+VI
+Vil
+VIII
+IX
+X
+XI
+XII
+XIII
+\IV
+XV
+XVI
+v-m'-e
+«P
+a~ m"
+v-U-r-e
+5?
+5?-K
+M - K - 
+P'
+S-K 
+-m'-ni
+M-K 
+— r"
+R . - K - 
+m'
+R^-K 
+- m "
+y\ - K 
+-1 e
+B
+s's"
+ss'
+
+— 419 —
+vamente mecánicos; pero me parece que será igual ó supe-
+rior á la que podría ofrecernos un calculador hábil. Y esto
+basta, evidentemente, puesto que los calculadores obtienen
+resultados á los cuales otorgamos toda nuestra confianza.
+Llegan á esto repitiendo los cálculos, y más á menudo
+efectuándolos á dos manos, y los dos procedimientos po-
+drían ser imitados automáticamente; pero, por desgracia, to-
+davía no es necesario ocuparnos de estas cuestiones.

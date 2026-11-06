@@ -66,20 +66,9 @@
   "translation": null
  },
  {
-  "work": "kant-critique-judgement",
-  "author": "Immanuel Kant",
-  "title": "Critique of Judgement",
-  "year": 1790,
-  "language": "English",
-  "file": "trial/corpus/canon/texts/9d3b1390e3.txt",
-  "text": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
-  "display": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
-  "translation": null
- },
- {
-  "work": "schiller-aesthetic-education",
+  "work": "schiller-simple-sentimental",
   "author": "Friedrich Schiller",
-  "title": "On the Aesthetic Education of Man, in a Series of Letters",
+  "title": "On Simple and Sentimental Poetry",
   "year": 1795,
   "language": "English",
   "file": "trial/corpus/canon/texts/f7551f7d97.txt",
@@ -229,5 +218,16 @@
   "text": "ALQUIST. Kill me--kill me, then. What will your future be? PRIMUS. Sir, take me. I am made on the same day as she is. Take my life, sir. (_Step to ALQUIST._) HELENA. No, no, you shall not. ALQUIST. Wait, girl, wait. (_To PRIMUS_) Do you not wish to live, then? PRIMUS. Not without her. I will not live without her. ALQUIST. Very well, I will use _you_. Into the dissecting room with you. HELENA. Primus. Primus. (_She bursts into tears and moves R. ALQUIST stops her._) ALQUIST. Child, child, you can weep. Tears. What is Primus to you? One Primus more or less in the world--what does it matter? HELENA. I will go myself. ALQUIST. Where? Into the dissecting room? HELENA. (_Crosses to R._) Yes. In there--to be cut. (_PRIMUS stops her from going._) Let me pass, Primus, let me pass. PRIMUS. You shall not go in there, Helena. HELENA. If you go in there and I do not, I will kill myself. PRIMUS. (_To ALQUIST_) I will not let you. Man you shall kill neither of us. ALQUIST. Why? PRIMUS. We--we--belong to each other. ALQUIST. Go. (_Exit PRIMUS and HELENA L._) Adam--Eve.",
   "display": "ALQUIST. Kill me--kill me, then. What will your future be? PRIMUS. Sir, take me. I am made on the same day as she is. Take my life, sir. (Step to ALQUIST.) HELENA. No, no, you shall not. ALQUIST. Wait, girl, wait. (To PRIMUS) Do you not wish to live, then? PRIMUS. Not without her. I will not live without her. ALQUIST. Very well, I will use you. Into the dissecting room with you. HELENA. Primus. Primus. (She bursts into tears and moves R. ALQUIST stops her.) ALQUIST. Child, child, you can weep. Tears. What is Primus to you? One Primus more or less in the world--what does it matter? HELENA. I will go myself. ALQUIST. Where? Into the dissecting room? HELENA. (Crosses to R.) Yes. In there--to be cut. (PRIMUS stops her from going.) Let me pass, Primus, let me pass. PRIMUS. You shall not go in there, Helena. HELENA. If you go in there and I do not, I will kill myself. PRIMUS. (To ALQUIST) I will not let you. Man you shall kill neither of us. ALQUIST. Why? PRIMUS. We--we--belong to each other. ALQUIST. Go. (Exit PRIMUS and HELENA L.) Adam--Eve.",
   "translation": null
+ },
+ {
+  "work": "hall-youth",
+  "author": "G. Stanley Hall",
+  "title": "Youth: Its Education, Regimen, and Hygiene",
+  "year": 1907,
+  "language": "English",
+  "text": "At thirteen or fourteen it is more distinctly realized that dolls are not real, because they have no inner life or feeling, yet many continue to play with them with great pleasure, in secret, till well on in the teens or twenties. Occasionally single women or married women\nwith no children, and in rare cases even those who have children, play dolls all their lives. Gales 's2 student concluded that the girls who played with dolls up to or into pubescent years were usually those who had the fewest number, that they played with them in the most realistic manner, kept them because actually most fond of them, and were likely to be more scientific, steady, and less sentimental than those who dropped them early.",
+  "display": "At thirteen or fourteen it is more distinctly realized that dolls are not real, because they have no inner life or feeling, yet many continue to play with them with great pleasure, in secret, till well on in the teens or twenties. Occasionally single women or married women with no children, and in rare cases even those who have children, play dolls all their lives. Gales's student concluded that the girls who played with dolls up to or into pubescent years were usually those who had the fewest number, that they played with them in the most realistic manner, kept them because actually most fond of them, and were likely to be more scientific, steady, and less sentimental than those who dropped them early.",
+  "translation": null,
+  "file": "research/keys/sources/coverage-hall-1907.txt"
  }
 ]

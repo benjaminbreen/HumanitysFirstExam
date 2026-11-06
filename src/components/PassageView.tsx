@@ -11,7 +11,7 @@ export function PassageView({ p, showWork = false }: { p: Passage; showWork?: bo
       <figcaption className="mb-3 flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm">
         {showWork && w && <Cite w={w} />}
         <span className="font-mono text-[11.5px] text-ink-faint">{p.questions.join(" · ")}</span>
-        {p.translation && <Flag tone="warn">{p.status}</Flag>}
+        {p.status && <Flag tone="warn">{p.status}</Flag>}
         {rel && (
           <Flag tone={rel === "yes" ? "ok" : rel === "no" ? "muted" : "warn"}>
             relevant: {rel}
@@ -20,7 +20,7 @@ export function PassageView({ p, showWork = false }: { p: Passage; showWork?: bo
       </figcaption>
       <div className={`grid gap-x-10 gap-y-4 ${p.translation ? "md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]" : ""}`}>
         <blockquote lang={langCode(p.language)} className="border-l-2 border-period pl-4 font-serif text-[1.02rem] leading-relaxed text-ink-soft">
-          {p.original}
+          {p.corrected ?? p.original}
         </blockquote>
         {p.translation && <p className="order-first font-serif text-[1.02rem] leading-relaxed md:order-none">{p.translation}</p>}
       </div>

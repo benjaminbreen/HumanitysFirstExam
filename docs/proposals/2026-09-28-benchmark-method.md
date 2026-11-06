@@ -102,6 +102,16 @@ comparison cannot isolate a pure date effect.
 Qwen3.5 9B and one deployed frontier model are run for context and for
 the public site. Pin versions, providers and settings, and record them.
 
+Steering (agent draft; Ben allowed base and chat-tuned models on 28 Oct
+2026). After the pilot, push single neurons or directions in open-weight
+models and code the answers against the same position key. Size each push
+to the median residual norm at its layer, try the strengths 1.25, 1.0,
+0.75 and 0.5 in that order, and keep the strongest coherent reply, as the
+[Neuron Persona Library](https://neuronpersonas.com/) does. Fix these
+settings before reading answers. Neurons and directions are found in each
+model separately; they do not carry over between Talkie 1930 and Talkie
+web. Closed models cannot be steered.
+
 ## Coding the answers
 
 This is a later, separate test of matching benchmark answers to an existing

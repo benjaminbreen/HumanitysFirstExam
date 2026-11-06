@@ -3,13 +3,16 @@ import { createHash, randomUUID } from "node:crypto";
 import { mkdir, readFile, rename, rmdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { redis, storage } from "@/lib/coding";
-import { advance, agentConfig, emptySorting, instructions, pools, validateSorting, type Coder, type Study } from "./key-model";
+import { advance, agentConfig, emptySorting, instructions, pools, type Coder, type Study } from "./key-model";
 
 // One compare-and-set document makes the study's gates and approvals atomic.
-// Earlier keys:* records remain untouched; human entries migrate only as drafts.
+// Ben authorized revised passage pools before sorting on 28 October 2026.
+// Keep the previous study and legacy drafts untouched: their passage IDs differ.
+const STUDY_ID = "passages-20261028";
 const DIR = process.env.KEYS_DATA_DIR ?? path.join(process.cwd(), "research", "keys", "entries");
-const FILE = path.join(DIR, "study-v2.json");
-const KEY = "keys:study:v2";
+const FILE = path.join(DIR, `study-v2-${STUDY_ID}.json`);
+const KEY = `keys:study:v2:${STUDY_ID}`;
+const HISTORY = path.join(DIR, "history", STUDY_ID);
 export const inputVersion = createHash("sha256").update(JSON.stringify({ instructions, pools, agentConfig })).digest("hex");
 const missing = (e: unknown) => (e as NodeJS.ErrnoException).code === "ENOENT";
 async function fileText(file: string) {
@@ -19,21 +22,11 @@ async function rawStudy(): Promise<string> {
   if (storage === "none") return "";
   return storage === "redis" ? (await redis(["GET", KEY])) ?? "" : fileText(FILE);
 }
-async function legacy(coder: Coder) {
-  if (storage === "none") return {};
-  if (storage === "file") return JSON.parse((await fileText(path.join(DIR, `${coder}.json`))) || "{}");
-  const flat: string[] = (await redis(["HGETALL", `keys:${coder}`])) ?? [];
-  const result: Record<string, unknown> = {};
-  for (let i = 0; i < flat.length; i += 2) if (!flat[i].includes(":")) result[flat[i]] = JSON.parse(flat[i + 1]);
-  return result;
-}
 async function initialStudy(): Promise<Study> {
   const sortings: Study["sortings"] = { ben: {}, nathan: {} };
   for (const coder of ["ben", "nathan"] as Coder[]) {
-    const old = await legacy(coder);
     for (const p of pools) {
-      const s = old[p.question];
-      sortings[coder][p.question] = s ? { ...validateSorting(p.question, s), done: false, savedAt: s.savedAt ?? "", version: 0 } : emptySorting();
+      sortings[coder][p.question] = emptySorting();
     }
   }
   return { schema: 2, revision: 0, inputVersion, sortings, runs: {}, rule: null, independentLockedAt: null, humanOpenedAt: null, agentsRevealedAt: null, references: {}, finals: {}, reviews: {}, decisions: {} };
@@ -58,19 +51,19 @@ async function compareAndSet(expected: string, next: Study) {
   const serialized = JSON.stringify(next);
   if (storage === "redis") return (await redis(["EVAL", CAS_SCRIPT, "2", KEY, `${KEY}:history`, expected, serialized])) === 1;
   await mkdir(DIR, { recursive: true });
-  const lock = path.join(DIR, ".study-v2.lock");
+  const lock = path.join(DIR, `.study-v2-${STUDY_ID}.lock`);
   let acquired = false;
   for (let i = 0; i < 80; i++) {
     try { await mkdir(lock); acquired = true; break; }
     catch (e) { if ((e as NodeJS.ErrnoException).code !== "EEXIST") throw e; await new Promise((resolve) => setTimeout(resolve, 25)); }
   }
-  if (!acquired) throw new Error("Another save is in progress. Retry shortly; if the local server stopped during a save, remove its stale .study-v2.lock directory.");
+  if (!acquired) throw new Error(`Another save is in progress. Retry shortly; if the local server stopped during a save, remove its stale .study-v2-${STUDY_ID}.lock directory.`);
   const temp = path.join(DIR, `.study-${randomUUID()}.tmp`);
   try {
     if ((await fileText(FILE)) !== expected) return false;
     if (expected) {
-      await mkdir(path.join(DIR, "history"), { recursive: true });
-      await writeFile(path.join(DIR, "history", `${next.revision - 1}.json`), expected + "\n");
+      await mkdir(HISTORY, { recursive: true });
+      await writeFile(path.join(HISTORY, `${next.revision - 1}.json`), expected + "\n");
     }
     await writeFile(temp, serialized);
     await rename(temp, FILE);

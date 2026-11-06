@@ -44,36 +44,14 @@
   "translation": null
  },
  {
-  "work": "mill-liberty",
-  "author": "John Stuart Mill",
-  "title": "On Liberty",
-  "year": 1859,
-  "language": "English",
-  "file": "trial/corpus/canon/texts/185cee52f0.txt",
-  "text": "Supposing it\nwere possible to get houses built, corn grown, battles fought, causes\ntried, and even churches erected and prayers said, by machinery--by\nautomatons in human form--it would be a considerable loss to exchange\nfor these automatons even the men and women who at present inhabit the\nmore civilised parts of the world, and who assuredly are but starved\nspecimens of what nature can and will produce. Human nature is not a\nmachine to be built after a model, and set to do exactly the work\nprescribed for it, but a tree, which requires to grow and develop\nitself on all sides, according to the tendency of the inward forces\nwhich make it a living thing.",
-  "display": "Supposing it were possible to get houses built, corn grown, battles fought, causes tried, and even churches erected and prayers said, by machinery--by automatons in human form--it would be a considerable loss to exchange for these automatons even the men and women who at present inhabit the more civilised parts of the world, and who assuredly are but starved specimens of what nature can and will produce. Human nature is not a machine to be built after a model, and set to do exactly the work prescribed for it, but a tree, which requires to grow and develop itself on all sides, according to the tendency of the inward forces which make it a living thing.",
-  "translation": null
- },
- {
-  "work": "butler-darwin-among",
-  "author": "Samuel Butler (as 'Cellarius')",
-  "title": "Darwin among the Machines",
-  "year": 1863,
+  "work": "butler-lucubratio-ebria",
+  "author": "Samuel Butler",
+  "title": "Lucubratio Ebria",
+  "year": 1865,
   "language": "English",
   "file": "trial/corpus/canon/texts/15d4546666.txt",
   "text": "It  is  a  mistake,  then,  to  take  the  view  adopted  by  a \nprevious  correspondent  of  this  paper,  to  consider  the \nmachines   as   identities,   to   animalise   them   and   to \n\n\nLucubratio  Ebria  191 \n\n\nanticipate  their  final  triumph  over  mankind.  They \nare  to  be  regarded  as  the  mode  of  development  by \nwhich  human  organism  is  most  especially  advancing, \nand  every  fresh  invention  is  to  be  considered  as  an \nadditional  member  of  the  resources  of  the  human  body. \nHerein  lies  the  fundamental  difference  between  man \nand  his  inferiors.  As  regard  his  flesh  and  blood,  his \nsenses,  appetites,  and  affections,  the  difference  is  one \nof  degree  rather  than  of  kind,  but  in  the  deliberate \ninvention  of  such  unity  of  limbs  as  is  exemplified  by \nthe  railway  train — that  seven-leagued  foot  which  five \nhundred  may  own  at  once — he  stands  quite  alone.",
   "display": "It is a mistake, then, to take the view adopted by a previous correspondent of this paper, to consider the machines as identities, to animalise them and to anticipate their final triumph over mankind. They are to be regarded as the mode of development by which human organism is most especially advancing, and every fresh invention is to be considered as an additional member of the resources of the human body. Herein lies the fundamental difference between man and his inferiors. As regard his flesh and blood, his senses, appetites, and affections, the difference is one of degree rather than of kind, but in the deliberate invention of such unity of limbs as is exemplified by the railway train — that seven-leagued foot which five hundred may own at once — he stands quite alone.",
-  "translation": null
- },
- {
-  "work": "marx-capital-volume",
-  "author": "Karl Marx",
-  "title": "Capital, Volume I",
-  "year": 1867,
-  "language": "English",
-  "file": "trial/corpus/canon/texts/06e7fb14eb.txt",
-  "text": "The subject of repairs of the implements of labour does not concern us here. A \nmachine that IB undergoing repair, no longer plays the part of an instrument, but \nthat of a subject of labour. Work is no longer done with it, but upon it. It is quite \npermissible for our purpose to assume, that the labour expended on the repairs of in \nstruments is included in the labour necessary for their original production. But in \nthe text we deal with that wear and tear, which no doctor can cure, and which little \nby little brings about death, with \" that kind of wear which cannot be repaired from \ntime to time, and which, in the case of a knife, would ultimately reduce it to a state \nin which the cutler would say of it, it is not worth a new blade.\"",
-  "display": "The subject of repairs of the implements of labour does not concern us here. A machine that is undergoing repair, no longer plays the part of an instrument, but that of a subject of labour. Work is no longer done with it, but upon it. It is quite permissible for our purpose to assume, that the labour expended on the repairs of instruments is included in the labour necessary for their original production. But in the text we deal with that wear and tear, which no doctor can cure, and which little by little brings about death, with \"that kind of wear which cannot be repaired from time to time, and which, in the case of a knife, would ultimately reduce it to a state in which the cutler would say of it, it is not worth a new blade.\"",
   "translation": null
  },
  {
@@ -209,17 +187,6 @@
   "translation": null
  },
  {
-  "work": "darrow-crime-its",
-  "author": "Clarence Darrow",
-  "title": "Crime: Its Cause and Treatment",
-  "year": 1922,
-  "language": "English",
-  "file": "trial/corpus/canon/texts/2b8812dd71.txt",
-  "text": "No\nphysical human structure was ever put together where the organs were\nequally strong to do the work assigned to them. Some part of the body\nalways needs watchfulness and repair and can never be depended upon in\nemergencies. In times of overstress and strain, the defective organ or\norgans will manifest their weakness. The intricate nervous system and\nthe brain, the unseen instincts and emotions likewise do not work\nperfectly; but as a rule the ones that underwork or overwork cannot be\nseen by a physical examination. It generally requires great subtlety to\nfind them, and careful treatment and environment to make the machine\nwork fairly well in spite of these imperfections. This could be\nprovided; in most cases the machine could be placed in an environment\nwhere it would work fairly well; but instead of this all the effort\nthat is made to keep the machine in shape is a threat of the jail if it\ngoes wrong; it is then left to run itself without help or assistance of\nany kind.",
-  "display": "No physical human structure was ever put together where the organs were equally strong to do the work assigned to them. Some part of the body always needs watchfulness and repair and can never be depended upon in emergencies. In times of overstress and strain, the defective organ or organs will manifest their weakness. The intricate nervous system and the brain, the unseen instincts and emotions likewise do not work perfectly; but as a rule the ones that underwork or overwork cannot be seen by a physical examination. It generally requires great subtlety to find them, and careful treatment and environment to make the machine work fairly well in spite of these imperfections. This could be provided; in most cases the machine could be placed in an environment where it would work fairly well; but instead of this all the effort that is made to keep the machine in shape is a threat of the jail if it goes wrong; it is then left to run itself without help or assistance of any kind.",
-  "translation": null
- },
- {
   "work": "bernal-world-flesh",
   "author": "J. D. Bernal",
   "title": "The World, the Flesh and the Devil",
@@ -229,5 +196,38 @@
   "text": "Now modern mechanical and modern \nchemical discoveries have rendered both \nthe skeletal and metabolic functions of the \nbody to a large extent useless. In teleo- \nlogical biochemistry one might say that \nan animal moves his limbs in order to get \nhis food, and uses his body organs in order \nto turn that food into blood to keep his \nbody alive and active. Now if man is \nonly an animal this is all very satisfactory, \nbut viewed from the standpoint of the \nmental activity by which he increasingly \nlives, it is a highly inefiicient way of \nkeeping his mind working. In a civilized \nworker the limbs are mere parasites, \ndemanding nine-tenths of the energy of \nthe food and even a kind of blackmail in \nthe exercise they need to prevent disease, \nwhile the body organs wear themselves \nout in supplying their requirements.",
   "display": "Now modern mechanical and modern chemical discoveries have rendered both the skeletal and metabolic functions of the body to a large extent useless. In teleological biochemistry one might say that an animal moves his limbs in order to get his food, and uses his body organs in order to turn that food into blood to keep his body alive and active. Now if man is only an animal this is all very satisfactory, but viewed from the standpoint of the mental activity by which he increasingly lives, it is a highly inefficient way of keeping his mind working. In a civilized worker the limbs are mere parasites, demanding nine-tenths of the energy of the food and even a kind of blackmail in the exercise they need to prevent disease, while the body organs wear themselves out in supplying their requirements.",
   "translation": null
+ },
+ {
+  "work": "maudsley-pathology-mind",
+  "author": "Henry Maudsley",
+  "title": "The Pathology of Mind",
+  "year": 1879,
+  "language": "English",
+  "text": "The organism is a self-feeding and self-repair- ing machine, but it cannot do its repairs when it is in full work ; it must have for its parts, as for its whole, its recurring periods of adequate rest ; and the time comes at last when, like any other machine, it wears out, is no more capable of repair, and when the exhaustion which ensues is death — the sleep during which there is no repair and from which there is no awaking.",
+  "display": "The organism is a self-feeding and self-repairing machine, but it cannot do its repairs when it is in full work ; it must have for its parts, as for its whole, its recurring periods of adequate rest ; and the time comes at last when, like any other machine, it wears out, is no more capable of repair, and when the exhaustion which ensues is death — the sleep during which there is no repair and from which there is no awaking.",
+  "translation": null,
+  "file": "research/keys/sources/coverage-maudsley-1879.txt"
+ },
+ {
+  "work": "baker-kirkes-physiology",
+  "author": "W. Morrant Baker",
+  "title": "Kirkes’ Hand-book of Physiology (ninth edition)",
+  "year": 1879,
+  "language": "English",
+  "text": "But  the  repair  in  the  two  cases  is  different.  The  capability  of \nreconstruction  in  a living  body  is  an  inherent  quality  like  that \nwhich  causes  growth  in  a special  shape  or  to  a certain  degree. \nAt  present  we  know  nothing  really  of  its  nature,  and  we  are \ntherefore  compelled  to  express  the  fact  of  its  existence  by  such \nterms  as  “ inherent  power,”  “ individual  endowment,”  and  the \nlike,  and  wait  for  more  facts  which  may  ultimately  explain  it. \nThis  special  quality  is  not  indeed  one  of  living  things  alone. \nThe  repair  of  a crystal  in  definite  shape  is  equally  an  “ indi- \nvidual endowment,”  or  “ inherent  peculiarity,”  of  the  nature  of \nwhich  we  are  equally  ignorant.  In  the  case,  however,  of  an \ninorganic  machine  there  is  nothing  of  the  sort,  not  even  as  in  a \ncrystal.  Faults  of  structure  must  be  repaired  by  some  means \nentirely  from  without.  And  as  our  notion  of  a living  being, \nsay  a horse,  would  be  entirely  altered  if  flaws  in  his  composition \nwere  repaired  by  external  means  only ; so,  in  like  manner, \nwould  our  idea  of  the  nature  of  a steam  engine  be  completely \nchanged  had  it  the  power  of  absorbing  and  using  part  of  its \nfuel  as  matter  wherewith  to  repair  any  ordinary  injury  it  might \nsustain.\n…\nBut  if  a distinct  correlation  be  recognised  between  ordinary \nphysical  force  and  that  which  in  various  shapes  is  manifested  by \nliving  beings ; if  it  be  granted  that  every  act — say,  for  example, \nof  a brain  or  muscle — is  the  exactly  correlated  expression  of  a \ncertain  quantity  of  force  latent  in  the  food  with  which  an  animal \nis  nourished ; and  that  the  force  produced  either  in  the  shape  of \nthought  or  movement  is  but  the  transformed  expression  of  external \nforce,  and  can  no  more  originate  in  a living  organ  without \nsupplies  of  force  from  without,  than  can  that  organ  itself  be \nformed  or  nourished  without  supplies  of  matter ; — if  these  facts \nbe  recognised,  then  the  term  used  in  speaking  of  the  powers \nexercised  by  a living  being  is  not  of  very  much  consequence. \nWe  have  as  much  right  to  use  the  term  “ vital”  as  the  words \ngalvanic  and  chemical.  All  alike  are  but  the  expressions  of  our \nignorance  concerning  the  nature  of  that  power  of  which  all  that \nwe  call  “ forces  ” are  various  manifestations.  The  difference  is  in \nthe  apparatus  by  which  the  force  is  transformed.",
+  "display": "But the repair in the two cases is different. The capability of reconstruction in a living body is an inherent quality like that which causes growth in a special shape or to a certain degree. At present we know nothing really of its nature, and we are therefore compelled to express the fact of its existence by such terms as “ inherent power,” “ individual endowment,” and the like, and wait for more facts which may ultimately explain it. This special quality is not indeed one of living things alone. The repair of a crystal in definite shape is equally an “ individual endowment,” or “ inherent peculiarity,” of the nature of which we are equally ignorant. In the case, however, of an inorganic machine there is nothing of the sort, not even as in a crystal. Faults of structure must be repaired by some means entirely from without. And as our notion of a living being, say a horse, would be entirely altered if flaws in his composition were repaired by external means only ; so, in like manner, would our idea of the nature of a steam engine be completely changed had it the power of absorbing and using part of its fuel as matter wherewith to repair any ordinary injury it might sustain. … But if a distinct correlation be recognised between ordinary physical force and that which in various shapes is manifested by living beings ; if it be granted that every act — say, for example, of a brain or muscle — is the exactly correlated expression of a certain quantity of force latent in the food with which an animal is nourished ; and that the force produced either in the shape of thought or movement is but the transformed expression of external force, and can no more originate in a living organ without supplies of force from without, than can that organ itself be formed or nourished without supplies of matter ; — if these facts be recognised, then the term used in speaking of the powers exercised by a living being is not of very much consequence. We have as much right to use the term “ vital” as the words galvanic and chemical. All alike are but the expressions of our ignorance concerning the nature of that power of which all that we call “ forces ” are various manifestations. The difference is in the apparatus by which the force is transformed.",
+  "translation": null,
+  "file": "research/keys/sources/coverage-baker-1879.txt"
+ },
+ {
+  "work": "meltzer-factors-safety",
+  "author": "S. J. Meltzer",
+  "title": "The Factors of Safety in Animal Structure and Animal Economy",
+  "year": 1907,
+  "language": "English",
+  "text": "At any rate, self-repair distinguishes the organism from the machine. If parts of a machine yield to stress and the factors of safety become exhausted, the machine would surely break down, unless it is re- paired by human hands, just as it is made by human hands. As far as I know, no machine has yet been invented which is provided with devices for a continual self- repair. In the living organism self-repair is a wide-spread function of living tissues and organs. It is a dormant force, a re- serve force, which springs into immediate activity as soon as any injury is inflicted. It is a factor of safety peculiar to the living organism. It manifests itself in the forms of regeneration and hypertrophy of tissues and organs, and also in the fune- tional forms of inflammatory reaction, of substitution, vicariation and adaptation.",
+  "display": "At any rate, self-repair distinguishes the organism from the machine. If parts of a machine yield to stress and the factors of safety become exhausted, the machine would surely break down, unless it is repaired by human hands, just as it is made by human hands. As far as I know, no machine has yet been invented which is provided with devices for a continual self-repair. In the living organism self-repair is a wide-spread function of living tissues and organs. It is a dormant force, a reserve force, which springs into immediate activity as soon as any injury is inflicted. It is a factor of safety peculiar to the living organism. It manifests itself in the forms of regeneration and hypertrophy of tissues and organs, and also in the functional forms of inflammatory reaction, of substitution, vicariation and adaptation.",
+  "translation": null,
+  "file": "research/keys/sources/coverage-meltzer-1907.txt"
  }
 ]

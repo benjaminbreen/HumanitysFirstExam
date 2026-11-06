@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-10-14",
+ "date": "2026-10-28",
  "passages": [
   {
    "id": "6780a39d3b-orig-6",
@@ -56,7 +56,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
   },
   {
    "id": "6780a39d3b-orig-9",
@@ -100,7 +102,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
   },
   {
    "id": "6780a39d3b-orig-16",
@@ -144,7 +148,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
   },
   {
    "id": "6780a39d3b-orig-27",
@@ -188,7 +194,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
   },
   {
    "id": "910d6b93ad-orig-1",
@@ -228,7 +236,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
   },
   {
    "id": "910d6b93ad-orig-43",
@@ -272,7 +282,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Overlaps the focused Q32 Spengler quotation and begins with unrelated endnotes."
   },
   {
    "id": "910d6b93ad-orig-46",
@@ -313,7 +325,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
   },
   {
    "id": "910d6b93ad-orig-47",
@@ -345,7 +359,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
   },
   {
    "id": "910d6b93ad-orig-48",
@@ -393,7 +409,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
   },
   {
    "id": "910d6b93ad-orig-49",
@@ -429,7 +447,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Overlaps the focused Q33 Spengler quotation; chunk boundaries split the continuous argument."
   },
   {
    "id": "910d6b93ad-orig-50",
@@ -469,7 +489,9 @@
    },
    "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
    "status": "machine translation, unchecked",
-   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+   "selection": "embedding similarity to the question (trial/corpus/select_passages.py)",
+   "selectionStatus": "reserve",
+   "reserveReason": "Overlaps the focused Q33 Spengler quotation; chunk boundaries split the continuous argument."
   },
   {
    "id": "q01-menabrea-sketch-analytical",
@@ -1280,9 +1302,9 @@
    "original": "That there is no fuch thing in nature, as pre-exijling organized germs : but that the unorganized matter of generation, after being drily prepared, and having arrived at its place of dejlination takes on a particular aftion, or nifus, which nifus continues to aft through the whole life of the animal, and that by it the firji form of the animal, or plant is not only deter- mined, but afterwards preferved, and when deranged, is again rejlored. A nifus, which feems therefore to depend on the powers of life, but which is as dijlinft from the other qualities tf living bodies, (fenfibility, irritability, and contraftility ) as from the comrnon properties of dead matter : that it is the chief principle of generation, growth, nutrition, and reproduc- tion, and that to d'tflinguijh it from all others, it may be denominated the Formative Nifus (Bildungftrieb, or Nifus formativus).",
    "translation": null,
    "terms": [],
-   "notes": "Blumenbach argues from monsters in domesticated animals for the Formative Nisus against pre-existing germs and states that the evidence has turned him against the system of involved germs.",
+   "notes": "Blumenbach denies pre-existing organized germs and defines formative nisus as a distinctive force of generation, growth, nutrition and reproduction.",
    "relevance": {},
-   "summaryCheck": "other: the passage argues against preformed germs; it does not show the claim that ordinary physical forces cannot explain generation, or that the drive repairs the body.",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -1412,9 +1434,9 @@
    "original": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduc- tion which can be embodied in a machine acting by simple and uniform movements.",
    "translation": null,
    "terms": [],
-   "notes": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes.",
+   "notes": "Jevons contrasts the incompleteness of the ancient syllogism with deduction founded on fundamental laws of thought that can be embodied in uniform mechanical movements.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -1486,9 +1508,9 @@
    "original": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence. ... Here it is not at all the case; the logicians _have applied_ their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
    "translation": null,
    "terms": [],
-   "notes": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor.",
+   "notes": "Poincaré argues that blind adherence to rules would require infallibility, whereas logicians have encountered contradictions and are revising their rules.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -1582,9 +1604,9 @@
    "original": "„Das  ift  der  fSimmel,  deffen  Du  als  £beoretifer  jefct \ntbeilbjaftig  werden  wirft.\" \n\n2Ufo  bloß  für  Cbeoretifer  ?  IDobin  Fommen  denn  die \npraftifer  ? \n\n„Sie  r?aben  ibr  eigenes\"3enfeits.  Dasjelbe  gehört  nod) \n3um  Sonnenfyftcm.  Die  Sonne  wirft  ibre  Straelen  binein, \nund  es  giebt  dort  eine  atmofpliärifd>e  Cuft,  wie  fie  für  die \nderbe  Kouftitution  des  praftiFers  paßt,  der  einmal  in  dem \nluftleeren  2?aum,  wie  er  für  die  Begriffe  uötbjig  ift,  niety  su \neriftiren  permag,  und  es  bjerrfcrjt  dort  ein  £ebeu  gans  wie \nauf  der  <£rde,  fur3  der  praftifer  findet  alle  Bedingungen  des \nirdiferjen  Dafeins  aud)  dort  wieder.  3m  tbeoretifcb.en  Gimmel \nwürde  er  uicrjt  3U  atfynen  oermögen,  und  er  würde  aud>, \nda  feine  klugen  auf  die  dort  bjerrfdieude  tiefe  finfternis  nicbjt \neingeridtfet  find,  feinen  Schritt  0011  der  Stelle  tfmn  tonnen.\"",
    "translation": "\"That is the heaven which you, as a theorist, will now share in.\" Only for theorists, then? Where do the practitioners go? \"They have their own hereafter. It still belongs to the solar system. The sun casts its rays into it, and there is an atmosphere there suited to the coarse constitution of the practitioner, who cannot exist in the airless space that concepts need; life there is just as on earth; in short, the practitioner finds all the conditions of earthly existence there again. In the theoretical heaven he could not breathe, and since his eyes are not made for the deep darkness that reigns there, he could not take a single step.\"",
    "terms": [],
-   "notes": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary.",
+   "notes": "In the satire, the heaven of theoretical concepts is separated from the practitioners’ afterlife: practitioners could neither breathe nor see in the theorists’ world. This excerpt does not give a particular unjust judicial decision.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -1658,9 +1680,9 @@
    "original": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve le voilà qui échoue. On ne peut pas douter de la jus- tesse de cette dernière raison. Nous en sommes péné très à ce point que nous jugeons chimérique et absurd* de mesurer une intelligence d'enfant d'après un trè^ petit nombre d'épreuves.",
    "translation": "Suppose the subject has a moment of distraction, discomfort or boredom during a test: there he is, failing. One cannot doubt the soundness of this last reason. We are so convinced of it that we judge it fanciful and absurd to measure a child's intelligence from a very small number of tests.",
    "terms": [],
-   "notes": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests.",
+   "notes": "Binet argues that distraction, discomfort or boredom can cause failure on a test, making measurement of a child’s intelligence from very few tests absurd. This is a qualification of testing, not a rejection of all tests.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -1696,9 +1718,9 @@
    "original": "INTELLIGENCE TESTS FOR VOCATIONAL FITNESS. The time is probably not far\ndistant when intelligence tests will become a recognized and widely used\ninstrument for determining vocational fitness. Of course, it is not\nclaimed that tests are available which will tell us unerringly exactly\nwhat one of a thousand or more occupations a given individual is best\nfitted to pursue. But when thousands of children who have been tested by\nthe Binet scale have been followed out into the industrial world, and\ntheir success in various occupations noted, we shall know fairly\ndefinitely the vocational significance of any given degree of mental\ninferiority or superiority. Researches of this kind will ultimately\ndetermine the minimum \"intelligence quotient\" necessary for success in\neach leading occupation.\n\nIndustrial concerns doubtless suffer enormous losses from the employment\nof persons whose mental ability is not equal to the tasks they are\nexpected to perform. The present methods of trying out new employees,\ntransferring them to simpler and simpler jobs as their inefficiency\nbecomes apparent, is wasteful and to a great extent unnecessary. A\ncheaper and more satisfactory method would be to employ a psychologist\nto examine applicants for positions and to weed out the unfit. Any\nbusiness employing as many as five hundred or a thousand workers, as,\nfor example, a large department store, could save in this way several\ntimes the salary of a well-trained psychologist.",
    "translation": null,
    "terms": [],
-   "notes": "Terman says the scale can bound the vocational territory in which a person may succeed and will contribute more than all other data to forecasting a child's future, but also that it is not a detailed vocational chart and must be interpreted with other information.",
+   "notes": "Terman anticipates occupational intelligence-quotient thresholds and recommends psychologists to screen applicants, while denying that available tests can unerringly select a precise occupation for each person.",
    "relevance": {},
-   "summaryCheck": "overstated",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -2028,9 +2050,9 @@
    "original": "The methods which have been successful in the case of plants and\nanimals must be much modified for application to the human race. In\nthe case of human beings the selection and cross-breeding which were\nimposed upon rye and plum trees are not possible, but, at the same\ntime, the ideal of human nature, towards which mankind ought to press,\nmay be formed. In our opinion this ideal is orthobiosis, that is to\nsay, the development of the human life so that it passes through a long\nperiod of old age in active and vigorous health, leading to the final\nperiod in which there shall be present a sense of satiety of life,\nand a wish for death. I do not think that the ideal should be that of\nHerbert Spencer, a simple prolongation of human life. When the instinct\nof death comes at a not very late period of life, there would be no\ninconvenience in shortening the life, if death did not come soon after\nthe appearance of the instinct. Probably this would be the only case\nwhere suicide was justified in the conception of orthobiosis.",
    "translation": null,
    "terms": [],
-   "notes": "Metchnikoff's own voice arguing that prolonging life is useful because it would preserve intelligence and capacity for work; the intestinal-poisoning cause and the instinct for death are not in this passage, and c3 is the translator's introduction, not Metchnikoff.",
+   "notes": "Metchnikoff defines orthobiosis as prolonged active, healthy old age followed by satiety of life and a wish for death, expressly distinguishing this ideal from simple prolongation.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -2082,9 +2104,9 @@
    "original": "A  part  of  a  person  is  a  manifest  absurdity. \nWhen  a  man  loses  his  estate,  his  health,  his  strength, \nhe  is  still  the  same  person,  and  has  lost  nothing  of  his \npersonality.  If  he  has  a  leg  or  an  arm  cut  off,  he  is \nthe  same  person  he  was  before.  The  amputated  mem- \nber is  no  part  of  his  person,  otherwise  it  would  have  a \nright  to  a  part  of  his  estate,  and  be  liable  for  a  part  of \nhis  engagements.  It  would  be  entitled  to  a  share  of \nhis  merit  and  demerit,  which  is  manifestly  absurd.  A \nperson  is  something  indivisible,  and  is  what  Leibnitz \ncalls  a  monad. \n\nMy  personal  identity,  therefore,  implies  the  continued \nexistence  of  that  indivisible  thing  which  I  call  myself. \nWhatever  this  self  may  be,  it  is  something  which  thinks, \nand  deliberates,  and  resolves,  and  acts,  and  suffers.  I \nam  not  thought,  I  am  not  action,  I  am  not  feeling ;  I \nam  something  that  thinks,  and  acts,  and  suffers.  My \nthoughts,  and  actions,  and  feelings,  change  every  mo- \nment ;  they  have  no  continued,  but  a  successive,  exist- \nence ;  but  that  self  or  J,  to  which  they  belong,  is  per- \nmanent, and  has  the  same  relation  to  all  the  succeeding \nthoughts,  actions,  and  feelings  which  I  call  mine.",
    "translation": null,
    "terms": [],
-   "notes": "Reid distinguishes the organs of perception from the being that perceives, comparing the eye to a telescope as natural and artificial organs; the amputated-limb and indivisibility argument in the summary is not in these candidates.",
+   "notes": "Reid argues that amputation does not divide the person: the enduring self is indivisible even though its thoughts, actions and feelings change.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -2176,9 +2198,9 @@
    "original": "ce n'est point le perfectionne- ment des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouis- sances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures [...] C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a aug- menté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire.",
    "translation": "It is not the improvement of machines that is the true calamity; it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest. The worker who was his own master, once he had done in two hours with the help of a machine what he used to do in twelve, would stop after the two hours [...] It is our present organisation, it is the servitude of the worker, that reduces him, when a machine has increased his powers, to working not fewer but more hours a day, for the same wage.",
    "terms": [],
-   "notes": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates.",
+   "notes": "Sismondi locates the calamity in unjust distribution, not improved machinery. A self-employed worker could take the productivity gain as leisure, whereas a dependent worker may work longer for the same wage.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -2214,9 +2236,9 @@
    "original": "I  have  visited \nmany  factories,  both  in  Manchester  and  in  the  sur- \nrounding districts,  during  a  period  of  several  months, \nentering  the  spinning  rooms,  unexpectedly,  and  often \nalone,  at  diflFerent  times  of  the  day,  and  I  never  saw  a \nsingle  instance  of  corporal  chastisement  inflicted  on  a \nchild,  nor  indeed  did  I  ever  see  children  in  ill-humour- \nThey  seemed  to  be  always  cheerful  and  alert,  taking \npleasure  in  the  light  play  of  their  muscles, — enjoying \nthe  mobility  natural  to  their  age.  The  scene  of  indus- \ntry, so  far  from  exciting  sad  emotions  in  my  mind,  was \nalways  exhilarating.  It  was  delightful  to  observe  the \nnimbleness  with  which  they  pieced  the  broken  ends, \nas  the  mule-carriage  began  to  recede  from  the  fixed \nroller  beam,  and  to  see  them  at  leisure,  after  a  few \nseconds'  exercise  of  their  tiny  fingers,  to  amuse  them- \nselves in  any  attitude  they  chose,  till  the  stretch  and \nwinding-on  were  once  more  completed.  The  work  of \nthese  lively  elves  seemed  to  resemble  a  sport,  in  which \nhabit  gave  them  a  pleasing  dexterity.  Conscious  of \ntheir  skill,  they  were  delighted  to  show  it  off  to  any \nstranger.  As  to  exhaustion  by  the  day's  work,  they \nevinced  no  trace  of  it  on  emerging  from  the  mill  in  the \nevening;  for  they  immediately  began  to  skip  about \nany  neighbouring  play-ground,  and  to  commence  their \nlittle  amusements  with  the  same  alacrity  as  boys \nissuing  from  a  school.  It  is  moreover  my  firm  con- \nviction, that  if  children  are  not  ill-used  by  bad  parents \nor  guardians,  but  receive  in  food  and  raiment  the  full \nbenefit  of  what  they  earn,  they  would  thrive  better \nwhen  employed  in  our  modern  factories,  than  if  left  at \nhome  in  apartments  too  often  ill-aired,  damp,  and \ncold.",
    "translation": null,
    "terms": [],
-   "notes": "Ure claims improvements in machinery raise operatives' earnings and wages throughout the trade; his description of cheerful child piecers is in c1.",
+   "notes": "Ure reports seeing cheerful child workers in factories and claims that, with adequate food and clothing, they would thrive there better than in unhealthy homes. These are Ure’s claims, not independently established facts about factory conditions.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -2456,9 +2478,9 @@
    "original": "ce  n'est  point  le  perfectionne- \nment des  machines  qui  est  la  vraie  calamité  ,  c'est  le \npartage  injuste  que  nous  faisons  de  leur  produit.  Plus \nnous  pouvons  faire  d'ouvrage  avec  une  quantité  donnée \nde  travail,  et  plus  nous  devrions  augmenter  ou  nos  jouis- \nsances ou  notre  repos  ;  l'ouvrier  qui  serait  son  propre \nmaître,  quand  il  aurait  fait  en  deux  heures,  à  l'aide \nd'une  machine  ,  ce  qu'il  faisait  auparavant  en  douze  , \ns'arrêterait  après  les  deux  heures ,  s'il  n'avait  pas  besoin , \ns'il  ne  pouvait  pas  faire  usage  d'un  produit  plus  considé- \nrable. C'est  notre  organisation  actuelle ,  c'est  la  servitude \nde  l'ouvrier  qui  le  réduit ,  lorsqu'une  machine  a  aug- \nmenté ses  pouvoirs ,  à  travailler  non  pas  moins ,  mais \nplus  d'heures  par  jour,  pour  le  même  salaire.",
    "translation": "It must be repeated: it is not the improvement of machines that is the real calamity, it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest; the worker who was his own master, when he had done in two hours with the help of a machine what he formerly did in twelve, would stop after the two hours, if he had no need of, and could make no use of, a larger product. It is our present organisation, the servitude of the worker, that reduces him, when a machine has increased his powers, to work not fewer but more hours a day, for the same wage.",
    "terms": [],
-   "notes": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1.",
+   "notes": "Sismondi argues that greater output per unit of labor ought to increase enjoyment or rest; his self-employed worker stops after two hours, while the dependent worker does not receive the benefit.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -2640,9 +2662,9 @@
    "original": "The great thing, then, in all education, is to _make our nervous\nsystem our ally instead of our enemy_. It is to fund and capitalize\nour acquisitions, and live at ease upon the interest of the fund.\n_For this we must make automatic and habitual, as early as possible,\nas many useful actions as we can,_ and guard against the growing into\nways that are likely to be disadvantageous to us, as we should guard\nagainst the plague. The more of the details of our daily life we can\nhand over to the effortless custody of automatism, the more our higher\npowers of mind will be set free for their own proper work.",
    "translation": null,
    "terms": [],
-   "notes": "James argues that without habit economizing effort man would be in a sorry plight, and quotes Maudsley with approval that without it a lifetime could be spent on one or two deeds; the sentence about freeing the higher powers of mind is not in the candidates.",
+   "notes": "James recommends making useful actions habitual so that automatic performance of daily details releases higher mental powers for their own work.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -3148,9 +3170,9 @@
    "original": "Cannot you see, cannot all your lecturers see, that it is we who are dying, and that down here the only thing that really lives is the Machine? We created the Machine, to do our will, but we cannot make it do our will now. It has robbed us of the sense of space and of the sense of touch, it has blurred every human relation and narrowed down love to a carnal act, it has paralysed our bodies and our wills, and now it compels us to worship it.",
    "translation": null,
    "terms": [],
-   "notes": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails.",
+   "notes": "Kuno says the Machine has robbed people of spatial and tactile capacities, weakened relationships, paralyzed bodies and wills, and compelled worship. This is his speech, not the later narrated collapse.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -3202,9 +3224,9 @@
    "original": "He was oppressed, he was indeed scared, by his sense of the immense consequences of his discovery. He had a vague idea that night that he ought not to publish his results, that they were premature, that some secret association of wise men should take care of his work and hand it on from generation to generation until the world was riper for its practical application.",
    "translation": null,
    "terms": [],
-   "notes": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences.",
+   "notes": "The narrator describes Holsten’s fear of his discovery’s consequences and his thought that publication might be premature. His later disclaimer of unforeseeable consequences is a separate passage.",
    "relevance": {},
-   "summaryCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -3460,9 +3482,9 @@
    "original": "This Lordſhip which Ada: by Com- mand had over the whole World, and by Right deſcending from him the Pa- triarchs did enjoy, was as large and ample as the Abſoluteſt Dominion of any Monarch. which hath been ſince the Creatioh : For Dominion of Life and Death, we find that Judah the Father pronounced Sentence of Death againſt Thamar his Daughter-1in-law, for play- ing the Harlotz Bring her forth (faith he) that ſhe may be burnt, Touching War, we ſee that Abram commanded an. Army of 318 Souldiers of his own Fa- mily, And Eſau met his Brother Jacob with 400 Men at Arms. For matter of Peace, Abraham made a League with Abimelech, and ratified the Articles with an Oath. Theſe ACts of Judging in Ca-. pital Crimes, of making War, and con- cluding Peace, are the chicfeſt Marks of Soverergnty that are found in any Mg- march.",
    "translation": null,
    "terms": [],
-   "notes": "Filmer grounds kingly jurisdiction in the natural fatherhood of the first progenitors, whose right descends to their heirs; the candidates do not mention a power of life and death.",
+   "notes": "Filmer treats patriarchal dominion as sovereign power, explicitly invoking life-and-death judgment, war and treaty making. The argument concerns paternal rule, not directly the manufacture of an intelligent being.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -3754,9 +3776,9 @@
    "original": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XXI века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
    "translation": "In an age of little faith, an age in which not only the old religious faith but also the humanist faith of the nineteenth century has weakened, the one strong faith left to modern civilised man is faith in technics, in its power and its endless development. Technics is man's last love, and he is ready to change his image under the influence of the object of his love.",
    "terms": [],
-   "notes": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist.",
+   "notes": "Berdyaev describes faith in technics as the remaining strong faith of modern civilized humanity, whose attachment to it may change humanity’s own image.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -3942,9 +3964,9 @@
    "original": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
    "translation": "M. Jules Ferry. These duties, gentlemen, have often been ignored in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Hear, hear!) But in our day, I maintain that the European nations discharge this higher duty of civilisation with generosity, with greatness and with honesty.",
    "terms": [],
-   "notes": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates.",
+   "notes": "Ferry asserts that contemporary European nations generously discharge a superior race’s civilizing duty, contrasting this with earlier Spanish enslavement. The excerpt does not state the technological premise or the explicit right-because-duty formula.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
@@ -4058,9 +4080,9 @@
    "original": "In the second place, I observe the Diseases of a Common-wealth, that\nproceed from the poyson of seditious doctrines; whereof one is, \"That\nevery private man is Judge of Good and Evill actions.\" This is true in\nthe condition of meer Nature, where there are no Civill Lawes; and also\nunder Civill Government, in such cases as are not determined by the\nLaw. But otherwise, it is manifest, that the measure of Good and Evill\nactions, is the Civill Law; and the Judge the Legislator, who is alwayes\nRepresentative of the Common-wealth. From this false doctrine, men are\ndisposed to debate with themselves, and dispute the commands of the\nCommon-wealth; and afterwards to obey, or disobey them, as in their\nprivate judgements they shall think fit. Whereby the Common-wealth is\ndistracted and Weakened. … Otherwise in such diversity, as there is of private Consciences, which\nare but private opinions, the Common-wealth must needs be distracted,\nand no man dare to obey the Soveraign Power, farther than it shall seem\ngood in his own eyes.",
    "translation": null,
    "terms": [],
-   "notes": "Hobbes says commonwealths could last as long as mankind if built by reason, but men as makers lack the art and humility to build them without 'a very able Architect'; the summary's point about private conscience is not in this candidate.",
+   "notes": "Hobbes criticizes private conscience as a competing judge of good and evil where civil law has determined the matter, arguing that competing private judgments would divide the commonwealth.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -4132,9 +4154,9 @@
    "original": "Чрезвычайно характерно, что именно эта существенная поправка была искажена оппортунистами, и смысл её, наверное, неизвестен девяти десятым, если не девяносто девяти сотым читателей «Коммунистического Манифеста». Подробно об этом искажении мы скажем ниже, в главе, специально посвящённой искажениям. Теперь достаточно будет отметить, что ходячее, вульгарное «понимание» приведённого нами знаменитого изречения Маркса состоит в том, будто Маркс подчёркивает здесь идею медленного развития в противоположность захвату власти и тому подобное.\n\n На самом деле как раз наоборот . Мысль Маркса состоит в том, что рабочий класс должен разбить, сломать «готовую государственную машину», а не ограничиваться простым захватом её.",
    "translation": "It is extremely characteristic that it is precisely this essential correction that the opportunists have distorted, and its meaning is probably unknown to nine-tenths, if not ninety-nine hundredths, of the readers of the Communist Manifesto. We shall deal with this distortion in detail below, in a chapter devoted specially to distortions. Here it is enough to note that the current, vulgar 'understanding' of Marx's famous statement quoted above is that Marx here stresses the idea of slow development as opposed to the seizure of power, and so on. In fact the exact opposite is the case. Marx's idea is that the working class must break up, smash the 'ready-made state machinery', and not confine itself merely to seizing it.",
    "terms": [],
-   "notes": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants.",
+   "notes": "Lenin interprets Marx as requiring the working class to smash ready-made state machinery rather than merely take possession of it.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -4388,9 +4410,9 @@
    "original": "The very simplicity and nakedness of man’s life in the primitive ages\nimply this advantage at least, that they left him still but a sojourner\nin nature. When he was refreshed with food and sleep he contemplated\nhis journey again. He dwelt, as it were, in a tent in this world, and\nwas either threading the valleys, or crossing the plains, or climbing\nthe mountain tops. But lo! men have become the tools of their tools.\nThe man who independently plucked the fruits when he was hungry is\nbecome a farmer; and he who stood under a tree for shelter, a\nhousekeeper. We now no longer camp as for a night, but have settled\ndown on earth and forgotten heaven. We have adopted Christianity merely\nas an improved method of _agri_-culture. We have built for this world a\nfamily mansion, and for the next a family tomb. The best works of art\nare the expression of man’s struggle to free himself from this\ncondition, but the effect of our art is merely to make this low state\ncomfortable and that higher state to be forgotten.",
    "translation": null,
    "terms": [],
-   "notes": "Thoreau says the farmer's house has got him rather than he the house; the phrase 'tools of their tools' is not in the candidates.",
+   "notes": "Thoreau contrasts a mobile, self-providing life with settled dependence and says that people have become the tools of their tools. The passage addresses dependence more directly than attribution of technical capability.",
    "relevance": {},
-   "summaryCheck": "ok",
+   "summaryCheck": "Description reconciled with the current quotation by Codex, 28 Oct 2026; historical interpretation and existing draft category remain unvalidated.",
    "translationBy": null,
    "status": "replaced after reading screen, 14 Oct 2026",
    "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
@@ -4665,6 +4687,524 @@
    "status": "replaced after reading screen, 14 Oct 2026",
    "corrected": "It is to the existence of these \"schemata\" that we owe the power of projecting our recognition of posture, movement and locality beyond the limits of our own bodies to the end of some instrument held in the hand. Without them we could not probe with a stick, nor use a spoon unless our eyes were fixed upon the plate. Anything which participates in the conscious movement of our bodies is added to the model of ourselves and becomes part of these schemata; a woman's power of localisation may extend to the feather in her hat.",
    "correction": "Claude, from the source text"
+  },
+  {
+   "id": "retained-q01-p05-20261028",
+   "work": "thiry-system-nature",
+   "questions": [
+    "Q01"
+   ],
+   "language": "French",
+   "original": "Sometimes in dreaming, he has memory, then he retraces to himself the objects which have struck him faithfully;--at other times, these modifications renew themselves without order, and without connection, very differently from those, which real objects have before excited in his interior organ. If in a dream he believes he sees a friend, his brain renews in itself the modifications or the ideas which this friend had formerly excited--in the same order that they arranged themselves when his eyes really beheld him--this is nothing more than an effect of memory. If in his dream he fancies he sees a monster which has no model in nature, his brain is then modified in the same manner that it was by the particular, by the detached ideas, with which it then does nothing more than compose an ideal whole; by assembling, and associating, in a ridiculous manner, the scattered ideas that were consigned to its keeping; it is then, that in dreaming he has imagination.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/8d9ba0a725.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/8d9ba0a725.txt",
+    "text": "Sometimes in\ndreaming, he has memory, then he retraces to himself the objects which\nhave struck him faithfully;--at other times, these modifications renew\nthemselves without order, and without connection, very differently from\nthose, which real objects have before excited in his interior organ. If\nin a dream he believes he sees a friend, his brain renews in itself the\nmodifications or the ideas which this friend had formerly excited--in\nthe same order that they arranged themselves when his eyes really beheld\nhim--this is nothing more than an effect of memory. If in his dream he\nfancies he sees a monster which has no model in nature, his brain is\nthen modified in the same manner that it was by the particular, by the\ndetached ideas, with which it then does nothing more than compose an\nideal whole; by assembling, and associating, in a ridiculous manner, the\nscattered ideas that were consigned to its keeping; it is then, that in\ndreaming he has imagination.",
+    "formerPool": "Q01",
+    "formerPassageId": "p05"
+   }
+  },
+  {
+   "id": "retained-q08-p20-20261028",
+   "work": "darrow-crime-its",
+   "questions": [
+    "Q06"
+   ],
+   "language": "English",
+   "original": "No physical human structure was ever put together where the organs were equally strong to do the work assigned to them. Some part of the body always needs watchfulness and repair and can never be depended upon in emergencies. In times of overstress and strain, the defective organ or organs will manifest their weakness. The intricate nervous system and the brain, the unseen instincts and emotions likewise do not work perfectly; but as a rule the ones that underwork or overwork cannot be seen by a physical examination. It generally requires great subtlety to find them, and careful treatment and environment to make the machine work fairly well in spite of these imperfections. This could be provided; in most cases the machine could be placed in an environment where it would work fairly well; but instead of this all the effort that is made to keep the machine in shape is a threat of the jail if it goes wrong; it is then left to run itself without help or assistance of any kind.",
+   "translation": null,
+   "terms": [],
+   "notes": "Proposed placement: bodily causes, punishment and moral responsibility. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/2b8812dd71.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Proposed placement: bodily causes, punishment and moral responsibility."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/2b8812dd71.txt",
+    "text": "No\nphysical human structure was ever put together where the organs were\nequally strong to do the work assigned to them. Some part of the body\nalways needs watchfulness and repair and can never be depended upon in\nemergencies. In times of overstress and strain, the defective organ or\norgans will manifest their weakness. The intricate nervous system and\nthe brain, the unseen instincts and emotions likewise do not work\nperfectly; but as a rule the ones that underwork or overwork cannot be\nseen by a physical examination. It generally requires great subtlety to\nfind them, and careful treatment and environment to make the machine\nwork fairly well in spite of these imperfections. This could be\nprovided; in most cases the machine could be placed in an environment\nwhere it would work fairly well; but instead of this all the effort\nthat is made to keep the machine in shape is a threat of the jail if it\ngoes wrong; it is then left to run itself without help or assistance of\nany kind.",
+    "formerPool": "Q08",
+    "formerPassageId": "p20"
+   }
+  },
+  {
+   "id": "retained-q18-p12-20261028",
+   "work": "george-progress-poverty",
+   "questions": [
+    "Q17",
+    "Q18"
+   ],
+   "language": "English",
+   "original": "The fact is, that the qualities that raise man above the animal are superimposed on those which he shares with the animal, and that it is only as he is relieved from the wants of his animal nature that his intellectual and moral nature can grow. Compel a man to drudgery for the necessities of animal existence, and he will lose the incentive to industry—the progenitor of skill—and will do only what he is forced to do. Make his condition such that it cannot be much worse, while there is little hope that anything he can do will make it much better, and he will cease to look beyond the day. Deny him leisure—and leisure does not mean the want of employment, but the absence of the need which forces to uncongenial employment—and you cannot, even by running the child through a common school and supplying the man with a newspaper, make him intelligent.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retain as context on leisure, deprivation and intellectual development. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/3be7359297.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retain as context on leisure, deprivation and intellectual development."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/3be7359297.txt",
+    "text": "The fact is, that the qualities that raise man above the animal are superimposed on those which he shares with the animal, and that it is only as he is relieved from the wants of his animal nature that his intellectual and moral nature can grow. Compel a man to drudgery for the necessities of animal existence, and he will lose the incentive to industry—the progenitor of skill—and will do only what he is forced to do. Make his condition such that it cannot be much worse, while there is little hope that anything he can do will make it much better, and he will cease to look beyond the day. Deny him leisure—and leisure does not mean the want of employment, but the absence of the need which forces to uncongenial employment—and you cannot, even by running the child through a common school and supplying the man with a newspaper, make him intelligent.",
+    "formerPool": "Q18",
+    "formerPassageId": "p12"
+   }
+  },
+  {
+   "id": "retained-q23-p04-20261028",
+   "work": "malebranche-search-after",
+   "questions": [
+    "Q23"
+   ],
+   "language": "English",
+   "original": "If we would believe Montagne on his word, he would persuade us that he was a Man of No Retention; that his Memory was treacherous, and fail'd him in every thing: But that in his Judgment, there was no defect. And yet should we credit the Portraiture he has drawn of his own Mind, I mean his Book, we should be of a different Opinion. I could not, says he, receive an Order without my Table-book; and if I had an Oration to speak, that was considerably long-winded, I was forc'd to that vile and miserable necessity of learning it word for word by Heart; otherwise I had neither Presence nor Assurance, for fear my Memory should shew me a slippery trick. Does a Man that could learn Memoriter, word for word long-winded Discourses, to give him some Presence and Assurance, fail more in his Memory than his Judgment? And can we believe Montagne when he says, I am forc'd to call my Domestick Servants by the Names of their Offices, or their Countries; it being the most difficult thing to remember Names; and if I should live long, I am persuaded I should forget my own?",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/e5d5bf8f2e.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/e5d5bf8f2e.txt",
+    "text": "If we would believe Montagne on his word, he would perfwade us that he was a Man of No Retention; that his Memory was treacherous, and faiPd him in every thing-: But that in his Judg- L.'i.ch.io ment, there was no defect. And yet fhould we credit the Portraiture he has drawn of his own L.\\.ch.2^ Mind, I mean his Book, we fhould be of a different Opinion. I could not, fays he, receive an Or- »'2' ? der without my Table-book; and if I had an Oration to fpeak, that was confid.er ably long-winded, I was fore'd to that vile and miferable neceffity of learning it word for word by Heart ; otherwife J had neither Vrefencenor Affurance, for fear my Memory jliould fliew me a fippery trick. Does a Man that could learn Memoriter, word for word long-winded Difcourfes, to give him fome Prefence and AfTu- rance, fail more in his Memory than his Judgment ? And can we believe Montagne when he fays, / am fore'd to call my Domeftick Servants by the Names of their Offices, or their Countries ; it being the moft difficult thing to remember Names ; and if I fhould live long, I am perfwaded I jlwuld forget my vwn .?",
+    "formerPool": "Q23",
+    "formerPassageId": "p04"
+   }
+  },
+  {
+   "id": "retained-q30-p04-20261028",
+   "work": "carlyle-signs-times",
+   "questions": [
+    "Q30"
+   ],
+   "language": "English",
+   "original": "Shall we say, for example, that Science and Art are indebted principally to the founders of Schools and Universities? Did not Science originate rather, and gain advancement, in the obscure closets of the Roger Bacons, Keplers, Newtons; in the workshops of the Fausts and the Watts; wherever, and in what guise soever Nature, from the first times downwards, had sent a gifted spirit upon the earth? Again, were Homer and Shakspeare members of any beneficed guild, or made Poets by means of it? Were Painting and Sculpture created by forethought, brought into the world by institutions for that end? No; Science and Art have, from first to last, been the free gift of Nature; an unsolicited, unexpected gift; often even a fatal one. These things rose up, as it were, by spontaneous growth, in the free soil and sunshine of Nature. They were not planted or grafted, nor even greatly multiplied or improved by the culture or manuring of institutions. Generally speaking, they have derived only partial help from these; often enough have suffered damage. They made constitutions for themselves. They originated in the Dynamical nature of man, not in his Mechanical nature.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/7030f6e3be.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/7030f6e3be.txt",
+    "text": "Shall we say, for example, that Science and Art are indebted principally to the founders of Schools ~ and Universities? Did not Science originate rather, and gain advancement, in the obscure closets of the Roger Bacons, Keplers, Newtons; in the workshops of the Fausts and the Watts; wherever, and in what guise soever Nature, from the first times downwards, had sent a gifted spirit upon the earth? Again, were Homer and Shakspeare members of any beneficed guild, or made Poets by means of it? Were Painting and Sculpture created by forethought, brought into the world by institutions for that end? No; Science and Art have, from first to last, been the free gift of Nature; an unsolicited, unexpected gift; often even a fatal one. These things rose up, as it were, by spontaneous growth, in the free soil and sunshine of Nature. They were not planted or grafted, nor even greatly multiplied or improved by the culture or manuring of institutions. Generally speaking, they have derived only partial help from these; often enough have suffered damage. They made constitutions for themselves. They originated in the Dynamical nature of man, not in his Mechanical nature.",
+    "formerPool": "Q30",
+    "formerPassageId": "p04"
+   }
+  },
+  {
+   "id": "retained-q39-p07-20261028",
+   "work": "kant-critique-judgement",
+   "questions": [
+    "Q39"
+   ],
+   "language": "English",
+   "original": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/9d3b1390e3.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/9d3b1390e3.txt",
+    "text": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
+    "formerPool": "Q39",
+    "formerPassageId": "p07"
+   }
+  },
+  {
+   "id": "retained-q08-p05-20261028",
+   "work": "mill-liberty",
+   "questions": [
+    "Q21"
+   ],
+   "language": "English",
+   "original": "Supposing it were possible to get houses built, corn grown, battles fought, causes tried, and even churches erected and prayers said, by machinery--by automatons in human form--it would be a considerable loss to exchange for these automatons even the men and women who at present inhabit the more civilised parts of the world, and who assuredly are but starved specimens of what nature can and will produce. Human nature is not a machine to be built after a model, and set to do exactly the work prescribed for it, but a tree, which requires to grow and develop itself on all sides, according to the tendency of the inward forces which make it a living thing.",
+   "translation": null,
+   "terms": [],
+   "notes": "Proposed placement: prescribed performance versus the development of human faculties; read alongside the existing Mill passage on judgment. Does not itself demonstrate the effect of repeated obedience. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/185cee52f0.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Proposed placement: prescribed performance versus the development of human faculties; read alongside the existing Mill passage on judgment. Does not itself demonstrate the effect of repeated obedience."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/185cee52f0.txt",
+    "text": "Supposing it\nwere possible to get houses built, corn grown, battles fought, causes\ntried, and even churches erected and prayers said, by machinery--by\nautomatons in human form--it would be a considerable loss to exchange\nfor these automatons even the men and women who at present inhabit the\nmore civilised parts of the world, and who assuredly are but starved\nspecimens of what nature can and will produce. Human nature is not a\nmachine to be built after a model, and set to do exactly the work\nprescribed for it, but a tree, which requires to grow and develop\nitself on all sides, according to the tendency of the inward forces\nwhich make it a living thing.",
+    "formerPool": "Q08",
+    "formerPassageId": "p05"
+   }
+  },
+  {
+   "id": "retained-q08-p07-20261028",
+   "work": "marx-capital-volume",
+   "questions": [
+    "Q08"
+   ],
+   "language": "English",
+   "original": "The subject of repairs of the implements of labour does not concern us here. A machine that is undergoing repair, no longer plays the part of an instrument, but that of a subject of labour. Work is no longer done with it, but upon it. It is quite permissible for our purpose to assume, that the labour expended on the repairs of instruments is included in the labour necessary for their original production. But in the text we deal with that wear and tear, which no doctor can cure, and which little by little brings about death, with \"that kind of wear which cannot be repaired from time to time, and which, in the case of a knife, would ultimately reduce it to a state in which the cutler would say of it, it is not worth a new blade.\"",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/06e7fb14eb.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/06e7fb14eb.txt",
+    "text": "The subject of repairs of the implements of labour does not concern us here. A \nmachine that IB undergoing repair, no longer plays the part of an instrument, but \nthat of a subject of labour. Work is no longer done with it, but upon it. It is quite \npermissible for our purpose to assume, that the labour expended on the repairs of in \nstruments is included in the labour necessary for their original production. But in \nthe text we deal with that wear and tear, which no doctor can cure, and which little \nby little brings about death, with \" that kind of wear which cannot be repaired from \ntime to time, and which, in the case of a knife, would ultimately reduce it to a state \nin which the cutler would say of it, it is not worth a new blade.\"",
+    "formerPool": "Q08",
+    "formerPassageId": "p07"
+   }
+  },
+  {
+   "id": "retained-q18-p07-20261028",
+   "work": "tocqueville-democracy-america",
+   "questions": [
+    "Q18"
+   ],
+   "language": "English",
+   "original": "In proportion as the principle of the division of labor is more extensively applied, the workman becomes more weak, more narrow-minded, and more dependent. The art advances, the artisan recedes. On the other hand, in proportion as it becomes more manifest that the productions of manufactures are by so much the cheaper and better as the manufacture is larger and the amount of capital employed more considerable, wealthy and educated men come forward to embark in manufactures which were heretofore abandoned to poor or ignorant handicraftsmen. The magnitude of the efforts required, and the importance of the results to be obtained, attract them. Thus at the very time at which the science of manufactures lowers the class of workmen, it raises the class of masters. Whereas the workman concentrates his faculties more and more upon the study of a single detail, the master surveys a more extensive whole, and the mind of the latter is enlarged in proportion as that of the former is narrowed. In a short time the one will require nothing but physical strength without intelligence; the other stands in need of science, and almost of genius, to insure success. This man resembles more and more the administrator of a vast empire--that man, a brute.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/72539ff9fe.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/72539ff9fe.txt",
+    "text": "In proportion as the principle of the division of labor is more extensively applied, the workman becomes more weak, more narrow-minded, and more dependent. The art advances, the artisan recedes. On the other hand, in proportion as it becomes more manifest that the productions of manufactures are by so much the cheaper and better as the manufacture is larger and the amount of capital employed more considerable, wealthy and educated men come forward to embark in manufactures which were heretofore abandoned to poor or ignorant handicraftsmen. The magnitude of the efforts required, and the importance of the results to be obtained, attract them. Thus at the very time at which the science of manufactures lowers the class of workmen, it raises the class of masters. Whereas the workman concentrates his faculties more and more upon the study of a single detail, the master surveys a more extensive whole, and the mind of the latter is enlarged in proportion as that of the former is narrowed. In a short time the one will require nothing but physical strength without intelligence; the other stands in need of science, and almost of genius, to insure success. This man resembles more and more the administrator of a vast empire--that man, a brute.",
+    "formerPool": "Q18",
+    "formerPassageId": "p07"
+   }
+  },
+  {
+   "id": "retained-q23-p10-20261028",
+   "work": "kant-kant-education",
+   "questions": [
+    "Q23"
+   ],
+   "language": "English",
+   "original": "The memory should only be occupied with such things as are important to be retained, and which will be of service to us in real life. Novel-reading is the worst thing for children, since they can make no further use of it, and it merely affords them entertainment for the moment. Novel-reading weakens the memory. For it would be ridiculous to remember novels in order to relate them to others. Therefore all novels should be taken away from children. Whilst reading them they weave, as it were, an inner romance of their own, rearranging the circumstances for themselves; their fancy is thus imprisoned, but there is no exercise of thought.",
+   "translation": null,
+   "terms": [],
+   "notes": "Retained as a reserve/context passage for the original question; no stronger alternative placement established. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/8043ed7c2f.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Retained as a reserve/context passage for the original question; no stronger alternative placement established."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/8043ed7c2f.txt",
+    "text": "The memory should only be occupied with such things as are important to be retained, and which will be of service to us in real life. Novel-reading is the ' reading is worst thing for children, since they can make no >wd for further use of it, and it merely affords them , entertainment for the moment. Novel-reading weakens the memory. For it would be ridicu lous to remember novels in order to relate them to others. Therefore all novels should be taken away from children. Whilst reading them they weave, as it were, an inner romance of their own, rearranging the circumstances for themselves ; their fancy is thus imprisoned, but there is no exercise of thought.",
+    "formerPool": "Q23",
+    "formerPassageId": "p10",
+    "formerWorkId": "kant-education"
+   }
+  },
+  {
+   "id": "retained-q30-p14-20261028",
+   "work": "bergson-creative-evolution",
+   "questions": [
+    "Q32",
+    "Q38"
+   ],
+   "language": "English",
+   "original": "A noteworthy fact is the extraordinary disproportion between the consequences of an invention and the invention itself. We have said that intelligence is modeled on matter and that it aims in the first place at fabrication. But does it fabricate in order to fabricate or does it not pursue involuntarily, and even unconsciously, something entirely different? Fabricating consists in shaping matter, in making it supple and in bending it, in converting it into an instrument in order to become master of it. It is this mastery that profits humanity, much more even than the material result of the invention itself. Though we derive an immediate advantage from the thing made, as an intelligent animal might do, and though this advantage be all the inventor sought, it is a slight matter compared with the new ideas and new feelings that the invention may give rise to in every direction, as if the essential part of the effect were to raise us above ourselves and enlarge our horizon. Between the effect and the cause the disproportion is so great that it is difficult to regard the cause as producer of its effect. It releases it, whilst settling, indeed, its direction. Everything happens as though the grip of intelligence on matter were, in its main intention, to let something pass that matter is holding back.",
+   "translation": null,
+   "terms": [],
+   "notes": "Proposed contextual links: invention enlarging human powers and horizons. Removed from the pilot pool for closer question fit or reduced duplication, not discarded from the corpus. Source: trial/corpus/canon/texts/9eed929f2b.txt",
+   "relevance": {
+    "verdict": "candidate",
+    "reason": "Proposed contextual links: invention enlarging human powers and horizons."
+   },
+   "translationBy": null,
+   "status": "retained passage; question placement proposed by Codex, not independently reviewed",
+   "selection": "Preserved on Ben Breen’s instruction, 28 October 2026, during the pilot pool revision.",
+   "source": {
+    "file": "trial/corpus/canon/texts/9eed929f2b.txt",
+    "text": "A noteworthy fact is the extraordinary disproportion between the consequences of an invention and the invention itself. We have said that intelligence is modeled on matter and that it aims in the first place at fabrication. But does it fabricate in order to fabricate or does it not pursue involuntarily, and even unconsciously, something entirely different? Fabricating consists in shaping matter, in making it supple and in bending it, in converting it into an instrument in order to become master of it. It is this _mastery_ that profits humanity, much more even than the material result of the invention itself. Though we derive an immediate advantage from the thing made, as an intelligent animal might do, and though this advantage be all the inventor sought, it is a slight matter compared with the new ideas and new feelings that the invention may give rise to in every direction, as if the essential part of the effect were to raise us above ourselves and enlarge our horizon. Between the effect and the cause the disproportion is so great that it is difficult to regard the cause as _producer_ of its effect. It releases it, whilst settling, indeed, its direction. Everything happens as though the grip of intelligence on matter were, in its main intention, to _let something pass_ that matter is holding back.",
+    "formerPool": "Q30",
+    "formerPassageId": "p14"
+   }
+  },
+  {
+   "id": "q02-quevedo-essays-automatics",
+   "work": "quevedo-essays-automatics",
+   "questions": [
+    "Q02"
+   ],
+   "language": "Spanish",
+   "original": "Imaginemos una máquina análoga á la representada por el esquema (fig. 2.ª), pero en la cual, en vez de tres conmutadores, haya miles ó millones, si hace falta; y que, en vez de tres ó cuatro posiciones diferentes, cada conmutador tenga una posición correspondiente á cada uno de los signos de la escritura (letras, cifras, signos de ortografía, etc.). Se comprende perfectamente que se puede, valiéndose de estos conmutadores, escribir una frase cualquiera, y hasta un discurso más ó menos largo; esto dependerá del número de conmutadores de que se disponga. A cada discurso corresponderá una posición del sistema, y, por consiguiente, un electroimán. Podemos suponer que éste dispare un fonógrafo sobre el cual se halle inscrita la respuesta á la pregunta que ha provocado su movimiento, y de este modo tendremos un autómata capaz de discutir de omni re scibile. Ciertamente, el estudio preliminar de todas las preguntas posibles, la redacción de la respuesta á cada una de ellas, y, finalmente, la construcción de una máquina semejante, no sería una cosa muy llana; pero no sería mucho más difícil que la construcción de un mono, ó de otro animal bastante bien imitado para que pudiera ser clasificado por los naturalistas entre las especies vivas. No hay entre los dos casos la diferencia que veía Descartes. Pensó sin duda que el autómata, para responder razonablemente, tendría necesidad de hacer él mismo un razonamiento, mientras que en este caso, como en todos los otros, sería su constructor quien pensara por él de antemano.",
+   "translation": "Let us imagine a machine like the one represented in the diagram (fig. 2), but with thousands or millions of switches, if necessary, instead of three; and with each switch having, instead of three or four different positions, a position corresponding to each written sign (letters, numerals, punctuation marks, etc.). It is perfectly understandable that these switches could be used to write any sentence, or even a more or less lengthy discourse; this would depend on the number of switches available. Each discourse would correspond to a position of the system, and consequently to an electromagnet. We may suppose that this triggers a phonograph on which the answer to the question that caused its movement has been recorded, and in this way we shall have an automaton capable of discussing everything knowable. Certainly, the preliminary study of all possible questions, the drafting of an answer to each of them, and finally the construction of such a machine would not be a very straightforward matter; but it would not be much more difficult than constructing an ape, or another animal so well imitated that naturalists could classify it among living species. There is not the difference between the two cases that Descartes saw. He doubtless thought that, to answer reasonably, the automaton would need to perform a reasoning process itself, whereas in this case, as in all the others, its constructor would have thought for it in advance.",
+   "terms": [],
+   "notes": "Torres argues that appropriate replies need not involve the automaton’s own reasoning: the constructor could prearrange them. The restored paragraph compares the practical difficulty with constructing a lifelike animal. This is a theoretical construction, not a report of a built conversational machine.",
+   "relevance": {},
+   "translationBy": "Codex; checked against Spanish scan, 28 Oct 2026; historian review pending",
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/torres-four-question-review.txt",
+    "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.398",
+    "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+    "verification": "Original and English checked against printed page by Codex on 28 Oct 2026; no independent historian review. Restored the omitted qualification in both languages; checked conmutadores (switches), electroimán (electromagnet), and de omni re scibile (everything knowable). No substantive translation error found.",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+   },
+   "stance": "q02-quevedo-essays-automatics"
+  },
+  {
+   "id": "q03-quevedo-essays-automatics",
+   "work": "quevedo-essays-automatics",
+   "questions": [
+    "Q03"
+   ],
+   "language": "Spanish",
+   "original": "No ocurre lo mismo cuando se trata de si será posible construir un autómata que, para determinar sus actos, pese las circunstancias que le rodean. Se piensa, generalmente, que sólo en algunos casos muy sencillos puede conseguirse esto; se cree que es posible automatizar las operaciones mecánicas, puramente manuales de un obrero, y que, por el contrario, las operaciones que exigen la intervención de las facultades mentales nunca se podrán ejecutar mecánicamente. Esta distinción carece de valor, pues, exceptuando el caso de los movimientos reflejos, de los cuales no hemos de ocuparnos aquí, en todas las acciones humanas intervienen las facultades mentales. Intentaré demostrar en esta nota — desde un punto de vista puramente teórico — que siempre es posible construir un autómata cuyos actos, todos, dependan de ciertas circunstancias más ó menos numerosas, obedeciendo á reglas que se pueden imponer arbitrariamente en el momento de la construcción. Evidentemente, estas reglas deberán ser tales que basten para determinar en cualquier momento, sin ninguna incertidumbre, la conducta del autómata.",
+   "translation": "The same is not true when the question is whether an automaton can be constructed that weighs its surrounding circumstances in order to determine its acts. It is generally thought that this can be achieved only in a few very simple cases; that a worker’s purely manual, mechanical operations can be automated, but that operations requiring mental faculties can never be performed mechanically. This distinction has no value, since, except for reflex movements, which do not concern us here, mental faculties intervene in all human actions. I shall try to demonstrate in this note—from a purely theoretical standpoint—that it is always possible to construct an automaton all of whose acts depend on certain more or less numerous circumstances, obeying rules that can be imposed arbitrarily at the time of construction. Evidently these rules must suffice to determine the automaton’s conduct at any moment without uncertainty.",
+   "terms": [],
+   "notes": "Torres rejects the mental/manual distinction and proposes automata whose actions are determined by circumstances under rules fixed at construction. Arbitrariamente means rules freely specified by the constructor, not random conduct. This passage does not establish learning beyond anticipated cases.",
+   "relevance": {},
+   "translationBy": "Codex; checked against Spanish scan, 28 Oct 2026; historian review pending",
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/torres-four-question-review.txt",
+    "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.394",
+    "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+    "verification": "Original and English checked against printed page by Codex on 28 Oct 2026; no independent historian review. Checked pese (weighs/assesses), arbitrariamente (freely specified, not random), and sin ninguna incertidumbre (without uncertainty). Changed paper to note for esta nota; otherwise retained the translation.",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+   },
+   "stance": "q03-quevedo-essays-automatics"
+  },
+  {
+   "id": "q24-fitch-lectures-teaching",
+   "work": "fitch-lectures-teaching",
+   "questions": [
+    "Q24"
+   ],
+   "language": "English",
+   "original": "It must not be set down as a fault if at first he counts with his fingers. Let him do so by all means if he likes. The faculty of abstracting numbers, and of learning to do without visible and tangible illustrations comes more slowly to some children than others. So long as they get the answer right, let them have what help they want till this power comes. It is sure to come ere long. At first, too, the little questions and problems which are given to children may fitly refer to marbles or apples, or to things which are familiar to them. But the mistake made by many teachers is to continue using these artifices too long; to go on shewing an abacus, or talking about nuts and oranges after the children have fully grasped the meaning of 6 + 5 in the abstract, and are well able to do without visible help. It is a sure test of a good teacher that he knows when and how far to employ such artifices, and when to dispense with them. The moment that concrete illustrations have served their purpose, they should be discarded.",
+   "translation": null,
+   "terms": [],
+   "notes": "Fitch permits fingers and other visible aids until abstraction develops, but says continued abacus use is a teaching mistake once a child can calculate without it. This is a developmental teaching argument, not evidence that a mechanical calculator damages an already acquired adult skill.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/fitch-four-question-review.txt",
+    "locator": "Lecture X, Arithmetic as an Art, pp.294–295 (1883 edition)",
+    "url": "https://archive.org/details/lecturesonteachi00fitcrich",
+    "verification": "Checked against printed p.295 and the preceding transcription on p.294; line-break hyphenation normalized",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "bb603c228e6e884d54dec06524a8b10594e7d3d261a85f1d3ffb73794c1e8f07"
+   }
+  },
+  {
+   "id": "q24-smith-teaching-arithmetic",
+   "work": "smith-teaching-arithmetic",
+   "questions": [
+    "Q24"
+   ],
+   "language": "English",
+   "original": "The ordinary purchase of household supplies requires a practical ability in the mental arithmetic of daily life, and this ability comes to the mind only through repeated exercise. As will be seen later, it is a fair inference from statistical investigations that a person may be rapid and accurate in written work but slow and uncertain in oral solutions. Therefore, it will not do, from the practical standpoint, to drill children only in written arithmetic if we expect them to be reasonably ready in purely mental work.",
+   "translation": null,
+   "terms": [],
+   "notes": "Smith argues that practice in written arithmetic does not by itself secure unaided mental calculation, which requires its own exercise. His claim concerns transfer of training between written and oral work; it does not establish a causal effect of calculating machines.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/smith-four-question-review.txt",
+    "locator": "Chapter VII, Mental or Oral Arithmetic, p.27 (third edition, 1909)",
+    "url": "https://archive.org/details/cu31924031784485",
+    "verification": "Checked against printed p.27; OCR A's corrected to As, line wrapping normalized",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "39f602b780a5063e5f164344a42dcc9c16bb1125612ed7ff0c7a713fd952f48d"
+   }
+  },
+  {
+   "id": "q26-wells-consequences-disclaimer",
+   "work": "wells-world-set",
+   "questions": [
+    "Q26"
+   ],
+   "language": "English",
+   "original": "‘It has begun,’ he writes in the diary in which these things are recorded. ‘It is not for me to reach out to consequences I cannot foresee. I am a part, not a whole; I am a little instrument in the armoury of Change. If I were to burn all these papers, before a score of years had passed, some other man would be doing this. . .",
+   "translation": null,
+   "terms": [],
+   "notes": "Holsten’s diary disclaims responsibility for consequences he cannot foresee and argues that another discoverer would soon produce the same result. This is a fictional character’s reasoning, not an unqualified assertion by Wells. Keep it distinct from his earlier hesitation about publication.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "trial/corpus/canon/texts/e4af9fc876.txt",
+    "locator": "Chapter the First, section 2, closing diary passage",
+    "url": "https://www.gutenberg.org/ebooks/1059",
+    "verification": "Checked against a local transcription; page images not newly checked",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "0a3551b630cb4d068697f51ef6c1af76db84b35739db45bda84191f1be7c6ea1"
+   }
+  },
+  {
+   "id": "q26-capek-krakatit",
+   "work": "capek-krakatit",
+   "questions": [
+    "Q26"
+   ],
+   "language": "English",
+   "original": "“It is good. You will do things which will help people. He whose thoughts are full of the highest turns away his eyes from people. Instead you will serve them.” “That is good,” whispered Prokop, on his knees. “Now you see,” said the old man, pleased, and squatted down on his heels. “Tell me, what’s this—what do you call it? Your invention?” Prokop raised his head. “I’ve ... forgotten.” “That doesn’t matter,” the old man reassured him. “You’ll take up other things. Wait a moment, what was it I was going to say? Aha! Why was there such a great explosion? That’s more people injured. But look about and search; perhaps you’ll find ... well, perhaps only such pf-pf-pf,” he said, blowing out his soft cheeks, “you see? So that it should only be puf-puf ... and do something which will work for people, do you understand?” “You mean,” muttered Prokop, “some sort of cheap energy, eh?” “Cheap, cheap,” agreed the old man, delighted. “So that it could be very useful. And shine, and warm, you understand?” “Wait,” said Prokop reflectively, “I don’t know—that would mean experimenting all over again ... from the other end.” “That’s it. Start from the other end and there you are. There, you see, you’ve something to begin with right away. But leave that other. I’ll get your bed ready.”",
+   "translation": null,
+   "terms": [],
+   "notes": "In the final chapter, the old man whom Prokop recognizes as God urges him to abandon destructive work and start again with useful energy. This makes responsibility an obligation to redirect invention; it is not a legal rule about every unintended harm. Quoted from Lawrence Hyde’s 1925 English translation of the 1924 Czech novel.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+   "source": {
+    "file": "trial/corpus/canon/texts/cac058dc6a.txt",
+    "locator": "Chapter LIV, concluding dialogue; Lawrence Hyde translation (1925)",
+    "url": "https://www.gutenberg.org/ebooks/79127",
+    "verification": "Checked against a local transcription; page images not newly checked",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28",
+    "sha256": "d67dd67ca2777d895e1879436bac6a878bde55a0a00136b2e94a95c69f235529"
+   },
+   "stance": "q26-capek-krakatit"
+  },
+  {
+   "id": "q03-turing-learning-teacher",
+   "work": "turing-computing-machinery",
+   "questions": [
+    "Q03"
+   ],
+   "language": "English",
+   "original": "An important feature of a learning machine is that its teacher will often be very largely ignorant of quite what is going on inside […]",
+   "translation": null,
+   "terms": [],
+   "notes": "Turing distinguishes a trained machine from a computation whose internal state the operator aims to follow. The omitted continuation allows some prediction of its behaviour; opacity alone does not establish judgment. Brief extract: the full pp.458–459 discussion should be reviewed before making a sorting pool.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Brief source extract; fuller passage review pending",
+   "selection": "Codex final source review requested by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/q03-turing-learning-teacher.txt",
+    "scope": "brief excerpt transcription; full scanned page linked separately",
+    "sha256": "81f5c5fd9e32b3648c081fe9fe078fdd347362c4eda08399f6eb407ccdcd9158",
+    "url": "https://www.cs.toronto.edu/~frank/csc2501/Readings/R1_Turing/Turing-1950.pdf",
+    "locator": "Mind 59 (1950), section 7, p.458; paragraph continues on p.459",
+    "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+    "scanSha256": "f2d8540600ca8a94897ce7eaf35d99d336d4b39191fee4481696487c2369b3b4",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28"
+   },
+   "excerptScope": "brief",
+   "sortingReady": false,
+   "stance": "q03-turing-computing-machinery"
+  },
+  {
+   "id": "q26-wiener-scientist-rebels",
+   "work": "wiener-scientist-rebels",
+   "questions": [
+    "Q26"
+   ],
+   "language": "English",
+   "original": "[…] I must take a serious responsibility as to those to whom I disclose my scientific ideas.",
+   "translation": null,
+   "terms": [],
+   "notes": "Wiener responds to a request for wartime research on controlled missiles. He treats disclosure as a moral choice because of foreseeable civilian harm. This supports responsibility for dissemination, not unlimited liability for every unforeseeable use. Brief extract; review the full paragraph before preparing a sorting pool.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Brief source extract; fuller passage review pending",
+   "selection": "Codex final source review requested by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/q26-wiener-scientist-rebels.txt",
+    "scope": "brief excerpt transcription; full scanned page linked separately",
+    "sha256": "d86a2f2f2484dc146566fbe21e099d65c22cfa3e47c3b3e799bd2aaed5a7633a",
+    "url": "https://cdn.theatlantic.com/media/archives/1947/01/179-1/132381596.pdf",
+    "locator": "The Atlantic Monthly 179, no.1 (January 1947), p.46, right column, penultimate paragraph",
+    "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+    "scanSha256": "824ce3d41583ed720ece41a592c7a5881f193bc8aa8433a35ae38f4252d3ce47",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28"
+   },
+   "excerptScope": "brief",
+   "sortingReady": false,
+   "stance": "q26-wiener-scientist-rebels"
+  },
+  {
+   "id": "q24-fujisawa-soroban",
+   "work": "fujisawa-mathematics-japan",
+   "questions": [
+    "Q24"
+   ],
+   "language": "English",
+   "original": "In fact, the tradesman can calculate mentally just as well as, or perhaps even better than, his customer; only he will not. If he makes use of the soroban in the simplest possible kind of addition or subtraction, that is only an illustration of the irresistible force of habit, and we can only blame him for his being strictly consistent. Are we not apt to make slips and to be tripped up in matters too small to rouse our earnest attention? Machines, too simple to get out of order, are they not more trustworthy than the average human brain, crowded nowadays with the perplexities of modern civilization? The world is becoming more and more busy and supreme efforts should be made to economize our mental work as much as possible.",
+   "translation": null,
+   "terms": [],
+   "notes": "Fujisawa answers a foreign customer’s assumption that using a soroban reveals inability to add mentally. He attributes habitual use to convenience and reliability while explicitly asserting retained mental skill. This is an argument and observation, not a controlled comparison of skill loss.",
+   "relevance": {},
+   "translationBy": null,
+   "status": "Source-checked agent selection; historian review pending",
+   "selection": "Codex final source review requested by Ben, 28 Oct 2026",
+   "source": {
+    "file": "research/passages/sources/q24-fujisawa-soroban.txt",
+    "scope": "full historical OCR transcription",
+    "sha256": "3b4c28d36202da1357609872dccf58616c40a41b34212f58459c289217f21f7b",
+    "url": "https://archive.org/details/summaryreportont00fujirich",
+    "locator": "Summary Report on the Teaching of Mathematics in Japan (Tokio, 1912), pp.28–29; extract begins with In at the end of p.28",
+    "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+    "scanSha256": "7b4c5f183ebbb4859977fc7a6c6da426aac3d2a0cd20e554bce699e69c385985",
+    "checkedBy": "Codex",
+    "checkedOn": "2026-10-28"
+   }
   }
  ]
 }

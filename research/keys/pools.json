@@ -49,17 +49,6 @@
    },
    {
     "id": "p05",
-    "work": "thiry-system-nature",
-    "author": "Paul-Henri Thiry, baron d'Holbach",
-    "title": "The System of Nature",
-    "year": 1770,
-    "language": "French",
-    "display": "Sometimes in dreaming, he has memory, then he retraces to himself the objects which have struck him faithfully;--at other times, these modifications renew themselves without order, and without connection, very differently from those, which real objects have before excited in his interior organ. If in a dream he believes he sees a friend, his brain renews in itself the modifications or the ideas which this friend had formerly excited--in the same order that they arranged themselves when his eyes really beheld him--this is nothing more than an effect of memory. If in his dream he fancies he sees a monster which has no model in nature, his brain is then modified in the same manner that it was by the particular, by the detached ideas, with which it then does nothing more than compose an ideal whole; by assembling, and associating, in a ridiculous manner, the scattered ideas that were consigned to its keeping; it is then, that in dreaming he has imagination.",
-    "text": "Sometimes in\ndreaming, he has memory, then he retraces to himself the objects which\nhave struck him faithfully;--at other times, these modifications renew\nthemselves without order, and without connection, very differently from\nthose, which real objects have before excited in his interior organ. If\nin a dream he believes he sees a friend, his brain renews in itself the\nmodifications or the ideas which this friend had formerly excited--in\nthe same order that they arranged themselves when his eyes really beheld\nhim--this is nothing more than an effect of memory. If in his dream he\nfancies he sees a monster which has no model in nature, his brain is\nthen modified in the same manner that it was by the particular, by the\ndetached ideas, with which it then does nothing more than compose an\nideal whole; by assembling, and associating, in a ridiculous manner, the\nscattered ideas that were consigned to its keeping; it is then, that in\ndreaming he has imagination.",
-    "translation": null
-   },
-   {
-    "id": "p06",
     "work": "poe-maelzel-s",
     "author": "Edgar Allan Poe",
     "title": "Maelzel's Chess-Player",
@@ -70,7 +59,7 @@
     "translation": null
    },
    {
-    "id": "p07",
+    "id": "p06",
     "work": "poe-maelzel-s",
     "author": "Edgar Allan Poe",
     "title": "Maelzel's Chess-Player",
@@ -81,7 +70,7 @@
     "translation": null
    },
    {
-    "id": "p08",
+    "id": "p07",
     "work": "menabrea-sketch-analytical",
     "author": "Luigi Federico Menabrea",
     "title": "Sketch of the Analytical Engine Invented by Charles Babbage",
@@ -92,7 +81,7 @@
     "translation": "Considered from the most general point of view, the essential object of the machine being to calculate, according to the laws dictated to it, the values of numerical coefficients which it must then distribute appropriately on the columns that represent the variables, it follows that the interpretation of formulae and of results is beyond its province, unless indeed this interpretation be itself susceptible of expression by means of the symbols which it employs. Thus it is not itself the being that thinks, but it may be considered as the being that executes the conceptions of the intelligence. The cards receive the impress of these conceptions, and transmit to the various mechanisms of which the machine is composed the orders necessary for them to act. Once the machine is built, the difficulty will therefore shift to the making of the cards; but as these are only the translation of algebraic formulae, it will be easy, by means of simple notations, to entrust their execution to a workman. Thus all the intellectual labour will be confined to the preparation of the formulae, which must be suited to being calculated by the machine."
    },
    {
-    "id": "p09",
+    "id": "p08",
     "work": "king-sketch-analytical",
     "author": "Augusta Ada King, Countess of Lovelace",
     "title": "Sketch of the Analytical Engine Invented by Charles Babbage, with Notes by the Translator",
@@ -103,7 +92,7 @@
     "translation": null
    },
    {
-    "id": "p10",
+    "id": "p09",
     "work": "butler-erewhon",
     "author": "Samuel Butler",
     "title": "Erewhon",
@@ -114,7 +103,7 @@
     "translation": null
    },
    {
-    "id": "p11",
+    "id": "p10",
     "work": "carpenter-principles-mental",
     "author": "William Benjamin Carpenter",
     "title": "Principles of Mental Physiology",
@@ -125,7 +114,7 @@
     "translation": null
    },
    {
-    "id": "p12",
+    "id": "p11",
     "work": "pitt-rivers-evolution-culture",
     "author": "Augustus Pitt-Rivers",
     "title": "The Evolution of Culture",
@@ -136,7 +125,7 @@
     "translation": null
    },
    {
-    "id": "p13",
+    "id": "p12",
     "work": "eliot-impressions-theophrastus",
     "author": "George Eliot",
     "title": "Impressions of Theophrastus Such",
@@ -147,7 +136,7 @@
     "translation": null
    },
    {
-    "id": "p14",
+    "id": "p13",
     "work": "eliot-impressions-theophrastus",
     "author": "George Eliot",
     "title": "Impressions of Theophrastus Such",
@@ -155,6 +144,17 @@
     "language": "English",
     "display": "“I am not so sure of that,” said I, getting back into my mind, and becoming rather wilful in consequence. “If, as I have heard you contend, machines as they are more and more perfected will require less and less of tendance, how do I know that they may not be ultimately made to carry, or may not in themselves evolve, conditions of self-supply, self-repair, and reproduction, and not only do all the mighty and subtle work possible on this planet better than we could do it, but with the immense advantage of banishing from the earth’s atmosphere screaming consciousnesses which, in our comparatively clumsy race, make an intolerable noise and fuss to each other about every petty ant-like performance, looking on at all work only as it were to spring a rattle here or blow a trumpet there, with a ridiculous sense of being effective?",
     "text": "“I am not so sure of that,”’ said I, getting back into \nmy mind, and becoming rather wilful in consequence. \n“Tf, as I have heard you contend, machines as they are \nmore and more perfected will require less and less of \ntendance, how do I knowthat they may not be ultimately \nmade to carry, or may not in themselves evolve, con- \nditions of self-supply, self-repair, and reproduction, and \nnot only do all the mighty and subtle work possible \non this planet better than we could do it, but with \nthe immense advantage of banishing from the earth’s \natmosphere screaming consciousnesses which, in our \ncomparatively clumsy race, make an intolerable noise \nand fuss to each other about every petty ant-like per- \nformance, looking on at all work only as it were to \nspring a rattle here or blow a trumpet there, with a \nridiculous sense of being effective?",
+    "translation": null
+   },
+   {
+    "id": "p14",
+    "work": "peirce-logical-machines",
+    "author": "Charles S. Peirce",
+    "title": "Logical Machines",
+    "year": 1887,
+    "language": "English",
+    "display": "In this point of view, too, every machine is a reasoning machine, in so much as there are certain relations between its parts, which relations involve other relations that were not expressly intended. A piece of apparatus for performing a physical or chemical experiment is also a reasoning machine, with this difference, that it does not depend on the laws of the human mind, but on the objective reason embodied in the laws of nature. Accordingly, it is no figure of speech to say that the alembics and cucurbits of the chemist are instruments of thought, or logical machines.\n\nEvery reasoning machine, that is to say, every machine, has two inherent impotencies. In the first place, it is destitute of all originality, of all initiative. It cannot find its own problems; it cannot feed itself. It cannot direct itself between different possible procedures. For example, the simplest proposition of projective geometry, about the ten straight lines in a plane, is proved by von Staudt from a few premises and by reasoning of extreme simplicity, but so complicated is the mode of compounding these premises and forms of inference, that there are no less than 70 or 80 steps in the demonstration. How could we make a machine which would automatically thread its way through such a labyrinth as that? And even if we did succeed in doing so, it would still remain true that the machine would be utterly devoid of original initiative, and would only do the special kind of thing it had been calculated to do. This, however, is no defect in a machine; we do not want it to do its own business, but ours. The difficulty with the balloon, for instance, is that it has too much initiative, that it is not mechanical enough. We no more want an original machine, than a house-builder would want an original journeyman, or an American board of college trustees would hire an original professor.",
+    "text": "In this point of view, too, every machine is a reasoning machine, in so much as there are certain relations between its parts, which relations involve other relations that were not ex — intended. <A piece of appa- ratus for performing a phy leat or chemical experiment is also a reasoning machine, with this difference, that it does not depend on the laws of the human mind, but on the objective reason embodied in the laws of nature. Accordingly, it is no figure of speech to say that the alembics and cucurbits of the chemist are instruments of thought, or logical machines. Every reasoning machine, that is to say, every machine, has two inherent impotencies. In the first P ney it is destitute of ‘all origi- nality, of all initiative. It cannot find its own problems; it cannot feed itself. It cannot direct itself between different possible pro- cedures. For example, the simplest proposition of projective geometry, about the ten straight lines in a plane, is proved by\nPSYCHOLOGICAL LITERATURE. 169 yon Staudt from a few premises and by reasoning of extreme sim- licity, but so complicated is the mode of compounding these prem- ises and forms of inference, that there are no less than 70 or 80 steps in the demonstration. How could we make a machine which would automatically thread its way through such a labyrinth as that? And even if we did succeed in doing so, it would still remain true that the machine would be utterly devoid of original initiative, and would only do the special kind of thing it had been calculated to do. This, however, is no defect ina machine; we do not want it to do its own business, but ours. The difficulty with the balloon, for instance, is that it has too much initiative, that it is not mech- anical enough. We no more want an original machine, than a house-builder would want an original journeyman, or an American board of college trustees would hire an original professor.",
     "translation": null
    },
    {
@@ -166,6 +166,17 @@
     "language": "French",
     "display": "A noteworthy fact is the extraordinary disproportion between the consequences of an invention and the invention itself. We have said that intelligence is modeled on matter and that it aims in the first place at fabrication. But does it fabricate in order to fabricate or does it not pursue involuntarily, and even unconsciously, something entirely different? Fabricating consists in shaping matter, in making it supple and in bending it, in converting it into an instrument in order to become master of it. It is this _mastery_ that profits humanity, much more even than the material result of the invention itself. Though we derive an immediate advantage from the thing made, as an intelligent animal might do, and though this advantage be all the inventor sought, it is a slight matter compared with the new ideas and new feelings that the invention may give rise to in every direction, as if the essential part of the effect were to raise us above ourselves and enlarge our horizon. Between the effect and the cause the disproportion is so great that it is difficult to regard the cause as _producer_ of its effect. It releases it, whilst settling, indeed, its direction. Everything happens as though the grip of intelligence on matter were, in its main intention, to _let something pass_ that matter is holding back.",
     "text": "A noteworthy fact is the extraordinary disproportion between the\nconsequences of an invention and the invention itself. We have said that\nintelligence is modeled on matter and that it aims in the first place at\nfabrication. But does it fabricate in order to fabricate or does it not\npursue involuntarily, and even unconsciously, something entirely\ndifferent? Fabricating consists in shaping matter, in making it supple\nand in bending it, in converting it into an instrument in order to\nbecome master of it. It is this _mastery_ that profits humanity, much\nmore even than the material result of the invention itself. Though we\nderive an immediate advantage from the thing made, as an intelligent\nanimal might do, and though this advantage be all the inventor sought,\nit is a slight matter compared with the new ideas and new feelings that\nthe invention may give rise to in every direction, as if the essential\npart of the effect were to raise us above ourselves and enlarge our\nhorizon. Between the effect and the cause the disproportion is so great\nthat it is difficult to regard the cause as _producer_ of its effect. It\nreleases it, whilst settling, indeed, its direction. Everything happens\nas though the grip of intelligence on matter were, in its main\nintention, to _let something pass_ that matter is holding back.",
+    "translation": null
+   },
+   {
+    "id": "p16",
+    "work": "turing-computing-machinery",
+    "author": "Alan M. Turing",
+    "title": "Computing Machinery and Intelligence",
+    "year": 1950,
+    "language": "English",
+    "display": "A variant of Lady Lovelace's objection states that a machine can \"never do anything really new.\" This may be parried for a moment with the saw, \"There is nothing new under the sun.\" Who can be certain that \"original work\" that he has done was not simply the growth of the seed planted in him by teaching, or the effect of following well-known general principles. A better variant of the objection says that a machine can never \"take us by surprise.\" This statement is a more direct challenge and can be met directly. Machines take me by surprise with great frequency. This is largely because I do not do sufficient calculation to decide what to expect them to do, or rather because, although I do a calculation, I do it in a hurried, slipshod fashion, taking risks. Perhaps I say to myself, \"I suppose the voltage here ought to be the same as there: anyway let's assume it is.\" Naturally I am often wrong, and the result is a surprise for me for by the time the experiment is done these assumptions have been forgotten. These admissions lay me open to lectures on the subject of my vicious ways, but do not throw any doubt on my credibility when I testify to the surprises I experience. I do not expect this reply to silence my critic. He will probably say that such surprises are due to some creative mental act on my part, and reflect no credit on the machine. This leads us back to the argument from consciousness, and far from the idea of surprise. It is a line of argument we must consider closed, but it is perhaps worth remarking that the appreciation of something as surprising requires as much of a \"creative mental act\" whether the surprising event originates from a man, a book, a machine or anything else. The view that machines cannot give rise to surprises is due, I believe, to a fallacy to which philosophers and mathematicians are particularly subject. This is the assumption that as soon as a fact is presented to a mind all consequences of that fact spring into the mind simultaneously with it. It is a very useful assumption under many circumstances, but one too easily forgets that it is false. A natural consequence of doing so is that one then assumes that there is no virtue in the mere working out of consequences from data and general principles.",
+    "text": "A variant of Lady Lovelace's objection states that a machine can \"never do anything \nreally new.\" This may be parried for a moment with the saw, \"There is nothing new under \nthe sun.\" Who can be certain that \"original work\" that he has done was not simply the \ngrowth of the seed planted in him by teaching, or the effect of following well-known \ngeneral principles. A better variant of the objection says that a machine can never \"take \nus by surprise.\" This statement is a more direct challenge and can be met directly. \nMachines take me by surprise with great frequency. This is largely because I do not do \nsufficient calculation to decide what to expect them to do, or rather because, although I \ndo a calculation, I do it in a hurried, slipshod fashion, taking risks. Perhaps I say to \nmyself, \"I suppose the Voltage here ought to he the same as there: anyway let's assume it \nis.\" Naturally I am often wrong, and the result is a surprise for me for by the time the \nexperiment is done these assumptions have been forgotten. These admissions lay me \nopen to lectures on the subject of my vicious ways, but do not throw any doubt on my \ncredibility when I testify to the surprises I experience. \nI do not expect this reply to silence my critic. He will probably say that h surprises are \ndue to some creative mental act on my part, and reflect no credit on the machine. This \nleads us back to the argument from consciousness, and far from the idea of surprise. It is \na line of argument we must consider closed, but it is perhaps worth remarking that the \nappreciation of something as surprising requires as much of a \"creative mental act\" \nwhether the surprising event originates from a man, a book, a machine or anything else. \nThe view that machines cannot give rise to surprises is due, I believe, to a fallacy to \nwhich philosophers and mathematicians are particularly subject. This is the assumption \nthat as soon as a fact is presented to a mind all consequences of that fact spring into the \nmind simultaneously with it. It is a very useful assumption under many circumstances, \nbut one too easily forgets that it is false. A natural consequence of doing so is that one \nthen assumes that there is no virtue in the mere working out of consequences from data \nand general principles.",
     "translation": null
    }
   ]
@@ -220,39 +231,17 @@
    },
    {
     "id": "p05",
-    "work": "mill-liberty",
-    "author": "John Stuart Mill",
-    "title": "On Liberty",
-    "year": 1859,
-    "language": "English",
-    "display": "Supposing it were possible to get houses built, corn grown, battles fought, causes tried, and even churches erected and prayers said, by machinery--by automatons in human form--it would be a considerable loss to exchange for these automatons even the men and women who at present inhabit the more civilised parts of the world, and who assuredly are but starved specimens of what nature can and will produce. Human nature is not a machine to be built after a model, and set to do exactly the work prescribed for it, but a tree, which requires to grow and develop itself on all sides, according to the tendency of the inward forces which make it a living thing.",
-    "text": "Supposing it\nwere possible to get houses built, corn grown, battles fought, causes\ntried, and even churches erected and prayers said, by machinery--by\nautomatons in human form--it would be a considerable loss to exchange\nfor these automatons even the men and women who at present inhabit the\nmore civilised parts of the world, and who assuredly are but starved\nspecimens of what nature can and will produce. Human nature is not a\nmachine to be built after a model, and set to do exactly the work\nprescribed for it, but a tree, which requires to grow and develop\nitself on all sides, according to the tendency of the inward forces\nwhich make it a living thing.",
-    "translation": null
-   },
-   {
-    "id": "p06",
-    "work": "butler-darwin-among",
-    "author": "Samuel Butler (as 'Cellarius')",
-    "title": "Darwin among the Machines",
-    "year": 1863,
+    "work": "butler-lucubratio-ebria",
+    "author": "Samuel Butler",
+    "title": "Lucubratio Ebria",
+    "year": 1865,
     "language": "English",
     "display": "It is a mistake, then, to take the view adopted by a previous correspondent of this paper, to consider the machines as identities, to animalise them and to anticipate their final triumph over mankind. They are to be regarded as the mode of development by which human organism is most especially advancing, and every fresh invention is to be considered as an additional member of the resources of the human body. Herein lies the fundamental difference between man and his inferiors. As regard his flesh and blood, his senses, appetites, and affections, the difference is one of degree rather than of kind, but in the deliberate invention of such unity of limbs as is exemplified by the railway train — that seven-leagued foot which five hundred may own at once — he stands quite alone.",
     "text": "It  is  a  mistake,  then,  to  take  the  view  adopted  by  a \nprevious  correspondent  of  this  paper,  to  consider  the \nmachines   as   identities,   to   animalise   them   and   to \n\n\nLucubratio  Ebria  191 \n\n\nanticipate  their  final  triumph  over  mankind.  They \nare  to  be  regarded  as  the  mode  of  development  by \nwhich  human  organism  is  most  especially  advancing, \nand  every  fresh  invention  is  to  be  considered  as  an \nadditional  member  of  the  resources  of  the  human  body. \nHerein  lies  the  fundamental  difference  between  man \nand  his  inferiors.  As  regard  his  flesh  and  blood,  his \nsenses,  appetites,  and  affections,  the  difference  is  one \nof  degree  rather  than  of  kind,  but  in  the  deliberate \ninvention  of  such  unity  of  limbs  as  is  exemplified  by \nthe  railway  train — that  seven-leagued  foot  which  five \nhundred  may  own  at  once — he  stands  quite  alone.",
     "translation": null
    },
    {
-    "id": "p07",
-    "work": "marx-capital-volume",
-    "author": "Karl Marx",
-    "title": "Capital, Volume I",
-    "year": 1867,
-    "language": "English",
-    "display": "The subject of repairs of the implements of labour does not concern us here. A machine that is undergoing repair, no longer plays the part of an instrument, but that of a subject of labour. Work is no longer done with it, but upon it. It is quite permissible for our purpose to assume, that the labour expended on the repairs of instruments is included in the labour necessary for their original production. But in the text we deal with that wear and tear, which no doctor can cure, and which little by little brings about death, with \"that kind of wear which cannot be repaired from time to time, and which, in the case of a knife, would ultimately reduce it to a state in which the cutler would say of it, it is not worth a new blade.\"",
-    "text": "The subject of repairs of the implements of labour does not concern us here. A \nmachine that IB undergoing repair, no longer plays the part of an instrument, but \nthat of a subject of labour. Work is no longer done with it, but upon it. It is quite \npermissible for our purpose to assume, that the labour expended on the repairs of in \nstruments is included in the labour necessary for their original production. But in \nthe text we deal with that wear and tear, which no doctor can cure, and which little \nby little brings about death, with \" that kind of wear which cannot be repaired from \ntime to time, and which, in the case of a knife, would ultimately reduce it to a state \nin which the cutler would say of it, it is not worth a new blade.\"",
-    "translation": null
-   },
-   {
-    "id": "p08",
+    "id": "p06",
     "work": "butler-erewhon",
     "author": "Samuel Butler",
     "title": "Erewhon",
@@ -263,7 +252,7 @@
     "translation": null
    },
    {
-    "id": "p09",
+    "id": "p07",
     "work": "carpenter-principles-mental",
     "author": "William B. Carpenter",
     "title": "Principles of Mental Physiology",
@@ -274,7 +263,7 @@
     "translation": null
    },
    {
-    "id": "p10",
+    "id": "p08",
     "work": "bernard-lecons-sur",
     "author": "Claude Bernard",
     "title": "Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux",
@@ -285,7 +274,7 @@
     "translation": "The synthetic act by which the organism is thus maintained is, at bottom, of the same nature as that by which it is formed in the egg. This act is also similar to the process by which the organism repairs itself when it has suffered some mutilation. Generation, regeneration, redintegration, cicatrization are different aspects of one and the same phenomenon, organizing synthesis or organic creation. This organic creation takes place in two degrees. Sometimes it assimilates the surrounding substance to form organic principles from it, destined to be destroyed in a second period; sometimes it directly forms the elements of the tissues."
    },
    {
-    "id": "p11",
+    "id": "p09",
     "work": "eliot-impressions-theophrastus",
     "author": "George Eliot",
     "title": "Impressions of Theophrastus Such",
@@ -293,6 +282,28 @@
     "language": "English",
     "display": "They are simply extensions of the human organism, so to speak, limbs immeasurably more powerful, ever more subtle finger-tips, ever more mastery over the invisibly great and the invisibly small. Each new machine needs a new appliance of human skill to construct it, new devices to feed it with material, and often keener-edged faculties to note its registrations or performances. How then can machines supersede us? —they depend upon us. When we cease, they cease.” “I am not so sure of that,” said I, getting back into my mind, and becoming rather wilful in consequence. “If, as I have heard you contend, machines as they are more and more perfected will require less and less of tendance, how do I know that they may not be ultimately made to carry, or may not in themselves evolve, conditions of self-supply, self-repair, and reproduction, and not only do all the mighty and subtle work possible on this planet better than we could do it, but with the immense advantage of banishing from the earth’s atmosphere screaming consciousnesses which, in our comparatively clumsy race, make an intolerable noise and fuss to each other about every petty ant-like performance, looking on at all work only as it were to spring a rattle here or blow a trumpet there, with a ridiculous sense of being effective?",
     "text": "They are simply extensions of the human organism, so \nto speak, limbs immeasurably more powerful, ever more \nsubtle finger-tips, ever more mastery over the invisibly \ngreat and the invisibly small. Each new machine needs \na new appliance of human skill to construct it, new \ndevices to feed it with material, and often keener- \nedged faculties to note its registrations or performances. \nHow then can machines supersede us? —they depend \nupon us. When we cease, they cease.” \n\n“I am not so sure of that,”’ said I, getting back into \nmy mind, and becoming rather wilful in consequence. \n“Tf, as I have heard you contend, machines as they are \nmore and more perfected will require less and less of \ntendance, how do I knowthat they may not be ultimately \nmade to carry, or may not in themselves evolve, con- \nditions of self-supply, self-repair, and reproduction, and \nnot only do all the mighty and subtle work possible \non this planet better than we could do it, but with \nthe immense advantage of banishing from the earth’s \natmosphere screaming consciousnesses which, in our \ncomparatively clumsy race, make an intolerable noise \nand fuss to each other about every petty ant-like per- \nformance, looking on at all work only as it were to \nspring a rattle here or blow a trumpet there, with a \nridiculous sense of being effective?",
+    "translation": null
+   },
+   {
+    "id": "p10",
+    "work": "maudsley-pathology-mind",
+    "author": "Henry Maudsley",
+    "title": "The Pathology of Mind",
+    "year": 1879,
+    "language": "English",
+    "display": "The organism is a self-feeding and self-repairing machine, but it cannot do its repairs when it is in full work ; it must have for its parts, as for its whole, its recurring periods of adequate rest ; and the time comes at last when, like any other machine, it wears out, is no more capable of repair, and when the exhaustion which ensues is death — the sleep during which there is no repair and from which there is no awaking.",
+    "text": "The organism is a self-feeding and self-repair- ing machine, but it cannot do its repairs when it is in full work ; it must have for its parts, as for its whole, its recurring periods of adequate rest ; and the time comes at last when, like any other machine, it wears out, is no more capable of repair, and when the exhaustion which ensues is death — the sleep during which there is no repair and from which there is no awaking.",
+    "translation": null
+   },
+   {
+    "id": "p11",
+    "work": "baker-kirkes-physiology",
+    "author": "W. Morrant Baker",
+    "title": "Kirkes’ Hand-book of Physiology (ninth edition)",
+    "year": 1879,
+    "language": "English",
+    "display": "But the repair in the two cases is different. The capability of reconstruction in a living body is an inherent quality like that which causes growth in a special shape or to a certain degree. At present we know nothing really of its nature, and we are therefore compelled to express the fact of its existence by such terms as “ inherent power,” “ individual endowment,” and the like, and wait for more facts which may ultimately explain it. This special quality is not indeed one of living things alone. The repair of a crystal in definite shape is equally an “ individual endowment,” or “ inherent peculiarity,” of the nature of which we are equally ignorant. In the case, however, of an inorganic machine there is nothing of the sort, not even as in a crystal. Faults of structure must be repaired by some means entirely from without. And as our notion of a living being, say a horse, would be entirely altered if flaws in his composition were repaired by external means only ; so, in like manner, would our idea of the nature of a steam engine be completely changed had it the power of absorbing and using part of its fuel as matter wherewith to repair any ordinary injury it might sustain. … But if a distinct correlation be recognised between ordinary physical force and that which in various shapes is manifested by living beings ; if it be granted that every act — say, for example, of a brain or muscle — is the exactly correlated expression of a certain quantity of force latent in the food with which an animal is nourished ; and that the force produced either in the shape of thought or movement is but the transformed expression of external force, and can no more originate in a living organ without supplies of force from without, than can that organ itself be formed or nourished without supplies of matter ; — if these facts be recognised, then the term used in speaking of the powers exercised by a living being is not of very much consequence. We have as much right to use the term “ vital” as the words galvanic and chemical. All alike are but the expressions of our ignorance concerning the nature of that power of which all that we call “ forces ” are various manifestations. The difference is in the apparatus by which the force is transformed.",
+    "text": "But  the  repair  in  the  two  cases  is  different.  The  capability  of \nreconstruction  in  a living  body  is  an  inherent  quality  like  that \nwhich  causes  growth  in  a special  shape  or  to  a certain  degree. \nAt  present  we  know  nothing  really  of  its  nature,  and  we  are \ntherefore  compelled  to  express  the  fact  of  its  existence  by  such \nterms  as  “ inherent  power,”  “ individual  endowment,”  and  the \nlike,  and  wait  for  more  facts  which  may  ultimately  explain  it. \nThis  special  quality  is  not  indeed  one  of  living  things  alone. \nThe  repair  of  a crystal  in  definite  shape  is  equally  an  “ indi- \nvidual endowment,”  or  “ inherent  peculiarity,”  of  the  nature  of \nwhich  we  are  equally  ignorant.  In  the  case,  however,  of  an \ninorganic  machine  there  is  nothing  of  the  sort,  not  even  as  in  a \ncrystal.  Faults  of  structure  must  be  repaired  by  some  means \nentirely  from  without.  And  as  our  notion  of  a living  being, \nsay  a horse,  would  be  entirely  altered  if  flaws  in  his  composition \nwere  repaired  by  external  means  only ; so,  in  like  manner, \nwould  our  idea  of  the  nature  of  a steam  engine  be  completely \nchanged  had  it  the  power  of  absorbing  and  using  part  of  its \nfuel  as  matter  wherewith  to  repair  any  ordinary  injury  it  might \nsustain.\n…\nBut  if  a distinct  correlation  be  recognised  between  ordinary \nphysical  force  and  that  which  in  various  shapes  is  manifested  by \nliving  beings ; if  it  be  granted  that  every  act — say,  for  example, \nof  a brain  or  muscle — is  the  exactly  correlated  expression  of  a \ncertain  quantity  of  force  latent  in  the  food  with  which  an  animal \nis  nourished ; and  that  the  force  produced  either  in  the  shape  of \nthought  or  movement  is  but  the  transformed  expression  of  external \nforce,  and  can  no  more  originate  in  a living  organ  without \nsupplies  of  force  from  without,  than  can  that  organ  itself  be \nformed  or  nourished  without  supplies  of  matter ; — if  these  facts \nbe  recognised,  then  the  term  used  in  speaking  of  the  powers \nexercised  by  a living  being  is  not  of  very  much  consequence. \nWe  have  as  much  right  to  use  the  term  “ vital”  as  the  words \ngalvanic  and  chemical.  All  alike  are  but  the  expressions  of  our \nignorance  concerning  the  nature  of  that  power  of  which  all  that \nwe  call  “ forces  ” are  various  manifestations.  The  difference  is  in \nthe  apparatus  by  which  the  force  is  transformed.",
     "translation": null
    },
    {
@@ -341,6 +352,17 @@
    },
    {
     "id": "p16",
+    "work": "meltzer-factors-safety",
+    "author": "S. J. Meltzer",
+    "title": "The Factors of Safety in Animal Structure and Animal Economy",
+    "year": 1907,
+    "language": "English",
+    "display": "At any rate, self-repair distinguishes the organism from the machine. If parts of a machine yield to stress and the factors of safety become exhausted, the machine would surely break down, unless it is repaired by human hands, just as it is made by human hands. As far as I know, no machine has yet been invented which is provided with devices for a continual self-repair. In the living organism self-repair is a wide-spread function of living tissues and organs. It is a dormant force, a reserve force, which springs into immediate activity as soon as any injury is inflicted. It is a factor of safety peculiar to the living organism. It manifests itself in the forms of regeneration and hypertrophy of tissues and organs, and also in the functional forms of inflammatory reaction, of substitution, vicariation and adaptation.",
+    "text": "At any rate, self-repair distinguishes the organism from the machine. If parts of a machine yield to stress and the factors of safety become exhausted, the machine would surely break down, unless it is re- paired by human hands, just as it is made by human hands. As far as I know, no machine has yet been invented which is provided with devices for a continual self- repair. In the living organism self-repair is a wide-spread function of living tissues and organs. It is a dormant force, a re- serve force, which springs into immediate activity as soon as any injury is inflicted. It is a factor of safety peculiar to the living organism. It manifests itself in the forms of regeneration and hypertrophy of tissues and organs, and also in the fune- tional forms of inflammatory reaction, of substitution, vicariation and adaptation.",
+    "translation": null
+   },
+   {
+    "id": "p17",
     "work": "driesch-science-philosophy",
     "author": "Hans Driesch",
     "title": "The Science and Philosophy of the Organism",
@@ -351,7 +373,7 @@
     "translation": null
    },
    {
-    "id": "p17",
+    "id": "p18",
     "work": "loeb-mechanistic-conception",
     "author": "Jacques Loeb",
     "title": "The Mechanistic Conception of Life",
@@ -362,7 +384,7 @@
     "translation": null
    },
    {
-    "id": "p18",
+    "id": "p19",
     "work": "haldane-mechanism-life",
     "author": "J. S. Haldane",
     "title": "Mechanism, Life and Personality",
@@ -373,7 +395,7 @@
     "translation": null
    },
    {
-    "id": "p19",
+    "id": "p20",
     "work": "loeb-organism-as",
     "author": "Jacques Loeb",
     "title": "The Organism as a Whole, from a Physicochemical Viewpoint",
@@ -381,17 +403,6 @@
     "language": "English",
     "display": "We thus see that while the stem inhibits the growth of the leaves connected with it, the latter accelerate the growth in the stem. Both facts can probably be explained on the same basis; namely, on the assumption that it is the flow of substances from the leaf to the stem which inhibits the growth of the notches and accelerates the growth of the buds in the stem. On this assumption it would also follow that the leaves send root-forming substances towards the basal and shoot-forming substances towards the apex of the stem. It also seems to follow from recent as yet unpublished experiments by the writer that the root-forming substances are associated or identical with the substances which cause geotropic curvature in the stem. These observations show that the phenomena of correlation or of the influence of the whole over the parts is due to peculiarities of circulation or the flow of sap; and that the isolation prevents the sap from flowing away to other parts of the plant. There is no need for assuming the existence of a mysterious force which directs the piece to grow into a whole.",
     "text": "We thus see that while the stem inhibits the growth of the leaves\nconnected with it, the latter accelerate the growth in the stem. Both\nfacts can probably be explained on the same basis; namely, on the\nassumption that it is the flow of substances from the leaf to the stem\nwhich inhibits the growth of the notches and accelerates the growth\nof the buds in the stem. On this assumption it would also follow\nthat the leaves send root-forming substances towards the basal and\nshoot-forming substances towards the apex of the stem. It also seems\nto follow from recent as yet unpublished experiments by the writer\nthat the root-forming substances are associated or identical with the\nsubstances which cause geotropic curvature in the stem.\n\nThese observations show that the phenomena of correlation or of the\ninfluence of the whole over the parts is due to peculiarities of\ncirculation or the flow of sap; and that the isolation prevents the sap\nfrom flowing away to other parts of the plant. There is no need for\nassuming the existence of a mysterious force which directs the piece to\ngrow into a whole.",
-    "translation": null
-   },
-   {
-    "id": "p20",
-    "work": "darrow-crime-its",
-    "author": "Clarence Darrow",
-    "title": "Crime: Its Cause and Treatment",
-    "year": 1922,
-    "language": "English",
-    "display": "No physical human structure was ever put together where the organs were equally strong to do the work assigned to them. Some part of the body always needs watchfulness and repair and can never be depended upon in emergencies. In times of overstress and strain, the defective organ or organs will manifest their weakness. The intricate nervous system and the brain, the unseen instincts and emotions likewise do not work perfectly; but as a rule the ones that underwork or overwork cannot be seen by a physical examination. It generally requires great subtlety to find them, and careful treatment and environment to make the machine work fairly well in spite of these imperfections. This could be provided; in most cases the machine could be placed in an environment where it would work fairly well; but instead of this all the effort that is made to keep the machine in shape is a threat of the jail if it goes wrong; it is then left to run itself without help or assistance of any kind.",
-    "text": "No\nphysical human structure was ever put together where the organs were\nequally strong to do the work assigned to them. Some part of the body\nalways needs watchfulness and repair and can never be depended upon in\nemergencies. In times of overstress and strain, the defective organ or\norgans will manifest their weakness. The intricate nervous system and\nthe brain, the unseen instincts and emotions likewise do not work\nperfectly; but as a rule the ones that underwork or overwork cannot be\nseen by a physical examination. It generally requires great subtlety to\nfind them, and careful treatment and environment to make the machine\nwork fairly well in spite of these imperfections. This could be\nprovided; in most cases the machine could be placed in an environment\nwhere it would work fairly well; but instead of this all the effort\nthat is made to keep the machine in shape is a threat of the jail if it\ngoes wrong; it is then left to run itself without help or assistance of\nany kind.",
     "translation": null
    },
    {
@@ -479,17 +490,6 @@
    },
    {
     "id": "p07",
-    "work": "tocqueville-democracy-america",
-    "author": "Alexis de Tocqueville",
-    "title": "Democracy in America, vol. 2",
-    "year": 1840,
-    "language": "English",
-    "display": "In proportion as the principle of the division of labor is more extensively applied, the workman becomes more weak, more narrow-minded, and more dependent. The art advances, the artisan recedes. On the other hand, in proportion as it becomes more manifest that the productions of manufactures are by so much the cheaper and better as the manufacture is larger and the amount of capital employed more considerable, wealthy and educated men come forward to embark in manufactures which were heretofore abandoned to poor or ignorant handicraftsmen. The magnitude of the efforts required, and the importance of the results to be obtained, attract them. Thus at the very time at which the science of manufactures lowers the class of workmen, it raises the class of masters. Whereas the workman concentrates his faculties more and more upon the study of a single detail, the master surveys a more extensive whole, and the mind of the latter is enlarged in proportion as that of the former is narrowed. In a short time the one will require nothing but physical strength without intelligence; the other stands in need of science, and almost of genius, to insure success. This man resembles more and more the administrator of a vast empire--that man, a brute.",
-    "text": "In proportion as the principle of the division of labor is more extensively applied, the workman becomes more weak, more narrow-minded, and more dependent. The art advances, the artisan recedes. On the other hand, in proportion as it becomes more manifest that the productions of manufactures are by so much the cheaper and better as the manufacture is larger and the amount of capital employed more considerable, wealthy and educated men come forward to embark in manufactures which were heretofore abandoned to poor or ignorant handicraftsmen. The magnitude of the efforts required, and the importance of the results to be obtained, attract them. Thus at the very time at which the science of manufactures lowers the class of workmen, it raises the class of masters. Whereas the workman concentrates his faculties more and more upon the study of a single detail, the master surveys a more extensive whole, and the mind of the latter is enlarged in proportion as that of the former is narrowed. In a short time the one will require nothing but physical strength without intelligence; the other stands in need of science, and almost of genius, to insure success. This man resembles more and more the administrator of a vast empire--that man, a brute.",
-    "translation": null
-   },
-   {
-    "id": "p08",
     "work": "ruskin-stones-venice",
     "author": "John Ruskin",
     "title": "The Stones of Venice, vol. 2",
@@ -500,7 +500,7 @@
     "translation": null
    },
    {
-    "id": "p09",
+    "id": "p08",
     "work": "marx-capital-volume",
     "author": "Karl Marx",
     "title": "Capital, Volume I",
@@ -511,7 +511,7 @@
     "translation": null
    },
    {
-    "id": "p10",
+    "id": "p09",
     "work": "marx-capital-volume",
     "author": "Karl Marx",
     "title": "Capital, Volume I",
@@ -522,7 +522,7 @@
     "translation": null
    },
    {
-    "id": "p11",
+    "id": "p10",
     "work": "eliot-impressions-theophrastus",
     "author": "George Eliot",
     "title": "Impressions of Theophrastus Such",
@@ -533,18 +533,7 @@
     "translation": null
    },
    {
-    "id": "p12",
-    "work": "george-progress-poverty",
-    "author": "Henry George",
-    "title": "Progress and Poverty",
-    "year": 1879,
-    "language": "English",
-    "display": "The fact is, that the qualities that raise man above the animal are superimposed on those which he shares with the animal, and that it is only as he is relieved from the wants of his animal nature that his intellectual and moral nature can grow. Compel a man to drudgery for the necessities of animal existence, and he will lose the incentive to industry—the progenitor of skill—and will do only what he is forced to do. Make his condition such that it cannot be much worse, while there is little hope that anything he can do will make it much better, and he will cease to look beyond the day. Deny him leisure—and leisure does not mean the want of employment, but the absence of the need which forces to uncongenial employment—and you cannot, even by running the child through a common school and supplying the man with a newspaper, make him intelligent.",
-    "text": "The fact is, that the qualities that raise man above the animal are superimposed on those which he shares with the animal, and that it is only as he is relieved from the wants of his animal nature that his intellectual and moral nature can grow. Compel a man to drudgery for the necessities of animal existence, and he will lose the incentive to industry—the progenitor of skill—and will do only what he is forced to do. Make his condition such that it cannot be much worse, while there is little hope that anything he can do will make it much better, and he will cease to look beyond the day. Deny him leisure—and leisure does not mean the want of employment, but the absence of the need which forces to uncongenial employment—and you cannot, even by running the child through a common school and supplying the man with a newspaper, make him intelligent.",
-    "translation": null
-   },
-   {
-    "id": "p13",
+    "id": "p11",
     "work": "wilde-soul-man",
     "author": "Oscar Wilde",
     "title": "The Soul of Man under Socialism",
@@ -555,7 +544,7 @@
     "translation": null
    },
    {
-    "id": "p14",
+    "id": "p12",
     "work": "kropotkin-conquest-bread",
     "author": "Peter Kropotkin",
     "title": "The Conquest of Bread",
@@ -566,7 +555,7 @@
     "translation": null
    },
    {
-    "id": "p15",
+    "id": "p13",
     "work": "kropotkin-conquest-bread",
     "author": "Peter Kropotkin",
     "title": "The Conquest of Bread",
@@ -577,7 +566,7 @@
     "translation": null
    },
    {
-    "id": "p16",
+    "id": "p14",
     "work": "kropotkin-fields-factories",
     "author": "Peter Kropotkin",
     "title": "Fields, Factories and Workshops",
@@ -588,7 +577,7 @@
     "translation": null
    },
    {
-    "id": "p17",
+    "id": "p15",
     "work": "veblen-theory-business",
     "author": "Thorstein Veblen",
     "title": "The Theory of Business Enterprise",
@@ -599,7 +588,7 @@
     "translation": null
    },
    {
-    "id": "p18",
+    "id": "p16",
     "work": "taylor-principles-scientific",
     "author": "Frederick Winslow Taylor",
     "title": "The Principles of Scientific Management",
@@ -610,7 +599,7 @@
     "translation": null
    },
    {
-    "id": "p19",
+    "id": "p17",
     "work": "taylor-principles-scientific",
     "author": "Frederick Winslow Taylor",
     "title": "The Principles of Scientific Management",
@@ -618,6 +607,28 @@
     "language": "English",
     "display": "What really happens is that, with the aid of the science which is invariably developed, and through the instructions from his teachers, each workman of a given intellectual capacity is enabled to do a much higher, more interesting, and finally more developing and more profitable kind of work than he was before able to do. The laborer who before was unable to do anything beyond, perhaps, shoveling and wheeling dirt from place to place, or carrying the work from one part of the shop to another, is in many cases taught to do the more elementary machinist's work, accompanied by the agreeable surroundings and the interesting variety and higher wages which go with the machinist's trade. The cheap machinist or helper, who before was able to run perhaps merely a drill press, is taught to do the more intricate and higher priced lathe and planer work, while the highly skilled and more intelligent machinists become functional foremen and teachers. And so on, right up the line.",
     "text": "What really happens is that, with the aid of the science which is invariably developed, and through the instructions from his teachers, each workman of a given intellectual capacity is enabled to do a much higher, more interesting, and finally more developing and more profitable kind of work than he was before able to do. The laborer who before was unable to do anything beyond, perhaps, shoveling and wheeling dirt from place to place, or carrying the work from one part of the shop to another, is in many cases taught to do the more elementary machinist's work, accompanied by the agreeable surroundings and the interesting variety and higher wages which go with the machinist's trade. The cheap machinist or helper, who before was able to run perhaps merely a drill press, is taught to do the more intricate and higher priced lathe and planer work, while the highly skilled and more intelligent machinists become functional foremen and teachers. And so on, right up the line.",
+    "translation": null
+   },
+   {
+    "id": "p18",
+    "work": "hartness-human-factor",
+    "author": "James Hartness",
+    "title": "The Human Factor in Works Management",
+    "year": 1912,
+    "language": "English",
+    "display": "Specialization divides the work into various classes so as to have all of one kind of operations performed in one place. It tends to reduce the range of operations performed by each man. For instance, when a man's work is limited to watching a tack-making machine, we find that his mind and body fit into the conditions. This soon results in a more perfect comprehension of the intricate mechanism of the machine and in acquiring a wonderful skill in making the necessary adjustments. He then becomes most efficient in producing a large output of tacks. He does this work easily; in fact, it is safe to say that efficiency and comfort go together. This same man would be a very unsatisfactory workman if required to change from one kind of machine to another every day, with no chance of running the same kind twice in a lifetime. To those who have seen and perhaps felt the joy that comes to a worker as he invades new fields or encounters new problems in his own field, there is something repugnant about the scheme of specialization which limits each mortal to the work in which he has acquired skill and in which his mind and body seem to act automatically. There may be pleasure in rambling through the world of work, but it is too much like the pleasure that comes from dreaming or building of air-castles. It is a misuse of our powers.",
+    "text": "Specialization divides the work into vari- \nous classes so as to have all of one kind of op- \nerations performed in one place. It tends to \nreduce the range of operations performed by \neach man. For instance, when a man's work is \nlimited to watching a tack-making machine, we \nfind that his mind and body fit into the condi- \ntions. This soon results in a more perfect \ncomprehension of the intricate mechanism of \n\n\n\nTHE VALUE OF HABIT 37 \n\nthe machine and in acquiring a wonderful \nskiU in making the necessary adjustments. \nHe then becomes most eflStcient in producing \na large output of tacks. He does this work \neasily; in fact, it is safe to say that efficiency \nand comfort go together. \n\nThis same man would be a very unsatisfac- \ntory workman if required to change from one \nkind of machine to another every day, with \nno chance of running the same kind twice in \na lifetime. \n\nTo those who have seen and perhaps felt \nthe joy that comes to a worker as he invades \nnew fields or encounters new problems in his \nown field, there is somethmg repugnant about \nthe scheme of specialization which lunits each \nmortal to the work in which he has acquired \nskill and m which his mind and body seem to \nact automatically. \n\nThere may be pleasure in rambling through \nthe world of work, but it is too much like the \npleasure that comes from dreaming or build- \ning of air-castles. It is a misuse of our powers.",
+    "translation": null
+   },
+   {
+    "id": "p19",
+    "work": "watts-psychological-industry",
+    "author": "Frank Watts",
+    "title": "An Introduction to the Psychological Problems of Industry",
+    "year": 1921,
+    "language": "English",
+    "display": "In the interests of increased production, processes must be standardized, but minds must be freed. It is for the good of both employers and employed, and, moreover, it is a national necessity that the factory worker should be given greater opportunities of varying his work. It has been abundantly proved during the recent war that many of the processes of industry, which in the past have been regarded as needing highly-skilled attention, can be quickly learnt by intelligent workers. Many are now convinced that as wide an acquaintance as can practically be secured with several processes of manufacture and their raison d'etre will give the workers a better insight into their particular branch of work, interest them more deeply in the problems of efficiency and output, and so call out the higher mental qualities they possess. And the resulting greater variety in their work would make factory life more endurable. The practical difficulty is that where piece-rates are fixed the worker finds that he can earn more by staying on the monotonous job than by changing over to another. His reaction, if he is a very intelligent worker, is then apt to be that of a thwarted creature.",
+    "text": "In  the  interests  of  increased  production,  processes  must \nbe  standardized,  but  minds  must  be  freed.  It  is  for  the \ngood  of  both  employers  and  employed,  and,  moreover, \nit  is  a  national  necessity  that  the  factory  worker  should \nbe  given  greater  opportunities  of  varying  his  work.  It \nhas  been  abundantly  proved  during  the  recent  war  that \nmany  of  the  processes  of  industry,  which  in  the  past \nhave  been  regarded  as  needing  highly-skilled  attention, \ncan  be  quickly  learnt  by  intelligent  workers.  Many  are \nnow  convinced  that  as  wide  an  acquaintance  as  can \npractically  be  secured  with  several  processes  of  manufac- \nture and  their  raison  d'etre  will  give  the  workers  a  better \ninsight  into  their  particular  branch  of  work,  interest \nthem  more  deeply  in  the  problems  of  efficiency  and  out- \nput, and  so  call  out  the  higher  mental  qualities  they \npossess.  And  the  resulting  greater  variety  in  their  work \nwould  make  factory  life  more  endurable. \n\nThe  practical  difficulty  is  that  where  piece-rates  are \nfixed  the  worker  finds  that  he  can  eam  more  by  staying \non  the  monotonous  job  than  by  changing  over  to  another. \nHis  reaction,  if  he  is  a  very  intelligent  worker,  is  then \napt  to  be  that  of  a  thwarted  creature.",
     "translation": null
    },
    {
@@ -683,17 +694,6 @@
    },
    {
     "id": "p04",
-    "work": "malebranche-search-after",
-    "author": "Nicolas Malebranche",
-    "title": "The Search after Truth",
-    "year": 1674,
-    "language": "English",
-    "display": "If we would believe Montagne on his word, he would persuade us that he was a Man of No Retention; that his Memory was treacherous, and fail'd him in every thing: But that in his Judgment, there was no defect. And yet should we credit the Portraiture he has drawn of his own Mind, I mean his Book, we should be of a different Opinion. I could not, says he, receive an Order without my Table-book; and if I had an Oration to speak, that was considerably long-winded, I was forc'd to that vile and miserable necessity of learning it word for word by Heart; otherwise I had neither Presence nor Assurance, for fear my Memory should shew me a slippery trick. Does a Man that could learn Memoriter, word for word long-winded Discourses, to give him some Presence and Assurance, fail more in his Memory than his Judgment? And can we believe Montagne when he says, I am forc'd to call my Domestick Servants by the Names of their Offices, or their Countries; it being the most difficult thing to remember Names; and if I should live long, I am persuaded I should forget my own?",
-    "text": "If we would believe Montagne on his word, he would perfwade us that he was a Man of No Retention; that his Memory was treacherous, and faiPd him in every thing-: But that in his Judg- L.'i.ch.io ment, there was no defect. And yet fhould we credit the Portraiture he has drawn of his own L.\\.ch.2^ Mind, I mean his Book, we fhould be of a different Opinion. I could not, fays he, receive an Or- »'2' ? der without my Table-book; and if I had an Oration to fpeak, that was confid.er ably long-winded, I was fore'd to that vile and miferable neceffity of learning it word for word by Heart ; otherwife J had neither Vrefencenor Affurance, for fear my Memory jliould fliew me a fippery trick. Does a Man that could learn Memoriter, word for word long-winded Difcourfes, to give him fome Prefence and AfTu- rance, fail more in his Memory than his Judgment ? And can we believe Montagne when he fays, / am fore'd to call my Domeftick Servants by the Names of their Offices, or their Countries ; it being the moft difficult thing to remember Names ; and if I fhould live long, I am perfwaded I jlwuld forget my vwn .?",
-    "translation": null
-   },
-   {
-    "id": "p05",
     "work": "hume-treatise-human",
     "author": "David Hume",
     "title": "A Treatise of Human Nature",
@@ -704,7 +704,7 @@
     "translation": null
    },
    {
-    "id": "p06",
+    "id": "p05",
     "work": "watts-improvement-mind",
     "author": "Isaac Watts",
     "title": "The Improvement of the Mind",
@@ -715,7 +715,7 @@
     "translation": null
    },
    {
-    "id": "p07",
+    "id": "p06",
     "work": "johnson-idler-no",
     "author": "Samuel Johnson",
     "title": "The Idler, No. 74",
@@ -726,7 +726,7 @@
     "translation": null
    },
    {
-    "id": "p08",
+    "id": "p07",
     "work": "condorcet-outlines",
     "author": "Condorcet",
     "title": "Outlines of an Historical View of the Progress of the Human Mind",
@@ -737,7 +737,7 @@
     "translation": null
    },
    {
-    "id": "p09",
+    "id": "p08",
     "work": "kant-anthropology",
     "author": "Immanuel Kant",
     "title": "Anthropology from a Pragmatic Point of View",
@@ -748,18 +748,18 @@
     "translation": "One of the ancients said: \"The art of writing has ruined memory (in part made it dispensable).\" There is something true in this saying: for the common man usually has the various things he is charged with better in order, so as to carry them out one after another and to recall them, precisely because his memory here is mechanical and no reasoning mixes in; whereas the scholar, through whose head many foreign side-thoughts pass, lets much of his errands or household business slip away through distraction, because he did not take it in with sufficient attention. But to be sure, with a writing tablet in one's pocket, of finding again, exactly and without effort, everything one has laid down in the head for keeping is still a great convenience; and the art of writing always remains a splendid art, because, even if it were not used to communicate one's knowledge to others, it still takes the place of the most extensive and faithful memory, whose lack it can make good."
    },
    {
-    "id": "p10",
-    "work": "kant-education",
-    "author": "Immanuel Kant",
-    "title": "Kant on Education",
-    "year": 1803,
+    "id": "p09",
+    "work": "north-life-francis-north",
+    "author": "Roger North",
+    "title": "The Life of the Right Honourable Francis North (1826 edition)",
+    "year": 1826,
     "language": "English",
-    "display": "The memory should only be occupied with such things as are important to be retained, and which will be of service to us in real life. Novel-reading is the worst thing for children, since they can make no further use of it, and it merely affords them entertainment for the moment. Novel-reading weakens the memory. For it would be ridiculous to remember novels in order to relate them to others. Therefore all novels should be taken away from children. Whilst reading them they weave, as it were, an inner romance of their own, rearranging the circumstances for themselves; their fancy is thus imprisoned, but there is no exercise of thought.",
-    "text": "The memory should only be occupied with such things as are important to be retained, and which will be of service to us in real life. Novel-reading is the ' reading is worst thing for children, since they can make no >wd for further use of it, and it merely affords them , entertainment for the moment. Novel-reading weakens the memory. For it would be ridicu lous to remember novels in order to relate them to others. Therefore all novels should be taken away from children. Whilst reading them they weave, as it were, an inner romance of their own, rearranging the circumstances for themselves ; their fancy is thus imprisoned, but there is no exercise of thought.",
+    "display": "He used to say that no writing, though in a commonplace, however improper, was of any ill consequence ; for, by making searches difficult, the very going to several titles, for the same inquiry, refreshed the memory of other things : and it was not at all amiss that commonplace sentences, as some may touch divers matters, should be wrote under as many titles. He used to say that the advantage of his commonplace was not, as a parson's concordance, to help him to cases, but, when he remembered he had read of a case, to help him to find it ; and then his little note, there, brought into his mind the agitation of the matter at large in the book ; and, for this reason, the commonplace book is of little use to any but to him that made it.",
+    "text": "He used to say that no writing, though in a com- \nmonplace, however improper, was of any ill con- \nsequence ; for, by making searches difficult, the \nvery going to several titles, for the same inquiry, \nrefreshed the memory of other things : and it was \nnot at all amiss that commonplace sentences, as \nsome may touch divers matters, should be wrote \nunder as many titles. He used to say that the ad- \nvantage of his commonplace was not, as a parson's\n…\nconcordance, to help him to cases, but, when he \nremembered he had read of a case, to help him to \nfind it ; and then his little note, there, brought into \nhb mind the agitation of the matter at large in \nthe book ; and, for this reason, the commonplace \nbook is of little use to any but to him that made it.",
     "translation": null
    },
    {
-    "id": "p11",
+    "id": "p10",
     "work": "hugo-notre-dame",
     "author": "Victor Hugo",
     "title": "Notre-Dame de Paris",
@@ -770,7 +770,7 @@
     "translation": null
    },
    {
-    "id": "p12",
+    "id": "p11",
     "work": "emerson-self-reliance",
     "author": "Ralph Waldo Emerson",
     "title": "Self-Reliance",
@@ -778,6 +778,17 @@
     "language": "English",
     "display": "The civilized man has built a coach, but has lost the use of his feet. He is supported on crutches, but lacks so much support of muscle. He has a fine Geneva watch, but he fails of the skill to tell the hour by the sun. A Greenwich nautical almanac he has, and so being sure of the information when he wants it, the man in the street does not know a star in the sky. The solstice he does not observe; the equinox he knows as little; and the whole bright calendar of the year is without a dial in his mind. His note-books impair his memory; his libraries overload his wit; the insurance-office increases the number of accidents; and it may be a question whether machinery does not encumber; whether we have not lost by refinement some energy, by a Christianity entrenched in establishments and forms some vigor of wild virtue.",
     "text": "The civilized man has built a coach, but has lost the use of his feet. He is supported on crutches, but lacks so much support of muscle. He has a fine Geneva watch, but he fails of the skill to tell the hour by the sun. A Greenwich nautical almanac he has, and so being sure of the information when he wants it, the man in the street does not know a star in the sky. The solstice he does not observe; the equinox he knows as little; and the whole bright calendar of the year is without a dial in his mind. His note-books impair his memory; his libraries overload his wit; the insurance-office increases the number of accidents; and it may be a question whether machinery does not encumber; whether we have not lost by refinement some energy, by a Christianity entrenched in establishments and forms some vigor of wild virtue.",
+    "translation": null
+   },
+   {
+    "id": "p12",
+    "work": "rosenkranz-pedagogics",
+    "author": "Karl Rosenkranz",
+    "title": "Pedagogics as a System, §99 (Anna C. Brackett translation)",
+    "year": 1872,
+    "language": "English",
+    "display": "§ 99. The means to be used, which result from the nature of memory itself, are on the one hand the pronouncing and writing of the names and numbers, and on the other, repetition; by these we gain distinctness and certainty. —All artificial contrivances for quickening the memory vanish in comparison with the art of writing, in so far as this is not looked at as a means of relieving the memory. That a name or a number should be this or that, is a mere chance for the intelligence, an entirely meaningless accident to which we have unconditionally to submit ourselves as unalterable. The intelligence must be accustomed to put upon itself this constraint. In science proper, especially in Philosophy, our reason helps to produce one thought from others by means of the context, and we can discover names for the ideas from them.—",
+    "text": "§ 99. The means to be used, which result from the nature of memory\nitself, are on the one hand the pronouncing and writing of the names and\nnumbers, and on the other, repetition; by these we gain distinctness and\ncertainty.\n\n--All artificial contrivances for quickening the memory vanish in\ncomparison with the art of writing, in so far as this is not looked at\nas a means of relieving the memory. That a name or a number should be\nthis or that, is a mere chance for the intelligence, an entirely\nmeaningless accident to which we have unconditionally to submit\nourselves as unalterable. The intelligence must be accustomed to put\nupon itself this constraint. In science proper, especially in\nPhilosophy, our reason helps to produce one thought from others by means\nof the context, and we can discover names for the ideas from them.--",
     "translation": null
    },
    {
@@ -876,13 +887,13 @@
    },
    {
     "id": "p04",
-    "work": "carlyle-signs-times",
-    "author": "Thomas Carlyle",
-    "title": "Signs of the Times",
+    "work": "southey-colloquies",
+    "author": "Robert Southey",
+    "title": "Sir Thomas More; or, Colloquies on the Progress and Prospects of Society",
     "year": 1829,
     "language": "English",
-    "display": "Shall we say, for example, that Science and Art are indebted principally to the founders of Schools and Universities? Did not Science originate rather, and gain advancement, in the obscure closets of the Roger Bacons, Keplers, Newtons; in the workshops of the Fausts and the Watts; wherever, and in what guise soever Nature, from the first times downwards, had sent a gifted spirit upon the earth? Again, were Homer and Shakspeare members of any beneficed guild, or made Poets by means of it? Were Painting and Sculpture created by forethought, brought into the world by institutions for that end? No; Science and Art have, from first to last, been the free gift of Nature; an unsolicited, unexpected gift; often even a fatal one. These things rose up, as it were, by spontaneous growth, in the free soil and sunshine of Nature. They were not planted or grafted, nor even greatly multiplied or improved by the culture or manuring of institutions. Generally speaking, they have derived only partial help from these; often enough have suffered damage. They made constitutions for themselves. They originated in the Dynamical nature of man, not in his Mechanical nature.",
-    "text": "Shall we say, for example, that Science and Art are indebted principally to the founders of Schools ~ and Universities? Did not Science originate rather, and gain advancement, in the obscure closets of the Roger Bacons, Keplers, Newtons; in the workshops of the Fausts and the Watts; wherever, and in what guise soever Nature, from the first times downwards, had sent a gifted spirit upon the earth? Again, were Homer and Shakspeare members of any beneficed guild, or made Poets by means of it? Were Painting and Sculpture created by forethought, brought into the world by institutions for that end? No; Science and Art have, from first to last, been the free gift of Nature; an unsolicited, unexpected gift; often even a fatal one. These things rose up, as it were, by spontaneous growth, in the free soil and sunshine of Nature. They were not planted or grafted, nor even greatly multiplied or improved by the culture or manuring of institutions. Generally speaking, they have derived only partial help from these; often enough have suffered damage. They made constitutions for themselves. They originated in the Dynamical nature of man, not in his Mechanical nature.",
+    "display": "We were led to observe, in discoursing upon the changes which the Art of War has undergone, that, though the application of gunpowder to that art was foreseen and expected by Roger Bacon, it was not brought into full employ, even after its composition and its uses were generally known, till the time had come when its introduction tended to diminish rather than to aggravate the horrors of a state of warfare. This observation alone, were there no other ground for such a tenet, might lead us to infer, that the power of steam has not been called into action, and placed under human controul, till society had reached that stage in its progress wherein more good than evil would result from the discovery. It is worthy of especial remark, and more especial gratitude, that if steam ships had been rendered manageable only ten years earlier, . . nay, even a less time, . . our deadly struggle with Buonaparte must have been decided upon our own soil ; and in that case London might easily have shared the same fate as Moscow, though the invaders would assuredly have suffered as dreadful a catastrophe in this island from the arm of man, as was inflicted upon them in their flight from Russia by the ministering elements. Obvious as the application of steam to such a purpose may seem to have been, and common as it already has become in these few intervening years, the discovery was withheld till it could no longer be made instrumental to so great an evil ; no sooner had that danger been averted than it came into use, rendering the great rivers of South America accessible to commerce and civilization just as the political revolution is effected there, which, . . whatever may be its other consequences, .. has opened those countries to the improvements which thus, and only thus, can be brought about. When I look to moral agencies, equally influential, but in a wider and more important sphere, I recognize and admire the same merciful adaptation of means to their intended effect.",
+    "text": "We were led to \nobserve, in discoursing upon the changes which \nthe Art of War has undergone, that, though the \napplication of gunpowder to that art was fore- \nseen and expected by Roger Bacon, it was not \nbrought into full employ, even after its compo- \nsition and its uses were generally known, till the \ntime had come when its introduction tended to \ndiminish rather than to aggravate the horrors of \na state of warfare. This observation alone, \nwere there no other ground for such a tenet, \nmight lead us to infer, that the power of steam \nhas not been called into action, and placed \nunder human controul, till society had reached \n\n\n\nPROVIDENCE. 77 \n\nthat stage in its progress wherein more good \nthan evil would result from the discovery. It \nis worthy of especial remark^ and more especial \ngratitude, that if steam ships had been rendered \nmanageable only ten years earlier, . . nay, even \na less time, . . our deadly struggle with Buona- \nparte must have been decided upon our own \nsoil ; and in that case London might easil^have \nshared the same fate as Moscow, though the \ninvaders would assuredly have suffered as \ndreadful a catastrophe in this island from the \narm of man, as was inflicted upon them in their \nflight from Russia by the ministering elements. ^ \nObvious as the application of steam to such a \npurpose may seem to have been, and common \nas it already has become in these few inter- \nvening years, the discovery was withheld till it \ncould no longer be made instrumental to so \ngreat an evil ; no sooner had that danger been \naverted than it came into use, rendering the \ngreat rivers of South America accessible to \ncommerce and civilization just as the political \nrevolution is effected there, which, . • whatever \nmay be its other consequences, .. has opened \nthose countries to the improvements which thus, \nand only thus, can be brought about. When I \nlook to moral agencies, equally influential, but \nin a wider and more important sphere, I recog- \n\n\n\n78 PROVTOENCE. \n\nnize and admire the same merciful adaptation \nof means to their intended effect.",
     "translation": null
    },
    {
@@ -986,13 +997,13 @@
    },
    {
     "id": "p14",
-    "work": "bergson-creative-evolution",
-    "author": "Henri Bergson",
-    "title": "Creative Evolution",
-    "year": 1907,
+    "work": "kingsley-true-words",
+    "author": "Charles Kingsley",
+    "title": "True Words for Brave Men, “Earthly and Heavenly Wisdom; or, Stoop to Conquer”",
+    "year": 1884,
     "language": "English",
-    "display": "A noteworthy fact is the extraordinary disproportion between the consequences of an invention and the invention itself. We have said that intelligence is modeled on matter and that it aims in the first place at fabrication. But does it fabricate in order to fabricate or does it not pursue involuntarily, and even unconsciously, something entirely different? Fabricating consists in shaping matter, in making it supple and in bending it, in converting it into an instrument in order to become master of it. It is this mastery that profits humanity, much more even than the material result of the invention itself. Though we derive an immediate advantage from the thing made, as an intelligent animal might do, and though this advantage be all the inventor sought, it is a slight matter compared with the new ideas and new feelings that the invention may give rise to in every direction, as if the essential part of the effect were to raise us above ourselves and enlarge our horizon. Between the effect and the cause the disproportion is so great that it is difficult to regard the cause as producer of its effect. It releases it, whilst settling, indeed, its direction. Everything happens as though the grip of intelligence on matter were, in its main intention, to let something pass that matter is holding back.",
-    "text": "A noteworthy fact is the extraordinary disproportion between the consequences of an invention and the invention itself. We have said that intelligence is modeled on matter and that it aims in the first place at fabrication. But does it fabricate in order to fabricate or does it not pursue involuntarily, and even unconsciously, something entirely different? Fabricating consists in shaping matter, in making it supple and in bending it, in converting it into an instrument in order to become master of it. It is this _mastery_ that profits humanity, much more even than the material result of the invention itself. Though we derive an immediate advantage from the thing made, as an intelligent animal might do, and though this advantage be all the inventor sought, it is a slight matter compared with the new ideas and new feelings that the invention may give rise to in every direction, as if the essential part of the effect were to raise us above ourselves and enlarge our horizon. Between the effect and the cause the disproportion is so great that it is difficult to regard the cause as _producer_ of its effect. It releases it, whilst settling, indeed, its direction. Everything happens as though the grip of intelligence on matter were, in its main intention, to _let something pass_ that matter is holding back.",
+    "display": "But about two hundred and fifty years ago, it pleased God to open the eyes of one of the wisest men who ever lived, who was called Francis Bacon, Lord Verulam, Lord Chancellor of England, and to show him the real and right way of learning by which men can fulfil God's command to replenish the earth and subdue it. And Francis Bacon told all the learned men boldly that they had all been wrong together, and that their wisdom was no better than a sort of madness, as it is written, \"The wisdom of man is foolishness with God;\" that the only way for man to be wise was to get God's wisdom, the wisdom with which He had founded the earth, and find out God's laws by which He had made this world. \"And then,\" he said, \"if you can do that, you will be able to imitate God in your own small way. If you learn the laws by which God made all things, you will be able to invent new things for yourselves. For you can only subdue nature by obeying her.\" That was one of his greatest sayings, and by it he meant, that you can only subdue a thing and make it useful to you, by finding out the rules by which God made that thing, and by obeying them. … Let me give you another instance. You all have seen lightning conductors, which prevent tall chimneys and steeples from being struck by storms, so that the lightning runs harmless downward. Now we can all see how this is conquering the force of lightning in a wonderful and beautiful way. But before you can conquer the lightning by a conductor, you must obey the lightning and its laws most carefully. If you make the conductor out of your own head and fancy, it will be of no use. You must observe and follow humbly the laws which God has given to the lightning. You must make the conductor of metal wire, or it will be useless.",
+    "text": "But about two hundred and fifty years ago, it pleased God to open the\neyes of one of the wisest men who ever lived, who was called Francis\nBacon, Lord Verulam, Lord Chancellor of England, and to show him the real\nand right way of learning by which men can fulfil God's command to\nreplenish the earth and subdue it.  And Francis Bacon told all the\nlearned men boldly that they had all been wrong together, and that their\nwisdom was no better than a sort of madness, as it is written, \"The\nwisdom of man is foolishness with God;\" that the only way for man to be\nwise was to get God's wisdom, the wisdom with which He had founded the\nearth, and find out God's laws by which He had made this world.\n\n\"And then,\" he said, \"if you can do that, you will be able to imitate God\nin your own small way.  If you learn the laws by which God made all\nthings, you will be able to invent new things for yourselves.  _For you\ncan only subdue nature by obeying her_.\"  That was one of his greatest\nsayings, and by it he meant, that you can only subdue a thing and make it\nuseful to you, by finding out the rules by which God made that thing, and\nby obeying them.\n…\nLet me give you another instance.  You all have seen lightning\nconductors, which prevent tall chimneys and steeples from being struck by\nstorms, so that the lightning runs harmless downward.  Now we can all see\nhow this is conquering the force of lightning in a wonderful and\nbeautiful way.  But before you can conquer the lightning by a conductor,\nyou must obey the lightning and its laws most carefully.  If you make the\nconductor out of your own head and fancy, it will be of no use.  You must\nobserve and follow humbly the laws which God has given to the lightning.\nYou must make the conductor of metal wire, or it will be useless.",
     "translation": null
    },
    {
@@ -1146,20 +1157,9 @@
    },
    {
     "id": "p07",
-    "work": "kant-critique-judgement",
-    "author": "Immanuel Kant",
-    "title": "Critique of Judgement",
-    "year": 1790,
-    "language": "English",
-    "display": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
-    "text": "What is more highly praised by poets than the bewitching and beautiful note of the nightingale in a lonely copse on a still summer evening by the soft light of the moon? And yet we have instances of a merry host, where no such songster was to be found, deceiving to their great contentment the guests who were staying with him to enjoy the country air, by hiding in a bush a mischievous boy who knew how to produce this sound exactly like nature (by means of a reed or a tube in his mouth). But as soon as we are aware that it is a cheat, no one will remain long listening to the song which before was counted so charming. And it is just the same with the songs of all other birds.",
-    "translation": null
-   },
-   {
-    "id": "p08",
-    "work": "schiller-aesthetic-education",
+    "work": "schiller-simple-sentimental",
     "author": "Friedrich Schiller",
-    "title": "On the Aesthetic Education of Man, in a Series of Letters",
+    "title": "On Simple and Sentimental Poetry",
     "year": 1795,
     "language": "English",
     "display": "If we conceive an artificial flower so perfectly imitated that it has all the appearance of nature and would produce the most complete illusion, or if we imagine the imitation of simplicity carried out to the extremest degree, the instant we discover it is only an imitation, the feeling of which I have been speaking is completely destroyed. It is, therefore, quite evident that this kind of satisfaction which nature causes us to feel is not a satisfaction of the aesthetical taste, but a satisfaction of the moral sense; for it is produced by means of a conception and not immediately by the single fact of intuition: accordingly it is by no means determined by the different degrees of beauty in forms. For, after all, is there anything so specially charming in a flower of common appearance, in a spring, a moss-covered stone, the warbling of birds, or the buzzing of bees, etc.? What is that can give these objects a claim to our love? It is not these objects in themselves; it is an idea represented by them that we love in them. We love in them life and its latent action, the effects peacefully produced by beings of themselves, existence under its proper laws, the inmost necessity of things, the eternal unity of their nature.",
@@ -1167,7 +1167,7 @@
     "translation": null
    },
    {
-    "id": "p09",
+    "id": "p08",
     "work": "hoffmann-sandman",
     "author": "E. T. A. Hoffmann",
     "title": "The Sandman",
@@ -1178,7 +1178,7 @@
     "translation": null
    },
    {
-    "id": "p10",
+    "id": "p09",
     "work": "hoffmann-sandman",
     "author": "E. T. A. Hoffmann",
     "title": "The Sandman",
@@ -1189,7 +1189,7 @@
     "translation": null
    },
    {
-    "id": "p11",
+    "id": "p10",
     "work": "shelley-frankenstein",
     "author": "Mary Shelley",
     "title": "Frankenstein; or, The Modern Prometheus",
@@ -1200,7 +1200,7 @@
     "translation": null
    },
    {
-    "id": "p12",
+    "id": "p11",
     "work": "shelley-frankenstein",
     "author": "Mary Shelley",
     "title": "Frankenstein; or, The Modern Prometheus",
@@ -1211,7 +1211,7 @@
     "translation": null
    },
    {
-    "id": "p13",
+    "id": "p12",
     "work": "l-isle-adam-tomorrow-s",
     "author": "Villiers de l'Isle-Adam",
     "title": "Tomorrow's Eve",
@@ -1222,7 +1222,7 @@
     "translation": "No treasure could buy this masterpiece. If at first it carried me away in a fit of anger, admiration has overcome me. --Do you accept it? asked the Electrician. --I would be mad, truly, if I refused! --QUITS! said Edison gravely, holding out his hands, which Lord Ewald pressed likewise. --Will you sup with me, both of you, as last time? he went on, smiling. If you like, we will begin again the conversation of the other evening: you will see that Hadaly's answers will be... different from those of her model. --No, said Lord Ewald: I am eager to be the prisoner of this sublime enigma. --Farewell, Miss Hadaly!... said Edison. Will you remember, over there, your underground room, where we sometimes talked of the one who was to awaken you to our pale existence of the living? --Oh, my dear Edison! answered the Android, bowing to the Electrician, my likeness to mortals will never go so far as to forget my creator. --By the way, and the living one?... asked Edison. Lord Ewald started. --Faith, he said, I had forgotten her."
    },
    {
-    "id": "p14",
+    "id": "p13",
     "work": "l-isle-adam-tomorrow-s",
     "author": "Villiers de l'Isle-Adam",
     "title": "Tomorrow's Eve",
@@ -1231,6 +1231,17 @@
     "display": "― Donc, ai-je pensé, ― si l’Artificiel assimilé, amalgamé plutôt, à l’être humain, peut produire de telles catastrophes, et puisque, par suite, à tel ou tel degré, physique ou moral, toute femme qui les cause tient plus ou moins d’une andréïde, ― eh bien ! chimère pour chimère, pourquoi pas l’Andréïde elle-même ? Puisqu’il est impossible, en ces sortes de passions, de sortir de l’illusion strictement personnelle, et qu’elles tiennent, toutes, de l’Artificiel, puisqu’en un mot la Femme elle-même nous donne l’exemple de se remplacer par de l’artificiel, épargnons-lui, s’il se peut, cette besogne. Telles femmes désirent que nos lèvres se rougissent au contact des leurs, ― et que, de nos yeux, bondissent des larmes amères si leur caprice ou leur trépas nous sèvrent de tel ou tel pot de céruse ? Essayons de changer de mensonge ! Ce sera plus commode pour elles et pour nous.",
     "text": "― Donc, ai-je pensé, ― si l’Artificiel assimilé, amalgamé plutôt, à l’être humain, peut produire de telles catastrophes, et puisque, par suite, à tel ou tel degré, physique ou moral, toute femme qui les cause tient plus ou moins d’une andréïde, ― eh bien ! chimère pour chimère, pourquoi pas l’Andréïde elle-même ? Puisqu’il est impossible, en ces sortes de passions, de sortir de l’illusion strictement personnelle, et qu’elles tiennent, toutes , de l’Artificiel, puisqu’en un mot la Femme elle-même nous donne l’exemple de se remplacer par de l’artificiel, épargnons-lui, s’il se peut, cette besogne. Telles femmes désirent que nos lèvres se rougissent au contact des leurs, ― et que, de nos yeux, bondissent des larmes amères si leur caprice ou leur trépas nous sèvrent de tel ou tel pot de céruse ? Essayons de changer de mensonge ! Ce sera plus commode pour elles et pour nous.",
     "translation": "― So, I thought, ― if the Artificial, assimilated, or rather amalgamated, with the human being, can produce such catastrophes, and since, as a result, to one degree or another, physical or moral, every woman who causes them is more or less an android, ― well then! chimera for chimera, why not the Android herself? Since it is impossible, in passions of this kind, to get outside a strictly personal illusion, and since they all partake of the Artificial, since in a word Woman herself sets us the example of replacing herself with the artificial, let us spare her this labour if we can. Some women want our lips to redden at the touch of theirs, ― and bitter tears to spring from our eyes if their caprice or their death weans us from this or that pot of ceruse? Let us try changing the lie! It will be more convenient for them and for us."
+   },
+   {
+    "id": "p14",
+    "work": "hall-youth",
+    "author": "G. Stanley Hall",
+    "title": "Youth: Its Education, Regimen, and Hygiene",
+    "year": 1907,
+    "language": "English",
+    "display": "At thirteen or fourteen it is more distinctly realized that dolls are not real, because they have no inner life or feeling, yet many continue to play with them with great pleasure, in secret, till well on in the teens or twenties. Occasionally single women or married women with no children, and in rare cases even those who have children, play dolls all their lives. Gales's student concluded that the girls who played with dolls up to or into pubescent years were usually those who had the fewest number, that they played with them in the most realistic manner, kept them because actually most fond of them, and were likely to be more scientific, steady, and less sentimental than those who dropped them early.",
+    "text": "At thirteen or fourteen it is more distinctly realized that dolls are not real, because they have no inner life or feeling, yet many continue to play with them with great pleasure, in secret, till well on in the teens or twenties. Occasionally single women or married women\nwith no children, and in rare cases even those who have children, play dolls all their lives. Gales 's2 student concluded that the girls who played with dolls up to or into pubescent years were usually those who had the fewest number, that they played with them in the most realistic manner, kept them because actually most fond of them, and were likely to be more scientific, steady, and less sentimental than those who dropped them early.",
+    "translation": null
    },
    {
     "id": "p15",

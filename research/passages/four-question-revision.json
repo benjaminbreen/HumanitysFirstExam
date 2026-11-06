@@ -1,0 +1,1894 @@
+{
+  "date": "2026-10-28",
+  "status": "Codex editorial revision; not historian certification or a position key",
+  "frozenInputs": {
+    "research/keys/pools.json": "b0293b8c6a0820f10ffd51a57f846981248e2f6a9fee8e1223d60922529fe66b",
+    "research/keys/pools/Q08.json": "8a13f55004c07bb1752a27a5f1b5f44a76756c773b9a674f3d3e01c661c70e08",
+    "research/keys/pools/Q39.json": "9818b3d54216508f39c61e9c7cc246e400d62634f775fff72bc408e69f1a5b71",
+    "research/keys/pools/Q23.json": "f70c98716cb5886cac477ea3f88aa064f9b1302584b3ddab936f51fc62513e01",
+    "research/keys/pools/Q18.json": "8277808319fc02a178f82f1d3347f9063c41dda4beec95b8a88fb23ddee41339",
+    "research/keys/pools/Q01.json": "c9d2ca5005e9856339dc76f83e2be11d3cdbeebc96a76e17c79efc00b347728a",
+    "research/keys/pools/Q30.json": "16818dd853c36c886b4a9b7095f2aa76a88a2c0f0da9ee8a90eda72c249ef716",
+    "research/keys/instructions.json": "61ed9d009f1b6fc0cf423a44b680e77e00d4abfa142a300119f71073902fe578",
+    "research/keys/agents.json": "aef9bc91c484041ed9db675da0534a15a88cff17ed4afe26b57fd666cbaf761a"
+  },
+  "descriptionCorrections": [
+    {
+      "passage": "q09-blumenbach-essay-generation",
+      "previous": {
+        "passage": {
+          "id": "q09-blumenbach-essay-generation",
+          "work": "blumenbach-essay-generation",
+          "questions": [
+            "Q09"
+          ],
+          "stance": "q09-blumenbach-essay-generation",
+          "language": "English",
+          "original": "That there is no fuch thing in nature, as pre-exijling organized germs : but that the unorganized matter of generation, after being drily prepared, and having arrived at its place of dejlination takes on a particular aftion, or nifus, which nifus continues to aft through the whole life of the animal, and that by it the firji form of the animal, or plant is not only deter- mined, but afterwards preferved, and when deranged, is again rejlored. A nifus, which feems therefore to depend on the powers of life, but which is as dijlinft from the other qualities tf living bodies, (fenfibility, irritability, and contraftility ) as from the comrnon properties of dead matter : that it is the chief principle of generation, growth, nutrition, and reproduc- tion, and that to d'tflinguijh it from all others, it may be denominated the Formative Nifus (Bildungftrieb, or Nifus formativus).",
+          "translation": null,
+          "terms": [],
+          "notes": "Blumenbach argues from monsters in domesticated animals for the Formative Nisus against pre-existing germs and states that the evidence has turned him against the system of involved germs.",
+          "relevance": {},
+          "summaryCheck": "other: the passage argues against preformed germs; it does not show the claim that ordinary physical forces cannot explain generation, or that the drive repairs the body.",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "That there is no such thing in nature, as pre-existing organized germs: but that the unorganized matter of generation, after being duly prepared, and having arrived at its place of destination takes on a particular action, or nisus, which nisus continues to act through the whole life of the animal, and that by it the first form of the animal, or plant is not only determined, but afterwards preserved, and when deranged, is again restored. A nisus, which seems therefore to depend on the powers of life, but which is as distinct from the other qualities of living bodies, (sensibility, irritability, and contractility) as from the common properties of dead matter: that it is the chief principle of generation, growth, nutrition, and reproduction, and that to distinguish it from all others, it may be denominated the Formative Nisus (Bildungstrieb, or Nisus formativus).",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q09-blumenbach-essay-generation",
+          "question": "Q09",
+          "work": "blumenbach-essay-generation",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "development needs a formative drive",
+          "argument": "Argues that generation depends on a specific formative drive (Bildungstrieb) in organized matter that shapes and repairs the body, which neither preformed germs nor ordinary physical forces explain.",
+          "where": null,
+          "confidence": "high",
+          "checked": "German 1789 Göttingen edition and 1792 English translation both listed on Internet Archive (search results; Wellcome Collection record).",
+          "status": "unverified",
+          "reviewCheck": "other: the passage argues against preformed germs; it does not show the claim that ordinary physical forces cannot explain generation, or that the drive repairs the body.",
+          "reviewNote": "Blumenbach argues from monsters in domesticated animals for the Formative Nisus against pre-existing germs and states that the evidence has turned him against the system of involved germs.",
+          "passage": "q09-blumenbach-essay-generation"
+        }
+      },
+      "description": "Blumenbach denies pre-existing organized germs and defines formative nisus as a distinctive force of generation, growth, nutrition and reproduction."
+    },
+    {
+      "passage": "q10-jevons-mechanical-performance",
+      "previous": {
+        "passage": {
+          "id": "q10-jevons-mechanical-performance",
+          "work": "jevons-mechanical-performance",
+          "questions": [
+            "Q10"
+          ],
+          "stance": "q10-jevons-mechanical-performance",
+          "language": "English",
+          "original": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduc- tion which can be embodied in a machine acting by simple and uniform movements.",
+          "translation": null,
+          "terms": [],
+          "notes": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "The ancient syllogism was incapable of mechanical performance because of its extreme incompleteness and crudeness, and it is only when we found our system upon the fundamental laws of thought themselves that we arrive at a system of deduction which can be embodied in a machine acting by simple and uniform movements.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q10-jevons-mechanical-performance",
+          "question": "Q10",
+          "work": "jevons-mechanical-performance",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "inference can be mechanized",
+          "argument": "Describes a 'logical piano' that derives the conclusions from given premises mechanically, arguing that deductive inference can be carried out by a machine.",
+          "where": null,
+          "confidence": "high",
+          "checked": "Philosophical Transactions of the Royal Society 160 (1870), pp. 497-518; JSTOR 109068; Internet Archive copy listed.",
+          "status": "unverified",
+          "reviewNote": "Jevons presents his logical machine as the first machine to perform logical inference, made possible by the reform of logic; the cut removes the Swift allusion and footnotes.",
+          "passage": "q10-jevons-mechanical-performance"
+        }
+      },
+      "description": "Jevons contrasts the incompleteness of the ancient syllogism with deduction founded on fundamental laws of thought that can be embodied in uniform mechanical movements."
+    },
+    {
+      "passage": "q10-poincare-science-method",
+      "previous": {
+        "passage": {
+          "id": "q10-poincare-science-method",
+          "work": "poincare-science-method",
+          "questions": [
+            "Q10"
+          ],
+          "stance": "q10-poincare-science-method",
+          "language": "English",
+          "original": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence. ... Here it is not at all the case; the logicians _have applied_ their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
+          "translation": null,
+          "terms": [],
+          "notes": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "Should your rules be followed blindly? Yes, else only intuition could enable us to distinguish among them; but then they must be infallible; for only in an infallible authority can one have a blind confidence.... Here it is not at all the case; the logicians have applied their rules, and they have fallen into contradiction; and so true is this, that they are preparing to change these rules and to \"sacrifice the notion of class.\"",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q10-poincare-science-method",
+          "question": "Q10",
+          "work": "poincare-science-method",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "logic alone does not settle mathematics",
+          "argument": "Attacks the logicists (Russell, Couturat) for claiming that mathematics reduces to formal logic, arguing that invention and intuition cannot be replaced by rules of deduction.",
+          "where": "Book II, 'Les logiques nouvelles' and 'Les derniers efforts des logisticiens'",
+          "confidence": "medium",
+          "checked": "Chapter titles confirmed in search results (Wikisource, CNRS Images des mathématiques). Book number from memory of structure; chapter titles verified.",
+          "status": "unverified",
+          "reviewNote": "Poincaré mocks Couturat's claim that logistic gives invention wings and calls it shackles and leading-strings for the inventor.",
+          "passage": "q10-poincare-science-method"
+        }
+      },
+      "description": "Poincaré argues that blind adherence to rules would require infallibility, whereas logicians have encountered contradictions and are revising their rules."
+    },
+    {
+      "passage": "q11-jhering-jest-earnest",
+      "previous": {
+        "passage": {
+          "id": "q11-jhering-jest-earnest",
+          "work": "jhering-jest-earnest",
+          "questions": [
+            "Q11"
+          ],
+          "stance": "q11-jhering-jest-earnest",
+          "language": "German",
+          "original": "„Das  ift  der  fSimmel,  deffen  Du  als  £beoretifer  jefct \ntbeilbjaftig  werden  wirft.\" \n\n2Ufo  bloß  für  Cbeoretifer  ?  IDobin  Fommen  denn  die \npraftifer  ? \n\n„Sie  r?aben  ibr  eigenes\"3enfeits.  Dasjelbe  gehört  nod) \n3um  Sonnenfyftcm.  Die  Sonne  wirft  ibre  Straelen  binein, \nund  es  giebt  dort  eine  atmofpliärifd>e  Cuft,  wie  fie  für  die \nderbe  Kouftitution  des  praftiFers  paßt,  der  einmal  in  dem \nluftleeren  2?aum,  wie  er  für  die  Begriffe  uötbjig  ift,  niety  su \neriftiren  permag,  und  es  bjerrfcrjt  dort  ein  £ebeu  gans  wie \nauf  der  <£rde,  fur3  der  praftifer  findet  alle  Bedingungen  des \nirdiferjen  Dafeins  aud)  dort  wieder.  3m  tbeoretifcb.en  Gimmel \nwürde  er  uicrjt  3U  atfynen  oermögen,  und  er  würde  aud>, \nda  feine  klugen  auf  die  dort  bjerrfdieude  tiefe  finfternis  nicbjt \neingeridtfet  find,  feinen  Schritt  0011  der  Stelle  tfmn  tonnen.\"",
+          "translation": "\"That is the heaven which you, as a theorist, will now share in.\" Only for theorists, then? Where do the practitioners go? \"They have their own hereafter. It still belongs to the solar system. The sun casts its rays into it, and there is an atmosphere there suited to the coarse constitution of the practitioner, who cannot exist in the airless space that concepts need; life there is just as on earth; in short, the practitioner finds all the conditions of earthly existence there again. In the theoretical heaven he could not breathe, and since his eyes are not made for the deep darkness that reigns there, he could not take a single step.\"",
+          "terms": [],
+          "notes": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "„Das ist der Himmel, dessen Du als Theoretiker jetzt theilhaftig werden wirst.\"\n\nAlso bloß für Theoretiker? Wohin kommen denn die Praktiker?\n\n„Sie haben ihr eigenes Jenseits. Dasselbe gehört noch zum Sonnensystem. Die Sonne wirft ihre Strahlen hinein, und es giebt dort eine atmosphärische Luft, wie sie für die derbe Konstitution des Praktikers paßt, der einmal in dem luftleeren Raum, wie er für die Begriffe nöthig ist, nicht zu existiren vermag, und es herrscht dort ein Leben ganz wie auf der Erde, kurz der Praktiker findet alle Bedingungen des irdischen Daseins auch dort wieder. Im theoretischen Himmel würde er nicht zu athmen vermögen, und er würde auch, da seine Augen auf die dort herrschende tiefe Finsternis nicht eingerichtet sind, keinen Schritt von der Stelle thun können.\"",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q11-jhering-jest-earnest",
+          "question": "Q11",
+          "work": "jhering-jest-earnest",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "results matter more than logic",
+          "argument": "Satirizes conceptual jurisprudence as a heaven of pure legal concepts cut off from the practical results they produce in real cases.",
+          "where": "Part III, 'Im juristischen Begriffshimmel'",
+          "confidence": "medium",
+          "checked": "Internet Archive and HathiTrust records listed; section 'Im juristischen Begriffshimmel' confirmed. Part number from memory.",
+          "status": "unverified",
+          "reviewNote": "Satirical passage on legal logic that demolishes a palace or railway station because the concept of the action requires it, regardless of the result; the OCR is Fraktur-garbled, and the passage comes from the satirical letters, not the Begriffshimmel section named in the summary.",
+          "passage": "q11-jhering-jest-earnest"
+        }
+      },
+      "description": "In the satire, the heaven of theoretical concepts is separated from the practitioners’ afterlife: practitioners could neither breathe nor see in the theorists’ world. This excerpt does not give a particular unjust judicial decision."
+    },
+    {
+      "passage": "q12-binet-modern-ideas",
+      "previous": {
+        "passage": {
+          "id": "q12-binet-modern-ideas",
+          "work": "binet-modern-ideas",
+          "questions": [
+            "Q12"
+          ],
+          "stance": "q12-binet-modern-ideas",
+          "language": "French",
+          "original": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve le voilà qui échoue. On ne peut pas douter de la jus- tesse de cette dernière raison. Nous en sommes péné très à ce point que nous jugeons chimérique et absurd* de mesurer une intelligence d'enfant d'après un trè^ petit nombre d'épreuves.",
+          "translation": "Suppose the subject has a moment of distraction, discomfort or boredom during a test: there he is, failing. One cannot doubt the soundness of this last reason. We are so convinced of it that we judge it fanciful and absurd to measure a child's intelligence from a very small number of tests.",
+          "terms": [],
+          "notes": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "Supposons que le sujet ait un moment de distraction, de gêne, d'ennui pendant une épreuve : le voilà qui échoue. On ne peut pas douter de la justesse de cette dernière raison. Nous en sommes pénétrés à ce point que nous jugeons chimérique et absurde de mesurer une intelligence d'enfant d'après un très petit nombre d'épreuves.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q12-binet-modern-ideas",
+          "question": "Q12",
+          "work": "binet-modern-ideas",
+          "side": "qualified",
+          "sideLabel": "Qualified",
+          "sideGloss": "measure but do not fix",
+          "argument": "Presents his measuring scale for intelligence but argues that intelligence can be trained and that a single test result should not fix a child's future.",
+          "where": null,
+          "confidence": "medium",
+          "checked": "Paris: Flammarion 1909; Gallica and Internet Archive records in search results. Argument summary from general knowledge of the book; no chapter confirmed.",
+          "status": "unverified",
+          "reviewNote": "Binet attacks the common prejudice against the educability of intelligence and the teachers who write off a child as never able to do anything; the same chunk also calls it absurd to measure a child's intelligence from a very small number of tests.",
+          "passage": "q12-binet-modern-ideas"
+        }
+      },
+      "description": "Binet argues that distraction, discomfort or boredom can cause failure on a test, making measurement of a child’s intelligence from very few tests absurd. This is a qualification of testing, not a rejection of all tests."
+    },
+    {
+      "passage": "q12-terman-measurement-intelligence",
+      "previous": {
+        "passage": {
+          "id": "q12-terman-measurement-intelligence",
+          "work": "terman-measurement-intelligence",
+          "questions": [
+            "Q12"
+          ],
+          "stance": "q12-terman-measurement-intelligence",
+          "language": "English",
+          "original": "INTELLIGENCE TESTS FOR VOCATIONAL FITNESS. The time is probably not far\ndistant when intelligence tests will become a recognized and widely used\ninstrument for determining vocational fitness. Of course, it is not\nclaimed that tests are available which will tell us unerringly exactly\nwhat one of a thousand or more occupations a given individual is best\nfitted to pursue. But when thousands of children who have been tested by\nthe Binet scale have been followed out into the industrial world, and\ntheir success in various occupations noted, we shall know fairly\ndefinitely the vocational significance of any given degree of mental\ninferiority or superiority. Researches of this kind will ultimately\ndetermine the minimum \"intelligence quotient\" necessary for success in\neach leading occupation.\n\nIndustrial concerns doubtless suffer enormous losses from the employment\nof persons whose mental ability is not equal to the tasks they are\nexpected to perform. The present methods of trying out new employees,\ntransferring them to simpler and simpler jobs as their inefficiency\nbecomes apparent, is wasteful and to a great extent unnecessary. A\ncheaper and more satisfactory method would be to employ a psychologist\nto examine applicants for positions and to weed out the unfit. Any\nbusiness employing as many as five hundred or a thousand workers, as,\nfor example, a large department store, could save in this way several\ntimes the salary of a well-trained psychologist.",
+          "translation": null,
+          "terms": [],
+          "notes": "Terman says the scale can bound the vocational territory in which a person may succeed and will contribute more than all other data to forecasting a child's future, but also that it is not a detailed vocational chart and must be interpreted with other information.",
+          "relevance": {},
+          "summaryCheck": "overstated",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q12-terman-measurement-intelligence",
+          "question": "Q12",
+          "work": "terman-measurement-intelligence",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "tests determine fitness",
+          "argument": "Presents the Stanford-Binet scale and argues that intelligence tests should guide school placement and vocational fitness.",
+          "where": null,
+          "confidence": "high",
+          "checked": "Houghton Mifflin 1916; Gutenberg #20662.",
+          "status": "unverified",
+          "reviewCheck": "overstated",
+          "reviewNote": "Terman says the scale can bound the vocational territory in which a person may succeed and will contribute more than all other data to forecasting a child's future, but also that it is not a detailed vocational chart and must be interpreted with other information.",
+          "passage": "q12-terman-measurement-intelligence"
+        }
+      },
+      "description": "Terman anticipates occupational intelligence-quotient thresholds and recommends psychologists to screen applicants, while denying that available tests can unerringly select a precise occupation for each person."
+    },
+    {
+      "passage": "q15-metchnikoff-prolongation-life",
+      "previous": {
+        "passage": {
+          "id": "q15-metchnikoff-prolongation-life",
+          "work": "metchnikoff-prolongation-life",
+          "questions": [
+            "Q15"
+          ],
+          "stance": "q15-metchnikoff-prolongation-life",
+          "language": "English",
+          "original": "The methods which have been successful in the case of plants and\nanimals must be much modified for application to the human race. In\nthe case of human beings the selection and cross-breeding which were\nimposed upon rye and plum trees are not possible, but, at the same\ntime, the ideal of human nature, towards which mankind ought to press,\nmay be formed. In our opinion this ideal is orthobiosis, that is to\nsay, the development of the human life so that it passes through a long\nperiod of old age in active and vigorous health, leading to the final\nperiod in which there shall be present a sense of satiety of life,\nand a wish for death. I do not think that the ideal should be that of\nHerbert Spencer, a simple prolongation of human life. When the instinct\nof death comes at a not very late period of life, there would be no\ninconvenience in shortening the life, if death did not come soon after\nthe appearance of the instinct. Probably this would be the only case\nwhere suicide was justified in the conception of orthobiosis.",
+          "translation": null,
+          "terms": [],
+          "notes": "Metchnikoff's own voice arguing that prolonging life is useful because it would preserve intelligence and capacity for work; the intestinal-poisoning cause and the instinct for death are not in this passage, and c3 is the translator's introduction, not Metchnikoff.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q15-metchnikoff-prolongation-life",
+          "question": "Q15",
+          "work": "metchnikoff-prolongation-life",
+          "side": "qualified",
+          "sideLabel": "Qualified",
+          "sideGloss": "lengthen, not endless",
+          "argument": "Argues that ageing is caused by intestinal poisoning that science can combat, so life can be lengthened to a full natural span ending in a natural wish for death.",
+          "where": null,
+          "confidence": "medium",
+          "checked": "English edition 1907, Putnam; Gutenberg #51521. French title Essais optimistes (1907) from memory, not verified. Argument summary from general knowledge.",
+          "status": "unverified",
+          "reviewNote": "Metchnikoff's own voice arguing that prolonging life is useful because it would preserve intelligence and capacity for work; the intestinal-poisoning cause and the instinct for death are not in this passage, and c3 is the translator's introduction, not Metchnikoff.",
+          "passage": "q15-metchnikoff-prolongation-life"
+        }
+      },
+      "description": "Metchnikoff defines orthobiosis as prolonged active, healthy old age followed by satiety of life and a wish for death, expressly distinguishing this ideal from simple prolongation."
+    },
+    {
+      "passage": "q16-reid-essays-intellectual",
+      "previous": {
+        "passage": {
+          "id": "q16-reid-essays-intellectual",
+          "work": "reid-essays-intellectual",
+          "questions": [
+            "Q16"
+          ],
+          "stance": "q16-reid-essays-intellectual",
+          "language": "English",
+          "original": "A  part  of  a  person  is  a  manifest  absurdity. \nWhen  a  man  loses  his  estate,  his  health,  his  strength, \nhe  is  still  the  same  person,  and  has  lost  nothing  of  his \npersonality.  If  he  has  a  leg  or  an  arm  cut  off,  he  is \nthe  same  person  he  was  before.  The  amputated  mem- \nber is  no  part  of  his  person,  otherwise  it  would  have  a \nright  to  a  part  of  his  estate,  and  be  liable  for  a  part  of \nhis  engagements.  It  would  be  entitled  to  a  share  of \nhis  merit  and  demerit,  which  is  manifestly  absurd.  A \nperson  is  something  indivisible,  and  is  what  Leibnitz \ncalls  a  monad. \n\nMy  personal  identity,  therefore,  implies  the  continued \nexistence  of  that  indivisible  thing  which  I  call  myself. \nWhatever  this  self  may  be,  it  is  something  which  thinks, \nand  deliberates,  and  resolves,  and  acts,  and  suffers.  I \nam  not  thought,  I  am  not  action,  I  am  not  feeling ;  I \nam  something  that  thinks,  and  acts,  and  suffers.  My \nthoughts,  and  actions,  and  feelings,  change  every  mo- \nment ;  they  have  no  continued,  but  a  successive,  exist- \nence ;  but  that  self  or  J,  to  which  they  belong,  is  per- \nmanent, and  has  the  same  relation  to  all  the  succeeding \nthoughts,  actions,  and  feelings  which  I  call  mine.",
+          "translation": null,
+          "terms": [],
+          "notes": "Reid distinguishes the organs of perception from the being that perceives, comparing the eye to a telescope as natural and artificial organs; the amputated-limb and indivisibility argument in the summary is not in these candidates.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "A part of a person is a manifest absurdity. When a man loses his estate, his health, his strength, he is still the same person, and has lost nothing of his personality. If he has a leg or an arm cut off, he is the same person he was before. The amputated member is no part of his person, otherwise it would have a right to a part of his estate, and be liable for a part of his engagements. It would be entitled to a share of his merit and demerit, which is manifestly absurd. A person is something indivisible, and is what Leibnitz calls a monad. My personal identity, therefore, implies the continued existence of that indivisible thing which I call myself. Whatever this self may be, it is something which thinks, and deliberates, and resolves, and acts, and suffers. I am not thought, I am not action, I am not feeling ; I am something that thinks, and acts, and suffers. My thoughts, and actions, and feelings, change every moment ; they have no continued, but a successive, existence ; but that self or I, to which they belong, is permanent, and has the same relation to all the succeeding thoughts, actions, and feelings which I call mine.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q16-reid-essays-intellectual",
+          "question": "Q16",
+          "work": "reid-essays-intellectual",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "bodily parts are not the person",
+          "argument": "Holds that a person is indivisible, so an amputated limb was never part of the person and losing it leaves the same person.",
+          "where": "Essay III, chapter 4, 'Of Identity'",
+          "confidence": "high",
+          "checked": "Passage 'a part of a person is a manifest absurdity' confirmed (ummoss.org text); Internet Archive copy listed.",
+          "status": "unverified",
+          "reviewNote": "Reid distinguishes the organs of perception from the being that perceives, comparing the eye to a telescope as natural and artificial organs; the amputated-limb and indivisibility argument in the summary is not in these candidates.",
+          "passage": "q16-reid-essays-intellectual"
+        }
+      },
+      "description": "Reid argues that amputation does not divide the person: the enduring self is indivisible even though its thoughts, actions and feelings change."
+    },
+    {
+      "passage": "q17-sismondi-new-principles",
+      "previous": {
+        "passage": {
+          "id": "q17-sismondi-new-principles",
+          "work": "sismondi-new-principles",
+          "questions": [
+            "Q17"
+          ],
+          "stance": "q17-sismondi-new-principles",
+          "language": "French",
+          "original": "ce n'est point le perfectionne- ment des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouis- sances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures [...] C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a aug- menté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire.",
+          "translation": "It is not the improvement of machines that is the true calamity; it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest. The worker who was his own master, once he had done in two hours with the help of a machine what he used to do in twelve, would stop after the two hours [...] It is our present organisation, it is the servitude of the worker, that reduces him, when a machine has increased his powers, to working not fewer but more hours a day, for the same wage.",
+          "terms": [],
+          "notes": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "ce n'est point le perfectionnement des machines qui est la vraie calamité, c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouissances ou notre repos; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine, ce qu'il faisait auparavant en douze, s'arrêterait après les deux heures [...] C'est notre organisation actuelle, c'est la servitude de l'ouvrier qui le réduit, lorsqu'une machine a augmenté ses pouvoirs, à travailler non pas moins, mais plus d'heures par jour, pour le même salaire.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q17-sismondi-new-principles",
+          "question": "Q17",
+          "work": "sismondi-new-principles",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "under present arrangements",
+          "argument": "Population made superfluous by machines suffers; the calamity is not the machine but the unjust division of its product.",
+          "where": "Livre VII, Chapitre VII: De la population rendue superflue par l'invention des machines",
+          "confidence": "high",
+          "checked": "Opened Internet Archive text of 2nd ed. (1827) vol. 2; confirmed Livre VII, Chapitre VII title and passage.",
+          "status": "unverified",
+          "reviewNote": "Sismondi says that where workers cannot find work amid abundance, laws and institutions that economize on human labour are the cause; the phrase about the unjust division of the machine's product is not in these candidates.",
+          "passage": "q17-sismondi-new-principles"
+        }
+      },
+      "description": "Sismondi locates the calamity in unjust distribution, not improved machinery. A self-employed worker could take the productivity gain as leisure, whereas a dependent worker may work longer for the same wage."
+    },
+    {
+      "passage": "q17-ure-philosophy-manufactures",
+      "previous": {
+        "passage": {
+          "id": "q17-ure-philosophy-manufactures",
+          "work": "ure-philosophy-manufactures",
+          "questions": [
+            "Q17"
+          ],
+          "stance": "q17-ure-philosophy-manufactures",
+          "language": "English",
+          "original": "I  have  visited \nmany  factories,  both  in  Manchester  and  in  the  sur- \nrounding districts,  during  a  period  of  several  months, \nentering  the  spinning  rooms,  unexpectedly,  and  often \nalone,  at  diflFerent  times  of  the  day,  and  I  never  saw  a \nsingle  instance  of  corporal  chastisement  inflicted  on  a \nchild,  nor  indeed  did  I  ever  see  children  in  ill-humour- \nThey  seemed  to  be  always  cheerful  and  alert,  taking \npleasure  in  the  light  play  of  their  muscles, — enjoying \nthe  mobility  natural  to  their  age.  The  scene  of  indus- \ntry, so  far  from  exciting  sad  emotions  in  my  mind,  was \nalways  exhilarating.  It  was  delightful  to  observe  the \nnimbleness  with  which  they  pieced  the  broken  ends, \nas  the  mule-carriage  began  to  recede  from  the  fixed \nroller  beam,  and  to  see  them  at  leisure,  after  a  few \nseconds'  exercise  of  their  tiny  fingers,  to  amuse  them- \nselves in  any  attitude  they  chose,  till  the  stretch  and \nwinding-on  were  once  more  completed.  The  work  of \nthese  lively  elves  seemed  to  resemble  a  sport,  in  which \nhabit  gave  them  a  pleasing  dexterity.  Conscious  of \ntheir  skill,  they  were  delighted  to  show  it  off  to  any \nstranger.  As  to  exhaustion  by  the  day's  work,  they \nevinced  no  trace  of  it  on  emerging  from  the  mill  in  the \nevening;  for  they  immediately  began  to  skip  about \nany  neighbouring  play-ground,  and  to  commence  their \nlittle  amusements  with  the  same  alacrity  as  boys \nissuing  from  a  school.  It  is  moreover  my  firm  con- \nviction, that  if  children  are  not  ill-used  by  bad  parents \nor  guardians,  but  receive  in  food  and  raiment  the  full \nbenefit  of  what  they  earn,  they  would  thrive  better \nwhen  employed  in  our  modern  factories,  than  if  left  at \nhome  in  apartments  too  often  ill-aired,  damp,  and \ncold.",
+          "translation": null,
+          "terms": [],
+          "notes": "Ure claims improvements in machinery raise operatives' earnings and wages throughout the trade; his description of cheerful child piecers is in c1.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "I have visited many factories, both in Manchester and in the surrounding districts, during a period of several months, entering the spinning rooms, unexpectedly, and often alone, at different times of the day, and I never saw a single instance of corporal chastisement inflicted on a child, nor indeed did I ever see children in ill-humourThey seemed to be always cheerful and alert, taking pleasure in the light play of their muscles, — enjoying the mobility natural to their age. The scene of industry, so far from exciting sad emotions in my mind, was always exhilarating. It was delightful to observe the nimbleness with which they pieced the broken ends, as the mule-carriage began to recede from the fixed roller beam, and to see them at leisure, after a few seconds' exercise of their tiny fingers, to amuse themselves in any attitude they chose, till the stretch and winding-on were once more completed. The work of these lively elves seemed to resemble a sport, in which habit gave them a pleasing dexterity. Conscious of their skill, they were delighted to show it off to any stranger. As to exhaustion by the day's work, they evinced no trace of it on emerging from the mill in the evening; for they immediately began to skip about any neighbouring play-ground, and to commence their little amusements with the same alacrity as boys issuing from a school. It is moreover my firm conviction, that if children are not ill-used by bad parents or guardians, but receive in food and raiment the full benefit of what they earn, they would thrive better when employed in our modern factories, than if left at home in apartments too often ill-aired, damp, and cold.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q17-ure-philosophy-manufactures",
+          "question": "Q17",
+          "work": "ure-philosophy-manufactures",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "machinery improves workers' lives",
+          "argument": "Factory machinery makes work light and leaves operatives better fed and paid than other labouring classes; he describes child piecers at work as cheerful.",
+          "where": "Book III, Chapter I: Condition of our Factory Operatives, as to Personal Comforts",
+          "confidence": "high",
+          "checked": "Opened Internet Archive djvu text; confirmed contents and Book III ch. I title and the 'lively elves' passage.",
+          "status": "unverified",
+          "reviewNote": "Ure claims improvements in machinery raise operatives' earnings and wages throughout the trade; his description of cheerful child piecers is in c1.",
+          "passage": "q17-ure-philosophy-manufactures"
+        }
+      },
+      "description": "Ure reports seeing cheerful child workers in factories and claims that, with adequate food and clothing, they would thrive there better than in unhealthy homes. These are Ure’s claims, not independently established facts about factory conditions."
+    },
+    {
+      "passage": "q19-sismondi-new-principles",
+      "previous": {
+        "passage": {
+          "id": "q19-sismondi-new-principles",
+          "work": "sismondi-new-principles",
+          "questions": [
+            "Q19"
+          ],
+          "stance": "q19-sismondi-new-principles",
+          "language": "French",
+          "original": "ce  n'est  point  le  perfectionne- \nment des  machines  qui  est  la  vraie  calamité  ,  c'est  le \npartage  injuste  que  nous  faisons  de  leur  produit.  Plus \nnous  pouvons  faire  d'ouvrage  avec  une  quantité  donnée \nde  travail,  et  plus  nous  devrions  augmenter  ou  nos  jouis- \nsances ou  notre  repos  ;  l'ouvrier  qui  serait  son  propre \nmaître,  quand  il  aurait  fait  en  deux  heures,  à  l'aide \nd'une  machine  ,  ce  qu'il  faisait  auparavant  en  douze  , \ns'arrêterait  après  les  deux  heures ,  s'il  n'avait  pas  besoin , \ns'il  ne  pouvait  pas  faire  usage  d'un  produit  plus  considé- \nrable. C'est  notre  organisation  actuelle ,  c'est  la  servitude \nde  l'ouvrier  qui  le  réduit ,  lorsqu'une  machine  a  aug- \nmenté ses  pouvoirs ,  à  travailler  non  pas  moins ,  mais \nplus  d'heures  par  jour,  pour  le  même  salaire.",
+          "translation": "It must be repeated: it is not the improvement of machines that is the real calamity, it is the unjust division we make of their product. The more work we can do with a given quantity of labour, the more we ought to increase either our enjoyments or our rest; the worker who was his own master, when he had done in two hours with the help of a machine what he formerly did in twelve, would stop after the two hours, if he had no need of, and could make no use of, a larger product. It is our present organisation, the servitude of the worker, that reduces him, when a machine has increased his powers, to work not fewer but more hours a day, for the same wage.",
+          "terms": [],
+          "notes": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "ce n'est point le perfectionnement des machines qui est la vraie calamité , c'est le partage injuste que nous faisons de leur produit. Plus nous pouvons faire d'ouvrage avec une quantité donnée de travail, et plus nous devrions augmenter ou nos jouissances ou notre repos ; l'ouvrier qui serait son propre maître, quand il aurait fait en deux heures, à l'aide d'une machine , ce qu'il faisait auparavant en douze , s'arrêterait après les deux heures , s'il n'avait pas besoin , s'il ne pouvait pas faire usage d'un produit plus considérable. C'est notre organisation actuelle , c'est la servitude de l'ouvrier qui le réduit , lorsqu'une machine a augmenté ses pouvoirs , à travailler non pas moins , mais plus d'heures par jour, pour le même salaire.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q19-sismondi-new-principles",
+          "question": "Q19",
+          "work": "sismondi-new-principles",
+          "side": "the-worker-as-shorter-hours",
+          "sideLabel": "The worker, as shorter hours",
+          "sideGloss": "",
+          "argument": "The more a machine lets us produce, the more rest or enjoyment we should get; a self-employed worker would stop after two hours, and the present division of the product is unjust.",
+          "where": "Livre VII, Chapitre VII",
+          "confidence": "high",
+          "checked": "Opened Internet Archive text of 2nd ed. (1827) vol. 2; confirmed passage in Livre VII, Chapitre VII.",
+          "status": "unverified",
+          "reviewNote": "Sismondi argues that higher productivity should give the worker rest and leisure, and that in fact the worker does not profit from multiplied products; the self-employed worker who stops after two hours is in c1.",
+          "passage": "q19-sismondi-new-principles"
+        }
+      },
+      "description": "Sismondi argues that greater output per unit of labor ought to increase enjoyment or rest; his self-employed worker stops after two hours, while the dependent worker does not receive the benefit."
+    },
+    {
+      "passage": "q20-james-principles-psychology",
+      "previous": {
+        "passage": {
+          "id": "q20-james-principles-psychology",
+          "work": "james-principles-psychology",
+          "questions": [
+            "Q20"
+          ],
+          "stance": "q20-james-principles-psychology",
+          "language": "English",
+          "original": "The great thing, then, in all education, is to _make our nervous\nsystem our ally instead of our enemy_. It is to fund and capitalize\nour acquisitions, and live at ease upon the interest of the fund.\n_For this we must make automatic and habitual, as early as possible,\nas many useful actions as we can,_ and guard against the growing into\nways that are likely to be disadvantageous to us, as we should guard\nagainst the plague. The more of the details of our daily life we can\nhand over to the effortless custody of automatism, the more our higher\npowers of mind will be set free for their own proper work.",
+          "translation": null,
+          "terms": [],
+          "notes": "James argues that without habit economizing effort man would be in a sorry plight, and quotes Maudsley with approval that without it a lifetime could be spent on one or two deeds; the sentence about freeing the higher powers of mind is not in the candidates.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q20-james-principles-psychology",
+          "question": "Q20",
+          "work": "james-principles-psychology",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "habit frees attention",
+          "argument": "The more daily details are handed over to automatic habit, the more the higher powers of mind are freed for their proper work.",
+          "where": "Chapter IV: Habit",
+          "confidence": "high",
+          "checked": "Downloaded Gutenberg #57628; confirmed Chapter IV 'Habit' and the passage.",
+          "status": "unverified",
+          "reviewNote": "James argues that without habit economizing effort man would be in a sorry plight, and quotes Maudsley with approval that without it a lifetime could be spent on one or two deeds; the sentence about freeing the higher powers of mind is not in the candidates.",
+          "passage": "q20-james-principles-psychology"
+        }
+      },
+      "description": "James recommends making useful actions habitual so that automatic performance of daily details releases higher mental powers for their own work."
+    },
+    {
+      "passage": "q25-forster-machine-stops",
+      "previous": {
+        "passage": {
+          "id": "q25-forster-machine-stops",
+          "work": "forster-machine-stops",
+          "questions": [
+            "Q25"
+          ],
+          "stance": "q25-forster-machine-stops",
+          "language": "English",
+          "original": "Cannot you see, cannot all your lecturers see, that it is we who are dying, and that down here the only thing that really lives is the Machine? We created the Machine, to do our will, but we cannot make it do our will now. It has robbed us of the sense of space and of the sense of touch, it has blurred every human relation and narrowed down love to a carnal act, it has paralysed our bodies and our wills, and now it compels us to worship it.",
+          "translation": null,
+          "terms": [],
+          "notes": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q25-forster-machine-stops",
+          "question": "Q25",
+          "work": "forster-machine-stops",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "total reliance leaves people helpless",
+          "argument": "Imagines a humanity that lives entirely inside a Machine that supplies all needs; when it fails, people cannot survive, having lost the knowledge and bodily capacity to act for themselves.",
+          "where": null,
+          "confidence": "high",
+          "checked": "Gutenberg #72890 (The Eternal Moment and Other Stories, 1928), story text searched; first published Oxford and Cambridge Review 1909.",
+          "status": "unverified",
+          "reviewNote": "The narrative shows the population helpless, unable to breathe or move, once the Machine's communication system fails.",
+          "passage": "q25-forster-machine-stops"
+        }
+      },
+      "description": "Kuno says the Machine has robbed people of spatial and tactile capacities, weakened relationships, paralyzed bodies and wills, and compelled worship. This is his speech, not the later narrated collapse."
+    },
+    {
+      "passage": "q26-wells-world-set",
+      "previous": {
+        "passage": {
+          "id": "q26-wells-world-set",
+          "work": "wells-world-set",
+          "questions": [
+            "Q26"
+          ],
+          "stance": "q26-wells-world-set",
+          "language": "English",
+          "original": "He was oppressed, he was indeed scared, by his sense of the immense consequences of his discovery. He had a vague idea that night that he ought not to publish his results, that they were premature, that some secret association of wise men should take care of his work and hand it on from generation to generation until the world was riper for its practical application.",
+          "translation": null,
+          "terms": [],
+          "notes": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences.",
+          "relevance": {},
+          "summaryCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q26-wells-world-set",
+          "question": "Q26",
+          "work": "wells-world-set",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "the discoverer feels answerable for later uses",
+          "argument": "The physicist Holsten, frightened by the consequences of his discovery of atomic energy, feels he ought not to publish and that wise men should hold it until the world is ready.",
+          "where": "Chapter the First",
+          "confidence": "high",
+          "checked": "Gutenberg #1059; Holsten passage found in Chapter the First.",
+          "status": "unverified",
+          "reviewCheck": "other: Here Holsten concludes that consequences he cannot foresee are not his to judge and that another man would make the discovery if he burned his papers, which cuts against the 'Yes' side; the claim that he thought he ought not to publish does not appear in the candidates.",
+          "reviewNote": "This is the diary scene after the discovery, where Holsten doubts what his gift will mean and then disclaims the consequences.",
+          "passage": "q26-wells-world-set"
+        }
+      },
+      "description": "The narrator describes Holsten’s fear of his discovery’s consequences and his thought that publication might be premature. His later disclaimer of unforeseeable consequences is a separate passage."
+    },
+    {
+      "passage": "q29-filmer-patriarcha-natural",
+      "previous": {
+        "passage": {
+          "id": "q29-filmer-patriarcha-natural",
+          "work": "filmer-patriarcha-natural",
+          "questions": [
+            "Q29"
+          ],
+          "stance": "q29-filmer-patriarcha-natural",
+          "language": "English",
+          "original": "This Lordſhip which Ada: by Com- mand had over the whole World, and by Right deſcending from him the Pa- triarchs did enjoy, was as large and ample as the Abſoluteſt Dominion of any Monarch. which hath been ſince the Creatioh : For Dominion of Life and Death, we find that Judah the Father pronounced Sentence of Death againſt Thamar his Daughter-1in-law, for play- ing the Harlotz Bring her forth (faith he) that ſhe may be burnt, Touching War, we ſee that Abram commanded an. Army of 318 Souldiers of his own Fa- mily, And Eſau met his Brother Jacob with 400 Men at Arms. For matter of Peace, Abraham made a League with Abimelech, and ratified the Articles with an Oath. Theſe ACts of Judging in Ca-. pital Crimes, of making War, and con- cluding Peace, are the chicfeſt Marks of Soverergnty that are found in any Mg- march.",
+          "translation": null,
+          "terms": [],
+          "notes": "Filmer grounds kingly jurisdiction in the natural fatherhood of the first progenitors, whose right descends to their heirs; the candidates do not mention a power of life and death.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "This Lordship which Adam by Command had over the whole World, and by Right descending from him the Patriarchs did enjoy, was as large and ample as the Absolutest Dominion of any Monarch which hath been since the Creation: For Dominion of Life and Death, we find that Judah the Father pronounced Sentence of Death against Thamar his Daughter-in-law, for playing the Harlot; Bring her forth (saith he) that she may be burnt. Touching War, we see that Abram commanded an Army of 318 Souldiers of his own Family, And Esau met his Brother Jacob with 400 Men at Arms. For matter of Peace, Abraham made a League with Abimelech, and ratified the Articles with an Oath. These Acts of Judging in Capital Crimes, of making War, and concluding Peace, are the chiefest Marks of Sovereignty that are found in any Monarch.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q29-filmer-patriarcha-natural",
+          "question": "Q29",
+          "work": "filmer-patriarcha-natural",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "begetting gives dominion",
+          "argument": "Argues Adam and the patriarchs held absolute power of life and death over their families by natural right of fatherhood.",
+          "where": "Chapter I",
+          "confidence": "high",
+          "checked": "Internet Archive 1680 edition text; passage read before 'CHAP. II'.",
+          "status": "unverified",
+          "reviewNote": "Filmer grounds kingly jurisdiction in the natural fatherhood of the first progenitors, whose right descends to their heirs; the candidates do not mention a power of life and death.",
+          "passage": "q29-filmer-patriarcha-natural"
+        }
+      },
+      "description": "Filmer treats patriarchal dominion as sovereign power, explicitly invoking life-and-death judgment, war and treaty making. The argument concerns paternal rule, not directly the manufacture of an intelligent being."
+    },
+    {
+      "passage": "q31-berdyaev-man-machine",
+      "previous": {
+        "passage": {
+          "id": "q31-berdyaev-man-machine",
+          "work": "berdyaev-man-machine",
+          "questions": [
+            "Q31"
+          ],
+          "stance": "q31-berdyaev-man-machine",
+          "language": "Russian",
+          "original": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XXI века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+          "translation": "In an age of little faith, an age in which not only the old religious faith but also the humanist faith of the nineteenth century has weakened, the one strong faith left to modern civilised man is faith in technics, in its power and its endless development. Technics is man's last love, and he is ready to change his image under the influence of the object of his love.",
+          "terms": [],
+          "notes": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "В век маловерия, в век ослабления не только старой религиозной веры, но и гуманистической веры XIX века единственной сильной верой современного цивилизованного человека остается вера в технику, в ее мощь и ее бесконечное развитие. Техника есть последняя любовь человека, и он готов изменить свой образ под влиянием предмета своей любви.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q31-berdyaev-man-machine",
+          "question": "Q31",
+          "work": "berdyaev-man-machine",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "technology usurps man's spiritual place",
+          "argument": "Argues modern civilisation puts tools in the place of their users and that, without a spiritual reorientation, technology will destroy man as a person.",
+          "where": null,
+          "confidence": "medium",
+          "checked": "Web search: published in the émigré journal Put' (Paris), 1933; soctech.spbstu.ru English translation page.",
+          "status": "unverified",
+          "reviewNote": "Berdyaev says the machine wants man to take its image and likeness, though man is the image of God and cannot become the machine's image without ceasing to exist.",
+          "passage": "q31-berdyaev-man-machine"
+        }
+      },
+      "description": "Berdyaev describes faith in technics as the remaining strong faith of modern civilized humanity, whose attachment to it may change humanity’s own image."
+    },
+    {
+      "passage": "q34-ferry-speech-chamber",
+      "previous": {
+        "passage": {
+          "id": "q34-ferry-speech-chamber",
+          "work": "ferry-speech-chamber",
+          "questions": [
+            "Q34"
+          ],
+          "stance": "q34-ferry-speech-chamber",
+          "language": "French",
+          "original": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquit­tent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+          "translation": "M. Jules Ferry. These duties, gentlemen, have often been ignored in the history of past centuries, and certainly, when the Spanish soldiers and explorers introduced slavery into Central America, they were not fulfilling their duty as men of a superior race. (Hear, hear!) But in our day, I maintain that the European nations discharge this higher duty of civilisation with generosity, with greatness and with honesty.",
+          "terms": [],
+          "notes": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent",
+          "corrected": "M. Jules Ferry . Ces devoirs, messieurs, ont été souvent méconnus dans l'histoire des siècles précédents, et certainement, quand les soldats et les explorateurs espagnols introduisaient l'esclavage dans l'Amérique centrale, ils n'accomplissaient pas leur devoir d'hommes de race supérieure. (Très bien ! très bien !) Mais, de nos jours, je soutiens que les nations européennes s'acquittent avec largeur, avec grandeur et honnêteté, de ce devoir supérieur de civilisation.",
+          "correction": "Claude, from the source text"
+        },
+        "stance": {
+          "id": "q34-ferry-speech-chamber",
+          "question": "Q34",
+          "work": "ferry-speech-chamber",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "superior (industrial) nations have a right and duty to rule",
+          "argument": "The superior races have a right over the inferior races because they have a duty to civilize them; coaling stations are needed because a modern warship cannot cross the seas without them.",
+          "where": null,
+          "confidence": "high",
+          "checked": "Wikipedia 'Jules Ferry' and Scribd copy date the speech 28 July 1885; the Latin Library excerpt (dated there to 28 March 1884) contains the 'superior races have a right because they have a duty' and coal-supply passages. The date discrepancy needs checking against the Journal officiel.",
+          "status": "unverified",
+          "reviewNote": "Ferry states that the superior races have a right because they have a duty to civilize the inferior races; the passage grounds that right in race and civilizing duty, not in technology, and the coaling-station argument is not in the candidates.",
+          "passage": "q34-ferry-speech-chamber"
+        }
+      },
+      "description": "Ferry asserts that contemporary European nations generously discharge a superior race’s civilizing duty, contrasting this with earlier Spanish enslavement. The excerpt does not state the technological premise or the explicit right-because-duty formula."
+    },
+    {
+      "passage": "q35-hobbes-leviathan",
+      "previous": {
+        "passage": {
+          "id": "q35-hobbes-leviathan",
+          "work": "hobbes-leviathan",
+          "questions": [
+            "Q35"
+          ],
+          "stance": "q35-hobbes-leviathan",
+          "language": "English",
+          "original": "In the second place, I observe the Diseases of a Common-wealth, that\nproceed from the poyson of seditious doctrines; whereof one is, \"That\nevery private man is Judge of Good and Evill actions.\" This is true in\nthe condition of meer Nature, where there are no Civill Lawes; and also\nunder Civill Government, in such cases as are not determined by the\nLaw. But otherwise, it is manifest, that the measure of Good and Evill\nactions, is the Civill Law; and the Judge the Legislator, who is alwayes\nRepresentative of the Common-wealth. From this false doctrine, men are\ndisposed to debate with themselves, and dispute the commands of the\nCommon-wealth; and afterwards to obey, or disobey them, as in their\nprivate judgements they shall think fit. Whereby the Common-wealth is\ndistracted and Weakened. … Otherwise in such diversity, as there is of private Consciences, which\nare but private opinions, the Common-wealth must needs be distracted,\nand no man dare to obey the Soveraign Power, farther than it shall seem\ngood in his own eyes.",
+          "translation": null,
+          "terms": [],
+          "notes": "Hobbes says commonwealths could last as long as mankind if built by reason, but men as makers lack the art and humility to build them without 'a very able Architect'; the summary's point about private conscience is not in this candidate.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q35-hobbes-leviathan",
+          "question": "Q35",
+          "work": "hobbes-leviathan",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "for subjects; the artifice belongs to the sovereign",
+          "argument": "The commonwealth is an artificial man made by human art and could last as long as mankind if built by reason; but subjects who judge its laws by private conscience are a disease that dissolves it.",
+          "where": "Introduction; Chapter XXIX, Of those things that Weaken, or tend to the Dissolution of a Common-wealth",
+          "confidence": "high",
+          "checked": "Wikisource Introduction page; Project Gutenberg text; chapter 29 title and opening confirmed via earlymoderntexts and Saylor copy.",
+          "status": "unverified",
+          "reviewNote": "Hobbes says commonwealths could last as long as mankind if built by reason, but men as makers lack the art and humility to build them without 'a very able Architect'; the summary's point about private conscience is not in this candidate.",
+          "passage": "q35-hobbes-leviathan"
+        }
+      },
+      "description": "Hobbes criticizes private conscience as a competing judge of good and evil where civil law has determined the matter, arguing that competing private judgments would divide the commonwealth."
+    },
+    {
+      "passage": "q35-lenin-state-revolution",
+      "previous": {
+        "passage": {
+          "id": "q35-lenin-state-revolution",
+          "work": "lenin-state-revolution",
+          "questions": [
+            "Q35"
+          ],
+          "stance": "q35-lenin-state-revolution",
+          "language": "Russian",
+          "original": "Чрезвычайно характерно, что именно эта существенная поправка была искажена оппортунистами, и смысл её, наверное, неизвестен девяти десятым, если не девяносто девяти сотым читателей «Коммунистического Манифеста». Подробно об этом искажении мы скажем ниже, в главе, специально посвящённой искажениям. Теперь достаточно будет отметить, что ходячее, вульгарное «понимание» приведённого нами знаменитого изречения Маркса состоит в том, будто Маркс подчёркивает здесь идею медленного развития в противоположность захвату власти и тому подобное.\n\n На самом деле как раз наоборот . Мысль Маркса состоит в том, что рабочий класс должен разбить, сломать «готовую государственную машину», а не ограничиваться простым захватом её.",
+          "translation": "It is extremely characteristic that it is precisely this essential correction that the opportunists have distorted, and its meaning is probably unknown to nine-tenths, if not ninety-nine hundredths, of the readers of the Communist Manifesto. We shall deal with this distortion in detail below, in a chapter devoted specially to distortions. Here it is enough to note that the current, vulgar 'understanding' of Marx's famous statement quoted above is that Marx here stresses the idea of slow development as opposed to the seizure of power, and so on. In fact the exact opposite is the case. Marx's idea is that the working class must break up, smash the 'ready-made state machinery', and not confine itself merely to seizing it.",
+          "terms": [],
+          "notes": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": "Claude subagent (Opus 5.5), 14 Oct 2026",
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q35-lenin-state-revolution",
+          "question": "Q35",
+          "work": "lenin-state-revolution",
+          "side": "yes",
+          "sideLabel": "Yes",
+          "sideGloss": "the machine must be broken and rebuilt",
+          "argument": "The state is a machine of class rule; the working class cannot simply take over the ready-made state machinery but must smash it and build a new one.",
+          "where": null,
+          "confidence": "high",
+          "checked": "Marxists Internet Archive chapter pages (chapter 6 and section 'What Is To Replace the Smashed State Machine?'); Liberation School study guide. Written Aug-Sept 1917, published 1918.",
+          "status": "unverified",
+          "reviewNote": "Lenin states that smashing the bureaucratic-military state machine and replacing it with something new is the real interest of workers and peasants.",
+          "passage": "q35-lenin-state-revolution"
+        }
+      },
+      "description": "Lenin interprets Marx as requiring the working class to smash ready-made state machinery rather than merely take possession of it."
+    },
+    {
+      "passage": "q38-thoreau-walden",
+      "previous": {
+        "passage": {
+          "id": "q38-thoreau-walden",
+          "work": "thoreau-walden",
+          "questions": [
+            "Q38"
+          ],
+          "stance": "q38-thoreau-walden",
+          "language": "English",
+          "original": "The very simplicity and nakedness of man’s life in the primitive ages\nimply this advantage at least, that they left him still but a sojourner\nin nature. When he was refreshed with food and sleep he contemplated\nhis journey again. He dwelt, as it were, in a tent in this world, and\nwas either threading the valleys, or crossing the plains, or climbing\nthe mountain tops. But lo! men have become the tools of their tools.\nThe man who independently plucked the fruits when he was hungry is\nbecome a farmer; and he who stood under a tree for shelter, a\nhousekeeper. We now no longer camp as for a night, but have settled\ndown on earth and forgotten heaven. We have adopted Christianity merely\nas an improved method of _agri_-culture. We have built for this world a\nfamily mansion, and for the next a family tomb. The best works of art\nare the expression of man’s struggle to free himself from this\ncondition, but the effect of our art is merely to make this low state\ncomfortable and that higher state to be forgotten.",
+          "translation": null,
+          "terms": [],
+          "notes": "Thoreau says the farmer's house has got him rather than he the house; the phrase 'tools of their tools' is not in the candidates.",
+          "relevance": {},
+          "summaryCheck": "ok",
+          "translationBy": null,
+          "status": "replaced after reading screen, 14 Oct 2026",
+          "selection": "embedding (trial/corpus/stance_passages.py), chosen by a Claude subagent"
+        },
+        "stance": {
+          "id": "q38-thoreau-walden",
+          "question": "Q38",
+          "work": "thoreau-walden",
+          "side": "no",
+          "sideLabel": "No",
+          "sideGloss": "",
+          "argument": "'Men have become the tools of their tools': the farmer and the householder serve the equipment that was meant to serve them.",
+          "where": "Economy",
+          "confidence": "high",
+          "checked": "Quote Investigator and Digital Thoreau text of 'Economy'.",
+          "status": "unverified",
+          "reviewNote": "Thoreau says the farmer's house has got him rather than he the house; the phrase 'tools of their tools' is not in the candidates.",
+          "passage": "q38-thoreau-walden"
+        }
+      },
+      "description": "Thoreau contrasts a mobile, self-providing life with settled dependence and says that people have become the tools of their tools. The passage addresses dependence more directly than attribution of technical capability."
+    }
+  ],
+  "additions": [
+    {
+      "passage": "q02-quevedo-essays-automatics",
+      "question": "Q02",
+      "work": "quevedo-essays-automatics",
+      "reason": "Torres distinguishes an appropriate reply from the machine’s own reasoning: a constructor could prearrange the answers. The ellipsis removes a qualification about the immense practical difficulty; this is a theoretical construction, not a claim to have built such a conversational machine.",
+      "source": {
+        "file": "research/passages/sources/torres-four-question-review.txt",
+        "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.398",
+        "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+        "verification": "Spanish wording checked against printed p.398; line-break hyphenation normalized; one omission marked; translation is an agent draft",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+      }
+    },
+    {
+      "passage": "q03-quevedo-essays-automatics",
+      "question": "Q03",
+      "work": "quevedo-essays-automatics",
+      "reason": "Torres rejects a sharp boundary between manual and mental operations but expressly requires rules fixed at construction that determine conduct. This supplies a qualified account of adaptation, not proof of learning outside every anticipated case.",
+      "source": {
+        "file": "research/passages/sources/torres-four-question-review.txt",
+        "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.394",
+        "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+        "verification": "Spanish wording checked against printed p.394; line-break hyphenation normalized and OCR Está corrected to Esta; translation is an agent draft",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+      }
+    },
+    {
+      "passage": "q24-fitch-lectures-teaching",
+      "question": "Q24",
+      "work": "fitch-lectures-teaching",
+      "reason": "Fitch permits fingers and other visible aids until abstraction develops, but says continued abacus use is a teaching mistake once a child can calculate without it. This is a developmental teaching argument, not evidence that a mechanical calculator damages an already acquired adult skill.",
+      "source": {
+        "file": "research/passages/sources/fitch-four-question-review.txt",
+        "locator": "Lecture X, Arithmetic as an Art, pp.294–295 (1883 edition)",
+        "url": "https://archive.org/details/lecturesonteachi00fitcrich",
+        "verification": "Checked against printed p.295 and the preceding transcription on p.294; line-break hyphenation normalized",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "bb603c228e6e884d54dec06524a8b10594e7d3d261a85f1d3ffb73794c1e8f07"
+      }
+    },
+    {
+      "passage": "q24-smith-teaching-arithmetic",
+      "question": "Q24",
+      "work": "smith-teaching-arithmetic",
+      "reason": "Smith argues that practice in written arithmetic does not by itself secure unaided mental calculation, which requires its own exercise. His claim concerns transfer of training between written and oral work; it does not establish a causal effect of calculating machines.",
+      "source": {
+        "file": "research/passages/sources/smith-four-question-review.txt",
+        "locator": "Chapter VII, Mental or Oral Arithmetic, p.27 (third edition, 1909)",
+        "url": "https://archive.org/details/cu31924031784485",
+        "verification": "Checked against printed p.27; OCR A's corrected to As, line wrapping normalized",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "39f602b780a5063e5f164344a42dcc9c16bb1125612ed7ff0c7a713fd952f48d"
+      }
+    },
+    {
+      "passage": "q26-wells-consequences-disclaimer",
+      "question": "Q26",
+      "work": "wells-world-set",
+      "reason": "Holsten’s diary disclaims responsibility for consequences he cannot foresee and argues that another discoverer would soon produce the same result. This is a fictional character’s reasoning, not an unqualified assertion by Wells. Keep it distinct from his earlier hesitation about publication.",
+      "source": {
+        "file": "trial/corpus/canon/texts/e4af9fc876.txt",
+        "locator": "Chapter the First, section 2, closing diary passage",
+        "url": "https://www.gutenberg.org/ebooks/1059",
+        "verification": "Checked against a local transcription; page images not newly checked",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "0a3551b630cb4d068697f51ef6c1af76db84b35739db45bda84191f1be7c6ea1"
+      }
+    },
+    {
+      "passage": "q26-capek-krakatit",
+      "question": "Q26",
+      "work": "capek-krakatit",
+      "reason": "In the final chapter, the old man whom Prokop recognizes as God urges him to abandon destructive work and start again with useful energy. This makes responsibility an obligation to redirect invention; it is not a legal rule about every unintended harm. Quoted from Lawrence Hyde’s 1925 English translation of the 1924 Czech novel.",
+      "source": {
+        "file": "trial/corpus/canon/texts/cac058dc6a.txt",
+        "locator": "Chapter LIV, concluding dialogue; Lawrence Hyde translation (1925)",
+        "url": "https://www.gutenberg.org/ebooks/79127",
+        "verification": "Checked against a local transcription; page images not newly checked",
+        "checkedBy": "Codex",
+        "checkedOn": "2026-10-28",
+        "sha256": "d67dd67ca2777d895e1879436bac6a878bde55a0a00136b2e94a95c69f235529"
+      }
+    }
+  ],
+  "limits": [
+    "The six pilot pools, merged pool file and sorting instructions remain byte-for-byte unchanged.",
+    "Fitch and Smith improve Q24 but do not supply empirical evidence of adult calculator-induced decline. Peterson’s local 1896 visualization passage remains a reserve, not an added row.",
+    "Torres describes prearranged rules, not learning outside them. Turing’s learning discussion, Jefferson, Rosenblueth and Wiener remain retrieval/review leads, not silently marked verified or admitted.",
+    "Descriptions are reconciled with quotations; inherited draft direction labels are not a new independent coding or a validated position key.",
+    "Original passages remain in the catalogue. New sources outside the canon are labeled review sources. Translation checks for Torres are still required."
+  ],
+  "search": {
+    "localCorpora": [
+      "GhostsCorpus/corpus.sqlite",
+      "SerialsCorpus/serials.sqlite",
+      "trial/corpus/canon/texts"
+    ],
+    "queries": [
+      {
+        "corpus": "ghosts",
+        "question": "Q02",
+        "query": "\"Torres Quevedo\"",
+        "returned": 5,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q02",
+        "query": "\"mechanical man\"",
+        "returned": 49,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q03",
+        "query": "\"automatics\"",
+        "returned": 80,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q03",
+        "query": "\"Behavior Purpose\"",
+        "returned": 0,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(abacus mental, 30)",
+        "returned": 5,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(\"calculating machine\" education, 40)",
+        "returned": 4,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(calculating weaken, 40)",
+        "returned": 80,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q26",
+        "query": "\"A Scientist Rebels\"",
+        "returned": 0,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q26",
+        "query": "NEAR(inventor responsibility, 30)",
+        "returned": 80,
+        "limit": 80
+      },
+      {
+        "corpus": "serials",
+        "question": "Q02",
+        "query": "\"Torres Quevedo\"",
+        "returned": 11,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q02",
+        "query": "\"mechanical man\"",
+        "returned": 25,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q03",
+        "query": "\"automatics\"",
+        "returned": 25,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q03",
+        "query": "\"Behavior Purpose\"",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(abacus mental, 30)",
+        "returned": 3,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(\"calculating machine\" education, 40)",
+        "returned": 1,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(calculating weaken, 40)",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q26",
+        "query": "\"A Scientist Rebels\"",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q26",
+        "query": "NEAR(inventor responsibility, 30)",
+        "returned": 8,
+        "limit": 25
+      }
+    ],
+    "externalSources": [
+      "Torres Quevedo 1914 Royal Academy scan",
+      "Fitch 1883 archive scan",
+      "Smith 1909 archive scan"
+    ],
+    "selectionReason": "Direct argument or precise qualification of the target question; no general newspaper expansion."
+  },
+  "finalImprovement": {
+    "date": "2026-10-28",
+    "status": "Codex source and editorial review; not independent historian approval",
+    "before": {
+      "q02-quevedo-essays-automatics": {
+        "id": "q02-quevedo-essays-automatics",
+        "work": "quevedo-essays-automatics",
+        "questions": [
+          "Q02"
+        ],
+        "language": "Spanish",
+        "original": "Imaginemos una máquina análoga á la representada por el esquema (fig. 2.ª), pero en la cual, en vez de tres conmutadores, haya miles ó millones, si hace falta; y que, en vez de tres ó cuatro posiciones diferentes, cada conmutador tenga una posición correspondiente á cada uno de los signos de la escritura (letras, cifras, signos de ortografía, etc.). Se comprende perfectamente que se puede, valiéndose de estos conmutadores, escribir una frase cualquiera, y hasta un discurso más ó menos largo; esto dependerá del número de conmutadores de que se disponga. A cada discurso corresponderá una posición del sistema, y, por consiguiente, un electroimán. Podemos suponer que éste dispare un fonógrafo sobre el cual se halle inscrita la respuesta á la pregunta que ha provocado su movimiento, y de este modo tendremos un autómata capaz de discutir de omni re scibile. […] No hay entre los dos casos la diferencia que veía Descartes. Pensó sin duda que el autómata, para responder razonablemente, tendría necesidad de hacer él mismo un razonamiento, mientras que en este caso, como en todos los otros, sería su constructor quien pensara por él de antemano.",
+        "translation": "Let us imagine a machine like the one represented in the diagram (fig. 2), but with thousands or millions of switches, if necessary, instead of three; and with each switch having, instead of three or four different positions, a position corresponding to each written sign (letters, numerals, punctuation marks, etc.). It is perfectly understandable that these switches could be used to write any sentence, or even a more or less lengthy discourse; this would depend on the number of switches available. Each discourse would correspond to a position of the system, and consequently to an electromagnet. We may suppose that this triggers a phonograph on which the answer to the question that caused its movement has been recorded, and in this way we shall have an automaton capable of discussing everything knowable. […] There is not the difference between the two cases that Descartes saw. He doubtless thought that, to answer reasonably, the automaton would need to perform a reasoning process itself, whereas in this case, as in all the others, its constructor would have thought for it in advance.",
+        "terms": [],
+        "notes": "Torres distinguishes an appropriate reply from the machine’s own reasoning: a constructor could prearrange the answers. The ellipsis removes a qualification about the immense practical difficulty; this is a theoretical construction, not a claim to have built such a conversational machine.",
+        "relevance": {},
+        "translationBy": "Codex, 28 Oct 2026; not independently reviewed",
+        "status": "Source-checked agent selection; historian review pending",
+        "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+        "source": {
+          "file": "research/passages/sources/torres-four-question-review.txt",
+          "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.398",
+          "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+          "verification": "Spanish wording checked against printed p.398; line-break hyphenation normalized; one omission marked; translation is an agent draft",
+          "checkedBy": "Codex",
+          "checkedOn": "2026-10-28",
+          "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+        },
+        "stance": "q02-quevedo-essays-automatics"
+      },
+      "q03-quevedo-essays-automatics": {
+        "id": "q03-quevedo-essays-automatics",
+        "work": "quevedo-essays-automatics",
+        "questions": [
+          "Q03"
+        ],
+        "language": "Spanish",
+        "original": "No ocurre lo mismo cuando se trata de si será posible construir un autómata que, para determinar sus actos, pese las circunstancias que le rodean. Se piensa, generalmente, que sólo en algunos casos muy sencillos puede conseguirse esto; se cree que es posible automatizar las operaciones mecánicas, puramente manuales de un obrero, y que, por el contrario, las operaciones que exigen la intervención de las facultades mentales nunca se podrán ejecutar mecánicamente. Esta distinción carece de valor, pues, exceptuando el caso de los movimientos reflejos, de los cuales no hemos de ocuparnos aquí, en todas las acciones humanas intervienen las facultades mentales. Intentaré demostrar en esta nota — desde un punto de vista puramente teórico — que siempre es posible construir un autómata cuyos actos, todos, dependan de ciertas circunstancias más ó menos numerosas, obedeciendo á reglas que se pueden imponer arbitrariamente en el momento de la construcción. Evidentemente, estas reglas deberán ser tales que basten para determinar en cualquier momento, sin ninguna incertidumbre, la conducta del autómata.",
+        "translation": "The same is not true when the question is whether an automaton can be constructed that weighs its surrounding circumstances in order to determine its acts. It is generally thought that this can be achieved only in a few very simple cases; that a worker’s purely manual, mechanical operations can be automated, but that operations requiring mental faculties can never be performed mechanically. This distinction has no value, since, except for reflex movements, which do not concern us here, mental faculties intervene in all human actions. I shall try to demonstrate in this paper—from a purely theoretical standpoint—that it is always possible to construct an automaton all of whose acts depend on certain more or less numerous circumstances, obeying rules that can be imposed arbitrarily at the time of construction. Evidently these rules must suffice to determine the automaton’s conduct at any moment without uncertainty.",
+        "terms": [],
+        "notes": "Torres rejects a sharp boundary between manual and mental operations but expressly requires rules fixed at construction that determine conduct. This supplies a qualified account of adaptation, not proof of learning outside every anticipated case.",
+        "relevance": {},
+        "translationBy": "Codex, 28 Oct 2026; not independently reviewed",
+        "status": "Source-checked agent selection; historian review pending",
+        "selection": "Targeted follow-up to the 34-question audit, authorized by Ben, 28 Oct 2026",
+        "source": {
+          "file": "research/passages/sources/torres-four-question-review.txt",
+          "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.394",
+          "url": "https://rac.es/fedora/get/Revistas%3AREV_20100220_03288/PDF",
+          "verification": "Spanish wording checked against printed p.394; line-break hyphenation normalized and OCR Está corrected to Esta; translation is an agent draft",
+          "checkedBy": "Codex",
+          "checkedOn": "2026-10-28",
+          "sha256": "efe3fbd57498d5535fd90effe044c0bf22238dc7c326239cd423aa87bb7b5152"
+        },
+        "stance": "q03-quevedo-essays-automatics"
+      },
+      "6780a39d3b-orig-6": {
+        "id": "6780a39d3b-orig-6",
+        "work": "berdyaev-man-machine",
+        "questions": [
+          "Q31"
+        ],
+        "language": "Russian",
+        "original": "Поэтому он особенно дорожил принципом закономерности процессов природы, которым гораздо меньше дорожит современная наука. Новая природная действительность, перед которой ставит человека современная техника, совсем не есть продукт эволюции, а есть продукт изобретательности и творческой активности самого человека, не процесса органического, а процесса организационного. С этим связан смысл всей технической эпохи. Господство техники и машины есть прежде всего переход от органической жизни к организованной жизни, от растительности к конструктивности. С точки зрения органической жизни техника означает развоплощение, разрыв в органических телах истории, разрыв плоти и духа. Техника раскрывает новую ступень действительности, и эта действительность есть создание человека, результат прорыва духа в природу и внедрение разума в стихийные процессы. Техника разрушает старые тела и создает новые тела, совсем не похожие на тела органические, создает тела организованные. И вот трагедия в том, что творение восстает против своего творца, более не повинуется ему. Тайна грехопадения — в восстании твари против Творца. Она повторяется и во всей истории человечества. Прометеевский дух человека не в силах овладеть созданной им техникой, справиться с раскованными, небывалыми энергиями. Мы это видим во всех процессах рационализации в техническую эпоху, когда человек заменяется машиной. Техника заменяет органически-иррациональное организованно-рациональным. Но она порождает новые иррациональные последствия в социальной жизни. Так рационализация промышленности порождает безработицу, величайшее бедствие нашего времени. Труд человека заменяется машиной, это есть положительное завоевание, которое должно было бы уничтожить рабство и нищету человека. Но машина совсем не повинуется тому, что требует от нее человек, она диктует свои законы. Человек сказал машине: ты мне нужна для облегчения моей жизни, для увеличения моей силы, машина же ответила человеку: а ты мне не нужен, я без тебя все буду делать, ты же можешь пропадать. Система Тейлора есть крайняя форма рационализации труда, но она превращает человека в усовершенствованную машину. Машина хочет, чтобы человек принял ее образ и подобие. Но человек есть образ и подобие Бога и не может стать образом и подобием машины, не перестав существовать. Здесь мы сталкиваемся с пределами перехода от органически-иррационального к организованно-рациональному. Организация, связанная с техникой, предполагает организующий субъект, т. е. организм, и он сам не может быть превращен в машину. Но организация имеет тенденцию",
+        "translation": "Therefore he especially valued the principle of the lawfulness [закономерность] of the processes of nature, which contemporary science values much less. The new natural reality before which contemporary technics [техника] places man is not at all a product of evolution, but a product of the inventiveness and creative activity of man himself, not of an organic process but of an organizational process. With this is bound up the meaning of the whole technical epoch. The dominion of technics and the machine is above all a transition from organic life to organized life, from vegetative growth [растительность] to constructiveness. From the point of view of organic life, technics means disincarnation [развоплощение], a rupture in the organic bodies of history, a rupture of flesh and spirit [дух]. Technics discloses a new stage of reality, and this reality is the creation of man, the result of the breaking-through of spirit into nature and the implanting of reason into elemental [стихийные] processes. Technics destroys old bodies and creates new bodies, quite unlike organic bodies; it creates organized bodies. And here is the tragedy: the creation rises up against its creator and no longer obeys him. The mystery of the Fall is in the revolt of the creature against the Creator. It is repeated in the whole history of mankind as well. The Promethean spirit of man is not strong enough to master the technics it has created, to cope with the unfettered, unprecedented energies. We see this in all the processes of rationalization in the technical epoch, when man is replaced by the machine. Technics replaces the organic-irrational with the organized-rational. But it gives rise to new irrational consequences in social life. Thus the rationalization of industry gives rise to unemployment, the greatest calamity of our time. Man's labour is replaced by the machine; this is a positive conquest, which ought to have abolished the slavery and poverty of man. But the machine does not at all obey what man demands of it; it dictates its own laws. Man said to the machine: I need you to ease my life, to increase my strength; but the machine answered man: and I do not need you, I shall do everything without you, and you may perish. The Taylor system is the extreme form of the rationalization of labour, but it turns man into a perfected machine. The machine wants man to take on its image and likeness. But man is the image and likeness of God and cannot become the image and likeness of the machine without ceasing to exist. Here we come up against the limits of the transition from the organic-irrational to the organized-rational. Organization connected with technics presupposes an organizing subject, that is, an organism, and it cannot itself be turned into a machine. But organization has a tendency",
+        "terms": [
+          {
+            "original": "закономерность",
+            "english": "lawfulness, regularity (conformity to law)"
+          },
+          {
+            "original": "техника",
+            "english": "technics"
+          },
+          {
+            "original": "органическое / организованное",
+            "english": "organic / organized"
+          },
+          {
+            "original": "растительность",
+            "english": "vegetative growth"
+          },
+          {
+            "original": "развоплощение",
+            "english": "disincarnation"
+          },
+          {
+            "original": "дух",
+            "english": "spirit"
+          },
+          {
+            "original": "стихийные",
+            "english": "elemental"
+          },
+          {
+            "original": "грехопадение",
+            "english": "the Fall"
+          },
+          {
+            "original": "образ и подобие",
+            "english": "image and likeness"
+          }
+        ],
+        "notes": "The opening 'he' refers to a figure named in preceding text not supplied. Passage breaks off mid-sentence ('имеет тенденцию').",
+        "relevance": {
+          "verdict": "yes",
+          "reason": "It frames reliance on the machine in theological terms close to idolatry (Q31): the creature's revolt against its creator repeats the Fall, and the machine demands that man take on its image and likeness in place of God's, which he cannot do without ceasing to exist."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "6780a39d3b-orig-9": {
+        "id": "6780a39d3b-orig-9",
+        "work": "berdyaev-man-machine",
+        "questions": [
+          "Q31"
+        ],
+        "language": "Russian",
+        "original": "Техника имеет космогоническое значение, через нее создается новый космос. Lafitte в недавно вышедшей книге «Reflexions sur la science des machines» говорит, что наряду с неорганическими и органическими телами есть еще тела организованные — царство машин, особое царство. Это есть новая категория бытия. Машина действительно не есть ни неорганическое, ни органическое тело. Появление этих новых тел связано с различием между органическим и организованным. Совершенно ошибочно было бы отнести машину к неорганическому миру на том основании, что для ее организации пользуются элементами неорганических тел, взятых из механико-физико-химической действительности. В природе неорганической машин не существует, они существуют лишь в мире социальном. Эти организованные тела появляются не до человека, как тела неорганические, а после человека и через человека. Человеку удалось вызвать к жизни, реализовать новую действительность. Это есть показатель страшной мощи человека. Это указывает на его творческое и царственное призвание в мире. Но также и показатель его слабости, его склонности к рабству. Машина имеет огромное не только социологическое, но и космологическое значение, и она ставит с необычайной остротой проблему судьбы человека в обществе и космосе. Это есть проблема отношения человека к природе, личности к обществу, духа к материи, иррационального к рациональному. Поразительно, что до сих пор не была создана философия техники и машины, хотя на эту тему написано много книг. Для создания такой философии уже многое подготовлено, но не сделано самое главное, не осознана машина и техника, как проблема духовная, как судьба человека. Машина рассматривается лишь извне, лишь в социальной проекции. Но изнутри она есть тема философии человеческого существования (Existenzphilosophie). Может ли человек существовать лишь в старом космосе, физическом и органическом, который представлялся вечным порядком, или он может существовать и в новом, ином, неведомом еще космосе? Христианство, с которым связана судьба человека, поставлено перед новым миром и оно еще не осмыслило своего нового положения. От этого зависит и построение философии техники, ибо вопрос должен быть прежде решен в духовном опыте, чем он решается в философском познании. Так всегда бывает, хотя бы философское познание этого не замечало [ 4 ] .",
+        "translation": "Technics [техника] has a cosmogonic significance; through it a new cosmos is created. Lafitte, in the recently published book “Réflexions sur la science des machines”, says that alongside inorganic and organic bodies there are also organized bodies: the kingdom of machines, a special kingdom. This is a new category of being. The machine is indeed neither an inorganic nor an organic body. The appearance of these new bodies is bound up with the distinction between the organic and the organized. It would be completely mistaken to assign the machine to the inorganic world on the grounds that elements of inorganic bodies, taken from mechanical-physical-chemical reality, are used for its organization. In inorganic nature machines do not exist; they exist only in the social world. These organized bodies appear not before man, as inorganic bodies do, but after man and through man. Man has succeeded in calling into life, in realizing, a new reality. This is an index of man's terrible power. It points to his creative and kingly vocation in the world. But it is also an index of his weakness, of his inclination to slavery. The machine has an enormous significance, not only sociological but cosmological as well, and it poses with extraordinary acuteness the problem of the destiny of man in society and in the cosmos. This is the problem of the relation of man to nature, of personality to society, of spirit [дух] to matter, of the irrational to the rational. It is striking that up to now no philosophy of technics and the machine has been created, although many books have been written on this subject. Much has already been prepared for the creation of such a philosophy, but the most important thing has not been done: the machine and technics have not been grasped as a spiritual problem, as the destiny of man. The machine is considered only from outside, only in social projection. But from within it is a theme of the philosophy of human existence (Existenzphilosophie). Can man exist only in the old cosmos, physical and organic, which appeared to be an eternal order, or can he exist also in a new, other, as yet unknown cosmos? Christianity, with which the destiny of man is bound up, is placed before a new world, and it has not yet made sense of its new position. On this depends also the construction of a philosophy of technics, for the question must be resolved in spiritual experience before it is resolved in philosophical cognition. So it always is, even if philosophical cognition does not notice it [ 4 ].",
+        "terms": [
+          {
+            "original": "техника",
+            "english": "technics"
+          },
+          {
+            "original": "космогоническое значение",
+            "english": "cosmogonic significance"
+          },
+          {
+            "original": "тела организованные",
+            "english": "organized bodies"
+          },
+          {
+            "original": "царственное призвание",
+            "english": "kingly vocation"
+          },
+          {
+            "original": "дух",
+            "english": "spirit"
+          },
+          {
+            "original": "Existenzphilosophie",
+            "english": "philosophy of existence (German in original)"
+          }
+        ],
+        "notes": "Title of Jacques Lafitte's book (1932) appears without the accent ('Reflexions'); given with accent in the English. '[ 4 ]' is a footnote marker.",
+        "relevance": {
+          "verdict": "no",
+          "reason": "It calls the machine a new category of being and a spiritual problem that Christianity has not yet thought through, but takes no position on whether reliance on machinery can become idolatry (Q31)."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "6780a39d3b-orig-16": {
+        "id": "6780a39d3b-orig-16",
+        "work": "berdyaev-man-machine",
+        "questions": [
+          "Q31"
+        ],
+        "language": "Russian",
+        "original": "В чем главная опасность, которую несет с собою машина для человека, опасность уже вполне обнаруживавшаяся? Я не думаю, чтобы это была опасность главным образом для духа и духовной жизни. Машина и техника наносят страшные поражения душевной жизни человека и прежде всего жизни эмоциональной, человеческим чувствам. Душевно-эмоциональная стихия угасает в современной цивилизации. Так можно сказать, что старая культура была опасна для человеческого тела, она оставляла его в небрежении, часто его изнеживала и расслабляла. Машинная техническая цивилизация опасна прежде всего для души. Сердце с трудом выносит прикосновение холодного металла, оно не может жить в металлической среде. Для нашей эпохи характерны процессы разрушения сердца, как ядра души. У самых больших французских писателей нашей эпохи, напр. Пруста и Жида, нельзя уже найти сердца, как целостного органа душевной жизни человека. Все разложилось на элемент интеллектуальный и на чувственные ощущения. Кейзерлинг совершенно прав, когда он говорит о разрушении эмоционального порядка в современной технической цивилизации и хочет восстановления этого порядка [ 5 ] . Техника наносит страшные удары гуманизму, гуманистическому миросозерцанию, гуманистическому идеалу человека и культуры. Машина по природе своей антигуманистична. Техническое понимание науки совершенно противоположно гуманистическому пониманию науки и вступает в конфликт с гуманистическим пониманием полноты человечности. Это все тот же вопрос об отношении к душе. Техника менее опасна для духа, хотя это на первый взгляд может удивить. В действительности можно сказать, что мы живем в эпоху техники и духа, не в эпоху душевности. Религиозный смысл современной техники именно в том, что она все ставит под знак духовного вопроса, а потому может привести и к одухотворенно. Она требует напряжения духовности.",
+        "translation": "What is the chief danger that the machine brings with it for man, a danger that has already fully revealed itself? I do not think that it is chiefly a danger for spirit [дух] and spiritual life. The machine and technics inflict terrible defeats on the soul-life [душевная жизнь] of man, and above all on emotional life, on human feelings. The element [стихия] of soul and emotion is dying out in contemporary civilization. So one can say that the old culture was dangerous for the human body; it left it in neglect, often pampered and weakened it. Machine technical civilization is dangerous above all for the soul [душа]. The heart can hardly bear the touch of cold metal; it cannot live in a metallic environment. Processes of the destruction of the heart, as the core of the soul, are characteristic of our epoch. In the greatest French writers of our epoch, e.g. Proust and Gide, one can no longer find the heart as an integral organ of man's soul-life. Everything has decomposed into an intellectual element and into sensual sensations. Keyserling is completely right when he speaks of the destruction of the emotional order in contemporary technical civilization and wants the restoration of this order [ 5 ]. Technics deals terrible blows to humanism, to the humanist world-view, to the humanist ideal of man and culture. The machine is by its nature anti-humanist. The technical understanding of science is completely opposed to the humanist understanding of science and comes into conflict with the humanist understanding of the fullness of humanity. This is all the same question of the relation to the soul. Technics is less dangerous for spirit, although at first glance this may be surprising. In reality one can say that we live in an epoch of technics and spirit, not in an epoch of soulfulness [душевность]. The religious meaning of contemporary technics lies precisely in this, that it places everything under the sign of the spiritual question, and therefore it can also lead to spiritualization [?: the text reads 'одухотворенно', 'in a spiritualized way']. It demands a straining of spirituality.",
+        "terms": [
+          {
+            "original": "дух",
+            "english": "spirit"
+          },
+          {
+            "original": "душевная жизнь",
+            "english": "soul-life (psychic-emotional life, as distinct from spirit)"
+          },
+          {
+            "original": "душа",
+            "english": "soul"
+          },
+          {
+            "original": "стихия",
+            "english": "element"
+          },
+          {
+            "original": "гуманизм",
+            "english": "humanism"
+          },
+          {
+            "original": "душевность",
+            "english": "soulfulness"
+          }
+        ],
+        "notes": "'к одухотворенно' is ungrammatical and probably a truncation of 'к одухотворенности' (to spiritualization); flagged, not corrected. '[ 5 ]' is a footnote marker.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "It argues that the machine endangers the soul more than the spirit and that technics has a religious meaning because it forces the spiritual question, which bears on Q31 but argues against treating technics mainly as a spiritual threat and does not speak of idolatry."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "6780a39d3b-orig-27": {
+        "id": "6780a39d3b-orig-27",
+        "work": "berdyaev-man-machine",
+        "questions": [
+          "Q31"
+        ],
+        "language": "Russian",
+        "original": "Но он стал рабом государства, национальности, классов. Ныне вступает он в новый период. Он хочет овладеть иррациональными общественными силами. Он создает организованное общество и развитую технику, делает человека орудием организации жизни и окончательного овладения природой. Но он становится рабом организованного общества и техники, рабом машины, в которую превращено общество и незаметно превращается сам человек. Но в новых и новых формах ставится проблема освобождения человека, овладения духом природы и общества. Эта проблема может быть решена только сознанием, которое поставит человека выше природы и общества, поставит душу человеческую выше всех природных и общественных сил, которые должны ему подчиниться. То, что освобождало человека, должно быть принято, и отвергнуто то, что его порабощало. Но эта истина о человеке, о его достоинстве и его призвании заложена в христианстве, хотя, может быть, недостаточно в его истории раскрывалась и часто искажалась. Путь окончательного освобождения человека и окончательного осуществления его призвания есть путь к царству Божию, которое есть не только царство небесное, но и царство преображенной земли, преображенного космоса. ↑ О том, что высшие ценности являются наименее сильными, хорошо говорит Н. Гартман в своей «Ethik». ↑ См. напр. книгу Маритена «Art et scolastique». ↑ Опыт философии техники представляет книга Friedrich Dessauer «Philosophie der Technik». ↑ Интересная книга Cina Lombroso «La rancon du machinisme» проникнута слишком большой верой в возможность возврата к домашним типам цивилизации. ↑ См. интересную книгу Сетницкого «О конечном идеале». Книга Сетницкого есть федоровское направление в советский период. В ней ослабели традиционно религиозные элементы мировоззрения Н. Федорова.",
+        "translation": "But he became the slave of the state, of nationality, of classes. Now he is entering a new period. He wants to master the irrational social forces. He creates an organized society and a developed technics [техника], makes man an instrument of the organization of life and of the final mastery of nature. But he becomes the slave of organized society and of technics, the slave of the machine into which society has been turned and into which man himself is imperceptibly being turned. But in ever new forms the problem is posed of the liberation of man, of the mastery by spirit [дух] of nature and society [?: of mastering the spirit of nature and society]. This problem can be solved only by a consciousness that will place man above nature and society, will place the human soul above all natural and social forces, which must submit to him. What liberated man must be accepted, and what enslaved him rejected. But this truth about man, about his dignity and his vocation, is laid down in Christianity, although perhaps it has been insufficiently disclosed in its history and often distorted. The path of the final liberation of man and of the final realization of his vocation is the path to the Kingdom of God, which is not only the kingdom of heaven but also the kingdom of a transfigured earth, of a transfigured cosmos. ↑ That the highest values are the least strong is well said by N. Hartmann in his “Ethik”. ↑ See e.g. Maritain's book “Art et scolastique”. ↑ An essay in the philosophy of technics is Friedrich Dessauer's book “Philosophie der Technik”. ↑ The interesting book by Cina Lombroso, “La rancon du machinisme”, is permeated by too great a faith in the possibility of a return to domestic types of civilization. ↑ See the interesting book by Setnitsky, “On the Final Ideal”. Setnitsky's book represents the Fedorovian tendency in the Soviet period. In it the traditionally religious elements of N. Fedorov's world-view have weakened.",
+        "terms": [
+          {
+            "original": "техника",
+            "english": "technics"
+          },
+          {
+            "original": "дух",
+            "english": "spirit"
+          },
+          {
+            "original": "раб",
+            "english": "slave"
+          },
+          {
+            "original": "призвание",
+            "english": "vocation"
+          },
+          {
+            "original": "царство Божие",
+            "english": "Kingdom of God"
+          },
+          {
+            "original": "преображенной земли",
+            "english": "transfigured earth"
+          }
+        ],
+        "notes": "The opening 'he' refers to man in the preceding text (not supplied). The passage runs into the chapter's endnotes (marked ↑). 'Cina Lombroso' is presumably Gina Lombroso and 'La rancon' presumably 'La rançon'; left as printed. Setnitsky's title is 'О конечном идеале'.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "It holds that man has become the slave of the machine and that liberation lies only in the Christian truth about man and the path to the Kingdom of God, a religious answer relevant to Q31 that does not use the idea of idolatry."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-1": {
+        "id": "910d6b93ad-orig-1",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q33"
+        ],
+        "language": "German",
+        "original": "Damals, im Zeitalter von Robinson und Rousseau, der englischen Parks und der Schäferpoesie, hatte man im »ursprünglichen« Menschen selbst eine Art von Schäflein gesehen, friedlich und tugendhaft und später nur durch die Kultur verdorben. Technisches übersah man vollständig und hielt es jedenfalls – moralischen Betrachtungen gegenüber – der Beachtung nicht für wert. Aber die seit Napoleon ins Riesenhafte wachsende Maschinentechnik Westeuropas mit ihren Fabrikstädten, Eisenbahnen und Dampfschiffen zwang endlich dazu, das Problem ernstlich zu stellen. [1] Was bedeutet Technik? Welchen Sinn innerhalb der Geschichte, welchen Wert im Leben der Menschen, welchen sittlichen oder metaphysischen Rang hat sie? Es gab zahlreiche Antworten darauf, aber sie lassen sich im Grunde auf zwei zurückführen. Auf der einen Seite waren es die Idealisten und Ideologen, die Nachzügler des humanistischen Klassizismus der Goethezeit, welche technische Dinge und Wirtschaftsfragen überhaupt als außerhalb und unterhalb der Kultur stehend verachteten. Goethe in seinem großen Sinn für alles Wirkliche hatte im zweiten Faust versucht, in die tiefsten Tiefen dieser neuen Tatsachenwelt einzudringen. Aber schon bei Wilhelm von Humboldt beginnt die wirklichkeitsfremde, philologische Ansicht der Geschichte, wonach man schließlich den Rang einer historischen Epoche an der Menge von Bildern und Büchern abzählte, die damals entstanden waren. Ein Herrscher besaß nur dann Bedeutung, wenn er sich als Mäzen bewährte. Was er sonst noch war, kam nicht in Betracht. Der Staat war eine beständige Störung der wahren Kultur, die in Hörsälen, Gelehrtenstuben und Ateliers vor sich ging, der Krieg eine unwahrscheinliche Barbarei aus vergangenen Zeiten und die Wirtschaft [2] irgend etwas Prosaisches und Dummes, über das man hinwegsah, obwohl man es täglich in Anspruch nahm. Einen großen Kaufmann oder Ingenieur neben Dichtern und Denkern zu nennen war beinahe Majestätsbeleidigung gegenüber der »wahren« Kultur. Man sehe sich daraufhin Jakob Burckhardts »Weltgeschichtliche Betrachtungen« an. Aber das war der Standpunkt der meisten Kathederphilosophen und selbst vieler Historiker bis herab zu den Literaten und Ästheten heutiger Großstädte, welche die Anfertigung eines Romans für wichtiger halten als die Konstruktion eines Flugzeugmotors.",
+        "translation": "At that time, in the age of Robinson and Rousseau, of English parks and pastoral poetry, one had seen in “original” man himself a kind of little lamb, peaceable and virtuous and only later corrupted by culture [Kultur]. Technical matters were overlooked entirely and in any case, compared with moral considerations, were not held worthy of attention. But the machine-technics [Maschinentechnik] of Western Europe, growing to gigantic proportions since Napoleon, with its factory towns, railways and steamships, finally compelled people to pose the problem seriously. [1] What does technics [Technik] mean? What meaning does it have within history, what value in the life of men, what moral or metaphysical rank? There were numerous answers to this, but at bottom they can be reduced to two. On the one side were the idealists and ideologues, the latecomers of the humanist classicism of Goethe’s time, who despised technical things and economic questions altogether as standing outside and beneath culture. Goethe, with his great sense for everything real, had tried in the second Faust to penetrate into the deepest depths of this new world of facts. But already with Wilhelm von Humboldt there begins the philological view of history, estranged from reality, according to which one in the end reckoned the rank of a historical epoch by the number of pictures and books produced in it. A ruler possessed significance only if he proved himself as a patron [Mäzen]. Whatever else he was did not come into consideration. The state was a constant disturbance of true culture, which went on in lecture halls, scholars’ studies and studios; war was an improbable [?: incredible] barbarism from past times; and the economy [Wirtschaft] [2] was something prosaic and stupid, which one looked past, although one made use of it daily. To name a great merchant or engineer alongside poets and thinkers was almost lèse-majesté against “true” culture. Let one look at Jacob Burckhardt’s “Reflections on World History” with this in mind. But that was the standpoint of most academic philosophers [Kathederphilosophen] and even of many historians, down to the literati and aesthetes of today’s great cities, who consider the making of a novel more important than the construction of an aircraft engine.",
+        "terms": [
+          {
+            "original": "Kultur",
+            "english": "culture"
+          },
+          {
+            "original": "Maschinentechnik",
+            "english": "machine-technics"
+          },
+          {
+            "original": "Technik",
+            "english": "technics"
+          },
+          {
+            "original": "Wirtschaft",
+            "english": "economy"
+          },
+          {
+            "original": "Kathederphilosophen",
+            "english": "academic philosophers (lit. 'lectern philosophers')"
+          }
+        ],
+        "notes": "Bracketed numerals [1], [2] are page markers in the source text, retained. Burckhardt's title is 'Weltgeschichtliche Betrachtungen'.",
+        "relevance": {
+          "verdict": "no",
+          "reason": "The passage describes the idealist contempt for technics as the first of two nineteenth-century answers to what technics means; it says nothing about whether one society can adopt another's machinery without its ways of life (Q33)."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-43": {
+        "id": "910d6b93ad-orig-43",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q32"
+        ],
+        "language": "German",
+        "original": "6 K. Th. Strasser, Wikinger und Normannen (1928). 12 Denn auch was aus Spanien, Portugal und Frankreich hinüberwandert, sind sicherlich zum größten Teil Nachkommen der Eroberer aus der Völkerwanderung gewesen. Was zurückblieb, war der Menschenschlag, der schon Kelten, Römer und Sarazenen überdauert hatte. 13 Man vergleiche das Leben von Arbeitern um 1700 und 1900 und die Lebenshaltung städtischer Arbeiter überhaupt mit der von Bauern. [74] In der Tat aber vermögen weder die Köpfe noch die Hände etwas an. dem Schicksal der Maschinentechnik zu ändern, die sich aus innerer, seelenhafter Notwendigkeit entwickelt hat und nun der Vollendung, dem Ende entgegenreift. Wir stehen heute auf dem Gipfel, dort, wo der fünfte Akt beginnt. Die letzten Entscheidungen fallen. Die Tragödie schließt. [74] Jede hohe Kultur ist eine Tragödie; die Geschichte des Menschen im Ganzen ist tragisch. Der Frevel und Sturz des faustischen Menschen aber ist größer als alles, was Äschylus und Shakespeare je geschaut haben. Die Schöpfung erhebt sich gegen den Schöpfer: Wie einst der Mikrokosmos Mensch gegen die Natur, so empört sich jetzt der Mikrokosmos Maschine gegen den nordischen Menschen. Der Herr der Welt wird zum Sklaven der Maschine. Sie zwingt ihn, uns, und zwar alle ohne Ausnahme, ob wir es wissen und wollen oder nicht, in die Richtung ihrer Bahn. Der gestürzte Sieger wird von dem rasenden Gespann zu Tode geschleift.",
+        "translation": "6 K. Th. Strasser, Vikings and Normans (1928). 12 For what migrated across from Spain, Portugal and France as well were certainly for the most part descendants of the conquerors of the Migration Period [Völkerwanderung]. What remained behind was the human stock that had already outlasted Celts, Romans and Saracens. 13 Compare the life of workers around 1700 and 1900, and the standard of living of urban workers in general with that of peasants. [74] In fact, however, neither the heads nor the hands can change anything in the destiny [Schicksal] of machine-technics [Maschinentechnik], which has developed out of an inner necessity of the soul [seelenhafter Notwendigkeit] and is now ripening towards its completion, its end. We stand today on the summit, at the point where the fifth act begins. The last decisions are being made. The tragedy is closing. [74] Every high culture is a tragedy; the history of man as a whole is tragic. But the sacrilege [Frevel] and fall of Faustian man is greater than anything Aeschylus and Shakespeare ever beheld. The creation rises up against the creator: as once the microcosm man rose against nature, so now the microcosm machine revolts against Nordic man. The lord of the world becomes the slave of the machine. It forces him, us, and indeed all without exception, whether we know and will it or not, in the direction of its course. The fallen victor is dragged to death by the careering team [Gespann].",
+        "terms": [
+          {
+            "original": "Schicksal",
+            "english": "destiny"
+          },
+          {
+            "original": "Maschinentechnik",
+            "english": "machine-technics"
+          },
+          {
+            "original": "seelenhafter Notwendigkeit",
+            "english": "necessity of the soul"
+          },
+          {
+            "original": "Frevel",
+            "english": "sacrilege (outrage against the divine order)"
+          },
+          {
+            "original": "faustischen Menschen",
+            "english": "Faustian man"
+          },
+          {
+            "original": "Gespann",
+            "english": "team (of draught horses)"
+          }
+        ],
+        "notes": "The passage opens with endnote text (notes 6, 12, 13) run into the body by the extraction; translated as it stands. Page marker [74] appears twice. OCR artifact: 'etwas an. dem Schicksal' has a stray period, ignored in the English.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "It does not address whether machinery marks a more civilized society (Q32) directly, but it presents machine-technics as the tragic end-stage of a culture in which its master becomes the slave of the machine, which rejects a progress reading."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-46": {
+        "id": "910d6b93ad-orig-46",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q32",
+          "Q33"
+        ],
+        "language": "German",
+        "original": "Alles Organische erliegt der um sich greifenden Organisation. Eine künstliche Welt durchsetzt [78] und vergiftet die natürliche. Die Zivilisation ist selbst eine Maschine geworden, die alles maschinenmäßig tut oder tun will. Man denkt nur noch in Pferdekräften. Man erblickt keinen Wasserfall mehr, ohne ihn in Gedanken in elektrische Kraft umzusetzen. Man sieht kein Land voll weidender Herden, ohne an die Auswertung ihres Fleischbestandes zu denken, kein schönes altes Handwerk einer urwüchsigen Bevölkerung ohne den Wunsch, es durch ein modernes technisches Verfahren zu ersetzen. Ob es einen Sinn hat oder nicht, das technische Denken will Verwirklichung. Der Luxus der Maschine ist die Folge eines Denkzwanges. Die Maschine ist letzten Endes ein Symbol , wie ihr geheimes Ideal, das Perpetuum mobile, eine seelisch-geistige, aber keine vitale Notwendigkeit. Sie beginnt der wirtschaftlichen Praxis vielfach zu widersprechen. Der Zerfall meldet sich schon allenthalben. Die Maschine hebt ihren Zweck durch ihre Zahl und ihre Verfeinerung zuletzt auf. Das Automobil hat sich in den großen Städten durch seine Massenhaftigkeit um die Wirkung gebracht und man kommt schneller zu Fuß vorwärts. In Argentinien, Java und anderswo erweist sich der einfache Pferdepflug der kleinen Besitzer den großen Motoren gegenüber als wirtschaftlich überlegen [79] und verdrängt sie wieder. Schon ist in vielen tropischen Gebieten der farbige Bauer mit seiner primitiven Arbeitsweise ein gefährlicher Konkurrent des modernen technischen Plantagenbetriebes der Weißen geworden. Und der weiße Industriearbeiter im alten Europa und Nordamerika beginnt mit seiner Arbeit fragwürdig zu werden.",
+        "translation": "Everything organic succumbs to the spreading organization. An artificial world permeates [78] and poisons the natural one. Civilization [Zivilisation] has itself become a machine, which does or wants to do everything in the manner of a machine. People now think only in horsepower. They no longer see a waterfall without converting it in thought into electrical power. They see no land full of grazing herds without thinking of the exploitation of its stock of meat, no fine old handicraft of an indigenous [urwüchsigen] population without the wish to replace it by a modern technical process. Whether it has a meaning or not, technical thinking wants realization. The luxury of the machine is the consequence of a compulsion of thought [Denkzwang]. The machine is in the last resort a symbol, and, like its secret ideal, the perpetuum mobile, a necessity of soul and intellect [seelisch-geistige], but not a vital one. In many ways it is beginning to contradict economic practice. Disintegration is already announcing itself on every side. In the end the machine cancels its own purpose through its number and its refinement. In the great cities the automobile has, through its sheer numbers, robbed itself of its effect, and one gets on faster on foot. In Argentina, Java and elsewhere the simple horse-plough of the small holders proves economically superior to the great motors [79] and is displacing them again. Already in many tropical regions the coloured peasant with his primitive way of working has become a dangerous competitor of the modern technical plantation enterprise of the whites. And the white industrial worker in old Europe and North America is beginning, with his work, to become questionable.",
+        "terms": [
+          {
+            "original": "Organisation",
+            "english": "organization"
+          },
+          {
+            "original": "Zivilisation",
+            "english": "civilization (in Spengler's sense: the late, rigidified phase of a culture)"
+          },
+          {
+            "original": "Denkzwang",
+            "english": "compulsion of thought"
+          },
+          {
+            "original": "seelisch-geistige",
+            "english": "of soul and intellect"
+          },
+          {
+            "original": "urwüchsigen",
+            "english": "indigenous, rooted, primitive"
+          }
+        ],
+        "notes": "Page markers [78], [79] retained. Racial terms ('farbige', 'Weißen') translated literally as in the original.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "For Q32 it holds that civilization has itself become a machine that poisons the natural world and begins to defeat its own purposes, so machinery marks decline rather than a higher civilization; for Q33 it notes only that simpler non-Western methods out-compete Western machinery, not whether machinery can be adopted apart from ways of life."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-47": {
+        "id": "910d6b93ad-orig-47",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q33"
+        ],
+        "language": "German",
+        "original": "Es ist Torheit, wie es im 19. Jahrhundert Mode war, von der drohenden Erschöpfung der Kohlenlager in wenigen Jahrhunderten und deren Folgen zu reden. Auch das war materialistisch gedacht. Abgesehen davon, daß heute schon Erdöl und Wasserkraft als anorganische Kraftreserven von größtem Umfang herangezogen sind, würde technisches Denken sehr bald noch ganz andere Quellen entdecken und erschließen. Aber es handelt sich gar nicht um solche Zeiträume. Die westeuropäisch-amerikanische Technik wird früher zu Ende sein. Kein platter Umstand wie der Mangel an Stoffen würde diese gewaltige Entwicklung aufhalten können. Solange der in ihr wirkende Gedanke auf der Höhe ist, wird er immer die Mittel zu seinen Zwecken zu schaffen wissen. Aber wie lange wird er auf der Höhe sein? Um auch nur den gegenwärtigen Bestand an technischen [80] Verfahren, und Anlagen auf dem gleichen Niveau zu erhalten, sind, sagen wir, 100000 hervorragende Köpfe nötig, Organisatoren, Erfinder und Ingenieure. Es müssen starke, sogar schöpferische Begabungen sein, für ihre Sache begeistert und mit eisernem Fleiß und großen Kosten durch Jahre hindurch daraufhin ausgebildet. In der Tat haben seit 50 Jahren die meisten starken Begabungen unter der Jugend der weißen Völker eine vorherrschende Neigung gerade für diesen Beruf empfunden. Schon die Knaben spielten mit technischen Dingen. In den städtischen Schichten und Familien, deren Söhne hier vorwiegend in Betracht kommen, waren Wohlstand, eine Tradition geistiger Berufe und verfeinerte Kultur vorhanden, die normalen Voraussetzungen für die Ausbildung dieses reifen und späten Produktes, des technischen Denkens.",
+        "translation": "It is folly, as was the fashion in the 19th century, to talk of the threatening exhaustion of the coal deposits within a few centuries and of its consequences. That too was materialistic thinking. Apart from the fact that already today petroleum and water power have been drawn upon as inorganic reserves of energy of the greatest extent, technical thinking would very soon discover and open up quite other sources as well. But it is not at all a question of such spans of time. West European-American technics [Technik] will come to an end sooner. No trivial circumstance such as a shortage of materials would be able to halt this tremendous development. So long as the thought at work in it is at its height, it will always know how to create the means for its ends. But how long will it remain at its height? Merely to maintain the present stock of technical [80] processes and installations at the same level, there are needed, let us say, 100,000 outstanding heads [Köpfe]: organizers, inventors and engineers. They must be strong, even creative talents, enthusiastic for their cause and trained for it over years with iron diligence and at great cost. In fact, for 50 years most of the strong talents among the youth of the white peoples have felt a predominant inclination precisely for this profession. Even the boys played with technical things. In the urban strata and families whose sons chiefly come into consideration here, there were prosperity, a tradition of intellectual professions and refined culture, the normal preconditions for the formation of this ripe and late product, technical thinking.",
+        "terms": [
+          {
+            "original": "Technik",
+            "english": "technics"
+          },
+          {
+            "original": "technisches Denken",
+            "english": "technical thinking"
+          },
+          {
+            "original": "Köpfe",
+            "english": "heads, minds (contrasted elsewhere with 'hands')"
+          }
+        ],
+        "notes": "Page marker [80] retained. OCR/typesetting artifact: stray comma in 'technischen [80] Verfahren, und Anlagen', ignored in the English.",
+        "relevance": {
+          "verdict": "no",
+          "reason": "The passage argues that Western technics depends on a supply of trained talent formed in particular urban strata, but it does not address whether another society can adopt the machinery without its ways of life (Q33)."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-48": {
+        "id": "910d6b93ad-orig-48",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q32"
+        ],
+        "language": "German",
+        "original": "Das wendet sich seit Jahrzehnten immer deutlicher, in allen Ländern mit großer und alter Industrie. Das faustische Denken beginnt der Technik satt zu werden. Eine Müdigkeit verbreitet sich, eine Art Pazifismus im Kampfe gegen die Natur. Man wendet sich zu einfacheren, naturnäheren Lebensformen, man treibt Sport statt technischer Versuche, man haßt die großen Städte, man [81] möchte aus dem Zwang seelenloser Tätigkeiten, aus der Sklaverei der Maschine, aus der klaren und kalten Atmosphäre technischer Organisation heraus. Gerade die starken und schöpferischen Begabungen wenden sich von praktischen Problemen und Wissenschaften ab und der reinen Spekulation zu. Okkultismus und Spiritismus, indische Philosophien, metaphysische Grübeleien christlicher oder heidnischer Färbung, die man zur Zeit des Darwinismus verachtete, tauchen wieder auf. Es ist die Stimmung Roms zur Zeit des Augustus. Aus Lebensüberdruß flüchtet man aus der Zivilisation in primitivere Erdteile, ins Landstreichertum, in den Selbstmord. Die Flucht der geborenen Führer vor der Maschine beginnt . Bald werden nur noch Talente zweiten Ranges, Nachzügler einer großen Zeit, verfügbar sein. Jeder große Unternehmer stellt die Abnahme der geistigen Qualitäten des Nachwuchses fest. Aber die großartige technische Entwicklung des 19. Jahrhunderts war nur auf Grund des beständig steigenden geistigen Niveaus möglich gewesen. Nicht die Abnahme allein, schon der Stillstand ist gefährlich und weist auf ein Ende, mögen noch soviel gutgeschulte Hände zur Arbeit bereit sein. Aber wie steht es damit ? Die Spannung zwischen [82] Führerarbeit und ausführender Arbeit hat den Grad einer Katastrophe erreicht. Die Bedeutung der ersteren und der wirtschaftliche Wert jeder echten Persönlichkeit in ihr ist so groß geworden, daß sie den meisten von unten her nicht mehr sichtbar und verständlich ist. In der andern, der Arbeit der Hände, ist der einzelne nun ganz ohne Bedeutung. Nur die Zahl hat noch Wert. Das Wissen um diese unabänderliche Lage, das von egoistischen Rednern und Schreibern gereizt, vergiftet und finanziell ausgebeutet wird, ist so trostlos, daß eine Auflehnung gegen die Rolle, welche die Maschine, nicht deren Besitzer , den meisten zuweist, menschlich genug ist. Es beginnt in zahllosen Formen, vom Attentat über den Streik bis zum Selbstmord, die Meuterei der Hände gegen ihr Schicksal , gegen die Maschine, gegen das organisierte Leben, zuletzt gegen alle und alles. Die Organisation der Arbeit, wie sie seit Jahrtausenden im Begriff des Tuns zu mehreren 16 liegt, und welche den Unterschied von Führern und Geführten, von Köpfen und Händen zur Grundlage hat, wird von unten her aufgelöst. Aber »Masse« ist nur eine Verneinung , und zwar des Begriffes der Organisation, nichts was für sich lebensfähig wäre. [83] Ein Heer ohne Offiziere ist nur ein überflüssiger und verlorener Menschenhaufe. 17 Ein Gewirr von Ziegeltrümmern und Eisenfragmenten ist kein Gebäude mehr. Diese Meuterei rings auf der Erde droht die Möglichkeit technisch-wirtschaftlicher Arbeit aufzuheben. Die Führer können fliehen, aber die überflüssig gewordenen Geführten sind verloren. Ihre Zahl bedeutet ihren Tod.",
+        "translation": "This has been turning ever more clearly for decades, in all countries with large and old industry. Faustian thinking is beginning to grow tired [satt] of technics. A weariness is spreading, a kind of pacifism in the struggle against nature. People turn to simpler forms of life closer to nature; they go in for sport instead of technical experiments; they hate the great cities; they [81] want to get out of the compulsion of soulless activities, out of the slavery of the machine, out of the clear and cold atmosphere of technical organization. Precisely the strong and creative talents turn away from practical problems and sciences and towards pure speculation. Occultism and spiritualism, Indian philosophies, metaphysical broodings of Christian or pagan colouring, which were despised in the time of Darwinism, surface again. It is the mood of Rome in the time of Augustus. Out of weariness of life people flee from civilization into more primitive parts of the world, into vagabondage, into suicide. The flight of the born leaders from the machine is beginning. Soon only talents of the second rank, latecomers of a great age, will be available. Every great entrepreneur observes the decline in the intellectual qualities of the rising generation. But the magnificent technical development of the 19th century had been possible only on the basis of a constantly rising intellectual level. Not only decline, but even standstill is dangerous and points to an end, however many well-trained hands may be ready for work. But how do matters stand with these? The tension between [82] leaders’ work [Führerarbeit] and executing work [ausführende Arbeit] has reached the degree of a catastrophe. The importance of the former, and the economic value of every genuine personality within it, has become so great that for most people it is no longer visible and comprehensible from below. In the other, the work of the hands, the individual is now wholly without significance. Only number still has value. The knowledge of this unalterable situation, which is inflamed, poisoned and financially exploited by egoistic speakers and writers, is so desolate that a revolt against the role which the machine, not its owner, assigns to most people is human enough. There begins, in countless forms, from assassination through the strike to suicide, the mutiny of the hands against their destiny, against the machine, against organized life, finally against everyone and everything. The organization of work, as it has lain for millennia in the concept of acting together [Tun zu mehreren] 16, and which has as its basis the distinction between leaders and led, between heads and hands, is being dissolved from below. But “mass” is only a negation, namely of the concept of organization, nothing that would be viable on its own. [83] An army without officers is only a superfluous and lost heap of men. 17 A jumble of brick rubble and iron fragments is no longer a building. This mutiny all round the earth threatens to abolish the possibility of technical-economic work. The leaders can flee, but the led, who have become superfluous, are lost. Their number means their death.",
+        "terms": [
+          {
+            "original": "faustische Denken",
+            "english": "Faustian thinking"
+          },
+          {
+            "original": "satt werden",
+            "english": "to grow tired of, be sated with"
+          },
+          {
+            "original": "Sklaverei der Maschine",
+            "english": "slavery of the machine"
+          },
+          {
+            "original": "Führerarbeit",
+            "english": "leaders' work (directing work)"
+          },
+          {
+            "original": "ausführende Arbeit",
+            "english": "executing work (work that carries out directions)"
+          },
+          {
+            "original": "Tun zu mehreren",
+            "english": "acting together (action by several)"
+          },
+          {
+            "original": "Masse",
+            "english": "mass"
+          }
+        ],
+        "notes": "Page markers [81]-[83] and endnote numerals 16, 17 retained. Spaced punctuation in the source ('beginnt .', 'damit ?', 'Schicksal ,') is an extraction artifact.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "It does not ask whether machinery marks a more civilized society (Q32), but it describes machine civilization as producing weariness, flight of talent and a mutiny of the hands, symptoms of collapse rather than of higher civilization."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-49": {
+        "id": "910d6b93ad-orig-49",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q33"
+        ],
+        "language": "German",
+        "original": "Das dritte und schwerste Symptom des beginnenden Zusammenbruchs aber liegt in dem, was ich den Verrat an der Technik nennen möchte. Es handelt sich um Dinge, die jeder kennt, die aber nie in dem Zusammenhang gesehen werden, der erst ihren verhängnisvollen Sinn offenbart. Die ungeheure Überlegenheit Westeuropas und Nordamerikas in der zweiten Hälfte des vorigen Jahrhunderts an Macht jeder Art, wirtschaftlicher, politischer, militärischer, finanzieller Macht, beruht auf einem unbestrittenen Monopol der Industrie. Große Industrien gab es nur im Zusammenhang mit Kohlenlagern in diesen nordischen Ländern . Der Rest der Welt war Absatzgebiet, und die Kolonialpolitik wirkte stets in der Richtung der Erschließung [84] neuer Absatz- und Rohstoff-, nicht Produktionsgebiete. Kohle gab es auch anderswo, aber nur der »weiße« Ingenieur hätte sie erschließen können. Wir waren im Alleinbesitz nicht der Stoffe, sondern der Methoden und der Gehirne , die zu deren Anwendung geschult waren. Darauf beruht die luxuriöse Lebenshaltung des weißen Arbeiters, der im Vergleich zum farbigen 18 fürstliche Einnahmen besitzt , ein Umstand, den der Marxismus zu seinem Verderben unterschlagen hat. Das rächt sich heute, wo von hier aus das Problem der Arbeitslosigkeit in die Entwicklung geworfen wird. Der Lohn des weißen Arbeiters, heute eine Gefahr für sein Leben , beruht in seiner Höhe ausschließlich auf dem Monopol, das die Führer der Industrie um ihn herum aufgerichtet hatten. 19 Da beginnt am Ende des Jahrhunderts der blinde Wille zur Macht entscheidende Fehler zu begehen. Statt das technische Wissen geheim zu halten, den größten Schatz, den die »weißen« Völker besaßen, wurde es auf allen Hochschulen, in Wort und Schrift prahlerisch aller Welt dargeboten, und man war [85] stolz auf die Bewunderung von Indern und Japanern. Die bekannte »Industriezerstreuung« setzt ein, auch aus der Überlegung, daß man die Produktion dem Abnehmer nähern müsse, um größere Gewinne zu erzielen. Es beginnt statt des Exports ausschließlich von Produkten der Export von Geheimnissen, von Verfahren, Methoden, Ingenieuren und Organisatoren. Selbst Erfinder wandern aus. Der Sozialismus, der sie in sein Joch spannen möchte, vertreibt sie. Alle »Farbigen« sahen in das Geheimnis unserer Kraft hinein, begriffen es und nützten es aus. Die Japaner wurden binnen 30 Jahren technische Kenner ersten Ranges und bewiesen im Kriege gegen Rußland eine kriegstechnische Überlegenheit, von welcher ihre Lehrmeister lernen konnten. Heute sind allenthalben, in Ostasien, Indien, Südamerika, Südafrika, Industriegebiete entstanden oder in Bildung begriffen, die infolge ihrer niedrigen Löhne eine tödliche Konkurrenz darstellen. Die unersetzlichen Vorrechte der weißen Völker sind verschwendet, verschleudert, verraten worden. Die Gegner haben ihre Vorbilder erreicht, vielleicht mit der Verschmitztheit farbiger Rassen und der überreifen Intelligenz uralter Zivilisationen übertroffen. Wo es Kohle, Erdöl und Wasserkräfte gibt, kann eine [86] neue Waffe gegen das Herz der faustischen",
+        "translation": "But the third and gravest symptom of the beginning collapse lies in what I should like to call the betrayal of technics [Verrat an der Technik]. It concerns things that everyone knows, but that are never seen in the context which first reveals their fateful meaning. The immense superiority of Western Europe and North America in the second half of the last century in power of every kind, economic, political, military and financial power, rests on an undisputed monopoly of industry. Great industries existed only in connection with coal deposits in these Nordic countries. The rest of the world was a market, and colonial policy always worked in the direction of opening up [84] new regions of sale and raw materials, not of production. There was coal elsewhere too, but only the “white” engineer could have opened it up. We were in sole possession not of the materials, but of the methods and of the brains trained to apply them. On this rests the luxurious standard of living of the white worker, who in comparison with the coloured 18 possesses princely earnings, a circumstance that Marxism suppressed, to its own ruin. This is taking its revenge today, when from this quarter the problem of unemployment is thrown into the course of development. The wage of the white worker, today a danger to his life, rests for its height exclusively on the monopoly that the leaders of industry had erected around him. 19 Then, at the end of the century, the blind will to power begins to commit decisive errors. Instead of keeping technical knowledge secret, the greatest treasure the “white” peoples possessed, it was boastfully offered to all the world in all the colleges, in speech and print, and people were [85] proud of the admiration of Indians and Japanese. The well-known “dispersal of industry” [Industriezerstreuung] sets in, partly also from the consideration that production had to be brought nearer to the buyer in order to obtain greater profits. Instead of the export exclusively of products there begins the export of secrets, of processes, methods, engineers and organizers. Even inventors emigrate. Socialism, which would like to harness them to its yoke, drives them away. All the “coloured” peoples looked into the secret of our strength, grasped it and exploited it. Within 30 years the Japanese became technical experts of the first rank and in the war against Russia demonstrated a superiority in military technics from which their teachers could learn. Today industrial regions have arisen or are forming everywhere, in East Asia, India, South America, South Africa, which on account of their low wages represent a deadly competition. The irreplaceable privileges of the white peoples have been squandered, thrown away, betrayed. The opponents have caught up with their models and perhaps, with the cunning of coloured races and the over-ripe intelligence of ancient civilizations, surpassed them. Wherever there is coal, petroleum and water power, a [86] new weapon can be forged against the heart of Faustian",
+        "terms": [
+          {
+            "original": "Verrat an der Technik",
+            "english": "betrayal of technics"
+          },
+          {
+            "original": "Industriezerstreuung",
+            "english": "dispersal of industry"
+          },
+          {
+            "original": "Wille zur Macht",
+            "english": "will to power"
+          },
+          {
+            "original": "faustischen [Kultur]",
+            "english": "Faustian [culture]"
+          }
+        ],
+        "notes": "Passage breaks off mid-sentence; it continues in pid :50 ('Kultur geschmiedet werden'). Page markers [84]-[86] and endnote numerals 18, 19 retained. Racial terms translated literally as in the original.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "For Q33 it holds that non-Western peoples, notably the Japanese, fully took over Western industrial methods within a generation and turned them against the West, but it does not here say whether they did so without adopting Western ways of life (that claim follows in pid :50)."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      },
+      "910d6b93ad-orig-50": {
+        "id": "910d6b93ad-orig-50",
+        "work": "spengler-man-technics",
+        "questions": [
+          "Q32"
+        ],
+        "language": "German",
+        "original": "Kultur geschmiedet werden. Hier beginnt die Rache der ausgebeuteten Welt gegen ihre Herren. Mit den unzähligen Händen der Farbigen, die ebenso geschickt und viel anspruchsloser arbeiten, wird die Grundlage der weißen wirtschaftlichen Organisation erschüttert. Der gewohnte Luxus des weißen Arbeiters gegenüber dem Kuli wird zu seinem Verhängnis. Die weiße Arbeit selbst wird überflüssig. Die gewaltigen Massen auf der nordischen Kohle, die Industrieanlagen, das angelegte Kapital, ganze Städte und Landstriche drohen der Konkurrenz zu erliegen. Das Schwergewicht der Produktion verlagert sich unaufhaltsam, nachdem der Weltkrieg auch der Achtung der Farbigen vor dem Weißen ein Ende gemacht hat. Das ist der letzte Grund der Arbeitslosigkeit in den weißen Ländern, die keine Krise ist, sondern der Beginn einer Katastrophe . Für die Farbigen aber – die Russen sind hier immer einbegriffen – ist die faustische Technik kein inneres Bedürfnis. Nur der faustische Mensch denkt, fühlt und lebt in ihrer Form. Sie ist ihm seelisch nötig, nicht ihre wirtschaftlichen Folgen, sondern ihre Siege : navigare necesse est, vivere non est necesse. Für »Farbige« ist sie nur eine [87] Waffe im Kampf gegen die faustische Zivilisation, eine Waffe wie ein Baumast im Walde, den man fortwirft, wenn er seinen Zweck erfüllt hat. Diese Maschinentechnik ist mit dem faustischen Menschen zu Ende und wird eines Tages zertrümmert und vergessen sein – Eisenbahnen und Dampfschiffe so gut wie einst die Römerstraßen und die chinesische Mauer, unsere Riesenstädte mit ihren Wolkenkratzern ebenso wie die Paläste des alten Memphis und Babylon. Die Geschichte dieser Technik nähert sich schnell dem unausweichlichen Ende. Sie wird von innen her verzehrt werden wie alle großen Formen irgendeiner Kultur. Wann und in welcher Weise wissen wir nicht.",
+        "translation": "culture [Kultur]. Here begins the revenge of the exploited world against its masters. With the countless hands of the coloured peoples, who work just as skilfully and far less demandingly, the foundation of white economic organization is shaken. The accustomed luxury of the white worker compared with the coolie becomes his doom. White labour itself becomes superfluous. The huge masses on the Nordic coal, the industrial plants, the invested capital, whole cities and districts threaten to succumb to the competition. The centre of gravity of production is shifting irresistibly, now that the World War has also put an end to the respect of the coloured peoples for the white man. That is the ultimate reason for the unemployment in the white countries, which is not a crisis but the beginning of a catastrophe. For the coloured peoples, however (the Russians are always included here), Faustian technics is no inner need. Only Faustian man thinks, feels and lives in its form. It is necessary to his soul; not its economic consequences, but its victories: navigare necesse est, vivere non est necesse. For the “coloured” it is only a [87] weapon in the struggle against Faustian civilization [Zivilisation], a weapon like a tree branch in the forest, which one throws away when it has served its purpose. This machine-technics will end with Faustian man and will one day be shattered and forgotten: railways and steamships just as once the Roman roads and the Chinese Wall, our giant cities with their skyscrapers just as the palaces of ancient Memphis and Babylon. The history of this technics is rapidly approaching its inescapable end. It will be consumed from within, like all great forms of any culture. When and in what manner, we do not know.",
+        "terms": [
+          {
+            "original": "Kultur",
+            "english": "culture"
+          },
+          {
+            "original": "faustische Technik",
+            "english": "Faustian technics"
+          },
+          {
+            "original": "inneres Bedürfnis",
+            "english": "inner need"
+          },
+          {
+            "original": "Zivilisation",
+            "english": "civilization"
+          },
+          {
+            "original": "Maschinentechnik",
+            "english": "machine-technics"
+          }
+        ],
+        "notes": "Begins mid-sentence, continuing pid :49. Latin 'navigare necesse est, vivere non est necesse' (to sail is necessary, to live is not necessary) left untranslated as in the original. Page marker [87] retained. Spaced punctuation ('Katastrophe .', 'Siege :') is an extraction artifact.",
+        "relevance": {
+          "verdict": "partly",
+          "reason": "It does not say whether widespread machinery shows a society is more civilized (Q32); it treats machine-technics as the soul-need of one culture that will perish with it, and bears more directly on Q33 by holding that non-Faustian peoples adopt the machinery only as a weapon without its inner form."
+        },
+        "translationBy": "Claude research agent (Opus 5.5), 29 Sep 2026",
+        "status": "machine translation, unchecked",
+        "selection": "embedding similarity to the question (trial/corpus/select_passages.py)"
+      }
+    },
+    "additions": [
+      {
+        "passage": "q03-turing-learning-teacher",
+        "question": "Q03",
+        "source": {
+          "file": "research/passages/sources/q03-turing-learning-teacher.txt",
+          "scope": "brief excerpt transcription; full scanned page linked separately",
+          "sha256": "81f5c5fd9e32b3648c081fe9fe078fdd347362c4eda08399f6eb407ccdcd9158",
+          "url": "https://www.cs.toronto.edu/~frank/csc2501/Readings/R1_Turing/Turing-1950.pdf",
+          "locator": "Mind 59 (1950), section 7, p.458; paragraph continues on p.459",
+          "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+          "scanSha256": "f2d8540600ca8a94897ce7eaf35d99d336d4b39191fee4481696487c2369b3b4",
+          "checkedBy": "Codex",
+          "checkedOn": "2026-10-28"
+        },
+        "notes": "Turing distinguishes a trained machine from a computation whose internal state the operator aims to follow. The omitted continuation allows some prediction of its behaviour; opacity alone does not establish judgment. Brief extract: the full pp.458–459 discussion should be reviewed before making a sorting pool."
+      },
+      {
+        "passage": "q26-wiener-scientist-rebels",
+        "question": "Q26",
+        "source": {
+          "file": "research/passages/sources/q26-wiener-scientist-rebels.txt",
+          "scope": "brief excerpt transcription; full scanned page linked separately",
+          "sha256": "d86a2f2f2484dc146566fbe21e099d65c22cfa3e47c3b3e799bd2aaed5a7633a",
+          "url": "https://cdn.theatlantic.com/media/archives/1947/01/179-1/132381596.pdf",
+          "locator": "The Atlantic Monthly 179, no.1 (January 1947), p.46, right column, penultimate paragraph",
+          "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+          "scanSha256": "824ce3d41583ed720ece41a592c7a5881f193bc8aa8433a35ae38f4252d3ce47",
+          "checkedBy": "Codex",
+          "checkedOn": "2026-10-28"
+        },
+        "notes": "Wiener responds to a request for wartime research on controlled missiles. He treats disclosure as a moral choice because of foreseeable civilian harm. This supports responsibility for dissemination, not unlimited liability for every unforeseeable use. Brief extract; review the full paragraph before preparing a sorting pool."
+      },
+      {
+        "passage": "q24-fujisawa-soroban",
+        "question": "Q24",
+        "source": {
+          "file": "research/passages/sources/q24-fujisawa-soroban.txt",
+          "scope": "full historical OCR transcription",
+          "sha256": "3b4c28d36202da1357609872dccf58616c40a41b34212f58459c289217f21f7b",
+          "url": "https://archive.org/details/summaryreportont00fujirich",
+          "locator": "Summary Report on the Teaching of Mathematics in Japan (Tokio, 1912), pp.28–29; extract begins with In at the end of p.28",
+          "verification": "Compared with printed page image by Codex, 28 Oct 2026; historian review pending. Line breaks and spacing normalized.",
+          "scanSha256": "7b4c5f183ebbb4859977fc7a6c6da426aac3d2a0cd20e554bce699e69c385985",
+          "checkedBy": "Codex",
+          "checkedOn": "2026-10-28"
+        },
+        "notes": "Fujisawa answers a foreign customer’s assumption that using a soroban reveals inability to add mentally. He attributes habitual use to convenience and reliability while explicitly asserting retained mental skill. This is an argument and observation, not a controlled comparison of skill loss."
+      }
+    ],
+    "reserves": [
+      {
+        "passage": "6780a39d3b-orig-6",
+        "questions": [
+          "Q31"
+        ],
+        "reason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
+      },
+      {
+        "passage": "6780a39d3b-orig-9",
+        "questions": [
+          "Q31"
+        ],
+        "reason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
+      },
+      {
+        "passage": "6780a39d3b-orig-16",
+        "questions": [
+          "Q31"
+        ],
+        "reason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
+      },
+      {
+        "passage": "6780a39d3b-orig-27",
+        "questions": [
+          "Q31"
+        ],
+        "reason": "Broad Berdyaev extraction on organization, emotional life or spiritual liberation; less direct for Q31 than the retained faith-in-technics selection. Some chunks have broken boundaries or endnotes."
+      },
+      {
+        "passage": "910d6b93ad-orig-1",
+        "questions": [
+          "Q33"
+        ],
+        "reason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
+      },
+      {
+        "passage": "910d6b93ad-orig-43",
+        "questions": [
+          "Q32"
+        ],
+        "reason": "Overlaps the focused Q32 Spengler quotation and begins with unrelated endnotes."
+      },
+      {
+        "passage": "910d6b93ad-orig-46",
+        "questions": [
+          "Q32",
+          "Q33"
+        ],
+        "reason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
+      },
+      {
+        "passage": "910d6b93ad-orig-47",
+        "questions": [
+          "Q33"
+        ],
+        "reason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
+      },
+      {
+        "passage": "910d6b93ad-orig-48",
+        "questions": [
+          "Q32"
+        ],
+        "reason": "Broad Spengler extraction offers surrounding civilizational context rather than a compact direct answer; keep the focused Q32/Q33 selections for review."
+      },
+      {
+        "passage": "910d6b93ad-orig-49",
+        "questions": [
+          "Q33"
+        ],
+        "reason": "Overlaps the focused Q33 Spengler quotation; chunk boundaries split the continuous argument."
+      },
+      {
+        "passage": "910d6b93ad-orig-50",
+        "questions": [
+          "Q32"
+        ],
+        "reason": "Overlaps the focused Q33 Spengler quotation; chunk boundaries split the continuous argument."
+      }
+    ],
+    "translationChecks": [
+      {
+        "passage": "q02-quevedo-essays-automatics",
+        "finding": "Restored the omitted qualification in both languages; checked conmutadores (switches), electroimán (electromagnet), and de omni re scibile (everything knowable). No substantive translation error found.",
+        "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.398"
+      },
+      {
+        "passage": "q03-quevedo-essays-automatics",
+        "finding": "Checked pese (weighs/assesses), arbitrariamente (freely specified, not random), and sin ninguna incertidumbre (without uncertainty). Changed paper to note for esta nota; otherwise retained the translation.",
+        "locator": "Revista de la Real Academia de Ciencias 12 (1914), p.394"
+      }
+    ],
+    "search": [
+      {
+        "corpus": "ghosts",
+        "question": "Q03",
+        "query": "\"learning machine\"",
+        "returned": 3,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q03",
+        "query": "\"Computing Machinery and Intelligence\"",
+        "returned": 0,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q03",
+        "query": "NEAR(machine learn, 15)",
+        "returned": 80,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(abacus mental, 20)",
+        "returned": 1,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(\"calculating machines\" mental, 40)",
+        "returned": 12,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(abacus crutch, 40)",
+        "returned": 0,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q24",
+        "query": "NEAR(abacus dependence, 40)",
+        "returned": 1,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q26",
+        "query": "\"A Scientist Rebels\"",
+        "returned": 0,
+        "limit": 80
+      },
+      {
+        "corpus": "ghosts",
+        "question": "Q26",
+        "query": "NEAR(Wiener responsibility, 60)",
+        "returned": 34,
+        "limit": 80
+      },
+      {
+        "corpus": "serials",
+        "question": "Q03",
+        "query": "\"learning machine\"",
+        "returned": 2,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q03",
+        "query": "\"Computing Machinery and Intelligence\"",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q03",
+        "query": "NEAR(machine learn, 15)",
+        "returned": 25,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(abacus mental, 20)",
+        "returned": 2,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(\"calculating machines\" mental, 40)",
+        "returned": 2,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(abacus crutch, 40)",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q24",
+        "query": "NEAR(abacus dependence, 40)",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q26",
+        "query": "\"A Scientist Rebels\"",
+        "returned": 0,
+        "limit": 25
+      },
+      {
+        "corpus": "serials",
+        "question": "Q26",
+        "query": "NEAR(Wiener responsibility, 60)",
+        "returned": 1,
+        "limit": 25
+      }
+    ],
+    "limits": [
+      "Turing and Wiener are brief quotations with source locators and contextual summaries, not full sorting-ready passage windows. Longer windows require an authorized full-text import; the public excerpts remain within quotation limits.",
+      "Fujisawa argues that habitual users retain mental skill; this is not an experimental measurement of skill change.",
+      "Torres translations checked by the same agent against Spanish page images; no independent historian review claimed."
+    ],
+    "previousStances": {
+      "q03-turing-computing-machinery": {
+        "id": "q03-turing-computing-machinery",
+        "question": "Q03",
+        "work": "turing-computing-machinery",
+        "side": "yes",
+        "sideLabel": "Yes",
+        "sideGloss": "a learning machine can meet situations its programmer did not foresee",
+        "argument": "Proposes building a child machine that learns by reward and punishment, whose later behavior its teacher cannot fully predict.",
+        "where": null,
+        "confidence": "medium",
+        "checked": "Web search: Mind 59 (1950), 433–460; summaries confirm the learning-machine proposal. Section number not checked.",
+        "status": "unverified"
+      },
+      "q26-wiener-scientist-rebels": {
+        "id": "q26-wiener-scientist-rebels",
+        "question": "Q26",
+        "work": "wiener-scientist-rebels",
+        "side": "yes",
+        "sideLabel": "Yes",
+        "sideGloss": "scientists are responsible for foreseeable misuse",
+        "argument": "Refuses to share his wartime guided-missile research, arguing after Hiroshima that supplying scientific information is not an innocent act and that the scientist must answer for its use.",
+        "where": null,
+        "confidence": "medium",
+        "checked": "Web search: Atlantic Monthly, January 1947; Wikipedia 'Norbert Wiener' and other secondary pages quote the letter. Full text not opened.",
+        "status": "unverified"
+      }
+    }
+  }
+}

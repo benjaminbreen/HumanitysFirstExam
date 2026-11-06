@@ -76,7 +76,7 @@ export default async function QuestionPage({ params }: PageProps<"/questions/[sl
           <Fact label="Span"><span className="num">{span(s)}</span></Fact>
           <Fact label="Works"><span className="num">{s.workCount}</span></Fact>
           <Fact label="Languages">{s.languages.join(", ")}</Fact>
-          <Fact label="Status"><span className="text-provisional">Draft question. Claude chose the answers and quotations, and they have not been checked</span></Fact>
+          <Fact label="Status"><span className="text-provisional">Draft question and agent-proposed arguments. Source checks are partial; historian review is pending.</span></Fact>
         </div>
       </header>
 

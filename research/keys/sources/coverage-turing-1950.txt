@@ -1,0 +1,27 @@
+A variant of Lady Lovelace's objection states that a machine can "never do anything 
+really new." This may be parried for a moment with the saw, "There is nothing new under 
+the sun." Who can be certain that "original work" that he has done was not simply the 
+growth of the seed planted in him by teaching, or the effect of following well-known 
+general principles. A better variant of the objection says that a machine can never "take 
+us by surprise." This statement is a more direct challenge and can be met directly. 
+Machines take me by surprise with great frequency. This is largely because I do not do 
+sufficient calculation to decide what to expect them to do, or rather because, although I 
+do a calculation, I do it in a hurried, slipshod fashion, taking risks. Perhaps I say to 
+myself, "I suppose the Voltage here ought to he the same as there: anyway let's assume it 
+is." Naturally I am often wrong, and the result is a surprise for me for by the time the 
+experiment is done these assumptions have been forgotten. These admissions lay me 
+open to lectures on the subject of my vicious ways, but do not throw any doubt on my 
+credibility when I testify to the surprises I experience. 
+I do not expect this reply to silence my critic. He will probably say that h surprises are 
+due to some creative mental act on my part, and reflect no credit on the machine. This 
+leads us back to the argument from consciousness, and far from the idea of surprise. It is 
+a line of argument we must consider closed, but it is perhaps worth remarking that the 
+appreciation of something as surprising requires as much of a "creative mental act" 
+whether the surprising event originates from a man, a book, a machine or anything else. 
+The view that machines cannot give rise to surprises is due, I believe, to a fallacy to 
+which philosophers and mathematicians are particularly subject. This is the assumption 
+that as soon as a fact is presented to a mind all consequences of that fact spring into the 
+mind simultaneously with it. It is a very useful assumption under many circumstances, 
+but one too easily forgets that it is false. A natural consequence of doing so is that one 
+then assumes that there is no virtue in the mere working out of consequences from data 
+and general principles.
