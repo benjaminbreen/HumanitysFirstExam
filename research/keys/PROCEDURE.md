@@ -9,7 +9,10 @@ check. Earlier protocols are records, not alternative instructions.
 The procedure is fixed, with the ordering and shared instructions clarified
 after Ben supplied Opus's review on 17 October 2026. On 28 October 2026 Ben
 dropped the advance evaluation rule: further use is decided after the review
-(step 5). The `/keys` app implements these stages; storage and run-import details
+(step 5). On 20 November 2026 Ben cut the historians' work so the pilot can
+report by the Cosmos demo day on 8 December: steps 3 and 4 may share one
+sitting, and Claude drafts the match tables in step 4 for the historians to
+accept or reject. The `/keys` app implements these stages; storage and run-import details
 are in [architecture](../../docs/architecture.md). This document remains the
 authority for the method.
 
@@ -153,6 +156,9 @@ argument. Keep the same placement rules as step 1.
 Both historians agree to the same version. Save that human-only reference
 separately and keep it unchanged during the agent review.
 
+Steps 3 and 4 may take place in one sitting (Ben, 20 November 2026). Lock all
+six references first; then reveal the agents.
+
 ## 4. Reveal the agent comparisons and assess their definitions
 
 Once all six human-only references are locked, reveal both agents' lists and
@@ -165,6 +171,14 @@ definitions against the passages and the saved human reference. A match means
 the same conclusion supported by the same reason; wording can differ. A shared
 Yes or No is not enough. An umbrella category recovers distinct positions only
 if it explicitly preserves their distinct arguments.
+
+To save historian time, Claude drafts a match table for each agent after the
+references lock (Ben, 20 November 2026). Each row pairs an agent category
+with a reference position, or marks a reference position as missed, or an
+agent category as unsupported or as a possible discovery, with a one-line
+reason. The table is labeled as Claude's draft. Ben and Nathan accept,
+reject or correct each row. Only rows both accept count. The draft can anchor
+their judgment, so they read the passages for any row they doubt.
 
 Record the matching category IDs and a short explanation in the review notes.
 Report, for each question and agent:
@@ -206,6 +220,9 @@ those benchmark answers.
 
 An agent selected for further work drafts further keys with historian checks;
 the pilot does not establish unattended reliability across the other questions.
+For those questions the historians do not sort independently. They accept,
+reject or correct each drafted position and each passage placement, and both
+approve the result.
 If instructions are revised after results are seen, test the revision on fresh
 questions and report it as a new test. Coding benchmark answers against the keys
 is a later, separate validation task in the working plan.

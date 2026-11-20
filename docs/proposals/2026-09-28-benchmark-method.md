@@ -78,8 +78,8 @@ and supported discoveries. They preserve the human reference before adding
 jointly accepted agent-only positions to the final key. Exact definitions,
 examples and the order of work are in the procedure, not in older protocols.
 
-The practical rule for extending an agent's use must be specified before
-results are viewed. Its threshold remains open. Agreement alone does not
+Further use of each agent is decided after the review, with no threshold set
+in advance (Ben, 28 Oct 2026). Agreement alone does not
 establish that the category definitions are accurate. The two sorting agents
 are not additional benchmark respondents and do not change the 960-answer plan.
 
@@ -126,7 +126,8 @@ Claude reads each answer and records:
 - hope, fear, both, neither or unclear, for each argument.
 
 A match needs the position's reason, not just its yes or no. Ben and
-Nathan code a blind sample of the same answers. If Claude agrees with each
+Nathan each code the same blind sample of 30 answers, spread across models,
+questions and the two prompts (Ben, 20 Nov 2026). If Claude agrees with each
 of them about as often as they agree with each other, Claude's coding is
 used for the rest. Otherwise the coding instructions are revised on a
 fresh sample, or the result is withheld.
@@ -149,6 +150,9 @@ fresh sample, or the result is withheld.
      6 × 4 × 2 × 20 = 960 answers.
    - Claude codes them. Ben and Nathan check a blind sample.
    - Follow the off-key leads, build v1, and score against both keys.
+   - The pilot reports at the Cosmos Institute demo day, 8 Dec 2026, against
+     the frozen key. Answers can be generated before the key freezes, as long
+     as no one reads them. Off-key answers are shown as leads until v1 exists.
 2. **Scale.** Verify the remaining passages toward the 300–500 target,
    build keys for further questions with historian checks and any agent
    assistance justified by the pilot, then add source appending.
