@@ -42,3 +42,26 @@ Output a JSON array, one object per candidate:
 ```
 
 Plain language in `argument`: what the work says, not how important it is.
+
+## Screening rules for additions (Ben, 20 November 2026)
+
+Drawn from Ben's verdicts on ten spot-checked suggestions. Apply them to every
+passage before it goes to Ben. Judge the full quotation, never a trimmed one.
+
+1. **It answers the question as worded.** Being about the same subject is not
+   enough. A sermon that sets railways against "living men" does not say
+   whether machinery is evidence of civilization.
+2. **It engages the question's key terms.** A passage on borrowing "what is
+   good in worldly affairs" fails a question about adopting machinery without
+   adopting a way of life: it names neither.
+3. **It takes a position.** Memoir, description or impression that touches the
+   question without answering it fails (a mill girl recalling that the factory
+   bell gave her order).
+4. **It gives its own reason.** Mocking or reporting an opponent's view fails.
+5. **No analogues.** A doll or a mirror is not an artificial companion.
+6. **Fiction counts** when a character states a clear argument on the question.
+   Record the speaker.
+7. **An offensive premise does not disqualify** a direct argument (Ladd's
+   stereotype of Japanese tradesmen). Note it.
+8. **Enough text to judge.** If the deciding claim falls outside the
+   quotation, extend the quotation or mark the passage "needs more text".

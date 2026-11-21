@@ -16,8 +16,8 @@
   "where": "char 38978",
   "adds": "The engine-builder's own case that machine surprise is not machine origination; a different work from the canon's Babbage entries, and an argument from natural theology rather than economics.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q01",
@@ -36,8 +36,8 @@
   "where": "char 169757 (chapter on the relational machine)",
   "adds": "A surgeon and electro-metallurgist who built a working \"relational machine\" in 1851; an early builder's own claim, before Jevons, that mechanism can deliver new inferences from supplied facts.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: derivation from given facts, not whether a machine can originate",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q01",
@@ -56,8 +56,8 @@
   "where": "Collected Works vol. 3, char 86321",
   "adds": "American magazine fiction giving a panpsychist argument for machine thought, distinct from both Butler's evolutionary and Čapek's labor framings.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: Ben accepted",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q02",
@@ -76,8 +76,8 @@
   "where": "pp. 18-19, char 14955",
   "adds": "A Leipzig mathematician's eyewitness account of a question-answering automaton, arguing that appropriate replies come from canned responses and planted questions; the canon has nothing on conversational evidence before Turing besides Descartes.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "ask Ben: rule 8: Ben found the trimmed quotation too short; full text shown",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q02",
@@ -96,8 +96,8 @@
   "where": "Sämtliche Werke vol. 7, \"Die Automate\", pp. 80-81 (char 1242606)",
   "adds": "A fictional test of a conversing automaton in which the debate is whether apt replies show a mind or are projected onto it by the listener; different work from the canon's The Sandman.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q03",
@@ -116,8 +116,8 @@
   "where": "char 129829",
   "adds": "A field observer's argument against Cartesian beast-machines that states the general rule: a machine cannot alter its execution to meet new circumstances.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q03",
@@ -136,8 +136,8 @@
   "where": "char 5161",
   "adds": "An engineer's explicit criterion that adaptation to unanticipated circumstances marks intellect and excludes pure mechanism; complements Poe's canon essay, which drew on Willis.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q03",
@@ -156,8 +156,8 @@
   "where": "char 847036",
   "adds": "The learning-and-adaptation criterion stated as a general test against animal automatism, by a physiologist-philosopher not in the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q03",
@@ -176,8 +176,8 @@
   "where": "char 177194",
   "adds": "A Boston neurologist's direct reply to the \"unforeseen circumstances\" argument: the human organism counts as a machine that does what Lewes said machines cannot.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q03",
@@ -196,8 +196,8 @@
   "where": "ch. V (Diagrammatic Representation), char 313332",
   "adds": "A logician who built a logic machine himself, arguing that judgment lies in the steps before and after mechanical inference; a counterweight to Jevons.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q04",
@@ -216,8 +216,8 @@
   "where": "ch. II, sect. IX, char 89432",
   "adds": "An American college teacher (later first president of the University of Michigan) treating the body as the first machine the will takes over; an appeal to consciousness of agency.",
   "confidence": "high",
-  "review": "weak: classifies causes; does not argue that volition moves the body",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: classifies causes; does not say volition moves the body",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q04",
@@ -236,8 +236,8 @@
   "where": "ch. I, char 7746",
   "adds": "A medical practitioner's direct rebuttal of Huxley's 1874 automatism lecture from the 1870s periodical debate, written for general readers.",
   "confidence": "high",
-  "review": "weak: mocks the opposing view; states no reason of its own",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: no reason of its own",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q04",
@@ -256,8 +256,8 @@
   "where": "char 196040",
   "adds": "The dual-aspect position that Prince attacked; distinct from both interactionism and Huxley's epiphenomenalism.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q04",
@@ -276,8 +276,8 @@
   "where": "p. 108, char 180196",
   "adds": "An identity-theory answer to epiphenomenalism that keeps mental causation without dualism; a position between the canon's Huxley and Carpenter.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q05",
@@ -296,8 +296,8 @@
   "where": "char 18013 (first letter)",
   "adds": "A mesmerist-phrenologist materialism co-published with a leading woman writer; a popular, scandalous 1851 statement of physical determinism outside academic philosophy.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q05",
@@ -316,8 +316,8 @@
   "where": "Einleitendes, char 43029",
   "adds": "The statistical-determinism debate after Quetelet and Buckle, which the canon lacks; a German Herbartian's answer that social laws describe averages, not causes of choices.",
   "confidence": "high",
-  "review": "weak: rejects a statistical law of conduct but defers the free-will question",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 3: defers the free-will question",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q05",
@@ -336,8 +336,8 @@
   "where": "char 55586",
   "adds": "A threepenny public lecture against Huxley's automatism, citing Mill's Autobiography; a popular counterpart to the canon's Carpenter textbook.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: never mentions physical causes",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q06",
@@ -356,8 +356,8 @@
   "where": "Part II, ch. I, sect. I, p. 179, char 318313",
   "adds": "An Owenite manufacturer's consequentialist version of responsibility under necessity, which keeps punishment but drops desert.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q06",
@@ -376,8 +376,8 @@
   "where": "Part III, ch. 3, char 756756",
   "adds": "A Methodist sermon-style argument that uses the automaton image to deny blame, a counterpart to Bray's acceptance of punishment as adjustment.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q06",
@@ -396,8 +396,8 @@
   "where": "char 83497",
   "adds": "A physician-poet's Phi Beta Kappa address separating choice from inherited machinery and attacking inherited guilt.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q06",
@@ -416,8 +416,8 @@
   "where": "ch. I, pp. 24-25, char 52572",
   "adds": "A psychiatrist's graded responsibility based on hereditary constitution, between full blame and the insanity defence.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q07",
@@ -436,8 +436,8 @@
   "where": "ch. X, char 173654",
   "adds": "A clerical reply in the Lawrence controversy, linking the vital principle to the soul and to God.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q07",
@@ -456,8 +456,8 @@
   "where": "char 183830",
   "adds": "The surgeon whose lectures started the London vitality controversy and were refused copyright as blasphemous; the materialist side the canon lacks.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q07",
@@ -476,8 +476,8 @@
   "where": "Part I, ch. I, char 47720",
   "adds": "A microscopist's vitalism stated against Huxley's Physical Basis of Life, using the steam-engine comparison.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q08",
@@ -496,8 +496,8 @@
   "where": "section \"Definition of Foods\" (just before), char 587871",
   "adds": "A school and college textbook that names self-repair as a property of a machine, the default teaching that the canon's vitalists argued against.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q08",
@@ -516,8 +516,8 @@
   "where": "Anmerkung 13, char 169147",
   "adds": "A German zoologist's mechanist answer to Driesch, using a physical analogy to deny that self-repair distinguishes organisms.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: regeneration as equilibrium; machines not mentioned",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q08",
@@ -536,8 +536,8 @@
   "where": "char 149429",
   "adds": "A popular biologist's Gifford Lectures, where self-repair, and the minced sponge that reforms itself, are presented as what machines lack.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: contrasts life with inorganic change, not machines",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q09",
@@ -556,8 +556,8 @@
   "where": "Bk I ch. 3 (digression on plastic nature), 1820 edn vol. 1 pp. 320-321; char 533275",
   "adds": "A seventeenth-century theological rejection of Descartes's mechanical account of foetal formation (he cites De Formatione Foetus in the margin); the canon has Descartes's own text but no contemporary reply.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q09",
@@ -576,8 +576,8 @@
   "where": "Erster Brief; char 17431",
   "adds": "A mechanical embryology programme from 1874, two decades before Roux, in a popular letter form; it sets physical derivation against Haeckel's phylogenetic explanation.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: a programme of physiological derivation; no machine or mechanism named",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q09",
@@ -596,8 +596,8 @@
   "where": "ch. on machinery of life (index: 'Machines, similarity organisms and', p. 236); char 322658",
   "adds": "A popular-science vitalist (a physician and poet) who makes egg development the specific reason organisms differ from machines; a non-specialist voice beside Driesch and Haldane.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q10",
@@ -616,8 +616,8 @@
   "where": "Premier discours (1854 Jules Simon edn); char 106667",
   "adds": "The most widely used logic textbook of the period (in schools into the nineteenth century) limiting what formal rules can settle; adds a French pedagogical voice to Leibniz and Condillac.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: does not address disagreement under shared premises",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q10",
@@ -636,8 +636,8 @@
   "where": "ch. 8 (Inference), §2; char 470520",
   "adds": "A Catholic theologian's case that agreement on stated reasons does not settle a question, because judging the inference is personal (the 'illative sense'); the canon's logic entries are mostly mechanists or mathematicians.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q11",
@@ -656,8 +656,8 @@
   "where": "'Equity', no. 2 (1868 reprint of 1689 edn); char 87003",
   "adds": "The classic period statement against equitable departure from rules, recorded as table talk rather than treatise; balances Aristotle's equity in the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q11",
@@ -676,8 +676,8 @@
   "where": "ch. V, §1, pp. 121-122; char 162354",
   "adds": "A German-American émigré's theory of interpretation; it gives a reason (unforeseeable cases) for departing from the letter that sits between Blackstone and Pound.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q11",
@@ -696,8 +696,8 @@
   "where": "lecture to the Juristische Gesellschaft, Vienna, 4 March 1903; char 50728",
   "adds": "The founding lecture of the Free Law movement; the canon has Kantorowicz and Gény but not Ehrlich, who places the remedy in the judge's person rather than in method.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q11",
@@ -716,8 +716,8 @@
   "where": "Lecture II, pp. 66-67 (1928 printing); char 66082",
   "adds": "A sitting American judge (Storrs Lectures, Yale 1921) weighing hardship against certainty; Pound in the canon is a professor, not a judge.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q12",
@@ -736,8 +736,8 @@
   "where": "first-prize essay, Boston Civil Service Reform Association, pp. 9-10; char 7651",
   "adds": "An undergraduate prize essay from the American merit-system campaign, a non-elite reformist voice beside Northcote-Trevelyan.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q12",
@@ -756,8 +756,8 @@
   "where": "letter on appointment of clerks in 'The Gas Light and Coke Company', addressed to Col. W. Makins, M.P.; char 261478",
   "adds": "An employer's working practice from a utility company, printed in a collection of letters 'from all sorts and conditions of men'; the canon's Q12 voices are reformers and psychologists.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q12",
@@ -776,8 +776,8 @@
   "where": "lecture to the Juristische Gesellschaft, Vienna, 4 March 1903; char 51035",
   "adds": "Ties examined competence to responsible judgment explicitly, from a continental jurist rather than a civil-service reformer.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q12",
@@ -796,8 +796,8 @@
   "where": "ch. XVI, The Scope of Psychological Tests, p. 188; char 313376",
   "adds": "A practitioner of mental testing limiting it at the level of responsibility, separating tested competence from fitness for responsible posts, as the audit asked.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q13",
@@ -816,8 +816,8 @@
   "where": "ch. I, introduction; char 27642",
   "adds": "An engineer's version of machine evolution, giving simultaneous invention as evidence; the canon's Q13 voices are Butler, Pitt-Rivers and philosophers.",
   "confidence": "high",
-  "review": "weak: invention as cumulative growth, not machines evolving",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: invention as cumulative growth, not machines evolving",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q13",
@@ -836,8 +836,8 @@
   "where": "lecture to the International Zoological Congress, Berlin 1901; char 58439",
   "adds": "A leading zoologist applying selection to human-built machines, independent of Butler; it states the mechanism (retention of useful chance variants) rather than an analogy.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q13",
@@ -856,8 +856,8 @@
   "where": "reply to Bütschli, p. 27 ff.; char 49200",
   "adds": "A direct rebuttal paired with Bütschli: the human designer as the reason machine change is not evolution in the biological sense.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q14",
@@ -876,8 +876,8 @@
   "where": "ch. Infant Labour (running head), about p. 183; char 459595",
   "adds": "An early medical observer who says the machine's superior power necessarily degrades workers; elsewhere he writes they 'inevitably must be' still more 'abject and passive slaves beneath machinery'.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q14",
@@ -896,8 +896,8 @@
   "where": "Temps Nouveaux brochure; char 24248",
   "adds": "An anarchist pamphlet addressed to workers; it locates subordination in ownership, like Wilde, but from the labour movement itself.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q14",
@@ -916,8 +916,8 @@
   "where": "after ch. VI, The Changing Corporation (likely ch. VII, The Job and Society); char 236952",
   "adds": "A journalist's account from the shop floor of how machine capability turns into worker dependence through hiring, distinct from Forster's or Čapek's fictions.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q15",
@@ -936,8 +936,8 @@
   "where": "Part I, ch. IX (1854 English edn, ed. Erasmus Wilson); char 259606",
   "adds": "The most-read longevity manual of the period, separating length of existence from the value of life, which the audit asks to keep apart.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q15",
@@ -956,8 +956,8 @@
   "where": "Introduction, pp. xiii-xiv; char 13828",
   "adds": "Answers the religious objection to life extension directly, before Metchnikoff.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q15",
@@ -976,8 +976,8 @@
   "where": "ch. I, 'Is Life Worth Perpetuating', p. 11; char 4435",
   "adds": "A popular self-help claim for bodily immortality; its means are regimen and mind rather than technology, which should be noted when coding.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q15",
@@ -996,8 +996,8 @@
   "where": "'At the Outset', pp. v-vi (5th edn); char 3363",
   "adds": "A direct, period argument for indefinite life extension through science, explicitly setting itself against Metchnikoff's acceptance of death; a non-elite American voice.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q16",
@@ -1016,8 +1016,8 @@
   "where": "Part I, ch. 1, pp. 63-65 (1800 edn); char 140163",
   "adds": "Names the artificial leg and spectacles directly, decades before Reid; widely taught in British and American colleges through the nineteenth century.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q16",
@@ -1036,8 +1036,8 @@
   "where": "Lecture XIII, pp. 265-266; char 421554",
   "adds": "Gives the gradualness condition explicitly, which the canon's continuity-of-consciousness passages lack, and disputes Reid's amputation argument.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q16",
@@ -1056,8 +1056,8 @@
   "where": "'The Human Wheel', Atlantic Monthly, May 1863; book p. 306; char 325467",
   "adds": "A physician on Civil War amputees and the Palmer leg; ties the quality of the substitute to how the person is seen and to his character.",
   "confidence": "medium",
-  "review": "weak: describes a crude artificial leg; no claim about identity",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 3: describes a crude artificial leg; no claim about identity",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q17",
@@ -1076,8 +1076,8 @@
   "where": "char 45568 (early chapter on tools)",
   "adds": "A cheap tract written to persuade workers during the Swing riots, so it records the case for machinery as it was put to workers themselves, not to economists.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q17",
@@ -1096,8 +1096,8 @@
   "where": "Letter XVI, 'Statistical Facts—Increase of Machinery—Ditto of Individual Labor', p. 123-124",
   "adds": "A worker-authored witness: Dodd worked in mills from childhood and was crippled by the work. The canon's Q17 evidence comes mainly from observers and theorists (Ure, Ricardo, Marx).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q17",
@@ -1116,8 +1116,8 @@
   "where": "Section 'The Practical Result', p. 52-53",
   "adds": "An American reformer's public lecture that sets the expected gain from 'inanimate slaves' against the observed result; it argues the machine is a blessing turned into a curse by its use, a position between Ricardo's and Marx's in the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q17",
@@ -1136,8 +1136,8 @@
   "where": "p. 21-22",
   "adds": "A direct period reply to J. S. Mill's line that machines had not lightened anyone's toil (Mill is in the canon), using census and wage figures.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q18",
@@ -1156,7 +1156,27 @@
   "where": "Chapter VII, 'Infant Labour', char 459430",
   "adds": "An early medical observer who links the loss of skill to the replacement of men by women and children; the lead text was checked and its 'mere machine' line turned out to concern the truck system, so this passage is used instead.",
   "confidence": "high",
-  "review": "pass",
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+ },
+ {
+  "q": "Q18",
+  "author": "G. Valbert (Victor Cherbuliez)",
+  "title": "L'Âge des machines",
+  "original_title": "",
+  "year": 1889,
+  "language": "French",
+  "kind": "periodical",
+  "side": "Diminish: the machine invents for the worker, who becomes a little machine himself",
+  "argument": "Craftsmen once had to invent; now machines do the inventing, and the worker who serves one must repeat the same act without end, so machines condemn whoever works by them to impersonality.",
+  "quote": "Autrefois l’ouvrier était tenu d’avoir de l’industrie et de l’invention : aujourd’hui, des animaux étranges, bâtis en fer ou en acier, se chargent d’inventer pour lui. Quand on parcourt au Champ de Mars la merveilleuse galerie des machines, quand on se promène parmi ces monstres apprivoisés qui, grondant, hurlant, sifflant et crachant, accomplissent, avec une violence méthodique des ouvrages d’exactitude et de précision, quand on passe en revue toutes ces forces sauvages qui se sont mises sous notre discipline et, bon gré mal gré, ont appris à obéir, on éprouve pour elles un superstitieux respect et on admire les hommes de génie qui les ont inventées. Mais l’ouvrier qui les emploie est à leur service, et serviteur d’une machine, il devient un peu machine lui-même. Il doit faire toujours la même chose, se répéter sans cesse, mettre son honneur à tirer cent mille copies parfaitement identiques d’un modèle qu’il n’a pas inventé. Les machines sont des êtres impersonnels, qui condamnent à l’impersonnalité quiconque travaille par elles ou pour elles.",
+  "quote_note": "Wikisource transcription of the Revue des Deux Mondes, t. 93 (1889); a review of the anonymous Das Maschinenalter (by Bertha von Suttner).",
+  "speaker": "",
+  "source": "https://fr.wikisource.org/wiki/L’Âge_des_machines",
+  "where": "Revue des Deux Mondes, t. 93, 1889",
+  "adds": "A French periodical voice stating the project's premise directly: serving a machine makes the worker machine-like. Suggested by Ben.",
+  "confidence": "high",
+  "review": "accept: suggested by Ben; passes rules 1–8",
   "review_by": "Claude, 20 Nov 2026"
  },
  {
@@ -1176,8 +1196,8 @@
   "where": "p. 3-4",
   "adds": "A French anarchist pamphlet sold cheaply to workers; it links deskilling to the employer's power to replace staff, not only to the worker's mind.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q18",
@@ -1196,8 +1216,8 @@
   "where": "Section 'La machine abêtit-elle ou asservit-elle l'ouvrier?', char 160574",
   "adds": "A French economist's explicit reply to the deskilling charge (he names it and answers it), arguing that machine-tending raises attention; the canon's 'develop' side rests mainly on Ure.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q18",
@@ -1216,8 +1236,8 @@
   "where": "Part I, Chapter I",
   "adds": "An employer's defence of repetitive machine work as mental training, a position the canon lacks.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q18",
@@ -1236,8 +1256,8 @@
   "where": "Appendix V, section C.1",
   "adds": "An organized-labor voice, drafted in consultation with the unions and approved by them, on the twentieth-century form of the question (Taylorism).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: Ben accepted",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q18",
@@ -1256,8 +1276,8 @@
   "where": "char 40849",
   "adds": "A 1920s journalist's account of automatic machine tools that describes a redistribution of skill rather than a simple loss, which the canon's nineteenth-century Q18 sources do not state.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q19",
@@ -1276,8 +1296,8 @@
   "where": "closing pages",
   "adds": "An anarchist-communist case addressed to workers, distinct from Kropotkin's in the canon in arguing from unemployment and over-stocking.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q19",
@@ -1296,8 +1316,8 @@
   "where": "char 133215",
   "adds": "An explicit normative reason for a consumer-first distribution, which the audit notes the Q19 set lacks (Bastiat describes price effects without an entitlement claim).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q19",
@@ -1316,8 +1336,8 @@
   "where": "Chapter III, 'Capitalism'",
   "adds": "An anti-socialist case built on statistics that answers the 'who gets the gain' question with numbers; the canon's Q19 set has no pro-capital entitlement claim.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q20",
@@ -1336,8 +1356,8 @@
   "where": "Part I, Section II",
   "adds": "A devotional Quaker voice that ties habit's loss of freedom to how habits form, not to vice alone.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q20",
@@ -1356,8 +1376,8 @@
   "where": "Chapter IX, 'Extreme Habituation', p. 99",
   "adds": "A German teacher-training text, read here in English translation, that gives a qualified answer with both sides stated.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q20",
@@ -1376,8 +1396,8 @@
   "where": "Part I, opening",
   "adds": "An industrialist's version of the released-attention argument applied to factory and clerical routine imposed by an employer, not chosen by the worker.",
   "confidence": "high",
-  "review": "weak: describes routine habit; does not say it increases freedom",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 3: describes routine habit; no claim about freedom",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q21",
@@ -1396,8 +1416,8 @@
   "where": "char 35432",
   "adds": "An insider's critique of passive obedience in the French army, written after twenty years in service.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q21",
@@ -1416,8 +1436,8 @@
   "where": "Section 'La discipline'",
   "adds": "A short socialist propaganda pamphlet that sets mechanical obedience against discipline from conviction.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q21",
@@ -1436,8 +1456,8 @@
   "where": "Chapter II, 'The Effect of Minding on the Mind'",
   "adds": "A woman writer on child-rearing who states the mechanism directly (repeated obedience trains the habit of giving up judgment); the canon's Q21 evidence is Mill and Loyola.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q22",
@@ -1456,8 +1476,8 @@
   "where": "char 234384 (Lowell chapters)",
   "adds": "A worker's own retrospective judgment on the factory bell, positive and qualified, against Dickens's synchronized factory in the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: memoir, no answer",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q22",
@@ -1476,8 +1496,8 @@
   "where": "Title essay 'Routine and Ideals'",
   "adds": "Addresses imposed versus self-chosen schedules directly, which the audit asks for.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q22",
@@ -1496,8 +1516,8 @@
   "where": "char 100124",
   "adds": "A woman's argument for applying factory scheduling to unpaid domestic work, quoting the women who objected to it.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q23",
@@ -1516,8 +1536,8 @@
   "where": "§460, 'The Cultivation of Calculation', p. 66-67",
   "adds": "A popular self-improvement manual that applies the Phaedrus-type claim to account books and commercial memory.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q23",
@@ -1536,8 +1556,8 @@
   "where": "'General Hints and Helps', p. 200-201",
   "adds": "A qualified, practical position (delegate some remembering, not all) that sits between the canon's Plato and Locke.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q24",
@@ -1556,8 +1576,8 @@
   "where": "§461, 'How to Teach Arithmetic', p. 67",
   "adds": "States the deskilling mechanism (unused faculty weakens) for written calculation aids. It is evidence for the question's principle rather than for machines.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: slate and account books, not calculating devices",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q24",
@@ -1576,8 +1596,8 @@
   "where": "Chapter on reasoning, section 'Nature of Mathematical Reasoning', char 1538532",
   "adds": "The only explicit period claim found that habitual use of a calculating device weakens unaided calculation, which the audit names as the gap. The example rests on a Western stereotype of Japanese tradesmen.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: Ben accepted",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q25",
@@ -1596,8 +1616,8 @@
   "where": "Making Bread, para. 96, char 101642",
   "adds": "A practical manual for labourers that treats machinery as a means of household self-sufficiency, against the dependence created by centralised milling and shop-bought bread. \"uor\" for \"nor\" is an OCR error.",
   "confidence": "high",
-  "review": "weak: recommends household mills; no claim about lost ability",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: recommends household mills; no claim about lost ability",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q25",
@@ -1616,8 +1636,8 @@
   "where": "char 265116 (chapter on domestic condition)",
   "adds": "A medical observer's account of how machine-based factory labour removes the household skills of self-provision; the canon has Ure and Marx on factories but not this domestic-capacity argument.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q25",
@@ -1636,8 +1656,8 @@
   "where": "The Age of Homespun, p. 376, char 579094",
   "adds": "A Congregational minister's centennial address on the end of household manufacture; ambivalent rather than hostile, and about the loss of a self-providing household economy, not industrial labour.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: lost virtues, not lost ability to provide",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q25",
@@ -1656,8 +1676,8 @@
   "where": "Works and Days, Society and Solitude (1870)",
   "adds": "Different work from the canon's Emerson essays; states the deskilling-and-helplessness argument directly.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q25",
@@ -1676,28 +1696,8 @@
   "where": "pp. 151-152 (char 196050)",
   "adds": "A feminist economist who treats the loss of household production as liberating; the opposite of the domestic-virtue argument and absent from the canon.",
   "confidence": "high",
-  "review": "weak: about women following industry to the mill, not lost self-provision",
-  "review_by": "Claude, 20 Nov 2026"
- },
- {
-  "q": "Q26",
-  "author": "John Wilkins",
-  "title": "Mercury: or the Secret and Swift Messenger (Conclusion)",
-  "original_title": "",
-  "year": 1641,
-  "language": "English",
-  "kind": "book",
-  "side": "No: an invention liable to abuse should still be published",
-  "argument": "Wilkins answers the fear that his account of secret writing will help criminals: it also teaches how to detect deceit, magistrates can prevent its misuse, and if every useful invention liable to abuse were concealed no art could be lawfully practised.",
-  "quote": "If it be feared that this Difcourfe may unhappily advantage others in fuch unlawful Courfes^ 'tis con- fiderable, that it does not only teach how to deceive, but confequently alfo how to difcover Delufions. And then befides, the chief Experiments are of fuch Nature, that they cannot be frequently pradi- ihd, without juft Caufe of Sufpicion, when as it is in the Magiftrates Power to prevent them. How- ever, it will not follow , that every thing muft be fuppreft which may be abufed. There is nothing hath more occafioned Troubles and Contention^than Call. Rho. the- Art of Writing, which is the Reafon why ths Mutiq.LeSf. Inventor of it is fabled to have fown Serpents Teeth: .22. cry. ^^^ y^j. j^ ^^g l^^j. ^ baibaroiis A6t of Thamns , the Egyftiajt King, therefore to forbid the Learning of I.eccers : We may as well cut out our Tongues, be- James]. caufe that Member is a wbrU of \"ivkkednefs. If all thofe ufeful Inventions that are liable to abure,fhould therefore be concealed, there is not any Art or Sci? ence which might bts lawfully profelt",
-  "quote_note": "Long s printed as f throughout. Marginal references (\"Call. Rho.\", \"Mutiq.LeSf. .22. cry.\", \"James].\") and a line of garbage (\"^^^ y^j. j^ ^^g l^^j. ^\") are interleaved by the OCR; \"abure\" = \"abuse\", \"profelt\" = \"profest\", \"wbrU of ivkkednefs\" = \"world of wickedness\", \"I.eccers\" = \"Letters\".",
-  "speaker": "",
-  "source": "https://archive.org/details/mathematicalphil00wilk (djvu.txt)",
-  "where": "Mercury, Conclusion, p. 90 (Mathematical and Philosophical Works, 1708)",
-  "adds": "A seventeenth-century bishop addressing withholding information and the inventor's share in later misuse, the specific gap the audit names.",
-  "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: women followed industry to the mill; not self-provision",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q26",
@@ -1716,8 +1716,28 @@
   "where": "char 96755 (essay following \"The Control of Wealth\" heading)",
   "adds": "A working scientist's explicit disclaimer of inventor responsibility, which the audit says the current Q26 excerpts lack.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: Ben accepted",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+ },
+ {
+  "q": "Q27",
+  "author": "John Wilkins",
+  "title": "Mercury: or the Secret and Swift Messenger (Conclusion)",
+  "original_title": "",
+  "year": 1641,
+  "language": "English",
+  "kind": "book",
+  "side": "No: an invention liable to abuse should still be published",
+  "argument": "Wilkins answers the fear that his account of secret writing will help criminals: it also teaches how to detect deceit, magistrates can prevent its misuse, and if every useful invention liable to abuse were concealed no art could be lawfully practised.",
+  "quote": "If it be feared that this Difcourfe may unhappily advantage others in fuch unlawful Courfes^ 'tis con- fiderable, that it does not only teach how to deceive, but confequently alfo how to difcover Delufions. And then befides, the chief Experiments are of fuch Nature, that they cannot be frequently pradi- ihd, without juft Caufe of Sufpicion, when as it is in the Magiftrates Power to prevent them. How- ever, it will not follow , that every thing muft be fuppreft which may be abufed. There is nothing hath more occafioned Troubles and Contention^than Call. Rho. the- Art of Writing, which is the Reafon why ths Mutiq.LeSf. Inventor of it is fabled to have fown Serpents Teeth: .22. cry. ^^^ y^j. j^ ^^g l^^j. ^ baibaroiis A6t of Thamns , the Egyftiajt King, therefore to forbid the Learning of I.eccers : We may as well cut out our Tongues, be- James]. caufe that Member is a wbrU of \"ivkkednefs. If all thofe ufeful Inventions that are liable to abure,fhould therefore be concealed, there is not any Art or Sci? ence which might bts lawfully profelt",
+  "quote_note": "Long s printed as f throughout. Marginal references (\"Call. Rho.\", \"Mutiq.LeSf. .22. cry.\", \"James].\") and a line of garbage (\"^^^ y^j. j^ ^^g l^^j. ^\") are interleaved by the OCR; \"abure\" = \"abuse\", \"profelt\" = \"profest\", \"wbrU of ivkkednefs\" = \"world of wickedness\", \"I.eccers\" = \"Letters\". Moved from Q26 to Q27: it argues against suppressing inventions that can be abused.",
+  "speaker": "",
+  "source": "https://archive.org/details/mathematicalphil00wilk (djvu.txt)",
+  "where": "Mercury, Conclusion, p. 90 (Mathematical and Philosophical Works, 1708)",
+  "adds": "A seventeenth-century bishop addressing withholding information and the inventor's share in later misuse, the specific gap the audit names.",
+  "confidence": "high",
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q27",
@@ -1736,8 +1756,8 @@
   "where": "ch. I, char 6058",
   "adds": "A worker's own voice, quoted in an SDUK tract, refusing restriction of a machine that damaged him.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q27",
@@ -1756,8 +1776,8 @@
   "where": "The Indian Craftsman (1909), Appendix II, pp. 103-105",
   "adds": "An Anglo-Indian official, reprinted by an Asian art historian, arguing for restricting machinery to drudgery; an imperial-Indian frame missing from the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q27",
@@ -1776,8 +1796,8 @@
   "where": "char 23414",
   "adds": "A physician's wartime address treating uncontrollable cruelty as grounds for restriction.",
   "confidence": "medium",
-  "review": "weak: about cruelty of a weapon, not uncontrollable consequences",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: cruelty of a weapon, not uncontrollable consequences",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q27",
@@ -1796,8 +1816,8 @@
   "where": "introduction, char 25810",
   "adds": "A military manual answering the Hague restriction with statistics; complements Haldane with an American practitioner.",
   "confidence": "high",
-  "review": "weak: defends gas as humane; restriction only implied",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: defends gas as humane; restriction only implied",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q27",
@@ -1816,8 +1836,8 @@
   "where": "ch. II end",
   "adds": "A journalist's case for state control rather than restriction of automatic machinery; between the canon's Butler (prohibition) and Ure (laissez-faire).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q28",
@@ -1836,8 +1856,8 @@
   "where": "char 464073",
   "adds": "A minister's direct answer to the beast-machine inference the audit warns about, linking it to the pro-slavery argument from inferiority.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "ask Ben: rule 5?: animals treated as machines; an analogue or a direct case?",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q28",
@@ -1856,8 +1876,8 @@
   "where": "Zoophily, pp. 134-135",
   "adds": "A woman anti-vivisectionist turning the automaton-versus-feeling test against Huxley-era automatism; the doll and rocking-horse comparison is a direct artificial-being analogy.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "ask Ben: rule 5?: animals treated as automata; an analogue or a direct case?",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q29",
@@ -1876,8 +1896,8 @@
   "where": "ch. I (Property), char 35121",
   "adds": "An abolitionist minister grounding self-ownership in the creature's rational nature rather than in who made it; analogical case, not an artificial being.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q29",
@@ -1896,8 +1916,8 @@
   "where": "Book II, Love to God, pp. 154-155",
   "adds": "The strongest period statement that making grounds ownership, limited explicitly to the divine case; useful against simple maker-owns readings.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q30",
@@ -1916,8 +1936,8 @@
   "where": "char 15205",
   "adds": "A jurist's oration making invention the continuation of divine creation.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q30",
@@ -1936,8 +1956,8 @@
   "where": "ch. II, char 97113",
   "adds": "A missionary-providentialist reading of steam, from popular religious history rather than philosophy.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q30",
@@ -1956,8 +1976,8 @@
   "where": "Part I, The Men Behind the Machines (Gentlemen)",
   "adds": "An ex-clergyman's machine mysticism, later and more lyrical than Saint-Simon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q31",
@@ -1976,8 +1996,8 @@
   "where": "The Praying Machine, pp. 63-79",
   "adds": "A freethinking former minister on mechanised devotion as idolatry; comparative religion, absent from the canon.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q31",
@@ -1996,8 +2016,8 @@
   "where": "pp. 96-98 (char 78950)",
   "adds": "A Japanese critic writing in English; the idol named is wealth, bound to mechanical habit rather than to machines as such.",
   "confidence": "medium",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: idolatry of wealth, not of machinery",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q31",
@@ -2016,8 +2036,8 @@
   "where": "Part I, The Souls of Machines, p. 15",
   "adds": "The contrary position to Carlyle and Berdyaev, stated by an ex-minister.",
   "confidence": "medium",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q32",
@@ -2036,8 +2056,8 @@
   "where": "char 45215",
   "adds": "Popular improving literature addressed to workers in the year of the Swing riots; the canon has Babbage and Macaulay but not this mass-market version.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q32",
@@ -2056,8 +2076,8 @@
   "where": "char 20896",
   "adds": "A sermon occasioned by a specific technological celebration; Canadian, with a prophetic rather than economic argument.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: does not answer the question",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q32",
@@ -2076,7 +2096,27 @@
   "where": "lecture \"Roman Civilisation\", char 157109",
   "adds": "An Anglican dean answering directly whether machinery measures civilisation.",
   "confidence": "high",
-  "review": "pass",
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+ },
+ {
+  "q": "Q32",
+  "author": "Bertha von Suttner (published anonymously as 'Jemand')",
+  "title": "Das Maschinenalter: Zukunftsvorlesungen über unsere Zeit",
+  "original_title": "",
+  "year": 1889,
+  "language": "German",
+  "kind": "book",
+  "side": "No: machinery shows material, not mental, distance from barbarism",
+  "argument": "A lecturer of the future grants that the machine age rightly took pride in its machines, telegraphs and telephones and so called itself civilized, but argues that in thought and feeling it remained close to barbarism.",
+  "quote": "Die in der lezten Hälfte des neunzehnten Jahrhunderts in Europa lebende Generation hielt sich für überziviliſiert: Phrasen wie: „Fortschrittliches Zeitalter,\" \"Jahrhundert der Aufklärung,\" \"Epoche der höchsten Kultur,\" wurden geläufig auf das Heute angewendet, und es war allen finstern und barbariſchen Aussprüchen gegenüber ein beliebter, zurechtweisender Ausruf Wie? So etwas behaupten Sie so etwas im neunzehnten Jahrhundert?\" ... Und doch — nicht nur in den unsern, auch in den Augen mancher Zeitgenossen, boten die allenthalb herrschenden Zustände noch viel mehr Analogie mit der einſtigen Barbarei als mit der zu kommenden Kultur. In fast allen Einrichtungen konnte sich die Filiation noch deutlich bis zur Wildheit zurückverfolgen lassen, ebenso in den Anschauungs-, Glaubens- und Empfindungsgewohnheiten der Menge. Was die technische und induſtrielle Entwicklung betrifft, so war die Kultur allerdings auf einer sehr hohen Stufe angelangt und in dem rings thätigen Getriebe der Maschinen, Telegraphen, Telephone ; im Verkehr zu Wasser und zu Lande in einzelnen Versuchen auch schon zu Luft- konnte man kaum mehr eine direkte Abstammung von den Uranfängen menschlicher Arbeit aus der Stein- und Bronzezeit wahrnehmen; und so schwerfällig und primitiv uns auch jene Leistungen ſcheinen mögen die Zeitgenossen hatten ein Recht, darauf stolz zu sein, wenn sie sich mit ihren Urahnen verglichen. Auf Grund dieses Vergleichs konnten sie auch in sich selber eine differenzierte Raſſe erkennen, die sich im Gegensatz zu den wilden\" die ziviliſierte“ nannte. Daß in geistiger Hinsicht dieser Gegenſaß durchaus nicht so schroff war, wie in materieller, werden die folgenden Abſchnitte darzuthun versuchen, in welchen wir die verſchiedenen Erscheinungen des intellektuellen und sozialen Lebens jener Epoche eine nach der andern kritisch untersuchen wollen.",
+  "quote_note": "Running head and page number removed from the middle of the quotation.",
+  "speaker": "the fictional lecturer of a future century",
+  "source": "instbooks:HN2UA9",
+  "where": "Einleitung, pp. 3–5",
+  "adds": "A woman author and pacifist on whether machinery marks civilization; the book Valbert reviewed. Found from Ben's lead.",
+  "confidence": "high",
+  "review": "accept: passes rules 1–8",
   "review_by": "Claude, 20 Nov 2026"
  },
  {
@@ -2096,8 +2136,8 @@
   "where": "char 141692",
   "adds": "A different Tagore work from the canon's Nationalism; adds an explicit criterion of civilisation set against mechanical power.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: same failing as Cordner",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2116,8 +2156,8 @@
   "where": "Introduction, pp. 8-9",
   "adds": "A Tunisian reforming minister and the first Arabic-Islamic voice in the set; separates borrowing in 'affaires de ce monde' from religion. A nearby passage (char ~10500) adds that refusing institutions while buying foreign goods and arms makes a state dependent.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: names neither machinery nor way of life",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2136,8 +2176,8 @@
   "where": "pp. 112-113 (3rd ed., 1920; paper read at Poona, 1890)",
   "adds": "An Indian judge and economist who welcomes machinery and accepts that it changes ways of life; a pro-adoption counterweight to Gandhi and Tagore from Indian liberal nationalism.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2156,8 +2196,8 @@
   "where": "ch. 'The Genius of Japanese Civilization' (char 10727)",
   "adds": "A naturalized resident of Japan who treats adoption as conditional on fit with inherited capacities, a middle position between Gandhi's refusal and Zhang's ti-yong formula.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2176,8 +2216,8 @@
   "where": "Letter V, pp. 31-32 (1904 American ed.)",
   "adds": "An English Cambridge don writing in a Chinese persona; a widely read 1901 pamphlet that frames the refusal of machinery as prudence rather than ignorance. Author's nationality should be stated wherever it is used.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: dislocation of industry, not adoption without a way of life",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2196,8 +2236,8 @@
   "where": "ch. 'The Reincarnation', pp. 188-189",
   "adds": "A Japanese author arguing for selective adoption from inside an Asian tradition of eclecticism; the canon's East Asian side has Fukuzawa, Feng, Zhang and Yan but no Japanese art-historical voice, and no claim that machinery left national character untouched.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q33",
@@ -2216,8 +2256,8 @@
   "where": "Conclusion, p. 164",
   "adds": "A Chinese revolutionary's claim that machinery can be separated from capitalist social organization; distinct from Zhang's cultural ti-yong argument.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q34",
@@ -2236,8 +2276,8 @@
   "where": "final chapter, on the world-state (char 309431)",
   "adds": "A Japanese social Darwinist who counts Japan among the strong; the ground is strength and civilization rather than technology specifically, so it tests the capacity-to-conquer versus right-to-govern line.",
   "confidence": "high",
-  "review": "weak: argues from strength, not technology",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: argues from strength, not technology",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q34",
@@ -2256,8 +2296,8 @@
   "where": "section 'For the cause of good government', paras. 24-25 (char 221897)",
   "adds": "A Chinese official's reply to the Boxer-war intervention that links technological dominance to men becoming machine-like, the project's core theme.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 8: the quotation does not reach the claim about rule",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q34",
@@ -2276,8 +2316,8 @@
   "where": "ch. XVII, end (2nd ed., 1908)",
   "adds": "The direct challenge to infrastructure-based justification the audit asked for, from an Indian economic historian.",
   "confidence": "high",
-  "review": "weak: railways served British trade; no claim about the right to govern",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: railways served British trade; no claim about the right to govern",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q34",
@@ -2296,8 +2336,8 @@
   "where": "ch. on the moral basis of subjugation (char 383402)",
   "adds": "Explicitly separates capacity to conquer from right to govern, as the audit requests. Godard then allows subjugation only under a 'Humanitarianism' test with no gain to the conqueror (char ~391500).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q34",
@@ -2316,8 +2356,8 @@
   "where": "ch. I 'The Cup of Humanity' (char 6247)",
   "adds": "A Japanese rejection of military capacity as the measure that ranks peoples, written just after the Russo-Japanese War.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 1: war as the West's test of civilization; no claim about a right to govern",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q35",
@@ -2336,8 +2376,8 @@
   "where": "near the passage on 'the real rights of men' (1820 ed., char 135318)",
   "adds": "The classic statement that conceding the state is artificial does not entail a right to rebuild it; pairs with Paine and Godwin. A few lines earlier Burke writes 'Government is a contrivance of human wisdom to provide for human wants' (char ~135100).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q35",
@@ -2356,8 +2396,8 @@
   "where": "Book I, ch. 1, pp. 18-19",
   "adds": "The standard German organicist textbook (in Oxford translation) that rejects the machine-state outright. He adds that the state is 'indirectly the work of man' and its organism 'a copy of a natural organism' (char ~67300).",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q35",
@@ -2376,8 +2416,8 @@
   "where": "ch. III 'The President of the United States', pp. 54-57 (char 100794)",
   "adds": "A different Wilson work from the canon's 'Study of Administration'; explicitly rejects the machine model and replaces it with organic adaptation, which licenses change by growth rather than by design.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q36",
@@ -2396,8 +2436,8 @@
   "where": "ch. IX 'Concerning the Conscience of a Statesman', pp. 60-61",
   "adds": "A Colonial Office clerk's practical manual for officials; neither rule-following nor private conscience, but public-scaled judgment. The chapter ends: 'It sometimes happens that he who would not hurt a fly will hurt a nation.'",
   "confidence": "high",
-  "review": "weak: statesman's conscience, not officials carrying out rules",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: rule 2: a statesman's conscience, not officials carrying out rules",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q36",
@@ -2416,8 +2456,8 @@
   "where": "Book VII, ch. X 'Rights and Duties of Public Officials', p. 509",
   "adds": "A textbook rule for officials with an explicit line between legal doubt (obey) and moral crime (refuse). Elsewhere (char ~70400) he writes that an office that 'becomes like a machine' ruins the state.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q36",
@@ -2436,8 +2476,8 @@
   "where": "ch. IX 'The Duty of Loyalty' (1905 ed.)",
   "adds": "A Japanese account of service ethics in which the official remonstrates rather than either obeying blindly or resigning; a non-European voice on Q36.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q37",
@@ -2456,8 +2496,8 @@
   "where": "vol. I, Book III, ch. on the seat of the soul (char 1285233)",
   "adds": "A different Lotze work from the canon's 'Leben. Lebenskraft'; an early phenomenology of the cane and probe that predates Head/Holmes and Merleau-Ponty, and treats bodily membership itself as constructed. Elsewhere (char ~1294000) he says a carried stick awakens 'a prolongation of our personality to its extremity'.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q37",
@@ -2476,8 +2516,8 @@
   "where": "'The Human Wheel, its Spokes and Felloes' (Atlantic Monthly, May 1863; char 331751)",
   "adds": "A physician's Civil War-era observation of prosthesis users; bodily incorporation by training, distinct from Butler's extracorporeal-limb argument.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q38",
@@ -2496,8 +2536,8 @@
   "where": "Part I (char 93052)",
   "adds": "A German-American utopian engineer (reviewed by Thoreau in 1843) who counts machine power as human power at the person's disposal; a clear 'yes' to set against Emerson and Thoreau.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q38",
@@ -2516,8 +2556,8 @@
   "where": "'Works and Days' (char 180273)",
   "adds": "A different Emerson work from the canon's 'Self-Reliance' and 'Civilization'; a direct attribution-of-capability argument, as the audit asked for.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q38",
@@ -2536,8 +2576,8 @@
   "where": "ch. 'The Genius of Japanese Civilization', pp. 26-27",
   "adds": "Frames machine power as a loss of the user's own capacity and contrasts it with an unequipped Japanese worker; complements Thoreau with a comparative case.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q39",
@@ -2556,8 +2596,8 @@
   "where": "'Feathertop', pp. 275-277 (1882 ed., char 449502)",
   "adds": "Love for an artificial man that does not survive disclosure, the counter-case to Villiers and Helen O'Loy; Feathertop's own despair at seeing himself adds the artificial being's side.",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "accept: passes rules 1–8",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q39",
@@ -2576,8 +2616,8 @@
   "where": "'Barbara of the House of Grebe', ch. on the statue (char 141293)",
   "adds": "Knowing attachment to an artificial figure that lasts until the image is altered; later in the story (char ~145800) she embraces it at night: 'My only love ... I am always yours!'",
   "confidence": "high",
-  "review": "pass",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "ask Ben: rule 5?: love for a statue of a dead husband; an analogue or a direct case?",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q40",
@@ -2596,8 +2636,8 @@
   "where": "'Monsieur du Miroir' (1882 ed., char 296432)",
   "adds": "A companion known to have no feeling of its own, accepted on purpose; the reflection is not a machine, so this is an analogue rather than an artificial being.",
   "confidence": "high",
-  "review": "weak: a mirror image, not an artificial companion (analogue)",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: analogue (mirror)",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
   "q": "Q40",
@@ -2616,7 +2656,7 @@
   "where": "Part II, Book III, ch. 8 (1880 English ed.)",
   "adds": "A canon author's different work; the doll as an unfeeling companion that still satisfies. Just before, Eponine prefers a kitten because it 'moves, it cries, and is warm', a child's argument for reciprocity.",
   "confidence": "high",
-  "review": "weak: a child's doll, not an artificial companion (analogue)",
-  "review_by": "Claude, 20 Nov 2026"
+  "review": "reject: Ben: analogue (doll)",
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  }
 ]

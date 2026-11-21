@@ -568,438 +568,359 @@ column in the CSV says which. Treat medium entries as leads, not citations.
 
 ## Additions under the entry rule, 20 November 2026
 
-Drafted by Claude research agents for Ben Breen to accept or reject. **Nothing
-here is selected.** Ben set the entry rule on 20 Nov 2026 (see AGENTS.md) and
-asked for the best additions toward a canon of 300–400 works.
+Drafted by Claude research agents for Ben Breen. Ben set the entry rule on
+20 Nov 2026 (AGENTS.md) and asked for additions toward a canon of 300–400
+works. Five agents searched Harvard's Institutional Books (983,004
+public-domain books) and returned 131 suggestions. Each Institutional Books
+quotation was checked by script and appears word for word in its scan. OCR
+errors are kept and noted. Wording still needs checking against page images.
 
-131 suggestions, 119 distinct works, 105 with at least one passage
-that passes. Five agents searched the catalogue of Harvard's Institutional Books
-(983,004 public-domain books) by subject heading and title, then read the
-candidate books. Each quotation was then checked by script against the scanned
-text: every Institutional Books quotation appears there word for word. The
-Wilkins quotation comes from Internet Archive OCR and was not checked this way.
-OCR errors are kept and noted, not corrected. Wording still needs checking
-against page images before a passage counts as verified.
+Ben judged ten of them on 20 Nov and Claude turned his verdicts into eight
+screening rules (`research/canon-candidates/INSTRUCTIONS.md`), then applied
+them to the rest. Ben also suggested Valbert's *L'Âge des machines*, which led
+to the book it reviews, Bertha von Suttner's anonymous *Das Maschinenalter*.
 
-Claude then read every quotation against test 2 (an answer and a reason).
-Fifteen are marked *weak* with the reason. The quotations themselves are in
-`research/canon-candidates/additions.json`. Mark decisions in
-`research/canon-candidates/additions.csv`. Fiction gives the speaker; that is
-the character's argument, not necessarily the author's.
+Result: 98 accepted passages from 89 works, 31 rejected, 4 waiting on
+Ben. Accepted here means it passes the rules. A work enters the canon only
+when Ben accepts it. Quotations are in `research/canon-candidates/additions.json`;
+mark decisions in `additions.csv`.
 
-Limits: the catalogue has few books after about 1925, sermons are poorly tagged
-by subject, and there is no full-text search across the collection. The search
-therefore favours 1830–1925 English, French and German books with descriptive
-titles.
+Limits: few books after about 1925; sermons poorly tagged; no full-text search
+across the collection. Q28 and Q40 have no accepted addition. Q02, Q05, Q08,
+Q10, Q24, Q26, Q34 and Q39 have one.
 
+### Accepted
 
-### Q01 · THINKING
 
-*Can a machine originate an idea that its maker did not supply?*
+**Q01 · Can a machine originate an idea that its maker did not supply?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1838 | Charles Babbage, *The Ninth Bridgewater Treatise: A Fragment* | English | book | No: an apparently new law shown by the engine was fixed in its original adjustment | Babbage argues that when his engine suddenly changes the law of its output after a hundred million terms, the change was a necessary consequence of the constructor's original setting and could have been foreknown, even if analysis cannot yet predict every later change. | instbooks:AH5B8W | pass |
-| 1875 | Alfred Smee, *The Mind of Man: Being a Natural System of Mental Philosophy* | English | book | Partly: a machine can draw out consequences of what it is given, but its reach is narrow | Smee holds that his relational machine, like the brain, yields the bearings of any new fact appended to it, so it represents the process of thought, yet the knowledge it can convey is limited compared with the mind. | instbooks:HW2Q1V | pass |
-| 1899 | Ambrose Bierce, *Moxon's Master* | English | fiction | Yes: a machine thinks, because matter absorbs the intelligence and purpose of its maker | Moxon argues that no matter is dead and that a machine takes on something of its maker's intelligence and purpose in proportion to its complexity, so it can think about its work beyond what was put in; the story ends with his chess-playing machine killing him. (speaker: Moxon (an inventor), speaking to the unnamed narrator) | instbooks:32044100191576 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1838 | Charles Babbage, *The Ninth Bridgewater Treatise: A Fragment* | English | book | No: an apparently new law shown by the engine was fixed in its original adjustment | Babbage argues that when his engine suddenly changes the law of its output after a hundred million terms, the change was a necessary consequence of the constructor's original setting and could have been foreknown, even if analysis cannot yet predict every later change. | instbooks:AH5B8W |
+| 1899 | Ambrose Bierce, *Moxon's Master* | English | fiction | Yes: a machine thinks, because matter absorbs the intelligence and purpose of its maker | Moxon argues that no matter is dead and that a machine takes on something of its maker's intelligence and purpose in proportion to its complexity, so it can think about its work beyond what was put in; the story ends with his chess-playing machine killing him. (speaker: Moxon (an inventor), speaking to the unnamed narrator) | instbooks:32044100191576 |
 
-### Q02 · THINKING
+**Q02 · Would a machine's ability to converse appropriately be sufficient evidence that it thinks?**
 
-*Would a machine's ability to converse appropriately be sufficient evidence that it thinks?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1814 | E. T. A. Hoffmann, *Automata* | German | fiction | Contested: Ferdinand takes the oracle's apt answers as evidence of a knowing mind; Ludwig says the questioner supplies the meaning | After the talking Turk answers his whispered question, Ferdinand concludes that an unseen being reads his thoughts, while Ludwig replies that Ferdinand reads significance into an ambiguous answer produced by chance and by an ordinary hidden person. (speaker: Ferdinand, then Ludwig) | instbooks:HWSPPM |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1784 | Carl Friedrich Hindenburg, *On Herr von Kempelen's Chess Player, with an Illustration and Description of his Speaking Machine* | German | pamphlet | No: the automaton's fitting answers are prepared in advance and repeated | Hindenburg grants that the Turk's spelled-out answers are usually apt and often witty, but notes that answers are prepared for likely questions, the same question always gets the same answer, some questions are planted, and awkward ones are met with evasions. | instbooks:HN5R4L | pass |
-| 1814 | E. T. A. Hoffmann, *Automata* | German | fiction | Contested: Ferdinand takes the oracle's apt answers as evidence of a knowing mind; Ludwig says the questioner supplies the meaning | After the talking Turk answers his whispered question, Ferdinand concludes that an unseen being reads his thoughts, while Ludwig replies that Ferdinand reads significance into an ambiguous answer produced by chance and by an ordinary hidden person. (speaker: Ferdinand, then Ludwig) | instbooks:HWSPPM | pass |
+**Q03 · Can a machine exercise judgment when faced with circumstances its maker did not anticipate?**
 
-### Q03 · THINKING
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1802 | Charles-Georges Leroy, *Philosophical Letters on the Intelligence and Perfectibility of Animals* | French | book | No: a machine once set in motion acts always the same way; varying with circumstance shows reflection | Leroy, a royal huntsman, argues that animals correct their nests with experience; if they acted without intelligence, like a machine given an impulse, there would be no change in execution, so their variation by age and circumstance proves reflection. | instbooks:HXJHYV |
+| 1821 | Robert Willis, *An Attempt to Analyse the Automaton Chess Player of Mr. de Kempelen* | English | pamphlet | No: mechanism is limited and uniform and cannot meet unforeseen circumstances | Willis, then a Cambridge student, argues that mere mechanism produces only limited and uniform movements and cannot vary its operations to meet the changing circumstances of a chess game, which is the province of intellect, so the Turk must be humanly directed. | instbooks:HN5R19 |
+| 1877 | George Henry Lewes, *Problems of Life and Mind, Second Series: The Physical Basis of Mind* | English | book | No: nothing we know of machines allows them to adjust to new circumstances | Lewes argues that the chess automaton was known to be humanly directed because no machine could answer an opponent's unforeseen moves, and since machines cannot adjust to new circumstances or acquire new combinations through experience, adaptive response shows a non-mechanical agency. | instbooks:32044020284014 |
+| 1885 | Morton Prince, *The Nature of Mind and Human Automatism* | English | book | Yes: nature has already built an automaton that adapts to unforeseen conditions | Prince quotes Lewes's claim that no automaton can learn from experience or adjust to conditions its construction did not anticipate, and answers that such a machine exists, made not by man but by nature, in the human organism. | instbooks:HC37FN |
+| 1894 | John Venn, *Symbolic Logic (2nd ed.)* | English | textbook | No: interpreting results takes tact and judgment, which a logic machine cannot supply | Venn divides reasoning into four steps and argues that a logic machine can help only with the mechanical combination of premises, while stating the data and choosing among readings of the result are matters of tact and judgment, so such devices barely deserve the name of logical engines. | instbooks:32044004605846 |
 
-*Can a machine exercise judgment when faced with circumstances its maker did not anticipate?*
+**Q04 · Does conscious intention help cause bodily action?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1802 | Charles-Georges Leroy, *Philosophical Letters on the Intelligence and Perfectibility of Animals* | French | book | No: a machine once set in motion acts always the same way; varying with circumstance shows reflection | Leroy, a royal huntsman, argues that animals correct their nests with experience; if they acted without intelligence, like a machine given an impulse, there would be no change in execution, so their variation by age and circumstance proves reflection. | instbooks:HXJHYV | pass |
-| 1821 | Robert Willis, *An Attempt to Analyse the Automaton Chess Player of Mr. de Kempelen* | English | pamphlet | No: mechanism is limited and uniform and cannot meet unforeseen circumstances | Willis, then a Cambridge student, argues that mere mechanism produces only limited and uniform movements and cannot vary its operations to meet the changing circumstances of a chess game, which is the province of intellect, so the Turk must be humanly directed. | instbooks:HN5R19 | pass |
-| 1877 | George Henry Lewes, *Problems of Life and Mind, Second Series: The Physical Basis of Mind* | English | book | No: nothing we know of machines allows them to adjust to new circumstances | Lewes argues that the chess automaton was known to be humanly directed because no machine could answer an opponent's unforeseen moves, and since machines cannot adjust to new circumstances or acquire new combinations through experience, adaptive response shows a non-mechanical agency. | instbooks:32044020284014 | pass |
-| 1885 | Morton Prince, *The Nature of Mind and Human Automatism* | English | book | Yes: nature has already built an automaton that adapts to unforeseen conditions | Prince quotes Lewes's claim that no automaton can learn from experience or adjust to conditions its construction did not anticipate, and answers that such a machine exists, made not by man but by nature, in the human organism. | instbooks:HC37FN | pass |
-| 1894 | John Venn, *Symbolic Logic (2nd ed.)* | English | textbook | No: interpreting results takes tact and judgment, which a logic machine cannot supply | Venn divides reasoning into four steps and argues that a logic machine can help only with the mechanical combination of premises, while stating the data and choosing among readings of the result are matters of tact and judgment, so such devices barely deserve the name of logical engines. | instbooks:32044004605846 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1879 | Alexander Bain, *Mind and Body: The Theories of Their Relation* | English | book | Only as one side of a two-sided cause: mind-body causes mind-body | Bain argues that the nervous chain is never broken, so a mental cause is always mind together with brain: fear deranges digestion only through the excited brain, and the sequence is mind-body giving rise to mind-body rather than mind causing body. | instbooks:HC268R |
+| 1885 | Morton Prince, *The Nature of Mind and Human Automatism* | English | book | Yes: consciousness is the brain process itself, so it causes action | Against Huxley's steam-whistle analogy, Prince argues that the molecular disturbances that move the arm are in reality consciousness, so the pain and the idea of relieving it are as much causes of rubbing the arm as the brain changes. | instbooks:HC37FN |
 
-### Q04 · AUTOMATON
+**Q05 · Can human choices be fully explained by physical causes?**
 
-*Does conscious intention help cause bodily action?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1851 | Henry George Atkinson (with Harriet Martineau), *Letters on the Laws of Man's Nature and Development* | English | book | Yes: all mental conditions are traced to physical causes; free will is a delusion | Atkinson tells Martineau that instinct, passion and thought are effects of organised substance, that a man can no more determine his own will than fly, and that all mental peculiarities follow from bodily condition and the influences acting on it. | instbooks:AH3ETK |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1840 | Henry Philip Tappan, *The Doctrine of the Will, Determined by an Appeal to Consciousness* | English | book | Yes: volition is a true first cause, and the body is the first mechanism it appropriates | Tappan argues that human causality directly produces only volitions and efforts, which then appropriate the mechanical powers of bone, muscle and sinew, so physical causes are secondary instruments of willing agents. | instbooks:32044084641059 | weak: classifies causes; does not argue that volition moves the body |
-| 1876 | Charles Elam, *Winds of Doctrine: Being an Examination of the Modern Theories of Automatism and Evolution* | English | book | Yes: the felt causal power of volition is a fundamental intuition that automatism cannot overrule | Elam, a London physician, argues that the intuition of choosing is as certain as anything the senses report, and mocks the claim that volition is only a symbol of the brain state that really causes the act. | instbooks:32044086948379 | weak: mocks the opposing view; states no reason of its own |
-| 1879 | Alexander Bain, *Mind and Body: The Theories of Their Relation* | English | book | Only as one side of a two-sided cause: mind-body causes mind-body | Bain argues that the nervous chain is never broken, so a mental cause is always mind together with brain: fear deranges digestion only through the excited brain, and the sequence is mind-body giving rise to mind-body rather than mind causing body. | instbooks:HC268R | pass |
-| 1885 | Morton Prince, *The Nature of Mind and Human Automatism* | English | book | Yes: consciousness is the brain process itself, so it causes action | Against Huxley's steam-whistle analogy, Prince argues that the molecular disturbances that move the arm are in reality consciousness, so the pain and the idea of relieving it are as much causes of rubbing the arm as the brain changes. | instbooks:HC37FN | pass |
+**Q06 · Can people be morally responsible for actions that follow necessarily from their bodily constitution and circumstances?**
 
-### Q05 · AUTOMATON
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1841 | Charles Bray, *The Philosophy of Necessity; or, The Law of Consequences, vol. 1* | English | book | Yes, but only forward-looking: punishment is justified solely to prevent repetition | Bray, a Coventry ribbon manufacturer, argues that since no one could have acted otherwise, accountability means only suffering the consequences needed to prevent future offences, and any suffering beyond that is an injustice. | instbooks:HNJCTM |
+| 1864 | Daniel D. Whedon, *The Freedom of the Will as a Basis of Human Responsibility and a Divine Government* | English | book | No: a necessitated agent is as irresponsible as the springs of a gun-lock | Whedon, a Methodist theologian, imagines an automatic fiend and argues that if its volitions are necessitated it is bad but blameless, so pain inflicted on it is a mechanical adjustment, not punishment. | instbooks:HNW7FI |
+| 1871 | Oliver Wendell Holmes, *Mechanism in Thought and Morals* | English | lecture | No: inherited tendencies belong to the machinery, for which the Creator alone is responsible | Holmes argues that moral character cannot be measured like physical quantities, so congenital perverse instincts are part of the machinery for which only the Sovereign Power is responsible, and they should count in our favour. | instbooks:AH6PUD |
+| 1876 | Henry Maudsley, *Responsibility in Mental Disease* | English | book | Partly: many sane people have lower responsibility because of their constitution | Maudsley argues that law wrongly assumes equal moral capacity, since many people who are not insane have natures that never assimilate moral teaching, so the wicked act from an inclination of their nature and a feeble will rather than free choice. | instbooks:HC21IS |
 
-*Can human choices be fully explained by physical causes?*
+**Q07 · Does living activity require a principle beyond physical and chemical processes?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1851 | Henry George Atkinson (with Harriet Martineau), *Letters on the Laws of Man's Nature and Development* | English | book | Yes: all mental conditions are traced to physical causes; free will is a delusion | Atkinson tells Martineau that instinct, passion and thought are effects of organised substance, that a man can no more determine his own will than fly, and that all mental peculiarities follow from bodily condition and the influences acting on it. | instbooks:AH3ETK | pass |
-| 1867 | Moritz Wilhelm Drobisch, *Moral Statistics and Human Freedom of the Will* | German | book | No (on statistical grounds): regularities in crime and marriage rates do not show that individual acts are compelled | Drobisch argues that Quetelet's average man is a mathematical fiction: the regularity moral statistics finds is the product of relatively constant conditions plus countless variable causes, not a law that precedes and compels individual actions. | instbooks:HNUXNF | weak: rejects a statistical law of conduct but defers the free-will question |
-| 1875 | William B. Carpenter, *The Doctrine of Human Automatism: A Lecture Delivered before the Sunday Lecture Society* | English | lecture | No: the self can take in hand the formation of its own character | Carpenter tells a popular Sunday audience that although character is first formed for us by inheritance and circumstance, there comes a time when each self can direct its own development, so choices are not fully fixed by constitution and surroundings. | instbooks:32044020060505 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1819 | Thomas Rennell, *Remarks on Scepticism, Especially as It Is Connected with the Subjects of Organization and Life* | English | book | Yes: inert matter needs a principle of motion beyond its structure | Rennell, a clergyman answering Lawrence, argues that a bullet in a wall must have been fired by some engine, so the far greater activity of a living body must come from a principle superadded to its inert matter. | instbooks:AH49MM |
+| 1822 | William Lawrence, *Lectures on Physiology, Zoology, and the Natural History of Man* | English | lecture | No: a vital principle explains nothing and burdens physiology | Lawrence argues that vital properties belong to organised structure as chemical affinity and gravity belong to matter, so superadded vital principles or subtle fluids explain nothing. | instbooks:32044011377835 |
+| 1874 | Lionel S. Beale, *Protoplasm; or, Matter and Life (3rd ed.)* | English | book | Yes: life is a power distinct from ordinary force | Beale argues that the living differs from the dead in kind, because dead matter never returns to life, whereas a stopped steam engine restarts when its fire is relit. | instbooks:32044023775190 |
 
-### Q06 · AUTOMATON
+**Q08 · Does an organism's ability to repair itself distinguish it fundamentally from a machine?**
 
-*Can people be morally responsible for actions that follow necessarily from their bodily constitution and circumstances?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1885 | H. Newell Martin, *The Human Body: An Account of Its Structure and Activities and the Conditions of Its Healthy Working* | English | textbook | No: the body is a self-building and self-repairing machine | Martin's physiology textbook calls the body a self-repairing machine whose building and repair materials come in food, comparing its non-oxidizable parts to an engine built of metal that does not rust. | instbooks:HW1VQX |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1841 | Charles Bray, *The Philosophy of Necessity; or, The Law of Consequences, vol. 1* | English | book | Yes, but only forward-looking: punishment is justified solely to prevent repetition | Bray, a Coventry ribbon manufacturer, argues that since no one could have acted otherwise, accountability means only suffering the consequences needed to prevent future offences, and any suffering beyond that is an injustice. | instbooks:HNJCTM | pass |
-| 1864 | Daniel D. Whedon, *The Freedom of the Will as a Basis of Human Responsibility and a Divine Government* | English | book | No: a necessitated agent is as irresponsible as the springs of a gun-lock | Whedon, a Methodist theologian, imagines an automatic fiend and argues that if its volitions are necessitated it is bad but blameless, so pain inflicted on it is a mechanical adjustment, not punishment. | instbooks:HNW7FI | pass |
-| 1871 | Oliver Wendell Holmes, *Mechanism in Thought and Morals* | English | lecture | No: inherited tendencies belong to the machinery, for which the Creator alone is responsible | Holmes argues that moral character cannot be measured like physical quantities, so congenital perverse instincts are part of the machinery for which only the Sovereign Power is responsible, and they should count in our favour. | instbooks:AH6PUD | pass |
-| 1876 | Henry Maudsley, *Responsibility in Mental Disease* | English | book | Partly: many sane people have lower responsibility because of their constitution | Maudsley argues that law wrongly assumes equal moral capacity, since many people who are not insane have natures that never assimilate moral teaching, so the wicked act from an inclination of their nature and a feeble will rather than free choice. | instbooks:HC21IS | pass |
+**Q09 · Can the development of an organism from an egg be explained as the operation of a machine?**
 
-### Q07 · LIFE
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1678 | Ralph Cudworth, *The True Intellectual System of the Universe* | English | book | No: the formation of an animal's organs cannot be explained by mechanism alone | Cudworth argues that accounting for the heart, valves and other organs by the seed's matter happening to move so and so is as absurd as explaining a carved fabric by the falling of the carpenter's tools, so formation needs a directing (final) cause. | instbooks:HW2S1N |
+| 1912 | Ronald Campbell Macfie, *Heredity, Evolution, and Vitalism* | English | book | No: organisms are not merely machines because the whole body is built up from the ovum | Macfie grants that respiration and circulation are mechanical but argues that living beings are not merely machines, since no machine is built by a microscopic machine (the ovum) that turns out millions of self-running machines working as a harmonious whole. | instbooks:HC2QA3 |
 
-*Does living activity require a principle beyond physical and chemical processes?*
+**Q10 · Can a fixed procedure for reasoning settle a disagreement when the participants accept the same premises?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1819 | Thomas Rennell, *Remarks on Scepticism, Especially as It Is Connected with the Subjects of Organization and Life* | English | book | Yes: inert matter needs a principle of motion beyond its structure | Rennell, a clergyman answering Lawrence, argues that a bullet in a wall must have been fired by some engine, so the far greater activity of a living body must come from a principle superadded to its inert matter. | instbooks:AH49MM | pass |
-| 1822 | William Lawrence, *Lectures on Physiology, Zoology, and the Natural History of Man* | English | lecture | No: a vital principle explains nothing and burdens physiology | Lawrence argues that vital properties belong to organised structure as chemical affinity and gravity belong to matter, so superadded vital principles or subtle fluids explain nothing. | instbooks:32044011377835 | pass |
-| 1874 | Lionel S. Beale, *Protoplasm; or, Matter and Life (3rd ed.)* | English | book | Yes: life is a power distinct from ordinary force | Beale argues that the living differs from the dead in kind, because dead matter never returns to life, whereas a stopped steam engine restarts when its fire is relit. | instbooks:32044023775190 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1870 | John Henry Newman, *An Essay in Aid of a Grammar of Assent* | English | book | No: reasoning about concrete matters is too multiform to be measured by rule | Newman holds that the processes leading to assent are too subtle and implicit to be measured by rule, so that even the force of a stated reason ('for') can only be judged by persons with experience, not tested by formal logic. | instbooks:AH4LYW |
 
-### Q08 · LIFE
+**Q11 · Should a judge follow a general rule when it produces an unjust result in a particular case?**
 
-*Does an organism's ability to repair itself distinguish it fundamentally from a machine?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1689 | John Selden, *Table-Talk* | English | other | Yes: follow the law, because equity depends on the conscience of whoever is Chancellor | Selden prefers law to equity because law is a known measure, while equity varies with the size of each Chancellor's conscience, like a measure based on the Chancellor's foot. | instbooks:HWP1GE |
+| 1839 | Francis Lieber, *Legal and Political Hermeneutics* | English | book | No: when circumstances change, the letter of a rule must give way to its intent | Lieber argues that construction is unavoidable because no lawgiver can foresee every case, so that after a change of circumstances one must give up either the letter of the law or its intent. | instbooks:32044024630980 |
+| 1903 | Eugen Ehrlich, *Free Finding of Law and Free Legal Science* | German | lecture | No: technical rule-application is a 'sin against the Holy Ghost'; justice depends on the judge's personality | Ehrlich argues that mechanical, technical law-finding hides the only real guarantee of sound and impartial judgment, which is the intellectual and moral stature of the judge, not the code's paragraphs. | instbooks:32044059121343 |
+| 1921 | Benjamin N. Cardozo, *The Nature of the Judicial Process* | English | lecture | Sometimes: judges may extend or restrict rules for social welfare, but certainty and uniformity are weighty parts of that welfare | Cardozo rejects formalism and lets social welfare decide how far a rule is extended, yet treats certainty, uniformity and order as values that can outweigh occasional hardship, to be weighed case by case. | instbooks:32044020069050 |
+
+**Q12 · Can numerical measures adequately determine a person's fitness for a position of responsibility?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1882 | Walter Allen Smith, *Reform in the Government Service (Prize Essays on Civil Service Reform)* | English | periodical | Yes, with limits: examinations are imperfect but better than patronage, and probation covers what they miss | Smith concedes that examinations cannot show a teacher's discipline or a clerk's business capacity, but says no better expedient exists for impartial selection and that a probation period should follow. | instbooks:32044014707426 |
+| 1889 | W. Phillips (letter in Auberon Herbert's collection), *The Sacrifice of Education to Examination* | English | other | No: a short conversation reveals fitness better than examinations with thousands of marks | The writer, who appoints junior clerks for the Gas Light and Coke Company, says five minutes' conversation sorts reliable from untrustworthy boys and that marks give no knowledge of personal fitness, citing his record with nearly five hundred officers. | instbooks:32044096986930 |
+| 1903 | Eugen Ehrlich, *Free Finding of Law and Free Legal Science* | German | lecture | No: passing examinations does not show fitness for the judge's office | Ehrlich argues that judging requires intellectual and moral greatness far above the average and that not everyone who has passed a few examinations and found his way in the code's paragraphs is equal to it. | instbooks:32044059121343 |
+| 1919 | Henry C. Link, *Employment Psychology* | English | textbook | No (for higher posts): tests cannot select executives because their work cannot be analysed or measured | Link, an industrial psychologist who tested factory workers, says tests cannot yet select executives and organizers, because psychology can only test work it can analyse and understand, and higher work is too intricate even for its holders to describe. | instbooks:32044010220572 |
+
+**Q13 · Can machines undergo a process of evolution even when humans build and reproduce them?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1901 | Otto Bütschli, *Mechanism and Vitalism* | German | lecture | Yes: machines develop by chance combinations from which the useful are kept, as organisms do under Darwin's theory | Bütschli argues that the steam engine arose not from a finished idea but from chance observations and long trial of small combinations, the useless discarded and the useful retained, so machine development closely resembles Darwinian change in organisms. | instbooks:32044106445570 |
+| 1902 | Gustav Wolff, *Mechanism and Vitalism* | German | pamphlet | No: machine development was steered throughout by conscious purpose, so it is not Darwinian | Wolff replies to Bütschli that every step in a machine's development was directed by an intellect that chose and combined materials by its ideas, so chance supplied only the occasions and the likeness to Darwinian evolution holds only if this factor is left out. | instbooks:HNY82M |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1885 | H. Newell Martin, *The Human Body: An Account of Its Structure and Activities and the Conditions of Its Healthy Working* | English | textbook | No: the body is a self-building and self-repairing machine | Martin's physiology textbook calls the body a self-repairing machine whose building and repair materials come in food, comparing its non-oxidizable parts to an engine built of metal that does not rust. | instbooks:HW1VQX | pass |
-| 1901 | Otto Bütschli, *Mechanism and Vitalism* | German | book | No: regeneration is restoration of equilibrium, like a water drop regaining its shape | Bütschli argues that removing a part only changes conditions; whether the remaining system regenerates depends on whether its equilibrium is disturbed, so restoration of lost parts is no different in kind from a drop of water returning to its form. | instbooks:HN5YZB | pass |
-| 1920 | J. Arthur Thomson, *The System of Animate Nature (Gifford Lectures), vol. 1* | English | lecture | Yes: continual self-repair marks living from inorganic change | Thomson argues that inorganic change turns one substance into another, as iron becomes rust, while organisms repair their specific organization continually, which he regards as a fundamental characteristic of life. | instbooks:32044038395174 | pass |
+**Q14 · Would machines becoming more capable than humans necessarily place humans in a subordinate position?**
 
-### Q09 · LIFE
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1833 | Peter Gaskell, *The Manufacturing Population of England* | English | book | Yes: as machines supply power and skill, workers become mere watchers and are displaced | Gaskell, a surgeon, argues that human power is yielding to a more subservient mechanical power, making adult labour worth no more than a child's, reducing workers to watchers who supply the machine's wants, and pushing adult men out. | instbooks:32044004819405 |
+| 1898 | Jean Grave, *Machinery* | French | pamphlet | No: machines harm workers only because masters own them; held in common they would serve everyone | Grave tells workers that machinery is an evil in present society only because masters turn its improvements to their own profit, and that if machines belonged to all they would produce without rest and be a benefit. | instbooks:LI595R |
+| 1922 | Arthur Pound, *The Iron Man in Industry* | English | book | Partly: machines that absorb skill make the worker replaceable, but the subordination runs through the labour market | Pound, a newspaperman in factory towns, argues that automatic machinery has trampled down the skill barrier, so any person of ordinary intelligence can replace the machine-tender and the worker's hold on his job has loosened. | instbooks:32044081996431 |
 
-*Can the development of an organism from an egg be explained as the operation of a machine?*
+**Q15 · Should extending human life indefinitely be a goal of technical progress?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1796 | Christoph Wilhelm Hufeland, *The Art of Prolonging Life* | English | book | Qualified: prolong life only as active, purposeful life; mere longer existence is not the aim | Hufeland condemns ways of prolonging life that leave people a burden who 'exist longer than they live', and holds that the art must remember that human life means business, enjoyment and fulfilling one's destination, not merely existing. | instbooks:HC38AA |
+| 1867 | William Sweetser, *Human Life: Considered in its Present Condition and Future Developments, Especially with Reference to its Duration* | English | book | Yes: inquiry into greatly prolonging life is legitimate; science has no forbidden fields | Sweetser, a physician, says whether life can be extended far beyond its allotment is a rational question, and rejects the view that combating the laws of life is a profanation, because human science has no forbidden fields. | instbooks:HXCY9W |
+| 1904 | Harry Gaze, *How to Live Forever: The Science and Practice* | English | book | Yes: life should be perpetuated because one lifetime is too short for art and knowledge | Gaze, a New Thought lecturer, argues that life is worth perpetuating for its opportunities, since a century of music only begins to make it interesting and the pursuit of knowledge demands immortality in the flesh. | instbooks:32044014276885 |
+| 1909 | C. A. Stephens, *Natural Salvation: Immortal Life on the Earth from the Growth of Knowledge* | English | book | Yes: science should aim at deathless life, which would be a higher kind of life | Stephens, a physician and popular writer, argues that scientific knowledge can make cell age and death remediable, that greatly prolonged life would be a broader and happier life, and that a race of deathless people is better than thirty-year generations of suffering ones. | instbooks:32044062446844 |
+
+**Q16 · Would replacing bodily organs with artificial substitutes preserve the identity of the person?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1678 | Ralph Cudworth, *The True Intellectual System of the Universe* | English | book | No: the formation of an animal's organs cannot be explained by mechanism alone | Cudworth argues that accounting for the heart, valves and other organs by the seed's matter happening to move so and so is as absurd as explaining a carved fabric by the falling of the carpenter's tools, so formation needs a directing (final) cause. | instbooks:HW2S1N | pass |
-| 1874 | Wilhelm His, *Unsere Körperform und das physiologische Problem ihrer Entstehung* | German | book | Yes: each stage of development from the egg should be derived as the necessary physical consequence of the stage before | His insists that embryology is a physiological science that must derive every stage of the form built from the egg as the necessary consequence of the preceding one, rather than explaining form by heredity and descent; elsewhere in the letters he models folding as the mechanics of an unequally growing elastic plate. | instbooks:32044080786676 | pass |
-| 1912 | Ronald Campbell Macfie, *Heredity, Evolution, and Vitalism* | English | book | No: organisms are not merely machines because the whole body is built up from the ovum | Macfie grants that respiration and circulation are mechanical but argues that living beings are not merely machines, since no machine is built by a microscopic machine (the ovum) that turns out millions of self-running machines working as a harmonious whole. | instbooks:HC2QA3 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1736 | Joseph Butler, *The Analogy of Religion (Part I, ch. 1, 'Of a Future Life')* | English | book | Yes: limbs and sense organs are instruments, so replacing one with an artificial leg leaves the same living agent | Butler argues that after losing a limb the person's power of moving is undiminished and can walk with an artificial leg as it uses a pole or lever, so organs are instruments and no part of the self. | instbooks:HN32KI |
+| 1820 | Thomas Brown, *Lectures on the Philosophy of the Human Mind* | English | lecture | Qualified: personal identity includes the body, which may be totally replaced only if the change is gradual | Brown, against Reid, says the ordinary idea of a person includes some bodily identity, though a loose one that admits even total change of the body provided the change is gradual enough to keep apparent continuity. | instbooks:HNUG9Y |
 
-### Q10 · JUDGMENT
+**Q17 · Does introducing labor-saving machinery improve workers' lives?**
 
-*Can a fixed procedure for reasoning settle a disagreement when the participants accept the same premises?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1831 | Charles Knight (for the Society for the Diffusion of Useful Knowledge), *The Results of Machinery, Namely, Cheap Production and Increased Employment, Exhibited: Being an Address to the Working-Men of the United Kingdom* | English | pamphlet | Yes: labor-saving tools are what keep working men from starvation | Addressing machine-breakers directly, Knight argues that every better tool is valued because it saves labor, and that working men without such tools would starve, as a New Zealand chief without spades or hoes did. | instbooks:32044024355083 |
+| 1847 | William Dodd, *The Laboring Classes of England, Especially Those Engaged in Agriculture and Manufactures; in a Series of Letters* | English | book | No: the spinner does five men's work for one man's wage and is worn out | A former factory worker argues from the figures of his own trade that larger mules let one spinner do the work of five men for the wage one man earned before, while the work breaks his health within a few years. | instbooks:32044014244032 |
+| 1851 | Robert Dale Owen, *Labor: Its History and Its Prospects. An Address Delivered before the Young Men's Mercantile Library Association of Cincinnati* | English | lecture | No, not as now used: machines that should have freed the laborer compete with him | Owen says that machinery equal to forty slaves per worker ought to have made the laborer rich and leisured, but the actual result is displacement, which is why English laborers burn threshing machines. | instbooks:32044010435048 |
+| 1879 | Frederick Perry Powers, *Labor-Making Machinery: An Essay Read before the Chicago Philosophical Society, April 12, 1879* | English | lecture | Yes: machinery shortens the working day and lightens toil | Powers answers Mill's doubt directly: where machinery has been introduced the working day is shorter and the work needs less strength, and machinery lets a territory support more people at a given level of comfort. | instbooks:32044088904214 |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1662 | Antoine Arnauld and Pierre Nicole, *Logic, or the Art of Thinking (Port-Royal Logic)* | French | textbook | Partly: rules of reasoning can expose a bad argument, but most disagreement and error lies in judgments, not inferences | The Port-Royal authors allow that rules of good and bad reasoning sometimes expose the defect of tangled arguments, but say their use does not reach far because most human errors come from false judgments from which bad conclusions are drawn. | instbooks:HNVHLY | pass |
-| 1870 | John Henry Newman, *An Essay in Aid of a Grammar of Assent* | English | book | No: reasoning about concrete matters is too multiform to be measured by rule | Newman holds that the processes leading to assent are too subtle and implicit to be measured by rule, so that even the force of a stated reason ('for') can only be judged by persons with experience, not tested by formal logic. | instbooks:AH4LYW | pass |
+**Q18 · Does operating machinery develop or diminish a worker's skill and judgment?**
 
-### Q11 · JUDGMENT
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1833 | P. Gaskell, *The Manufacturing Population of England: Its Moral, Social, and Physical Conditions, and the Changes Which Have Arisen from the Use of Steam Machinery* | English | book | Diminish: the adult becomes a mere watcher needing no physical or intellectual exertion | Gaskell, a Manchester surgeon, argues that power machinery turns adult workers into watchers and feeders who need no physical or intellectual exertion, so their labor is worth no more than a child's and men are replaced by women and children. | instbooks:32044004819405 |
+| 1889 | G. Valbert (Victor Cherbuliez), *L'Âge des machines* | French | periodical | Diminish: the machine invents for the worker, who becomes a little machine himself | Craftsmen once had to invent; now machines do the inventing, and the worker who serves one must repeat the same act without end, so machines condemn whoever works by them to impersonality. | https://fr.wikisource.org/wiki/L’Âge_des_machines |
+| 1898 | Jean Grave, *Le machinisme* | French | pamphlet | Diminish: following a machine is learned in a week, so the trade is lost and the worker is replaceable | The anarchist Grave argues that the automatic machine has lowered vocational skill, since a week's practice replaces years of apprenticeship, and that the resulting ease of replacement serves the employer. | instbooks:LI595R |
+| 1900 | Émile Levasseur, *Comparaison du travail à la main et du travail à la machine* | French | lecture | Develop: machine work asks less of the body and more of the mind | Levasseur rejects the claim that machines brutalize workers: tending a machine is less monotonous than hammering nails and demands vigilance, so the change is less bodily effort and more mental effort. | instbooks:HNDMEF |
+| 1912 | James Hartness, *The Human Factor in Works Management* | English | book | Develop: repetition work builds concentration | A machine-tool manufacturer argues that repetition work is not degrading but the best means of developing concentration, since it forbids a wandering mind. | instbooks:32044011600822 |
+| 1915 | American trade unions (statement of objections compiled by Robert F. Hoxie for the U.S. Commission on Industrial Relations), *Scientific Management and Labor, Appendix V: The Trade Union Objections to Scientific Management* | English | report | Diminish: time study destroys craft skill and makes the worker a semi-automatic attachment to the machine | The unions' statement holds that time and motion study split work into minute tasks, destroy crafts and training, and reduce the worker to a monotonous routine and a semi-automatic attachment to the machine. | instbooks:32044004351367 |
+| 1922 | Arthur Pound, *The Iron Man in Industry: An Outline of the Social Significance of Automatic Machinery* | English | book | Both: skill is removed from most operatives and concentrated in a few designers | Pound argues that automatic machinery takes skill away from the rank and file and concentrates it in toolmakers, engineers and organizers, who need longer training than ever. | instbooks:32044081996431 |
 
-*Should a judge follow a general rule when it produces an unjust result in a particular case?*
+**Q19 · Who should receive the benefits when machinery increases the amount a worker can produce?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1689 | John Selden, *Table-Talk* | English | other | Yes: follow the law, because equity depends on the conscience of whoever is Chancellor | Selden prefers law to equity because law is a known measure, while equity varies with the size of each Chancellor's conscience, like a measure based on the Chancellor's foot. | instbooks:HWP1GE | pass |
-| 1839 | Francis Lieber, *Legal and Political Hermeneutics* | English | book | No: when circumstances change, the letter of a rule must give way to its intent | Lieber argues that construction is unavoidable because no lawgiver can foresee every case, so that after a change of circumstances one must give up either the letter of the law or its intent. | instbooks:32044024630980 | pass |
-| 1903 | Eugen Ehrlich, *Free Finding of Law and Free Legal Science* | German | lecture | No: technical rule-application is a 'sin against the Holy Ghost'; justice depends on the judge's personality | Ehrlich argues that mechanical, technical law-finding hides the only real guarantee of sound and impartial judgment, which is the intellectual and moral stature of the judge, not the code's paragraphs. | instbooks:32044059121343 | pass |
-| 1921 | Benjamin N. Cardozo, *The Nature of the Judicial Process* | English | lecture | Sometimes: judges may extend or restrict rules for social welfare, but certainty and uniformity are weighty parts of that welfare | Cardozo rejects formalism and lets social welfare decide how far a rule is extended, yet treats certainty, uniformity and order as values that can outweigh occasional hardship, to be weighed case by case. | instbooks:32044020069050 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1898 | Jean Grave, *Le machinisme* | French | pamphlet | Everyone, through common ownership of the machines | Grave argues that machines harm workers only because masters take the whole gain; if the machines belonged to all, more output would mean more ease for all and idle stocks would be wealth, not unemployment. | instbooks:LI595R |
+| 1900 | Émile Levasseur, *Comparaison du travail à la main et du travail à la machine* | French | lecture | Mainly the consumer: neither worker nor employer caused the gain | Levasseur argues that the worker has no claim to the whole gain because the machine, not he, caused it and he spends no more effort or skill; the employer has no claim either unless he invented it; competition rightly passes most of the gain to consumers. | instbooks:HNDMEF |
+| 1922 | William Preston Hill, *Shadow or Substance: Socialism or Individualism?* | English | book | Owners earn a return for risk, and in fact workers already receive most of the gain | Hill argues from the 1910 census that machine owners, whose machinery did the work of 14 men per worker, took only half as much as the wages paid, so workers already receive most of the gain and owners' profit is a fair return for risk. | instbooks:HNMVBG |
 
-### Q12 · JUDGMENT
+**Q20 · Does making an action habitual increase a person's freedom to act?**
 
-*Can numerical measures adequately determine a person's fitness for a position of responsibility?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1857 | Joseph John Gurney, *Thoughts on Habit and Discipline* | English | book | No: habit forms imperceptibly, and before we know it we have resigned our freedom | The Quaker Gurney warns that customs form by imperceptible steps, so a person finds he has resigned his freedom and is no longer master of his own actions. | instbooks:AH4MBV |
+| 1886 | Paul Radestock, *Habit and Its Importance in Education: An Essay in Pedagogical Psychology* | English | textbook | Qualified no: extreme habituation robs a person of free self-determination, though mechanism saves effort | Radestock holds that extreme habituation turns thought and action mechanical and makes a slave of the person, leaving him helpless in unusual cases, while granting that mechanical functions save power for other uses. | instbooks:32044029943909 |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1882 | Walter Allen Smith, *Reform in the Government Service (Prize Essays on Civil Service Reform)* | English | periodical | Yes, with limits: examinations are imperfect but better than patronage, and probation covers what they miss | Smith concedes that examinations cannot show a teacher's discipline or a clerk's business capacity, but says no better expedient exists for impartial selection and that a probation period should follow. | instbooks:32044014707426 | pass |
-| 1889 | W. Phillips (letter in Auberon Herbert's collection), *The Sacrifice of Education to Examination* | English | other | No: a short conversation reveals fitness better than examinations with thousands of marks | The writer, who appoints junior clerks for the Gas Light and Coke Company, says five minutes' conversation sorts reliable from untrustworthy boys and that marks give no knowledge of personal fitness, citing his record with nearly five hundred officers. | instbooks:32044096986930 | pass |
-| 1903 | Eugen Ehrlich, *Free Finding of Law and Free Legal Science* | German | lecture | No: passing examinations does not show fitness for the judge's office | Ehrlich argues that judging requires intellectual and moral greatness far above the average and that not everyone who has passed a few examinations and found his way in the code's paragraphs is equal to it. | instbooks:32044059121343 | pass |
-| 1919 | Henry C. Link, *Employment Psychology* | English | textbook | No (for higher posts): tests cannot select executives because their work cannot be analysed or measured | Link, an industrial psychologist who tested factory workers, says tests cannot yet select executives and organizers, because psychology can only test work it can analyse and understand, and higher work is too intricate even for its holders to describe. | instbooks:32044010220572 | pass |
+**Q21 · Can repeated obedience train a person to obey without judgment?**
 
-### Q13 · SUCCESSION
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1894 | Armand Corre, *Militarisme* | French | pamphlet | Yes: military drill aims at automatism and the annihilation of character and will | Corre, a former naval physician, argues that officers still seek in citizen-soldiers the automatism of the old professional soldier, reduced to a domestic animal and a rifle-handling machine, through a degrading drilling that annihilates character and will. | instbooks:32044080692726 |
+| 1898 | Léon Furnémont, *Le militarisme: voilà l'ennemi* | French | pamphlet | Yes: passive, mechanical obedience kills intelligence and initiative | The Belgian socialist Furnémont answers the defence of army discipline by saying that passive, mechanical obedience kills intelligence and initiative, and that real discipline comes from conviction in a just cause. | instbooks:LI596C |
+| 1900 | Charlotte Perkins Gilman, *Concerning Children* | English | book | Yes: the habit of obedience develops facility in following others, not judgment | Gilman argues that a habit of obedience forced on a child does not develop judgment and will, but trains a facility in following other people's judgment that produces a mindless, will-less mass. | instbooks:32044087382800 |
 
-*Can machines undergo a process of evolution even when humans build and reproduce them?*
+**Q22 · Does organizing daily life by fixed schedules strengthen or weaken self-government?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1878 | Robert H. Thurston, *A History of the Growth of the Steam-Engine* | English | book | Yes: a great invention is a growth, not a creation of one mind | Thurston, an engineering professor, argues that the steam engine's history shows great inventions are aggregations or final steps of progressions, 'not a creation, but a growth', which is why the same invention appears in several places at once. | instbooks:32044056234974 | weak: invention as cumulative growth, not machines evolving |
-| 1901 | Otto Bütschli, *Mechanism and Vitalism* | German | lecture | Yes: machines develop by chance combinations from which the useful are kept, as organisms do under Darwin's theory | Bütschli argues that the steam engine arose not from a finished idea but from chance observations and long trial of small combinations, the useless discarded and the useful retained, so machine development closely resembles Darwinian change in organisms. | instbooks:32044106445570 | pass |
-| 1902 | Gustav Wolff, *Mechanism and Vitalism* | German | pamphlet | No: machine development was steered throughout by conscious purpose, so it is not Darwinian | Wolff replies to Bütschli that every step in a machine's development was directed by an intellect that chose and combined materials by its ideas, so chance supplied only the occasions and the likeness to Darwinian evolution holds only if this factor is left out. | instbooks:HNY82M | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1904 | LeBaron Russell Briggs, *Routine and Ideals* | English | book | Strengthen: routine imposed or self-imposed protects work from caprice | Harvard's dean argues that routine is almost necessary to effective life because it removes the temptation to work only by mood, and that a person without imposed routine must impose it on himself or go to pieces. | instbooks:32044028561652 |
+| 1920 | Christine Frederick, *Household Engineering: Scientific Management in the Home* | English | book | Strengthen: a schedule is not a treadmill; it is the only plan that forces regular rest | Frederick answers housewives who refuse to work 'like factory work' that a schedule guarantees definite rest periods and an end to the day's work, which working by feeling never does. | instbooks:RSLFCF |
 
-### Q14 · SUCCESSION
+**Q23 · Does relying on written records weaken the ability to remember?**
 
-*Would machines becoming more capable than humans necessarily place humans in a subordinate position?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1853 | O. S. Fowler, *Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction* | English | book | Yes: those who keep accounts in their heads remember better than those who trust books | The phrenologist Fowler cites illiterate traders who kept exact accounts in memory until they trusted written books, and concludes that memory is weak in civilized people because they do not exercise it. | instbooks:32044020336236 |
+| 1902 | Eustace Miles, *How to Remember, without Memory Systems or with Them* | English | book | Partly: note-books properly relieve memory, but used in excess they take over work memory should do | Miles recommends note-books as the best way to relieve memory, but objects to their excessive use, comparing them to servants: the art is knowing what to hand over and what to do oneself. | instbooks:32044051133858 |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1833 | Peter Gaskell, *The Manufacturing Population of England* | English | book | Yes: as machines supply power and skill, workers become mere watchers and are displaced | Gaskell, a surgeon, argues that human power is yielding to a more subservient mechanical power, making adult labour worth no more than a child's, reducing workers to watchers who supply the machine's wants, and pushing adult men out. | instbooks:32044004819405 | pass |
-| 1898 | Jean Grave, *Machinery* | French | pamphlet | No: machines harm workers only because masters own them; held in common they would serve everyone | Grave tells workers that machinery is an evil in present society only because masters turn its improvements to their own profit, and that if machines belonged to all they would produce without rest and be a benefit. | instbooks:LI595R | pass |
-| 1922 | Arthur Pound, *The Iron Man in Industry* | English | book | Partly: machines that absorb skill make the worker replaceable, but the subordination runs through the labour market | Pound, a newspaperman in factory towns, argues that automatic machinery has trampled down the skill barrier, so any person of ordinary intelligence can replace the machine-tender and the worker's hold on his job has loosened. | instbooks:32044081996431 | pass |
+**Q24 · Does using calculating devices weaken the ability to calculate without them?**
 
-### Q15 · TRANSCENDENCE
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1894 | George Trumbull Ladd, *Psychology, Descriptive and Explanatory: A Treatise of the Phenomena, Laws, and Development of Human Mental Life* | English | textbook | Yes: habitual use of an abacus turns calculation into association, not reasoning | Ladd argues that the more counting aids are habitually used, the more calculation becomes perception and association instead of reasoning, citing the Japanese tradesman who is fast on the soroban but knows almost no mental arithmetic. | instbooks:HWRCYD |
 
-*Should extending human life indefinitely be a goal of technical progress?*
+**Q25 · Does relying on machinery for ordinary necessities reduce people's ability to provide for themselves?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1796 | Christoph Wilhelm Hufeland, *The Art of Prolonging Life* | English | book | Qualified: prolong life only as active, purposeful life; mere longer existence is not the aim | Hufeland condemns ways of prolonging life that leave people a burden who 'exist longer than they live', and holds that the art must remember that human life means business, enjoyment and fulfilling one's destination, not merely existing. | instbooks:HC38AA | pass |
-| 1867 | William Sweetser, *Human Life: Considered in its Present Condition and Future Developments, Especially with Reference to its Duration* | English | book | Yes: inquiry into greatly prolonging life is legitimate; science has no forbidden fields | Sweetser, a physician, says whether life can be extended far beyond its allotment is a rational question, and rejects the view that combating the laws of life is a profanation, because human science has no forbidden fields. | instbooks:HXCY9W | pass |
-| 1904 | Harry Gaze, *How to Live Forever: The Science and Practice* | English | book | Yes: life should be perpetuated because one lifetime is too short for art and knowledge | Gaze, a New Thought lecturer, argues that life is worth perpetuating for its opportunities, since a century of music only begins to make it interesting and the pursuit of knowledge demands immortality in the flesh. | instbooks:32044014276885 | pass |
-| 1909 | C. A. Stephens, *Natural Salvation: Immortal Life on the Earth from the Growth of Knowledge* | English | book | Yes: science should aim at deathless life, which would be a higher kind of life | Stephens, a physician and popular writer, argues that scientific knowledge can make cell age and death remediable, that greatly prolonged life would be a broader and happier life, and that a race of deathless people is better than thirty-year generations of suffering ones. | instbooks:32044062446844 | pass |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1833 | Peter Gaskell, *The Manufacturing Population of England* | English | book | Yes: factory work leaves mill girls unable to run a household | Gaskell, a surgeon, argues that because girls enter the mills as children and families are broken up by factory hours, women of the manufacturing population never learn cooking and domestic economy, so that no wage can make up for the lost capacity. | instbooks:32044004819405 |
+| 1870 | Ralph Waldo Emerson, *Works and Days, in Society and Solitude* | English | lecture | Yes: each improvement to the engine unteaches its operator | Emerson argues that machinery is aggressive: every improvement in the engine removes an act from the engineer, so that its tenders lose the skill it once required and are helpless when it breaks. | instbooks:32044021671334 |
 
-### Q16 · TRANSCENDENCE
+**Q26 · Can inventors remain responsible for harmful uses of their inventions that they did not intend?**
 
-*Would replacing bodily organs with artificial substitutes preserve the identity of the person?*
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1920 | Frederick Soddy, *The Control of Wealth, in Science and Life: Aberdeen Addresses* | English | lecture | No: the user, not the inventor, is responsible | Soddy, a Nobel chemist writing during the war, argues that an invention can be turned to the opposite of its purpose, and that the guilt then lies with the user, so science is not responsible for the morals of its employers. | instbooks:32044054995782 |
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1736 | Joseph Butler, *The Analogy of Religion (Part I, ch. 1, 'Of a Future Life')* | English | book | Yes: limbs and sense organs are instruments, so replacing one with an artificial leg leaves the same living agent | Butler argues that after losing a limb the person's power of moving is undiminished and can walk with an artificial leg as it uses a pole or lever, so organs are instruments and no part of the self. | instbooks:HN32KI | pass |
-| 1820 | Thomas Brown, *Lectures on the Philosophy of the Human Mind* | English | lecture | Qualified: personal identity includes the body, which may be totally replaced only if the change is gradual | Brown, against Reid, says the ordinary idea of a person includes some bodily identity, though a loose one that admits even total change of the body provided the change is gradual enough to keep apparent continuity. | instbooks:HNUG9Y | pass |
-| 1863 | Oliver Wendell Holmes, *The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)* | English | periodical | Partly: a crude substitute marks and changes the person; a good artificial limb restores him | Holmes describes a boy whose wooden peg made him hideous and 'identified him' to others, while the crutch stamped its own character on the body and was said to distemper the mind, before he invented a leg that counterfeits the lost one. | instbooks:HN24Z3 | weak: describes a crude artificial leg; no claim about identity |
+**Q27 · Should a useful invention be restricted if its harmful consequences cannot be reliably controlled?**
 
-### Q17 · LABOR
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1641 | John Wilkins, *Mercury: or the Secret and Swift Messenger (Conclusion)* | English | book | No: an invention liable to abuse should still be published | Wilkins answers the fear that his account of secret writing will help criminals: it also teaches how to detect deceit, magistrates can prevent its misuse, and if every useful invention liable to abuse were concealed no art could be lawfully practised. | https://archive.org/details/mathematicalphil00wilk (djvu.txt) |
+| 1831 | Joseph Foster (testimony), in [Charles Knight], *The Results of Machinery (Working-Man's Companion)* | English | pamphlet | No: machinery cannot and ought not to be stopped, even by those it harms | A Glasgow hand-loom weaver tells a Commons committee that although power looms caused his distress, machinery cannot or ought not to be put down, since every implement beyond teeth and nails is a machine. (speaker: Joseph Foster, working weaver of Glasgow (testimony to the 1827 Commons emigration committee)) | instbooks:32044024355083 |
+| 1880 | George Birdwood (quoted by A. K. Coomaraswamy), *The Industrial Arts of India (1880), quoted in The Indian Craftsman, Appendix II* | English | book | Yes: machinery must be kept rigorously in its place | Birdwood argues that machinery should serve and never master people and should be kept by taste and opinion out of handicraft, because the factory turns skilled craftsmen into drudges with no stake in their work. | instbooks:32044025695263 |
+| 1922 | Arthur Pound, *The Iron Man in Industry* | English | book | No to opposing it; yes to controlling it | Pound argues that automatic machinery will break governments that blindly oppose it, so it should not be restricted but directed by social conscience, since undirected it may lead to new slavery or anarchy. | instbooks:32044081996431 |
 
-*Does introducing labor-saving machinery improve workers' lives?*
+**Q29 · Would creating an intelligent being give its maker the right to own it?**
 
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1831 | Charles Knight (for the Society for the Diffusion of Useful Knowledge), *The Results of Machinery, Namely, Cheap Production and Increased Employment, Exhibited: Being an Address to the Working-Men of the United Kingdom* | English | pamphlet | Yes: labor-saving tools are what keep working men from starvation | Addressing machine-breakers directly, Knight argues that every better tool is valued because it saves labor, and that working men without such tools would starve, as a New Zealand chief without spades or hoes did. | instbooks:32044024355083 | pass |
-| 1847 | William Dodd, *The Laboring Classes of England, Especially Those Engaged in Agriculture and Manufactures; in a Series of Letters* | English | book | No: the spinner does five men's work for one man's wage and is worn out | A former factory worker argues from the figures of his own trade that larger mules let one spinner do the work of five men for the wage one man earned before, while the work breaks his health within a few years. | instbooks:32044014244032 | pass |
-| 1851 | Robert Dale Owen, *Labor: Its History and Its Prospects. An Address Delivered before the Young Men's Mercantile Library Association of Cincinnati* | English | lecture | No, not as now used: machines that should have freed the laborer compete with him | Owen says that machinery equal to forty slaves per worker ought to have made the laborer rich and leisured, but the actual result is displacement, which is why English laborers burn threshing machines. | instbooks:32044010435048 | pass |
-| 1879 | Frederick Perry Powers, *Labor-Making Machinery: An Essay Read before the Chicago Philosophical Society, April 12, 1879* | English | lecture | Yes: machinery shortens the working day and lightens toil | Powers answers Mill's doubt directly: where machinery has been introduced the working day is shorter and the work needs less strength, and machinery lets a territory support more people at a given level of comfort. | instbooks:32044088904214 | pass |
-
-### Q18 · LABOR
-
-*Does operating machinery develop or diminish a worker's skill and judgment?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1833 | P. Gaskell, *The Manufacturing Population of England: Its Moral, Social, and Physical Conditions, and the Changes Which Have Arisen from the Use of Steam Machinery* | English | book | Diminish: the adult becomes a mere watcher needing no physical or intellectual exertion | Gaskell, a Manchester surgeon, argues that power machinery turns adult workers into watchers and feeders who need no physical or intellectual exertion, so their labor is worth no more than a child's and men are replaced by women and children. | instbooks:32044004819405 | pass |
-| 1898 | Jean Grave, *Le machinisme* | French | pamphlet | Diminish: following a machine is learned in a week, so the trade is lost and the worker is replaceable | The anarchist Grave argues that the automatic machine has lowered vocational skill, since a week's practice replaces years of apprenticeship, and that the resulting ease of replacement serves the employer. | instbooks:LI595R | pass |
-| 1900 | Émile Levasseur, *Comparaison du travail à la main et du travail à la machine* | French | lecture | Develop: machine work asks less of the body and more of the mind | Levasseur rejects the claim that machines brutalize workers: tending a machine is less monotonous than hammering nails and demands vigilance, so the change is less bodily effort and more mental effort. | instbooks:HNDMEF | pass |
-| 1912 | James Hartness, *The Human Factor in Works Management* | English | book | Develop: repetition work builds concentration | A machine-tool manufacturer argues that repetition work is not degrading but the best means of developing concentration, since it forbids a wandering mind. | instbooks:32044011600822 | pass |
-| 1915 | American trade unions (statement of objections compiled by Robert F. Hoxie for the U.S. Commission on Industrial Relations), *Scientific Management and Labor, Appendix V: The Trade Union Objections to Scientific Management* | English | report | Diminish: time study destroys craft skill and makes the worker a semi-automatic attachment to the machine | The unions' statement holds that time and motion study split work into minute tasks, destroy crafts and training, and reduce the worker to a monotonous routine and a semi-automatic attachment to the machine. | instbooks:32044004351367 | pass |
-| 1922 | Arthur Pound, *The Iron Man in Industry: An Outline of the Social Significance of Automatic Machinery* | English | book | Both: skill is removed from most operatives and concentrated in a few designers | Pound argues that automatic machinery takes skill away from the rank and file and concentrates it in toolmakers, engineers and organizers, who need longer training than ever. | instbooks:32044081996431 | pass |
-
-### Q19 · LABOR
-
-*Who should receive the benefits when machinery increases the amount a worker can produce?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1898 | Jean Grave, *Le machinisme* | French | pamphlet | Everyone, through common ownership of the machines | Grave argues that machines harm workers only because masters take the whole gain; if the machines belonged to all, more output would mean more ease for all and idle stocks would be wealth, not unemployment. | instbooks:LI595R | pass |
-| 1900 | Émile Levasseur, *Comparaison du travail à la main et du travail à la machine* | French | lecture | Mainly the consumer: neither worker nor employer caused the gain | Levasseur argues that the worker has no claim to the whole gain because the machine, not he, caused it and he spends no more effort or skill; the employer has no claim either unless he invented it; competition rightly passes most of the gain to consumers. | instbooks:HNDMEF | pass |
-| 1922 | William Preston Hill, *Shadow or Substance: Socialism or Individualism?* | English | book | Owners earn a return for risk, and in fact workers already receive most of the gain | Hill argues from the 1910 census that machine owners, whose machinery did the work of 14 men per worker, took only half as much as the wages paid, so workers already receive most of the gain and owners' profit is a fair return for risk. | instbooks:HNMVBG | pass |
-
-### Q20 · HABIT
-
-*Does making an action habitual increase a person's freedom to act?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1857 | Joseph John Gurney, *Thoughts on Habit and Discipline* | English | book | No: habit forms imperceptibly, and before we know it we have resigned our freedom | The Quaker Gurney warns that customs form by imperceptible steps, so a person finds he has resigned his freedom and is no longer master of his own actions. | instbooks:AH4MBV | pass |
-| 1886 | Paul Radestock, *Habit and Its Importance in Education: An Essay in Pedagogical Psychology* | English | textbook | Qualified no: extreme habituation robs a person of free self-determination, though mechanism saves effort | Radestock holds that extreme habituation turns thought and action mechanical and makes a slave of the person, leaving him helpless in unusual cases, while granting that mechanical functions save power for other uses. | instbooks:32044029943909 | pass |
-| 1912 | James Hartness, *The Human Factor in Works Management* | English | book | Yes: even habit imposed by routine leaves the mind free to wander | Hartness argues that habit is the most efficient way to act, and that even habit formed by imposed routine runs without hindering the mind's freedom to think of other things. | instbooks:32044011600822 | weak: describes routine habit; does not say it increases freedom |
-
-### Q21 · HABIT
-
-*Can repeated obedience train a person to obey without judgment?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1894 | Armand Corre, *Militarisme* | French | pamphlet | Yes: military drill aims at automatism and the annihilation of character and will | Corre, a former naval physician, argues that officers still seek in citizen-soldiers the automatism of the old professional soldier, reduced to a domestic animal and a rifle-handling machine, through a degrading drilling that annihilates character and will. | instbooks:32044080692726 | pass |
-| 1898 | Léon Furnémont, *Le militarisme: voilà l'ennemi* | French | pamphlet | Yes: passive, mechanical obedience kills intelligence and initiative | The Belgian socialist Furnémont answers the defence of army discipline by saying that passive, mechanical obedience kills intelligence and initiative, and that real discipline comes from conviction in a just cause. | instbooks:LI596C | pass |
-| 1900 | Charlotte Perkins Gilman, *Concerning Children* | English | book | Yes: the habit of obedience develops facility in following others, not judgment | Gilman argues that a habit of obedience forced on a child does not develop judgment and will, but trains a facility in following other people's judgment that produces a mindless, will-less mass. | instbooks:32044087382800 | pass |
-
-### Q22 · HABIT
-
-*Does organizing daily life by fixed schedules strengthen or weaken self-government?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1889 | Lucy Larcom, *A New England Girlhood, Outlined from Memory* | English | book | Strengthen: the mill bell's enforced regularity gave her order she could not have reached alone | Larcom, a former Lowell mill girl, says the long hours and the regularity enforced by the factory bell were good discipline for someone who loved her liberty, and perhaps the only way she could have learned order. | instbooks:32044022669873 | pass |
-| 1904 | LeBaron Russell Briggs, *Routine and Ideals* | English | book | Strengthen: routine imposed or self-imposed protects work from caprice | Harvard's dean argues that routine is almost necessary to effective life because it removes the temptation to work only by mood, and that a person without imposed routine must impose it on himself or go to pieces. | instbooks:32044028561652 | pass |
-| 1920 | Christine Frederick, *Household Engineering: Scientific Management in the Home* | English | book | Strengthen: a schedule is not a treadmill; it is the only plan that forces regular rest | Frederick answers housewives who refuse to work 'like factory work' that a schedule guarantees definite rest periods and an end to the day's work, which working by feeling never does. | instbooks:RSLFCF | pass |
-
-### Q23 · DEPENDENCE
-
-*Does relying on written records weaken the ability to remember?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1853 | O. S. Fowler, *Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction* | English | book | Yes: those who keep accounts in their heads remember better than those who trust books | The phrenologist Fowler cites illiterate traders who kept exact accounts in memory until they trusted written books, and concludes that memory is weak in civilized people because they do not exercise it. | instbooks:32044020336236 | pass |
-| 1902 | Eustace Miles, *How to Remember, without Memory Systems or with Them* | English | book | Partly: note-books properly relieve memory, but used in excess they take over work memory should do | Miles recommends note-books as the best way to relieve memory, but objects to their excessive use, comparing them to servants: the art is knowing what to hand over and what to do oneself. | instbooks:32044051133858 | pass |
-
-### Q24 · DEPENDENCE
-
-*Does using calculating devices weaken the ability to calculate without them?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1853 | O. S. Fowler, *Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction* | English | book | Yes: calculating mechanically instead of in the head causes the faculty's feebleness | Fowler argues that people calculate badly because they calculate in the head so little and mechanically so much, and that mental reckoning, exercised from childhood, would make written book-keeping nearly unnecessary. | instbooks:32044020336236 | pass |
-| 1894 | George Trumbull Ladd, *Psychology, Descriptive and Explanatory: A Treatise of the Phenomena, Laws, and Development of Human Mental Life* | English | textbook | Yes: habitual use of an abacus turns calculation into association, not reasoning | Ladd argues that the more counting aids are habitually used, the more calculation becomes perception and association instead of reasoning, citing the Japanese tradesman who is fast on the soroban but knows almost no mental arithmetic. | instbooks:HWRCYD | pass |
-
-### Q25 · DEPENDENCE
-
-*Does relying on machinery for ordinary necessities reduce people's ability to provide for themselves?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1822 | William Cobbett, *Cottage Economy* | English | textbook | No, if the machine is the household's own: a hand- or horse-mill frees the farm from dependence on the distant mill | Cobbett argues that a farm which owns a small hand- or horse-mill escapes dependence on wind- and water-mills, millers and weather, so the right domestic machine increases a household's power to provide for itself. | instbooks:RSL6XB | weak: recommends household mills; no claim about lost ability |
-| 1833 | Peter Gaskell, *The Manufacturing Population of England* | English | book | Yes: factory work leaves mill girls unable to run a household | Gaskell, a surgeon, argues that because girls enter the mills as children and families are broken up by factory hours, women of the manufacturing population never learn cooking and domestic economy, so that no wage can make up for the lost capacity. | instbooks:32044004819405 | pass |
-| 1864 | Horace Bushnell, *The Age of Homespun (discourse at the Litchfield County centennial, 1851), in Work and Play* | English | lecture | Partly: more to gain than lose, but the old hardihood may go | Bushnell holds that the shift from household spinning and weaving to factory cloth will revolutionise domestic life; he expects gains in culture but warns it may strip away the severe virtues bred by the rough necessities of self-provision. | instbooks:32044010105799 | pass |
-| 1870 | Ralph Waldo Emerson, *Works and Days, in Society and Solitude* | English | lecture | Yes: each improvement to the engine unteaches its operator | Emerson argues that machinery is aggressive: every improvement in the engine removes an act from the engineer, so that its tenders lose the skill it once required and are helpless when it breaks. | instbooks:32044021671334 | pass |
-| 1898 | Charlotte Perkins Gilman, *Women and Economics* | English | book | No: machinery took industry out of the home, and women followed it into paid work | Gilman grants that machinery first stripped the home of its industries and left women economically unimportant, but argues that specialisation raises skill and that women regained independence by following the wheel and loom to the mill. | instbooks:RSLEU8 | weak: about women following industry to the mill, not lost self-provision |
-
-### Q26 · CONTROL
-
-*Can inventors remain responsible for harmful uses of their inventions that they did not intend?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1641 | John Wilkins, *Mercury: or the Secret and Swift Messenger (Conclusion)* | English | book | No: an invention liable to abuse should still be published | Wilkins answers the fear that his account of secret writing will help criminals: it also teaches how to detect deceit, magistrates can prevent its misuse, and if every useful invention liable to abuse were concealed no art could be lawfully practised. | https://archive.org/details/mathematicalphil00wilk (djvu.txt) | pass |
-| 1920 | Frederick Soddy, *The Control of Wealth, in Science and Life: Aberdeen Addresses* | English | lecture | No: the user, not the inventor, is responsible | Soddy, a Nobel chemist writing during the war, argues that an invention can be turned to the opposite of its purpose, and that the guilt then lies with the user, so science is not responsible for the morals of its employers. | instbooks:32044054995782 | pass |
-
-### Q27 · CONTROL
-
-*Should a useful invention be restricted if its harmful consequences cannot be reliably controlled?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1831 | Joseph Foster (testimony), in [Charles Knight], *The Results of Machinery (Working-Man's Companion)* | English | pamphlet | No: machinery cannot and ought not to be stopped, even by those it harms | A Glasgow hand-loom weaver tells a Commons committee that although power looms caused his distress, machinery cannot or ought not to be put down, since every implement beyond teeth and nails is a machine. (speaker: Joseph Foster, working weaver of Glasgow (testimony to the 1827 Commons emigration committee)) | instbooks:32044024355083 | pass |
-| 1880 | George Birdwood (quoted by A. K. Coomaraswamy), *The Industrial Arts of India (1880), quoted in The Indian Craftsman, Appendix II* | English | book | Yes: machinery must be kept rigorously in its place | Birdwood argues that machinery should serve and never master people and should be kept by taste and opinion out of handicraft, because the factory turns skilled craftsmen into drudges with no stake in their work. | instbooks:32044025695263 | pass |
-| 1915 | William Osler, *Science and War* | English | lecture | Yes: weapons whose cruelty is uncontrolled are tabooed by common consent | Osler, a physician, holds that war admits limits by common consent on cruel weapons such as explosive bullets, and condemns gas because its suffering falls on all who cannot escape. | instbooks:32044014812671 | weak: about cruelty of a weapon, not uncontrollable consequences |
-| 1920 | Edward S. Farrow, *Gas Warfare* | English | textbook | No: gas should not be banned, since with masks it is humane | Farrow, a US army instructor, argues from casualty figures that gas is among the most effective and most humane weapons, and treats the removal of non-combatants from a deeper zone as a cost rather than a reason to forbid it. | instbooks:32044004520888 | weak: defends gas as humane; restriction only implied |
-| 1922 | Arthur Pound, *The Iron Man in Industry* | English | book | No to opposing it; yes to controlling it | Pound argues that automatic machinery will break governments that blindly oppose it, so it should not be restricted but directed by social conscience, since undirected it may lead to new slavery or anarchy. | instbooks:32044081996431 | pass |
-
-### Q28 · PERSONHOOD
-
-*Would the capacity to suffer give an artificial being a claim to humane treatment?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1838 | William Hamilton Drummond, *The Rights of Animals, and Man's Obligation to Treat Them with Humanity* | English | book | Yes: feeling, not the label "machine", grounds a claim to protection | Drummond, a Unitarian minister, rejects treating animals as automata or self-moving machines and argues that their capacity for feeling, even with inferior intellect, establishes a claim to protection. | instbooks:32044010401362 | pass |
-| 1882 | Frances Power Cobbe, *Zoophily, in The Peak in Darien* | English | book | Yes: if they feel, they have claims, whatever the automatist says | Cobbe argues that only if animals are automata like a rocking-horse or a doll may we ignore their pain; since the evidence that they feel is strong, we owe them moral responsibility. | instbooks:AH3CB8 | pass |
-
-### Q29 · PERSONHOOD
-
-*Would creating an intelligent being give its maker the right to own it?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1835 | William Ellery Channing, *Slavery* | English | book | No: a rational being belongs to itself, even though God made it | Channing argues that the true owner of a human being is that person, because God, in making him a rational and moral being, stamped him as self-owned, so no other party can acquire property in him. | instbooks:32044010364750 | pass |
-| 1835 | Francis Wayland, *The Elements of Moral Science* | English | textbook | Yes for God alone: creation gives the Creator unlimited possession, a relation beyond human analogy | Wayland, in a standard college ethics textbook, says that as Creator God holds the right of unlimited possession over his creatures, but that this relation lies entirely beyond human analogies. | instbooks:HW238K | pass |
-
-### Q30 · SACRED
-
-*Should technological invention be understood as carrying out a divine purpose?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1843 | Job Durfee, *The Influence of Scientific Discovery and Invention on Social and Political Progress (Phi Beta Kappa oration)* | English | lecture | Yes: invention continues the work of creation God began in Eden | Durfee, Chief Justice of Rhode Island, argues that discovery and invention follow a law of progress ordained by God and so carry on the work of creation begun in Eden. | instbooks:HNJJAP | pass |
-| 1858 | Hollis Read, *The Hand of God in History* | English | book | Yes: steam, like printing, is a providential instrument for converting the world | Read, a missionary, argues that printing and the compass were providentially timed and that the shrinking of distance by steam must likewise be destined by God to spread Christianity. | instbooks:AH4QMF | pass |
-| 1906 | Gerald Stanley Lee, *The Voice of the Machines* | English | book | Yes: engines express the creative spirit of God better than sermons | Lee, a former minister, argues that engineers are more creative and godlike in their engines than preachers in their sermons, so that worship of the creative spirit is now found among machines. | instbooks:HB0LQS | pass |
-
-### Q31 · SACRED
-
-*Can reliance on machinery become a form of idolatry?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1877 | Moncure Daniel Conway, *The Praying Machine, in Idols and Ideals* | English | book | Yes: devotion handed to a mechanism becomes fetish and incantation | Conway argues that the Buddhist prayer-wheel shows how worship delegated to a mechanism decays into superstition, and that rote liturgy makes a clergyman a praying-machine whose formulas lose reality. | instbooks:HWJQCC | pass |
-| 1904 | Okakura Kakuzo, *The Awakening of Japan* | English | book | Yes: the machine civilisation replaced superstition with an idolatrous worship of wealth | Okakura argues that the people who make up the great machine of modern civilisation become slaves of mechanical habit, and that its freedom from superstition has been bought with an idolatrous worship of wealth. | instbooks:HNI1CX | pass |
-| 1906 | Gerald Stanley Lee, *The Voice of the Machines* | English | book | No: reverence for machines is the continuation of religion, not idolatry | Lee argues that if inspiring ideas cannot be attached to machines nothing in the modern world can hold them, so treating machinery with reverence is a defence of religion rather than its corruption. | instbooks:HB0LQS | pass |
-
-### Q32 · CIVILIZATION
-
-*Is widespread use of machinery evidence that a society is more civilized?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1831 | [Charles Knight], *The Results of Machinery (Working-Man's Companion)* | English | pamphlet | Yes: civilised society is marked by perfect instruments that save force | The SDUK tract argues that the chief distinction between rude and civilised society is that the civilised economise force with better instruments, so abolishing machines would return workers to starvation. | instbooks:32044024355083 | pass |
-| 1856 | John Cordner, *The Foundations of Nationality (sermon after the Grand Trunk Railway celebration, Montreal)* | English | sermon | No: railways counted above people are Babylonian foundations | Cordner, a Unitarian minister, preaching the Sunday after Montreal celebrated its railway, warns that a nation that values railways and steamships above its people builds on Babylonian foundations and will fall. | instbooks:32044081309148 | pass |
-| 1880 | R. W. Church, *Roman Civilisation, in The Gifts of Civilisation and Other Sermons and Lectures* | English | lecture | No: railway and telegraph are not a test of civilisation | Church, Dean of St Paul's, argues that civilisation needs railways, telegraphs and machinery, but that its degree depends on the character and conduct of people, not on their instruments. | instbooks:AH4VSH | pass |
-| 1913 | Rabindranath Tagore, *Sadhana: The Realisation of Life* | English | lecture | No: civilisation is judged by whether it treats man as spirit rather than machine | Tagore argues that civilisation must be judged not by the power it has developed but by whether its laws and institutions recognise man as a spirit rather than as a machine. | instbooks:32044092251347 | pass |
-
-### Q33 · CIVILIZATION
-
-*Can a society adopt another society's machinery without adopting its ways of life?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1868 | Khayr al-Din al-Tunisi, *Réformes nécessaires aux États musulmans* | French (translation from Arabic, 1867) | book | Yes: Muslims may borrow what is good in worldly affairs without leaving their religion | Worldly institutions and techniques can be borrowed from unbelievers without religious compromise, because truth is known by its practice not its author, and Europeans themselves prosper by borrowing from all races and religions. | instbooks:32044080046980 | pass |
-| 1890 | Mahadev Govind Ranade, *Present State of Indian Manufactures and Outlook of the Same (in Essays on Indian Economics)* | English | lecture | No: importing machinery requires learning new civic habits | India should freely import foreign skill and machinery, but it can only succeed if it abandons rustic, self-contained habits and learns a new civic virtue of sturdier labour and co-operation. | instbooks:32044018940429 | pass |
-| 1896 | Lafcadio Hearn (Koizumi Yakumo), *Kokoro: Hints and Echoes of Japanese Inner Life* | English | book | Yes, within limits: machinery worked only where it fit old aptitudes | Western industrial appliances succeeded in Japan only along lines of existing craft skill, so their adoption was a rechannelling of old abilities rather than a transformation of the people. | instbooks:32044050676907 | pass |
-| 1901 | G. Lowes Dickinson, *Letters from John Chinaman (US title: Letters from a Chinese Official)* | English | fiction | No: Western machinery brings Western disorders with it | The fictional Chinese official declines to import Western machinery because labour-saving invention dislocates industry and its value depends on how wealth is distributed and on its effect on moral character. (speaker: the fictional Chinese official (narrator of the letters)) | instbooks:HY7AVP | pass |
-| 1904 | Okakura Kakuzō, *The Awakening of Japan* | English | book | Yes: Japan took Western methods without changing its national character | Japan could adopt Western industry, sanitation and transport without altering its national life because a long habit of eclectic borrowing (Buddhism, Confucianism) let it take the new without sacrificing the old. | instbooks:HNI1CX | pass |
-| 1920 | Sun Yat-sen, *The International Development of China* | English | book | Yes: China can take the machinery and skip the Western path of competition | China must industrialize by all means but, as a late comer, can reach machine production by a shorter route than the West's, aiming at public profit through co-operation rather than private profit through competition. | instbooks:32044024484669 | pass |
-
-### Q34 · CIVILIZATION
-
-*Does superiority in industrial or military technology justify one people governing another?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1893 | Katō Hiroyuki, *Der Kampf ums Recht des Stärkeren und seine Entwickelung* | German | book | Yes (descriptively): the stronger 'Kulturvölker' will rule; rights without strength are empty | Weaker, uncivilized peoples will die out or be colonized by the civilized peoples, because between peoples only the right of the stronger is effective and rights given to the weak are empty. | instbooks:HNUZGC | weak: argues from strength, not technology |
-| 1901 | Gu Hongming (Ku Hung-ming), *Papers from a Viceroy's Yamen* | English | pamphlet | No: machine-gun imperialism is vulgarity, not civilization | The modern soldier who worships his machine gun becomes an automaton with neither moral feelings nor duties, so the imperialism he serves is a debased 'musket worship' and not a civilizing mission. | instbooks:32044060170792 | pass |
-| 1902 | Romesh Chunder Dutt, *The Economic History of India under Early British Rule* | English | book | No: British railways served British trade, not India | The railways cited as a benefit of British rule were chosen to serve British trade over Indian irrigation and cost Indian taxpayers a loss, so the infrastructure does not show rule in India's interest. | instbooks:32044025681172 | weak: railways served British trade; no claim about the right to govern |
-| 1905 | John George Godard, *Racial Supremacy: Being Studies in Imperialism* | English | book | No: superior force gives no moral basis to rule | Superior force is the material basis of one race's rule over another but yields no moral basis; force could be legitimate only under separate conditions, which he then sets out. | instbooks:32044081127052 | pass |
-| 1906 | Okakura Kakuzō, *The Book of Tea* | English | book | No: military success is no claim to civilization | The West called Japan barbarous in peace and civilised once it slaughtered on the battlefield; a claim to civilisation based on the glory of war is one Okakura would rather refuse. | instbooks:32044024492571 | pass |
-
-### Q35 · STATE
-
-*Does treating the state as an artificial machine give its members grounds to redesign it?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1790 | Edmund Burke, *Reflections on the Revolution in France* | English | book | No: the state is a contrivance, but redesign is not a matter of a priori theory | Government is a contrivance and its constitution a 'mechanism of civil institutions', yet constructing or reforming it is an experimental science whose effects show only over time, so it gives no licence for redesign from abstract rights. | instbooks:HXJ88B | pass |
-| 1885 | Johann Caspar Bluntschli, *The Theory of the State* | English (trans. from German) | textbook | No: the state is an organism, not a dead machine | The state is a living organized being, so the mechanical and atomistic view that treats it as a collection of external regulations misunderstands it. | instbooks:32044012583670 | pass |
-| 1908 | Woodrow Wilson, *Constitutional Government in the United States* | English | lecture | No: government is a living thing, not a machine | The Newtonian checks-and-balances model treats government as a machine, but a government is a living organism that must adapt and coordinate, so constitutions must be Darwinian. | instbooks:32044024589913 | pass |
-
-### Q36 · STATE
-
-*Should public officials carry out rules without exercising personal moral judgment?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1836 | Henry Taylor, *The Statesman* | English | book | No: a statesman needs a strong conscience, scaled to public consequences | A public man should exercise conscience, but a strong one guided by understanding of large and distant consequences rather than a tender private one, because tender scruple about small acts leads to neglect of large responsibilities and of inaction. | instbooks:32044080040322 | weak: statesman's conscience, not officials carrying out rules |
-| 1885 | Johann Caspar Bluntschli, *The Theory of the State* | English (trans. from German) | textbook | Mostly yes: obey after remonstrance, except where the order is a crime or against morality | A subordinate official must obey an order he thinks unjust after making representations, because resistance would destroy the unity of the state; the exception is an order that would make him violate religion, morality or the criminal law. | instbooks:32044012583670 | pass |
-| 1900 | Nitobe Inazō, *Bushido, the Soul of Japan* | English | book | No: a retainer must not make his conscience the slave of his lord | Loyalty under Bushido did not require sacrificing conscience to the sovereign's will; a retainer who disagreed had to remonstrate, and servile compliance was despised. | instbooks:32044037683356 | pass |
-
-### Q37 · EXTENSION
-
-*Should tools used to perform bodily functions be understood as parts of the human body?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1856 | Hermann Lotze, *Microcosmus: An Essay Concerning Man and his Relation to the World* | English (trans. 1885) | book | No, but felt as yes: sensation at the tool's tip is a useful illusion | We seem to feel at the end of the stick, probe or needle just as we seem to feel in our fingertips, but in both cases the localization is a 'beneficent delusion' built from ideas, so the tool is experienced as part of us without being so. | instbooks:32044055067623 | pass |
-| 1863 | Oliver Wendell Holmes Sr., *The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)* | English | periodical | Yes, through practice: the wooden limb comes to be inhabited | Amputees learning to walk on Palmer legs gradually feel the wooden limb become 'penetrated by the nerves', so practice incorporates the prosthesis into the body. | instbooks:HN24Z3 | pass |
-
-### Q38 · EXTENSION
-
-*When a person accomplishes something through a machine, should the machine's power count as that person's capability?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1836 | J. A. Etzler, *The Paradise within the Reach of All Men, without Labour, by Powers of Nature and Machinery* | English | pamphlet | Yes: machinery puts at our disposal powers millions of times our own | Machines driven by wind, water and sun put at human disposal powers far exceeding human muscular strength, so one or a few men directing them can achieve what nations could not. | instbooks:32044009625369 | pass |
-| 1870 | Ralph Waldo Emerson, *Works and Days (in Society and Solitude)* | English | lecture | No: the machine unmakes and unteaches its operator | Each improvement of the engine removes an act from the engineer and 'unteaches him', so the machine's power is not the operator's, as shown when it breaks and he can do nothing. | instbooks:32044019246990 | pass |
-| 1896 | Lafcadio Hearn (Koizumi Yakumo), *Kokoro: Hints and Echoes of Japanese Inner Life* | English | book | No: dependence on machinery numbs native power | The Western worker is less free because industrial machinery reshapes him into a special capacity at the cost of his inherent ones and numbs his power to live without it. | instbooks:32044050676907 | pass |
-
-### Q39 · INTIMACY
-
-*Can love for an artificial being remain genuine after its artificial nature is known?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1852 | Nathaniel Hawthorne, *Feathertop: A Moralized Legend (in Mosses from an Old Manse)* | English | fiction | No: the love ends when the artificial nature is seen | Polly's love for the witch-made scarecrow collapses the moment a true mirror shows his real composition, because it was given to the outward show. (speaker: narrator (Polly Gookin's reaction)) | instbooks:32044010743144 | pass |
-| 1891 | Thomas Hardy, *Barbara of the House of Grebe (in A Group of Noble Dames)* | English | fiction | Yes, while the image stays perfect | Barbara loves the marble statue of her dead first husband, knowing it is a statue, because it shows the man as he was before his disfigurement; the love ends only when the statue is mutilated to match his ruined face. (speaker: narrator (Barbara's state of mind)) | instbooks:32044019255447 | pass |
-
-### Q40 · INTIMACY
-
-*Can an artificial companion satisfy the need for companionship if it has no feelings of its own?*
-
-| Year | Work | Lang. | Kind | Side | Argument | Source | Check |
-|---|---|---|---|---|---|---|---|
-| 1837 | Nathaniel Hawthorne, *Monsieur du Miroir (in Mosses from an Old Manse)* | English | fiction | Yes, partly: counterfeit sympathy is better than none | The narrator suspects his reflection's sympathy is mere outward show, yet settles for it, because a man must have something in the guise of sympathy and the counterfeit is surer than the real. (speaker: narrator) | instbooks:32044010743144 | weak: a mirror image, not an artificial companion (analogue) |
-| 1862 | Victor Hugo, *Les Misérables (Part II, 'Cosette')* | English (trans.) | fiction | Yes for a child: imagining that something is somebody meets a real need | A doll meets one of the most imperious wants of girlhood, because the child imagines 'that something is somebody'; Cosette makes one of a sword when she has none. (speaker: narrator) | instbooks:HN1F99 | weak: a child's doll, not an artificial companion (analogue) |
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1835 | William Ellery Channing, *Slavery* | English | book | No: a rational being belongs to itself, even though God made it | Channing argues that the true owner of a human being is that person, because God, in making him a rational and moral being, stamped him as self-owned, so no other party can acquire property in him. | instbooks:32044010364750 |
+| 1835 | Francis Wayland, *The Elements of Moral Science* | English | textbook | Yes for God alone: creation gives the Creator unlimited possession, a relation beyond human analogy | Wayland, in a standard college ethics textbook, says that as Creator God holds the right of unlimited possession over his creatures, but that this relation lies entirely beyond human analogies. | instbooks:HW238K |
+
+**Q30 · Should technological invention be understood as carrying out a divine purpose?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1843 | Job Durfee, *The Influence of Scientific Discovery and Invention on Social and Political Progress (Phi Beta Kappa oration)* | English | lecture | Yes: invention continues the work of creation God began in Eden | Durfee, Chief Justice of Rhode Island, argues that discovery and invention follow a law of progress ordained by God and so carry on the work of creation begun in Eden. | instbooks:HNJJAP |
+| 1858 | Hollis Read, *The Hand of God in History* | English | book | Yes: steam, like printing, is a providential instrument for converting the world | Read, a missionary, argues that printing and the compass were providentially timed and that the shrinking of distance by steam must likewise be destined by God to spread Christianity. | instbooks:AH4QMF |
+| 1906 | Gerald Stanley Lee, *The Voice of the Machines* | English | book | Yes: engines express the creative spirit of God better than sermons | Lee, a former minister, argues that engineers are more creative and godlike in their engines than preachers in their sermons, so that worship of the creative spirit is now found among machines. | instbooks:HB0LQS |
+
+**Q31 · Can reliance on machinery become a form of idolatry?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1877 | Moncure Daniel Conway, *The Praying Machine, in Idols and Ideals* | English | book | Yes: devotion handed to a mechanism becomes fetish and incantation | Conway argues that the Buddhist prayer-wheel shows how worship delegated to a mechanism decays into superstition, and that rote liturgy makes a clergyman a praying-machine whose formulas lose reality. | instbooks:HWJQCC |
+| 1906 | Gerald Stanley Lee, *The Voice of the Machines* | English | book | No: reverence for machines is the continuation of religion, not idolatry | Lee argues that if inspiring ideas cannot be attached to machines nothing in the modern world can hold them, so treating machinery with reverence is a defence of religion rather than its corruption. | instbooks:HB0LQS |
+
+**Q32 · Is widespread use of machinery evidence that a society is more civilized?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1831 | [Charles Knight], *The Results of Machinery (Working-Man's Companion)* | English | pamphlet | Yes: civilised society is marked by perfect instruments that save force | The SDUK tract argues that the chief distinction between rude and civilised society is that the civilised economise force with better instruments, so abolishing machines would return workers to starvation. | instbooks:32044024355083 |
+| 1880 | R. W. Church, *Roman Civilisation, in The Gifts of Civilisation and Other Sermons and Lectures* | English | lecture | No: railway and telegraph are not a test of civilisation | Church, Dean of St Paul's, argues that civilisation needs railways, telegraphs and machinery, but that its degree depends on the character and conduct of people, not on their instruments. | instbooks:AH4VSH |
+| 1889 | Bertha von Suttner (published anonymously as 'Jemand'), *Das Maschinenalter: Zukunftsvorlesungen über unsere Zeit* | German | book | No: machinery shows material, not mental, distance from barbarism | A lecturer of the future grants that the machine age rightly took pride in its machines, telegraphs and telephones and so called itself civilized, but argues that in thought and feeling it remained close to barbarism. (speaker: the fictional lecturer of a future century) | instbooks:HN2UA9 |
+
+**Q33 · Can a society adopt another society's machinery without adopting its ways of life?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1890 | Mahadev Govind Ranade, *Present State of Indian Manufactures and Outlook of the Same (in Essays on Indian Economics)* | English | lecture | No: importing machinery requires learning new civic habits | India should freely import foreign skill and machinery, but it can only succeed if it abandons rustic, self-contained habits and learns a new civic virtue of sturdier labour and co-operation. | instbooks:32044018940429 |
+| 1896 | Lafcadio Hearn (Koizumi Yakumo), *Kokoro: Hints and Echoes of Japanese Inner Life* | English | book | Yes, within limits: machinery worked only where it fit old aptitudes | Western industrial appliances succeeded in Japan only along lines of existing craft skill, so their adoption was a rechannelling of old abilities rather than a transformation of the people. | instbooks:32044050676907 |
+| 1904 | Okakura Kakuzō, *The Awakening of Japan* | English | book | Yes: Japan took Western methods without changing its national character | Japan could adopt Western industry, sanitation and transport without altering its national life because a long habit of eclectic borrowing (Buddhism, Confucianism) let it take the new without sacrificing the old. | instbooks:HNI1CX |
+| 1920 | Sun Yat-sen, *The International Development of China* | English | book | Yes: China can take the machinery and skip the Western path of competition | China must industrialize by all means but, as a late comer, can reach machine production by a shorter route than the West's, aiming at public profit through co-operation rather than private profit through competition. | instbooks:32044024484669 |
+
+**Q34 · Does superiority in industrial or military technology justify one people governing another?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1905 | John George Godard, *Racial Supremacy: Being Studies in Imperialism* | English | book | No: superior force gives no moral basis to rule | Superior force is the material basis of one race's rule over another but yields no moral basis; force could be legitimate only under separate conditions, which he then sets out. | instbooks:32044081127052 |
+
+**Q35 · Does treating the state as an artificial machine give its members grounds to redesign it?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1790 | Edmund Burke, *Reflections on the Revolution in France* | English | book | No: the state is a contrivance, but redesign is not a matter of a priori theory | Government is a contrivance and its constitution a 'mechanism of civil institutions', yet constructing or reforming it is an experimental science whose effects show only over time, so it gives no licence for redesign from abstract rights. | instbooks:HXJ88B |
+| 1885 | Johann Caspar Bluntschli, *The Theory of the State* | English (trans. from German) | textbook | No: the state is an organism, not a dead machine | The state is a living organized being, so the mechanical and atomistic view that treats it as a collection of external regulations misunderstands it. | instbooks:32044012583670 |
+| 1908 | Woodrow Wilson, *Constitutional Government in the United States* | English | lecture | No: government is a living thing, not a machine | The Newtonian checks-and-balances model treats government as a machine, but a government is a living organism that must adapt and coordinate, so constitutions must be Darwinian. | instbooks:32044024589913 |
+
+**Q36 · Should public officials carry out rules without exercising personal moral judgment?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1885 | Johann Caspar Bluntschli, *The Theory of the State* | English (trans. from German) | textbook | Mostly yes: obey after remonstrance, except where the order is a crime or against morality | A subordinate official must obey an order he thinks unjust after making representations, because resistance would destroy the unity of the state; the exception is an order that would make him violate religion, morality or the criminal law. | instbooks:32044012583670 |
+| 1900 | Nitobe Inazō, *Bushido, the Soul of Japan* | English | book | No: a retainer must not make his conscience the slave of his lord | Loyalty under Bushido did not require sacrificing conscience to the sovereign's will; a retainer who disagreed had to remonstrate, and servile compliance was despised. | instbooks:32044037683356 |
+
+**Q37 · Should tools used to perform bodily functions be understood as parts of the human body?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1856 | Hermann Lotze, *Microcosmus: An Essay Concerning Man and his Relation to the World* | English (trans. 1885) | book | No, but felt as yes: sensation at the tool's tip is a useful illusion | We seem to feel at the end of the stick, probe or needle just as we seem to feel in our fingertips, but in both cases the localization is a 'beneficent delusion' built from ideas, so the tool is experienced as part of us without being so. | instbooks:32044055067623 |
+| 1863 | Oliver Wendell Holmes Sr., *The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)* | English | periodical | Yes, through practice: the wooden limb comes to be inhabited | Amputees learning to walk on Palmer legs gradually feel the wooden limb become 'penetrated by the nerves', so practice incorporates the prosthesis into the body. | instbooks:HN24Z3 |
+
+**Q38 · When a person accomplishes something through a machine, should the machine's power count as that person's capability?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1836 | J. A. Etzler, *The Paradise within the Reach of All Men, without Labour, by Powers of Nature and Machinery* | English | pamphlet | Yes: machinery puts at our disposal powers millions of times our own | Machines driven by wind, water and sun put at human disposal powers far exceeding human muscular strength, so one or a few men directing them can achieve what nations could not. | instbooks:32044009625369 |
+| 1870 | Ralph Waldo Emerson, *Works and Days (in Society and Solitude)* | English | lecture | No: the machine unmakes and unteaches its operator | Each improvement of the engine removes an act from the engineer and 'unteaches him', so the machine's power is not the operator's, as shown when it breaks and he can do nothing. | instbooks:32044019246990 |
+| 1896 | Lafcadio Hearn (Koizumi Yakumo), *Kokoro: Hints and Echoes of Japanese Inner Life* | English | book | No: dependence on machinery numbs native power | The Western worker is less free because industrial machinery reshapes him into a special capacity at the cost of his inherent ones and numbs his power to live without it. | instbooks:32044050676907 |
+
+**Q39 · Can love for an artificial being remain genuine after its artificial nature is known?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1852 | Nathaniel Hawthorne, *Feathertop: A Moralized Legend (in Mosses from an Old Manse)* | English | fiction | No: the love ends when the artificial nature is seen | Polly's love for the witch-made scarecrow collapses the moment a true mirror shows his real composition, because it was given to the outward show. (speaker: narrator (Polly Gookin's reaction)) | instbooks:32044010743144 |
+
+### Waiting on Ben
+
+| Q | Year | Work | Question for Ben |
+|---|---|---|---|
+| Q02 | 1784 | Carl Friedrich Hindenburg, *On Herr von Kempelen's Chess Player, with an Illustration and Description of his Speaking Machine* | rule 8: Ben found the trimmed quotation too short; full text shown |
+| Q28 | 1838 | William Hamilton Drummond, *The Rights of Animals, and Man's Obligation to Treat Them with Humanity* | rule 5?: animals treated as machines; an analogue or a direct case? |
+| Q28 | 1882 | Frances Power Cobbe, *Zoophily, in The Peak in Darien* | rule 5?: animals treated as automata; an analogue or a direct case? |
+| Q39 | 1891 | Thomas Hardy, *Barbara of the House of Grebe (in A Group of Noble Dames)* | rule 5?: love for a statue of a dead husband; an analogue or a direct case? |
+
+### Rejected
+
+| Q | Year | Work | Reason |
+|---|---|---|---|
+| Q01 | 1875 | Alfred Smee, *The Mind of Man: Being a Natural System of Mental Philosophy* | rule 1: derivation from given facts, not whether a machine can originate |
+| Q04 | 1840 | Henry Philip Tappan, *The Doctrine of the Will, Determined by an Appeal to Consciousness* | rule 1: classifies causes; does not say volition moves the body |
+| Q04 | 1876 | Charles Elam, *Winds of Doctrine: Being an Examination of the Modern Theories of Automatism and Evolution* | Ben: no reason of its own |
+| Q05 | 1867 | Moritz Wilhelm Drobisch, *Moral Statistics and Human Freedom of the Will* | rule 3: defers the free-will question |
+| Q05 | 1875 | William B. Carpenter, *The Doctrine of Human Automatism: A Lecture Delivered before the Sunday Lecture Society* | rule 2: never mentions physical causes |
+| Q08 | 1901 | Otto Bütschli, *Mechanism and Vitalism* | rule 2: regeneration as equilibrium; machines not mentioned |
+| Q08 | 1920 | J. Arthur Thomson, *The System of Animate Nature (Gifford Lectures), vol. 1* | rule 2: contrasts life with inorganic change, not machines |
+| Q09 | 1874 | Wilhelm His, *Unsere Körperform und das physiologische Problem ihrer Entstehung* | rule 2: a programme of physiological derivation; no machine or mechanism named |
+| Q10 | 1662 | Antoine Arnauld and Pierre Nicole, *Logic, or the Art of Thinking (Port-Royal Logic)* | rule 2: does not address disagreement under shared premises |
+| Q13 | 1878 | Robert H. Thurston, *A History of the Growth of the Steam-Engine* | rule 1: invention as cumulative growth, not machines evolving |
+| Q16 | 1863 | Oliver Wendell Holmes, *The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)* | rule 3: describes a crude artificial leg; no claim about identity |
+| Q20 | 1912 | James Hartness, *The Human Factor in Works Management* | rule 3: describes routine habit; no claim about freedom |
+| Q22 | 1889 | Lucy Larcom, *A New England Girlhood, Outlined from Memory* | Ben: memoir, no answer |
+| Q24 | 1853 | O. S. Fowler, *Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction* | rule 2: slate and account books, not calculating devices |
+| Q25 | 1822 | William Cobbett, *Cottage Economy* | rule 1: recommends household mills; no claim about lost ability |
+| Q25 | 1864 | Horace Bushnell, *The Age of Homespun (discourse at the Litchfield County centennial, 1851), in Work and Play* | rule 1: lost virtues, not lost ability to provide |
+| Q25 | 1898 | Charlotte Perkins Gilman, *Women and Economics* | rule 1: women followed industry to the mill; not self-provision |
+| Q27 | 1915 | William Osler, *Science and War* | rule 2: cruelty of a weapon, not uncontrollable consequences |
+| Q27 | 1920 | Edward S. Farrow, *Gas Warfare* | rule 1: defends gas as humane; restriction only implied |
+| Q31 | 1904 | Okakura Kakuzo, *The Awakening of Japan* | rule 2: idolatry of wealth, not of machinery |
+| Q32 | 1856 | John Cordner, *The Foundations of Nationality (sermon after the Grand Trunk Railway celebration, Montreal)* | Ben: does not answer the question |
+| Q32 | 1913 | Rabindranath Tagore, *Sadhana: The Realisation of Life* | rule 1: same failing as Cordner |
+| Q33 | 1868 | Khayr al-Din al-Tunisi, *Réformes nécessaires aux États musulmans* | Ben: names neither machinery nor way of life |
+| Q33 | 1901 | G. Lowes Dickinson, *Letters from John Chinaman (US title: Letters from a Chinese Official)* | rule 2: dislocation of industry, not adoption without a way of life |
+| Q34 | 1893 | Katō Hiroyuki, *Der Kampf ums Recht des Stärkeren und seine Entwickelung* | rule 2: argues from strength, not technology |
+| Q34 | 1901 | Gu Hongming (Ku Hung-ming), *Papers from a Viceroy's Yamen* | rule 8: the quotation does not reach the claim about rule |
+| Q34 | 1902 | Romesh Chunder Dutt, *The Economic History of India under Early British Rule* | rule 1: railways served British trade; no claim about the right to govern |
+| Q34 | 1906 | Okakura Kakuzō, *The Book of Tea* | rule 1: war as the West's test of civilization; no claim about a right to govern |
+| Q36 | 1836 | Henry Taylor, *The Statesman* | rule 2: a statesman's conscience, not officials carrying out rules |
+| Q40 | 1837 | Nathaniel Hawthorne, *Monsieur du Miroir (in Mosses from an Old Manse)* | Ben: analogue (mirror) |
+| Q40 | 1862 | Victor Hugo, *Les Misérables (Part II, 'Cosette')* | Ben: analogue (doll) |
