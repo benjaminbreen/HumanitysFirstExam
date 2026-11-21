@@ -1,6 +1,6 @@
 {
  "version": "0.1",
- "date": "2026-10-28",
+ "date": "2026-11-20",
  "works": [
   {
    "id": "plato-phaedrus",
@@ -6994,8 +6994,8 @@
     }
    ],
    "selectedBy": "Ben Breen (pilot pool addition)",
-   "selectedOn": "2026-10-28",
-   "suggestedBy": "Codex bounded corpus review; approval for pilot inclusion, not a revision of the 204-work canon",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Codex bounded corpus review, 28 Oct 2026; accepted into the canon by Ben Breen, 20 Nov 2026",
    "status": "pilot source; work Wikidata match not established",
    "authorWikidata": "Q885037"
   },
@@ -7418,6 +7418,2865 @@
     "https://www.wikidata.org/wiki/Q21015011",
     "https://ge.nii.ac.jp/ncid/BA25702952"
    ]
+  },
+  {
+   "id": "wilkins-mercury-secret",
+   "author": "John Wilkins",
+   "authorShort": "Wilkins",
+   "title": "Mercury: or the Secret and Swift Messenger (Conclusion)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1641,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://archive.org/details/mathematicalphil00wilk (djvu.txt)",
+   "text": "none",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "cudworth-true-intellectual",
+   "author": "Ralph Cudworth",
+   "authorShort": "Cudworth",
+   "title": "The True Intellectual System of the Universe",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1678,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw2s1n",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "14fd7f809a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/14fd7f809a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "selden-table-talk",
+   "author": "John Selden",
+   "authorShort": "Selden",
+   "title": "Table-Talk",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1689,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwp1ge",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "4150b303bc",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4150b303bc.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "butler-analogy-religion",
+   "author": "Joseph Butler",
+   "authorShort": "Butler",
+   "title": "The Analogy of Religion (Part I, ch. 1, 'Of a Future Life')",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1736,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn32ki",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "ef11851718",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/ef11851718.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "burke-reflections-revolution",
+   "author": "Edmund Burke",
+   "authorShort": "Burke",
+   "title": "Reflections on the Revolution in France",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1790,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxj88b",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "9a06546320",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9a06546320.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "hufeland-art-prolonging",
+   "author": "Christoph Wilhelm Hufeland",
+   "authorShort": "Hufeland",
+   "title": "The Art of Prolonging Life",
+   "originalTitle": "Makrobiotik, oder die Kunst das menschliche Leben zu verlängern",
+   "otherTitles": [],
+   "year": 1796,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc38aa",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "b3cf3d4a74",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b3cf3d4a74.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "leroy-philosophical-letters",
+   "author": "Charles-Georges Leroy",
+   "authorShort": "Leroy",
+   "title": "Philosophical Letters on the Intelligence and Perfectibility of Animals",
+   "originalTitle": "Lettres philosophiques sur l'intelligence et la perfectibilité des animaux",
+   "otherTitles": [],
+   "year": 1802,
+   "earlier": false,
+   "language": "French",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxjhyv",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "ab787dc666",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/ab787dc666.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "hoffmann-automata",
+   "author": "E. T. A. Hoffmann",
+   "authorShort": "Hoffmann",
+   "title": "Automata",
+   "originalTitle": "Die Automate",
+   "otherTitles": [],
+   "year": 1814,
+   "earlier": false,
+   "language": "German",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwsppm",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q02"
+   ],
+   "texts": [
+    {
+     "id": "cf06624a4d",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/cf06624a4d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "rennell-remarks-scepticism",
+   "author": "Thomas Rennell",
+   "authorShort": "Rennell",
+   "title": "Remarks on Scepticism, Especially as It Is Connected with the Subjects of Organization and Life",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1819,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah49mm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [
+    {
+     "id": "606df609db",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/606df609db.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "brown-lectures-philosophy",
+   "author": "Thomas Brown",
+   "authorShort": "Brown",
+   "title": "Lectures on the Philosophy of the Human Mind",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1820,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnug9y",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q16"
+   ],
+   "texts": [
+    {
+     "id": "d4f72c665f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d4f72c665f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "willis-attempt-analyse",
+   "author": "Robert Willis",
+   "authorShort": "Willis",
+   "title": "An Attempt to Analyse the Automaton Chess Player of Mr. de Kempelen",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1821,
+   "earlier": false,
+   "language": "English",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn5r19",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "8da6e8f2c4",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8da6e8f2c4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "lawrence-lectures-physiology",
+   "author": "William Lawrence",
+   "authorShort": "Lawrence",
+   "title": "Lectures on Physiology, Zoology, and the Natural History of Man",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1822,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044011377835",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [
+    {
+     "id": "df04fdb1d8",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/df04fdb1d8.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "knight-results-machinery",
+   "author": "Charles Knight",
+   "authorShort": "Knight",
+   "title": "The Results of Machinery",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1831,
+   "earlier": false,
+   "language": "English",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024355083",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17",
+    "Q27",
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "3420ae48c1",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3420ae48c1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "gaskell-manufacturing-population",
+   "author": "Peter Gaskell",
+   "authorShort": "Gaskell",
+   "title": "The Manufacturing Population of England",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1833,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004819405",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q14",
+    "Q18",
+    "Q25"
+   ],
+   "texts": [
+    {
+     "id": "5bbc4f215e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/5bbc4f215e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "channing-slavery",
+   "author": "William Ellery Channing",
+   "authorShort": "Channing",
+   "title": "Slavery",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1835,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010364750",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "9fa229888d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9fa229888d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "wayland-elements-moral",
+   "author": "Francis Wayland",
+   "authorShort": "Wayland",
+   "title": "The Elements of Moral Science",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1835,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw238k",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q29"
+   ],
+   "texts": [
+    {
+     "id": "21cd736266",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/21cd736266.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "etzler-paradise-within",
+   "author": "J. A. Etzler",
+   "authorShort": "Etzler",
+   "title": "The Paradise within the Reach of All Men, without Labour, by Powers of Nature and Machinery",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1836,
+   "earlier": false,
+   "language": "English",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044009625369",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "42f44a82e3",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/42f44a82e3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "babbage-ninth-bridgewater",
+   "author": "Charles Babbage",
+   "authorShort": "Babbage",
+   "title": "The Ninth Bridgewater Treatise: A Fragment",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1838,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah5b8w",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01"
+   ],
+   "texts": [
+    {
+     "id": "8eb4baae17",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8eb4baae17.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "drummond-rights-animals",
+   "author": "William Hamilton Drummond",
+   "authorShort": "Drummond",
+   "title": "The Rights of Animals, and Man's Obligation to Treat Them with Humanity",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1838,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010401362",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "9bc454798a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9bc454798a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "lieber-legal-political",
+   "author": "Francis Lieber",
+   "authorShort": "Lieber",
+   "title": "Legal and Political Hermeneutics",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1839,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024630980",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "f755ab1cbb",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/f755ab1cbb.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "bray-philosophy-necessity",
+   "author": "Charles Bray",
+   "authorShort": "Bray",
+   "title": "The Philosophy of Necessity; or, The Law of Consequences, vol. 1",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1841,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnjctm",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "8eda3cc353",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8eda3cc353.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "durfee-influence-scientific",
+   "author": "Job Durfee",
+   "authorShort": "Durfee",
+   "title": "The Influence of Scientific Discovery and Invention on Social and Political Progress (Phi Beta Kappa oration)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1843,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnjjap",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "212b1426de",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/212b1426de.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "dodd-laboring-classes",
+   "author": "William Dodd",
+   "authorShort": "Dodd",
+   "title": "The Laboring Classes of England, Especially Those Engaged in Agriculture and Manufactures; in a Series of Letters",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1847,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014244032",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17"
+   ],
+   "texts": [
+    {
+     "id": "d7b897906e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/d7b897906e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "atkinson-letters-laws",
+   "author": "Henry George Atkinson (with Harriet Martineau)",
+   "authorShort": "Atkinson",
+   "title": "Letters on the Laws of Man's Nature and Development",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1851,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah3etk",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q05"
+   ],
+   "texts": [
+    {
+     "id": "3dca97516f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3dca97516f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "owen-labor-its",
+   "author": "Robert Dale Owen",
+   "authorShort": "Owen",
+   "title": "Labor: Its History and Its Prospects. An Address Delivered before the Young Men's Mercantile Library Association of Cincinnati",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1851,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010435048",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17"
+   ],
+   "texts": [
+    {
+     "id": "0617bf4066",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/0617bf4066.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "hawthorne-feathertop-moralized",
+   "author": "Nathaniel Hawthorne",
+   "authorShort": "Hawthorne",
+   "title": "Feathertop: A Moralized Legend (in Mosses from an Old Manse)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1852,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010743144",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q39"
+   ],
+   "texts": [
+    {
+     "id": "3a7ae400cd",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/3a7ae400cd.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "fowler-memory-intellectual",
+   "author": "O. S. Fowler",
+   "authorShort": "Fowler",
+   "title": "Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1853,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020336236",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "c0a175c96f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/c0a175c96f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "lotze-microcosmus-essay",
+   "author": "Hermann Lotze",
+   "authorShort": "Lotze",
+   "title": "Microcosmus: An Essay Concerning Man and his Relation to the World",
+   "originalTitle": "Mikrokosmus",
+   "otherTitles": [],
+   "year": 1856,
+   "earlier": false,
+   "language": "German",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044055067623",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Read in the English translation by Elizabeth Hamilton and E. E. Constance Jones (1885).",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044055067623"
+   },
+   "questions": [
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "7a6cca242e",
+     "role": "main",
+     "language": "English (trans. 1885)",
+     "status": "ok",
+     "file": "canon/texts/7a6cca242e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "gurney-thoughts-habit",
+   "author": "Joseph John Gurney",
+   "authorShort": "Gurney",
+   "title": "Thoughts on Habit and Discipline",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1857,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4mbv",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "93840d3d56",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/93840d3d56.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "read-hand-god",
+   "author": "Hollis Read",
+   "authorShort": "Read",
+   "title": "The Hand of God in History",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1858,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4qmf",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q30"
+   ],
+   "texts": [
+    {
+     "id": "5070bbaff1",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/5070bbaff1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "sr-human-wheel",
+   "author": "Oliver Wendell Holmes Sr.",
+   "authorShort": "Sr.",
+   "title": "The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1863,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn24z3",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q37"
+   ],
+   "texts": [
+    {
+     "id": "2ededbea7e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2ededbea7e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "whedon-freedom-will",
+   "author": "Daniel D. Whedon",
+   "authorShort": "Whedon",
+   "title": "The Freedom of the Will as a Basis of Human Responsibility and a Divine Government",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1864,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnw7fi",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "4121e8d44f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4121e8d44f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "sweetser-human-life",
+   "author": "William Sweetser",
+   "authorShort": "Sweetser",
+   "title": "Human Life: Considered in its Present Condition and Future Developments, Especially with Reference to its Duration",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1867,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxcy9w",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "11fc375940",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/11fc375940.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "emerson-works-days",
+   "author": "Ralph Waldo Emerson",
+   "authorShort": "Emerson",
+   "title": "Works and Days, in Society and Solitude",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044021671334",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q25"
+   ],
+   "texts": [
+    {
+     "id": "29d0e0664f",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/29d0e0664f.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "emerson-works-days-2",
+   "author": "Ralph Waldo Emerson",
+   "authorShort": "Emerson",
+   "title": "Works and Days (in Society and Solitude)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044019246990",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "24450a148b",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/24450a148b.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "newman-essay-aid",
+   "author": "John Henry Newman",
+   "authorShort": "Newman",
+   "title": "An Essay in Aid of a Grammar of Assent",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1870,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4lyw",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q10"
+   ],
+   "texts": [
+    {
+     "id": "8edcf7c856",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8edcf7c856.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "holmes-mechanism-thought",
+   "author": "Oliver Wendell Holmes",
+   "authorShort": "Holmes",
+   "title": "Mechanism in Thought and Morals",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1871,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah6pud",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "4958948963",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4958948963.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "beale-protoplasm-matter",
+   "author": "Lionel S. Beale",
+   "authorShort": "Beale",
+   "title": "Protoplasm; or, Matter and Life (3rd ed.)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1874,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044023775190",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q07"
+   ],
+   "texts": [
+    {
+     "id": "0db2f6cc4e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/0db2f6cc4e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "maudsley-responsibility-mental",
+   "author": "Henry Maudsley",
+   "authorShort": "Maudsley",
+   "title": "Responsibility in Mental Disease",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1876,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc21is",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q06"
+   ],
+   "texts": [
+    {
+     "id": "7523d482ab",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7523d482ab.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "conway-praying-machine",
+   "author": "Moncure Daniel Conway",
+   "authorShort": "Conway",
+   "title": "The Praying Machine, in Idols and Ideals",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1877,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwjqcc",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "a2ee2c7e4e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/a2ee2c7e4e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "lewes-problems-life",
+   "author": "George Henry Lewes",
+   "authorShort": "Lewes",
+   "title": "Problems of Life and Mind, Second Series: The Physical Basis of Mind",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1877,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020284014",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "8ba54f8dd6",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8ba54f8dd6.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "bain-mind-body",
+   "author": "Alexander Bain",
+   "authorShort": "Bain",
+   "title": "Mind and Body: The Theories of Their Relation",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc268r",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "cde89065ad",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/cde89065ad.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "powers-labor-making",
+   "author": "Frederick Perry Powers",
+   "authorShort": "Powers",
+   "title": "Labor-Making Machinery: An Essay Read before the Chicago Philosophical Society, April 12, 1879",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1879,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044088904214",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q17"
+   ],
+   "texts": [
+    {
+     "id": "85c553cb17",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/85c553cb17.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "birdwood-industrial-arts",
+   "author": "George Birdwood (quoted by A. K. Coomaraswamy)",
+   "authorShort": "Birdwood",
+   "title": "The Industrial Arts of India (1880), quoted in The Indian Craftsman, Appendix II",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1880,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044025695263",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "e1fb7d184d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e1fb7d184d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "church-roman-civilisation",
+   "author": "R. W. Church",
+   "authorShort": "Church",
+   "title": "Roman Civilisation, in The Gifts of Civilisation and Other Sermons and Lectures",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1880,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4vsh",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "1c70e4cf92",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/1c70e4cf92.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "cobbe-zoophily-peak",
+   "author": "Frances Power Cobbe",
+   "authorShort": "Cobbe",
+   "title": "Zoophily, in The Peak in Darien",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1882,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah3cb8",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q28"
+   ],
+   "texts": [
+    {
+     "id": "9e0ef9f409",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9e0ef9f409.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "smith-reform-government",
+   "author": "Walter Allen Smith",
+   "authorShort": "Smith",
+   "title": "Reform in the Government Service (Prize Essays on Civil Service Reform)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1882,
+   "earlier": false,
+   "language": "English",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014707426",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "2da7c2dce7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2da7c2dce7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "bluntschli-theory-state",
+   "author": "Johann Caspar Bluntschli",
+   "authorShort": "Bluntschli",
+   "title": "The Theory of the State",
+   "originalTitle": "Allgemeine Staatslehre",
+   "otherTitles": [],
+   "year": 1885,
+   "earlier": false,
+   "language": "German",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044012583670",
+   "text": "full",
+   "translation": {
+    "kind": "period",
+    "note": "Read in the authorized English translation (Oxford, 1885).",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044012583670"
+   },
+   "questions": [
+    "Q35",
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "737adb8904",
+     "role": "main",
+     "language": "English (trans. from German)",
+     "status": "ok",
+     "file": "canon/texts/737adb8904.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "martin-human-body",
+   "author": "H. Newell Martin",
+   "authorShort": "Martin",
+   "title": "The Human Body: An Account of Its Structure and Activities and the Conditions of Its Healthy Working",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1885,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw1vqx",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q08"
+   ],
+   "texts": [
+    {
+     "id": "380f0f1459",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/380f0f1459.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "prince-nature-mind",
+   "author": "Morton Prince",
+   "authorShort": "Prince",
+   "title": "The Nature of Mind and Human Automatism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1885,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc37fn",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03",
+    "Q04"
+   ],
+   "texts": [
+    {
+     "id": "eea71ecb95",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/eea71ecb95.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "radestock-habit-its",
+   "author": "Paul Radestock",
+   "authorShort": "Radestock",
+   "title": "Habit and Its Importance in Education: An Essay in Pedagogical Psychology",
+   "originalTitle": "Die Gewöhnung und ihre Wichtigkeit für die Erziehung",
+   "otherTitles": [],
+   "year": 1886,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044029943909",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q20"
+   ],
+   "texts": [
+    {
+     "id": "e145ce02d9",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e145ce02d9.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "phillips-sacrifice-education",
+   "author": "W. Phillips (letter in Auberon Herbert's collection)",
+   "authorShort": "Phillips",
+   "title": "The Sacrifice of Education to Examination",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": false,
+   "language": "English",
+   "kind": "other",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044096986930",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "f738e2aef0",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/f738e2aef0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "suttner-das-maschinenalter",
+   "author": "Bertha von Suttner (published anonymously as 'Jemand')",
+   "authorShort": "Suttner",
+   "title": "Das Maschinenalter: Zukunftsvorlesungen über unsere Zeit",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": false,
+   "language": "German",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn2ua9",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q32"
+   ],
+   "texts": [
+    {
+     "id": "be4470a1d1",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/be4470a1d1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "valbert-l-age",
+   "author": "G. Valbert (Victor Cherbuliez)",
+   "authorShort": "Valbert",
+   "title": "L'Âge des machines",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1889,
+   "earlier": false,
+   "language": "French",
+   "kind": "periodical",
+   "wikidata": null,
+   "textUrl": "https://fr.wikisource.org/wiki/L’Âge_des_machines",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "e59a83278c",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/e59a83278c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "ranade-present-state",
+   "author": "Mahadev Govind Ranade",
+   "authorShort": "Ranade",
+   "title": "Present State of Indian Manufactures and Outlook of the Same (in Essays on Indian Economics)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1890,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044018940429",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "8343aae2d4",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8343aae2d4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "corre-militarisme",
+   "author": "Armand Corre",
+   "authorShort": "Corre",
+   "title": "Militarisme",
+   "originalTitle": "Militarisme",
+   "otherTitles": [],
+   "year": 1894,
+   "earlier": false,
+   "language": "French",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044080692726",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "f4008818a0",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/f4008818a0.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "ladd-psychology-descriptive",
+   "author": "George Trumbull Ladd",
+   "authorShort": "Ladd",
+   "title": "Psychology, Descriptive and Explanatory: A Treatise of the Phenomena, Laws, and Development of Human Mental Life",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1894,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwrcyd",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q24"
+   ],
+   "texts": [
+    {
+     "id": "4348e95fa9",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4348e95fa9.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "venn-symbolic-logic",
+   "author": "John Venn",
+   "authorShort": "Venn",
+   "title": "Symbolic Logic (2nd ed.)",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1894,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004605846",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q03"
+   ],
+   "texts": [
+    {
+     "id": "6f53e5fa0d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6f53e5fa0d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "hearn-kokoro-hints",
+   "author": "Lafcadio Hearn (Koizumi Yakumo)",
+   "authorShort": "Hearn",
+   "title": "Kokoro: Hints and Echoes of Japanese Inner Life",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1896,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044050676907",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q33",
+    "Q38"
+   ],
+   "texts": [
+    {
+     "id": "114fae9195",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/114fae9195.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "furnemont-militarisme-voila",
+   "author": "Léon Furnémont",
+   "authorShort": "Furnémont",
+   "title": "Le militarisme: voilà l'ennemi",
+   "originalTitle": "Le militarisme: voilà l'ennemi",
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "French",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.li596c",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "7f85557648",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/7f85557648.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "grave-machinery",
+   "author": "Jean Grave",
+   "authorShort": "Grave",
+   "title": "Machinery",
+   "originalTitle": "Le machinisme",
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "French",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.li595r",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q14"
+   ],
+   "texts": [
+    {
+     "id": "6c3f7791b7",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/6c3f7791b7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "grave-machinisme",
+   "author": "Jean Grave",
+   "authorShort": "Grave",
+   "title": "Le machinisme",
+   "originalTitle": "Le machinisme",
+   "otherTitles": [],
+   "year": 1898,
+   "earlier": false,
+   "language": "French",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.li595r",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q18",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "7f6276db05",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/7f6276db05.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "bierce-moxon-s",
+   "author": "Ambrose Bierce",
+   "authorShort": "Bierce",
+   "title": "Moxon's Master",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1899,
+   "earlier": false,
+   "language": "English",
+   "kind": "fiction",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044100191576",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q01"
+   ],
+   "texts": [
+    {
+     "id": "5c5c0c7ca7",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/5c5c0c7ca7.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "gilman-concerning-children",
+   "author": "Charlotte Perkins Gilman",
+   "authorShort": "Gilman",
+   "title": "Concerning Children",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1900,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044087382800",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q21"
+   ],
+   "texts": [
+    {
+     "id": "6ca5988a1e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6ca5988a1e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "inazo-bushido-soul",
+   "author": "Nitobe Inazō",
+   "authorShort": "Inazō",
+   "title": "Bushido, the Soul of Japan",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1900,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044037683356",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q36"
+   ],
+   "texts": [
+    {
+     "id": "66194c84af",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/66194c84af.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "levasseur-comparaison-du",
+   "author": "Émile Levasseur",
+   "authorShort": "Levasseur",
+   "title": "Comparaison du travail à la main et du travail à la machine",
+   "originalTitle": "Comparaison du travail à la main et du travail à la machine",
+   "otherTitles": [],
+   "year": 1900,
+   "earlier": false,
+   "language": "French",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hndmef",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q18",
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "4ff16ee9da",
+     "role": "main",
+     "language": "French",
+     "status": "ok",
+     "file": "canon/texts/4ff16ee9da.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "butschli-mechanism-vitalism",
+   "author": "Otto Bütschli",
+   "authorShort": "Bütschli",
+   "title": "Mechanism and Vitalism",
+   "originalTitle": "Mechanismus und Vitalismus",
+   "otherTitles": [],
+   "year": 1901,
+   "earlier": false,
+   "language": "German",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044106445570",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q13"
+   ],
+   "texts": [
+    {
+     "id": "1d00b15fa3",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/1d00b15fa3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "miles-how-remember",
+   "author": "Eustace Miles",
+   "authorShort": "Miles",
+   "title": "How to Remember, without Memory Systems or with Them",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1902,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044051133858",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q23"
+   ],
+   "texts": [
+    {
+     "id": "7738fb9a47",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7738fb9a47.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "wolff-mechanism-vitalism",
+   "author": "Gustav Wolff",
+   "authorShort": "Wolff",
+   "title": "Mechanism and Vitalism",
+   "originalTitle": "Mechanismus und Vitalismus",
+   "otherTitles": [],
+   "year": 1902,
+   "earlier": false,
+   "language": "German",
+   "kind": "pamphlet",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hny82m",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q13"
+   ],
+   "texts": [
+    {
+     "id": "e091296195",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/e091296195.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "ehrlich-free-finding",
+   "author": "Eugen Ehrlich",
+   "authorShort": "Ehrlich",
+   "title": "Free Finding of Law and Free Legal Science",
+   "originalTitle": "Freie Rechtsfindung und freie Rechtswissenschaft",
+   "otherTitles": [],
+   "year": 1903,
+   "earlier": false,
+   "language": "German",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044059121343",
+   "text": "full",
+   "translation": {
+    "kind": "none",
+    "note": ""
+   },
+   "questions": [
+    "Q11",
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "02bc20d8c4",
+     "role": "main",
+     "language": "German",
+     "status": "ok",
+     "file": "canon/texts/02bc20d8c4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "briggs-routine-ideals",
+   "author": "LeBaron Russell Briggs",
+   "authorShort": "Briggs",
+   "title": "Routine and Ideals",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1904,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044028561652",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "b394408f4e",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b394408f4e.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "gaze-how-live",
+   "author": "Harry Gaze",
+   "authorShort": "Gaze",
+   "title": "How to Live Forever: The Science and Practice",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1904,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014276885",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "e93899c476",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/e93899c476.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "okakura-awakening-japan",
+   "author": "Okakura Kakuzō",
+   "authorShort": "Okakura",
+   "title": "The Awakening of Japan",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1904,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hni1cx",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "25f4dc5937",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/25f4dc5937.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "godard-racial-supremacy",
+   "author": "John George Godard",
+   "authorShort": "Godard",
+   "title": "Racial Supremacy: Being Studies in Imperialism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1905,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044081127052",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q34"
+   ],
+   "texts": [
+    {
+     "id": "8e75705d44",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/8e75705d44.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "lee-voice-machines",
+   "author": "Gerald Stanley Lee",
+   "authorShort": "Lee",
+   "title": "The Voice of the Machines",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1906,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hb0lqs",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q30",
+    "Q31"
+   ],
+   "texts": [
+    {
+     "id": "94138d08d2",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/94138d08d2.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "wilson-constitutional-government",
+   "author": "Woodrow Wilson",
+   "authorShort": "Wilson",
+   "title": "Constitutional Government in the United States",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1908,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024589913",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q35"
+   ],
+   "texts": [
+    {
+     "id": "968d16559c",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/968d16559c.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "stephens-natural-salvation",
+   "author": "C. A. Stephens",
+   "authorShort": "Stephens",
+   "title": "Natural Salvation: Immortal Life on the Earth from the Growth of Knowledge",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1909,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044062446844",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q15"
+   ],
+   "texts": [
+    {
+     "id": "2799bd79c2",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/2799bd79c2.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "macfie-heredity-evolution",
+   "author": "Ronald Campbell Macfie",
+   "authorShort": "Macfie",
+   "title": "Heredity, Evolution, and Vitalism",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1912,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc2qa3",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q09"
+   ],
+   "texts": [
+    {
+     "id": "7edff80142",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7edff80142.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "unions-scientific-management",
+   "author": "American trade unions (statement of objections compiled by Robert F. Hoxie for the U.S. Commission on Industrial Relations)",
+   "authorShort": "unions",
+   "title": "Scientific Management and Labor, Appendix V: The Trade Union Objections to Scientific Management",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1915,
+   "earlier": false,
+   "language": "English",
+   "kind": "report",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004351367",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q18"
+   ],
+   "texts": [
+    {
+     "id": "424c5e47b5",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/424c5e47b5.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "link-employment-psychology",
+   "author": "Henry C. Link",
+   "authorShort": "Link",
+   "title": "Employment Psychology",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1919,
+   "earlier": false,
+   "language": "English",
+   "kind": "textbook",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010220572",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q12"
+   ],
+   "texts": [
+    {
+     "id": "9a23727cb4",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/9a23727cb4.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "frederick-household-engineering",
+   "author": "Christine Frederick",
+   "authorShort": "Frederick",
+   "title": "Household Engineering: Scientific Management in the Home",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1920,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.rslfcf",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q22"
+   ],
+   "texts": [
+    {
+     "id": "bcb7e0f26a",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/bcb7e0f26a.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "soddy-control-wealth",
+   "author": "Frederick Soddy",
+   "authorShort": "Soddy",
+   "title": "The Control of Wealth, in Science and Life: Aberdeen Addresses",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1920,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044054995782",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q26"
+   ],
+   "texts": [
+    {
+     "id": "6d65ea47b1",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/6d65ea47b1.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "yat-sen-international-development",
+   "author": "Sun Yat-sen",
+   "authorShort": "Yat-sen",
+   "title": "The International Development of China",
+   "originalTitle": "Shiye jihua",
+   "otherTitles": [],
+   "year": 1920,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024484669",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q33"
+   ],
+   "texts": [
+    {
+     "id": "b6416573d2",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/b6416573d2.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "cardozo-nature-judicial",
+   "author": "Benjamin N. Cardozo",
+   "authorShort": "Cardozo",
+   "title": "The Nature of the Judicial Process",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1921,
+   "earlier": false,
+   "language": "English",
+   "kind": "lecture",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020069050",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q11"
+   ],
+   "texts": [
+    {
+     "id": "1910a0126d",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/1910a0126d.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "hill-shadow-substance",
+   "author": "William Preston Hill",
+   "authorShort": "Hill",
+   "title": "Shadow or Substance: Socialism or Individualism?",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnmvbg",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q19"
+   ],
+   "texts": [
+    {
+     "id": "7ad28ad215",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/7ad28ad215.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
+  },
+  {
+   "id": "pound-iron-man",
+   "author": "Arthur Pound",
+   "authorShort": "Pound",
+   "title": "The Iron Man in Industry",
+   "originalTitle": null,
+   "otherTitles": [],
+   "year": 1922,
+   "earlier": false,
+   "language": "English",
+   "kind": "book",
+   "wikidata": null,
+   "textUrl": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044081996431",
+   "text": "full",
+   "translation": {
+    "kind": "english"
+   },
+   "questions": [
+    "Q14",
+    "Q18",
+    "Q27"
+   ],
+   "texts": [
+    {
+     "id": "4840aeb4d3",
+     "role": "main",
+     "language": "English",
+     "status": "ok",
+     "file": "canon/texts/4840aeb4d3.txt"
+    }
+   ],
+   "selectedBy": "Ben Breen",
+   "selectedOn": "2026-11-20",
+   "suggestedBy": "Claude research agents, 20 Nov 2026 (Institutional Books search)"
   }
  ]
 }

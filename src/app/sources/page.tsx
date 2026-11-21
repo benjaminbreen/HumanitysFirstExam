@@ -105,10 +105,16 @@ export default async function SourcesPage({
     <>
       <PageTitle title="Sources">
         <p>
-          {works.length} works selected for the{" "}
+          {works.length} works for the{" "}
           {new Set(works.flatMap((w) => w.questions)).size} candidate questions.
-          Selections approved by Ben Breen, 29 September 2026. Arguments are
-          unverified. Quotations were chosen by machine and are unchecked.
+          Ben Breen approved{" "}
+          {works.filter((w) => w.selectedOn === "2026-09-29").length} on 29
+          September and{" "}
+          {works.filter((w) => w.selectedOn === "2026-11-20").length} on 20
+          November 2026; the other{" "}
+          {works.filter((w) => !["2026-09-29", "2026-11-20"].includes(w.selectedOn ?? "")).length}{" "}
+          are pilot and review sources. Arguments are unverified. Most
+          quotations were chosen by machine and are unchecked.
         </p>
       </PageTitle>
 

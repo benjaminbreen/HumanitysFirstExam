@@ -3921,5 +3921,1582 @@
   "method": "zeno (18 sections)",
   "chars": 105430,
   "file": "canon/texts/910d6b93ad-orig.txt"
+ },
+ {
+  "id": "8eb4baae17",
+  "author": "Charles Babbage",
+  "title": "The Ninth Bridgewater Treatise: A Fragment",
+  "original_title": "",
+  "year": 1838,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah5b8w",
+  "questions": [
+   "Q01"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH5B8W",
+  "file": "canon/texts/8eb4baae17.txt",
+  "chars": 259956
+ },
+ {
+  "id": "5c5c0c7ca7",
+  "author": "Ambrose Bierce",
+  "title": "Moxon's Master",
+  "original_title": "",
+  "year": 1899,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044100191576",
+  "questions": [
+   "Q01"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044100191576",
+  "file": "canon/texts/5c5c0c7ca7.txt",
+  "chars": 435623
+ },
+ {
+  "id": "cf06624a4d",
+  "author": "E. T. A. Hoffmann",
+  "title": "Automata",
+  "original_title": "Die Automate",
+  "year": 1814,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwsppm",
+  "questions": [
+   "Q02"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HWSPPM",
+  "file": "canon/texts/cf06624a4d.txt",
+  "chars": 1673213
+ },
+ {
+  "id": "ab787dc666",
+  "author": "Charles-Georges Leroy",
+  "title": "Philosophical Letters on the Intelligence and Perfectibility of Animals",
+  "original_title": "Lettres philosophiques sur l'intelligence et la perfectibilité des animaux",
+  "year": 1802,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxjhyv",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HXJHYV",
+  "file": "canon/texts/ab787dc666.txt",
+  "chars": 378610
+ },
+ {
+  "id": "8da6e8f2c4",
+  "author": "Robert Willis",
+  "title": "An Attempt to Analyse the Automaton Chess Player of Mr. de Kempelen",
+  "original_title": "",
+  "year": 1821,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn5r19",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HN5R19",
+  "file": "canon/texts/8da6e8f2c4.txt",
+  "chars": 30174
+ },
+ {
+  "id": "8ba54f8dd6",
+  "author": "George Henry Lewes",
+  "title": "Problems of Life and Mind, Second Series: The Physical Basis of Mind",
+  "original_title": "",
+  "year": 1877,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020284014",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044020284014",
+  "file": "canon/texts/8ba54f8dd6.txt",
+  "chars": 1070848
+ },
+ {
+  "id": "eea71ecb95",
+  "author": "Morton Prince",
+  "title": "The Nature of Mind and Human Automatism",
+  "original_title": "",
+  "year": 1885,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc37fn",
+  "questions": [
+   "Q03",
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HC37FN",
+  "file": "canon/texts/eea71ecb95.txt",
+  "chars": 290541
+ },
+ {
+  "id": "6f53e5fa0d",
+  "author": "John Venn",
+  "title": "Symbolic Logic (2nd ed.)",
+  "original_title": "",
+  "year": 1894,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004605846",
+  "questions": [
+   "Q03"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044004605846",
+  "file": "canon/texts/6f53e5fa0d.txt",
+  "chars": 1016970
+ },
+ {
+  "id": "cde89065ad",
+  "author": "Alexander Bain",
+  "title": "Mind and Body: The Theories of Their Relation",
+  "original_title": "",
+  "year": 1879,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc268r",
+  "questions": [
+   "Q04"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HC268R",
+  "file": "canon/texts/cde89065ad.txt",
+  "chars": 328792
+ },
+ {
+  "id": "3dca97516f",
+  "author": "Henry George Atkinson (with Harriet Martineau)",
+  "title": "Letters on the Laws of Man's Nature and Development",
+  "original_title": "",
+  "year": 1851,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah3etk",
+  "questions": [
+   "Q05"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH3ETK",
+  "file": "canon/texts/3dca97516f.txt",
+  "chars": 620907
+ },
+ {
+  "id": "8eda3cc353",
+  "author": "Charles Bray",
+  "title": "The Philosophy of Necessity; or, The Law of Consequences, vol. 1",
+  "original_title": "",
+  "year": 1841,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnjctm",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNJCTM",
+  "file": "canon/texts/8eda3cc353.txt",
+  "chars": 526289
+ },
+ {
+  "id": "4121e8d44f",
+  "author": "Daniel D. Whedon",
+  "title": "The Freedom of the Will as a Basis of Human Responsibility and a Divine Government",
+  "original_title": "",
+  "year": 1864,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnw7fi",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNW7FI",
+  "file": "canon/texts/4121e8d44f.txt",
+  "chars": 890802
+ },
+ {
+  "id": "4958948963",
+  "author": "Oliver Wendell Holmes",
+  "title": "Mechanism in Thought and Morals",
+  "original_title": "",
+  "year": 1871,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah6pud",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH6PUD",
+  "file": "canon/texts/4958948963.txt",
+  "chars": 100990
+ },
+ {
+  "id": "7523d482ab",
+  "author": "Henry Maudsley",
+  "title": "Responsibility in Mental Disease",
+  "original_title": "",
+  "year": 1876,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc21is",
+  "questions": [
+   "Q06"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HC21IS",
+  "file": "canon/texts/7523d482ab.txt",
+  "chars": 568586
+ },
+ {
+  "id": "606df609db",
+  "author": "Thomas Rennell",
+  "title": "Remarks on Scepticism, Especially as It Is Connected with the Subjects of Organization and Life",
+  "original_title": "",
+  "year": 1819,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah49mm",
+  "questions": [
+   "Q07"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH49MM",
+  "file": "canon/texts/606df609db.txt",
+  "chars": 440285
+ },
+ {
+  "id": "df04fdb1d8",
+  "author": "William Lawrence",
+  "title": "Lectures on Physiology, Zoology, and the Natural History of Man",
+  "original_title": "",
+  "year": 1822,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044011377835",
+  "questions": [
+   "Q07"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044011377835",
+  "file": "canon/texts/df04fdb1d8.txt",
+  "chars": 1150279
+ },
+ {
+  "id": "0db2f6cc4e",
+  "author": "Lionel S. Beale",
+  "title": "Protoplasm; or, Matter and Life (3rd ed.)",
+  "original_title": "",
+  "year": 1874,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044023775190",
+  "questions": [
+   "Q07"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044023775190",
+  "file": "canon/texts/0db2f6cc4e.txt",
+  "chars": 720465
+ },
+ {
+  "id": "380f0f1459",
+  "author": "H. Newell Martin",
+  "title": "The Human Body: An Account of Its Structure and Activities and the Conditions of Its Healthy Working",
+  "original_title": "",
+  "year": 1885,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw1vqx",
+  "questions": [
+   "Q08"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HW1VQX",
+  "file": "canon/texts/380f0f1459.txt",
+  "chars": 1235255
+ },
+ {
+  "id": "14fd7f809a",
+  "author": "Ralph Cudworth",
+  "title": "The True Intellectual System of the Universe",
+  "original_title": "",
+  "year": 1678,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw2s1n",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HW2S1N",
+  "file": "canon/texts/14fd7f809a.txt",
+  "chars": 913315
+ },
+ {
+  "id": "7edff80142",
+  "author": "Ronald Campbell Macfie",
+  "title": "Heredity, Evolution, and Vitalism",
+  "original_title": "",
+  "year": 1912,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc2qa3",
+  "questions": [
+   "Q09"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HC2QA3",
+  "file": "canon/texts/7edff80142.txt",
+  "chars": 436843
+ },
+ {
+  "id": "8edcf7c856",
+  "author": "John Henry Newman",
+  "title": "An Essay in Aid of a Grammar of Assent",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4lyw",
+  "questions": [
+   "Q10"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH4LYW",
+  "file": "canon/texts/8edcf7c856.txt",
+  "chars": 778777
+ },
+ {
+  "id": "4150b303bc",
+  "author": "John Selden",
+  "title": "Table-Talk",
+  "original_title": "",
+  "year": 1689,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwp1ge",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HWP1GE",
+  "file": "canon/texts/4150b303bc.txt",
+  "chars": 228294
+ },
+ {
+  "id": "f755ab1cbb",
+  "author": "Francis Lieber",
+  "title": "Legal and Political Hermeneutics",
+  "original_title": "",
+  "year": 1839,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024630980",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044024630980",
+  "file": "canon/texts/f755ab1cbb.txt",
+  "chars": 319528
+ },
+ {
+  "id": "02bc20d8c4",
+  "author": "Eugen Ehrlich",
+  "title": "Free Finding of Law and Free Legal Science",
+  "original_title": "Freie Rechtsfindung und freie Rechtswissenschaft",
+  "year": 1903,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044059121343",
+  "questions": [
+   "Q11",
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044059121343",
+  "file": "canon/texts/02bc20d8c4.txt",
+  "chars": 92472
+ },
+ {
+  "id": "1910a0126d",
+  "author": "Benjamin N. Cardozo",
+  "title": "The Nature of the Judicial Process",
+  "original_title": "",
+  "year": 1921,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020069050",
+  "questions": [
+   "Q11"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044020069050",
+  "file": "canon/texts/1910a0126d.txt",
+  "chars": 191955
+ },
+ {
+  "id": "2da7c2dce7",
+  "author": "Walter Allen Smith",
+  "title": "Reform in the Government Service (Prize Essays on Civil Service Reform)",
+  "original_title": "",
+  "year": 1882,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014707426",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044014707426",
+  "file": "canon/texts/2da7c2dce7.txt",
+  "chars": 49773
+ },
+ {
+  "id": "f738e2aef0",
+  "author": "W. Phillips (letter in Auberon Herbert's collection)",
+  "title": "The Sacrifice of Education to Examination",
+  "original_title": "",
+  "year": 1889,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044096986930",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044096986930",
+  "file": "canon/texts/f738e2aef0.txt",
+  "chars": 539537
+ },
+ {
+  "id": "9a23727cb4",
+  "author": "Henry C. Link",
+  "title": "Employment Psychology",
+  "original_title": "",
+  "year": 1919,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010220572",
+  "questions": [
+   "Q12"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044010220572",
+  "file": "canon/texts/9a23727cb4.txt",
+  "chars": 722116
+ },
+ {
+  "id": "1d00b15fa3",
+  "author": "Otto Bütschli",
+  "title": "Mechanism and Vitalism",
+  "original_title": "Mechanismus und Vitalismus",
+  "year": 1901,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044106445570",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044106445570",
+  "file": "canon/texts/1d00b15fa3.txt",
+  "chars": 286086
+ },
+ {
+  "id": "e091296195",
+  "author": "Gustav Wolff",
+  "title": "Mechanism and Vitalism",
+  "original_title": "Mechanismus und Vitalismus",
+  "year": 1902,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hny82m",
+  "questions": [
+   "Q13"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNY82M",
+  "file": "canon/texts/e091296195.txt",
+  "chars": 72801
+ },
+ {
+  "id": "5bbc4f215e",
+  "author": "Peter Gaskell",
+  "title": "The Manufacturing Population of England",
+  "original_title": "",
+  "year": 1833,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004819405",
+  "questions": [
+   "Q14",
+   "Q18",
+   "Q25"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044004819405",
+  "file": "canon/texts/5bbc4f215e.txt",
+  "chars": 807480
+ },
+ {
+  "id": "6c3f7791b7",
+  "author": "Jean Grave",
+  "title": "Machinery",
+  "original_title": "Le machinisme",
+  "year": 1898,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.li595r",
+  "questions": [
+   "Q14"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:LI595R",
+  "file": "canon/texts/6c3f7791b7.txt",
+  "chars": 30414
+ },
+ {
+  "id": "4840aeb4d3",
+  "author": "Arthur Pound",
+  "title": "The Iron Man in Industry",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044081996431",
+  "questions": [
+   "Q14",
+   "Q18",
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044081996431",
+  "file": "canon/texts/4840aeb4d3.txt",
+  "chars": 365099
+ },
+ {
+  "id": "b3cf3d4a74",
+  "author": "Christoph Wilhelm Hufeland",
+  "title": "The Art of Prolonging Life",
+  "original_title": "Makrobiotik, oder die Kunst das menschliche Leben zu verlängern",
+  "year": 1796,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hc38aa",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HC38AA",
+  "file": "canon/texts/b3cf3d4a74.txt",
+  "chars": 545875
+ },
+ {
+  "id": "11fc375940",
+  "author": "William Sweetser",
+  "title": "Human Life: Considered in its Present Condition and Future Developments, Especially with Reference to its Duration",
+  "original_title": "",
+  "year": 1867,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxcy9w",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HXCY9W",
+  "file": "canon/texts/11fc375940.txt",
+  "chars": 381218
+ },
+ {
+  "id": "e93899c476",
+  "author": "Harry Gaze",
+  "title": "How to Live Forever: The Science and Practice",
+  "original_title": "",
+  "year": 1904,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014276885",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044014276885",
+  "file": "canon/texts/e93899c476.txt",
+  "chars": 170979
+ },
+ {
+  "id": "2799bd79c2",
+  "author": "C. A. Stephens",
+  "title": "Natural Salvation: Immortal Life on the Earth from the Growth of Knowledge",
+  "original_title": "",
+  "year": 1909,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044062446844",
+  "questions": [
+   "Q15"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044062446844",
+  "file": "canon/texts/2799bd79c2.txt",
+  "chars": 585644
+ },
+ {
+  "id": "ef11851718",
+  "author": "Joseph Butler",
+  "title": "The Analogy of Religion (Part I, ch. 1, 'Of a Future Life')",
+  "original_title": "",
+  "year": 1736,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn32ki",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HN32KI",
+  "file": "canon/texts/ef11851718.txt",
+  "chars": 688830
+ },
+ {
+  "id": "d4f72c665f",
+  "author": "Thomas Brown",
+  "title": "Lectures on the Philosophy of the Human Mind",
+  "original_title": "",
+  "year": 1820,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnug9y",
+  "questions": [
+   "Q16"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNUG9Y",
+  "file": "canon/texts/d4f72c665f.txt",
+  "chars": 937392
+ },
+ {
+  "id": "d7b897906e",
+  "author": "William Dodd",
+  "title": "The Laboring Classes of England, Especially Those Engaged in Agriculture and Manufactures; in a Series of Letters",
+  "original_title": "",
+  "year": 1847,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044014244032",
+  "questions": [
+   "Q17"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044014244032",
+  "file": "canon/texts/d7b897906e.txt",
+  "chars": 284789
+ },
+ {
+  "id": "0617bf4066",
+  "author": "Robert Dale Owen",
+  "title": "Labor: Its History and Its Prospects. An Address Delivered before the Young Men's Mercantile Library Association of Cincinnati",
+  "original_title": "",
+  "year": 1851,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010435048",
+  "questions": [
+   "Q17"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044010435048",
+  "file": "canon/texts/0617bf4066.txt",
+  "chars": 119248
+ },
+ {
+  "id": "85c553cb17",
+  "author": "Frederick Perry Powers",
+  "title": "Labor-Making Machinery: An Essay Read before the Chicago Philosophical Society, April 12, 1879",
+  "original_title": "",
+  "year": 1879,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044088904214",
+  "questions": [
+   "Q17"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044088904214",
+  "file": "canon/texts/85c553cb17.txt",
+  "chars": 70296
+ },
+ {
+  "id": "e59a83278c",
+  "author": "G. Valbert (Victor Cherbuliez)",
+  "title": "L'Âge des machines",
+  "original_title": "",
+  "year": 1889,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://fr.wikisource.org/wiki/L’Âge_des_machines",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "wikisource-api",
+  "source": "https://fr.wikisource.org/wiki/L’Âge_des_machines",
+  "file": "canon/texts/e59a83278c.txt",
+  "chars": 34028
+ },
+ {
+  "id": "7f6276db05",
+  "author": "Jean Grave",
+  "title": "Le machinisme",
+  "original_title": "Le machinisme",
+  "year": 1898,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.li595r",
+  "questions": [
+   "Q18",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:LI595R",
+  "file": "canon/texts/7f6276db05.txt",
+  "chars": 30414
+ },
+ {
+  "id": "4ff16ee9da",
+  "author": "Émile Levasseur",
+  "title": "Comparaison du travail à la main et du travail à la machine",
+  "original_title": "Comparaison du travail à la main et du travail à la machine",
+  "year": 1900,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hndmef",
+  "questions": [
+   "Q18",
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNDMEF",
+  "file": "canon/texts/4ff16ee9da.txt",
+  "chars": 252594
+ },
+ {
+  "id": "eef73d50fa",
+  "author": "James Hartness",
+  "title": "The Human Factor in Works Management",
+  "original_title": "",
+  "year": 1912,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044011600822",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044011600822",
+  "file": "canon/texts/eef73d50fa.txt",
+  "chars": 163765
+ },
+ {
+  "id": "424c5e47b5",
+  "author": "American trade unions (statement of objections compiled by Robert F. Hoxie for the U.S. Commission on Industrial Relations)",
+  "title": "Scientific Management and Labor, Appendix V: The Trade Union Objections to Scientific Management",
+  "original_title": "",
+  "year": 1915,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044004351367",
+  "questions": [
+   "Q18"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044004351367",
+  "file": "canon/texts/424c5e47b5.txt",
+  "chars": 597012
+ },
+ {
+  "id": "7ad28ad215",
+  "author": "William Preston Hill",
+  "title": "Shadow or Substance: Socialism or Individualism?",
+  "original_title": "",
+  "year": 1922,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnmvbg",
+  "questions": [
+   "Q19"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNMVBG",
+  "file": "canon/texts/7ad28ad215.txt",
+  "chars": 122188
+ },
+ {
+  "id": "93840d3d56",
+  "author": "Joseph John Gurney",
+  "title": "Thoughts on Habit and Discipline",
+  "original_title": "",
+  "year": 1857,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4mbv",
+  "questions": [
+   "Q20"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH4MBV",
+  "file": "canon/texts/93840d3d56.txt",
+  "chars": 383908
+ },
+ {
+  "id": "e145ce02d9",
+  "author": "Paul Radestock",
+  "title": "Habit and Its Importance in Education: An Essay in Pedagogical Psychology",
+  "original_title": "Die Gewöhnung und ihre Wichtigkeit für die Erziehung",
+  "year": 1886,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044029943909",
+  "questions": [
+   "Q20"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044029943909",
+  "file": "canon/texts/e145ce02d9.txt",
+  "chars": 232375
+ },
+ {
+  "id": "f4008818a0",
+  "author": "Armand Corre",
+  "title": "Militarisme",
+  "original_title": "Militarisme",
+  "year": 1894,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044080692726",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044080692726",
+  "file": "canon/texts/f4008818a0.txt",
+  "chars": 65438
+ },
+ {
+  "id": "7f85557648",
+  "author": "Léon Furnémont",
+  "title": "Le militarisme: voilà l'ennemi",
+  "original_title": "Le militarisme: voilà l'ennemi",
+  "year": 1898,
+  "language": "French",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.li596c",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:LI596C",
+  "file": "canon/texts/7f85557648.txt",
+  "chars": 17831
+ },
+ {
+  "id": "6ca5988a1e",
+  "author": "Charlotte Perkins Gilman",
+  "title": "Concerning Children",
+  "original_title": "",
+  "year": 1900,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044087382800",
+  "questions": [
+   "Q21"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044087382800",
+  "file": "canon/texts/6ca5988a1e.txt",
+  "chars": 318599
+ },
+ {
+  "id": "b394408f4e",
+  "author": "LeBaron Russell Briggs",
+  "title": "Routine and Ideals",
+  "original_title": "",
+  "year": 1904,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044028561652",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044028561652",
+  "file": "canon/texts/b394408f4e.txt",
+  "chars": 203219
+ },
+ {
+  "id": "bcb7e0f26a",
+  "author": "Christine Frederick",
+  "title": "Household Engineering: Scientific Management in the Home",
+  "original_title": "",
+  "year": 1920,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.rslfcf",
+  "questions": [
+   "Q22"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:RSLFCF",
+  "file": "canon/texts/bcb7e0f26a.txt",
+  "chars": 832300
+ },
+ {
+  "id": "c0a175c96f",
+  "author": "O. S. Fowler",
+  "title": "Memory and Intellectual Improvement: Applied to Self-Education and Juvenile Instruction",
+  "original_title": "",
+  "year": 1853,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044020336236",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044020336236",
+  "file": "canon/texts/c0a175c96f.txt",
+  "chars": 1750876
+ },
+ {
+  "id": "7738fb9a47",
+  "author": "Eustace Miles",
+  "title": "How to Remember, without Memory Systems or with Them",
+  "original_title": "",
+  "year": 1902,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044051133858",
+  "questions": [
+   "Q23"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044051133858",
+  "file": "canon/texts/7738fb9a47.txt",
+  "chars": 340839
+ },
+ {
+  "id": "4348e95fa9",
+  "author": "George Trumbull Ladd",
+  "title": "Psychology, Descriptive and Explanatory: A Treatise of the Phenomena, Laws, and Development of Human Mental Life",
+  "original_title": "",
+  "year": 1894,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwrcyd",
+  "questions": [
+   "Q24"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HWRCYD",
+  "file": "canon/texts/4348e95fa9.txt",
+  "chars": 2311241
+ },
+ {
+  "id": "29d0e0664f",
+  "author": "Ralph Waldo Emerson",
+  "title": "Works and Days, in Society and Solitude",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044021671334",
+  "questions": [
+   "Q25"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044021671334",
+  "file": "canon/texts/29d0e0664f.txt",
+  "chars": 376653
+ },
+ {
+  "id": "6d65ea47b1",
+  "author": "Frederick Soddy",
+  "title": "The Control of Wealth, in Science and Life: Aberdeen Addresses",
+  "original_title": "",
+  "year": 1920,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044054995782",
+  "questions": [
+   "Q26"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044054995782",
+  "file": "canon/texts/6d65ea47b1.txt",
+  "chars": 420022
+ },
+ {
+  "id": "90c5cad3d2",
+  "author": "John Wilkins",
+  "title": "Mercury: or the Secret and Swift Messenger (Conclusion)",
+  "original_title": "",
+  "year": 1641,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://archive.org/details/mathematicalphil00wilk (djvu.txt)",
+  "questions": [
+   "Q27"
+  ],
+  "status": "none",
+  "method": "",
+  "source": "https://archive.org/details/mathematicalphil00wilk (djvu.txt)"
+ },
+ {
+  "id": "e1fb7d184d",
+  "author": "George Birdwood (quoted by A. K. Coomaraswamy)",
+  "title": "The Industrial Arts of India (1880), quoted in The Indian Craftsman, Appendix II",
+  "original_title": "",
+  "year": 1880,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044025695263",
+  "questions": [
+   "Q27"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044025695263",
+  "file": "canon/texts/e1fb7d184d.txt",
+  "chars": 183078
+ },
+ {
+  "id": "9bc454798a",
+  "author": "William Hamilton Drummond",
+  "title": "The Rights of Animals, and Man's Obligation to Treat Them with Humanity",
+  "original_title": "",
+  "year": 1838,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010401362",
+  "questions": [
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044010401362",
+  "file": "canon/texts/9bc454798a.txt",
+  "chars": 504272
+ },
+ {
+  "id": "9e0ef9f409",
+  "author": "Frances Power Cobbe",
+  "title": "Zoophily, in The Peak in Darien",
+  "original_title": "",
+  "year": 1882,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah3cb8",
+  "questions": [
+   "Q28"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH3CB8",
+  "file": "canon/texts/9e0ef9f409.txt",
+  "chars": 334097
+ },
+ {
+  "id": "9fa229888d",
+  "author": "William Ellery Channing",
+  "title": "Slavery",
+  "original_title": "",
+  "year": 1835,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010364750",
+  "questions": [
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044010364750",
+  "file": "canon/texts/9fa229888d.txt",
+  "chars": 316827
+ },
+ {
+  "id": "21cd736266",
+  "author": "Francis Wayland",
+  "title": "The Elements of Moral Science",
+  "original_title": "",
+  "year": 1835,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hw238k",
+  "questions": [
+   "Q29"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HW238K",
+  "file": "canon/texts/21cd736266.txt",
+  "chars": 759764
+ },
+ {
+  "id": "212b1426de",
+  "author": "Job Durfee",
+  "title": "The Influence of Scientific Discovery and Invention on Social and Political Progress (Phi Beta Kappa oration)",
+  "original_title": "",
+  "year": 1843,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnjjap",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNJJAP",
+  "file": "canon/texts/212b1426de.txt",
+  "chars": 78808
+ },
+ {
+  "id": "5070bbaff1",
+  "author": "Hollis Read",
+  "title": "The Hand of God in History",
+  "original_title": "",
+  "year": 1858,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4qmf",
+  "questions": [
+   "Q30"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH4QMF",
+  "file": "canon/texts/5070bbaff1.txt",
+  "chars": 912486
+ },
+ {
+  "id": "94138d08d2",
+  "author": "Gerald Stanley Lee",
+  "title": "The Voice of the Machines",
+  "original_title": "",
+  "year": 1906,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hb0lqs",
+  "questions": [
+   "Q30",
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HB0LQS",
+  "file": "canon/texts/94138d08d2.txt",
+  "chars": 208204
+ },
+ {
+  "id": "a2ee2c7e4e",
+  "author": "Moncure Daniel Conway",
+  "title": "The Praying Machine, in Idols and Ideals",
+  "original_title": "",
+  "year": 1877,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hwjqcc",
+  "questions": [
+   "Q31"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HWJQCC",
+  "file": "canon/texts/a2ee2c7e4e.txt",
+  "chars": 479713
+ },
+ {
+  "id": "1c70e4cf92",
+  "author": "R. W. Church",
+  "title": "Roman Civilisation, in The Gifts of Civilisation and Other Sermons and Lectures",
+  "original_title": "",
+  "year": 1880,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.ah4vsh",
+  "questions": [
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:AH4VSH",
+  "file": "canon/texts/1c70e4cf92.txt",
+  "chars": 731488
+ },
+ {
+  "id": "be4470a1d1",
+  "author": "Bertha von Suttner (published anonymously as 'Jemand')",
+  "title": "Das Maschinenalter: Zukunftsvorlesungen über unsere Zeit",
+  "original_title": "",
+  "year": 1889,
+  "language": "German",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn2ua9",
+  "questions": [
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HN2UA9",
+  "file": "canon/texts/be4470a1d1.txt",
+  "chars": 605183
+ },
+ {
+  "id": "8343aae2d4",
+  "author": "Mahadev Govind Ranade",
+  "title": "Present State of Indian Manufactures and Outlook of the Same (in Essays on Indian Economics)",
+  "original_title": "",
+  "year": 1890,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044018940429",
+  "questions": [
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044018940429",
+  "file": "canon/texts/8343aae2d4.txt",
+  "chars": 556417
+ },
+ {
+  "id": "114fae9195",
+  "author": "Lafcadio Hearn (Koizumi Yakumo)",
+  "title": "Kokoro: Hints and Echoes of Japanese Inner Life",
+  "original_title": "",
+  "year": 1896,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044050676907",
+  "questions": [
+   "Q33",
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044050676907",
+  "file": "canon/texts/114fae9195.txt",
+  "chars": 456726
+ },
+ {
+  "id": "25f4dc5937",
+  "author": "Okakura Kakuzō",
+  "title": "The Awakening of Japan",
+  "original_title": "",
+  "year": 1904,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hni1cx",
+  "questions": [
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HNI1CX",
+  "file": "canon/texts/25f4dc5937.txt",
+  "chars": 179296
+ },
+ {
+  "id": "b6416573d2",
+  "author": "Sun Yat-sen",
+  "title": "The International Development of China",
+  "original_title": "Shiye jihua",
+  "year": 1920,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024484669",
+  "questions": [
+   "Q33"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044024484669",
+  "file": "canon/texts/b6416573d2.txt",
+  "chars": 379821
+ },
+ {
+  "id": "8e75705d44",
+  "author": "John George Godard",
+  "title": "Racial Supremacy: Being Studies in Imperialism",
+  "original_title": "",
+  "year": 1905,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044081127052",
+  "questions": [
+   "Q34"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044081127052",
+  "file": "canon/texts/8e75705d44.txt",
+  "chars": 590703
+ },
+ {
+  "id": "9a06546320",
+  "author": "Edmund Burke",
+  "title": "Reflections on the Revolution in France",
+  "original_title": "",
+  "year": 1790,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hxj88b",
+  "questions": [
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HXJ88B",
+  "file": "canon/texts/9a06546320.txt",
+  "chars": 567966
+ },
+ {
+  "id": "737adb8904",
+  "author": "Johann Caspar Bluntschli",
+  "title": "The Theory of the State",
+  "original_title": "Allgemeine Staatslehre",
+  "year": 1885,
+  "language": "English (trans. from German)",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044012583670",
+  "questions": [
+   "Q35",
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044012583670",
+  "file": "canon/texts/737adb8904.txt",
+  "chars": 1079211
+ },
+ {
+  "id": "968d16559c",
+  "author": "Woodrow Wilson",
+  "title": "Constitutional Government in the United States",
+  "original_title": "",
+  "year": 1908,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024589913",
+  "questions": [
+   "Q35"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044024589913",
+  "file": "canon/texts/968d16559c.txt",
+  "chars": 445377
+ },
+ {
+  "id": "66194c84af",
+  "author": "Nitobe Inazō",
+  "title": "Bushido, the Soul of Japan",
+  "original_title": "",
+  "year": 1900,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044037683356",
+  "questions": [
+   "Q36"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044037683356",
+  "file": "canon/texts/66194c84af.txt",
+  "chars": 218719
+ },
+ {
+  "id": "7a6cca242e",
+  "author": "Hermann Lotze",
+  "title": "Microcosmus: An Essay Concerning Man and his Relation to the World",
+  "original_title": "Mikrokosmus",
+  "year": 1856,
+  "language": "English (trans. 1885)",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044055067623",
+  "questions": [
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044055067623",
+  "file": "canon/texts/7a6cca242e.txt",
+  "chars": 1560380
+ },
+ {
+  "id": "2ededbea7e",
+  "author": "Oliver Wendell Holmes Sr.",
+  "title": "The Human Wheel, its Spokes and Felloes (in Soundings from the Atlantic)",
+  "original_title": "",
+  "year": 1863,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.hn24z3",
+  "questions": [
+   "Q37"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:HN24Z3",
+  "file": "canon/texts/2ededbea7e.txt",
+  "chars": 536528
+ },
+ {
+  "id": "42f44a82e3",
+  "author": "J. A. Etzler",
+  "title": "The Paradise within the Reach of All Men, without Labour, by Powers of Nature and Machinery",
+  "original_title": "",
+  "year": 1836,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044009625369",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044009625369",
+  "file": "canon/texts/42f44a82e3.txt",
+  "chars": 350932
+ },
+ {
+  "id": "24450a148b",
+  "author": "Ralph Waldo Emerson",
+  "title": "Works and Days (in Society and Solitude)",
+  "original_title": "",
+  "year": 1870,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044019246990",
+  "questions": [
+   "Q38"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044019246990",
+  "file": "canon/texts/24450a148b.txt",
+  "chars": 377514
+ },
+ {
+  "id": "3a7ae400cd",
+  "author": "Nathaniel Hawthorne",
+  "title": "Feathertop: A Moralized Legend (in Mosses from an Old Manse)",
+  "original_title": "",
+  "year": 1852,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044010743144",
+  "questions": [
+   "Q39"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044010743144",
+  "file": "canon/texts/3a7ae400cd.txt",
+  "chars": 918397
+ },
+ {
+  "id": "3420ae48c1",
+  "author": "Charles Knight",
+  "title": "The Results of Machinery",
+  "original_title": "",
+  "year": 1831,
+  "language": "English",
+  "translation": "",
+  "text_url": "https://babel.hathitrust.org/cgi/pt?id=hvd.32044024355083",
+  "questions": [
+   "Q17",
+   "Q27",
+   "Q32"
+  ],
+  "status": "ok",
+  "method": "instbooks",
+  "source": "instbooks:32044024355083",
+  "file": "canon/texts/3420ae48c1.txt",
+  "chars": 323845
  }
 ]

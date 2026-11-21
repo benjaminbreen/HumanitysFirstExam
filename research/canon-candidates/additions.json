@@ -1061,8 +1061,8 @@
  },
  {
   "q": "Q17",
-  "author": "Charles Knight (for the Society for the Diffusion of Useful Knowledge)",
-  "title": "The Results of Machinery, Namely, Cheap Production and Increased Employment, Exhibited: Being an Address to the Working-Men of the United Kingdom",
+  "author": "Charles Knight",
+  "title": "The Results of Machinery",
   "original_title": "",
   "year": 1831,
   "language": "English",
@@ -1141,8 +1141,8 @@
  },
  {
   "q": "Q18",
-  "author": "P. Gaskell",
-  "title": "The Manufacturing Population of England: Its Moral, Social, and Physical Conditions, and the Changes Which Have Arisen from the Use of Steam Machinery",
+  "author": "Peter Gaskell",
+  "title": "The Manufacturing Population of England",
   "original_title": "",
   "year": 1833,
   "language": "English",
@@ -1262,7 +1262,7 @@
  {
   "q": "Q18",
   "author": "Arthur Pound",
-  "title": "The Iron Man in Industry: An Outline of the Social Significance of Automatic Machinery",
+  "title": "The Iron Man in Industry",
   "original_title": "",
   "year": 1922,
   "language": "English",
@@ -1741,8 +1741,8 @@
  },
  {
   "q": "Q27",
-  "author": "Joseph Foster (testimony), in [Charles Knight]",
-  "title": "The Results of Machinery (Working-Man's Companion)",
+  "author": "Charles Knight",
+  "title": "The Results of Machinery",
   "original_title": "",
   "year": 1831,
   "language": "English",
@@ -2041,8 +2041,8 @@
  },
  {
   "q": "Q32",
-  "author": "[Charles Knight]",
-  "title": "The Results of Machinery (Working-Man's Companion)",
+  "author": "Charles Knight",
+  "title": "The Results of Machinery",
   "original_title": "",
   "year": 1831,
   "language": "English",
@@ -2385,7 +2385,7 @@
   "title": "The Theory of the State",
   "original_title": "Allgemeine Staatslehre",
   "year": 1885,
-  "language": "English (trans. from German)",
+  "language": "German",
   "kind": "textbook",
   "side": "No: the state is an organism, not a dead machine",
   "argument": "The state is a living organized being, so the mechanical and atomistic view that treats it as a collection of external regulations misunderstands it.",
@@ -2397,7 +2397,8 @@
   "adds": "The standard German organicist textbook (in Oxford translation) that rejects the machine-state outright. He adds that the state is 'indirectly the work of man' and its organism 'a copy of a natural organism' (char ~67300).",
   "confidence": "high",
   "review": "accept: passes rules 1–8",
-  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026",
+  "translation": "Read in the authorized English translation of 1885."
  },
  {
   "q": "Q35",
@@ -2445,7 +2446,7 @@
   "title": "The Theory of the State",
   "original_title": "Allgemeine Staatslehre",
   "year": 1885,
-  "language": "English (trans. from German)",
+  "language": "German",
   "kind": "textbook",
   "side": "Mostly yes: obey after remonstrance, except where the order is a crime or against morality",
   "argument": "A subordinate official must obey an order he thinks unjust after making representations, because resistance would destroy the unity of the state; the exception is an order that would make him violate religion, morality or the criminal law.",
@@ -2457,7 +2458,8 @@
   "adds": "A textbook rule for officials with an explicit line between legal doubt (obey) and moral crime (refuse). Elsewhere (char ~70400) he writes that an office that 'becomes like a machine' ruins the state.",
   "confidence": "high",
   "review": "accept: passes rules 1–8",
-  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026",
+  "translation": "Read in the authorized English translation of 1885."
  },
  {
   "q": "Q36",
@@ -2485,7 +2487,7 @@
   "title": "Microcosmus: An Essay Concerning Man and his Relation to the World",
   "original_title": "Mikrokosmus",
   "year": 1856,
-  "language": "English (trans. 1885)",
+  "language": "German",
   "kind": "book",
   "side": "No, but felt as yes: sensation at the tool's tip is a useful illusion",
   "argument": "We seem to feel at the end of the stick, probe or needle just as we seem to feel in our fingertips, but in both cases the localization is a 'beneficent delusion' built from ideas, so the tool is experienced as part of us without being so.",
@@ -2497,7 +2499,8 @@
   "adds": "A different Lotze work from the canon's 'Leben. Lebenskraft'; an early phenomenology of the cane and probe that predates Head/Holmes and Merleau-Ponty, and treats bodily membership itself as constructed. Elsewhere (char ~1294000) he says a carried stick awakens 'a prolongation of our personality to its extremity'.",
   "confidence": "high",
   "review": "accept: passes rules 1–8",
-  "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
+  "review_by": "Claude, applying Ben's rules, 20 Nov 2026",
+  "translation": "Read in the English translation of 1885."
  },
  {
   "q": "Q37",

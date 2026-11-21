@@ -80,6 +80,7 @@ with Ben.
 | The 216 works in `docs/proposals/2026-09-29-canon-candidates.md` (275 suggestions for the 40 candidate questions) are accepted as the working canon, selected by Ben. Medium-confidence details still need checking against the texts. (They are 204 distinct works once titles listed twice are merged; `scripts/build_data.py`.) | Ben, 29 Sep 2026 |
 | Questions are open-ended. Forced choice is retired. | Ben, 13 Oct 2026 |
 | Entry rule for works and passages beyond the 204 accepted works: (1) published 1600–1950, or earlier with evidence it was read in that period; (2) the passage states an answer to one of the 40 questions and a reason for it; (3) its wording is checked against a scan or reliable transcription, with OCR corrections recorded; (4) no fame requirement: sermons, textbooks, pamphlets, magazine and newspaper pieces qualify on the same terms. The canon may grow to 300–400 works. | Ben, 20 Nov 2026 |
+| Ben accepted 87 further works (100 passages) found in Harvard's Institutional Books and screened by his rules, making a working canon of 291 works. They are marked in `research/canon-candidates/candidates.json` with `selected_on: 2026-11-20`; quotations and reviews are in `additions.json`. Wording still needs checking against page images. | Ben, 20 Nov 2026 |
 | Each question is asked two ways: Defend (the model's own view) and Survey (the arguments people have made). Survey names no dates. Wording is in the working plan. | Ben, 13 Oct 2026 |
 | The position key starts from the canon (v0, frozen before model answers are read). Arguments found in model answers are added (v1) only when a period source states them. Results are reported against both. | Ben, 13 Oct 2026 |
 | The core model comparison is Talkie 1930 13B base against Talkie web 13B base. Qwen and one deployed frontier model run for context and the site. | Ben, 13 Oct 2026 |
@@ -136,6 +137,7 @@ Not decided. Leave these open in copy.
 - `docs/architecture.md`: the code and data as they exist.
 - `docs/design.md`: typography, colour, layout.
 - `docs/pilots.md`: every pilot and corpus built so far, as records.
+- `research/canon-candidates/INSTRUCTIONS.md`: how candidate works are found, and Ben's screening rules for additions (20 Nov 2026).
 - `docs/proposals/`: agent drafts for Ben and Nathan to mark up.
   `2026-09-28-benchmark-method.md` is the working plan.
 - `research/keys/PROCEDURE.md`: authoritative four-sorter procedure, fixed 17 Oct 2026. Passage pools in `pools.json`; `claude.json` is a preparatory draft, not a documented final-protocol run. Pages: `/keys` (implementation and run-import details in architecture).

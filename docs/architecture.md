@@ -18,7 +18,7 @@ work → passage → claim → question → draw → coding
 
 | Record | What it is | File | Status |
 |---|---|---|---|
-| Work | A published text: author, title, year, language, form, text status, English translation status, Wikidata ID | `data/works.json` | 219 records, including later pilot and review sources; not 219 approved canon works |
+| Work | A published text: author, title, year, language, form, text status, English translation status, Wikidata ID | `data/works.json` | 305 records: the 291-work canon (204 accepted 29 Sep, 87 on 20 Nov 2026) plus earlier pilot and review sources |
 | Theme | A group of questions | `data/themes.json` | 16, draft 0.1 |
 | Question | A candidate question for the benchmark | `data/questions.json` | 40 candidates |
 | Stance | One work's answer to one question: side, argument, location, how it was checked | `data/stances.json` | 275, unverified |
@@ -33,7 +33,9 @@ work → passage → claim → question → draw → coding
 manifest (`trial/corpus/canon/manifest.json`) and `research/translations/`.
 The current files also contain later source checks and retained pilot passages;
 the original generator does not reproduce all of these additions. Do not use
-it as a lossless rebuild of the current catalogue. The
+it as a lossless rebuild of the current catalogue. To add works, run the
+generator, keep only the new works and stances it produces, and append them
+to the committed files (done for the 87 works accepted on 20 Nov 2026). The
 earlier 89-work seed list is kept at `data/archive/seed-works-v0.1.json` for
 the pilot results pages. The 100-question bank from the prototype survives on
 the `prototype` branch as a pilot record.

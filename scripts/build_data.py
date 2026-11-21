@@ -174,8 +174,8 @@ def main():
                        "status": m["status"], "file": m["file"]}
                       for m in mrecs + ex if m["status"] in ("ok", "partial") and m.get("file")],
             "selectedBy": "Ben Breen",
-            "selectedOn": "2026-09-29",
-            "suggestedBy": "Claude research agents, 29 Sep 2026",
+            "selectedOn": r0.get("selected_on") or "2026-09-29",
+            "suggestedBy": r0.get("suggested_by") or "Claude research agents, 29 Sep 2026",
         }
         works.append(w)
         for r in rows:
