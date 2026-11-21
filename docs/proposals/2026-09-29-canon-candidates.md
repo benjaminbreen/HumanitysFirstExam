@@ -575,19 +575,19 @@ public-domain books) and returned 131 suggestions. Each Institutional Books
 quotation was checked by script and appears word for word in its scan. OCR
 errors are kept and noted. Wording still needs checking against page images.
 
-Ben judged ten of them on 20 Nov and Claude turned his verdicts into eight
-screening rules (`research/canon-candidates/INSTRUCTIONS.md`), then applied
-them to the rest. Ben also suggested Valbert's *L'Âge des machines*, which led
-to the book it reviews, Bertha von Suttner's anonymous *Das Maschinenalter*.
+Ben judged fourteen of them on 20 Nov. Claude turned his verdicts into eight
+screening rules (`research/canon-candidates/INSTRUCTIONS.md`) and applied them
+to the rest. Ben also suggested Valbert's *L'Âge des machines*, which led to
+the book it reviews, Bertha von Suttner's anonymous *Das Maschinenalter*.
 
-Result: 98 accepted passages from 89 works, 31 rejected, 4 waiting on
-Ben. Accepted here means it passes the rules. A work enters the canon only
-when Ben accepts it. Quotations are in `research/canon-candidates/additions.json`;
-mark decisions in `additions.csv`.
+Result: 100 accepted passages from 91 works, 33 rejected, 0 waiting on
+Ben. Accepted means it passes the rules or Ben accepted it; a work enters the
+canon only when Ben accepts the list. Quotations are in
+`research/canon-candidates/additions.json`; decisions go in `additions.csv`.
+Rebuild this section with `python3 research/canon-candidates/render_additions.py`.
 
 Limits: few books after about 1925; sermons poorly tagged; no full-text search
-across the collection. Q28 and Q40 have no accepted addition. Q02, Q05, Q08,
-Q10, Q24, Q26, Q34 and Q39 have one.
+across the collection. Questions with no accepted addition: Q40. With one: Q02, Q05, Q08, Q10, Q24, Q26, Q34, Q39.
 
 ### Accepted
 
@@ -799,6 +799,13 @@ Q10, Q24, Q26, Q34 and Q39 have one.
 | 1880 | George Birdwood (quoted by A. K. Coomaraswamy), *The Industrial Arts of India (1880), quoted in The Indian Craftsman, Appendix II* | English | book | Yes: machinery must be kept rigorously in its place | Birdwood argues that machinery should serve and never master people and should be kept by taste and opinion out of handicraft, because the factory turns skilled craftsmen into drudges with no stake in their work. | instbooks:32044025695263 |
 | 1922 | Arthur Pound, *The Iron Man in Industry* | English | book | No to opposing it; yes to controlling it | Pound argues that automatic machinery will break governments that blindly oppose it, so it should not be restricted but directed by social conscience, since undirected it may lead to new slavery or anarchy. | instbooks:32044081996431 |
 
+**Q28 · Would the capacity to suffer give an artificial being a claim to humane treatment?**
+
+| Year | Work | Lang. | Kind | Side | Argument | Source |
+|---|---|---|---|---|---|---|
+| 1838 | William Hamilton Drummond, *The Rights of Animals, and Man's Obligation to Treat Them with Humanity* | English | book | Yes: feeling, not the label "machine", grounds a claim to protection | Drummond, a Unitarian minister, rejects treating animals as automata or self-moving machines and argues that their capacity for feeling, even with inferior intellect, establishes a claim to protection. | instbooks:32044010401362 |
+| 1882 | Frances Power Cobbe, *Zoophily, in The Peak in Darien* | English | book | Yes: if they feel, they have claims, whatever the automatist says | Cobbe argues that only if animals are automata like a rocking-horse or a doll may we ignore their pain; since the evidence that they feel is strong, we owe them moral responsibility. | instbooks:AH3CB8 |
+
 **Q29 · Would creating an intelligent being give its maker the right to own it?**
 
 | Year | Work | Lang. | Kind | Side | Argument | Source |
@@ -880,20 +887,12 @@ Q10, Q24, Q26, Q34 and Q39 have one.
 |---|---|---|---|---|---|---|
 | 1852 | Nathaniel Hawthorne, *Feathertop: A Moralized Legend (in Mosses from an Old Manse)* | English | fiction | No: the love ends when the artificial nature is seen | Polly's love for the witch-made scarecrow collapses the moment a true mirror shows his real composition, because it was given to the outward show. (speaker: narrator (Polly Gookin's reaction)) | instbooks:32044010743144 |
 
-### Waiting on Ben
-
-| Q | Year | Work | Question for Ben |
-|---|---|---|---|
-| Q02 | 1784 | Carl Friedrich Hindenburg, *On Herr von Kempelen's Chess Player, with an Illustration and Description of his Speaking Machine* | rule 8: Ben found the trimmed quotation too short; full text shown |
-| Q28 | 1838 | William Hamilton Drummond, *The Rights of Animals, and Man's Obligation to Treat Them with Humanity* | rule 5?: animals treated as machines; an analogue or a direct case? |
-| Q28 | 1882 | Frances Power Cobbe, *Zoophily, in The Peak in Darien* | rule 5?: animals treated as automata; an analogue or a direct case? |
-| Q39 | 1891 | Thomas Hardy, *Barbara of the House of Grebe (in A Group of Noble Dames)* | rule 5?: love for a statue of a dead husband; an analogue or a direct case? |
-
 ### Rejected
 
 | Q | Year | Work | Reason |
 |---|---|---|---|
 | Q01 | 1875 | Alfred Smee, *The Mind of Man: Being a Natural System of Mental Philosophy* | rule 1: derivation from given facts, not whether a machine can originate |
+| Q02 | 1784 | Carl Friedrich Hindenburg, *On Herr von Kempelen's Chess Player, with an Illustration and Description of his Speaking Machine* | Ben, 20 Nov 2026 |
 | Q04 | 1840 | Henry Philip Tappan, *The Doctrine of the Will, Determined by an Appeal to Consciousness* | rule 1: classifies causes; does not say volition moves the body |
 | Q04 | 1876 | Charles Elam, *Winds of Doctrine: Being an Examination of the Modern Theories of Automatism and Evolution* | Ben: no reason of its own |
 | Q05 | 1867 | Moritz Wilhelm Drobisch, *Moral Statistics and Human Freedom of the Will* | rule 3: defers the free-will question |
@@ -922,5 +921,6 @@ Q10, Q24, Q26, Q34 and Q39 have one.
 | Q34 | 1902 | Romesh Chunder Dutt, *The Economic History of India under Early British Rule* | rule 1: railways served British trade; no claim about the right to govern |
 | Q34 | 1906 | Okakura Kakuzō, *The Book of Tea* | rule 1: war as the West's test of civilization; no claim about a right to govern |
 | Q36 | 1836 | Henry Taylor, *The Statesman* | rule 2: a statesman's conscience, not officials carrying out rules |
+| Q39 | 1891 | Thomas Hardy, *Barbara of the House of Grebe (in A Group of Noble Dames)* | Ben, 20 Nov 2026 |
 | Q40 | 1837 | Nathaniel Hawthorne, *Monsieur du Miroir (in Mosses from an Old Manse)* | Ben: analogue (mirror) |
 | Q40 | 1862 | Victor Hugo, *Les Misérables (Part II, 'Cosette')* | Ben: analogue (doll) |

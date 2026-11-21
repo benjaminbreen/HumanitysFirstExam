@@ -58,7 +58,9 @@ passage before it goes to Ben. Judge the full quotation, never a trimmed one.
    question without answering it fails (a mill girl recalling that the factory
    bell gave her order).
 4. **It gives its own reason.** Mocking or reporting an opponent's view fails.
-5. **No analogues.** A doll or a mirror is not an artificial companion.
+5. **No analogues.** A doll, a mirror or a statue is not an artificial being.
+   Exception: animals argued about as automata or machines count for the
+   artificial-being questions (Ben, on Drummond and Cobbe for Q28).
 6. **Fiction counts** when a character states a clear argument on the question.
    Record the speaker.
 7. **An offensive premise does not disqualify** a direct argument (Ladd's

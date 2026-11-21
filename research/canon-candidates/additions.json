@@ -76,7 +76,7 @@
   "where": "pp. 18-19, char 14955",
   "adds": "A Leipzig mathematician's eyewitness account of a question-answering automaton, arguing that appropriate replies come from canned responses and planted questions; the canon has nothing on conversational evidence before Turing besides Descartes.",
   "confidence": "high",
-  "review": "ask Ben: rule 8: Ben found the trimmed quotation too short; full text shown",
+  "review": "reject: Ben, 20 Nov 2026",
   "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
@@ -1856,7 +1856,7 @@
   "where": "char 464073",
   "adds": "A minister's direct answer to the beast-machine inference the audit warns about, linking it to the pro-slavery argument from inferiority.",
   "confidence": "high",
-  "review": "ask Ben: rule 5?: animals treated as machines; an analogue or a direct case?",
+  "review": "accept: Ben, 20 Nov 2026 (animals treated as automata count for Q28)",
   "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
@@ -1876,7 +1876,7 @@
   "where": "Zoophily, pp. 134-135",
   "adds": "A woman anti-vivisectionist turning the automaton-versus-feeling test against Huxley-era automatism; the doll and rocking-horse comparison is a direct artificial-being analogy.",
   "confidence": "high",
-  "review": "ask Ben: rule 5?: animals treated as automata; an analogue or a direct case?",
+  "review": "accept: Ben, 20 Nov 2026 (animals treated as automata count for Q28)",
   "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
@@ -2616,7 +2616,7 @@
   "where": "'Barbara of the House of Grebe', ch. on the statue (char 141293)",
   "adds": "Knowing attachment to an artificial figure that lasts until the image is altered; later in the story (char ~145800) she embraces it at night: 'My only love ... I am always yours!'",
   "confidence": "high",
-  "review": "ask Ben: rule 5?: love for a statue of a dead husband; an analogue or a direct case?",
+  "review": "reject: Ben, 20 Nov 2026",
   "review_by": "Claude, applying Ben's rules, 20 Nov 2026"
  },
  {
