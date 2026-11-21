@@ -363,3 +363,16 @@ The display review corrected three problems: question status text no longer attr
 The catalogue now holds **258 records: 247 active selections and 11 reserves**. Together with the unchanged **117 pilot placements**, the register contains **361 excerpt forms**. Q31 has six active records, Q32 five and Q33 five. Original reserve texts and question links remain in the catalogue and register. Public question/source pages omit reserves; this is a selection change, not deletion. The two brief Turing/Wiener quotations are intentionally bounded and marked as not sorting-ready; full source locations and contextual summaries accompany them. Full copyrighted passage windows have not been silently substituted with agent paraphrases.
 
 The bounded local search also found misdated records (for example a later scientific directory filed as 1906); those results were excluded by inspecting their contents. Newspaper matches and generic machine metaphors were not admitted. No sorting or model coding was run. The next substantive review is of the actual passage wording, context and translation, not another broad search for more rows.
+
+## Institutional Books catalogue and canon additions, 20 November 2026
+
+The archive-harness (`~/Code/archive-harness`) now reads Harvard's
+Institutional Books on Hugging Face (`institutional/institutional-books-hl`,
+983,004 public-domain books, 958,458 dated 1600–1950). Its local catalogue
+(`data/catalogs/instbooks.parquet`, 31 MB) holds title, author, date,
+language, subject headings, genre, OCR score and page count. Full text is
+fetched one book at a time, about 40 seconds each. Five Claude agents used it
+to search for works under Ben's 20 Nov entry rule: 131 suggestions, 119 works.
+They are listed as proposals in the canon candidates file, with quotations in
+`research/canon-candidates/additions.json`. Searches are logged in the
+harness's search log under this project.
